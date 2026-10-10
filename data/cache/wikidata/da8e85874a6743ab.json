@@ -1,0 +1,258 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q19510 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-10T09:55:22.963Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q2714",
+      "stadium": "http://www.wikidata.org/entity/Q10626",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.401606 51.649928)",
+      "capacity": "22000",
+      "website": "https://www.watfordfc.com/",
+      "clubLabel": "Watford F.C.",
+      "stadiumLabel": "Vicarage Road"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18519",
+      "stadium": "http://www.wikidata.org/entity/Q619105",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.540811 53.218289)",
+      "capacity": "10120",
+      "website": "https://www.weareimps.com/",
+      "clubLabel": "Lincoln City F.C.",
+      "stadiumLabel": "Sincil Bank"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18529",
+      "stadium": "http://www.wikidata.org/entity/Q1202579",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.003611 53.051944)",
+      "capacity": "13341",
+      "website": "https://www.wrexhamafc.co.uk/",
+      "clubLabel": "Wrexham A.F.C.",
+      "stadiumLabel": "Racecourse Ground"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18659",
+      "stadium": "http://www.wikidata.org/entity/Q580480",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.9351 51.6422)",
+      "capacity": "20750",
+      "website": "https://www.swanseacity.com/",
+      "clubLabel": "Swansea City A.F.C.",
+      "stadiumLabel": "Liberty Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18662",
+      "stadium": "http://www.wikidata.org/entity/Q867902",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.203056 51.472778)",
+      "capacity": "33260",
+      "website": "https://www.cardiffcityfc.co.uk/",
+      "clubLabel": "Cardiff City F.C.",
+      "stadiumLabel": "Cardiff City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18661",
+      "stadium": "http://www.wikidata.org/entity/Q822886",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.216944444 54.578333333)",
+      "capacity": "34742",
+      "website": "https://www.mfc.co.uk/",
+      "clubLabel": "Middlesbrough F.C.",
+      "stadiumLabel": "Riverside Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Middlesbrough%20Walk%20%2827470064759%29.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18723",
+      "stadium": "http://www.wikidata.org/entity/Q31670",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.232222222 51.509166666)",
+      "capacity": "18439",
+      "website": "https://www.qpr.co.uk/",
+      "clubLabel": "Queens Park Rangers F.C.",
+      "stadiumLabel": "Kiyan Prince Foundation Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/QPr.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18721",
+      "stadium": "http://www.wikidata.org/entity/Q123017",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.309166666 52.622222222)",
+      "capacity": "27244",
+      "website": "https://www.canaries.co.uk/",
+      "clubLabel": "Norwich City F.C.",
+      "stadiumLabel": "Carrow Road"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18732",
+      "stadium": "http://www.wikidata.org/entity/Q567339",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.39111111 50.90583333)",
+      "capacity": "32589",
+      "website": "https://www.southamptonfc.com",
+      "clubLabel": "Southampton F.C.",
+      "stadiumLabel": "St Mary's Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18736",
+      "stadium": "http://www.wikidata.org/entity/Q500922",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.175555555 52.988333333)",
+      "capacity": "27740",
+      "website": "https://www.stokecityfc.com/",
+      "clubLabel": "Stoke City F.C.",
+      "stadiumLabel": "Britannia Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18747",
+      "stadium": "http://www.wikidata.org/entity/Q172190",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.016388888 51.538611111)",
+      "capacity": "62500",
+      "website": "http://www.whufc.com/",
+      "clubLabel": "West Ham United F.C.",
+      "stadiumLabel": "London Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18744",
+      "stadium": "http://www.wikidata.org/entity/Q31678",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.963888888 52.509166666)",
+      "capacity": "26445",
+      "website": "https://www.wba.co.uk/",
+      "clubLabel": "West Bromwich Albion F.C.",
+      "stadiumLabel": "The Hawthorns"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19446",
+      "stadium": "http://www.wikidata.org/entity/Q245085",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.489166666 53.728611111)",
+      "capacity": "31367",
+      "website": "https://www.rovers.co.uk/",
+      "clubLabel": "Blackburn Rovers F.C.",
+      "stadiumLabel": "Ewood Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19444",
+      "stadium": "http://www.wikidata.org/entity/Q819179",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.868188888 52.475702777)",
+      "capacity": "30016",
+      "website": "https://bcfc.com",
+      "clubLabel": "Birmingham City F.C.",
+      "stadiumLabel": "St Andrew's"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19451",
+      "stadium": "http://www.wikidata.org/entity/Q242772",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.535555555 53.580555555)",
+      "capacity": "28723",
+      "website": "https://www.bwfc.co.uk/",
+      "clubLabel": "Bolton Wanderers F.C.",
+      "stadiumLabel": "Toughsheet Community Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19458",
+      "stadium": "http://www.wikidata.org/entity/Q683112",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.230225 53.789064)",
+      "capacity": "22546",
+      "website": "http://www.burnleyfootballclub.com/",
+      "clubLabel": "Burnley F.C.",
+      "stadiumLabel": "Turf Moor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19456",
+      "stadium": "http://www.wikidata.org/entity/Q726370",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.620278 51.44)",
+      "capacity": "27000",
+      "website": "https://www.bcfc.co.uk/",
+      "clubLabel": "Bristol City F.C.",
+      "stadiumLabel": "Ashton Gate Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19462",
+      "stadium": "http://www.wikidata.org/entity/Q958319",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(0.035632 51.487489)",
+      "capacity": "27111",
+      "website": "https://www.cafc.co.uk/",
+      "clubLabel": "Charlton Athletic F.C.",
+      "stadiumLabel": "The Valley"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19470",
+      "stadium": "http://www.wikidata.org/entity/Q201612",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.447222222 52.915)",
+      "capacity": "33597",
+      "website": "https://www.dcfc.co.uk/",
+      "clubLabel": "Derby County F.C.",
+      "stadiumLabel": "Pride Park Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19487",
+      "stadium": "http://www.wikidata.org/entity/Q908481",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.050833 51.485833)",
+      "capacity": "20146",
+      "website": "https://www.millwallfc.co.uk/",
+      "clubLabel": "Millwall F.C.",
+      "stadiumLabel": "The Den"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19500",
+      "stadium": "http://www.wikidata.org/entity/Q380823",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.130277777 52.590277777)",
+      "capacity": "30852",
+      "website": "https://www.wolves.co.uk/",
+      "clubLabel": "Wolverhampton Wanderers F.C.",
+      "stadiumLabel": "Molineux Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19500",
+      "stadium": "http://www.wikidata.org/entity/Q380823",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.130277777 52.590277777)",
+      "capacity": "30852",
+      "website": "https://www.wolves.co.uk/",
+      "clubLabel": "Wolverhampton Wanderers F.C.",
+      "stadiumLabel": "Molineux Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19607",
+      "stadium": "http://www.wikidata.org/entity/Q897533",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.470833333 53.370277777)",
+      "capacity": "32702",
+      "website": "https://www.sufc.co.uk/",
+      "clubLabel": "Sheffield United F.C.",
+      "stadiumLabel": "Bramall Lane"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19604",
+      "stadium": "http://www.wikidata.org/entity/Q619531",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.063888888 50.796388888)",
+      "capacity": "21100",
+      "website": "https://www.portsmouthfc.co.uk/",
+      "clubLabel": "Portsmouth F.C.",
+      "stadiumLabel": "Fratton Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19612",
+      "stadium": "http://www.wikidata.org/entity/Q1141958",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.688055555 53.772222222)",
+      "capacity": "24500",
+      "website": "https://www.pnefc.net/",
+      "clubLabel": "Preston North End F.C.",
+      "stadiumLabel": "Deepdale"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "ENG": [
+    {
+      "league": "Q9448",
+      "name": "Premier League",
+      "status": "ok",
+      "clubs": 20,
+      "stadiums": 20,
+      "excluded": []
+    },
+    {
+      "league": "Q19510",
+      "name": "EFL Championship",
+      "status": "ok",
+      "clubs": 24,
+      "stadiums": 24,
+      "excluded": []
+    }
+  ],
+  "ESP": [
+    {
+      "league": "Q324867",
+      "name": "La Liga",
+      "status": "ok",
+      "clubs": 20,
+      "stadiums": 21,
+      "excluded": []
+    },
+    {
+      "league": "Q35615",
+      "name": "LaLiga 2",
+      "status": "ok",
+      "clubs": 26,
+      "stadiums": 27,
+      "excluded": [
+        "FC Barcelona Atlètic (Q10467)",
+        "Real Sociedad B (Q1067750)"
+      ]
+    }
+  ],
+  "ROU": [
+    {
+      "league": "Q237753",
+      "name": "Liga I",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 16,
+      "excluded": []
+    },
+    {
+      "league": "Q386384",
+      "name": "Liga II",
+      "status": "ok",
+      "clubs": 17,
+      "stadiums": 13,
+      "excluded": []
+    }
+  ]
+}

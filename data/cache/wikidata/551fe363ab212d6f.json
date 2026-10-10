@@ -1,0 +1,305 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q35615 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-10T09:56:34.201Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q216661",
+      "stadium": "http://www.wikidata.org/entity/Q255447",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-16.260555555 28.463055555)",
+      "capacity": "21732",
+      "website": "https://www.clubdeportivotenerife.es/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Escucdt.png",
+      "clubLabel": "C.D. Tenerife",
+      "stadiumLabel": "Estadio Heliodoro Rodríguez López"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q271574",
+      "stadium": "http://www.wikidata.org/entity/Q1369536",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.870222 43.360783)",
+      "capacity": "30500",
+      "website": "https://www.realoviedo.es/",
+      "clubLabel": "Real Oviedo",
+      "stadiumLabel": "Carlos Tartiere Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q460448",
+      "stadium": "http://www.wikidata.org/entity/Q2301915",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.273056 36.502778)",
+      "capacity": "26000",
+      "website": "https://www.cadizcf.com/",
+      "clubLabel": "Cádiz Club de Fútbol",
+      "stadiumLabel": "Estadio Nuevo Mirandilla"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q576285",
+      "stadium": "http://www.wikidata.org/entity/Q1369118",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.852142 38.981117)",
+      "capacity": "17524",
+      "website": "https://www.albacetebalompie.es/",
+      "clubLabel": "Albacete Balompié",
+      "stadiumLabel": "Estadio Carlos Belmonte"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q582342",
+      "stadium": "http://www.wikidata.org/entity/Q16822",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.576699 42.587482)",
+      "capacity": "13451",
+      "website": "https://www.cydleonesa.com/",
+      "clubLabel": "Cultural y Deportiva Leonesa",
+      "stadiumLabel": "Estadio Reino de León"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q600232",
+      "stadium": "http://www.wikidata.org/entity/Q26709118",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.796031 38.467356)",
+      "website": "https://cdeldense.es/",
+      "clubLabel": "CD Eldense",
+      "stadiumLabel": "Estadio Municipal Nuevo Pepico Amat"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q611653",
+      "stadium": "http://www.wikidata.org/entity/Q1369124",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.995977 37.609746)",
+      "capacity": "15105",
+      "website": "http://www.cartagenaefese.es/",
+      "clubLabel": "FC Cartagena",
+      "stadiumLabel": "Estadio Cartagonova"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q743557",
+      "stadium": "http://www.wikidata.org/entity/Q264581",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.038792 39.996053)",
+      "capacity": "16000",
+      "website": "https://www.cdcastellon.com/",
+      "clubLabel": "CD Castellón",
+      "stadiumLabel": "Nou Estadi Castalia"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q770740",
+      "stadium": "http://www.wikidata.org/entity/Q3320428",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.475803 43.181706)",
+      "capacity": "8164",
+      "website": "https://www.sdeibar.com/",
+      "clubLabel": "SD Eibar",
+      "stadiumLabel": "Ipurúa Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q843396",
+      "stadium": "http://www.wikidata.org/entity/Q3327491",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.239274 43.491358)",
+      "capacity": "11669",
+      "website": "https://racingclubferrol.net/",
+      "clubLabel": "Racing Club de Ferrol",
+      "stadiumLabel": "Municipal Stadium of A Malata"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q852079",
+      "stadium": "http://www.wikidata.org/entity/Q3321211",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.680556 42.344167)",
+      "capacity": "16000",
+      "website": "https://www.burgoscf.es/",
+      "clubLabel": "Burgos CF",
+      "stadiumLabel": "Estadio El Plantío"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q856119",
+      "stadium": "http://www.wikidata.org/entity/Q1369462",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.7607 40.3404)",
+      "capacity": "11454",
+      "website": "https://www.cdleganes.com/",
+      "clubLabel": "CD Leganés",
+      "stadiumLabel": "Estadio Municipal de Butarque"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1067737",
+      "stadium": "http://www.wikidata.org/entity/Q1369314",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.453333 42.453333)",
+      "capacity": "16000",
+      "website": "http://udlogrones.com/",
+      "clubLabel": "UD Logroñés",
+      "stadiumLabel": "Estadio Las Gaunas"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1067750",
+      "stadium": "http://www.wikidata.org/entity/Q9008642",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.02382 43.2589)",
+      "website": "https://www.realsociedad.eus/es/equipo/sanse",
+      "clubLabel": "Real Sociedad B",
+      "stadiumLabel": "Zubieta Facilities"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1386854",
+      "stadium": "http://www.wikidata.org/entity/Q18125598",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.51746 42.5046)",
+      "capacity": "3306",
+      "website": "https://www.fcandorra.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20FC%20Andorra%20-%202021.svg",
+      "clubLabel": "FC Andorra",
+      "stadiumLabel": "Estadi Nacional"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5773365",
+      "stadium": "http://www.wikidata.org/entity/Q1369445",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.3279 35.8854)",
+      "capacity": "6500",
+      "website": "https://adceutafc.com/",
+      "clubLabel": "AD Ceuta FC",
+      "stadiumLabel": "Estadio Alfonso Murube"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15966154",
+      "stadium": "http://www.wikidata.org/entity/Q6083752",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.853777777 38.967597222)",
+      "website": "http://www.albafemnexus.com",
+      "clubLabel": "Fundación Albacete",
+      "stadiumLabel": "Ciudad Deportiva Andrés Iniesta"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q8812",
+      "stadium": "http://www.wikidata.org/entity/Q574565",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.595736 37.152967)",
+      "capacity": "19436",
+      "website": "https://www.granadacf.es/",
+      "clubLabel": "Granada CF",
+      "stadiumLabel": "Estadio Nuevo Los Cármeness"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q8835",
+      "stadium": "http://www.wikidata.org/entity/Q276163",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(2.63 39.59)",
+      "capacity": "25736",
+      "website": "https://www.rcdmallorca.es/",
+      "clubLabel": "RCD Mallorca",
+      "stadiumLabel": "Estadi Mallorca Son Moix"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10308",
+      "stadium": "http://www.wikidata.org/entity/Q135682568",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.89544683 41.683664995)",
+      "capacity": "20000",
+      "website": "https://www.realzaragoza.com/",
+      "clubLabel": "Real Zaragoza",
+      "stadiumLabel": "Ibercaja Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10308",
+      "stadium": "http://www.wikidata.org/entity/Q137918892",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.901805555 41.636611111)",
+      "capacity": "42500",
+      "website": "https://www.realzaragoza.com/",
+      "clubLabel": "Real Zaragoza",
+      "stadiumLabel": "New Stadium La Romareda"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10308",
+      "stadium": "http://www.wikidata.org/entity/Q137918892",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.901805555 41.636611111)",
+      "capacity": "43110",
+      "website": "https://www.realzaragoza.com/",
+      "clubLabel": "Real Zaragoza",
+      "stadiumLabel": "New Stadium La Romareda"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10319",
+      "stadium": "http://www.wikidata.org/entity/Q151816",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.761111 41.644444)",
+      "capacity": "27618",
+      "website": "http://www.realvalladolid.es/",
+      "clubLabel": "Real Valladolid",
+      "stadiumLabel": "Estadio Nuevo José Zorrilla"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10407",
+      "stadium": "http://www.wikidata.org/entity/Q1130617",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.435278 36.84)",
+      "capacity": "22000",
+      "website": "http://www.udalmeriasad.com",
+      "clubLabel": "Unión Deportiva Almería",
+      "stadiumLabel": "Estadio de los Juegos Mediterraneos"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10467",
+      "stadium": "http://www.wikidata.org/entity/Q29043488",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(2.050506 41.374224)",
+      "capacity": "6000",
+      "website": "https://www.fcbarcelona.com/football/barca-b",
+      "clubLabel": "FC Barcelona Atlètic",
+      "stadiumLabel": "Johan Cruijff Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q10499",
+      "stadium": "http://www.wikidata.org/entity/Q121879",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.764642 37.872294)",
+      "capacity": "21822",
+      "website": "http://www.cordobacf.com/",
+      "clubLabel": "Córdoba CF",
+      "stadiumLabel": "Estadio Nuevo Arcángel"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11945",
+      "stadium": "http://www.wikidata.org/entity/Q2097709",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.828611 41.961389)",
+      "capacity": "14624",
+      "website": "https://www.gironafc.cat/",
+      "clubLabel": "Girona FC",
+      "stadiumLabel": "Montilivi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11979",
+      "stadium": "http://www.wikidata.org/entity/Q991419",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-15.456667 28.1)",
+      "capacity": "32392",
+      "website": "https://www.udlaspalmas.es/",
+      "clubLabel": "UD Las Palmas",
+      "stadiumLabel": "Gran Canaria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12168",
+      "stadium": "http://www.wikidata.org/entity/Q979112",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.599972 42.5574)",
+      "capacity": "8400",
+      "website": "https://www.sdponferradina.com/",
+      "clubLabel": "Sociedad Deportiva Ponferradina",
+      "stadiumLabel": "Estadio El Toralín"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12278",
+      "stadium": "http://www.wikidata.org/entity/Q929315",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.637222 43.536111)",
+      "capacity": "29371",
+      "website": "https://www.realsporting.com/",
+      "clubLabel": "Sporting de Gijón",
+      "stadiumLabel": "El Molinón-Enrique Castro Quini"
+    }
+  ]
+}

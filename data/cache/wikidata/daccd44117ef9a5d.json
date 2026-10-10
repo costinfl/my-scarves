@@ -1,0 +1,158 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q386384 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-10T09:55:01.463Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q18539440",
+      "website": "https://clubstefanesti.ro",
+      "clubLabel": "CSL Ștefăneștii de Jos"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q55593565",
+      "website": "https://scpopestileordeni.com/",
+      "clubLabel": "SC Popești-Leordeni"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q55618976",
+      "website": "https://cscdumbravita.ro/sectia-fotbal/",
+      "clubLabel": "CSC Dumbrăvița"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56677281",
+      "website": "https://gloria2018.ro/",
+      "clubLabel": "Gloria Bistrița"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q66424141",
+      "website": "https://www.csc1599selimbar.ro/",
+      "clubLabel": "CSC 1599 Șelimbăr"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q298201",
+      "website": "https://asatargumures.com/",
+      "clubLabel": "ASA Târgu Mureș",
+      "stadium": "http://www.wikidata.org/entity/Q6271952",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(24.545833 46.549722)",
+      "capacity": "8200",
+      "stadiumLabel": "Stadionul Trans-Sil"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1024390",
+      "website": "https://www.politehnicaiasi.ro/",
+      "clubLabel": "CSM Politehnica Iași",
+      "stadium": "http://www.wikidata.org/entity/Q2262973",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.561389 47.184583)",
+      "capacity": "11390",
+      "stadiumLabel": "Stadionul Emil Alexandrescu"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1024395",
+      "website": "http://www.csmrmvl.ro/",
+      "clubLabel": "SCM Râmnicu Vâlcea",
+      "stadium": "http://www.wikidata.org/entity/Q7596430",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.352222 45.103056)",
+      "capacity": "12000",
+      "stadiumLabel": "Stadionul Municipal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1024397",
+      "website": "https://csm-resita.com/",
+      "clubLabel": "CSM Reșița",
+      "stadium": "http://www.wikidata.org/entity/Q7596415",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.8897 45.2817)",
+      "stadiumLabel": "Stadionul Mircea Chivu"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1024463",
+      "website": "http://www.csconcordia.ro/",
+      "clubLabel": "CS Concordia Chiajna",
+      "stadium": "http://www.wikidata.org/entity/Q2607402",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.975278 44.462778)",
+      "capacity": "5123",
+      "stadiumLabel": "Stadionul Concordia"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1057672",
+      "website": "https://cetateasuceava.com/",
+      "clubLabel": "CSM Cetatea Suceava",
+      "stadium": "http://www.wikidata.org/entity/Q7596363",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.24626 47.639274)",
+      "capacity": "7000",
+      "stadiumLabel": "Stadionul Areni"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1386940",
+      "website": "http://www.fcbihor.ro/",
+      "clubLabel": "FC Bihor Oradea",
+      "stadium": "http://www.wikidata.org/entity/Q7596404",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.93 47.071944)",
+      "capacity": "11067",
+      "stadiumLabel": "Stadionul Iuliu Bodola"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4654417",
+      "website": "https://www.politehnicatimisoara.com",
+      "clubLabel": "Știința Poli Timișoara",
+      "stadium": "http://www.wikidata.org/entity/Q1158963",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.244167 45.740556)",
+      "capacity": "32972",
+      "stadiumLabel": "Stadionul Dan Păltinișanu"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4654417",
+      "website": "https://www.politehnicatimisoara.com",
+      "clubLabel": "Știința Poli Timișoara",
+      "stadium": "http://www.wikidata.org/entity/Q14322671",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.228333333 45.746111111)",
+      "capacity": "1000",
+      "stadiumLabel": "Stadionul Știința"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5424871",
+      "website": "https://www.afcchindiatargoviste.ro/",
+      "clubLabel": "AFC Chindia Târgoviște",
+      "stadium": "http://www.wikidata.org/entity/Q13580789",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.462294 44.931558)",
+      "stadiumLabel": "Eugen Popescu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5425216",
+      "website": "https://afcunireaslobozia.com/",
+      "clubLabel": "FC Unirea Slobozia",
+      "stadium": "http://www.wikidata.org/entity/Q7596362",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.3727 44.5606)",
+      "capacity": "6000",
+      "stadiumLabel": "Stadionul 1 Mai"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12723169",
+      "website": "http://www.fcafumati.ro/",
+      "clubLabel": "CS Afumați",
+      "stadium": "http://www.wikidata.org/entity/Q25208720",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.25986111 44.53305556)",
+      "stadiumLabel": "Stadionul Comunal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q37855796",
+      "website": "http://metalulbuzau.ro/",
+      "clubLabel": "AFC Metalul Buzău",
+      "stadium": "http://www.wikidata.org/entity/Q39047118",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.80277778 45.14472222)",
+      "capacity": "3000",
+      "stadiumLabel": "Stadionul Cornel Negoescu"
+    }
+  ]
+}

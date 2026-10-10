@@ -1,0 +1,67 @@
+name: Import clubs
+
+on:
+  workflow_dispatch:
+    inputs:
+      associations:
+        description: 'UEFA association codes, space-separated (e.g. ROU ENG ESP)'
+        required: true
+      refresh:
+        description: 'Ignore the Wikidata cache'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CODES: ${{ inputs.associations }}
+      REFRESH: ${{ inputs.refresh && '--refresh' || '' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      - name: Validate input
+        run: |
+          if ! [[ "$CODES" =~ ^[A-Za-z]{3}( +[A-Za-z]{3})*$ ]]; then
+            echo "::error::associations must be 3-letter codes separated by spaces"; exit 1
+          fi
+
+      - run: npm run import -- $CODES $REFRESH
+      - run: npm run coverage
+
+      - name: Open a pull request with the data diff
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No data changes."; exit 0
+          fi
+          branch="import/$(echo "$CODES" | tr ' ' '-' | tr '[:lower:]' '[:upper:]')-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data/generated data/cache
+          git commit -m "Import $CODES from Wikidata"
+          git push -u origin "$branch"
+          {
+            echo "Automated import for: $CODES"
+            echo
+            echo "Review the data diff before merging."
+            echo
+            cat data/generated/coverage.md
+          } > "$RUNNER_TEMP/body.md"
+          gh pr create --title "Import $CODES" --body-file "$RUNNER_TEMP/body.md" --base main --head "$branch"

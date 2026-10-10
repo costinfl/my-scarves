@@ -1,0 +1,42 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q237753 wd:Q386384 wd:Q9448 wd:Q19510 wd:Q324867 wd:Q35615 }\n  OPTIONAL { ?league rdfs:label ?label . FILTER(LANG(?label) = \"en\") }\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-10T09:54:28.337Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q9448",
+      "label": "Premier League",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q386384",
+      "label": "Liga II",
+      "isFootballLeague": "true",
+      "participants": "21"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q237753",
+      "label": "Liga I",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q324867",
+      "label": "La Liga",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q19510",
+      "label": "EFL Championship",
+      "isFootballLeague": "true",
+      "participants": "24"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q35615",
+      "label": "LaLiga 2",
+      "isFootballLeague": "true",
+      "participants": "22"
+    }
+  ]
+}

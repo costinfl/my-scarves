@@ -1,0 +1,841 @@
+[
+  {
+    "qid": "Q10626",
+    "name": "Vicarage Road",
+    "lat": 51.649928,
+    "lon": -0.401606,
+    "capacity": 22000
+  },
+  {
+    "qid": "Q16822",
+    "name": "Estadio Reino de León",
+    "lat": 42.587482,
+    "lon": -5.576699,
+    "capacity": 13451
+  },
+  {
+    "qid": "Q22130",
+    "name": "Estadio Municipal de Abanca Riazor",
+    "lat": 43.368667,
+    "lon": -8.417372,
+    "capacity": 32490
+  },
+  {
+    "qid": "Q31670",
+    "name": "Kiyan Prince Foundation Stadium",
+    "lat": 51.509166666,
+    "lon": -0.232222222,
+    "capacity": 18439
+  },
+  {
+    "qid": "Q31678",
+    "name": "The Hawthorns",
+    "lat": 52.509166666,
+    "lon": -1.963888888,
+    "capacity": 26445
+  },
+  {
+    "qid": "Q31969",
+    "name": "Stadium of Light",
+    "lat": 54.914429068,
+    "lon": -1.388172971,
+    "capacity": 48339
+  },
+  {
+    "qid": "Q45671",
+    "name": "Anfield",
+    "lat": 53.430833333,
+    "lon": -2.960833333,
+    "capacity": 61276
+  },
+  {
+    "qid": "Q48159",
+    "name": "Etihad Stadium",
+    "lat": 53.483055555,
+    "lon": -2.200277777,
+    "capacity": 52900
+  },
+  {
+    "qid": "Q74413",
+    "name": "Cluj Arena",
+    "lat": 46.768333,
+    "lon": 23.572222,
+    "capacity": 30335
+  },
+  {
+    "qid": "Q83457",
+    "name": "Old Trafford",
+    "lat": 53.463055555,
+    "lon": -2.291388888,
+    "capacity": 75731
+  },
+  {
+    "qid": "Q121879",
+    "name": "Estadio Nuevo Arcángel",
+    "lat": 37.872294,
+    "lon": -4.764642,
+    "capacity": 21822
+  },
+  {
+    "qid": "Q123017",
+    "name": "Carrow Road",
+    "lat": 52.622222222,
+    "lon": 1.309166666,
+    "capacity": 27244
+  },
+  {
+    "qid": "Q126844",
+    "name": "Estadio Benito Villamarín",
+    "lat": 37.356403,
+    "lon": -5.981611,
+    "capacity": 60721
+  },
+  {
+    "qid": "Q151816",
+    "name": "Estadio Nuevo José Zorrilla",
+    "lat": 41.644444,
+    "lon": -4.761111,
+    "capacity": 27618
+  },
+  {
+    "qid": "Q159848",
+    "name": "Camp Nou",
+    "lat": 41.380833333,
+    "lon": 2.122777777,
+    "capacity": 105000
+  },
+  {
+    "qid": "Q163995",
+    "name": "Emirates Stadium",
+    "lat": 51.555,
+    "lon": -0.108333333,
+    "capacity": 60338
+  },
+  {
+    "qid": "Q164027",
+    "name": "Bernabéu",
+    "lat": 40.45306,
+    "lon": -3.68835,
+    "capacity": 83186
+  },
+  {
+    "qid": "Q171458",
+    "name": "Stamford Bridge",
+    "lat": 51.481666666,
+    "lon": -0.191111111,
+    "capacity": 41875
+  },
+  {
+    "qid": "Q172190",
+    "name": "London Stadium",
+    "lat": 51.538611111,
+    "lon": -0.016388888,
+    "capacity": 62500
+  },
+  {
+    "qid": "Q175339",
+    "name": "Villa Park",
+    "lat": 52.509166666,
+    "lon": -1.884722222,
+    "capacity": 42640
+  },
+  {
+    "qid": "Q182864",
+    "name": "San Mamés Stadium",
+    "lat": 43.264205,
+    "lon": -2.949369,
+    "capacity": 53289
+  },
+  {
+    "qid": "Q191774",
+    "name": "St James’ Park",
+    "lat": 54.975555555,
+    "lon": -1.621666666,
+    "capacity": 52305
+  },
+  {
+    "qid": "Q195391",
+    "name": "Campos de Sport de El Sardinero",
+    "lat": 43.476389,
+    "lon": -3.793333,
+    "capacity": 21700
+  },
+  {
+    "qid": "Q201612",
+    "name": "Pride Park Stadium",
+    "lat": 52.915,
+    "lon": -1.447222222,
+    "capacity": 33597
+  },
+  {
+    "qid": "Q202762",
+    "name": "Mestalla Stadium",
+    "lat": 39.474722,
+    "lon": -0.358333,
+    "capacity": 49430
+  },
+  {
+    "qid": "Q242772",
+    "name": "Toughsheet Community Stadium",
+    "lat": 53.580555555,
+    "lon": -2.535555555,
+    "capacity": 28723
+  },
+  {
+    "qid": "Q245085",
+    "name": "Ewood Park",
+    "lat": 53.728611111,
+    "lon": -2.489166666,
+    "capacity": 31367
+  },
+  {
+    "qid": "Q255447",
+    "name": "Estadio Heliodoro Rodríguez López",
+    "lat": 28.463055555,
+    "lon": -16.260555555,
+    "capacity": 21732
+  },
+  {
+    "qid": "Q264581",
+    "name": "Nou Estadi Castalia",
+    "lat": 39.996053,
+    "lon": -0.038792,
+    "capacity": 16000
+  },
+  {
+    "qid": "Q275429",
+    "name": "Ramón Sánchez Pizjuán Stadium",
+    "lat": 37.383878,
+    "lon": -5.970467,
+    "capacity": 43751
+  },
+  {
+    "qid": "Q276163",
+    "name": "Estadi Mallorca Son Moix",
+    "lat": 39.59,
+    "lon": 2.63,
+    "capacity": 25736
+  },
+  {
+    "qid": "Q318043",
+    "name": "Craven Cottage",
+    "lat": 51.475,
+    "lon": -0.221666666,
+    "capacity": 25700
+  },
+  {
+    "qid": "Q338602",
+    "name": "National Arena",
+    "lat": 44.4372,
+    "lon": 26.1525,
+    "capacity": 55634
+  },
+  {
+    "qid": "Q380823",
+    "name": "Molineux Stadium",
+    "lat": 52.590277777,
+    "lon": -2.130277777,
+    "capacity": 30852
+  },
+  {
+    "qid": "Q473223",
+    "name": "RCDE Stadium",
+    "lat": 41.347861,
+    "lon": 2.075667,
+    "capacity": 40500
+  },
+  {
+    "qid": "Q500922",
+    "name": "Britannia Stadium",
+    "lat": 52.988333333,
+    "lon": -2.175555555,
+    "capacity": 27740
+  },
+  {
+    "qid": "Q567339",
+    "name": "St Mary's Stadium",
+    "lat": 50.90583333,
+    "lon": -1.39111111,
+    "capacity": 32589
+  },
+  {
+    "qid": "Q574565",
+    "name": "Estadio Nuevo Los Cármeness",
+    "lat": 37.152967,
+    "lon": -3.595736,
+    "capacity": 19436
+  },
+  {
+    "qid": "Q580480",
+    "name": "Liberty Stadium",
+    "lat": 51.6422,
+    "lon": -3.9351,
+    "capacity": 20750
+  },
+  {
+    "qid": "Q593446",
+    "name": "City Ground",
+    "lat": 52.94,
+    "lon": -1.132778,
+    "capacity": 30404
+  },
+  {
+    "qid": "Q619094",
+    "name": "Dean Court",
+    "lat": 50.735278,
+    "lon": -1.838333,
+    "capacity": 12000
+  },
+  {
+    "qid": "Q619105",
+    "name": "Sincil Bank",
+    "lat": 53.218289,
+    "lon": -0.540811,
+    "capacity": 10120
+  },
+  {
+    "qid": "Q619409",
+    "name": "Brighton Community Stadium",
+    "lat": 50.861822222,
+    "lon": -0.083277777,
+    "capacity": 31800
+  },
+  {
+    "qid": "Q619505",
+    "name": "Elland Road",
+    "lat": 53.777777777,
+    "lon": -1.572222222,
+    "capacity": 37792
+  },
+  {
+    "qid": "Q619531",
+    "name": "Fratton Park",
+    "lat": 50.796388888,
+    "lon": -1.063888888,
+    "capacity": 21100
+  },
+  {
+    "qid": "Q619558",
+    "name": "Portman Road",
+    "lat": 52.055,
+    "lon": 1.145277777,
+    "capacity": 30311
+  },
+  {
+    "qid": "Q630160",
+    "name": "MKM Stadium",
+    "lat": 53.746111111,
+    "lon": -0.367777777,
+    "capacity": 25400
+  },
+  {
+    "qid": "Q683112",
+    "name": "Turf Moor",
+    "lat": 53.789064,
+    "lon": -2.230225,
+    "capacity": 22546
+  },
+  {
+    "qid": "Q695879",
+    "name": "La Rosaleda Stadium",
+    "lat": 36.734092,
+    "lon": -4.426422,
+    "capacity": 30778
+  },
+  {
+    "qid": "Q726370",
+    "name": "Ashton Gate Stadium",
+    "lat": 51.44,
+    "lon": -2.620278,
+    "capacity": 27000
+  },
+  {
+    "qid": "Q735783",
+    "name": "El Sadar Stadium",
+    "lat": 42.796667,
+    "lon": -1.636944,
+    "capacity": 23576
+  },
+  {
+    "qid": "Q741157",
+    "name": "Estadio de la Cerámica",
+    "lat": 39.944167,
+    "lon": -0.103611,
+    "capacity": 24891
+  },
+  {
+    "qid": "Q819179",
+    "name": "St Andrew's",
+    "lat": 52.475702777,
+    "lon": -1.868188888,
+    "capacity": 30016
+  },
+  {
+    "qid": "Q822886",
+    "name": "Riverside Stadium",
+    "lat": 54.578333333,
+    "lon": -1.216944444,
+    "capacity": 34742
+  },
+  {
+    "qid": "Q842077",
+    "name": "Coventry Building Society Arena",
+    "lat": 52.448056,
+    "lon": -1.495556,
+    "capacity": 32609
+  },
+  {
+    "qid": "Q867902",
+    "name": "Cardiff City Stadium",
+    "lat": 51.472778,
+    "lon": -3.203056,
+    "capacity": 33260
+  },
+  {
+    "qid": "Q897533",
+    "name": "Bramall Lane",
+    "lat": 53.370277777,
+    "lon": -1.470833333,
+    "capacity": 32702
+  },
+  {
+    "qid": "Q908481",
+    "name": "The Den",
+    "lat": 51.485833,
+    "lon": -0.050833,
+    "capacity": 20146
+  },
+  {
+    "qid": "Q917845",
+    "name": "Anoeta Stadium",
+    "lat": 43.301378,
+    "lon": -1.973617,
+    "capacity": 40000
+  },
+  {
+    "qid": "Q929109",
+    "name": "Estadio Coliseum",
+    "lat": 40.325556,
+    "lon": -3.714722,
+    "capacity": 16500
+  },
+  {
+    "qid": "Q929315",
+    "name": "El Molinón-Enrique Castro Quini",
+    "lat": 43.536111,
+    "lon": -5.637222,
+    "capacity": 29371
+  },
+  {
+    "qid": "Q953600",
+    "name": "Estadio Manuel Martínez Valero",
+    "lat": 38.266944,
+    "lon": -0.663333,
+    "capacity": 31388
+  },
+  {
+    "qid": "Q958319",
+    "name": "The Valley",
+    "lat": 51.487489,
+    "lon": 0.035632,
+    "capacity": 27111
+  },
+  {
+    "qid": "Q979112",
+    "name": "Estadio El Toralín",
+    "lat": 42.5574,
+    "lon": -6.599972,
+    "capacity": 8400
+  },
+  {
+    "qid": "Q983806",
+    "name": "Campo de Fútbol de Vallecas",
+    "lat": 40.391944,
+    "lon": -3.658961,
+    "capacity": 14708
+  },
+  {
+    "qid": "Q991419",
+    "name": "Gran Canaria Stadium",
+    "lat": 28.1,
+    "lon": -15.456667,
+    "capacity": 32392
+  },
+  {
+    "qid": "Q1066373",
+    "name": "Selhurst Park",
+    "lat": 51.398333333,
+    "lon": -0.085555555,
+    "capacity": 26255
+  },
+  {
+    "qid": "Q1122715",
+    "name": "Estadi Ciutat de València",
+    "lat": 39.494722,
+    "lon": -0.364167,
+    "capacity": 26354
+  },
+  {
+    "qid": "Q1130617",
+    "name": "Estadio de los Juegos Mediterraneos",
+    "lat": 36.84,
+    "lon": -2.435278,
+    "capacity": 22000
+  },
+  {
+    "qid": "Q1141958",
+    "name": "Deepdale",
+    "lat": 53.772222222,
+    "lon": -2.688055555,
+    "capacity": 24500
+  },
+  {
+    "qid": "Q1158963",
+    "name": "Stadionul Dan Păltinișanu",
+    "lat": 45.740556,
+    "lon": 21.244167,
+    "capacity": 32972
+  },
+  {
+    "qid": "Q1202579",
+    "name": "Racecourse Ground",
+    "lat": 53.051944,
+    "lon": -3.003611,
+    "capacity": 13341
+  },
+  {
+    "qid": "Q1226240",
+    "name": "Stadionul Dinamo",
+    "lat": 44.455083,
+    "lon": 26.102444,
+    "capacity": 15032
+  },
+  {
+    "qid": "Q1253767",
+    "name": "Stadionul Dr. Constantin Rădulescu",
+    "lat": 46.779678,
+    "lon": 23.577247,
+    "capacity": 23500
+  },
+  {
+    "qid": "Q1326578",
+    "name": "Abanca Balaídos Stadium",
+    "lat": 42.211861,
+    "lon": -8.740328,
+    "capacity": 24870
+  },
+  {
+    "qid": "Q1369118",
+    "name": "Estadio Carlos Belmonte",
+    "lat": 38.981117,
+    "lon": -1.852142,
+    "capacity": 17524
+  },
+  {
+    "qid": "Q1369124",
+    "name": "Estadio Cartagonova",
+    "lat": 37.609746,
+    "lon": -0.995977,
+    "capacity": 15105
+  },
+  {
+    "qid": "Q1369314",
+    "name": "Estadio Las Gaunas",
+    "lat": 42.453333,
+    "lon": -2.453333,
+    "capacity": 16000
+  },
+  {
+    "qid": "Q1369390",
+    "name": "Mendizorrotza Stadium",
+    "lat": 42.837111,
+    "lon": -2.688044,
+    "capacity": 19840
+  },
+  {
+    "qid": "Q1369445",
+    "name": "Estadio Alfonso Murube",
+    "lat": 35.8854,
+    "lon": -5.3279,
+    "capacity": 6500
+  },
+  {
+    "qid": "Q1369462",
+    "name": "Estadio Municipal de Butarque",
+    "lat": 40.3404,
+    "lon": -3.7607,
+    "capacity": 11454
+  },
+  {
+    "qid": "Q1369536",
+    "name": "Carlos Tartiere Stadium",
+    "lat": 43.360783,
+    "lon": -5.870222,
+    "capacity": 30500
+  },
+  {
+    "qid": "Q1369687",
+    "name": "Metropolitano Stadium",
+    "lat": 40.436111,
+    "lon": -3.599444,
+    "capacity": 70813
+  },
+  {
+    "qid": "Q1409157",
+    "name": "Stadionul Ion Oblemenco",
+    "lat": 44.313889,
+    "lon": 23.784167,
+    "capacity": 30944
+  },
+  {
+    "qid": "Q1546623",
+    "name": "Griffin Park",
+    "lat": 51.488167,
+    "lon": -0.302639,
+    "capacity": 14863
+  },
+  {
+    "qid": "Q1888199",
+    "name": "Stadionul Regie",
+    "lat": 44.448194,
+    "lon": 26.052872,
+    "capacity": 10020
+  },
+  {
+    "qid": "Q2097709",
+    "name": "Montilivi Stadium",
+    "lat": 41.961389,
+    "lon": 2.828611,
+    "capacity": 14624
+  },
+  {
+    "qid": "Q2262973",
+    "name": "Stadionul Emil Alexandrescu",
+    "lat": 47.184583,
+    "lon": 27.561389,
+    "capacity": 11390
+  },
+  {
+    "qid": "Q2301915",
+    "name": "Estadio Nuevo Mirandilla",
+    "lat": 36.502778,
+    "lon": -6.273056,
+    "capacity": 26000
+  },
+  {
+    "qid": "Q2607402",
+    "name": "Stadionul Concordia",
+    "lat": 44.462778,
+    "lon": 25.975278,
+    "capacity": 5123
+  },
+  {
+    "qid": "Q3121017",
+    "name": "Stadionul Oțelul",
+    "lat": 45.430236,
+    "lon": 28.022378,
+    "capacity": 13500
+  },
+  {
+    "qid": "Q3274884",
+    "name": "Stadionul Ilie Oană",
+    "lat": 44.940278,
+    "lon": 26.033333,
+    "capacity": 15500
+  },
+  {
+    "qid": "Q3320428",
+    "name": "Ipurúa Municipal Stadium",
+    "lat": 43.181706,
+    "lon": -2.475803,
+    "capacity": 8164
+  },
+  {
+    "qid": "Q3321211",
+    "name": "Estadio El Plantío",
+    "lat": 42.344167,
+    "lon": -3.680556,
+    "capacity": 16000
+  },
+  {
+    "qid": "Q3327491",
+    "name": "Municipal Stadium of A Malata",
+    "lat": 43.491358,
+    "lon": -8.239274,
+    "capacity": 11669
+  },
+  {
+    "qid": "Q4684229",
+    "name": "Stadionul Municipal",
+    "lat": 47.7483,
+    "lon": 26.6519,
+    "capacity": 12000
+  },
+  {
+    "qid": "Q6083752",
+    "name": "Ciudad Deportiva Andrés Iniesta",
+    "lat": 38.967597222,
+    "lon": -1.853777777
+  },
+  {
+    "qid": "Q6271952",
+    "name": "Stadionul Trans-Sil",
+    "lat": 46.549722,
+    "lon": 24.545833,
+    "capacity": 8200
+  },
+  {
+    "qid": "Q7596362",
+    "name": "Stadionul 1 Mai",
+    "lat": 44.5606,
+    "lon": 27.3727,
+    "capacity": 6000
+  },
+  {
+    "qid": "Q7596363",
+    "name": "Stadionul Areni",
+    "lat": 47.639274,
+    "lon": 26.24626,
+    "capacity": 7000
+  },
+  {
+    "qid": "Q7596399",
+    "name": "Stadionul Francisc von Neumann",
+    "lat": 46.1925,
+    "lon": 21.3114,
+    "capacity": 7287
+  },
+  {
+    "qid": "Q7596404",
+    "name": "Stadionul Iuliu Bodola",
+    "lat": 47.071944,
+    "lon": 21.93,
+    "capacity": 11067
+  },
+  {
+    "qid": "Q7596412",
+    "name": "Stadionul Michael Klein",
+    "lat": 45.7614,
+    "lon": 22.9131
+  },
+  {
+    "qid": "Q7596415",
+    "name": "Stadionul Mircea Chivu",
+    "lat": 45.2817,
+    "lon": 21.8897
+  },
+  {
+    "qid": "Q7596430",
+    "name": "Stadionul Municipal",
+    "lat": 45.103056,
+    "lon": 24.352222,
+    "capacity": 12000
+  },
+  {
+    "qid": "Q7596436",
+    "name": "Stadionul Nicolae Dobrin",
+    "lat": 44.846675,
+    "lon": 24.866422,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q9008639",
+    "name": "Lezama Facilities",
+    "lat": 43.2775,
+    "lon": -2.83932,
+    "capacity": 3250
+  },
+  {
+    "qid": "Q13580789",
+    "name": "Eugen Popescu Stadium",
+    "lat": 44.931558,
+    "lon": 25.462294
+  },
+  {
+    "qid": "Q14322671",
+    "name": "Stadionul Știința",
+    "lat": 45.746111111,
+    "lon": 21.228333333,
+    "capacity": 1000
+  },
+  {
+    "qid": "Q18125598",
+    "name": "Estadi Nacional",
+    "lat": 42.5046,
+    "lon": 1.51746,
+    "capacity": 3306
+  },
+  {
+    "qid": "Q23051502",
+    "name": "Stadionul Municipal",
+    "lat": 46.36694444,
+    "lon": 25.80291667
+  },
+  {
+    "qid": "Q24969855",
+    "name": "Anghel Iordănescu Stadium",
+    "lat": 44.49916667,
+    "lon": 26.14555556
+  },
+  {
+    "qid": "Q25204592",
+    "name": "Stadionul Municipal",
+    "lat": 45.86291667,
+    "lon": 25.77613889,
+    "capacity": 4774
+  },
+  {
+    "qid": "Q25208720",
+    "name": "Stadionul Comunal",
+    "lat": 44.53305556,
+    "lon": 26.25986111
+  },
+  {
+    "qid": "Q26709118",
+    "name": "Estadio Municipal Nuevo Pepico Amat",
+    "lat": 38.467356,
+    "lon": -0.796031
+  },
+  {
+    "qid": "Q29347805",
+    "name": "Hill Dickinson Stadium",
+    "lat": 53.425,
+    "lon": -3.002777777,
+    "capacity": 52769
+  },
+  {
+    "qid": "Q39047118",
+    "name": "Stadionul Cornel Negoescu",
+    "lat": 45.14472222,
+    "lon": 26.80277778,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q55074091",
+    "name": "Tottenham Hotspur Stadium",
+    "lat": 51.604444444,
+    "lon": -0.066388888,
+    "capacity": 62850
+  },
+  {
+    "qid": "Q97889239",
+    "name": "Stadionul Rapid-Giulești",
+    "lat": 44.455888888,
+    "lon": 26.056805555,
+    "capacity": 14000
+  },
+  {
+    "qid": "Q135682568",
+    "name": "Ibercaja Stadium",
+    "lat": 41.683664995,
+    "lon": -0.89544683,
+    "capacity": 20000
+  },
+  {
+    "qid": "Q137918892",
+    "name": "New Stadium La Romareda",
+    "lat": 41.636611111,
+    "lon": -0.901805555,
+    "capacity": 43110
+  }
+]
