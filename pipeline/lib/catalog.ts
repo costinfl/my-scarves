@@ -19,9 +19,11 @@ export interface CatalogClub {
   qid: string;
   name: string;
   association: string;
-  /** League of the catalogue season. */
+  /** League of the catalogue season, or the latest known one when `current` is false. */
   league: string;
   tier: 1 | 2;
+  /** False for a club kept only because I have a scarf of it (relegated, or an older season). */
+  current: boolean;
   officialWebsite?: string;
   logoFile?: string;
   stadium?: Stadium;
@@ -46,9 +48,11 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, overrides
 
   const catalogClubs: CatalogClub[] = [];
   for (const c of merged) {
-    const membership = c.leagues
-      .filter((m) => m.season === season && leagueByQid.has(m.league))
-      .sort((a, b) => a.tier - b.tier)[0];
+    const known = c.leagues.filter((m) => leagueByQid.has(m.league));
+    const currentMembership = known.filter((m) => m.season === season).sort((a, b) => a.tier - b.tier)[0];
+    const clubScarves = scarves.filter((s) => s.clubQid === c.qid);
+    const membership =
+      currentMembership ?? (clubScarves.length > 0 ? [...known].sort((a, b) => b.season.localeCompare(a.season))[0] : undefined);
     if (!membership) continue;
     const stadium = c.stadiumIds[0] ? stadiumById.get(c.stadiumIds[0]) : undefined;
     catalogClubs.push({
@@ -57,10 +61,11 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, overrides
       association: c.association,
       league: membership.league,
       tier: membership.tier,
+      current: membership === currentMembership,
       ...(c.officialWebsite ? { officialWebsite: c.officialWebsite } : {}),
       ...(c.logoFile ? { logoFile: c.logoFile } : {}),
       ...(stadium ? { stadium } : {}),
-      scarves: scarves.filter((s) => s.clubQid === c.qid),
+      scarves: clubScarves,
     });
   }
 

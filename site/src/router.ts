@@ -6,6 +6,7 @@ export type Route =
   | { view: 'league'; qid: string }
   | { view: 'club'; qid: string }
   | { view: 'map' }
+  | { view: 'stats' }
   | { view: 'search'; query: string }
   | { view: 'notFound' };
 
@@ -23,6 +24,8 @@ export function parseRoute(hash: string): Route {
       return value ? { view: 'club', qid: value } : { view: 'notFound' };
     case 'map':
       return { view: 'map' };
+    case 'stats':
+      return { view: 'stats' };
     case 'search':
       return { view: 'search', query: value };
     default:
@@ -36,5 +39,6 @@ export const href = {
   league: (qid: string) => `#/league/${qid}`,
   club: (qid: string) => `#/club/${qid}`,
   map: () => '#/map',
+  stats: () => '#/stats',
   search: (q: string) => `#/search/${encodeURIComponent(q)}`,
 };

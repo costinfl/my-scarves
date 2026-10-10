@@ -1,15 +1,26 @@
 import './style.css';
-import { loadStore, type Store } from './data.ts';
+import { FILTERS, loadStore, type Filter, type Store } from './data.ts';
 import { html } from './html.ts';
 import { href, parseRoute, type Route } from './router.ts';
 import { buildSearch } from './search.ts';
-import { associationView, clubView, homeView, leagueView, mapView, notFoundView, searchView } from './views.ts';
+import { associationView, clubView, homeView, leagueView, mapView, notFoundView, searchView, statsView } from './views.ts';
 
 const app = document.querySelector<HTMLElement>('#app')!;
 const searchInput = document.querySelector<HTMLInputElement>('#search')!;
 
 let disposeMap: (() => void) | undefined;
 let onlyOwned = false;
+let filter: Filter = readFilter();
+
+// The list filter is a per-browser convenience; storage can be unavailable (private mode), so never rely on it.
+function readFilter(): Filter {
+  try {
+    const f = localStorage.getItem('filter') as Filter | null;
+    return f && FILTERS.includes(f) ? f : 'all';
+  } catch {
+    return 'all';
+  }
+}
 
 async function main() {
   let store: Store;
@@ -39,6 +50,19 @@ async function main() {
     location.replace(q ? href.search(q) : href.home());
   });
   document.querySelector('#search-form')!.addEventListener('submit', (e) => e.preventDefault());
+  app.addEventListener('click', (e) => {
+    const button = (e.target as HTMLElement).closest<HTMLElement>('[data-filter]');
+    if (!button) return;
+    filter = button.dataset.filter as Filter;
+    try {
+      localStorage.setItem('filter', filter);
+    } catch {
+      // ignore
+    }
+    const y = window.scrollY;
+    render();
+    window.scrollTo(0, y);
+  });
   app.addEventListener('change', (e) => {
     if ((e.target as HTMLElement).id === 'only-owned') {
       onlyOwned = (e.target as HTMLInputElement).checked;
@@ -55,13 +79,15 @@ function view(store: Store, route: Route, search: (q: string) => ReturnType<Retu
     case 'home':
       return homeView(store);
     case 'association':
-      return associationView(store, route.code);
+      return associationView(store, route.code, filter);
     case 'league':
-      return leagueView(store, route.qid);
+      return leagueView(store, route.qid, filter);
     case 'club':
       return clubView(store, route.qid);
     case 'map':
       return mapView(store, onlyOwned);
+    case 'stats':
+      return statsView(store);
     case 'search':
       return searchView(store, route.query, search(route.query));
     case 'notFound':

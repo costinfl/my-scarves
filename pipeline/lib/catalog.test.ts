@@ -49,6 +49,12 @@ describe('buildCatalog', () => {
     expect(catalog.clubs[0]!.scarves).toEqual([{ id: 's1', clubQid: 'Q10', status: 'owned' }]);
   });
 
+  it('keeps a non-current club when I have a scarf of it, flagged and with its latest league', () => {
+    const withOld = buildCatalog({ ...input, scarves: [...input.scarves, { id: 's3', clubQid: 'Q11', status: 'owned' }] });
+    expect(withOld.clubs.find((c) => c.qid === 'Q11')).toMatchObject({ current: false, league: 'Q2', tier: 2 });
+    expect(withOld.clubs.find((c) => c.qid === 'Q10')).toMatchObject({ current: true, league: 'Q1' });
+  });
+
   it('keeps only associations that have clubs, and league labels as names', () => {
     expect(catalog.associations.map((a) => a.code)).toEqual(['ROU']);
     expect(catalog.leagues).toEqual([

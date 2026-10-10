@@ -9,6 +9,7 @@ describe('parseRoute', () => {
     ['#/league/Q9448', { view: 'league', qid: 'Q9448' }],
     ['#/club/Q18656', { view: 'club', qid: 'Q18656' }],
     ['#/map', { view: 'map' }],
+    ['#/stats', { view: 'stats' }],
     ['#/search/Bra%C8%99ov', { view: 'search', query: 'Brașov' }],
     ['#/club', { view: 'notFound' }],
     ['#/nope', { view: 'notFound' }],

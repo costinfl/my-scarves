@@ -16,11 +16,13 @@
     "verify-leagues": "node pipeline/verify-leagues.ts",
     "import": "node pipeline/import.ts",
     "coverage": "node pipeline/coverage.ts",
-    "catalog": "node pipeline/build-catalog.ts"
+    "catalog": "node pipeline/build-catalog.ts",
+    "add-scarf": "node pipeline/add-scarf.ts"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.22",
     "@types/node": "^22.20.5",
+    "sharp": "^0.35.5",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
     "vitest": "^5.0.3"
