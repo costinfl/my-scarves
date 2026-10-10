@@ -1,3 +1,4 @@
+import { noEnrichment, type Enrichment } from './catalog.ts';
 import type { Association, Club, LeagueImportResult, LeagueInfo, Stadium } from './types.ts';
 
 export interface CoverageInput {
@@ -7,10 +8,11 @@ export interface CoverageInput {
   clubs: Club[];
   stadiums: Stadium[];
   report: Record<string, LeagueImportResult[]>;
+  enrichment?: Enrichment;
 }
 
 /** Markdown coverage report: one row per association, then per-league detail for review. */
-export function coverageMarkdown({ season, associations, leagues, clubs, stadiums, report }: CoverageInput): string {
+export function coverageMarkdown({ season, associations, leagues, clubs, stadiums, report, enrichment = noEnrichment }: CoverageInput): string {
   const stadiumById = new Map(stadiums.map((s) => [s.qid, s]));
   const current = clubs.filter((c) => c.leagues.some((m) => m.season === season));
   const primary = (c: Club) => (c.stadiumIds[0] ? stadiumById.get(c.stadiumIds[0]) : undefined);
@@ -33,6 +35,23 @@ export function coverageMarkdown({ season, associations, leagues, clubs, stadium
     );
   }
   out.push('', `Not imported yet: ${associations.length - imported.length} of ${associations.length} associations.`, '');
+
+  const e = enrichment;
+  out.push('## Enrichment', '');
+  out.push('Counts of clubs that have the field. Colours: from Wikidata P6364 / extracted from the logo.', '');
+  out.push('| Association | Clubs | Logo | Colours | Blurb | Stadium address | Fan shop candidate |');
+  out.push('|---|---:|---:|---:|---:|---:|---:|');
+  for (const a of imported) {
+    const cs = current.filter((c) => c.association === a.code);
+    const has = (f: (c: Club) => boolean) => pct(cs.filter(f).length, cs.length);
+    const colours = (src: string) => cs.filter((c) => e.colors[c.qid]?.source === src).length;
+    out.push(
+      `| ${a.code} ${a.name} | ${cs.length} | ${has((c) => !!e.logos[c.qid])} | ${colours('wikidata')} / ${colours('auto')} | ` +
+        `${has((c) => !!e.blurbs[c.qid])} | ${has((c) => !!(c.stadiumIds[0] && e.addresses[c.stadiumIds[0]]))} | ` +
+        `${has((c) => e.fanshops[c.qid]?.status === 'candidate')} |`,
+    );
+  }
+  out.push('');
 
   out.push('## Leagues', '');
   out.push('| League | Tier | Status | Clubs found | Wikidata P1132 | Difference |');

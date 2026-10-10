@@ -5,6 +5,14 @@ import { html, type Html } from './html.ts';
 import { href } from './router.ts';
 
 const photoUrl = (path: string) => `${import.meta.env.BASE_URL}photos/${path}`;
+const logoUrl = (file: string) => `${import.meta.env.BASE_URL}logos/${file}`;
+
+/** Two-colour swatch in the club colours; nothing when the colours are unknown. */
+function swatch(c: CatalogClub): Html {
+  if (!c.colors) return html``;
+  const second = c.colors.secondary ?? c.colors.primary;
+  return html`<span class="swatch" style="--c1:${c.colors.primary};--c2:${second}" title="${c.colors.names?.join(', ') ?? 'club colours'}"></span>`;
+}
 const thumbUrl = (path: string) => photoUrl(path.replace(/\.jpg$/, '.thumb.jpg'));
 
 const progress = (clubs: CatalogClub[]) => html`<span class="progress">${clubs.filter(owned).length} of ${clubs.length}</span>`;
@@ -29,7 +37,7 @@ function clubList(clubs: CatalogClub[], store: Store, filter: Filter = 'all', sh
       const thumb = c.scarves.find((s) => s.status === 'owned' && s.photos?.length)?.photos?.[0];
       return html`<li>
         ${thumb && html`<img class="mini" src="${thumbUrl(thumb)}" alt="" loading="lazy">`}
-        <a href="${href.club(c.qid)}">${c.name}</a> ${badge(c)}
+        ${swatch(c)}<a href="${href.club(c.qid)}">${c.name}</a> ${badge(c)}
         <span class="muted">${showLeague ? `${store.league.get(c.league)?.name ?? ''} · ` : ''}${c.stadium?.name ?? 'stadium unknown'}</span>
       </li>`;
     })}
@@ -127,8 +135,19 @@ export function clubView(store: Store, qid: string): Html {
   const hasCoords = s?.lat !== undefined && s.lon !== undefined;
   return html`
     ${crumbs([a.name, href.association(a.code)], [l.name, href.league(l.qid)], [c.name])}
-    <h1>${c.name} ${badge(c)}</h1>
-    <p class="muted">${l.name} · ${a.name}${!c.current && ' · not in tier 1 or 2 this season'}</p>
+    <header class="club-head">
+      ${c.logo && html`<img class="logo" src="${logoUrl(c.logo.file)}" alt="${c.name} logo">`}
+      <div>
+        <h1>${c.name} ${badge(c)}</h1>
+        <p class="muted">${l.name} · ${a.name}${!c.current && ' · not in tier 1 or 2 this season'}</p>
+      </div>
+    </header>
+    ${c.colors &&
+    html`<div class="stripe" style="--c1:${c.colors.primary};--c2:${c.colors.secondary ?? c.colors.primary}"
+      title="${c.colors.names?.length ? `Colours: ${c.colors.names.join(', ')}` : 'Colours from the logo'}"></div>`}
+    ${c.blurb &&
+    html`<p class="blurb">${c.blurb.text}
+      <small class="muted">From <a href="${c.blurb.source}" rel="noopener" target="_blank">Wikipedia</a>, CC BY-SA 4.0${c.blurb.status === 'draft' && ' · draft'}</small></p>`}
 
     <section>
       <h2>My scarves</h2>
@@ -141,6 +160,7 @@ export function clubView(store: Store, qid: string): Html {
       <h2>Stadium</h2>
       ${s
         ? html`<p><strong>${s.name}</strong>${s.capacity !== undefined && html` · ${s.capacity.toLocaleString('en')} seats`}</p>
+            ${s.address && html`<p>${s.address.text}${s.address.osmUrl && html` · <a href="${s.address.osmUrl}" rel="noopener" target="_blank">OpenStreetMap</a>`}</p>`}
             ${hasCoords
               ? html`<div id="club-map" class="map small"></div>
                   <p class="muted">${s.lat!.toFixed(4)}, ${s.lon!.toFixed(4)}</p>`
@@ -151,9 +171,15 @@ export function clubView(store: Store, qid: string): Html {
     <section>
       <h2>Links</h2>
       <ul>
+        ${c.fanshop?.url &&
+        html`<li><a href="${c.fanshop.url}" rel="noopener" target="_blank">${c.fanshop.status === 'candidate' ? 'Fan shop' : 'Official fan shop'}</a>
+          ${c.fanshop.status === 'candidate' && html`<small class="muted">found automatically, not yet checked</small>`}</li>`}
         ${c.officialWebsite && html`<li><a href="${c.officialWebsite}" rel="noopener" target="_blank">Official website</a></li>`}
         <li><a href="https://www.wikidata.org/wiki/${c.qid}" rel="noopener" target="_blank">Wikidata ${c.qid}</a></li>
       </ul>
+      ${c.logo &&
+      html`<p class="muted credit">Logo: <a href="${c.logo.sourceUrl}" rel="noopener" target="_blank">${c.logo.commonsFile}</a>
+        ${c.logo.author && `by ${c.logo.author}, `}${c.logo.license}, via Wikimedia Commons</p>`}
     </section>
   `;
 }

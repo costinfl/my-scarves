@@ -22,7 +22,8 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Fan shop discovery visits each club site once; about 5 associations per run fits comfortably.
+    timeout-minutes: 90
     env:
       CODES: ${{ inputs.associations }}
       REFRESH: ${{ inputs.refresh && '--refresh' || '' }}
@@ -41,13 +42,14 @@ jobs:
           fi
 
       - run: npm run import -- $CODES $REFRESH
+      - run: npm run enrich -- $CODES $REFRESH
       - run: npm run coverage
 
       - name: Open a pull request with the data diff
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- data/; then
+          if git diff --quiet -- data/ assets/ && [ -z "$(git ls-files --others --exclude-standard data/ assets/)" ]; then
             echo "No data changes."; exit 0
           fi
           branch="import/$(echo "$CODES" | tr ' ' '-' | tr '[:lower:]' '[:upper:]')-${{ github.run_id }}"
@@ -55,6 +57,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
           git add data/generated data/cache
+          if [ -d assets/logos ]; then git add assets/logos; fi
           git commit -m "Import $CODES from Wikidata"
           git push -u origin "$branch"
           {

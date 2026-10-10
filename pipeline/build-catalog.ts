@@ -11,6 +11,13 @@ const catalog = buildCatalog({
   leagues: readJson(paths.leagues, []),
   clubs: readJson(paths.clubs, []),
   stadiums: readJson(paths.stadiums, []),
+  enrichment: {
+    logos: readJson(paths.enriched.logos, {}),
+    colors: readJson(paths.enriched.colors, {}),
+    blurbs: readJson(paths.enriched.blurbs, {}),
+    addresses: readJson(paths.enriched.addresses, {}),
+    fanshops: readJson(paths.enriched.fanshops, {}),
+  },
   overrides: readJson(paths.overrides, {}),
   scarves: readJson(paths.scarves, []),
 });
@@ -23,7 +30,12 @@ for (const s of scarves) {
 }
 
 // Photos live in assets/photos (committed); the site serves a copy from site/public/photos (ignored by git).
-const photosOut = join(ROOT, 'site', 'public', 'photos');
-rmSync(photosOut, { recursive: true, force: true });
-if (existsSync(paths.photos)) cpSync(paths.photos, photosOut, { recursive: true });
+// Same for logos.
+for (const [from, to] of [
+  [paths.photos, join(ROOT, 'site', 'public', 'photos')],
+  [paths.logos, join(ROOT, 'site', 'public', 'logos')],
+] as const) {
+  rmSync(to, { recursive: true, force: true });
+  if (existsSync(from)) cpSync(from, to, { recursive: true });
+}
 console.log(`catalog: season ${catalog.season}, ${catalog.clubs.length} clubs, ${catalog.associations.length} associations`);

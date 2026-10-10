@@ -15,5 +15,14 @@ export const paths = {
   overrides: data('manual', 'overrides.json'),
   scarves: data('collection', 'scarves.json'),
   photos: join(ROOT, 'assets', 'photos'),
+  logos: join(ROOT, 'assets', 'logos'),
+  httpCache: data('cache', 'http'),
+  enriched: {
+    logos: data('generated', 'logos.json'),
+    colors: data('generated', 'colors.json'),
+    blurbs: data('generated', 'blurbs.json'),
+    addresses: data('generated', 'addresses.json'),
+    fanshops: data('generated', 'fanshops.json'),
+  },
   wikidataCache: data('cache', 'wikidata'),
 };
