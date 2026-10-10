@@ -12,5 +12,7 @@ export const paths = {
   leagues: data('generated', 'leagues.json'),
   importReport: data('generated', 'import-report.json'),
   coverage: data('generated', 'coverage.md'),
+  overrides: data('manual', 'overrides.json'),
+  scarves: data('collection', 'scarves.json'),
   wikidataCache: data('cache', 'wikidata'),
 };

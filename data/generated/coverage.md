@@ -41,10 +41,15 @@ AD Ceuta FC, Albacete Balompié, Burgos CF, C.D. Tenerife, Cádiz Club de Fútbo
 
 ## To review
 
+- ESP Athletic Club (Q8687): several home venues (San Mamés Stadium, Lezama Facilities); first one shown, set stadiumIds in overrides.json to choose
 - ESP LaLiga 2: excluded FC Barcelona Atlètic (Q10467)
 - ESP LaLiga 2: excluded Real Sociedad B (Q1067750)
+- ESP Real Zaragoza (Q10308): several home venues (Ibercaja Stadium, New Stadium La Romareda); first one shown, set stadiumIds in overrides.json to choose
 - ROU CSC 1599 Șelimbăr (Q66424141): no home venue (P115)
 - ROU CSC Dumbrăvița (Q55618976): no home venue (P115)
 - ROU CSL Ștefăneștii de Jos (Q18539440): no home venue (P115)
+- ROU FC Dinamo Bucharest (Q204237): several home venues (Stadionul Dinamo, National Arena); first one shown, set stadiumIds in overrides.json to choose
+- ROU FC Rapid București (Q245162): several home venues (Stadionul Regie, Stadionul Rapid-Giulești); first one shown, set stadiumIds in overrides.json to choose
 - ROU Gloria Bistrița (Q56677281): no home venue (P115)
 - ROU SC Popești-Leordeni (Q55593565): no home venue (P115)
+- ROU Știința Poli Timișoara (Q4654417): several home venues (Stadionul Dan Păltinișanu, Stadionul Știința); first one shown, set stadiumIds in overrides.json to choose

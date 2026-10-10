@@ -74,6 +74,10 @@ export function coverageMarkdown({ season, associations, leagues, clubs, stadium
     if (tiers.size > 1) issues.push(`- ${c.association} ${c.name} (${c.qid}): current member of both tiers`);
   }
   for (const c of current) {
+    if (c.stadiumIds.length > 1) {
+      const names = c.stadiumIds.map((id) => stadiumById.get(id)?.name ?? id).join(', ');
+      issues.push(`- ${c.association} ${c.name} (${c.qid}): several home venues (${names}); first one shown, set stadiumIds in overrides.json to choose`);
+    }
     if (!primary(c)) issues.push(`- ${c.association} ${c.name} (${c.qid}): no home venue (P115)`);
     else if (!hasCoords(c)) issues.push(`- ${c.association} ${c.name} (${c.qid}): stadium ${primary(c)!.name} has no coordinates`);
   }
