@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>My Scarves</title>
   </head>
   <body>
-    <main id="app"></main>
+    <header class="top">
+      <a class="brand" href="#/">My Scarves</a>
+      <nav><a href="#/">Countries</a> <a href="#/map">Map</a></nav>
+      <form id="search-form" role="search">
+        <input id="search" type="search" placeholder="Search clubs, stadiums, leagues" aria-label="Search" autocomplete="off" />
+      </form>
+    </header>
+    <main id="app"><p class="muted">Loading…</p></main>
+    <footer class="muted">
+      Club and stadium data from <a href="https://www.wikidata.org/">Wikidata</a> (CC0).
+      Map tiles &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+    </footer>
     <script type="module" src="./src/main.ts"></script>
   </body>
 </html>

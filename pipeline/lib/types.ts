@@ -55,3 +55,19 @@ export interface LeagueImportResult {
   stadiums: number;
   excluded: string[];
 }
+
+export interface Scarf {
+  id: string;
+  clubQid: string;
+  status: 'owned' | 'wishlist';
+  type?: 'match' | 'vintage' | 'supporter' | 'other';
+  acquired?: { date?: string; place?: string };
+  price?: { amount: number; currency: string };
+  condition?: string;
+  notes?: string;
+  /** Paths under assets/photos/. */
+  photos?: string[];
+}
+
+/** data/manual/overrides.json: my edits keyed by club QID; they win over generated values. */
+export type ClubOverrides = Record<string, Partial<Omit<Club, 'qid'>>>;

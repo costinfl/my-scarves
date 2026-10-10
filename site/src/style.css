@@ -1,12 +1,146 @@
 :root {
   color-scheme: light dark;
-  font-family: system-ui, sans-serif;
+  --bg: #fafaf7;
+  --fg: #1d1d1b;
+  --muted: #6b6b66;
+  --line: #deded8;
+  --card: #ffffff;
+  --accent: #b3261e;
+  --owned: #1b7f3b;
+  --wish: #9a6700;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615;
+    --fg: #ecece8;
+    --muted: #a3a39c;
+    --line: #34342f;
+    --card: #20201e;
+    --accent: #ff8a80;
+    --owned: #5fd38a;
+    --wish: #e3b341;
+  }
+}
+* {
+  box-sizing: border-box;
 }
 body {
   margin: 0 auto;
   max-width: 60rem;
-  padding: 1rem;
+  padding: 0 1rem 2rem;
+  background: var(--bg);
+  color: var(--fg);
+}
+a {
+  color: var(--accent);
+}
+h1 {
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+h1 small,
+h2 small {
+  font-size: 0.6em;
+  font-weight: normal;
 }
 .muted {
-  opacity: 0.7;
+  color: var(--muted);
+}
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 0.75rem;
+}
+.brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--fg);
+}
+.top nav a {
+  margin-right: 0.75rem;
+}
+.top form {
+  flex: 1 1 14rem;
+}
+#search {
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--fg);
+}
+.crumbs {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.cards {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.75rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card);
+  text-decoration: none;
+  color: var(--fg);
+}
+.card:hover {
+  border-color: var(--accent);
+}
+.clubs {
+  list-style: none;
+  padding: 0;
+  columns: 2 18rem;
+}
+.clubs li {
+  break-inside: avoid;
+  padding: 0.25rem 0;
+}
+.clubs .muted {
+  display: block;
+  font-size: 0.85rem;
+}
+.badge {
+  font-size: 0.7rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  vertical-align: middle;
+}
+.badge.owned {
+  color: var(--owned);
+}
+.badge.wish {
+  color: var(--wish);
+}
+.progress {
+  font-variant-numeric: tabular-nums;
+}
+.map {
+  height: 65vh;
+  min-height: 20rem;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+.map.small {
+  height: 18rem;
+  min-height: 0;
+}
+footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
 }

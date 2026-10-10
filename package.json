@@ -6,19 +6,27 @@
     "node": ">=22.18 <23"
   },
   "scripts": {
+    "predev": "npm run catalog",
     "dev": "vite",
+    "prebuild": "npm run catalog",
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "verify-leagues": "node pipeline/verify-leagues.ts",
     "import": "node pipeline/import.ts",
-    "coverage": "node pipeline/coverage.ts"
+    "coverage": "node pipeline/coverage.ts",
+    "catalog": "node pipeline/build-catalog.ts"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.22",
     "@types/node": "^22.20.5",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
     "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "minisearch": "^7.2.0"
   }
 }
