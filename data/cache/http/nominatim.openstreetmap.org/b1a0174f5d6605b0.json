@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.578333&lon=-1.216944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273954886,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":554223289,\"lat\":\"54.5782364\",\"lon\":\"-1.2168198\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.489738307769921e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"The Leeway, Middlehaven, Middlesbrough, Tees Valley, England, TS3 6RS, United Kingdom\",\"address\":{\"road\":\"The Leeway\",\"suburb\":\"Middlehaven\",\"town\":\"Middlesbrough\",\"county\":\"Middlesbrough\",\"ISO3166-2-lvl6\":\"GB-MDB\",\"state_district\":\"Tees Valley\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"TS3 6RS\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.5776801\",\"54.5787925\",\"-1.2176133\",\"-1.2160262\"]}",
+  "fetchedAt": "2026-10-10T10:58:20.153Z"
+}

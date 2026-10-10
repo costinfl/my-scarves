@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.144722&lon=26.802778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60941617,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":5500126222,\"lat\":\"45.1447309\",\"lon\":\"26.8028483\",\"category\":\"amenity\",\"type\":\"community_centre\",\"place_rank\":30,\"importance\":6.216754406038022e-05,\"addresstype\":\"amenity\",\"name\":\"Stadion Metalul Buzău\",\"display_name\":\"Stadion Metalul Buzău, Bulevardul Mareșal Alexandru Averescu, Cartier Nicolae Bălcescu, Buzău, 120262, România\",\"address\":{\"amenity\":\"Stadion Metalul Buzău\",\"road\":\"Bulevardul Mareșal Alexandru Averescu\",\"neighbourhood\":\"Cartier Nicolae Bălcescu\",\"city\":\"Buzău\",\"county\":\"Buzău\",\"ISO3166-2-lvl4\":\"RO-BZ\",\"postcode\":\"120262\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.1446809\",\"45.1447809\",\"26.8027983\",\"26.8028983\"]}",
+  "fetchedAt": "2026-10-10T10:43:15.866Z"
+}

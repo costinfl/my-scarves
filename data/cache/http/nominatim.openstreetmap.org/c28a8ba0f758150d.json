@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.436111&lon=-3.599444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":290640534,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":4409945,\"lat\":\"40.4362038\",\"lon\":\"-3.5994779\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.580834668493199e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida 26 de Abril, Rosas, San Blas - Canillejas, Madrid, Comunidad de Madrid, 28022, España\",\"address\":{\"road\":\"Avenida 26 de Abril\",\"quarter\":\"Rosas\",\"suburb\":\"San Blas - Canillejas\",\"city\":\"Madrid\",\"state\":\"Comunidad de Madrid\",\"ISO3166-2-lvl4\":\"ES-MD\",\"postcode\":\"28022\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"40.4356686\",\"40.4367389\",\"-3.5999898\",\"-3.5989659\"]}",
+  "fetchedAt": "2026-10-10T10:58:51.967Z"
+}

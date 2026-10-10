@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.696Z",
+  "entity": {
+    "id": "Q3257809",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "800080"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Purple"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "purple"
+      }
+    }
+  }
+}

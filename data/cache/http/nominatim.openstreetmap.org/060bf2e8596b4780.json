@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.370278&lon=-1.470833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277396299,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":137553004,\"lat\":\"53.3703892\",\"lon\":\"-1.4708659\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.319523918512272e-05,\"addresstype\":\"leisure\",\"name\":\"Sheffield United F.C.\",\"display_name\":\"Sheffield United F.C., John Street, Moorfoot, Cultural Industries Quarter, Highfield, Sheffield, South Yorkshire, England, S2 4QX, United Kingdom\",\"address\":{\"leisure\":\"Sheffield United F.C.\",\"road\":\"John Street\",\"neighbourhood\":\"Moorfoot\",\"quarter\":\"Cultural Industries Quarter\",\"suburb\":\"Highfield\",\"city\":\"Sheffield\",\"ISO3166-2-lvl8\":\"GB-SHF\",\"state_district\":\"South Yorkshire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"S2 4QX\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.3699918\",\"53.3707866\",\"-1.4717449\",\"-1.4699868\"]}",
+  "fetchedAt": "2026-10-10T10:58:35.445Z"
+}

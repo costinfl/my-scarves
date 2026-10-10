@@ -1,0 +1,44 @@
+{
+  "fetchedAt": "2026-10-10T11:01:02.490Z",
+  "entity": {
+    "id": "Q19607",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Sheffield United F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Sheffield United F.C."
+      }
+    }
+  }
+}

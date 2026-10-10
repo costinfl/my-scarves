@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.055000&lon=1.145278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":157955007,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":27771023,\"lat\":\"52.0549521\",\"lon\":\"1.1452877\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.550316624699806e-05,\"addresstype\":\"leisure\",\"name\":\"Ipswich Town Football Club\",\"display_name\":\"Ipswich Town Football Club, Sir Alf Ramsey Way, Stoke, Ipswich, Suffolk, England, IP1 2EB, United Kingdom\",\"address\":{\"leisure\":\"Ipswich Town Football Club\",\"road\":\"Sir Alf Ramsey Way\",\"suburb\":\"Stoke\",\"town\":\"Ipswich\",\"city\":\"Ipswich\",\"county\":\"Suffolk\",\"ISO3166-2-lvl6\":\"GB-SFK\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"IP1 2EB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.0543889\",\"52.0555153\",\"1.1446225\",\"1.1459530\"]}",
+  "fetchedAt": "2026-10-10T10:58:13.551Z"
+}

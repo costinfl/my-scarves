@@ -1,0 +1,36 @@
+{
+  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "entity": {
+    "id": "Q10286",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FF0000"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "0022AA"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "CA Osasuna"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Club Atlético Osasuna"
+      }
+    }
+  }
+}

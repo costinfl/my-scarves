@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=28.463056&lon=-16.260556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":298064812,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":634661074,\"lat\":\"28.4632912\",\"lon\":\"-16.2605325\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.521324483096082e-05,\"addresstype\":\"leisure\",\"name\":\"Estadio Heliodoro Rodríguez López\",\"display_name\":\"Estadio Heliodoro Rodríguez López, Avenida de San Sebastián, El Chapatal, La Salle, Salud-La Salle, Santa Cruz de Tenerife, Canarias, 38005, España\",\"address\":{\"leisure\":\"Estadio Heliodoro Rodríguez López\",\"road\":\"Avenida de San Sebastián\",\"neighbourhood\":\"El Chapatal\",\"suburb\":\"La Salle\",\"city_district\":\"Salud-La Salle\",\"city\":\"Santa Cruz de Tenerife\",\"state_district\":\"Santa Cruz de Tenerife\",\"ISO3166-2-lvl6\":\"ES-TF\",\"state\":\"Canarias\",\"ISO3166-2-lvl4\":\"ES-CN\",\"postcode\":\"38005\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"28.4628579\",\"28.4637244\",\"-16.2611559\",\"-16.2599091\"]}",
+  "fetchedAt": "2026-10-10T10:58:54.161Z"
+}

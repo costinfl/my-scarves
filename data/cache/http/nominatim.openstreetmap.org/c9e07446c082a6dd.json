@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.940278&lon=26.033333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":61048257,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":636553998,\"lat\":\"44.9403098\",\"lon\":\"26.0333503\",\"category\":\"highway\",\"type\":\"footway\",\"place_rank\":27,\"importance\":0.040065053025101084,\"addresstype\":\"road\",\"name\":\"Intrarea L\",\"display_name\":\"Intrarea L, Ploiești, Bariera Poștei - Bucov, Ploiești, Prahova, 100172, România\",\"address\":{\"road\":\"Intrarea L\",\"residential\":\"Ploiești\",\"suburb\":\"Bariera Poștei - Bucov\",\"city\":\"Ploiești\",\"county\":\"Prahova\",\"ISO3166-2-lvl4\":\"RO-PH\",\"postcode\":\"100172\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.9403098\",\"44.9403135\",\"26.0333503\",\"26.0337091\"]}",
+  "fetchedAt": "2026-10-10T10:43:38.630Z"
+}

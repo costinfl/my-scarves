@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.383878&lon=-5.970467&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296146457,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":22742144,\"lat\":\"37.3840469\",\"lon\":\"-5.9705730\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.680094605931209e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Sevilla Futbol Club, La Buhaira, Nervión, Sevilla, Andalucía, 41018, España\",\"address\":{\"road\":\"Calle Sevilla Futbol Club\",\"city_block\":\"La Buhaira\",\"suburb\":\"Nervión\",\"city\":\"Sevilla\",\"province\":\"Sevilla\",\"ISO3166-2-lvl6\":\"ES-SE\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"41018\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"37.3835426\",\"37.3845511\",\"-5.9710113\",\"-5.9701347\"]}",
+  "fetchedAt": "2026-10-10T10:59:38.570Z"
+}

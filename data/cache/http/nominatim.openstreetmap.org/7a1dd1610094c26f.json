@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.453333&lon=-2.453333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":428152354,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1476160799,\"lat\":\"42.4531896\",\"lon\":\"-2.4533329\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.616388189512501e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Clavijo, Guindalera, Las Gaunas, Logroño, La Rioja, 26002, España\",\"address\":{\"road\":\"Calle Clavijo\",\"neighbourhood\":\"Guindalera\",\"suburb\":\"Las Gaunas\",\"city\":\"Logroño\",\"state\":\"La Rioja\",\"ISO3166-2-lvl4\":\"ES-RI\",\"postcode\":\"26002\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"42.4526159\",\"42.4537673\",\"-2.4539482\",\"-2.4527140\"]}",
+  "fetchedAt": "2026-10-10T10:59:42.956Z"
+}

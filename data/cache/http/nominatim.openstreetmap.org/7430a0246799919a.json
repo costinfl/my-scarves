@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.777778&lon=-1.572222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":280493920,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12058421870,\"lat\":\"53.7779341\",\"lon\":\"-1.5723070\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.288090333405077e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Elland Road, Islington, Beeston, Leeds, West Yorkshire, England, LS11 0ES, United Kingdom\",\"address\":{\"road\":\"Elland Road\",\"neighbourhood\":\"Islington\",\"suburb\":\"Beeston\",\"city\":\"Leeds\",\"ISO3166-2-lvl8\":\"GB-LDS\",\"state_district\":\"West Yorkshire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"LS11 0ES\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.7778841\",\"53.7779841\",\"-1.5723570\",\"-1.5722570\"]}",
+  "fetchedAt": "2026-10-10T10:58:14.649Z"
+}

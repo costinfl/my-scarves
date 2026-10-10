@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "entity": {
+    "id": "Q18662",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Cardiff City F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Cardiff City F.C."
+      }
+    }
+  }
+}

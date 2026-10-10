@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "entity": {
+    "id": "Q12297",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        }
+      ],
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FFFF00"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Villarreal CF"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Villarreal CF"
+      }
+    }
+  }
+}

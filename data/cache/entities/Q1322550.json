@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "entity": {
+    "id": "Q1322550",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Petrolul Ploiești.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Petrolul Ploiești"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Petrolul Ploiești"
+      }
+    }
+  }
+}

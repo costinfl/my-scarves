@@ -1,0 +1,54 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.115Z",
+  "entity": {
+    "id": "Q8682",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3257809,
+                "id": "Q3257809"
+              }
+            }
+          }
+        }
+      ],
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Real Madrid CF"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Real Madrid Club de Fútbol"
+      }
+    }
+  }
+}

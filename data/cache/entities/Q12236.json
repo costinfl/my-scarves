@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "entity": {
+    "id": "Q12236",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3133,
+                "id": "Q3133"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Racing de Santander"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Racing de Santander"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.366944&lon=25.802917&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62529856,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":444298091,\"lat\":\"46.3668451\",\"lon\":\"25.8030069\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.329213397416675e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Stadion, Szúnyog negyed, Centru, Miercurea Ciuc, Harghita, 530223, România\",\"address\":{\"road\":\"Strada Stadion\",\"quarter\":\"Szúnyog negyed\",\"suburb\":\"Centru\",\"city\":\"Miercurea Ciuc\",\"county\":\"Harghita\",\"ISO3166-2-lvl4\":\"RO-HR\",\"postcode\":\"530223\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"46.3663594\",\"46.3673308\",\"25.8025239\",\"25.8034898\"]}",
+  "fetchedAt": "2026-10-10T10:43:46.317Z"
+}

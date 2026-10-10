@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.152967&lon=-3.595736&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":298137202,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":92417016,\"lat\":\"37.1529324\",\"lon\":\"-3.5957529\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.224612802314821e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Torre de Comares, Campus, Zaidín - Vergeles, Zaidín, Granada, Comarca de la Vega de Granada, Granada, Andalucía, 18007, España\",\"address\":{\"road\":\"Calle Torre de Comares\",\"neighbourhood\":\"Campus\",\"city_district\":\"Zaidín\",\"city\":\"Granada\",\"county\":\"Comarca de la Vega de Granada\",\"state_district\":\"Granada\",\"ISO3166-2-lvl6\":\"ES-GR\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"18007\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"37.1524162\",\"37.1534487\",\"-3.5962210\",\"-3.5952848\"]}",
+  "fetchedAt": "2026-10-10T10:59:12.898Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.533056&lon=26.259861&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60700693,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1242277211,\"lat\":\"44.5330147\",\"lon\":\"26.2598598\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.027008468752602e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Șoseaua Petrochioaia, Afumați, Ilfov, România\",\"address\":{\"road\":\"Șoseaua Petrochioaia\",\"village\":\"Afumați\",\"county\":\"Ilfov\",\"ISO3166-2-lvl4\":\"RO-IF\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.5324463\",\"44.5335824\",\"26.2591180\",\"26.2606027\"]}",
+  "fetchedAt": "2026-10-10T10:43:25.362Z"
+}

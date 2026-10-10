@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.885400&lon=-5.327900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":297550737,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":162848366,\"lat\":\"35.8854654\",\"lon\":\"-5.3279110\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.987945372697059e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Balompié, El Morro, Hadú, Ceuta, 51002, España\",\"address\":{\"road\":\"Calle Balompié\",\"neighbourhood\":\"El Morro\",\"suburb\":\"Hadú\",\"city\":\"Ceuta\",\"ISO3166-2-lvl4\":\"ES-CE\",\"postcode\":\"51002\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"35.8849075\",\"35.8860232\",\"-5.3285453\",\"-5.3272766\"]}",
+  "fetchedAt": "2026-10-10T10:58:47.554Z"
+}

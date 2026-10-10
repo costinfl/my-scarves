@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.761400&lon=22.913100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64489046,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":98180682,\"lat\":\"45.7616135\",\"lon\":\"22.9129783\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9488059815320323e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ștrand Corvina, Buituri, Hunedoara, 331039, România\",\"address\":{\"road\":\"Ștrand Corvina\",\"suburb\":\"Buituri\",\"city\":\"Hunedoara\",\"county\":\"Hunedoara\",\"ISO3166-2-lvl4\":\"RO-HD\",\"postcode\":\"331039\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.7610670\",\"45.7621599\",\"22.9123433\",\"22.9136134\"]}",
+  "fetchedAt": "2026-10-10T10:43:35.392Z"
+}

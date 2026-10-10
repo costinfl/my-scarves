@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.967597&lon=-1.853778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":294663557,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":140098936,\"lat\":\"38.9678785\",\"lon\":\"-1.8539742\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":0.2574973608523206,\"addresstype\":\"leisure\",\"name\":\"Ciudad Deportiva Andrés Iniesta\",\"display_name\":\"Ciudad Deportiva Andrés Iniesta, Camino de la Hoya de Tejedores, Urbanización Tiro Pichón, Universidad, Albacete, Castilla-La Mancha, 02006, España\",\"address\":{\"leisure\":\"Ciudad Deportiva Andrés Iniesta\",\"road\":\"Camino de la Hoya de Tejedores\",\"neighbourhood\":\"Urbanización Tiro Pichón\",\"suburb\":\"Universidad\",\"city\":\"Albacete\",\"province\":\"Albacete\",\"ISO3166-2-lvl6\":\"ES-AB\",\"state\":\"Castilla-La Mancha\",\"ISO3166-2-lvl4\":\"ES-CM\",\"postcode\":\"02006\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"38.9658909\",\"38.9697281\",\"-1.8557775\",\"-1.8521838\"]}",
+  "fetchedAt": "2026-10-10T10:59:09.596Z"
+}

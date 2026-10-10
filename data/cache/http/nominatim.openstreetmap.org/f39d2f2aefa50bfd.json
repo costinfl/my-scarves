@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.488167&lon=-0.302639&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":281587265,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1263088127,\"lat\":\"51.4875329\",\"lon\":\"-0.3024208\",\"category\":\"building\",\"type\":\"house\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"52, Braemar Road, Brentford, Greater London, England, TW8 0NS, United Kingdom\",\"address\":{\"house_number\":\"52\",\"road\":\"Braemar Road\",\"town\":\"Brentford\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"TW8 0NS\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4874858\",\"51.4875799\",\"-0.3024829\",\"-0.3023588\"]}",
+  "fetchedAt": "2026-10-10T10:57:52.612Z"
+}

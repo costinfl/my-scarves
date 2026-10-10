@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.453060&lon=-3.688350&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":293145032,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1446479375,\"lat\":\"40.4530575\",\"lon\":\"-3.6883544\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.580834668493199e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida de Concha Espina, El Viso, Chamartín, Madrid, Comunidad de Madrid, 28020, España\",\"address\":{\"road\":\"Avenida de Concha Espina\",\"quarter\":\"El Viso\",\"suburb\":\"Chamartín\",\"city\":\"Madrid\",\"state\":\"Comunidad de Madrid\",\"ISO3166-2-lvl4\":\"ES-MD\",\"postcode\":\"28020\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"40.4525742\",\"40.4535429\",\"-3.6888082\",\"-3.6879004\"]}",
+  "fetchedAt": "2026-10-10T10:59:23.905Z"
+}

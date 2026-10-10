@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:02.490Z",
+  "entity": {
+    "id": "Q18747",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 10859033,
+                "id": "Q10859033"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "West Ham United F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "West Ham United F.C."
+      }
+    }
+  }
+}

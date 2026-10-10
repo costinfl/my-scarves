@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.266944&lon=-0.663333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":294710905,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":79833561,\"lat\":\"38.2670604\",\"lon\":\"-0.6633292\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.46913862820938e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Carrer Almagro, Camp de Futbol, Urbanització Les Atzavares, Elx / Elche, el Baix Vinalopó, Alacant / Alicante, Comunitat Valenciana, 03202, España\",\"address\":{\"road\":\"Carrer Almagro\",\"neighbourhood\":\"Camp de Futbol\",\"suburb\":\"Urbanització Les Atzavares\",\"city\":\"Elx / Elche\",\"county\":\"el Baix Vinalopó\",\"state_district\":\"Alacant / Alicante\",\"ISO3166-2-lvl6\":\"ES-A\",\"state\":\"Comunitat Valenciana\",\"ISO3166-2-lvl4\":\"ES-VC\",\"postcode\":\"03202\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"38.2665351\",\"38.2675855\",\"-0.6637983\",\"-0.6628602\"]}",
+  "fetchedAt": "2026-10-10T10:59:05.169Z"
+}

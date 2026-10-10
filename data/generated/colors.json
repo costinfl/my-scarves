@@ -1,0 +1,586 @@
+{
+  "Q2714": {
+    "primary": "#FFFF00",
+    "secondary": "#000000",
+    "names": [
+      "yellow",
+      "black",
+      "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q5794": {
+    "primary": "#002366",
+    "names": [
+      "royal blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q7156": {
+    "primary": "#0000FF",
+    "secondary": "#FF0000",
+    "names": [
+      "blue",
+      "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q8682": {
+    "primary": "#FFFFFF",
+    "secondary": "#800080",
+    "names": [
+      "white",
+      "purple"
+    ],
+    "source": "wikidata"
+  },
+  "Q8687": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q8701": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q8749": {
+    "primary": "#FF0000",
+    "secondary": "#92E9E9",
+    "source": "auto"
+  },
+  "Q8780": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q8806": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q8835": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q8857": {
+    "primary": "#77B5FE",
+    "secondary": "#FFFFFF",
+    "names": [
+      "sky blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q9616": {
+    "primary": "#002366",
+    "names": [
+      "royal blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q9617": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q9653": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q10308": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q10315": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q10319": {
+    "primary": "#800080",
+    "names": [
+      "purple"
+    ],
+    "source": "wikidata"
+  },
+  "Q10329": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q10333": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black",
+      "orange"
+    ],
+    "source": "wikidata"
+  },
+  "Q10512": {
+    "primary": "#FFFFFF",
+    "secondary": "#00FF00",
+    "names": [
+      "white",
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q12236": {
+    "primary": "#00FF00",
+    "names": [
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q12278": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q12297": {
+    "primary": "#FFFF00",
+    "names": [
+      "yellow"
+    ],
+    "source": "wikidata"
+  },
+  "Q18529": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white",
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q18656": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q18659": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q18661": {
+    "primary": "#FF0000",
+    "names": [
+      "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q18662": {
+    "primary": "#0000FF",
+    "names": [
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q18708": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q18711": {
+    "primary": "#800032",
+    "secondary": "#77B5FE",
+    "names": [
+      "bordeaux",
+      "sky blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q18716": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q18721": {
+    "primary": "#FFFF00",
+    "secondary": "#00FF00",
+    "names": [
+      "yellow",
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q18723": {
+    "primary": "#FFFFFF",
+    "secondary": "#0000FF",
+    "names": [
+      "white",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q18732": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q18736": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q18739": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q18741": {
+    "primary": "#FFFFFF",
+    "secondary": "#0000FF",
+    "names": [
+      "white",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q18744": {
+    "primary": "#FFFFFF",
+    "secondary": "#0000FF",
+    "names": [
+      "white",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q18747": {
+    "primary": "#800032",
+    "names": [
+      "bordeaux"
+    ],
+    "source": "wikidata"
+  },
+  "Q19444": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19446": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white",
+      "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q19451": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF0000",
+    "names": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q19453": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19456": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q19458": {
+    "primary": "#800032",
+    "secondary": "#0000FF",
+    "names": [
+      "bordeaux",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q19462": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19467": {
+    "primary": "#FF0000",
+    "secondary": "#0000FF",
+    "names": [
+      "red",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q19470": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q19477": {
+    "primary": "#FFBF00",
+    "secondary": "#000000",
+    "names": [
+      "amber",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q19487": {
+    "primary": "#000080",
+    "secondary": "#FFFFFF",
+    "names": [
+      "navy blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19490": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19500": {
+    "primary": "#FFD700",
+    "secondary": "#000000",
+    "names": [
+      "gold",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q19568": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q19571": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19580": {
+    "primary": "#77B5FE",
+    "names": [
+      "sky blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q19604": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white",
+      "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q19607": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q19612": {
+    "primary": "#FFFFFF",
+    "names": [
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q50602": {
+    "primary": "#77B5FE",
+    "secondary": "#FFFFFF",
+    "names": [
+      "sky blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q204237": {
+    "primary": "#FE0000",
+    "secondary": "#F5BE19",
+    "source": "auto"
+  },
+  "Q216661": {
+    "primary": "#FEFEFE",
+    "secondary": "#0234A2",
+    "source": "auto"
+  },
+  "Q271574": {
+    "primary": "#0000FF",
+    "names": [
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q743557": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q753462": {
+    "primary": "#010101",
+    "secondary": "#FFFFFF",
+    "source": "auto"
+  },
+  "Q841245": {
+    "primary": "#800080",
+    "names": [
+      "purple"
+    ],
+    "source": "wikidata"
+  },
+  "Q1128631": {
+    "primary": "#FFFFFF",
+    "secondary": "#FFFF00",
+    "names": [
+      "white",
+      "yellow",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q1130849": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q1386854": {
+    "primary": "#FFFF00",
+    "secondary": "#FF0000",
+    "names": [
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "source": "wikidata"
+  }
+}

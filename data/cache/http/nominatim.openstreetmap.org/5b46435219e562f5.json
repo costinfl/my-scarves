@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.502778&lon=-6.273056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":295764991,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1434618711,\"lat\":\"36.5026087\",\"lon\":\"-6.2729408\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.066529335465046e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida de la Sanidad Pública, Loreto, Cádiz, Bahía de Cádiz, Cádiz, Andalucía, 11010, España\",\"address\":{\"road\":\"Avenida de la Sanidad Pública\",\"suburb\":\"Loreto\",\"city\":\"Cádiz\",\"county\":\"Bahía de Cádiz\",\"state_district\":\"Cádiz\",\"ISO3166-2-lvl6\":\"ES-CA\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"11010\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"36.5020391\",\"36.5031782\",\"-6.2735321\",\"-6.2723496\"]}",
+  "fetchedAt": "2026-10-10T10:58:55.260Z"
+}

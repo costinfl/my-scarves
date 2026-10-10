@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:02.490Z",
+  "entity": {
+    "id": "Q204237",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Dinamo București - logo 2026.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Dinamo București"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Dinamo Bucharest"
+      }
+    }
+  }
+}

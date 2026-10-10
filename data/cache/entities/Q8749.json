@@ -1,0 +1,46 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.115Z",
+  "entity": {
+    "id": "Q8749",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Escudo RC Celta de Vigo.svg"
+            }
+          }
+        }
+      ],
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60A7FF"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "RC Celta de Vigo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "RC Celta de Vigo"
+      }
+    }
+  }
+}

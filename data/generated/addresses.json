@@ -1,0 +1,486 @@
+{
+  "Q10626": {
+    "text": "Yellow Brick Road, WD18 0LX Watford",
+    "osmUrl": "https://www.openstreetmap.org/way/158264546"
+  },
+  "Q16822": {
+    "text": "Avenida Ingeniero Sáenz de Miera, 24004 León",
+    "osmUrl": "https://www.openstreetmap.org/way/617595128"
+  },
+  "Q22130": {
+    "text": "Rúa Manuel Murguía, 15011 A Coruña",
+    "osmUrl": "https://www.openstreetmap.org/way/34237294"
+  },
+  "Q31670": {
+    "text": "South Africa Road, W12 7PA London",
+    "osmUrl": "https://www.openstreetmap.org/node/13123903837"
+  },
+  "Q31678": {
+    "text": "Halfords Lane, B71 4LD Smethwick",
+    "osmUrl": "https://www.openstreetmap.org/way/866670500"
+  },
+  "Q31969": {
+    "text": "Vaux Brewery Way, SR5 1SU Sunderland",
+    "osmUrl": "https://www.openstreetmap.org/way/34334251"
+  },
+  "Q45671": {
+    "text": "Kemlyn Road, L4 0RQ Liverpool",
+    "osmUrl": "https://www.openstreetmap.org/way/124589354"
+  },
+  "Q48159": {
+    "text": "Joe Mercer Way, M11 3FF Manchester",
+    "osmUrl": "https://www.openstreetmap.org/node/11488261768"
+  },
+  "Q74413": {
+    "text": "Aleea Stadionului, 400376 Cluj-Napoca",
+    "osmUrl": "https://www.openstreetmap.org/node/7977397593"
+  },
+  "Q83457": {
+    "text": "Munich Tunnel, M32 0RZ Stretford",
+    "osmUrl": "https://www.openstreetmap.org/way/165256230"
+  },
+  "Q121879": {
+    "text": "Calle José Ramón García Fernández, 14010 Córdoba",
+    "osmUrl": "https://www.openstreetmap.org/way/43111654"
+  },
+  "Q123017": {
+    "text": "Carrow Road, NR1 1JE Norwich",
+    "osmUrl": "https://www.openstreetmap.org/way/80916491"
+  },
+  "Q126844": {
+    "text": "Avenida Padre García Tejero, 41012 Sevilla",
+    "osmUrl": "https://www.openstreetmap.org/way/28354947"
+  },
+  "Q151816": {
+    "text": "Avenida del Real Valladolid, 47016 Valladolid",
+    "osmUrl": "https://www.openstreetmap.org/way/186188240"
+  },
+  "Q159848": {
+    "text": "Avinguda de Joan XXIII, 08028 Barcelona",
+    "osmUrl": "https://www.openstreetmap.org/way/35815805"
+  },
+  "Q163995": {
+    "text": "Queensland Road, N7 7FF London",
+    "osmUrl": "https://www.openstreetmap.org/node/12911511109"
+  },
+  "Q164027": {
+    "text": "Avenida de Concha Espina, 28020 Madrid",
+    "osmUrl": "https://www.openstreetmap.org/way/1446479375"
+  },
+  "Q171458": {
+    "text": "Bovril Gate, SW6 1EB London",
+    "osmUrl": "https://www.openstreetmap.org/node/12911276474"
+  },
+  "Q172190": {
+    "text": "Marathon Ramp, E20 2ST London",
+    "osmUrl": "https://www.openstreetmap.org/node/12595873319"
+  },
+  "Q175339": {
+    "text": "Witton Lane, B6 6QZ Nechells",
+    "osmUrl": "https://www.openstreetmap.org/way/124420181"
+  },
+  "Q182864": {
+    "text": "Rafael Moreno Pitxitxi pasealekua, 48014 Bilbao",
+    "osmUrl": "https://www.openstreetmap.org/way/650817046"
+  },
+  "Q191774": {
+    "text": "Leazes Terrace, NE1 4LY Newcastle upon Tyne",
+    "osmUrl": "https://www.openstreetmap.org/way/89176972"
+  },
+  "Q195391": {
+    "text": "Calle del Real Racing Club, 39005 Cueto",
+    "osmUrl": "https://www.openstreetmap.org/way/181850130"
+  },
+  "Q201612": {
+    "text": "Derwent Parade, DE24 8LZ Derby",
+    "osmUrl": "https://www.openstreetmap.org/way/58124726"
+  },
+  "Q202762": {
+    "text": "Avinguda de Suècia, 46021 València",
+    "osmUrl": "https://www.openstreetmap.org/way/24044927"
+  },
+  "Q242772": {
+    "text": "Burnden Way, BL6 6RQ Horwich",
+    "osmUrl": "https://www.openstreetmap.org/way/124551964"
+  },
+  "Q245085": {
+    "text": "Nuttall Street, BB2 4JQ Blackburn",
+    "osmUrl": "https://www.openstreetmap.org/way/55814762"
+  },
+  "Q255447": {
+    "text": "Avenida de San Sebastián, 38005 Santa Cruz de Tenerife",
+    "osmUrl": "https://www.openstreetmap.org/way/634661074"
+  },
+  "Q264581": {
+    "text": "Carrer d'Osca, 12004 Castelló de la Plana / Castellón de la Plana",
+    "osmUrl": "https://www.openstreetmap.org/way/218993859"
+  },
+  "Q275429": {
+    "text": "Calle Sevilla Futbol Club, 41018 Sevilla",
+    "osmUrl": "https://www.openstreetmap.org/way/22742144"
+  },
+  "Q276163": {
+    "text": "Camí dels Reis, 07013 Palma",
+    "osmUrl": "https://www.openstreetmap.org/way/27263830"
+  },
+  "Q318043": {
+    "text": "Stevenage Road, SW6 6PR London",
+    "osmUrl": "https://www.openstreetmap.org/node/12911495853"
+  },
+  "Q338602": {
+    "text": "Strada Sergent Șerbănică Vasile, 022172 București",
+    "osmUrl": "https://www.openstreetmap.org/way/453563312"
+  },
+  "Q380823": {
+    "text": "Molineux Street, WV1 1SG Park Village",
+    "osmUrl": "https://www.openstreetmap.org/way/124646598"
+  },
+  "Q473223": {
+    "text": "Splau parking, 08820 el Prat de Llobregat",
+    "osmUrl": "https://www.openstreetmap.org/way/111793518"
+  },
+  "Q500922": {
+    "text": "Stanley Matthews Way, ST4 4TL Fenton",
+    "osmUrl": "https://www.openstreetmap.org/way/124603905"
+  },
+  "Q567339": {
+    "text": "Melbourne Street, SO14 5FB Southampton",
+    "osmUrl": "https://www.openstreetmap.org/way/497396512"
+  },
+  "Q574565": {
+    "text": "Calle Torre de Comares, 18007 Granada",
+    "osmUrl": "https://www.openstreetmap.org/way/92417016"
+  },
+  "Q580480": {
+    "text": "Brunel Way, SA1 5JR Swansea",
+    "osmUrl": "https://www.openstreetmap.org/node/11469196866"
+  },
+  "Q593446": {
+    "text": "Trentside North, NG2 5FA West Bridgford",
+    "osmUrl": "https://www.openstreetmap.org/way/16901197"
+  },
+  "Q619094": {
+    "text": "Middleton Gardens, BH7 7BT Bournemouth",
+    "osmUrl": "https://www.openstreetmap.org/way/632607160"
+  },
+  "Q619105": {
+    "text": "Cross Street, LN5 8LD Lincoln",
+    "osmUrl": "https://www.openstreetmap.org/way/202195482"
+  },
+  "Q619409": {
+    "text": "Village Way, BN1 9BL Brighton",
+    "osmUrl": "https://www.openstreetmap.org/way/28537290"
+  },
+  "Q619505": {
+    "text": "Elland Road, LS11 0ES Leeds",
+    "osmUrl": "https://www.openstreetmap.org/node/12058421870"
+  },
+  "Q619531": {
+    "text": "Frogmore Road, PO4 8FR Portsmouth",
+    "osmUrl": "https://www.openstreetmap.org/way/193897004"
+  },
+  "Q619558": {
+    "text": "Sir Alf Ramsey Way, IP1 2EB Ipswich",
+    "osmUrl": "https://www.openstreetmap.org/way/27771023"
+  },
+  "Q630160": {
+    "text": "The Circle, HU3 6HU Hull",
+    "osmUrl": "https://www.openstreetmap.org/node/12058432570"
+  },
+  "Q683112": {
+    "text": "Harry Potts Way, BB10 4AX Burnley",
+    "osmUrl": "https://www.openstreetmap.org/way/52344832"
+  },
+  "Q695879": {
+    "text": "Avenida de la Palmilla, 29011 Málaga",
+    "osmUrl": "https://www.openstreetmap.org/way/146539044"
+  },
+  "Q726370": {
+    "text": "Ashton Road, BS3 2EQ Bristol",
+    "osmUrl": "https://www.openstreetmap.org/way/128617880"
+  },
+  "Q735783": {
+    "text": "Sadar kalea, 31006 Pamplona / Iruña",
+    "osmUrl": "https://www.openstreetmap.org/way/264079724"
+  },
+  "Q741157": {
+    "text": "Carrer Blasco Ibáñez, 12540 Vila-real",
+    "osmUrl": "https://www.openstreetmap.org/way/464618828"
+  },
+  "Q819179": {
+    "text": "South Holme, B9 4PT Saltley",
+    "osmUrl": "https://www.openstreetmap.org/way/141823607"
+  },
+  "Q822886": {
+    "text": "The Leeway, TS3 6RS Middlesbrough",
+    "osmUrl": "https://www.openstreetmap.org/way/554223289"
+  },
+  "Q842077": {
+    "text": "Rowleys Green Lane, CV6 6AQ Coventry",
+    "osmUrl": "https://www.openstreetmap.org/way/31991381"
+  },
+  "Q867902": {
+    "text": "Ffordd Fred Keenor, CF11 8ER Cardiff",
+    "osmUrl": "https://www.openstreetmap.org/way/191648566"
+  },
+  "Q897533": {
+    "text": "John Street, S2 4QX Sheffield",
+    "osmUrl": "https://www.openstreetmap.org/way/137553004"
+  },
+  "Q908481": {
+    "text": "Millwall Path, SE16 3LN London",
+    "osmUrl": "https://www.openstreetmap.org/way/1340783812"
+  },
+  "Q917845": {
+    "text": "Anoeta pasealekua, 20011 Donostia / San Sebastián",
+    "osmUrl": "https://www.openstreetmap.org/way/38622725"
+  },
+  "Q929109": {
+    "text": "Avenida Teresa de Calcuta, 28903 Getafe",
+    "osmUrl": "https://www.openstreetmap.org/way/118386524"
+  },
+  "Q929315": {
+    "text": "Calle Enrique Castro González 'Quini', 33203 Gijón",
+    "osmUrl": "https://www.openstreetmap.org/way/14889422"
+  },
+  "Q953600": {
+    "text": "Carrer Almagro, 03202 Elx / Elche",
+    "osmUrl": "https://www.openstreetmap.org/way/79833561"
+  },
+  "Q958319": {
+    "text": "Harvey Gardens, SE7 8SR London",
+    "osmUrl": "https://www.openstreetmap.org/way/104042498"
+  },
+  "Q979112": {
+    "text": "Calle José Luis Sáez, 24400 Compostilla",
+    "osmUrl": "https://www.openstreetmap.org/way/291406498"
+  },
+  "Q983806": {
+    "text": "Avenida de la Albufera, 28038 Madrid",
+    "osmUrl": "https://www.openstreetmap.org/way/28049445"
+  },
+  "Q991419": {
+    "text": "Calle Fondos del Segura, 35013 Las Palmas de Gran Canaria",
+    "osmUrl": "https://www.openstreetmap.org/way/838329851"
+  },
+  "Q1066373": {
+    "text": "Park Road, SE25 6QX London",
+    "osmUrl": "https://www.openstreetmap.org/node/13360409433"
+  },
+  "Q1122715": {
+    "text": "Carrer de Manuel Azaña, 46019 València",
+    "osmUrl": "https://www.openstreetmap.org/way/549557291"
+  },
+  "Q1130617": {
+    "text": "Calle Acebo, 04006 Almería",
+    "osmUrl": "https://www.openstreetmap.org/way/27197904"
+  },
+  "Q1141958": {
+    "text": "Alan Kelly Walk, PR1 6SB Preston",
+    "osmUrl": "https://www.openstreetmap.org/way/4920231"
+  },
+  "Q1158963": {
+    "text": "Strada Ștefan Covaci, 300736 Timișoara",
+    "osmUrl": "https://www.openstreetmap.org/way/428867777"
+  },
+  "Q1202579": {
+    "text": "Mold Road, LL11 2AF Stansty",
+    "osmUrl": "https://www.openstreetmap.org/way/204159308"
+  },
+  "Q1226240": {
+    "text": "Calea Floreasca, 014461 București",
+    "osmUrl": "https://www.openstreetmap.org/way/427813551"
+  },
+  "Q1253767": {
+    "text": "Strada Romulus Vuia, 400220 Cluj-Napoca",
+    "osmUrl": "https://www.openstreetmap.org/node/6208050952"
+  },
+  "Q1326578": {
+    "text": "Avenida do Fragoso, 36210 Vigo",
+    "osmUrl": "https://www.openstreetmap.org/way/380374713"
+  },
+  "Q1369118": {
+    "text": "Avenida de España, 02008 Albacete",
+    "osmUrl": "https://www.openstreetmap.org/way/141428063"
+  },
+  "Q1369124": {
+    "text": "Avenida del Cantón, 30205 Cartagena",
+    "osmUrl": "https://www.openstreetmap.org/way/180837178"
+  },
+  "Q1369314": {
+    "text": "Calle Clavijo, 26002 Logroño",
+    "osmUrl": "https://www.openstreetmap.org/way/1476160799"
+  },
+  "Q1369390": {
+    "text": "Amadeo Garcia de Salazar plaza, 01007 Vitoria-Gasteiz",
+    "osmUrl": "https://www.openstreetmap.org/way/654203648"
+  },
+  "Q1369445": {
+    "text": "Calle Balompié, 51002 Ceuta",
+    "osmUrl": "https://www.openstreetmap.org/way/162848366"
+  },
+  "Q1369462": {
+    "text": "Calle Minería, 28913 Leganés",
+    "osmUrl": "https://www.openstreetmap.org/way/28668266"
+  },
+  "Q1369536": {
+    "text": "Calle José Tartiere, 33013 Oviedo",
+    "osmUrl": "https://www.openstreetmap.org/way/10610083"
+  },
+  "Q1369687": {
+    "text": "Avenida 26 de Abril, 28022 Madrid",
+    "osmUrl": "https://www.openstreetmap.org/way/4409945"
+  },
+  "Q1409157": {
+    "text": "Esplanada Stadion, 200003 Craiova",
+    "osmUrl": "https://www.openstreetmap.org/way/220474447"
+  },
+  "Q1546623": {
+    "text": "Braemar Road 52, TW8 0NS Brentford",
+    "osmUrl": "https://www.openstreetmap.org/way/1263088127"
+  },
+  "Q1888199": {
+    "text": "Strada Larisa, 060214 București",
+    "osmUrl": "https://www.openstreetmap.org/way/803611819"
+  },
+  "Q2097709": {
+    "text": "Carrer de la Universitat de Girona, 17003 Girona",
+    "osmUrl": "https://www.openstreetmap.org/way/32650923"
+  },
+  "Q2262973": {
+    "text": "Strada General Toma Dumitresc, 700471 Iași",
+    "osmUrl": "https://www.openstreetmap.org/way/1239845733"
+  },
+  "Q2301915": {
+    "text": "Avenida de la Sanidad Pública, 11010 Cádiz",
+    "osmUrl": "https://www.openstreetmap.org/way/1434618711"
+  },
+  "Q2607402": {
+    "text": "Strada Ștefan cel Mare, 077041 Chiajna",
+    "osmUrl": "https://www.openstreetmap.org/way/236835222"
+  },
+  "Q3121017": {
+    "text": "Strada Gheorghe Asachi, 800686 Galați",
+    "osmUrl": "https://www.openstreetmap.org/way/657733000"
+  },
+  "Q3274884": {
+    "text": "Intrarea L, 100172 Ploiești",
+    "osmUrl": "https://www.openstreetmap.org/way/636553998"
+  },
+  "Q3320428": {
+    "text": "Indalezio Ojanguren kalea 2, 20600 Eibar",
+    "osmUrl": "https://www.openstreetmap.org/node/624629230"
+  },
+  "Q3321211": {
+    "text": "Calle Dos de Mayo, 09004 Burgos",
+    "osmUrl": "https://www.openstreetmap.org/way/35805553"
+  },
+  "Q3327491": {
+    "text": "Estrada da Malata, 15402 Ferrol",
+    "osmUrl": "https://www.openstreetmap.org/way/152237180"
+  },
+  "Q4684229": {
+    "text": "Strada Octav Băncilă, 710006 Botoșani",
+    "osmUrl": "https://www.openstreetmap.org/way/277214092"
+  },
+  "Q6083752": {
+    "text": "Camino de la Hoya de Tejedores, 02006 Albacete",
+    "osmUrl": "https://www.openstreetmap.org/way/140098936"
+  },
+  "Q6271952": {
+    "text": "Strada Insulei, 540307 Târgu Mureș",
+    "osmUrl": "https://www.openstreetmap.org/way/1074583409"
+  },
+  "Q7596362": {
+    "text": "Șoseaua de Centură, 920093 Slobozia",
+    "osmUrl": "https://www.openstreetmap.org/way/527439560"
+  },
+  "Q7596363": {
+    "text": "Strada Universității, 720062 Suceava",
+    "osmUrl": "https://www.openstreetmap.org/way/378327383"
+  },
+  "Q7596399": {
+    "text": "Strada Frații Neumann, 310399 Arad",
+    "osmUrl": "https://www.openstreetmap.org/way/849731689"
+  },
+  "Q7596404": {
+    "text": "Strada Traian Lalescu, 410424 Oradea",
+    "osmUrl": "https://www.openstreetmap.org/way/433060015"
+  },
+  "Q7596412": {
+    "text": "Ștrand Corvina, 331039 Hunedoara",
+    "osmUrl": "https://www.openstreetmap.org/way/98180682"
+  },
+  "Q7596415": {
+    "text": "Strada Butovăț, 320003 Reșița",
+    "osmUrl": "https://www.openstreetmap.org/way/287504258"
+  },
+  "Q7596430": {
+    "text": "Splaiul Independenței, 240292 Poenari",
+    "osmUrl": "https://www.openstreetmap.org/way/98044866"
+  },
+  "Q7596436": {
+    "text": "Aleea Stadionului, 110001 Pitești",
+    "osmUrl": "https://www.openstreetmap.org/way/243200014"
+  },
+  "Q9008639": {
+    "text": "Garaioltza auzoa, 48196 Lezama",
+    "osmUrl": "https://www.openstreetmap.org/way/42279723"
+  },
+  "Q13580789": {
+    "text": "Strada Justiției, 130018 Târgoviște",
+    "osmUrl": "https://www.openstreetmap.org/way/41678415"
+  },
+  "Q14322671": {
+    "text": "Strada Traian Lalescu, 300223 Timișoara",
+    "osmUrl": "https://www.openstreetmap.org/way/154295262"
+  },
+  "Q18125598": {
+    "text": "Carrer de la Grau, AD500 Andorra la Vella",
+    "osmUrl": "https://www.openstreetmap.org/way/174919418"
+  },
+  "Q23051502": {
+    "text": "Strada Stadion, 530223 Miercurea Ciuc",
+    "osmUrl": "https://www.openstreetmap.org/way/444298091"
+  },
+  "Q24969855": {
+    "text": "Strada Elisabeta Lipă, 077190 Voluntari",
+    "osmUrl": "https://www.openstreetmap.org/way/357294983"
+  },
+  "Q25204592": {
+    "text": "Strada Stadionului, 520060 Sepsiszentgyörgy",
+    "osmUrl": "https://www.openstreetmap.org/way/255545575"
+  },
+  "Q25208720": {
+    "text": "Șoseaua Petrochioaia, Afumați",
+    "osmUrl": "https://www.openstreetmap.org/way/1242277211"
+  },
+  "Q26709118": {
+    "text": "Calle Heidelberg, 03600 Elda",
+    "osmUrl": "https://www.openstreetmap.org/way/301258659"
+  },
+  "Q29347805": {
+    "text": "Regent Road, L5 9TG Liverpool",
+    "osmUrl": "https://www.openstreetmap.org/way/1367633432"
+  },
+  "Q39047118": {
+    "text": "Bulevardul Mareșal Alexandru Averescu, 120262 Buzău",
+    "osmUrl": "https://www.openstreetmap.org/node/5500126222"
+  },
+  "Q55074091": {
+    "text": "Paxton Terrace, N17 0FH London",
+    "osmUrl": "https://www.openstreetmap.org/node/12595913181"
+  },
+  "Q97889239": {
+    "text": "Calea Giulești, 060276 București",
+    "osmUrl": "https://www.openstreetmap.org/way/859341021"
+  },
+  "Q135682568": {
+    "text": "Ronda de Boltaña, 50191 Zaragoza",
+    "osmUrl": "https://www.openstreetmap.org/way/1420887947"
+  },
+  "Q137918892": {
+    "text": "Calle de Luis Bermejo 3, 50009 Zaragoza",
+    "osmUrl": "https://www.openstreetmap.org/node/2353789092"
+  }
+}

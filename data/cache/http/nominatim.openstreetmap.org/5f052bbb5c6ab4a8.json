@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.961389&lon=2.828611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":83551029,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":32650923,\"lat\":\"41.9612047\",\"lon\":\"2.8283936\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.961547264815773e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Carrer de la Universitat de Girona, Disseminat de la Creu de Palau, Palau, Girona, Gironès, Girona, Catalunya, 17003, España\",\"address\":{\"road\":\"Carrer de la Universitat de Girona\",\"neighbourhood\":\"Disseminat de la Creu de Palau\",\"city\":\"Girona\",\"county\":\"Gironès\",\"state_district\":\"Girona\",\"ISO3166-2-lvl6\":\"ES-GI\",\"state\":\"Catalunya\",\"ISO3166-2-lvl4\":\"ES-CT\",\"postcode\":\"17003\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"41.9606336\",\"41.9617758\",\"2.8277548\",\"2.8290325\"]}",
+  "fetchedAt": "2026-10-10T10:59:11.796Z"
+}

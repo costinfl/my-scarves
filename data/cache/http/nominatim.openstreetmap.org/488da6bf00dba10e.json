@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.483056&lon=-2.200278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276936910,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":11488261768,\"lat\":\"53.4831612\",\"lon\":\"-2.2003758\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":7.817273212782509e-05,\"addresstype\":\"club\",\"name\":\"Manchester City Football Club\",\"display_name\":\"Manchester City Football Club, Joe Mercer Way, Bradford, Manchester, Greater Manchester, England, M11 3FF, United Kingdom\",\"address\":{\"club\":\"Manchester City Football Club\",\"road\":\"Joe Mercer Way\",\"suburb\":\"Bradford\",\"city\":\"Manchester\",\"ISO3166-2-lvl8\":\"GB-MAN\",\"state_district\":\"Greater Manchester\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"M11 3FF\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.4831112\",\"53.4832112\",\"-2.2004258\",\"-2.2003258\"]}",
+  "fetchedAt": "2026-10-10T10:58:17.953Z"
+}

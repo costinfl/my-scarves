@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.779678&lon=23.577247&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63521405,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":6208050952,\"lat\":\"46.7796841\",\"lon\":\"23.5775238\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":7.781872281982173e-05,\"addresstype\":\"club\",\"name\":\"CFR 1907 Cluj\",\"display_name\":\"CFR 1907 Cluj, Strada Romulus Vuia, Gruia, Cluj-Napoca, Zona Metropolitană Cluj, Cluj, 400220, România\",\"address\":{\"club\":\"CFR 1907 Cluj\",\"road\":\"Strada Romulus Vuia\",\"suburb\":\"Gruia\",\"city\":\"Cluj-Napoca\",\"municipality\":\"Zona Metropolitană Cluj\",\"county\":\"Cluj\",\"ISO3166-2-lvl4\":\"RO-CJ\",\"postcode\":\"400220\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"46.7796341\",\"46.7797341\",\"23.5774738\",\"23.5775738\"]}",
+  "fetchedAt": "2026-10-10T10:43:24.189Z"
+}

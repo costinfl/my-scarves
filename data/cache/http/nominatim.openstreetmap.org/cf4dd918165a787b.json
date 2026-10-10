@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.430236&lon=28.022378&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":61324593,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":657733000,\"lat\":\"45.4301526\",\"lon\":\"28.0222872\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.73006790264289e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Gheorghe Asachi, Țiglina 3, Galați, 800686, România\",\"address\":{\"road\":\"Strada Gheorghe Asachi\",\"suburb\":\"Țiglina 3\",\"city\":\"Galați\",\"county\":\"Galați\",\"ISO3166-2-lvl4\":\"RO-GL\",\"postcode\":\"800686\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.4296255\",\"45.4306798\",\"28.0217130\",\"28.0228614\"]}",
+  "fetchedAt": "2026-10-10T10:43:47.354Z"
+}

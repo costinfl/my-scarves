@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.748300&lon=26.651900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62429463,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":277214092,\"lat\":\"47.7482092\",\"lon\":\"26.6520814\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.135728999766564e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Octav Băncilă, Botoșani, 710006, România\",\"address\":{\"road\":\"Strada Octav Băncilă\",\"residential\":\"Botoșani\",\"city\":\"Botoșani\",\"county\":\"Botoșani\",\"ISO3166-2-lvl4\":\"RO-BT\",\"postcode\":\"710006\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"47.7475167\",\"47.7488801\",\"26.6514009\",\"26.6527527\"]}",
+  "fetchedAt": "2026-10-10T10:43:34.147Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.313889&lon=23.784167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63978639,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":220474447,\"lat\":\"44.3140245\",\"lon\":\"23.7842865\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.824673838402407e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Esplanada Stadion, Catargiu, Craiova, Zona Metropolitană Craiova, Dolj, 200003, România\",\"address\":{\"road\":\"Esplanada Stadion\",\"suburb\":\"Catargiu\",\"city\":\"Craiova\",\"municipality\":\"Zona Metropolitană Craiova\",\"county\":\"Dolj\",\"ISO3166-2-lvl4\":\"RO-DJ\",\"postcode\":\"200003\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.3134498\",\"44.3145991\",\"23.7836607\",\"23.7849123\"]}",
+  "fetchedAt": "2026-10-10T10:43:27.521Z"
+}

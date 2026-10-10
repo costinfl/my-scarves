@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:02.490Z",
+  "entity": {
+    "id": "Q271574",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Real Oviedo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Real Oviedo"
+      }
+    }
+  }
+}

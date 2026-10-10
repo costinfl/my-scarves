@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.975556&lon=-1.621667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275836213,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":89176972,\"lat\":\"54.9755099\",\"lon\":\"-1.6216027\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.204776073849115e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Leazes Terrace, Grainger Town, Newcastle upon Tyne, Tyne and Wear, North East, England, NE1 4LY, United Kingdom\",\"address\":{\"road\":\"Leazes Terrace\",\"suburb\":\"Grainger Town\",\"city\":\"Newcastle upon Tyne\",\"ISO3166-2-lvl8\":\"GB-NET\",\"county\":\"Tyne and Wear\",\"state_district\":\"North East\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"NE1 4LY\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.9748784\",\"54.9761414\",\"-1.6225786\",\"-1.6206268\"]}",
+  "fetchedAt": "2026-10-10T10:58:22.361Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.481667&lon=-0.191111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":280563692,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12911276474,\"lat\":\"51.4817222\",\"lon\":\"-0.1909550\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"club\",\"name\":\"Chelsea F.C.\",\"display_name\":\"Chelsea F.C., Bovril Gate, Wandon Estate, Fulham, London Borough of Hammersmith and Fulham, Greater London, England, SW6 1EB, United Kingdom\",\"address\":{\"club\":\"Chelsea F.C.\",\"road\":\"Bovril Gate\",\"neighbourhood\":\"Wandon Estate\",\"suburb\":\"Fulham\",\"city_district\":\"London Borough of Hammersmith and Fulham\",\"ISO3166-2-lvl8\":\"GB-HMF\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"SW6 1EB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4816722\",\"51.4817722\",\"-0.1910050\",\"-0.1909050\"]}",
+  "fetchedAt": "2026-10-10T10:57:59.212Z"
+}

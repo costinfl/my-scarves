@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.940000&lon=-1.132778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276691845,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":16901197,\"lat\":\"52.9399387\",\"lon\":\"-1.1328867\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.124513618672492e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Trentside North, Abbey Park, West Bridgford, Rushcliffe, Nottinghamshire, East Midlands, England, NG2 5FA, United Kingdom\",\"address\":{\"road\":\"Trentside North\",\"suburb\":\"Abbey Park\",\"town\":\"West Bridgford\",\"city\":\"Rushcliffe\",\"county\":\"Nottinghamshire\",\"ISO3166-2-lvl6\":\"GB-NTT\",\"state_district\":\"East Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"NG2 5FA\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.9394763\",\"52.9404010\",\"-1.1337898\",\"-1.1319835\"]}",
+  "fetchedAt": "2026-10-10T10:58:24.559Z"
+}

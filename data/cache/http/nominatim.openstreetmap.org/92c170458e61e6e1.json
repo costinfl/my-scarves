@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.475703&lon=-1.868189&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":278323557,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":141823607,\"lat\":\"52.4757097\",\"lon\":\"-1.8681377\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.734416723883447e-05,\"addresstype\":\"leisure\",\"name\":\"Birmingham City Football Club\",\"display_name\":\"Birmingham City Football Club, South Holme, Bordesley, Saltley, Birmingham, West Midlands, England, B9 4PT, United Kingdom\",\"address\":{\"leisure\":\"Birmingham City Football Club\",\"road\":\"South Holme\",\"suburb\":\"Bordesley\",\"village\":\"Saltley\",\"city\":\"Birmingham\",\"ISO3166-2-lvl8\":\"GB-BIR\",\"state_district\":\"West Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"B9 4PT\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.4752826\",\"52.4761368\",\"-1.8690230\",\"-1.8672523\"]}",
+  "fetchedAt": "2026-10-10T10:57:49.306Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.549722&lon=24.545833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62704508,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1074583409,\"lat\":\"46.5496280\",\"lon\":\"24.5458263\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.701075761039166e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Insulei, Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, 540307, România\",\"address\":{\"road\":\"Strada Insulei\",\"city\":\"Târgu Mureș\",\"municipality\":\"Zona Metropolitană Târgu Mureș\",\"county\":\"Mureș\",\"ISO3166-2-lvl4\":\"RO-MS\",\"postcode\":\"540307\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"46.5490185\",\"46.5502441\",\"24.5450768\",\"24.5466223\"]}",
+  "fetchedAt": "2026-10-10T10:43:23.575Z"
+}

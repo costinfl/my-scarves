@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.440000&lon=-2.620278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":283135731,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":128617880,\"lat\":\"51.4401124\",\"lon\":\"-2.6203466\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.397650110623357e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ashton Road, Bower Ashton, Ashton Gate, Bristol, City of Bristol, West of England, England, BS3 2EQ, United Kingdom\",\"address\":{\"road\":\"Ashton Road\",\"neighbourhood\":\"Bower Ashton\",\"suburb\":\"Ashton Gate\",\"city\":\"Bristol\",\"county\":\"City of Bristol\",\"ISO3166-2-lvl6\":\"GB-BST\",\"state_district\":\"West of England\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"BS3 2EQ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4395023\",\"51.4407224\",\"-2.6211860\",\"-2.6195072\"]}",
+  "fetchedAt": "2026-10-10T10:57:54.814Z"
+}

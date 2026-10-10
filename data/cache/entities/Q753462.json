@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.115Z",
+  "entity": {
+    "id": "Q753462",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo Universitatea Cluj.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Universitatea Cluj"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Universitatea Cluj"
+      }
+    }
+  }
+}

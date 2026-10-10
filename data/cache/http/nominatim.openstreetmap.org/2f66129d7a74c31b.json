@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.071944&lon=21.930000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62780548,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":433060015,\"lat\":\"47.0720079\",\"lon\":\"21.9300978\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.85015640496989e-05,\"addresstype\":\"leisure\",\"name\":\"Stadionul Iuliu Bodola\",\"display_name\":\"Stadionul Iuliu Bodola, Strada Traian Lalescu, Olosig, Oradea, Zona Metropolitană Oradea, Bihor, 410424, România\",\"address\":{\"leisure\":\"Stadionul Iuliu Bodola\",\"road\":\"Strada Traian Lalescu\",\"suburb\":\"Olosig\",\"city\":\"Oradea\",\"municipality\":\"Zona Metropolitană Oradea\",\"county\":\"Bihor\",\"ISO3166-2-lvl4\":\"RO-BH\",\"postcode\":\"410424\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"47.0714156\",\"47.0726002\",\"21.9293849\",\"21.9308106\"]}",
+  "fetchedAt": "2026-10-10T10:43:33.072Z"
+}

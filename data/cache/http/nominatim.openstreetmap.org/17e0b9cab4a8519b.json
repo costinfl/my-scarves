@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.485833&lon=-0.050833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":280295263,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1340783812,\"lat\":\"51.4859431\",\"lon\":\"-0.0508954\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Millwall Path, New Cross Gate, London Borough of Lewisham, Greater London, England, SE16 3LN, United Kingdom\",\"address\":{\"road\":\"Millwall Path\",\"suburb\":\"New Cross Gate\",\"city_district\":\"London Borough of Lewisham\",\"ISO3166-2-lvl8\":\"GB-LEW\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"SE16 3LN\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4853915\",\"51.4864945\",\"-0.0517770\",\"-0.0500137\"]}",
+  "fetchedAt": "2026-10-10T10:58:21.257Z"
+}

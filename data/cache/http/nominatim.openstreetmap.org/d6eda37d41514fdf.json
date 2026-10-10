@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.494722&lon=-0.364167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":294490679,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":549557291,\"lat\":\"39.4946783\",\"lon\":\"-0.3638281\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.688792248412325e-05,\"addresstype\":\"leisure\",\"name\":\"Estadi Ciutat de València\",\"display_name\":\"Estadi Ciutat de València, Carrer de Manuel Azaña, Sant Llorenç, Rascanya, València, Comarca de València, València / Valencia, Comunitat Valenciana, 46019, España\",\"address\":{\"leisure\":\"Estadi Ciutat de València\",\"road\":\"Carrer de Manuel Azaña\",\"neighbourhood\":\"Sant Llorenç\",\"suburb\":\"Rascanya\",\"city\":\"València\",\"county\":\"Comarca de València\",\"state_district\":\"València / Valencia\",\"ISO3166-2-lvl6\":\"ES-V\",\"state\":\"Comunitat Valenciana\",\"ISO3166-2-lvl4\":\"ES-VC\",\"postcode\":\"46019\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"39.4941433\",\"39.4952134\",\"-0.3643699\",\"-0.3632864\"]}",
+  "fetchedAt": "2026-10-10T10:59:13.997Z"
+}

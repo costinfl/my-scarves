@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.772222&lon=-2.688056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277012243,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":4920231,\"lat\":\"53.7722034\",\"lon\":\"-2.6884626\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.417105363541645e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Alan Kelly Walk, Holme Slack, Deepdale, Preston, Lancashire, England, PR1 6SB, United Kingdom\",\"address\":{\"road\":\"Alan Kelly Walk\",\"neighbourhood\":\"Holme Slack\",\"suburb\":\"Deepdale\",\"city\":\"Preston\",\"county\":\"Lancashire\",\"ISO3166-2-lvl6\":\"GB-LAN\",\"state_district\":\"Lancashire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"PR1 6SB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.7716566\",\"53.7727343\",\"-2.6891323\",\"-2.6877981\"]}",
+  "fetchedAt": "2026-10-10T10:58:33.242Z"
+}

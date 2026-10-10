@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.430833&lon=-2.960833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275494147,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124589354,\"lat\":\"53.4308458\",\"lon\":\"-2.9608203\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.707560845345262e-05,\"addresstype\":\"leisure\",\"name\":\"Liverpool FC\",\"display_name\":\"Liverpool FC, Kemlyn Road, Anfield, Liverpool, Liverpool City Region, England, L4 0RQ, United Kingdom\",\"address\":{\"leisure\":\"Liverpool FC\",\"road\":\"Kemlyn Road\",\"suburb\":\"Anfield\",\"city\":\"Liverpool\",\"ISO3166-2-lvl8\":\"GB-LIV\",\"state_district\":\"Liverpool City Region\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"L4 0RQ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.4302969\",\"53.4313947\",\"-2.9617094\",\"-2.9599311\"]}",
+  "fetchedAt": "2026-10-10T10:58:16.858Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.491358&lon=-8.239274&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":288565865,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":152237180,\"lat\":\"43.4912165\",\"lon\":\"-8.2394059\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.31181811245444e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Estrada da Malata, Xoane, O Bosque, Serantes, Ferrol, A Coruña, Galicia, 15402, España\",\"address\":{\"road\":\"Estrada da Malata\",\"neighbourhood\":\"Xoane\",\"hamlet\":\"O Bosque\",\"suburb\":\"Serantes\",\"town\":\"Ferrol\",\"municipality\":\"Ferrol\",\"county\":\"Ferrol\",\"state_district\":\"A Coruña\",\"ISO3166-2-lvl6\":\"ES-C\",\"state\":\"Galicia\",\"ISO3166-2-lvl4\":\"ES-GA\",\"postcode\":\"15402\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"43.4907194\",\"43.4917136\",\"-8.2398714\",\"-8.2389404\"]}",
+  "fetchedAt": "2026-10-10T10:59:16.203Z"
+}

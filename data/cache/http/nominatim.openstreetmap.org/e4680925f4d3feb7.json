@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.931558&lon=25.462294&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60370023,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":41678415,\"lat\":\"44.9315361\",\"lon\":\"25.4623186\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.136339360642432e-05,\"addresstype\":\"leisure\",\"name\":\"Stadionul Municipal Eugen Popescu\",\"display_name\":\"Stadionul Municipal Eugen Popescu, Strada Justiției, Mircea cel Bătrân, Târgoviște, Dâmbovița, 130018, România\",\"address\":{\"leisure\":\"Stadionul Municipal Eugen Popescu\",\"road\":\"Strada Justiției\",\"suburb\":\"Mircea cel Bătrân\",\"city\":\"Târgoviște\",\"county\":\"Dâmbovița\",\"ISO3166-2-lvl4\":\"RO-DB\",\"postcode\":\"130018\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.9309762\",\"44.9321361\",\"25.4613575\",\"25.4631968\"]}",
+  "fetchedAt": "2026-10-10T10:43:14.568Z"
+}

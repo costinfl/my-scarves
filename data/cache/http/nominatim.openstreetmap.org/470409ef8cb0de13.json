@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.560600&lon=27.372700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60880240,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":527439560,\"lat\":\"44.5605411\",\"lon\":\"27.3727041\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7832455939528765e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Șoseaua de Centură, Slobozia, Ialomița, 920093, România\",\"address\":{\"road\":\"Șoseaua de Centură\",\"city\":\"Slobozia\",\"county\":\"Ialomița\",\"ISO3166-2-lvl4\":\"RO-IL\",\"postcode\":\"920093\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.5600411\",\"44.5610379\",\"27.3721729\",\"27.3732458\"]}",
+  "fetchedAt": "2026-10-10T10:43:41.814Z"
+}

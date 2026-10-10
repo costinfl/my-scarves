@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.391944&lon=-3.658961&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":290465465,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28049445,\"lat\":\"40.3918322\",\"lon\":\"-3.6585847\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.580834668493199e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida de la Albufera, Numancia, Puente de Vallecas, Madrid, Comunidad de Madrid, 28038, España\",\"address\":{\"road\":\"Avenida de la Albufera\",\"quarter\":\"Numancia\",\"suburb\":\"Puente de Vallecas\",\"city\":\"Madrid\",\"state\":\"Comunidad de Madrid\",\"ISO3166-2-lvl4\":\"ES-MD\",\"postcode\":\"28038\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"40.3913424\",\"40.3923220\",\"-3.6592831\",\"-3.6578864\"]}",
+  "fetchedAt": "2026-10-10T10:59:18.401Z"
+}

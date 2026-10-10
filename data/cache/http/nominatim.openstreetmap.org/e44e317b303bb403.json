@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.840000&lon=-2.435278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":294905168,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":27197904,\"lat\":\"36.8400364\",\"lon\":\"-2.4354481\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.779354543369218e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Acebo, La Goleta, Almería, Andalucía, 04006, España\",\"address\":{\"road\":\"Calle Acebo\",\"suburb\":\"La Goleta\",\"city\":\"Almería\",\"state_district\":\"Almería\",\"ISO3166-2-lvl6\":\"ES-AL\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"04006\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"36.8395031\",\"36.8405697\",\"-2.4358782\",\"-2.4350180\"]}",
+  "fetchedAt": "2026-10-10T10:59:44.055Z"
+}

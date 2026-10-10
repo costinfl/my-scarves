@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.861822&lon=-0.083278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":284114996,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28537290,\"lat\":\"50.8615471\",\"lon\":\"-0.0836931\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.5300251550534555,\"addresstype\":\"leisure\",\"name\":\"American Express Stadium\",\"display_name\":\"American Express Stadium, Village Way, Coldean, Brighton, Brighton and Hove, England, BN1 9BL, United Kingdom\",\"address\":{\"leisure\":\"American Express Stadium\",\"road\":\"Village Way\",\"suburb\":\"Coldean\",\"city\":\"Brighton\",\"county\":\"Brighton and Hove\",\"ISO3166-2-lvl6\":\"GB-BNH\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"BN1 9BL\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"50.8606622\",\"50.8624115\",\"-0.0851783\",\"-0.0822391\"]}",
+  "fetchedAt": "2026-10-10T10:57:53.712Z"
+}

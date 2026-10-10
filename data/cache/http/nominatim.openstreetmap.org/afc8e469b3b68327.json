@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.380833&lon=2.122778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":83825977,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35815805,\"lat\":\"41.3808928\",\"lon\":\"2.1228200\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.435721370255616e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avinguda de Joan XXIII, la Maternitat, la Maternitat i Sant Ramon, les Corts, Barcelona, Barcelonès, Barcelona, Catalunya, 08028, España\",\"address\":{\"road\":\"Avinguda de Joan XXIII\",\"neighbourhood\":\"la Maternitat\",\"quarter\":\"la Maternitat i Sant Ramon\",\"suburb\":\"les Corts\",\"city\":\"Barcelona\",\"county\":\"Barcelonès\",\"state_district\":\"Barcelona\",\"ISO3166-2-lvl6\":\"ES-B\",\"state\":\"Catalunya\",\"ISO3166-2-lvl4\":\"ES-CT\",\"postcode\":\"08028\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"41.3803393\",\"41.3814463\",\"2.1222082\",\"2.1234319\"]}",
+  "fetchedAt": "2026-10-10T10:59:07.394Z"
+}

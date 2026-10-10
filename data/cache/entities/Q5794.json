@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:02.490Z",
+  "entity": {
+    "id": "Q5794",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 953243,
+                "id": "Q953243"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Everton F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Everton F.C."
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.356403&lon=-5.981611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296566159,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28354947,\"lat\":\"37.3564812\",\"lon\":\"-5.9817114\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.680094605931209e-05,\"addresstype\":\"leisure\",\"name\":\"Estadio Benito Villamarín\",\"display_name\":\"Estadio Benito Villamarín, Avenida Padre García Tejero, Heliópolis, Distrito Bellavista-La Palmera, Sevilla, Andalucía, 41012, España\",\"address\":{\"leisure\":\"Estadio Benito Villamarín\",\"road\":\"Avenida Padre García Tejero\",\"neighbourhood\":\"Heliópolis\",\"suburb\":\"Distrito Bellavista-La Palmera\",\"city\":\"Sevilla\",\"province\":\"Sevilla\",\"ISO3166-2-lvl6\":\"ES-SE\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"41012\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"37.3559421\",\"37.3570240\",\"-5.9823057\",\"-5.9811196\"]}",
+  "fetchedAt": "2026-10-10T10:59:22.802Z"
+}

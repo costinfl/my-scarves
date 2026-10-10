@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.696Z",
+  "entity": {
+    "id": "Q5975887",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "000080"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Navy blue"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "navy blue"
+      }
+    }
+  }
+}

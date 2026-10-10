@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.580556&lon=-2.535556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276881247,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124551964,\"lat\":\"53.5805714\",\"lon\":\"-2.5356765\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.287098496981792e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Burnden Way, Middlebrook, Horwich, Bolton, Greater Manchester, England, BL6 6RQ, United Kingdom\",\"address\":{\"road\":\"Burnden Way\",\"suburb\":\"Middlebrook\",\"town\":\"Horwich\",\"city\":\"Bolton\",\"ISO3166-2-lvl8\":\"GB-BOL\",\"state_district\":\"Greater Manchester\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"BL6 6RQ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.5800428\",\"53.5811000\",\"-2.5365692\",\"-2.5347839\"]}",
+  "fetchedAt": "2026-10-10T10:57:51.509Z"
+}

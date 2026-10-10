@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.636611&lon=-0.901806&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":295033433,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2353789092,\"lat\":\"41.6382640\",\"lon\":\"-0.9014310\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.329137102307191e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"3, Calle de Luis Bermejo, Romareda, Universidad, Zaragoza, Aragón, 50009, España\",\"address\":{\"house_number\":\"3\",\"road\":\"Calle de Luis Bermejo\",\"suburb\":\"Romareda\",\"city_district\":\"Universidad\",\"city\":\"Zaragoza\",\"county\":\"Zaragoza\",\"state_district\":\"Zaragoza\",\"ISO3166-2-lvl6\":\"ES-Z\",\"state\":\"Aragón\",\"ISO3166-2-lvl4\":\"ES-AR\",\"postcode\":\"50009\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"41.6382140\",\"41.6383140\",\"-0.9014810\",\"-0.9013810\"]}",
+  "fetchedAt": "2026-10-10T10:59:36.351Z"
+}

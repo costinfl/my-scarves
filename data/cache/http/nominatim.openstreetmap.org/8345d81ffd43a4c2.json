@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.846675&lon=24.866422&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60474737,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":243200014,\"lat\":\"44.8466293\",\"lon\":\"24.8664256\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.364003967341143e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aleea Stadionului, Tancodrom, Banat, Pitești, Argeș, 110001, România\",\"address\":{\"road\":\"Aleea Stadionului\",\"quarter\":\"Tancodrom\",\"suburb\":\"Banat\",\"city\":\"Pitești\",\"county\":\"Argeș\",\"ISO3166-2-lvl4\":\"RO-AG\",\"postcode\":\"110001\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.8460676\",\"44.8471910\",\"24.8656223\",\"24.8672289\"]}",
+  "fetchedAt": "2026-10-10T10:43:31.894Z"
+}

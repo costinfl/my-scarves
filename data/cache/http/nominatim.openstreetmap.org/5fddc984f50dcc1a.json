@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.281700&lon=21.889700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64758121,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":287504258,\"lat\":\"45.2818811\",\"lon\":\"21.8893479\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.38850590600538054,\"addresstype\":\"leisure\",\"name\":\"Stadionul Mircea Chivu\",\"display_name\":\"Stadionul Mircea Chivu, Strada Butovăț, Valea Domanului, Reșița, Caraș-Severin, 320003, România\",\"address\":{\"leisure\":\"Stadionul Mircea Chivu\",\"road\":\"Strada Butovăț\",\"suburb\":\"Valea Domanului\",\"city\":\"Reșița\",\"county\":\"Caraș-Severin\",\"ISO3166-2-lvl4\":\"RO-CS\",\"postcode\":\"320003\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.2810574\",\"45.2826928\",\"21.8885434\",\"21.8901617\"]}",
+  "fetchedAt": "2026-10-10T10:43:30.875Z"
+}

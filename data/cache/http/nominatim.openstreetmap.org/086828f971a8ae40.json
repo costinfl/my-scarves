@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.746111&lon=-0.367778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277925432,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12058432570,\"lat\":\"53.7463842\",\"lon\":\"-0.3678108\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":6.891813534747871e-05,\"addresstype\":\"leisure\",\"name\":\"Hull City FC / Hull RLFC\",\"display_name\":\"Hull City FC / Hull RLFC, The Circle, Avenues, Hull, Kingston upon Hull, Hull and East Yorkshire, England, HU3 6HU, United Kingdom\",\"address\":{\"leisure\":\"Hull City FC / Hull RLFC\",\"road\":\"The Circle\",\"suburb\":\"Avenues\",\"city\":\"Hull\",\"county\":\"Kingston upon Hull\",\"ISO3166-2-lvl6\":\"GB-KHL\",\"state_district\":\"Hull and East Yorkshire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"HU3 6HU\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.7463342\",\"53.7464342\",\"-0.3678608\",\"-0.3677608\"]}",
+  "fetchedAt": "2026-10-10T10:58:12.462Z"
+}

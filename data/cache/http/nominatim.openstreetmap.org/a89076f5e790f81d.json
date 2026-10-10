@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.538611&lon=-0.016389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":281099493,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12595873319,\"lat\":\"51.5386706\",\"lon\":\"-0.0165177\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"club\",\"name\":\"West Ham United Football Club\",\"display_name\":\"West Ham United Football Club, Marathon Ramp, Stratford, London Borough of Newham, Greater London, England, E20 2ST, United Kingdom\",\"address\":{\"club\":\"West Ham United Football Club\",\"road\":\"Marathon Ramp\",\"suburb\":\"Stratford\",\"city_district\":\"London Borough of Newham\",\"ISO3166-2-lvl8\":\"GB-NWM\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"E20 2ST\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.5386206\",\"51.5387206\",\"-0.0165677\",\"-0.0164677\"]}",
+  "fetchedAt": "2026-10-10T10:58:44.258Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.103056&lon=24.352222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63248954,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":98044866,\"lat\":\"45.1030346\",\"lon\":\"24.3524361\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.219501029979427e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Splaiul Independenței, Centrul Istoric, Știrbei Vodă, Morilor, Poenari, Râmnicu Vâlcea, Vâlcea, 240292, România\",\"address\":{\"road\":\"Splaiul Independenței\",\"neighbourhood\":\"Centrul Istoric\",\"quarter\":\"Știrbei Vodă\",\"suburb\":\"Morilor\",\"village\":\"Poenari\",\"city\":\"Râmnicu Vâlcea\",\"county\":\"Vâlcea\",\"ISO3166-2-lvl4\":\"RO-VL\",\"postcode\":\"240292\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.1024823\",\"45.1035869\",\"24.3518656\",\"24.3530065\"]}",
+  "fetchedAt": "2026-10-10T10:43:48.471Z"
+}

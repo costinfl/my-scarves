@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.398333&lon=-0.085556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":281692427,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13360409433,\"lat\":\"51.3982855\",\"lon\":\"-0.0854194\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"club\",\"name\":\"Crystal Palace Football Club\",\"display_name\":\"Crystal Palace Football Club, Park Road, South Norwood, London Borough of Croydon, Greater London, England, SE25 6QX, United Kingdom\",\"address\":{\"club\":\"Crystal Palace Football Club\",\"road\":\"Park Road\",\"suburb\":\"South Norwood\",\"city_district\":\"London Borough of Croydon\",\"ISO3166-2-lvl8\":\"GB-CRY\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"SE25 6QX\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.3982355\",\"51.3983355\",\"-0.0854694\",\"-0.0853694\"]}",
+  "fetchedAt": "2026-10-10T10:58:01.415Z"
+}

@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.696Z",
+  "entity": {
+    "id": "Q953243",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "002366"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Royal blue"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "royal blue"
+      }
+    }
+  }
+}
