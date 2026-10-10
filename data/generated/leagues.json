@@ -1,0 +1,44 @@
+[
+  {
+    "qid": "Q9448",
+    "association": "ENG",
+    "tier": 1,
+    "label": "Premier League",
+    "participants": 20
+  },
+  {
+    "qid": "Q19510",
+    "association": "ENG",
+    "tier": 2,
+    "label": "EFL Championship",
+    "participants": 24
+  },
+  {
+    "qid": "Q324867",
+    "association": "ESP",
+    "tier": 1,
+    "label": "La Liga",
+    "participants": 20
+  },
+  {
+    "qid": "Q35615",
+    "association": "ESP",
+    "tier": 2,
+    "label": "LaLiga 2",
+    "participants": 22
+  },
+  {
+    "qid": "Q237753",
+    "association": "ROU",
+    "tier": 1,
+    "label": "Liga I",
+    "participants": 16
+  },
+  {
+    "qid": "Q386384",
+    "association": "ROU",
+    "tier": 2,
+    "label": "Liga II",
+    "participants": 21
+  }
+]

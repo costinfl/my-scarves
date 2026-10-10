@@ -1,0 +1,8 @@
+[
+  { "association": "ROU", "tier": 1, "name": "Liga I", "qid": "Q237753" },
+  { "association": "ROU", "tier": 2, "name": "Liga II", "qid": "Q386384" },
+  { "association": "ENG", "tier": 1, "name": "Premier League", "qid": "Q9448" },
+  { "association": "ENG", "tier": 2, "name": "EFL Championship", "qid": "Q19510" },
+  { "association": "ESP", "tier": 1, "name": "La Liga", "qid": "Q324867" },
+  { "association": "ESP", "tier": 2, "name": "LaLiga 2", "qid": "Q35615" }
+]

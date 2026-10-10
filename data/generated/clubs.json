@@ -1,0 +1,1961 @@
+[
+  {
+    "qid": "Q19568",
+    "name": "AFC Bournemouth",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q619094"
+    ],
+    "officialWebsite": "https://www.afcb.co.uk/"
+  },
+  {
+    "qid": "Q9617",
+    "name": "Arsenal F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q163995"
+    ],
+    "officialWebsite": "https://www.arsenal.com/"
+  },
+  {
+    "qid": "Q18711",
+    "name": "Aston Villa F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q175339"
+    ],
+    "officialWebsite": "https://www.avfc.co.uk/"
+  },
+  {
+    "qid": "Q19444",
+    "name": "Birmingham City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q819179"
+    ],
+    "officialWebsite": "https://bcfc.com"
+  },
+  {
+    "qid": "Q19446",
+    "name": "Blackburn Rovers F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q245085"
+    ],
+    "officialWebsite": "https://www.rovers.co.uk/"
+  },
+  {
+    "qid": "Q19451",
+    "name": "Bolton Wanderers F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q242772"
+    ],
+    "officialWebsite": "https://www.bwfc.co.uk/"
+  },
+  {
+    "qid": "Q19571",
+    "name": "Brentford F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1546623"
+    ],
+    "officialWebsite": "https://www.brentfordfc.com/"
+  },
+  {
+    "qid": "Q19453",
+    "name": "Brighton & Hove Albion F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q619409"
+    ],
+    "officialWebsite": "https://www.brightonandhovealbion.com/"
+  },
+  {
+    "qid": "Q19456",
+    "name": "Bristol City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q726370"
+    ],
+    "officialWebsite": "https://www.bcfc.co.uk/"
+  },
+  {
+    "qid": "Q19458",
+    "name": "Burnley F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q683112"
+    ],
+    "officialWebsite": "http://www.burnleyfootballclub.com/"
+  },
+  {
+    "qid": "Q18662",
+    "name": "Cardiff City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q867902"
+    ],
+    "officialWebsite": "https://www.cardiffcityfc.co.uk/"
+  },
+  {
+    "qid": "Q19462",
+    "name": "Charlton Athletic F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q958319"
+    ],
+    "officialWebsite": "https://www.cafc.co.uk/"
+  },
+  {
+    "qid": "Q9616",
+    "name": "Chelsea F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q171458"
+    ],
+    "officialWebsite": "https://www.chelseafc.com/"
+  },
+  {
+    "qid": "Q19580",
+    "name": "Coventry City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q842077"
+    ],
+    "officialWebsite": "https://www.ccfc.co.uk/"
+  },
+  {
+    "qid": "Q19467",
+    "name": "Crystal Palace F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1066373"
+    ],
+    "officialWebsite": "https://www.cpfc.co.uk/"
+  },
+  {
+    "qid": "Q19470",
+    "name": "Derby County F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q201612"
+    ],
+    "officialWebsite": "https://www.dcfc.co.uk/"
+  },
+  {
+    "qid": "Q5794",
+    "name": "Everton F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q29347805"
+    ],
+    "officialWebsite": "http://www.evertonfc.com/"
+  },
+  {
+    "qid": "Q18708",
+    "name": "Fulham F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q318043"
+    ],
+    "officialWebsite": "https://www.fulhamfc.com/"
+  },
+  {
+    "qid": "Q19477",
+    "name": "Hull City A.F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q630160"
+    ],
+    "officialWebsite": "https://www.wearehullcity.co.uk/"
+  },
+  {
+    "qid": "Q9653",
+    "name": "Ipswich Town F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q619558"
+    ],
+    "officialWebsite": "http://www.itfc.co.uk/"
+  },
+  {
+    "qid": "Q1128631",
+    "name": "Leeds United F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q619505"
+    ],
+    "officialWebsite": "https://www.leedsunited.com/"
+  },
+  {
+    "qid": "Q18519",
+    "name": "Lincoln City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q619105"
+    ],
+    "officialWebsite": "https://www.weareimps.com/"
+  },
+  {
+    "qid": "Q1130849",
+    "name": "Liverpool F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q45671"
+    ],
+    "officialWebsite": "https://www.liverpoolfc.com",
+    "logoFile": "Logo Liverpool FC (2024).png"
+  },
+  {
+    "qid": "Q50602",
+    "name": "Manchester City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q48159"
+    ],
+    "officialWebsite": "https://mancity.com"
+  },
+  {
+    "qid": "Q18656",
+    "name": "Manchester United F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q83457"
+    ],
+    "officialWebsite": "https://www.manutd.com/zh"
+  },
+  {
+    "qid": "Q18661",
+    "name": "Middlesbrough F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q822886"
+    ],
+    "officialWebsite": "https://www.mfc.co.uk/",
+    "logoFile": "Middlesbrough Walk (27470064759).jpg"
+  },
+  {
+    "qid": "Q19487",
+    "name": "Millwall F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q908481"
+    ],
+    "officialWebsite": "https://www.millwallfc.co.uk/"
+  },
+  {
+    "qid": "Q18716",
+    "name": "Newcastle United F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q191774"
+    ],
+    "officialWebsite": "https://www.newcastleunited.com/"
+  },
+  {
+    "qid": "Q18721",
+    "name": "Norwich City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q123017"
+    ],
+    "officialWebsite": "https://www.canaries.co.uk/"
+  },
+  {
+    "qid": "Q19490",
+    "name": "Nottingham Forest F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q593446"
+    ],
+    "officialWebsite": "https://nottinghamforest.co.uk"
+  },
+  {
+    "qid": "Q19604",
+    "name": "Portsmouth F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q619531"
+    ],
+    "officialWebsite": "https://www.portsmouthfc.co.uk/"
+  },
+  {
+    "qid": "Q19612",
+    "name": "Preston North End F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1141958"
+    ],
+    "officialWebsite": "https://www.pnefc.net/"
+  },
+  {
+    "qid": "Q18723",
+    "name": "Queens Park Rangers F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q31670"
+    ],
+    "officialWebsite": "https://www.qpr.co.uk/",
+    "logoFile": "QPr.jpg"
+  },
+  {
+    "qid": "Q19607",
+    "name": "Sheffield United F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q897533"
+    ],
+    "officialWebsite": "https://www.sufc.co.uk/"
+  },
+  {
+    "qid": "Q18732",
+    "name": "Southampton F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q567339"
+    ],
+    "officialWebsite": "https://www.southamptonfc.com"
+  },
+  {
+    "qid": "Q18736",
+    "name": "Stoke City F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q500922"
+    ],
+    "officialWebsite": "https://www.stokecityfc.com/"
+  },
+  {
+    "qid": "Q18739",
+    "name": "Sunderland A.F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q31969"
+    ],
+    "officialWebsite": "https://www.safc.com/"
+  },
+  {
+    "qid": "Q18659",
+    "name": "Swansea City A.F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q580480"
+    ],
+    "officialWebsite": "https://www.swanseacity.com/"
+  },
+  {
+    "qid": "Q18741",
+    "name": "Tottenham Hotspur F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q9448",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q55074091"
+    ],
+    "officialWebsite": "https://www.tottenhamhotspur.com/"
+  },
+  {
+    "qid": "Q2714",
+    "name": "Watford F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q10626"
+    ],
+    "officialWebsite": "https://www.watfordfc.com/"
+  },
+  {
+    "qid": "Q18744",
+    "name": "West Bromwich Albion F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q31678"
+    ],
+    "officialWebsite": "https://www.wba.co.uk/"
+  },
+  {
+    "qid": "Q18747",
+    "name": "West Ham United F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q172190"
+    ],
+    "officialWebsite": "http://www.whufc.com/"
+  },
+  {
+    "qid": "Q19500",
+    "name": "Wolverhampton Wanderers F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q380823"
+    ],
+    "officialWebsite": "https://www.wolves.co.uk/"
+  },
+  {
+    "qid": "Q18529",
+    "name": "Wrexham A.F.C.",
+    "association": "ENG",
+    "leagues": [
+      {
+        "league": "Q19510",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1202579"
+    ],
+    "officialWebsite": "https://www.wrexhamafc.co.uk/"
+  },
+  {
+    "qid": "Q5773365",
+    "name": "AD Ceuta FC",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369445"
+    ],
+    "officialWebsite": "https://adceutafc.com/"
+  },
+  {
+    "qid": "Q576285",
+    "name": "Albacete Balompié",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369118"
+    ],
+    "officialWebsite": "https://www.albacetebalompie.es/"
+  },
+  {
+    "qid": "Q8687",
+    "name": "Athletic Club",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q182864",
+      "Q9008639"
+    ],
+    "officialWebsite": "https://www.athletic-club.eus/"
+  },
+  {
+    "qid": "Q8701",
+    "name": "Atlético Madrid",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369687"
+    ],
+    "officialWebsite": "https://www.atleticodemadrid.com/"
+  },
+  {
+    "qid": "Q852079",
+    "name": "Burgos CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3321211"
+    ],
+    "officialWebsite": "https://www.burgoscf.es/"
+  },
+  {
+    "qid": "Q216661",
+    "name": "C.D. Tenerife",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q255447"
+    ],
+    "officialWebsite": "https://www.clubdeportivotenerife.es/",
+    "logoFile": "Escucdt.png"
+  },
+  {
+    "qid": "Q460448",
+    "name": "Cádiz Club de Fútbol",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2301915"
+    ],
+    "officialWebsite": "https://www.cadizcf.com/"
+  },
+  {
+    "qid": "Q743557",
+    "name": "CD Castellón",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q264581"
+    ],
+    "officialWebsite": "https://www.cdcastellon.com/"
+  },
+  {
+    "qid": "Q600232",
+    "name": "CD Eldense",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q26709118"
+    ],
+    "officialWebsite": "https://cdeldense.es/"
+  },
+  {
+    "qid": "Q856119",
+    "name": "CD Leganés",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369462"
+    ],
+    "officialWebsite": "https://www.cdleganes.com/"
+  },
+  {
+    "qid": "Q10286",
+    "name": "Club Atlético Osasuna",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q735783"
+    ],
+    "officialWebsite": "https://www.osasuna.es/"
+  },
+  {
+    "qid": "Q10499",
+    "name": "Córdoba CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q121879"
+    ],
+    "officialWebsite": "http://www.cordobacf.com/"
+  },
+  {
+    "qid": "Q582342",
+    "name": "Cultural y Deportiva Leonesa",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16822"
+    ],
+    "officialWebsite": "https://www.cydleonesa.com/"
+  },
+  {
+    "qid": "Q223620",
+    "name": "Deportivo Alavés",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369390"
+    ],
+    "officialWebsite": "https://www.deportivoalaves.com/"
+  },
+  {
+    "qid": "Q8760",
+    "name": "Deportivo de A Coruña",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q22130"
+    ],
+    "officialWebsite": "https://www.rcdeportivo.es/"
+  },
+  {
+    "qid": "Q10512",
+    "name": "Elche CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q953600"
+    ],
+    "officialWebsite": "https://www.elchecf.es/"
+  },
+  {
+    "qid": "Q1386854",
+    "name": "FC Andorra",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q18125598"
+    ],
+    "officialWebsite": "https://www.fcandorra.com/",
+    "logoFile": "Logo FC Andorra - 2021.svg"
+  },
+  {
+    "qid": "Q7156",
+    "name": "FC Barcelona",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q159848"
+    ],
+    "officialWebsite": "https://www.fcbarcelona.jp/ja/football/first-team/news",
+    "logoFile": "Football Club Barcelona Color Update.png"
+  },
+  {
+    "qid": "Q611653",
+    "name": "FC Cartagena",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369124"
+    ],
+    "officialWebsite": "http://www.cartagenaefese.es/"
+  },
+  {
+    "qid": "Q15966154",
+    "name": "Fundación Albacete",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6083752"
+    ],
+    "officialWebsite": "http://www.albafemnexus.com"
+  },
+  {
+    "qid": "Q8806",
+    "name": "Getafe CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q929109"
+    ],
+    "officialWebsite": "https://www.getafecf.com/",
+    "logoFile": "Getafe CF Logo.png"
+  },
+  {
+    "qid": "Q11945",
+    "name": "Girona FC",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2097709"
+    ],
+    "officialWebsite": "https://www.gironafc.cat/"
+  },
+  {
+    "qid": "Q8812",
+    "name": "Granada CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q574565"
+    ],
+    "officialWebsite": "https://www.granadacf.es/"
+  },
+  {
+    "qid": "Q8823",
+    "name": "Levante UD",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1122715"
+    ],
+    "officialWebsite": "https://www.levanteud.com/"
+  },
+  {
+    "qid": "Q8857",
+    "name": "Málaga CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q695879"
+    ],
+    "officialWebsite": "https://www.malagacf.com/"
+  },
+  {
+    "qid": "Q843396",
+    "name": "Racing Club de Ferrol",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3327491"
+    ],
+    "officialWebsite": "https://racingclubferrol.net/"
+  },
+  {
+    "qid": "Q12236",
+    "name": "Racing de Santander",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q195391"
+    ],
+    "officialWebsite": "https://www.realracingclub.es/"
+  },
+  {
+    "qid": "Q10300",
+    "name": "Rayo Vallecano",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q983806"
+    ],
+    "officialWebsite": "http://www.rayovallecano.es/"
+  },
+  {
+    "qid": "Q8749",
+    "name": "RC Celta de Vigo",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1326578"
+    ],
+    "officialWebsite": "http://www.rccelta.es/",
+    "logoFile": "Escudo RC Celta de Vigo.svg"
+  },
+  {
+    "qid": "Q8780",
+    "name": "RCD Espanyol de Barcelona",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q473223"
+    ],
+    "officialWebsite": "https://www.rcdespanyol.com/"
+  },
+  {
+    "qid": "Q8835",
+    "name": "RCD Mallorca",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q276163"
+    ],
+    "officialWebsite": "https://www.rcdmallorca.es/"
+  },
+  {
+    "qid": "Q8723",
+    "name": "Real Betis Balompié",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q126844"
+    ],
+    "officialWebsite": "http://www.realbetisbalompie.es/"
+  },
+  {
+    "qid": "Q8682",
+    "name": "Real Madrid Club de Fútbol",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q164027"
+    ],
+    "officialWebsite": "https://www.realmadrid.com/"
+  },
+  {
+    "qid": "Q271574",
+    "name": "Real Oviedo",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369536"
+    ],
+    "officialWebsite": "https://www.realoviedo.es/"
+  },
+  {
+    "qid": "Q10315",
+    "name": "Real Sociedad",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q917845"
+    ],
+    "officialWebsite": "https://www.realsociedad.eus/"
+  },
+  {
+    "qid": "Q10319",
+    "name": "Real Valladolid",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q151816"
+    ],
+    "officialWebsite": "http://www.realvalladolid.es/"
+  },
+  {
+    "qid": "Q10308",
+    "name": "Real Zaragoza",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q135682568",
+      "Q137918892"
+    ],
+    "officialWebsite": "https://www.realzaragoza.com/"
+  },
+  {
+    "qid": "Q770740",
+    "name": "SD Eibar",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3320428"
+    ],
+    "officialWebsite": "https://www.sdeibar.com/"
+  },
+  {
+    "qid": "Q10329",
+    "name": "Sevilla FC",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q275429"
+    ],
+    "officialWebsite": "https://www.sevillafc.es/"
+  },
+  {
+    "qid": "Q12168",
+    "name": "Sociedad Deportiva Ponferradina",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q979112"
+    ],
+    "officialWebsite": "https://www.sdponferradina.com/"
+  },
+  {
+    "qid": "Q12278",
+    "name": "Sporting de Gijón",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q929315"
+    ],
+    "officialWebsite": "https://www.realsporting.com/"
+  },
+  {
+    "qid": "Q11979",
+    "name": "UD Las Palmas",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q991419"
+    ],
+    "officialWebsite": "https://www.udlaspalmas.es/"
+  },
+  {
+    "qid": "Q1067737",
+    "name": "UD Logroñés",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1369314"
+    ],
+    "officialWebsite": "http://udlogrones.com/"
+  },
+  {
+    "qid": "Q10407",
+    "name": "Unión Deportiva Almería",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q35615",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1130617"
+    ],
+    "officialWebsite": "http://www.udalmeriasad.com"
+  },
+  {
+    "qid": "Q10333",
+    "name": "Valencia CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q202762"
+    ],
+    "officialWebsite": "https://www.valenciacf.com"
+  },
+  {
+    "qid": "Q12297",
+    "name": "Villarreal CF",
+    "association": "ESP",
+    "leagues": [
+      {
+        "league": "Q324867",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q741157"
+    ],
+    "officialWebsite": "https://villarrealcf.es/"
+  },
+  {
+    "qid": "Q5424871",
+    "name": "AFC Chindia Târgoviște",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q13580789"
+    ],
+    "officialWebsite": "https://www.afcchindiatargoviste.ro/"
+  },
+  {
+    "qid": "Q37855796",
+    "name": "AFC Metalul Buzău",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q39047118"
+    ],
+    "officialWebsite": "http://metalulbuzau.ro/"
+  },
+  {
+    "qid": "Q298201",
+    "name": "ASA Târgu Mureș",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6271952"
+    ],
+    "officialWebsite": "https://asatargumures.com/"
+  },
+  {
+    "qid": "Q205998",
+    "name": "CFR Cluj",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1253767"
+    ],
+    "officialWebsite": "https://cfr1907.ro/"
+  },
+  {
+    "qid": "Q12723169",
+    "name": "CS Afumați",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q25208720"
+    ],
+    "officialWebsite": "http://www.fcafumati.ro/"
+  },
+  {
+    "qid": "Q1024463",
+    "name": "CS Concordia Chiajna",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2607402"
+    ],
+    "officialWebsite": "http://www.csconcordia.ro/"
+  },
+  {
+    "qid": "Q16838020",
+    "name": "CS Universitatea Craiova",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1409157"
+    ],
+    "officialWebsite": "https://www.ucv1948.ro/"
+  },
+  {
+    "qid": "Q66424141",
+    "name": "CSC 1599 Șelimbăr",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.csc1599selimbar.ro/"
+  },
+  {
+    "qid": "Q55618976",
+    "name": "CSC Dumbrăvița",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://cscdumbravita.ro/sectia-fotbal/"
+  },
+  {
+    "qid": "Q18539440",
+    "name": "CSL Ștefăneștii de Jos",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://clubstefanesti.ro"
+  },
+  {
+    "qid": "Q1057672",
+    "name": "CSM Cetatea Suceava",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596363"
+    ],
+    "officialWebsite": "https://cetateasuceava.com/"
+  },
+  {
+    "qid": "Q1024390",
+    "name": "CSM Politehnica Iași",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2262973"
+    ],
+    "officialWebsite": "https://www.politehnicaiasi.ro/"
+  },
+  {
+    "qid": "Q1024397",
+    "name": "CSM Reșița",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596415"
+    ],
+    "officialWebsite": "https://csm-resita.com/"
+  },
+  {
+    "qid": "Q841245",
+    "name": "FC Argeș",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596436"
+    ],
+    "officialWebsite": "https://argesfc.ro/"
+  },
+  {
+    "qid": "Q1386940",
+    "name": "FC Bihor Oradea",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596404"
+    ],
+    "officialWebsite": "http://www.fcbihor.ro/"
+  },
+  {
+    "qid": "Q1262822",
+    "name": "FC Botoșani",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4684229"
+    ],
+    "officialWebsite": "http://www.fcbt.ro/"
+  },
+  {
+    "qid": "Q1135735",
+    "name": "FC Corvinul Hunedoara",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596412"
+    ],
+    "officialWebsite": "https://fccorvinul1921.ro/"
+  },
+  {
+    "qid": "Q204237",
+    "name": "FC Dinamo Bucharest",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1226240",
+      "Q338602"
+    ],
+    "officialWebsite": "https://dinamo1948.ro",
+    "logoFile": "FC Dinamo București - logo 2026.svg"
+  },
+  {
+    "qid": "Q1322550",
+    "name": "FC Petrolul Ploiești",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3274884"
+    ],
+    "officialWebsite": "https://fcpetrolul.ro/",
+    "logoFile": "FC Petrolul Ploiești.svg"
+  },
+  {
+    "qid": "Q245162",
+    "name": "FC Rapid București",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1888199",
+      "Q97889239"
+    ],
+    "officialWebsite": "https://www.fcrapid.ro/"
+  },
+  {
+    "qid": "Q5425216",
+    "name": "FC Unirea Slobozia",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596362"
+    ],
+    "officialWebsite": "https://afcunireaslobozia.com/"
+  },
+  {
+    "qid": "Q753462",
+    "name": "FC Universitatea Cluj",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q74413"
+    ],
+    "officialWebsite": "https://www.fcucluj.ro/",
+    "logoFile": "Logo Universitatea Cluj.svg"
+  },
+  {
+    "qid": "Q680770",
+    "name": "FC UTA Arad",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596399"
+    ],
+    "officialWebsite": "https://www.uta-arad.ro/",
+    "logoFile": "UTA Arad logo.svg"
+  },
+  {
+    "qid": "Q18129096",
+    "name": "FC Voluntari",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q24969855"
+    ],
+    "officialWebsite": "https://fcvoluntari.ro/"
+  },
+  {
+    "qid": "Q179658",
+    "name": "FCSB",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q338602"
+    ],
+    "officialWebsite": "https://www.fcsb.ro/"
+  },
+  {
+    "qid": "Q23051672",
+    "name": "FK Csíkszereda",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q23051502"
+    ],
+    "officialWebsite": "http://fkcsikszereda.ro/"
+  },
+  {
+    "qid": "Q56677281",
+    "name": "Gloria Bistrița",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://gloria2018.ro/"
+  },
+  {
+    "qid": "Q220863",
+    "name": "SC Oțelul Galați",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3121017"
+    ],
+    "officialWebsite": "https://ascotelul.ro/"
+  },
+  {
+    "qid": "Q55593565",
+    "name": "SC Popești-Leordeni",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://scpopestileordeni.com/"
+  },
+  {
+    "qid": "Q1024395",
+    "name": "SCM Râmnicu Vâlcea",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596430"
+    ],
+    "officialWebsite": "http://www.csmrmvl.ro/"
+  },
+  {
+    "qid": "Q20429561",
+    "name": "Sepsi OSK Sfântu Gheorghe",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q237753",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q25204592"
+    ],
+    "officialWebsite": "https://sepsiosk.ro/"
+  },
+  {
+    "qid": "Q4654417",
+    "name": "Știința Poli Timișoara",
+    "association": "ROU",
+    "leagues": [
+      {
+        "league": "Q386384",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1158963",
+      "Q14322671"
+    ],
+    "officialWebsite": "https://www.politehnicatimisoara.com"
+  }
+]

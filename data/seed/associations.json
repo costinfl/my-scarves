@@ -1,0 +1,277 @@
+[
+  {
+    "code": "ALB",
+    "name": "Albania",
+    "notes": null
+  },
+  {
+    "code": "AND",
+    "name": "Andorra",
+    "notes": null
+  },
+  {
+    "code": "ARM",
+    "name": "Armenia",
+    "notes": null
+  },
+  {
+    "code": "AUT",
+    "name": "Austria",
+    "notes": null
+  },
+  {
+    "code": "AZE",
+    "name": "Azerbaijan",
+    "notes": null
+  },
+  {
+    "code": "BLR",
+    "name": "Belarus",
+    "notes": null
+  },
+  {
+    "code": "BEL",
+    "name": "Belgium",
+    "notes": null
+  },
+  {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "notes": null
+  },
+  {
+    "code": "BUL",
+    "name": "Bulgaria",
+    "notes": null
+  },
+  {
+    "code": "CRO",
+    "name": "Croatia",
+    "notes": null
+  },
+  {
+    "code": "CYP",
+    "name": "Cyprus",
+    "notes": null
+  },
+  {
+    "code": "CZE",
+    "name": "Czechia",
+    "notes": null
+  },
+  {
+    "code": "DEN",
+    "name": "Denmark",
+    "notes": null
+  },
+  {
+    "code": "ENG",
+    "name": "England",
+    "notes": "Welsh clubs such as Cardiff and Swansea play in the English pyramid"
+  },
+  {
+    "code": "EST",
+    "name": "Estonia",
+    "notes": null
+  },
+  {
+    "code": "FRO",
+    "name": "Faroe Islands",
+    "notes": null
+  },
+  {
+    "code": "FIN",
+    "name": "Finland",
+    "notes": null
+  },
+  {
+    "code": "FRA",
+    "name": "France",
+    "notes": "Monaco plays in Ligue 1"
+  },
+  {
+    "code": "GEO",
+    "name": "Georgia",
+    "notes": null
+  },
+  {
+    "code": "GER",
+    "name": "Germany",
+    "notes": null
+  },
+  {
+    "code": "GIB",
+    "name": "Gibraltar",
+    "notes": "No real second tier"
+  },
+  {
+    "code": "GRE",
+    "name": "Greece",
+    "notes": null
+  },
+  {
+    "code": "HUN",
+    "name": "Hungary",
+    "notes": null
+  },
+  {
+    "code": "ISL",
+    "name": "Iceland",
+    "notes": null
+  },
+  {
+    "code": "ISR",
+    "name": "Israel",
+    "notes": null
+  },
+  {
+    "code": "ITA",
+    "name": "Italy",
+    "notes": null
+  },
+  {
+    "code": "KAZ",
+    "name": "Kazakhstan",
+    "notes": null
+  },
+  {
+    "code": "KOS",
+    "name": "Kosovo",
+    "notes": null
+  },
+  {
+    "code": "LVA",
+    "name": "Latvia",
+    "notes": null
+  },
+  {
+    "code": "LIE",
+    "name": "Liechtenstein",
+    "notes": "Clubs play in the Swiss pyramid; no own league"
+  },
+  {
+    "code": "LTU",
+    "name": "Lithuania",
+    "notes": null
+  },
+  {
+    "code": "LUX",
+    "name": "Luxembourg",
+    "notes": null
+  },
+  {
+    "code": "MLT",
+    "name": "Malta",
+    "notes": null
+  },
+  {
+    "code": "MDA",
+    "name": "Moldova",
+    "notes": null
+  },
+  {
+    "code": "MNE",
+    "name": "Montenegro",
+    "notes": null
+  },
+  {
+    "code": "NED",
+    "name": "Netherlands",
+    "notes": null
+  },
+  {
+    "code": "MKD",
+    "name": "North Macedonia",
+    "notes": null
+  },
+  {
+    "code": "NIR",
+    "name": "Northern Ireland",
+    "notes": null
+  },
+  {
+    "code": "NOR",
+    "name": "Norway",
+    "notes": null
+  },
+  {
+    "code": "POL",
+    "name": "Poland",
+    "notes": null
+  },
+  {
+    "code": "POR",
+    "name": "Portugal",
+    "notes": null
+  },
+  {
+    "code": "IRL",
+    "name": "Republic of Ireland",
+    "notes": null
+  },
+  {
+    "code": "ROU",
+    "name": "Romania",
+    "notes": null
+  },
+  {
+    "code": "RUS",
+    "name": "Russia",
+    "notes": "Suspended by UEFA but still a member"
+  },
+  {
+    "code": "SMR",
+    "name": "San Marino",
+    "notes": "No real second tier"
+  },
+  {
+    "code": "SCO",
+    "name": "Scotland",
+    "notes": null
+  },
+  {
+    "code": "SRB",
+    "name": "Serbia",
+    "notes": null
+  },
+  {
+    "code": "SVK",
+    "name": "Slovakia",
+    "notes": null
+  },
+  {
+    "code": "SVN",
+    "name": "Slovenia",
+    "notes": null
+  },
+  {
+    "code": "ESP",
+    "name": "Spain",
+    "notes": null
+  },
+  {
+    "code": "SWE",
+    "name": "Sweden",
+    "notes": null
+  },
+  {
+    "code": "SUI",
+    "name": "Switzerland",
+    "notes": null
+  },
+  {
+    "code": "TUR",
+    "name": "Türkiye",
+    "notes": null
+  },
+  {
+    "code": "UKR",
+    "name": "Ukraine",
+    "notes": null
+  },
+  {
+    "code": "WAL",
+    "name": "Wales",
+    "notes": "Own pyramid, separate from the English clubs playing in England"
+  }
+]
