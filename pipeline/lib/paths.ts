@@ -17,6 +17,7 @@ export const paths = {
   photos: join(ROOT, 'assets', 'photos'),
   logos: join(ROOT, 'assets', 'logos'),
   httpCache: data('cache', 'http'),
+  entityCache: data('cache', 'entities'),
   enriched: {
     logos: data('generated', 'logos.json'),
     colors: data('generated', 'colors.json'),

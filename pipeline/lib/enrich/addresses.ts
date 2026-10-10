@@ -10,7 +10,8 @@ interface Reverse {
 /** "Strada Giulești 18, 060271 București" from Nominatim address parts; local language, no country. */
 export function formatAddress(a: Record<string, string>): string | undefined {
   const street = [a.road ?? a.pedestrian ?? a.square, a.house_number].filter(Boolean).join(' ');
-  const place = a.city ?? a.town ?? a.village ?? a.municipality ?? a.suburb;
+  // A town inside a larger "city" (Smethwick in Sandwell) is what people write on letters.
+  const place = (a.town ?? a.village ?? a.city ?? a.municipality ?? a.suburb)?.replace(/^Greater London$/, 'London');
   const locality = [a.postcode, place].filter(Boolean).join(' ');
   const text = [street, locality].filter(Boolean).join(', ');
   return text || undefined;

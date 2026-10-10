@@ -38,6 +38,10 @@ describe('formatAddress', () => {
     expect(formatAddress({ road: 'High St', town: 'Burnley' })).toBe('High St, Burnley');
     expect(formatAddress({ country: 'España' })).toBeUndefined();
   });
+  it('prefers the town over a borough-level city, and says London', () => {
+    expect(formatAddress({ road: 'Halfords Lane', town: 'Smethwick', city: 'Sandwell', postcode: 'B71 4LD' })).toBe('Halfords Lane, B71 4LD Smethwick');
+    expect(formatAddress({ road: 'Queensland Road', city: 'Greater London', postcode: 'N7 7FF' })).toBe('Queensland Road, N7 7FF London');
+  });
 });
 
 describe('robotsAllows', () => {

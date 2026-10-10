@@ -41,20 +41,11 @@ export async function get(url: string, opts: GetOptions = {}): Promise<HttpResul
     if (cached && Date.now() - Date.parse(cached.fetchedAt) < maxAge) return cached;
   }
 
-  let res: Response;
-  for (let attempt = 1; ; attempt++) {
-    await throttleHost(url, opts.minIntervalMs ?? 1000);
-    res = await fetch(url, {
-      headers: { 'User-Agent': USER_AGENT, ...opts.headers },
-      redirect: 'follow',
-      signal: AbortSignal.timeout(opts.timeoutMs ?? 20_000),
-    });
-    // Rate limited or briefly unavailable: honour Retry-After, else back off 5 s, 10 s, 20 s.
-    if ((res.status !== 429 && res.status !== 503) || attempt >= 4) break;
-    const retryAfter = Number(res.headers.get('retry-after'));
-    await res.body?.cancel();
-    await new Promise((r) => setTimeout(r, Number.isFinite(retryAfter) && retryAfter > 0 ? Math.min(retryAfter, 120) * 1000 : 2500 * 2 ** attempt));
-  }
+  const res = await fetchWithBackoff(url, {
+    minIntervalMs: opts.minIntervalMs ?? 1000,
+    timeoutMs: opts.timeoutMs ?? 20_000,
+    ...(opts.headers ? { headers: opts.headers } : {}),
+  });
   const result: HttpResult = {
     status: res.status,
     url: res.url,
@@ -74,7 +65,22 @@ export async function getJson<T>(url: string, opts: GetOptions = {}): Promise<T 
 
 /** Binary GET for files we store in the repo (logos). */
 export async function getBytes(url: string, minIntervalMs = 1000): Promise<{ status: number; contentType: string; bytes: Buffer }> {
-  await throttleHost(url, minIntervalMs);
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30_000) });
+  const res = await fetchWithBackoff(url, { minIntervalMs, timeoutMs: 30_000 });
   return { status: res.status, contentType: res.headers.get('content-type') ?? '', bytes: Buffer.from(await res.arrayBuffer()) };
+}
+
+/** fetch with the User-Agent, per-host throttle, and retries on 429/503 (Retry-After, else 5 s, 10 s, 20 s). */
+async function fetchWithBackoff(url: string, opts: { minIntervalMs: number; timeoutMs: number; headers?: Record<string, string> }): Promise<Response> {
+  for (let attempt = 1; ; attempt++) {
+    await throttleHost(url, opts.minIntervalMs);
+    const res = await fetch(url, {
+      headers: { 'User-Agent': USER_AGENT, ...opts.headers },
+      redirect: 'follow',
+      signal: AbortSignal.timeout(opts.timeoutMs),
+    });
+    if ((res.status !== 429 && res.status !== 503) || attempt >= 4) return res;
+    const retryAfter = Number(res.headers.get('retry-after'));
+    await res.body?.cancel();
+    await new Promise((r) => setTimeout(r, Number.isFinite(retryAfter) && retryAfter > 0 ? Math.min(retryAfter, 120) * 1000 : 2500 * 2 ** attempt));
+  }
 }

@@ -98,8 +98,11 @@ export async function discoverFanshop(website: string, robotsCache: Map<string, 
     for (const link of links.filter((l) => !isMarketplace(l.url)).slice(0, 3)) {
       if (!(await allowed(link.url, robotsCache))) continue;
       const page = await get(link.url, { timeoutMs: 20_000 }).catch(() => undefined);
-      if (page?.status === 200 && page.contentType.includes('html') && looksLikeShop(page.body)) {
-        return { url: page.url, status: 'candidate', checkedAt, ...(marketplace ? { note: `also links to ${marketplace.url}` } : {}) };
+      // A store behind a password page (Shopify's "opening soon") is not open for business.
+      const closed = page && /\/password\/?$/.test(new URL(page.url).pathname);
+      if (page?.status === 200 && !closed && page.contentType.includes('html') && looksLikeShop(page.body)) {
+        // Keep the link as the club publishes it: redirects often add locale or session parameters.
+        return { url: link.url, status: 'candidate', checkedAt, ...(marketplace ? { note: `also links to ${marketplace.url}` } : {}) };
       }
     }
     const note = links.length === 0 ? 'no shop link on the homepage (or it is built by JavaScript)' : 'shop links found but none looked like a shop';
