@@ -79,7 +79,7 @@ describe('buildCatalog', () => {
     expect(rapid.fanshop?.status).toBe('none');
     expect(rapid.uefaId).toBe('59039');
     expect(rapid.palette).toEqual(['#FDFDFD', '#A4333A']);
-    expect(rapid.venues).toEqual([{ qid: 'Q90', name: 'Giulești' }]);
+    expect(rapid.venues).toEqual([rapid.stadium]);
   });
 
   it('keeps only associations that have clubs, and league labels as names', () => {

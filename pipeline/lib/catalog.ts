@@ -44,7 +44,7 @@ export interface CatalogClub extends ClubEnrichment {
   logoFile?: string;
   stadium?: CatalogStadium;
   /** Every home venue Wikidata lists (primary first), so I can pick the right one in the editor. */
-  venues: { qid: string; name: string }[];
+  venues: CatalogStadium[];
   scarves: Scarf[];
 }
 
@@ -126,7 +126,7 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
       ...(stadium ? { stadium } : {}),
       venues: c.stadiumIds.flatMap((id) => {
         const v = stadiumById.get(id);
-        return v ? [{ qid: v.qid, name: v.name }] : [];
+        return v ? [v] : [];
       }),
       scarves: clubScarves,
     });

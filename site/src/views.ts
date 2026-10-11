@@ -3,11 +3,12 @@ import type { CatalogClub, Filter, Store } from './data.ts';
 import { applyFilter, currentClubs, FILTERS, owned, wished } from './data.ts';
 import { html, type Html } from './html.ts';
 import { href } from './router.ts';
+import { uefaBadgeUrl, uefaTeamUrl } from '../../pipeline/lib/uefa-id.ts';
 
 const photoUrl = (path: string) => `${import.meta.env.BASE_URL}photos/${path}`;
 const logoUrl = (file: string) => `${import.meta.env.BASE_URL}logos/${file}`;
-const uefaBadge = (id: string) => `https://img.uefa.com/imgml/TP/teams/logos/240x240/${id}.png`;
-const uefaTeam = (id: string) => `https://www.uefa.com/nationalassociations/teams/${id}/`;
+const uefaBadge = (id: string) => uefaBadgeUrl(id);
+const uefaTeam = (id: string) => uefaTeamUrl(id);
 
 /** Which logo a club page shows: my choice, else the UEFA badge, else the Commons file. */
 export function logoChoice(c: CatalogClub): 'uefa' | 'commons' | 'none' {
@@ -163,7 +164,7 @@ function scarfDetails(s: Scarf): Html {
   </li>`;
 }
 
-export function clubView(store: Store, qid: string): Html {
+export function clubView(store: Store, qid: string, canEdit = false): Html {
   const c = store.club.get(qid);
   const l = c && store.league.get(c.league);
   const a = c && store.association.get(c.association);
@@ -176,7 +177,8 @@ export function clubView(store: Store, qid: string): Html {
       ${logoImg(c)}
       <div>
         <h1>${c.name} ${badge(c)}</h1>
-        <p class="muted">${l.name} · ${a.name}${!c.current && ' · not in tier 1 or 2 this season'}</p>
+        <p class="muted">${l.name} · ${a.name}${!c.current && ' · not in tier 1 or 2 this season'}
+          ${canEdit && html` · <a href="${href.edit(c.qid)}">Edit</a>`}</p>
       </div>
     </header>
     ${c.colors &&
@@ -291,6 +293,40 @@ export function mapView(store: Store, onlyOwned: boolean): Html {
       <span class="muted"> · ${placed} of ${clubs.length} clubs placed</span>
     </p>
     <div id="map" class="map"></div>
+  `;
+}
+
+export function editView(store: Store, qid: string, editor: (c: CatalogClub) => Html, canEdit: boolean): Html {
+  const c = store.club.get(qid);
+  const a = c && store.association.get(c.association);
+  if (!c || !a) return notFoundView();
+  return html`
+    ${crumbs([a.name, href.association(a.code)], [c.name, href.club(c.qid)], ['Edit'])}
+    <h1>Edit ${c.name}</h1>
+    ${canEdit ? editor(c) : html`<p>Editing needs a GitHub token. <a href="${href.settings()}">Set it up in Settings</a>.</p>`}
+  `;
+}
+
+export function settingsView(config: { repo: string; branch: string } | undefined, defaults: { repo: string }): Html {
+  return html`
+    ${crumbs(['Settings'])}
+    <h1>Settings</h1>
+    <section>
+      <h2>Editing</h2>
+      ${config
+        ? html`<p>Editing is on for <strong>${config.repo}</strong> (branch ${config.branch}) in this browser.</p>
+            <p><button type="button" id="forget-token">Forget the token</button></p>`
+        : html`<p>To edit club pages from this browser, create a
+              <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>:
+              Repository access <em>Only select repositories</em> → ${defaults.repo}; Permissions → Repository → <em>Contents: Read and write</em>.
+              Then paste it here. It is kept only in this browser and sent only to api.github.com.</p>
+            <form id="token-form" class="editor">
+              <label class="row">Token <input name="token" type="password" autocomplete="off" required></label>
+              <label class="row">Repository <input name="repo" type="text" value="${defaults.repo}" required></label>
+              <p class="actions"><button type="submit" class="primary">Check and save</button></p>
+            </form>`}
+      <p id="settings-status" role="status"></p>
+    </section>
   `;
 }
 
