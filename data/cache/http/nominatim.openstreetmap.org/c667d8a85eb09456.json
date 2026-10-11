@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.944167&lon=-0.103611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":293997869,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":464618828,\"lat\":\"39.9441217\",\"lon\":\"-0.1034632\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.095140001521351e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Carrer Blasco Ibáñez, Vila-real, la Plana Baixa, Castelló / Castellón, Comunitat Valenciana, 12540, España\",\"address\":{\"road\":\"Carrer Blasco Ibáñez\",\"town\":\"Vila-real\",\"county\":\"la Plana Baixa\",\"state_district\":\"Castelló / Castellón\",\"ISO3166-2-lvl6\":\"ES-CS\",\"state\":\"Comunitat Valenciana\",\"ISO3166-2-lvl4\":\"ES-VC\",\"postcode\":\"12540\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"39.9435234\",\"39.9447199\",\"-0.1042574\",\"-0.1026690\"]}",
+  "fetchedAt": "2026-10-10T10:43:13.428Z"
+}

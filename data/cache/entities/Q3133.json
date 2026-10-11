@@ -1,0 +1,36 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.696Z",
+  "entity": {
+    "id": "Q3133",
+    "claims": {
+      "P465": [
+        {
+          "rank": "preferred",
+          "mainsnak": {
+            "datavalue": {
+              "value": "00FF00"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "008000"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Green"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "green"
+      }
+    }
+  }
+}

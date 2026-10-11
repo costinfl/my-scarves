@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.735278&lon=-1.838333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":282881477,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":632607160,\"lat\":\"50.7352123\",\"lon\":\"-1.8382922\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.642938887612752e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Middleton Gardens, Littledown, Bournemouth, Bournemouth, Christchurch and Poole, England, BH7 7BT, United Kingdom\",\"address\":{\"road\":\"Middleton Gardens\",\"suburb\":\"Littledown\",\"town\":\"Bournemouth\",\"county\":\"Bournemouth, Christchurch and Poole\",\"ISO3166-2-lvl6\":\"GB-BCP\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"BH7 7BT\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"50.7346322\",\"50.7357922\",\"-1.8391628\",\"-1.8374215\"]}",
+  "fetchedAt": "2026-10-10T10:57:46.443Z"
+}

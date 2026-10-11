@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.499167&lon=26.145556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60811570,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":357294983,\"lat\":\"44.4992003\",\"lon\":\"26.1456768\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.243076218809823e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Elisabeta Lipă, Pipera, Voluntari, Ilfov, 077190, România\",\"address\":{\"road\":\"Strada Elisabeta Lipă\",\"suburb\":\"Pipera\",\"town\":\"Voluntari\",\"county\":\"Ilfov\",\"ISO3166-2-lvl4\":\"RO-IF\",\"postcode\":\"077190\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.4986318\",\"44.4997690\",\"26.1451359\",\"26.1462176\"]}",
+  "fetchedAt": "2026-10-10T10:43:45.095Z"
+}

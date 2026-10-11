@@ -92,3 +92,4 @@ dist
 # build output copied from data/ at build time
 site/public/data/
 site/public/photos/
+site/public/logos/

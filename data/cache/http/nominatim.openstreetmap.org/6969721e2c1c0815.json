@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.981117&lon=-1.852142&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":295817386,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":141428063,\"lat\":\"38.9810742\",\"lon\":\"-1.8521985\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.564965285720635e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida de España, Universidad, Distrito 3, Albacete, Castilla-La Mancha, 02008, España\",\"address\":{\"road\":\"Avenida de España\",\"suburb\":\"Universidad\",\"city_district\":\"Distrito 3\",\"city\":\"Albacete\",\"province\":\"Albacete\",\"ISO3166-2-lvl6\":\"ES-AB\",\"state\":\"Castilla-La Mancha\",\"ISO3166-2-lvl4\":\"ES-CM\",\"postcode\":\"02008\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"38.9805368\",\"38.9816135\",\"-1.8527112\",\"-1.8516835\"]}",
+  "fetchedAt": "2026-10-10T10:58:48.655Z"
+}

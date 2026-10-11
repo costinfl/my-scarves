@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.604444&lon=-0.066389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":278539194,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12595913181,\"lat\":\"51.6042107\",\"lon\":\"-0.0662279\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"club\",\"name\":\"Tottenham Hotspur Football Club\",\"display_name\":\"Tottenham Hotspur Football Club, Paxton Terrace, London Borough of Haringey, Greater London, England, N17 0FH, United Kingdom\",\"address\":{\"club\":\"Tottenham Hotspur Football Club\",\"road\":\"Paxton Terrace\",\"city_district\":\"London Borough of Haringey\",\"ISO3166-2-lvl8\":\"GB-HRY\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"N17 0FH\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.6041607\",\"51.6042607\",\"-0.0662779\",\"-0.0661779\"]}",
+  "fetchedAt": "2026-10-10T10:58:40.951Z"
+}

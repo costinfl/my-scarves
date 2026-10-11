@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "entity": {
+    "id": "Q10319",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3257809,
+                "id": "Q3257809"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Real Valladolid"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Real Valladolid"
+      }
+    }
+  }
+}

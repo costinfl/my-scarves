@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.740556&lon=21.244167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65021086,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":428867777,\"lat\":\"45.7404729\",\"lon\":\"21.2442582\",\"category\":\"leisure\",\"type\":\"track\",\"place_rank\":30,\"importance\":7.018921187147353e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Ștefan Covaci, Olimpia-Stadion, Timișoara, Timiș, 300736, România\",\"address\":{\"road\":\"Strada Ștefan Covaci\",\"suburb\":\"Olimpia-Stadion\",\"city\":\"Timișoara\",\"county\":\"Timiș\",\"ISO3166-2-lvl4\":\"RO-TM\",\"postcode\":\"300736\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.7390479\",\"45.7418834\",\"21.2425768\",\"21.2459298\"]}",
+  "fetchedAt": "2026-10-10T10:43:50.642Z"
+}

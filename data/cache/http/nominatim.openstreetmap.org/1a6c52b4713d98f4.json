@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.988333&lon=-2.175556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276154373,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124603905,\"lat\":\"52.9883813\",\"lon\":\"-2.1754502\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.590753032726052e-05,\"addresstype\":\"leisure\",\"name\":\"Stoke City Football Club\",\"display_name\":\"Stoke City Football Club, Stanley Matthews Way, Sideway, Fenton, Stoke-on-Trent, England, ST4 4TL, United Kingdom\",\"address\":{\"leisure\":\"Stoke City Football Club\",\"road\":\"Stanley Matthews Way\",\"hamlet\":\"Sideway\",\"town\":\"Fenton\",\"city\":\"Stoke-on-Trent\",\"ISO3166-2-lvl6\":\"GB-STE\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"ST4 4TL\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.9878142\",\"52.9889484\",\"-2.1762985\",\"-2.1746020\"]}",
+  "fetchedAt": "2026-10-10T10:58:37.646Z"
+}

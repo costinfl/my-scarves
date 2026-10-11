@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.728611&lon=-2.489167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276562913,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":55814762,\"lat\":\"53.7285771\",\"lon\":\"-2.4892284\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.21782253757079e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Nuttall Street, Ewood, Blackburn, Blackburn with Darwen, Lancashire, England, BB2 4JQ, United Kingdom\",\"address\":{\"road\":\"Nuttall Street\",\"suburb\":\"Ewood\",\"town\":\"Blackburn\",\"county\":\"Blackburn with Darwen\",\"ISO3166-2-lvl6\":\"GB-BBD\",\"state_district\":\"Lancashire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"BB2 4JQ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.7280044\",\"53.7291498\",\"-2.4900056\",\"-2.4884513\"]}",
+  "fetchedAt": "2026-10-10T10:57:50.423Z"
+}

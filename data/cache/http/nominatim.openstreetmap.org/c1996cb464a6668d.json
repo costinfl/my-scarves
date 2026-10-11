@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.455083&lon=26.102444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60904668,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":427813551,\"lat\":\"44.4550603\",\"lon\":\"26.1023867\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.015335317001629e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calea Floreasca, Perla, Piața Romană, Floreasca, Sector 1, București, 014461, România\",\"address\":{\"road\":\"Calea Floreasca\",\"neighbourhood\":\"Perla\",\"quarter\":\"Piața Romană\",\"suburb\":\"Floreasca\",\"city_district\":\"Sector 1\",\"city\":\"București\",\"ISO3166-2-lvl4\":\"RO-B\",\"postcode\":\"014461\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.4545579\",\"44.4555626\",\"26.1019006\",\"26.1028728\"]}",
+  "fetchedAt": "2026-10-10T10:43:36.339Z"
+}

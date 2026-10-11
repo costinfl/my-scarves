@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.472778&lon=-3.203056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":282883305,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":191648566,\"lat\":\"51.4728251\",\"lon\":\"-3.2030200\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.420996414125303e-05,\"addresstype\":\"leisure\",\"name\":\"Cardiff City Football Club\",\"display_name\":\"Cardiff City Football Club, Ffordd Fred Keenor, Canton, Cardiff, Cymru / Wales, CF11 8ER, United Kingdom\",\"address\":{\"leisure\":\"Cardiff City Football Club\",\"road\":\"Ffordd Fred Keenor\",\"suburb\":\"Canton\",\"city\":\"Cardiff\",\"county\":\"Cardiff\",\"ISO3166-2-lvl6\":\"GB-CRF\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"CF11 8ER\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4722329\",\"51.4734173\",\"-3.2038583\",\"-3.2021817\"]}",
+  "fetchedAt": "2026-10-10T10:57:57.017Z"
+}

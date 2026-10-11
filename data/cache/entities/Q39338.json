@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.696Z",
+  "entity": {
+    "id": "Q39338",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FF7F00"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Orange (colour)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "orange"
+      }
+    }
+  }
+}

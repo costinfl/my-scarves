@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=28.100000&lon=-15.456667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":297691086,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":838329851,\"lat\":\"28.1003633\",\"lon\":\"-15.4567140\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.661554894326722e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Fondos del Segura, Siete Palmas, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35013, España\",\"address\":{\"road\":\"Calle Fondos del Segura\",\"suburb\":\"Siete Palmas\",\"city\":\"Las Palmas de Gran Canaria\",\"state_district\":\"Las Palmas\",\"ISO3166-2-lvl6\":\"ES-GC\",\"state\":\"Canarias\",\"ISO3166-2-lvl4\":\"ES-CN\",\"postcode\":\"35013\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"28.0998477\",\"28.1008788\",\"-15.4571384\",\"-15.4562897\"]}",
+  "fetchedAt": "2026-10-10T10:59:41.855Z"
+}

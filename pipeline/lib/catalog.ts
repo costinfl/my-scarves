@@ -1,4 +1,17 @@
-import type { Association, Club, ClubOverrides, LeagueInfo, Scarf, Stadium } from './types.ts';
+import type {
+  AddressInfo,
+  Association,
+  BlurbInfo,
+  Club,
+  ClubEnrichment,
+  ColorInfo,
+  FanshopInfo,
+  LeagueInfo,
+  LogoInfo,
+  Overrides,
+  Scarf,
+  Stadium,
+} from './types.ts';
 
 /** What the site loads: one JSON file, already merged (generated, then overrides, then collection). */
 export interface Catalog {
@@ -15,7 +28,9 @@ export interface CatalogLeague {
   name: string;
 }
 
-export interface CatalogClub {
+export type CatalogStadium = Stadium & { address?: AddressInfo };
+
+export interface CatalogClub extends ClubEnrichment {
   qid: string;
   name: string;
   association: string;
@@ -26,24 +41,53 @@ export interface CatalogClub {
   current: boolean;
   officialWebsite?: string;
   logoFile?: string;
-  stadium?: Stadium;
+  stadium?: CatalogStadium;
   scarves: Scarf[];
 }
+
+export interface Enrichment {
+  logos: Record<string, LogoInfo>;
+  colors: Record<string, ColorInfo>;
+  blurbs: Record<string, BlurbInfo>;
+  addresses: Record<string, AddressInfo>;
+  fanshops: Record<string, FanshopInfo>;
+}
+
+export const noEnrichment: Enrichment = { logos: {}, colors: {}, blurbs: {}, addresses: {}, fanshops: {} };
 
 export interface CatalogInput {
   associations: Association[];
   leagues: LeagueInfo[];
   clubs: Club[];
   stadiums: Stadium[];
-  overrides: ClubOverrides;
+  enrichment?: Enrichment;
+  overrides: Overrides;
   scarves: Scarf[];
 }
 
-export function buildCatalog({ associations, leagues, clubs, stadiums, overrides, scarves }: CatalogInput): Catalog {
-  const merged = clubs.map((c) => applyOverride(c, overrides[c.qid]));
+type EnrichedClub = Club & ClubEnrichment;
+
+export function buildCatalog({ associations, leagues, clubs, stadiums, enrichment = noEnrichment, overrides, scarves }: CatalogInput): Catalog {
+  const merged: EnrichedClub[] = clubs.map((c) =>
+    applyOverride<EnrichedClub>(
+      {
+        ...c,
+        ...(enrichment.logos[c.qid] ? { logo: enrichment.logos[c.qid] } : {}),
+        ...(enrichment.colors[c.qid] ? { colors: enrichment.colors[c.qid] } : {}),
+        ...(enrichment.blurbs[c.qid] ? { blurb: enrichment.blurbs[c.qid] } : {}),
+        ...(enrichment.fanshops[c.qid] ? { fanshop: enrichment.fanshops[c.qid] } : {}),
+      },
+      overrides[c.qid],
+    ),
+  );
   // Latest season present in the data, not today's date, so the build is reproducible.
   const season = merged.flatMap((c) => c.leagues.map((m) => m.season)).sort().at(-1) ?? '';
-  const stadiumById = new Map(stadiums.map((s) => [s.qid, s]));
+  const stadiumById = new Map(
+    stadiums.map((s) => [
+      s.qid,
+      applyOverride<CatalogStadium>({ ...s, ...(enrichment.addresses[s.qid] ? { address: enrichment.addresses[s.qid] } : {}) }, overrides[s.qid]),
+    ]),
+  );
   const leagueByQid = new Map(leagues.map((l) => [l.qid, l]));
 
   const catalogClubs: CatalogClub[] = [];
@@ -64,6 +108,10 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, overrides
       current: membership === currentMembership,
       ...(c.officialWebsite ? { officialWebsite: c.officialWebsite } : {}),
       ...(c.logoFile ? { logoFile: c.logoFile } : {}),
+      ...(c.logo ? { logo: c.logo } : {}),
+      ...(c.colors ? { colors: c.colors } : {}),
+      ...(c.blurb ? { blurb: c.blurb } : {}),
+      ...(c.fanshop?.url && c.fanshop.status !== 'none' && c.fanshop.status !== 'unchecked' ? { fanshop: c.fanshop } : {}),
       ...(stadium ? { stadium } : {}),
       scarves: clubScarves,
     });
@@ -81,12 +129,12 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, overrides
 }
 
 /** Overrides win, but an empty override value (null, "", []) is ignored rather than erasing. */
-function applyOverride(club: Club, override: ClubOverrides[string] | undefined): Club {
-  if (!override) return club;
-  const result: Club = structuredClone(club);
+function applyOverride<T extends object>(item: T, override: object | undefined): T {
+  if (!override) return item;
+  const result = structuredClone(item) as Record<string, unknown>;
   for (const [key, value] of Object.entries(override)) {
     if (value === null || value === undefined || value === '' || (Array.isArray(value) && value.length === 0)) continue;
-    (result as unknown as Record<string, unknown>)[key] = value;
+    result[key] = value;
   }
-  return result;
+  return result as T;
 }

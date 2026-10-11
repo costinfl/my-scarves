@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.734092&lon=-4.426422&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296199276,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":146539044,\"lat\":\"36.7342202\",\"lon\":\"-4.4265834\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.199588006404238e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida de la Palmilla, La Rosaleda, Palma-Palmilla, Málaga, Málaga-Costa del Sol, Málaga, Andalucía, 29011, España\",\"address\":{\"road\":\"Avenida de la Palmilla\",\"neighbourhood\":\"La Rosaleda\",\"borough\":\"Palma-Palmilla\",\"municipality\":\"Málaga\",\"county\":\"Málaga-Costa del Sol\",\"state_district\":\"Málaga\",\"ISO3166-2-lvl6\":\"ES-MA\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"29011\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"36.7337276\",\"36.7347127\",\"-4.4270083\",\"-4.4261584\"]}",
+  "fetchedAt": "2026-10-10T10:59:15.100Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.872294&lon=-4.764642&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296944703,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":43111654,\"lat\":\"37.8722217\",\"lon\":\"-4.7646002\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.055542839699423e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle José Ramón García Fernández, El Arenal, Distrito Sureste, Córdoba, Andalucía, 14010, España\",\"address\":{\"road\":\"Calle José Ramón García Fernández\",\"neighbourhood\":\"El Arenal\",\"city_district\":\"Distrito Sureste\",\"city\":\"Córdoba\",\"province\":\"Córdoba\",\"ISO3166-2-lvl6\":\"ES-CO\",\"state\":\"Andalucía\",\"ISO3166-2-lvl4\":\"ES-AN\",\"postcode\":\"14010\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"37.8716961\",\"37.8727471\",\"-4.7650788\",\"-4.7641217\"]}",
+  "fetchedAt": "2026-10-10T10:59:00.767Z"
+}

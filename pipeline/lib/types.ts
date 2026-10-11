@@ -69,5 +69,61 @@ export interface Scarf {
   photos?: string[];
 }
 
-/** data/manual/overrides.json: my edits keyed by club QID; they win over generated values. */
-export type ClubOverrides = Record<string, Partial<Omit<Club, 'qid'>>>;
+/** Club fields filled by the enrichment stages, on top of what the importer writes. */
+export interface ClubEnrichment {
+  logo?: LogoInfo;
+  colors?: ColorInfo;
+  blurb?: BlurbInfo;
+  fanshop?: FanshopInfo;
+}
+
+/**
+ * data/manual/overrides.json: my edits, keyed by club QID or stadium QID; they win over generated values.
+ * e.g. { "Q245162": { "stadiumIds": ["Q97889239"], "fanshop": { "url": "...", "status": "confirmed" } },
+ *        "Q97889239": { "address": { "text": "Strada Giulești 18, București" } } }
+ */
+export type Overrides = Record<string, Partial<Omit<Club, 'qid'> & ClubEnrichment & Omit<Stadium, 'qid'> & { address: AddressInfo }>>;
+
+/** data/generated/logos.json, keyed by club QID. Only freely licensed files from Wikimedia Commons. */
+export interface LogoInfo {
+  /** File name under assets/logos/. */
+  file: string;
+  commonsFile: string;
+  sourceUrl: string;
+  license: string;
+  author?: string;
+  attributionRequired: boolean;
+}
+
+/** data/generated/colors.json, keyed by club QID. */
+export interface ColorInfo {
+  primary: string;
+  secondary?: string;
+  /** Colour names from Wikidata, when that is the source. */
+  names?: string[];
+  /** wikidata: P6364 official colour; auto: extracted from the logo; manual: set in overrides. */
+  source: 'wikidata' | 'auto' | 'manual';
+}
+
+/** data/generated/blurbs.json, keyed by club QID. */
+export interface BlurbInfo {
+  text: string;
+  /** Wikipedia article URL, kept for CC BY-SA attribution. */
+  source: string;
+  status: 'draft' | 'reviewed';
+}
+
+/** data/generated/addresses.json, keyed by stadium QID. */
+export interface AddressInfo {
+  text: string;
+  osmUrl?: string;
+}
+
+/** data/generated/fanshops.json, keyed by club QID. */
+export interface FanshopInfo {
+  url?: string;
+  status: 'unchecked' | 'candidate' | 'confirmed' | 'none' | 'manual';
+  checkedAt?: string;
+  /** Why nothing was found, or a third-party marketplace link that was seen but not used. */
+  note?: string;
+}

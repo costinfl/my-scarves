@@ -1,0 +1,36 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.115Z",
+  "entity": {
+    "id": "Q770740",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "900C3F"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "0000FF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SD Eibar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SD Eibar"
+      }
+    }
+  }
+}

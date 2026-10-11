@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.218289&lon=-0.540811&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":278441947,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":202195482,\"lat\":\"53.2183155\",\"lon\":\"-0.5408564\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.449149309524708e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Cross Street, New Boultham, Lincoln, Lincolnshire, Greater Lincolnshire, England, LN5 8LD, United Kingdom\",\"address\":{\"road\":\"Cross Street\",\"suburb\":\"New Boultham\",\"city\":\"Lincoln\",\"county\":\"Lincolnshire\",\"ISO3166-2-lvl6\":\"GB-LIN\",\"state_district\":\"Greater Lincolnshire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"LN5 8LD\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.2178138\",\"53.2188172\",\"-0.5414825\",\"-0.5402303\"]}",
+  "fetchedAt": "2026-10-10T10:58:15.751Z"
+}

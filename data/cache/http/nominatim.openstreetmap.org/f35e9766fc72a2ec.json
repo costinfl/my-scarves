@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.340400&lon=-3.760700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":293005433,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28668266,\"lat\":\"40.3404725\",\"lon\":\"-3.7607046\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.202410925455128e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Minería, Quinto Centenario, Zarzaquemada, Leganés, Comunidad de Madrid, 28913, España\",\"address\":{\"road\":\"Calle Minería\",\"quarter\":\"Quinto Centenario\",\"suburb\":\"Zarzaquemada\",\"city\":\"Leganés\",\"state\":\"Comunidad de Madrid\",\"ISO3166-2-lvl4\":\"ES-MD\",\"postcode\":\"28913\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"40.3399386\",\"40.3409985\",\"-3.7611891\",\"-3.7602255\"]}",
+  "fetchedAt": "2026-10-10T10:58:58.567Z"
+}

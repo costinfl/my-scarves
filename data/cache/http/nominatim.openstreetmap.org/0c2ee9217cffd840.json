@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.344167&lon=-3.680556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":292361875,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35805553,\"lat\":\"42.3442761\",\"lon\":\"-3.6806142\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.05630579079426e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calle Dos de Mayo, Barriada Juan XXIII, Capiscol, Distrito Este, Burgos, Castilla y León, 09004, España\",\"address\":{\"road\":\"Calle Dos de Mayo\",\"quarter\":\"Barriada Juan XXIII\",\"suburb\":\"Capiscol\",\"city_district\":\"Distrito Este\",\"city\":\"Burgos\",\"state_district\":\"Burgos\",\"ISO3166-2-lvl6\":\"ES-BU\",\"state\":\"Castilla y León\",\"ISO3166-2-lvl4\":\"ES-CL\",\"postcode\":\"09004\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"42.3438770\",\"42.3446727\",\"-3.6813205\",\"-3.6799078\"]}",
+  "fetchedAt": "2026-10-10T10:58:53.060Z"
+}

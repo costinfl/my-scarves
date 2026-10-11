@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.474722&lon=-0.358333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":295552180,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":24044927,\"lat\":\"39.4746136\",\"lon\":\"-0.3582370\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.688792248412325e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avinguda de Suècia, Mestalla, el Pla del Real, València, Comarca de València, València / Valencia, Comunitat Valenciana, 46021, España\",\"address\":{\"road\":\"Avinguda de Suècia\",\"neighbourhood\":\"Mestalla\",\"suburb\":\"el Pla del Real\",\"city\":\"València\",\"county\":\"Comarca de València\",\"state_district\":\"València / Valencia\",\"ISO3166-2-lvl6\":\"ES-V\",\"state\":\"Comunitat Valenciana\",\"ISO3166-2-lvl4\":\"ES-VC\",\"postcode\":\"46021\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"39.4740897\",\"39.4751374\",\"-0.3587458\",\"-0.3577282\"]}",
+  "fetchedAt": "2026-10-10T10:59:45.157Z"
+}

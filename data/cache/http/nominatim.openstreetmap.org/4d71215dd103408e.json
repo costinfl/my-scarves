@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.914429&lon=-1.388173&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275367401,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":34334251,\"lat\":\"54.9144417\",\"lon\":\"-1.3881751\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.315175097271714e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vaux Brewery Way, Millfield, Sunderland, Tyne and Wear, North East, England, SR5 1SU, United Kingdom\",\"address\":{\"road\":\"Vaux Brewery Way\",\"suburb\":\"Millfield\",\"city\":\"Sunderland\",\"ISO3166-2-lvl8\":\"GB-SND\",\"county\":\"Tyne and Wear\",\"state_district\":\"North East\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"SR5 1SU\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.9138801\",\"54.9150032\",\"-1.3890325\",\"-1.3873178\"]}",
+  "fetchedAt": "2026-10-10T10:58:38.795Z"
+}

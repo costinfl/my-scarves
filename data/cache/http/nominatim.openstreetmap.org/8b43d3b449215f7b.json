@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.796667&lon=-1.636944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":291266706,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":264079724,\"lat\":\"42.7966736\",\"lon\":\"-1.6371255\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.165865568012539e-05,\"addresstype\":\"leisure\",\"name\":\"CA Osasuna\",\"display_name\":\"CA Osasuna, Sadar kalea, Arrosadia, Milagrosa-Arrosadia, Pamplona / Iruña, Iruñerria, Navarra, Navarra / Nafarroa, 31006, España\",\"address\":{\"leisure\":\"CA Osasuna\",\"road\":\"Sadar kalea\",\"quarter\":\"Arrosadia\",\"suburb\":\"Milagrosa-Arrosadia\",\"city\":\"Pamplona / Iruña\",\"county\":\"Iruñerria\",\"state\":\"Navarra\",\"ISO3166-2-lvl6\":\"ES-NA\",\"ISO3166-2-lvl4\":\"ES-NC\",\"postcode\":\"31006\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"42.7961890\",\"42.7971580\",\"-1.6378815\",\"-1.6363696\"]}",
+  "fetchedAt": "2026-10-10T10:58:59.664Z"
+}

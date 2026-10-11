@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.509167&lon=-0.232222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":280113747,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13123903837,\"lat\":\"51.5092851\",\"lon\":\"-0.2321032\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"club\",\"name\":\"Queens Park Rangers F.C.\",\"display_name\":\"Queens Park Rangers F.C., South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, Greater London, England, W12 7PA, United Kingdom\",\"address\":{\"club\":\"Queens Park Rangers F.C.\",\"road\":\"South Africa Road\",\"suburb\":\"Shepherd's Bush\",\"city_district\":\"London Borough of Hammersmith and Fulham\",\"ISO3166-2-lvl8\":\"GB-HMF\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"W12 7PA\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.5092351\",\"51.5093351\",\"-0.2321532\",\"-0.2320532\"]}",
+  "fetchedAt": "2026-10-10T10:58:34.345Z"
+}

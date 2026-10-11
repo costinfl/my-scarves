@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.192500&lon=21.311400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63600363,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":849731689,\"lat\":\"46.1925536\",\"lon\":\"21.3119950\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.39877480132620163,\"addresstype\":\"leisure\",\"name\":\"Stadionul Francisc von Neumann\",\"display_name\":\"Stadionul Francisc von Neumann, Strada Frații Neumann, Parc Industrial UTA 1, Funcționarilor, Arad, 310399, România\",\"address\":{\"leisure\":\"Stadionul Francisc von Neumann\",\"road\":\"Strada Frații Neumann\",\"industrial\":\"Parc Industrial UTA 1\",\"suburb\":\"Funcționarilor\",\"city\":\"Arad\",\"county\":\"Arad\",\"ISO3166-2-lvl4\":\"RO-AR\",\"postcode\":\"310399\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"46.1918833\",\"46.1933055\",\"21.3109671\",\"21.3129398\"]}",
+  "fetchedAt": "2026-10-10T10:43:44.117Z"
+}

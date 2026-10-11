@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.051944&lon=-3.003611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276477874,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":204159308,\"lat\":\"53.0519466\",\"lon\":\"-3.0038133\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.197070267791282e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Mold Road, Plas Coch, Rhosddu, Stansty, Wrexham, Cymru / Wales, LL11 2AF, United Kingdom\",\"address\":{\"road\":\"Mold Road\",\"quarter\":\"Plas Coch\",\"suburb\":\"Rhosddu\",\"village\":\"Stansty\",\"city\":\"Wrexham\",\"county\":\"Wrexham\",\"ISO3166-2-lvl6\":\"GB-WRX\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"LL11 2AF\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.0514478\",\"53.0524453\",\"-3.0047263\",\"-3.0029002\"]}",
+  "fetchedAt": "2026-10-10T10:58:46.455Z"
+}

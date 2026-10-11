@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.642200&lon=-3.935100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":282197718,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":11469196866,\"lat\":\"51.6419036\",\"lon\":\"-3.9347322\",\"category\":\"shop\",\"type\":\"ticket\",\"place_rank\":30,\"importance\":6.776455329208847e-05,\"addresstype\":\"shop\",\"name\":\"\",\"display_name\":\"Brunel Way, Plasmarl, Landore, Swansea, Cymru / Wales, SA1 5JR, United Kingdom\",\"address\":{\"road\":\"Brunel Way\",\"suburb\":\"Plasmarl\",\"city\":\"Swansea\",\"county\":\"Swansea\",\"ISO3166-2-lvl6\":\"GB-SWA\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"SA1 5JR\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.6418536\",\"51.6419536\",\"-3.9347822\",\"-3.9346822\"]}",
+  "fetchedAt": "2026-10-10T10:58:39.850Z"
+}

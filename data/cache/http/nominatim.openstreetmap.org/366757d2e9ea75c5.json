@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.455889&lon=26.056806&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64374678,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":859341021,\"lat\":\"44.4559938\",\"lon\":\"26.0570078\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.015335317001629e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Calea Giulești, Giulești, Sector 6, București, 060276, România\",\"address\":{\"road\":\"Calea Giulești\",\"suburb\":\"Giulești\",\"district\":\"Sector 6\",\"city\":\"București\",\"ISO3166-2-lvl4\":\"RO-B\",\"postcode\":\"060276\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.4554524\",\"44.4565351\",\"26.0563432\",\"26.0576724\"]}",
+  "fetchedAt": "2026-10-10T10:43:40.872Z"
+}

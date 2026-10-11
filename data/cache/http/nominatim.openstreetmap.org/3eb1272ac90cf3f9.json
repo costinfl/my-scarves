@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.590278&lon=-2.130278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276800037,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124646598,\"lat\":\"52.5902044\",\"lon\":\"-2.1304259\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.635309376664405e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Molineux Street, Springfield, Heath Town, Park Village, Wolverhampton, West Midlands, England, WV1 1SG, United Kingdom\",\"address\":{\"road\":\"Molineux Street\",\"quarter\":\"Springfield\",\"suburb\":\"Heath Town\",\"village\":\"Park Village\",\"city\":\"Wolverhampton\",\"ISO3166-2-lvl8\":\"GB-WLV\",\"state_district\":\"West Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"WV1 1SG\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.5896807\",\"52.5907280\",\"-2.1310644\",\"-2.1297874\"]}",
+  "fetchedAt": "2026-10-10T10:58:45.356Z"
+}

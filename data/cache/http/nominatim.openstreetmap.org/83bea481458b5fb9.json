@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.509167&lon=-1.963889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":285509070,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":866670500,\"lat\":\"52.5090874\",\"lon\":\"-1.9639301\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.86549172197607e-05,\"addresstype\":\"leisure\",\"name\":\"West Bromwich Albion F.C.\",\"display_name\":\"West Bromwich Albion F.C., Halfords Lane, Smethwick, Sandwell, West Midlands, England, B71 4LD, United Kingdom\",\"address\":{\"leisure\":\"West Bromwich Albion F.C.\",\"road\":\"Halfords Lane\",\"town\":\"Smethwick\",\"city\":\"Sandwell\",\"ISO3166-2-lvl8\":\"GB-SAW\",\"state_district\":\"West Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"B71 4LD\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.5085895\",\"52.5095854\",\"-1.9644862\",\"-1.9633742\"]}",
+  "fetchedAt": "2026-10-10T10:58:43.156Z"
+}

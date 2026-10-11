@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.264205&lon=-2.949369&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":292783087,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":650817046,\"lat\":\"43.2641693\",\"lon\":\"-2.9493738\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.326848249022687e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rafael Moreno Pitxitxi pasealekua, Basurtu, Basurtu-Zorrotza, Bilbao, Bizkaia, Euskadi, 48014, España\",\"address\":{\"road\":\"Rafael Moreno Pitxitxi pasealekua\",\"quarter\":\"Basurtu\",\"borough\":\"Basurtu-Zorrotza\",\"city\":\"Bilbao\",\"state_district\":\"Bizkaia\",\"ISO3166-2-lvl6\":\"ES-BI\",\"state\":\"Euskadi\",\"ISO3166-2-lvl4\":\"ES-PV\",\"postcode\":\"48014\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"43.2636538\",\"43.2646848\",\"-2.9501396\",\"-2.9486079\"]}",
+  "fetchedAt": "2026-10-10T10:58:49.754Z"
+}

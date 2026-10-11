@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.905833&lon=-1.391111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":283340288,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":497396512,\"lat\":\"50.9058181\",\"lon\":\"-1.3909844\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.061646448458102e-05,\"addresstype\":\"leisure\",\"name\":\"Southampton F.C.\",\"display_name\":\"Southampton F.C., Melbourne Street, Central Trading Estate, Chapel, St Mary's, Southampton, England, SO14 5FB, United Kingdom\",\"address\":{\"leisure\":\"Southampton F.C.\",\"road\":\"Melbourne Street\",\"industrial\":\"Central Trading Estate\",\"quarter\":\"Chapel\",\"suburb\":\"St Mary's\",\"city\":\"Southampton\",\"ISO3166-2-lvl6\":\"GB-STH\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"SO14 5FB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"50.9053206\",\"50.9063155\",\"-1.3915686\",\"-1.3904002\"]}",
+  "fetchedAt": "2026-10-10T10:58:36.548Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.862917&lon=25.776139&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60649142,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":255545575,\"lat\":\"45.8628658\",\"lon\":\"25.7761893\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0899519340764743e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Stadionului, Simeria Veche, Sepsiszentgyörgy, Covasna, 520060, România\",\"address\":{\"road\":\"Strada Stadionului\",\"suburb\":\"Simeria Veche\",\"city\":\"Sepsiszentgyörgy\",\"county\":\"Covasna\",\"ISO3166-2-lvl4\":\"RO-CV\",\"postcode\":\"520060\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.8623498\",\"45.8633818\",\"25.7756433\",\"25.7767354\"]}",
+  "fetchedAt": "2026-10-10T10:43:49.571Z"
+}

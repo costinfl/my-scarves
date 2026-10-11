@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.462778&lon=25.975278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60373203,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":236835222,\"lat\":\"44.4628442\",\"lon\":\"25.9755618\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.015335317001629e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Ștefan cel Mare, Dudu, Chiajna, Ilfov, 077041, România\",\"address\":{\"road\":\"Strada Ștefan cel Mare\",\"village\":\"Dudu\",\"town\":\"Chiajna\",\"county\":\"Ilfov\",\"ISO3166-2-lvl4\":\"RO-IF\",\"postcode\":\"077041\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.4623376\",\"44.4633507\",\"25.9747723\",\"25.9763512\"]}",
+  "fetchedAt": "2026-10-10T10:43:26.459Z"
+}

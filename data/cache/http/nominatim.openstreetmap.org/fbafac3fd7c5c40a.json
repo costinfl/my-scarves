@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.796389&lon=-1.063889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":281128550,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":193897004,\"lat\":\"50.7963633\",\"lon\":\"-1.0637820\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.015564202330078e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Frogmore Road, Milton, Portsmouth, England, PO4 8FR, United Kingdom\",\"address\":{\"road\":\"Frogmore Road\",\"suburb\":\"Milton\",\"city\":\"Portsmouth\",\"ISO3166-2-lvl6\":\"GB-POR\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"PO4 8FR\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"50.7959689\",\"50.7966710\",\"-1.0645773\",\"-1.0630037\"]}",
+  "fetchedAt": "2026-10-10T10:58:32.525Z"
+}

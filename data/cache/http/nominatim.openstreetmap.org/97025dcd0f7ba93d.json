@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.609746&lon=-0.995977&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296351900,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":180837178,\"lat\":\"37.6096793\",\"lon\":\"-0.9960523\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.570763714041378e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida del Cantón, Barrio de la Concepción, San Antonio Abad, Cartagena, Campo de Cartagena y Mar Menor, Región de Murcia, 30205, España\",\"address\":{\"road\":\"Avenida del Cantón\",\"neighbourhood\":\"Barrio de la Concepción\",\"city_district\":\"San Antonio Abad\",\"city\":\"Cartagena\",\"county\":\"Campo de Cartagena y Mar Menor\",\"state_district\":\"Región de Murcia\",\"ISO3166-2-lvl6\":\"ES-MU\",\"state\":\"Región de Murcia\",\"ISO3166-2-lvl4\":\"ES-MC\",\"postcode\":\"30205\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"37.6091525\",\"37.6102061\",\"-0.9965776\",\"-0.9955271\"]}",
+  "fetchedAt": "2026-10-10T10:59:08.492Z"
+}

@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-10-10T11:01:03.115Z",
+  "entity": {
+    "id": "Q9616",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 953243,
+                "id": "Q953243"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Chelsea F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Chelsea F.C."
+      }
+    }
+  }
+}

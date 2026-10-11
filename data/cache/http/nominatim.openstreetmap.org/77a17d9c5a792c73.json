@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.184583&lon=27.561389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62909408,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1239845733,\"lat\":\"47.1845288\",\"lon\":\"27.5611954\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.948882276641516e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada General Toma Dumitresc, Copou, Păcurari, Iași, Zona Metropolitană Iași, Iași, 700471, România\",\"address\":{\"road\":\"Strada General Toma Dumitresc\",\"quarter\":\"Copou\",\"suburb\":\"Păcurari\",\"city\":\"Iași\",\"municipality\":\"Zona Metropolitană Iași\",\"county\":\"Iași\",\"ISO3166-2-lvl4\":\"RO-IS\",\"postcode\":\"700471\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"47.1840194\",\"47.1850414\",\"27.5603466\",\"27.5620442\"]}",
+  "fetchedAt": "2026-10-10T10:43:29.587Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.639274&lon=26.246260&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62544984,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":378327383,\"lat\":\"47.6393155\",\"lon\":\"26.2461469\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.40906086839840655,\"addresstype\":\"leisure\",\"name\":\"Stadion Areni\",\"display_name\":\"Stadion Areni, Strada Universității, Areni, Suceava, 720062, România\",\"address\":{\"leisure\":\"Stadion Areni\",\"road\":\"Strada Universității\",\"suburb\":\"Areni\",\"city\":\"Suceava\",\"county\":\"Suceava\",\"ISO3166-2-lvl4\":\"RO-SV\",\"postcode\":\"720062\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"47.6387293\",\"47.6398967\",\"26.2450326\",\"26.2472448\"]}",
+  "fetchedAt": "2026-10-10T10:43:28.625Z"
+}

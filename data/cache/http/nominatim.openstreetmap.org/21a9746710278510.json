@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.467356&lon=-0.796031&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":295884437,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":301258659,\"lat\":\"38.4674730\",\"lon\":\"-0.7961443\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.2681408123538118,\"addresstype\":\"leisure\",\"name\":\"Estadio Nuevo Pepico Amat\",\"display_name\":\"Estadio Nuevo Pepico Amat, Calle Heidelberg, Las Trescientas, Elda, el Vinalopó Mitjà / El Vinalopó Medio, Alacant / Alicante, Comunitat Valenciana, 03600, España\",\"address\":{\"leisure\":\"Estadio Nuevo Pepico Amat\",\"road\":\"Calle Heidelberg\",\"neighbourhood\":\"Las Trescientas\",\"town\":\"Elda\",\"county\":\"el Vinalopó Mitjà / El Vinalopó Medio\",\"state_district\":\"Alacant / Alicante\",\"ISO3166-2-lvl6\":\"ES-A\",\"state\":\"Comunitat Valenciana\",\"ISO3166-2-lvl4\":\"ES-VC\",\"postcode\":\"03600\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"38.4667433\",\"38.4681071\",\"-0.7968220\",\"-0.7954608\"]}",
+  "fetchedAt": "2026-10-10T10:58:57.463Z"
+}

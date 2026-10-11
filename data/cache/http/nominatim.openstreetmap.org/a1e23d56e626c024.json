@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.347861&lon=2.075667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":83908665,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":111793518,\"lat\":\"41.3478606\",\"lon\":\"2.0756300\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.165026321808221e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Splau parking, el Prat de Llobregat, Baix Llobregat, Barcelona, Catalunya, 08820, España\",\"address\":{\"road\":\"Splau parking\",\"town\":\"el Prat de Llobregat\",\"county\":\"Baix Llobregat\",\"state_district\":\"Barcelona\",\"ISO3166-2-lvl6\":\"ES-B\",\"state\":\"Catalunya\",\"ISO3166-2-lvl4\":\"ES-CT\",\"postcode\":\"08820\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"41.3472733\",\"41.3484486\",\"2.0750449\",\"2.0762148\"]}",
+  "fetchedAt": "2026-10-10T10:59:20.602Z"
+}

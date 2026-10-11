@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.448056&lon=-1.495556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":279515512,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":31991381,\"lat\":\"52.4481175\",\"lon\":\"-1.4956551\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.927672236205108e-05,\"addresstype\":\"leisure\",\"name\":\"Coventry Building Society Arena\",\"display_name\":\"Coventry Building Society Arena, Rowleys Green Lane, Rowley Green, Coventry, West Midlands, England, CV6 6AQ, United Kingdom\",\"address\":{\"leisure\":\"Coventry Building Society Arena\",\"road\":\"Rowleys Green Lane\",\"hamlet\":\"Rowley Green\",\"city\":\"Coventry\",\"ISO3166-2-lvl8\":\"GB-COV\",\"state_district\":\"West Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"CV6 6AQ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.4475789\",\"52.4486561\",\"-1.4964051\",\"-1.4949051\"]}",
+  "fetchedAt": "2026-10-10T10:58:00.539Z"
+}

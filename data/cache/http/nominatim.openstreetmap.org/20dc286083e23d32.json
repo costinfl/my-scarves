@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.555000&lon=-0.108333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":278587209,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12911511109,\"lat\":\"51.5550429\",\"lon\":\"-0.1083873\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":9.307927061870783e-05,\"addresstype\":\"club\",\"name\":\"Arsenal Football Club\",\"display_name\":\"Arsenal Football Club, Queensland Road, Highbury, London Borough of Islington, Greater London, England, N7 7FF, United Kingdom\",\"address\":{\"club\":\"Arsenal Football Club\",\"road\":\"Queensland Road\",\"residential\":\"Queensland Road\",\"suburb\":\"Highbury\",\"city_district\":\"London Borough of Islington\",\"ISO3166-2-lvl8\":\"GB-ISL\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"N7 7FF\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.5549929\",\"51.5550929\",\"-0.1084373\",\"-0.1083373\"]}",
+  "fetchedAt": "2026-10-10T10:57:47.113Z"
+}

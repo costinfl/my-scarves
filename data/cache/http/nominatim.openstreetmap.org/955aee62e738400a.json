@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.746111&lon=21.228333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64941342,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":154295262,\"lat\":\"45.7461050\",\"lon\":\"21.2284177\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4093142170089203,\"addresstype\":\"leisure\",\"name\":\"Stadionul Știința\",\"display_name\":\"Stadionul Știința, Strada Traian Lalescu, Elisabetin, Timișoara, Timiș, 300223, România\",\"address\":{\"leisure\":\"Stadionul Știința\",\"road\":\"Strada Traian Lalescu\",\"suburb\":\"Elisabetin\",\"city\":\"Timișoara\",\"county\":\"Timiș\",\"ISO3166-2-lvl4\":\"RO-TM\",\"postcode\":\"300223\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"45.7456163\",\"45.7465936\",\"21.2279191\",\"21.2289164\"]}",
+  "fetchedAt": "2026-10-10T10:43:52.052Z"
+}

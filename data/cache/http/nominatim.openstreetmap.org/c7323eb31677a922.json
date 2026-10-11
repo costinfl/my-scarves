@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.509167&lon=-1.884722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":280085097,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124420181,\"lat\":\"52.5091310\",\"lon\":\"-1.8848568\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.734416723883447e-05,\"addresstype\":\"leisure\",\"name\":\"Aston Villa F.C.\",\"display_name\":\"Aston Villa F.C., Witton Lane, Aston, Nechells, Birmingham, West Midlands, England, B6 6QZ, United Kingdom\",\"address\":{\"leisure\":\"Aston Villa F.C.\",\"road\":\"Witton Lane\",\"suburb\":\"Aston\",\"village\":\"Nechells\",\"city\":\"Birmingham\",\"ISO3166-2-lvl8\":\"GB-BIR\",\"state_district\":\"West Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"B6 6QZ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.5085396\",\"52.5097223\",\"-1.8857528\",\"-1.8839607\"]}",
+  "fetchedAt": "2026-10-10T10:57:48.209Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.487489&lon=0.035632&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":100449734,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":104042498,\"lat\":\"51.4874606\",\"lon\":\"0.0356356\",\"category\":\"highway\",\"type\":\"residential\",\"place_rank\":26,\"importance\":0.053426412603952055,\"addresstype\":\"road\",\"name\":\"Harvey Gardens\",\"display_name\":\"Harvey Gardens, Charlton Riverside, Royal Borough of Greenwich, Greater London, England, SE7 8SR, United Kingdom\",\"address\":{\"road\":\"Harvey Gardens\",\"suburb\":\"Charlton Riverside\",\"city_district\":\"Royal Borough of Greenwich\",\"ISO3166-2-lvl8\":\"GB-GRE\",\"city\":\"Greater London\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"SE7 8SR\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4874413\",\"51.4874644\",\"0.0355050\",\"0.0361442\"]}",
+  "fetchedAt": "2026-10-10T10:57:58.110Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.789064&lon=-2.230225&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":278027944,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":52344832,\"lat\":\"53.7889891\",\"lon\":\"-2.2302091\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.047989623860559e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Harry Potts Way, Pike Hill, Fulledge, Burnley, Lancashire, England, BB10 4AX, United Kingdom\",\"address\":{\"road\":\"Harry Potts Way\",\"suburb\":\"Pike Hill\",\"town\":\"Burnley\",\"county\":\"Lancashire\",\"ISO3166-2-lvl6\":\"GB-LAN\",\"state_district\":\"Lancashire\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"BB10 4AX\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.7885405\",\"53.7894375\",\"-2.2311717\",\"-2.2292464\"]}",
+  "fetchedAt": "2026-10-10T10:57:55.910Z"
+}

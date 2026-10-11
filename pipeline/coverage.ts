@@ -13,6 +13,13 @@ const md = coverageMarkdown({
   clubs: readJson(paths.clubs, []),
   stadiums: readJson(paths.stadiums, []),
   report: readJson(paths.importReport, {}),
+  enrichment: {
+    logos: readJson(paths.enriched.logos, {}),
+    colors: readJson(paths.enriched.colors, {}),
+    blurbs: readJson(paths.enriched.blurbs, {}),
+    addresses: readJson(paths.enriched.addresses, {}),
+    fanshops: readJson(paths.enriched.fanshops, {}),
+  },
 });
 writeFileSync(paths.coverage, md, 'utf8');
 console.log(md);

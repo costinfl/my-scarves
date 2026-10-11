@@ -55,6 +55,28 @@ describe('buildCatalog', () => {
     expect(withOld.clubs.find((c) => c.qid === 'Q10')).toMatchObject({ current: true, league: 'Q1' });
   });
 
+  it('merges enrichment, then overrides by club or stadium QID, and hides fan shops that are not candidates', () => {
+    const enriched = buildCatalog({
+      ...input,
+      enrichment: {
+        logos: {},
+        colors: { Q10: { primary: '#800032', source: 'wikidata' } },
+        blurbs: { Q10: { text: 'Draft.', source: 'https://en.wikipedia.org/wiki/Rapid', status: 'draft' } },
+        addresses: { Q90: { text: 'Strada Giulești 18, București' } },
+        fanshops: { Q10: { status: 'none', checkedAt: '2026-10-10' } },
+      },
+      overrides: {
+        Q10: { blurb: { text: 'Reviewed.', source: 'https://en.wikipedia.org/wiki/Rapid', status: 'reviewed' } },
+        Q90: { address: { text: 'Calea Giulești 18' } },
+      },
+    });
+    const rapid = enriched.clubs.find((c) => c.qid === 'Q10')!;
+    expect(rapid.colors?.primary).toBe('#800032');
+    expect(rapid.blurb).toMatchObject({ text: 'Reviewed.', status: 'reviewed' });
+    expect(rapid.stadium?.address?.text).toBe('Calea Giulești 18');
+    expect(rapid.fanshop).toBeUndefined();
+  });
+
   it('keeps only associations that have clubs, and league labels as names', () => {
     expect(catalog.associations.map((a) => a.code)).toEqual(['ROU']);
     expect(catalog.leagues).toEqual([

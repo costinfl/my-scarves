@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.768333&lon=23.572222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63636989,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":7977397593,\"lat\":\"46.7684881\",\"lon\":\"23.5724825\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.781872281982173e-05,\"addresstype\":\"leisure\",\"name\":\"Cluj Arena\",\"display_name\":\"Cluj Arena, Aleea Stadionului, Plopilor, Cluj-Napoca, Zona Metropolitană Cluj, Cluj, 400376, România\",\"address\":{\"leisure\":\"Cluj Arena\",\"road\":\"Aleea Stadionului\",\"suburb\":\"Plopilor\",\"city\":\"Cluj-Napoca\",\"municipality\":\"Zona Metropolitană Cluj\",\"county\":\"Cluj\",\"ISO3166-2-lvl4\":\"RO-CJ\",\"postcode\":\"400376\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"46.7684381\",\"46.7685381\",\"23.5724325\",\"23.5725325\"]}",
+  "fetchedAt": "2026-10-10T10:43:42.965Z"
+}

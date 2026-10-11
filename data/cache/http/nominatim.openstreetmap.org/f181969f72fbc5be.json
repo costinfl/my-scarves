@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.463056&lon=-2.291389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275358441,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":165256230,\"lat\":\"53.4630703\",\"lon\":\"-2.2913485\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.737010757605886e-05,\"addresstype\":\"leisure\",\"name\":\"Old Trafford Stadium\",\"display_name\":\"Old Trafford Stadium, Munich Tunnel, Wharfside, Stretford, Trafford, Greater Manchester, England, M32 0RZ, United Kingdom\",\"address\":{\"leisure\":\"Old Trafford Stadium\",\"road\":\"Munich Tunnel\",\"suburb\":\"Wharfside\",\"town\":\"Stretford\",\"city\":\"Trafford\",\"ISO3166-2-lvl8\":\"GB-TRF\",\"state_district\":\"Greater Manchester\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"M32 0RZ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.4626263\",\"53.4635145\",\"-2.2922670\",\"-2.2904301\"]}",
+  "fetchedAt": "2026-10-10T10:58:19.052Z"
+}

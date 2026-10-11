@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.448194&lon=26.052872&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60907502,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":803611819,\"lat\":\"44.4481483\",\"lon\":\"26.0530335\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.015335317001629e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Larisa, Belvedere, Regie, Sector 6, București, 060214, România\",\"address\":{\"road\":\"Strada Larisa\",\"neighbourhood\":\"Belvedere\",\"suburb\":\"Regie\",\"district\":\"Sector 6\",\"city\":\"București\",\"ISO3166-2-lvl4\":\"RO-B\",\"postcode\":\"060214\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.4476057\",\"44.4486909\",\"26.0523974\",\"26.0536695\"]}",
+  "fetchedAt": "2026-10-10T10:43:39.846Z"
+}

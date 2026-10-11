@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.996053&lon=-0.038792&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":292118395,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":218993859,\"lat\":\"39.9961288\",\"lon\":\"-0.0386372\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.438620584415988e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Carrer d'Osca, Grup del Riu Sec, Castelló de la Plana / Castellón de la Plana, la Plana Alta, Castelló / Castellón, Comunitat Valenciana, 12004, España\",\"address\":{\"road\":\"Carrer d'Osca\",\"neighbourhood\":\"Grup del Riu Sec\",\"city\":\"Castelló de la Plana / Castellón de la Plana\",\"county\":\"la Plana Alta\",\"state_district\":\"Castelló / Castellón\",\"ISO3166-2-lvl6\":\"ES-CS\",\"state\":\"Comunitat Valenciana\",\"ISO3166-2-lvl4\":\"ES-VC\",\"postcode\":\"12004\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"39.9956667\",\"39.9965910\",\"-0.0390612\",\"-0.0382132\"]}",
+  "fetchedAt": "2026-10-10T10:58:56.363Z"
+}

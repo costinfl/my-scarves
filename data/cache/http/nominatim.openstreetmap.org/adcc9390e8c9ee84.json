@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.915000&lon=-1.447222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":278587614,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":58124726,\"lat\":\"52.9149168\",\"lon\":\"-1.4472501\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.733730067898096e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Derwent Parade, Pride Park, Derby, East Midlands, England, DE24 8LZ, United Kingdom\",\"address\":{\"road\":\"Derwent Parade\",\"suburb\":\"Pride Park\",\"city\":\"Derby\",\"county\":\"Derby\",\"ISO3166-2-lvl6\":\"GB-DER\",\"state_district\":\"East Midlands\",\"state\":\"England\",\"ISO3166-2-lvl4\":\"GB-ENG\",\"postcode\":\"DE24 8LZ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.9143057\",\"52.9155278\",\"-1.4481792\",\"-1.4463209\"]}",
+  "fetchedAt": "2026-10-10T10:58:09.495Z"
+}
