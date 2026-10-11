@@ -21,6 +21,7 @@ export async function loadStore(): Promise<Store> {
 export function indexCatalog(catalog: Catalog): Store {
   const clubsByLeague = new Map<string, CatalogClub[]>();
   for (const c of catalog.clubs) {
+    if (!c.current) continue;
     const list = clubsByLeague.get(c.league) ?? [];
     list.push(c);
     clubsByLeague.set(c.league, list);
@@ -33,6 +34,26 @@ export function indexCatalog(catalog: Catalog): Store {
     clubsByLeague,
   };
 }
+
+export type Filter = 'all' | 'owned' | 'wishlist' | 'missing';
+
+export const FILTERS: Filter[] = ['all', 'owned', 'wishlist', 'missing'];
+
+export function applyFilter(clubs: CatalogClub[], filter: Filter): CatalogClub[] {
+  switch (filter) {
+    case 'all':
+      return clubs;
+    case 'owned':
+      return clubs.filter(owned);
+    case 'wishlist':
+      return clubs.filter(wished);
+    case 'missing':
+      return clubs.filter((c) => !owned(c));
+  }
+}
+
+/** Clubs that count towards "N of M": tier 1/2 this season. */
+export const currentClubs = (store: Store) => store.catalog.clubs.filter((c) => c.current);
 
 export const owned = (c: CatalogClub) => c.scarves.some((s) => s.status === 'owned');
 export const wished = (c: CatalogClub) => !owned(c) && c.scarves.some((s) => s.status === 'wishlist');
