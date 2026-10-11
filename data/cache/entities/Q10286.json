@@ -1,5 +1,6 @@
 {
-  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "fetchedAt": "2026-10-11T11:13:02.122Z",
+  "version": 2,
   "entity": {
     "id": "Q10286",
     "claims": {
@@ -17,6 +18,16 @@
           "mainsnak": {
             "datavalue": {
               "value": "0022AA"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "53042"
             }
           }
         }

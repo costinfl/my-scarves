@@ -6,6 +6,43 @@ import { href } from './router.ts';
 
 const photoUrl = (path: string) => `${import.meta.env.BASE_URL}photos/${path}`;
 const logoUrl = (file: string) => `${import.meta.env.BASE_URL}logos/${file}`;
+const uefaBadge = (id: string) => `https://img.uefa.com/imgml/TP/teams/logos/240x240/${id}.png`;
+const uefaTeam = (id: string) => `https://www.uefa.com/nationalassociations/teams/${id}/`;
+
+/** Which logo a club page shows: my choice, else the UEFA badge, else the Commons file. */
+export function logoChoice(c: CatalogClub): 'uefa' | 'commons' | 'none' {
+  if (c.logoSource === 'none') return 'none';
+  if (c.logoSource === 'commons' && c.logo) return 'commons';
+  if (c.uefaId) return 'uefa';
+  return c.logo ? 'commons' : 'none';
+}
+
+/** Shop links worth showing: found by the pipeline (unchecked by me) or confirmed/entered by me. */
+const shownShop = (c: CatalogClub) =>
+  c.fanshop?.url && (c.fanshop.status === 'candidate' || c.fanshop.status === 'confirmed' || c.fanshop.status === 'manual') ? c.fanshop : undefined;
+
+function logoImg(c: CatalogClub): Html {
+  const choice = logoChoice(c);
+  if (choice === 'uefa') {
+    // Embedded from UEFA, never copied into the repo. If UEFA moves it, fall back to the Commons file or hide.
+    return html`<img class="logo" src="${uefaBadge(c.uefaId!)}" alt="${c.name} badge" referrerpolicy="no-referrer"
+      ${c.logo ? html`data-fallback="${logoUrl(c.logo.file)}"` : ''}>`;
+  }
+  if (choice === 'commons') return html`<img class="logo" src="${logoUrl(c.logo!.file)}" alt="${c.name} logo">`;
+  return html``;
+}
+
+function logoCredit(c: CatalogClub): Html {
+  const choice = logoChoice(c);
+  if (choice === 'uefa') {
+    return html`<p class="muted credit">Badge: <a href="${uefaTeam(c.uefaId!)}" rel="noopener" target="_blank">UEFA</a>, shown from uefa.com; © the club.</p>`;
+  }
+  if (choice === 'commons' && c.logo) {
+    return html`<p class="muted credit">Logo: <a href="${c.logo.sourceUrl}" rel="noopener" target="_blank">${c.logo.commonsFile}</a>
+      ${c.logo.author && `by ${c.logo.author}, `}${c.logo.license}, via Wikimedia Commons</p>`;
+  }
+  return html``;
+}
 
 /** Two-colour swatch in the club colours; nothing when the colours are unknown. */
 function swatch(c: CatalogClub): Html {
@@ -136,7 +173,7 @@ export function clubView(store: Store, qid: string): Html {
   return html`
     ${crumbs([a.name, href.association(a.code)], [l.name, href.league(l.qid)], [c.name])}
     <header class="club-head">
-      ${c.logo && html`<img class="logo" src="${logoUrl(c.logo.file)}" alt="${c.name} logo">`}
+      ${logoImg(c)}
       <div>
         <h1>${c.name} ${badge(c)}</h1>
         <p class="muted">${l.name} · ${a.name}${!c.current && ' · not in tier 1 or 2 this season'}</p>
@@ -144,7 +181,7 @@ export function clubView(store: Store, qid: string): Html {
     </header>
     ${c.colors &&
     html`<div class="stripe" style="--c1:${c.colors.primary};--c2:${c.colors.secondary ?? c.colors.primary}"
-      title="${c.colors.names?.length ? `Colours: ${c.colors.names.join(', ')}` : 'Colours from the logo'}"></div>`}
+      title="${c.colors.names?.length ? `Colours: ${c.colors.names.join(', ')}` : 'Club colours'}"></div>`}
     ${c.blurb &&
     html`<p class="blurb">${c.blurb.text}
       <small class="muted">From <a href="${c.blurb.source}" rel="noopener" target="_blank">Wikipedia</a>, CC BY-SA 4.0${c.blurb.status === 'draft' && ' · draft'}</small></p>`}
@@ -171,15 +208,13 @@ export function clubView(store: Store, qid: string): Html {
     <section>
       <h2>Links</h2>
       <ul>
-        ${c.fanshop?.url &&
-        html`<li><a href="${c.fanshop.url}" rel="noopener" target="_blank">${c.fanshop.status === 'candidate' ? 'Fan shop' : 'Official fan shop'}</a>
-          ${c.fanshop.status === 'candidate' && html`<small class="muted">found automatically, not yet checked</small>`}</li>`}
+        ${shownShop(c) &&
+        html`<li><a href="${shownShop(c)!.url}" rel="noopener" target="_blank">${shownShop(c)!.status === 'candidate' ? 'Fan shop' : 'Official fan shop'}</a>
+          ${shownShop(c)!.status === 'candidate' && html`<small class="muted">found automatically, not yet checked</small>`}</li>`}
         ${c.officialWebsite && html`<li><a href="${c.officialWebsite}" rel="noopener" target="_blank">Official website</a></li>`}
         <li><a href="https://www.wikidata.org/wiki/${c.qid}" rel="noopener" target="_blank">Wikidata ${c.qid}</a></li>
       </ul>
-      ${c.logo &&
-      html`<p class="muted credit">Logo: <a href="${c.logo.sourceUrl}" rel="noopener" target="_blank">${c.logo.commonsFile}</a>
-        ${c.logo.author && `by ${c.logo.author}, `}${c.logo.license}, via Wikimedia Commons</p>`}
+      ${logoCredit(c)}
     </section>
   `;
 }

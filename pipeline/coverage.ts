@@ -15,7 +15,9 @@ const md = coverageMarkdown({
   report: readJson(paths.importReport, {}),
   enrichment: {
     logos: readJson(paths.enriched.logos, {}),
+    uefa: readJson(paths.enriched.uefa, {}),
     colors: readJson(paths.enriched.colors, {}),
+    palettes: readJson(paths.enriched.palettes, {}),
     blurbs: readJson(paths.enriched.blurbs, {}),
     addresses: readJson(paths.enriched.addresses, {}),
     fanshops: readJson(paths.enriched.fanshops, {}),

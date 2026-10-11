@@ -12,13 +12,13 @@ Not imported yet: 52 of 55 associations.
 
 ## Enrichment
 
-Counts of clubs that have the field. Colours: from Wikidata P6364 / extracted from the logo.
+Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: Wikidata official colours.
 
 | Association | Clubs | Logo | Colours | Blurb | Stadium address | Fan shop candidate |
 |---|---:|---:|---:|---:|---:|---:|
-| ENG England | 44 | 3 (7%) | 43 / 0 | 44 (100%) | 44 (100%) | 17 (39%) |
-| ROU Romania | 32 | 2 (6%) | 1 / 2 | 32 (100%) | 27 (84%) | 11 (34%) |
-| ESP Spain | 46 | 4 (9%) | 20 / 2 | 46 (100%) | 46 (100%) | 19 (41%) |
+| ENG England | 44 | 35 / 3 | 43 (98%) | 44 (100%) | 44 (100%) | 17 (39%) |
+| ROU Romania | 32 | 14 / 2 | 1 (3%) | 32 (100%) | 27 (84%) | 11 (34%) |
+| ESP Spain | 46 | 29 / 4 | 20 (43%) | 46 (100%) | 46 (100%) | 19 (41%) |
 
 ## Leagues
 

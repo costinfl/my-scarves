@@ -70,6 +70,19 @@ async function main() {
     }
   });
 
+  // A logo that fails to load (e.g. UEFA moved it) falls back to data-fallback, or disappears.
+  app.addEventListener(
+    'error',
+    (e) => {
+      const img = e.target as HTMLImageElement;
+      if (!(img instanceof HTMLImageElement) || !img.classList.contains('logo')) return;
+      const fallback = img.dataset.fallback;
+      if (fallback && img.src !== new URL(fallback, location.href).href) img.src = fallback;
+      else img.remove();
+    },
+    true,
+  );
+
   window.addEventListener('hashchange', render);
   render();
 }

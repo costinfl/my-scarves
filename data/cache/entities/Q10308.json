@@ -1,5 +1,6 @@
 {
-  "fetchedAt": "2026-10-10T11:01:01.432Z",
+  "fetchedAt": "2026-10-11T11:13:02.122Z",
+  "version": 2,
   "entity": {
     "id": "Q10308",
     "claims": {
@@ -25,6 +26,16 @@
                 "numeric-id": 23444,
                 "id": "Q23444"
               }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52822"
             }
           }
         }

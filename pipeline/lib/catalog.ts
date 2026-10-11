@@ -11,6 +11,7 @@ import type {
   Overrides,
   Scarf,
   Stadium,
+  UefaInfo,
 } from './types.ts';
 
 /** What the site loads: one JSON file, already merged (generated, then overrides, then collection). */
@@ -42,18 +43,22 @@ export interface CatalogClub extends ClubEnrichment {
   officialWebsite?: string;
   logoFile?: string;
   stadium?: CatalogStadium;
+  /** Every home venue Wikidata lists (primary first), so I can pick the right one in the editor. */
+  venues: { qid: string; name: string }[];
   scarves: Scarf[];
 }
 
 export interface Enrichment {
   logos: Record<string, LogoInfo>;
+  uefa: Record<string, UefaInfo>;
   colors: Record<string, ColorInfo>;
+  palettes: Record<string, string[]>;
   blurbs: Record<string, BlurbInfo>;
   addresses: Record<string, AddressInfo>;
   fanshops: Record<string, FanshopInfo>;
 }
 
-export const noEnrichment: Enrichment = { logos: {}, colors: {}, blurbs: {}, addresses: {}, fanshops: {} };
+export const noEnrichment: Enrichment = { logos: {}, uefa: {}, colors: {}, palettes: {}, blurbs: {}, addresses: {}, fanshops: {} };
 
 export interface CatalogInput {
   associations: Association[];
@@ -73,7 +78,9 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
       {
         ...c,
         ...(enrichment.logos[c.qid] ? { logo: enrichment.logos[c.qid] } : {}),
+        ...(enrichment.uefa[c.qid] ? { uefaId: enrichment.uefa[c.qid]!.id } : {}),
         ...(enrichment.colors[c.qid] ? { colors: enrichment.colors[c.qid] } : {}),
+        ...(enrichment.palettes[c.qid]?.length ? { palette: enrichment.palettes[c.qid] } : {}),
         ...(enrichment.blurbs[c.qid] ? { blurb: enrichment.blurbs[c.qid] } : {}),
         ...(enrichment.fanshops[c.qid] ? { fanshop: enrichment.fanshops[c.qid] } : {}),
       },
@@ -109,10 +116,18 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
       ...(c.officialWebsite ? { officialWebsite: c.officialWebsite } : {}),
       ...(c.logoFile ? { logoFile: c.logoFile } : {}),
       ...(c.logo ? { logo: c.logo } : {}),
+      ...(c.uefaId ? { uefaId: c.uefaId } : {}),
+      ...(c.logoSource ? { logoSource: c.logoSource } : {}),
       ...(c.colors ? { colors: c.colors } : {}),
+      ...(c.palette ? { palette: c.palette } : {}),
       ...(c.blurb ? { blurb: c.blurb } : {}),
-      ...(c.fanshop?.url && c.fanshop.status !== 'none' && c.fanshop.status !== 'unchecked' ? { fanshop: c.fanshop } : {}),
+      // The page shows only candidate/confirmed/manual shops; the editor also needs to see the rest.
+      ...(c.fanshop ? { fanshop: c.fanshop } : {}),
       ...(stadium ? { stadium } : {}),
+      venues: c.stadiumIds.flatMap((id) => {
+        const v = stadiumById.get(id);
+        return v ? [{ qid: v.qid, name: v.name }] : [];
+      }),
       scarves: clubScarves,
     });
   }

@@ -72,7 +72,13 @@ export interface Scarf {
 /** Club fields filled by the enrichment stages, on top of what the importer writes. */
 export interface ClubEnrichment {
   logo?: LogoInfo;
+  /** UEFA team id (Wikidata P7361); the badge is embedded from img.uefa.com, never copied. */
+  uefaId?: string;
+  /** Which logo to show; default: UEFA badge if there is a UEFA id, else Commons. */
+  logoSource?: 'uefa' | 'commons' | 'none';
   colors?: ColorInfo;
+  /** Main colours of the badge, offered as suggestions in the editor (never shown as club colours). */
+  palette?: string[];
   blurb?: BlurbInfo;
   fanshop?: FanshopInfo;
 }
@@ -101,8 +107,13 @@ export interface ColorInfo {
   secondary?: string;
   /** Colour names from Wikidata, when that is the source. */
   names?: string[];
-  /** wikidata: P6364 official colour; auto: extracted from the logo; manual: set in overrides. */
-  source: 'wikidata' | 'auto' | 'manual';
+  /** wikidata: P6364 official colour; manual: chosen by me (overrides). Logo colours are only suggestions. */
+  source: 'wikidata' | 'manual';
+}
+
+/** data/generated/uefa.json, keyed by club QID. */
+export interface UefaInfo {
+  id: string;
 }
 
 /** data/generated/blurbs.json, keyed by club QID. */
