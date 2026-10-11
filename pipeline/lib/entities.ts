@@ -18,9 +18,11 @@ export interface Claim {
 }
 
 const API = 'https://www.wikidata.org/w/api.php';
-/** P154 logo, P6364 official colour, P465 sRGB hex. Everything else is dropped before caching. */
-const KEEP = ['P154', 'P6364', 'P465'];
+/** P154 logo, P6364 official colour, P465 sRGB hex, P7361 UEFA team id. Everything else is dropped before caching. */
+const KEEP = ['P154', 'P6364', 'P465', 'P7361'];
 const MAX_AGE_MS = 7 * 86_400_000;
+/** Bump when KEEP changes, so entities cached with fewer claims are fetched again. */
+const CACHE_VERSION = 2;
 
 /**
  * Fetches entities 50 at a time via wbgetentities. A full entity is ~60 KB, so only the claims
@@ -30,8 +32,9 @@ export async function getEntities(qids: string[], opts: { refresh?: boolean } = 
   const out = new Map<string, Entity>();
   const todo: string[] = [];
   for (const qid of [...new Set(qids)].sort()) {
-    const cached = readJson<{ fetchedAt: string; entity: Entity } | null>(join(paths.entityCache, `${qid}.json`), null);
-    if (cached && !opts.refresh && Date.now() - Date.parse(cached.fetchedAt) < MAX_AGE_MS) out.set(qid, cached.entity);
+    const cached = readJson<{ fetchedAt: string; version?: number; entity: Entity } | null>(join(paths.entityCache, `${qid}.json`), null);
+    const fresh = cached && cached.version === CACHE_VERSION && Date.now() - Date.parse(cached.fetchedAt) < MAX_AGE_MS;
+    if (cached && fresh && !opts.refresh) out.set(qid, cached.entity);
     else todo.push(qid);
   }
 
@@ -52,7 +55,7 @@ export async function getEntities(qids: string[], opts: { refresh?: boolean } = 
     const fetchedAt = new Date().toISOString();
     for (const [id, e] of Object.entries(json.entities)) {
       const entity = trim(e);
-      writeJson(join(paths.entityCache, `${id}.json`), { fetchedAt, entity });
+      writeJson(join(paths.entityCache, `${id}.json`), { fetchedAt, version: CACHE_VERSION, entity });
       out.set(id, entity);
     }
   }

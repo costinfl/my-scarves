@@ -53,11 +53,6 @@
     ],
     "source": "wikidata"
   },
-  "Q8749": {
-    "primary": "#FF0000",
-    "secondary": "#92E9E9",
-    "source": "auto"
-  },
   "Q8780": {
     "primary": "#0000FF",
     "secondary": "#FFFFFF",
@@ -516,16 +511,6 @@
     ],
     "source": "wikidata"
   },
-  "Q204237": {
-    "primary": "#FE0000",
-    "secondary": "#F5BE19",
-    "source": "auto"
-  },
-  "Q216661": {
-    "primary": "#FEFEFE",
-    "secondary": "#0234A2",
-    "source": "auto"
-  },
   "Q271574": {
     "primary": "#0000FF",
     "names": [
@@ -541,11 +526,6 @@
       "white"
     ],
     "source": "wikidata"
-  },
-  "Q753462": {
-    "primary": "#010101",
-    "secondary": "#FFFFFF",
-    "source": "auto"
   },
   "Q841245": {
     "primary": "#800080",

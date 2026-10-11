@@ -6,7 +6,8 @@ import { afterAll, describe, expect, it } from 'vitest';
 import type { Entity } from '../entities.ts';
 import { formatAddress } from './addresses.ts';
 import { trimSentences } from './blurbs.ts';
-import { logoColors, wikidataColors } from './colors.ts';
+import { palette, wikidataColors } from './colors.ts';
+import { parseUefaId, uefaBadgeUrl } from './uefa.ts';
 import { findShopLinks, isMarketplace, looksLikeShop, robotsAllows } from './fanshops.ts';
 
 describe('trimSentences', () => {
@@ -91,6 +92,16 @@ describe('findShopLinks', () => {
   });
 });
 
+describe('uefa', () => {
+  it('parses ids, slugs and team URLs', () => {
+    expect(parseUefaId('53030')).toBe('53030');
+    expect(parseUefaId('53030--petrolul')).toBe('53030');
+    expect(parseUefaId('https://www.uefa.com/nationalassociations/teams/53030--petrolul/')).toBe('53030');
+    expect(parseUefaId('Petrolul')).toBeUndefined();
+  });
+  it('builds badge URLs', () => expect(uefaBadgeUrl('53030')).toBe('https://img.uefa.com/imgml/TP/teams/logos/240x240/53030.png'));
+});
+
 describe('colors', () => {
   const entity = (claimsByProp: Record<string, unknown[]>, label = ''): Entity => ({
     id: 'Q0',
@@ -115,12 +126,17 @@ describe('colors', () => {
   const dir = mkdtempSync(join(tmpdir(), 'logo-'));
   afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
-  it('extracts the two dominant logo colours, ignoring transparency', async () => {
-    const file = join(dir, 'logo.svg');
+  it('lists the main badge colours, most common first, ignoring transparency and tiny details', async () => {
+    const file = join(dir, 'badge.png');
+    // Bordeaux body, white band, a small yellow star (about 3% of the badge), transparent corners.
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-      <rect width="100" height="60" fill="#7B1E2B"/><rect y="60" width="100" height="30" fill="#FFFFFF"/></svg>`;
-    await sharp(Buffer.from(svg)).toFile(file.replace('.svg', '.png'));
-    const colors = await logoColors(file.replace('.svg', '.png'));
-    expect(colors).toEqual({ primary: '#7B1E2B', secondary: '#FFFFFF', source: 'auto' });
+      <rect x="10" width="80" height="60" fill="#7B1E2B"/><rect x="10" y="60" width="80" height="30" fill="#FFFFFF"/>
+      <rect x="45" y="2" width="17" height="17" fill="#FFD700"/><rect x="48" y="90" width="2" height="2" fill="#00FF00"/></svg>`;
+    await sharp(Buffer.from(svg)).png().toFile(file);
+    const colours = await palette(file);
+    // Downscaling blends edge pixels, so the star may come out a shade off #FFD700.
+    expect(colours.slice(0, 2)).toEqual(['#7B1E2B', '#FFFFFF']);
+    expect(colours).toHaveLength(3);
+    expect(colours[2]).toMatch(/^#F[EF]D[67]0[0-9A-F]$/);
   });
 });

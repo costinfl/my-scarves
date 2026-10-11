@@ -21,11 +21,12 @@ export function wikidataColors(club: Entity | undefined, colorItems: Map<string,
 }
 
 /**
- * The two most common colours of a logo. Pixels are bucketed to 4 bits per channel;
- * transparent pixels are ignored, and the second colour must differ visibly from the first.
+ * The main colours of a badge, most common first, as suggestions for me to pick from.
+ * Not a guess at the club colours: a badge's yellow championship star is not a club colour.
+ * Pixels are bucketed to 4 bits per channel; transparent pixels are ignored; near-duplicates are merged.
  */
-export async function logoColors(file: string): Promise<ColorInfo | undefined> {
-  const { data, info } = await sharp(file, { density: 72 })
+export async function palette(input: string | Buffer, max = 5): Promise<string[]> {
+  const { data, info } = await sharp(input, { density: 72 })
     .resize(64, 64, { fit: 'inside' })
     .ensureAlpha()
     .raw()
@@ -42,13 +43,15 @@ export async function logoColors(file: string): Promise<ColorInfo | undefined> {
     bucket.b += b;
     counts.set(key, bucket);
   }
-  const ranked = [...counts.values()]
-    .sort((a, b) => b.n - a.n)
-    .map((x) => [x.r / x.n, x.g / x.n, x.b / x.n] as const);
-  const first = ranked[0];
-  if (!first) return undefined;
-  const second = ranked.find((c) => distance(c, first) > 80);
-  return { primary: toHex(first), ...(second ? { secondary: toHex(second) } : {}), source: 'auto' };
+  const total = [...counts.values()].reduce((n, b) => n + b.n, 0);
+  const picked: (readonly number[])[] = [];
+  for (const b of [...counts.values()].sort((x, y) => y.n - x.n)) {
+    if (b.n < total * 0.02) break; // ignore anti-aliasing and tiny details
+    const c = [b.r / b.n, b.g / b.n, b.b / b.n] as const;
+    if (picked.every((p) => distance(p, c) > 60)) picked.push(c);
+    if (picked.length >= max) break;
+  }
+  return picked.map(toHex);
 }
 
 const distance = (a: readonly number[], b: readonly number[]) => Math.hypot(a[0]! - b[0]!, a[1]! - b[1]!, a[2]! - b[2]!);

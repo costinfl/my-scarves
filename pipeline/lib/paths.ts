@@ -20,7 +20,9 @@ export const paths = {
   entityCache: data('cache', 'entities'),
   enriched: {
     logos: data('generated', 'logos.json'),
+    uefa: data('generated', 'uefa.json'),
     colors: data('generated', 'colors.json'),
+    palettes: data('generated', 'palettes.json'),
     blurbs: data('generated', 'blurbs.json'),
     addresses: data('generated', 'addresses.json'),
     fanshops: data('generated', 'fanshops.json'),

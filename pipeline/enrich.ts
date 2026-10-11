@@ -1,4 +1,4 @@
-// Enrichment stages: logos, colors, blurbs, addresses, fanshops. Each writes its own file in
+// Enrichment stages: logos, uefa, colors, palettes, blurbs, addresses, fanshops. Each writes its own file in
 // data/generated/ keyed by QID, skips what it already has (use --refresh to redo), and never
 // replaces a value with nothing.
 // Usage: npm run enrich [-- ROU ENG] [--stage logos,colors] [--refresh]
@@ -7,15 +7,17 @@ import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { fetchAddress } from './lib/enrich/addresses.ts';
 import { fetchBlurb } from './lib/enrich/blurbs.ts';
-import { logoColors, wikidataColors } from './lib/enrich/colors.ts';
+import { palette, wikidataColors } from './lib/enrich/colors.ts';
 import { discoverFanshop } from './lib/enrich/fanshops.ts';
 import { fetchLogo } from './lib/enrich/logos.ts';
+import { uefaBadgeUrl, uefaFromEntity } from './lib/enrich/uefa.ts';
+import { getBytes } from './lib/http.ts';
 import { claims, getEntities, itemValue } from './lib/entities.ts';
 import { readJson, writeJson } from './lib/json.ts';
 import { paths } from './lib/paths.ts';
-import type { AddressInfo, BlurbInfo, Club, ColorInfo, FanshopInfo, LogoInfo, Stadium } from './lib/types.ts';
+import type { AddressInfo, BlurbInfo, Club, ColorInfo, FanshopInfo, LogoInfo, Stadium, UefaInfo } from './lib/types.ts';
 
-const STAGES = ['logos', 'colors', 'blurbs', 'addresses', 'fanshops'] as const;
+const STAGES = ['logos', 'uefa', 'colors', 'palettes', 'blurbs', 'addresses', 'fanshops'] as const;
 type Stage = (typeof STAGES)[number];
 
 const { values: opts, positionals } = parseArgs({
@@ -79,22 +81,32 @@ async function stage<T>(
   console.log(`${name}: ${added} new or updated, ${kept} kept, ${missing} without data`);
 }
 
-const needsEntities = stages.some((s) => s === 'logos' || s === 'colors' || s === 'blurbs');
+const needsEntities = stages.some((s) => s === 'logos' || s === 'uefa' || s === 'colors' || s === 'blurbs');
 const entities = needsEntities ? await getEntities(clubs.map((c) => c.qid), { refresh }) : new Map();
 const clubIds = clubs.map((c) => c.qid);
 
 await stage<LogoInfo>('logos', paths.enriched.logos, clubIds, (qid) => fetchLogo(qid, entities.get(qid), { refresh }));
 
+await stage<UefaInfo>('uefa', paths.enriched.uefa, clubIds, async (qid) => uefaFromEntity(entities.get(qid)));
+
 if (stages.includes('colors')) {
   const colorIds = [...entities.values()].flatMap((e) => claims(e, 'P6364').map(itemValue));
   const colorItems = await getEntities(colorIds, { refresh });
+  await stage<ColorInfo>('colors', paths.enriched.colors, clubIds, async (qid) => wikidataColors(entities.get(qid), colorItems));
+}
+
+// Badge colours as suggestions for the editor: from the UEFA badge (read, not stored), else the Commons logo.
+if (stages.includes('palettes')) {
+  const uefa = readJson<Record<string, UefaInfo>>(paths.enriched.uefa, {});
   const logos = readJson<Record<string, LogoInfo>>(paths.enriched.logos, {});
-  await stage<ColorInfo>('colors', paths.enriched.colors, clubIds, async (qid) => {
-    const fromWikidata = wikidataColors(entities.get(qid), colorItems);
-    if (fromWikidata) return fromWikidata;
+  await stage<string[]>('palettes', paths.enriched.palettes, clubIds, async (qid) => {
+    if (uefa[qid]) {
+      const badge = await getBytes(uefaBadgeUrl(uefa[qid].id, 100));
+      if (badge.status === 200) return palette(badge.bytes);
+    }
     const logo = logos[qid] && join(paths.logos, logos[qid].file);
-    return logo && existsSync(logo) ? logoColors(logo) : undefined;
-  }, (existing) => existing.source === 'auto');
+    return logo && existsSync(logo) ? palette(logo) : undefined;
+  });
 }
 
 await stage<BlurbInfo>('blurbs', paths.enriched.blurbs, clubIds, (qid) => fetchBlurb(entities.get(qid), { refresh }));
