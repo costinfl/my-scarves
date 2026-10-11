@@ -74,7 +74,9 @@ async function fetchRows(query: string): Promise<Row[]> {
       throw new Error(`SPARQL ${res.status} ${res.statusText}: ${(await res.text()).slice(0, 300)}`);
     }
     const retryAfter = Number(res.headers.get('retry-after'));
-    await sleep(Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 2000 * 2 ** attempt);
+    // During outages WDQS limits clients to 1 request/minute and answers 429 without Retry-After.
+    const fallback = res.status === 429 ? 61_000 * attempt : 2000 * 2 ** attempt;
+    await sleep(Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : fallback);
   }
 }
 
