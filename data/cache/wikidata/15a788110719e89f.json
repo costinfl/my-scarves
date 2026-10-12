@@ -1,0 +1,209 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q216022 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:54:58.155Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q113000",
+      "stadium": "http://www.wikidata.org/entity/Q649755",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.486389 51.037222)",
+      "capacity": "13213",
+      "enwiki": "https://en.wikipedia.org/wiki/KV_Mechelen",
+      "website": "https://www.kvmechelen.be/",
+      "clubLabel": "KV Mechelen",
+      "stadiumLabel": "AFAS Stadion KV Mechelen"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q138248",
+      "stadium": "http://www.wikidata.org/entity/Q515782",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.165278 50.813611)",
+      "capacity": "11250",
+      "enwiki": "https://en.wikipedia.org/wiki/Sint-Truidense_VV",
+      "website": "https://www.stvv.com/",
+      "clubLabel": "Sint-Truidense V.V.",
+      "stadiumLabel": "Stayen"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q187528",
+      "stadium": "http://www.wikidata.org/entity/Q262326",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.298333 50.834167)",
+      "capacity": "21500",
+      "enwiki": "https://en.wikipedia.org/wiki/RSC_Anderlecht",
+      "website": "https://www.rsca.be/",
+      "clubLabel": "R.S.C. Anderlecht",
+      "stadiumLabel": "Lotto Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q190561",
+      "stadium": "http://www.wikidata.org/entity/Q959934",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.543344 50.609908)",
+      "capacity": "30023",
+      "enwiki": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
+      "website": "http://standard.be/",
+      "clubLabel": "Standard Liège",
+      "stadiumLabel": "Stade Maurice Dufrasne"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q190916",
+      "stadium": "http://www.wikidata.org/entity/Q1070150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.181311 51.193269)",
+      "capacity": "29062",
+      "enwiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+      "website": "https://www.clubbrugge.be/",
+      "clubLabel": "Club Brugge K.V.",
+      "stadiumLabel": "Jan Breydel Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q196160",
+      "stadium": "http://www.wikidata.org/entity/Q3495665",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.32917 50.8178)",
+      "capacity": "5100",
+      "enwiki": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+      "website": "https://rusg.brussels/",
+      "clubLabel": "Royale Union Saint-Gilloise",
+      "stadiumLabel": "Joseph Marien Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/USG.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q216032",
+      "stadium": "http://www.wikidata.org/entity/Q925654",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.533333 51.005)",
+      "capacity": "25000",
+      "enwiki": "https://en.wikipedia.org/wiki/KRC_Genk",
+      "website": "https://www.krcgenk.be/",
+      "clubLabel": "K.R.C. Genk",
+      "stadiumLabel": "Cegeka Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/KRC%20Genk%20Logo%202016.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q364698",
+      "stadium": "http://www.wikidata.org/entity/Q1070150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.181311 51.193269)",
+      "capacity": "29062",
+      "enwiki": "https://en.wikipedia.org/wiki/Cercle_Brugge_KSV",
+      "website": "https://www.cerclebrugge.be/",
+      "clubLabel": "Cercle Brugge K.S.V.",
+      "stadiumLabel": "Jan Breydel Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Cercle%20Brugge%202022.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q376635",
+      "stadium": "http://www.wikidata.org/entity/Q1850335",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.428889 50.883056)",
+      "capacity": "10200",
+      "enwiki": "https://en.wikipedia.org/wiki/SV_Zulte_Waregem",
+      "website": "https://www.essevee.be/",
+      "clubLabel": "S.V. Zulte Waregem",
+      "stadiumLabel": "Regenboogstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q509170",
+      "stadium": "http://www.wikidata.org/entity/Q2135912",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.243931 51.214139)",
+      "capacity": "13290",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Beveren",
+      "website": "https://www.skbeveren.be/",
+      "clubLabel": "Sportkring Beveren",
+      "stadiumLabel": "Freethiel Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q618620",
+      "stadium": "http://www.wikidata.org/entity/Q1554251",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.248889 50.830278)",
+      "capacity": "9399",
+      "enwiki": "https://en.wikipedia.org/wiki/KV_Kortrijk",
+      "website": "http://kvk.be/",
+      "clubLabel": "K.V. Kortrijk",
+      "stadiumLabel": "Guldensporen Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q732002",
+      "stadium": "http://www.wikidata.org/entity/Q7596290",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.471575 51.2327)",
+      "capacity": "5350",
+      "enwiki": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC",
+      "website": "http://www.rafc.be/",
+      "clubLabel": "Royal Antwerp F.C.",
+      "stadiumLabel": "Stadion Broodstraat"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q849544",
+      "stadium": "http://www.wikidata.org/entity/Q606856",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.928333 51.094722)",
+      "capacity": "7982",
+      "enwiki": "https://en.wikipedia.org/wiki/KVC_Westerlo",
+      "website": "https://kvcwesterlo.be/",
+      "clubLabel": "K.V.C. Westerlo",
+      "stadiumLabel": "Het Kuipje"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q916199",
+      "stadium": "http://www.wikidata.org/entity/Q301760",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.694167 50.868333)",
+      "capacity": "9493",
+      "enwiki": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven",
+      "website": "https://ohleuven.com/",
+      "clubLabel": "Oud-Heverlee Leuven",
+      "stadiumLabel": "Den Dreef",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Oud-Heverlee%20L%C3%B6wen.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1065328",
+      "stadium": "http://www.wikidata.org/entity/Q2744854",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.070833 50.883889)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/FCV_Dender_EH",
+      "website": "https://fcvdendereh.be/",
+      "clubLabel": "F.C. Verbroedering Dender Eendracht Hekelgem",
+      "stadiumLabel": "Florent Beeckmanstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18232",
+      "stadium": "http://www.wikidata.org/entity/Q1711746",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.766111 51.031389)",
+      "capacity": "12919",
+      "enwiki": "https://en.wikipedia.org/wiki/KAA_Gent",
+      "website": "http://www.kaagent.be/",
+      "clubLabel": "KAA Gent",
+      "stadiumLabel": "Jules Ottenstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19585",
+      "stadium": "http://www.wikidata.org/entity/Q1147565",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.453787 50.414609)",
+      "capacity": "14891",
+      "enwiki": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC",
+      "website": "https://www.sporting-charleroi.be/",
+      "clubLabel": "Royal Charleroi S.C.",
+      "stadiumLabel": "Stade du Pays de Charleroi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q536651",
+      "enwiki": "https://en.wikipedia.org/wiki/RAAL_La_Louvi%C3%A8re",
+      "website": "https://www.raal.be/",
+      "clubLabel": "RAAL La Louvière"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q536651",
+      "enwiki": "https://en.wikipedia.org/wiki/RAAL_La_Louvi%C3%A8re",
+      "website": "http://www.royal-charleroi-fleurus.be",
+      "clubLabel": "RAAL La Louvière"
+    }
+  ]
+}

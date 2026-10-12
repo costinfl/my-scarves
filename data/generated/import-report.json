@@ -1,4 +1,44 @@
 {
+  "AUT": [
+    {
+      "league": "Q219592",
+      "name": "Bundesliga",
+      "status": "ok",
+      "clubs": 13,
+      "stadiums": 12,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q650236",
+      "name": "Austrian Football Second League",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 11,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "BEL": [
+    {
+      "league": "Q216022",
+      "name": "Belgian Pro League",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 16,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q23925620",
+      "name": "Challenger Pro League",
+      "status": "ok",
+      "clubs": 11,
+      "stadiums": 8,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "ENG": [
     {
       "league": "Q9448",
@@ -45,15 +85,17 @@
       "status": "ok",
       "clubs": 18,
       "stadiums": 18,
-      "excluded": []
+      "excluded": [],
+      "source": "season"
     },
     {
       "league": "Q217374",
       "name": "Ligue 2",
       "status": "ok",
-      "clubs": 25,
-      "stadiums": 25,
-      "excluded": []
+      "clubs": 18,
+      "stadiums": 18,
+      "excluded": [],
+      "source": "season"
     }
   ],
   "GER": [
@@ -61,17 +103,23 @@
       "league": "Q82595",
       "name": "Bundesliga",
       "status": "ok",
-      "clubs": 19,
+      "clubs": 18,
       "stadiums": 19,
-      "excluded": []
+      "excluded": [
+        "FC Augsburg (Q97905916), part of club Q15755 (P831)"
+      ],
+      "source": "memberships"
     },
     {
       "league": "Q152665",
       "name": "2. Bundesliga",
       "status": "ok",
-      "clubs": 26,
-      "stadiums": 26,
-      "excluded": []
+      "clubs": 25,
+      "stadiums": 25,
+      "excluded": [
+        "Hamburger SV (Q97905930), part of club Q51974 (P831)"
+      ],
+      "source": "memberships"
     }
   ],
   "ITA": [
@@ -81,7 +129,8 @@
       "status": "ok",
       "clubs": 20,
       "stadiums": 18,
-      "excluded": []
+      "excluded": [],
+      "source": "memberships"
     },
     {
       "league": "Q194052",
@@ -89,7 +138,8 @@
       "status": "ok",
       "clubs": 28,
       "stadiums": 26,
-      "excluded": []
+      "excluded": [],
+      "source": "memberships"
     }
   ],
   "NED": [
@@ -97,11 +147,10 @@
       "league": "Q167541",
       "name": "Eredivisie",
       "status": "ok",
-      "clubs": 17,
-      "stadiums": 17,
-      "excluded": [
-        "Willem II (Q332664)"
-      ]
+      "clubs": 18,
+      "stadiums": 18,
+      "excluded": [],
+      "source": "memberships"
     },
     {
       "league": "Q610823",
@@ -109,7 +158,8 @@
       "status": "ok",
       "clubs": 20,
       "stadiums": 20,
-      "excluded": []
+      "excluded": [],
+      "source": "memberships"
     }
   ],
   "POR": [
@@ -119,7 +169,8 @@
       "status": "ok",
       "clubs": 18,
       "stadiums": 16,
-      "excluded": []
+      "excluded": [],
+      "source": "memberships"
     },
     {
       "league": "Q754488",
@@ -134,7 +185,8 @@
         "S.L. Benfica B (Q7387221)",
         "Sporting CP B (Q3494112)",
         "Vitória S.C. B (Q17518847)"
-      ]
+      ],
+      "source": "memberships"
     }
   ],
   "ROU": [
@@ -153,6 +205,68 @@
       "clubs": 17,
       "stadiums": 13,
       "excluded": []
+    }
+  ],
+  "SCO": [
+    {
+      "league": "Q14377162",
+      "name": "Scottish Premiership",
+      "status": "ok",
+      "clubs": 13,
+      "stadiums": 13,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q14468438",
+      "name": "Scottish Championship",
+      "status": "ok",
+      "clubs": 6,
+      "stadiums": 6,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "SUI": [
+    {
+      "league": "Q202699",
+      "name": "Swiss Super League",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 11,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q669073",
+      "name": "Challenge League",
+      "status": "ok",
+      "clubs": 11,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "TUR": [
+    {
+      "league": "Q485568",
+      "name": "Süper Lig",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 16,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1141692",
+      "name": "TFF First League",
+      "status": "ok",
+      "clubs": 27,
+      "stadiums": 22,
+      "excluded": [
+        "Antalyaspor (Q43710), part of club Q12808521 (P831)"
+      ],
+      "source": "memberships"
     }
   ]
 }

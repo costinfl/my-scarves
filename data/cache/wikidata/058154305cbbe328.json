@@ -1,0 +1,321 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1141692 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:35.531Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q189847",
+      "stadium": "http://www.wikidata.org/entity/Q1652487",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(39.705317 41.003664)",
+      "capacity": "24169",
+      "enwiki": "https://en.wikipedia.org/wiki/1461_Trabzon",
+      "website": "http://www.1461trabzon.com.tr/",
+      "clubLabel": "1461 Trabzon",
+      "stadiumLabel": "Hüseyin Avni Aker Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291297",
+      "stadium": "http://www.wikidata.org/entity/Q1493501",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.423055555 38.736944444)",
+      "capacity": "32864",
+      "enwiki": "https://en.wikipedia.org/wiki/Kayseri_Erciyesspor",
+      "website": "http://www.erciyesspor.org.tr",
+      "clubLabel": "Kayseri Erciyesspor",
+      "stadiumLabel": "Kadir Has Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q303121",
+      "stadium": "http://www.wikidata.org/entity/Q1875713",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(38.330494 38.352178)",
+      "capacity": "13000",
+      "enwiki": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor",
+      "website": "http://www.yenimalatyaspor.org.tr/",
+      "clubLabel": "Yeni Malatyaspor",
+      "stadiumLabel": "Malatya İnönü Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q344328",
+      "stadium": "http://www.wikidata.org/entity/Q4843094",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.83211944 40.99656667)",
+      "enwiki": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor",
+      "website": "https://www.istanbulspor.com.tr/",
+      "clubLabel": "İstanbulspor A.Ş.",
+      "stadiumLabel": "Bahçelievler Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q352251",
+      "stadium": "http://www.wikidata.org/entity/Q1467574",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.3297 36.999)",
+      "capacity": "14085",
+      "enwiki": "https://en.wikipedia.org/wiki/Adana_Demirspor",
+      "website": "http://www.adanademirspor.org.tr/",
+      "clubLabel": "Adana Demirspor",
+      "stadiumLabel": "Adana 5 Ocak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q352270",
+      "stadium": "http://www.wikidata.org/entity/Q1467574",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.3297 36.999)",
+      "capacity": "14085",
+      "enwiki": "https://en.wikipedia.org/wiki/Adanaspor",
+      "website": "https://www.adanaspor.com.tr/",
+      "clubLabel": "Adanaspor",
+      "stadiumLabel": "Adana 5 Ocak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q372599",
+      "stadium": "http://www.wikidata.org/entity/Q597945",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(36.984065 39.728612)",
+      "capacity": "14998",
+      "enwiki": "https://en.wikipedia.org/wiki/Sivasspor",
+      "website": "http://sivasspor.org.tr/",
+      "clubLabel": "Sivasspor",
+      "stadiumLabel": "Sivas 4 Eylül Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Sivasspor-Logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q388487",
+      "stadium": "http://www.wikidata.org/entity/Q388470",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(38.8068 37.1478)",
+      "capacity": "28965",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor",
+      "website": "http://www.sanliurfaspor.org",
+      "clubLabel": "Şanlıurfaspor",
+      "stadiumLabel": "Şanlıurfa 11 Nisan Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q417685",
+      "stadium": "http://www.wikidata.org/entity/Q17508044",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.8118 38.9209)",
+      "enwiki": "https://en.wikipedia.org/wiki/Akhisarspor",
+      "website": "http://www.akhisarspor.com/",
+      "clubLabel": "Akhisar Belediyespor",
+      "stadiumLabel": "Akhisar Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q434929",
+      "stadium": "http://www.wikidata.org/entity/Q1543487",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.1508 38.4373)",
+      "capacity": "15358",
+      "enwiki": "https://en.wikipedia.org/wiki/Altay_S.K.",
+      "website": "http://altay.org.tr",
+      "clubLabel": "Altay S.K.",
+      "stadiumLabel": "Alsancak Mustafa Denizli Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q447191",
+      "stadium": "http://www.wikidata.org/entity/Q1543487",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.1508 38.4373)",
+      "capacity": "15358",
+      "enwiki": "https://en.wikipedia.org/wiki/Alt%C4%B1nordu_F.K.",
+      "website": "http://www.altinordu.org.tr/",
+      "clubLabel": "Altınordu F.K.",
+      "stadiumLabel": "Alsancak Mustafa Denizli Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Alt%C4%B1nordu%20Futbol%20Kul%C3%BCb%C3%BC%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q447191",
+      "stadium": "http://www.wikidata.org/entity/Q20988339",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.2622 38.447)",
+      "enwiki": "https://en.wikipedia.org/wiki/Alt%C4%B1nordu_F.K.",
+      "website": "http://www.altinordu.org.tr/",
+      "clubLabel": "Altınordu F.K.",
+      "stadiumLabel": "Bornova Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Alt%C4%B1nordu%20Futbol%20Kul%C3%BCb%C3%BC%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q608122",
+      "stadium": "http://www.wikidata.org/entity/Q1493501",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.423055555 38.736944444)",
+      "capacity": "32864",
+      "enwiki": "https://en.wikipedia.org/wiki/Kayserispor",
+      "website": "http://kayserispor.org.tr/",
+      "clubLabel": "Kayserispor",
+      "stadiumLabel": "Kadir Has Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q630348",
+      "stadium": "http://www.wikidata.org/entity/Q997619",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.1928 38.3951)",
+      "capacity": "10500",
+      "enwiki": "https://en.wikipedia.org/wiki/Bucaspor",
+      "website": "http://www.bucaspor.org.tr",
+      "clubLabel": "Bucaspor",
+      "stadiumLabel": "Buca Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q643107",
+      "stadium": "http://www.wikidata.org/entity/Q1187869",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.0823 37.7659)",
+      "capacity": "15427",
+      "enwiki": "https://en.wikipedia.org/wiki/Denizlispor",
+      "website": "http://www.denizlispor.org.tr/",
+      "clubLabel": "Denizlispor",
+      "stadiumLabel": "Denizli Atatürk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q805909",
+      "stadium": "http://www.wikidata.org/entity/Q4853221",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.8877 39.6415)",
+      "capacity": "15800",
+      "enwiki": "https://en.wikipedia.org/wiki/Bal%C4%B1kesirspor",
+      "website": "https://www.balikesirspor.com.tr/",
+      "clubLabel": "Balıkesirspor",
+      "stadiumLabel": "Balıkesir Atatürk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1170018",
+      "stadium": "http://www.wikidata.org/entity/Q574897",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.191017 40.892014)",
+      "capacity": "7195",
+      "enwiki": "https://en.wikipedia.org/wiki/Kartal_S.K.",
+      "website": "http://www.kartalspor.org",
+      "clubLabel": "Kartal S.K.",
+      "stadiumLabel": "Kartal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1369461",
+      "stadium": "http://www.wikidata.org/entity/Q937866",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.386558 40.777014)",
+      "capacity": "13216",
+      "enwiki": "https://en.wikipedia.org/wiki/Sakaryaspor",
+      "website": "https://www.sakaryaspor.org.tr/",
+      "clubLabel": "Sakaryaspor",
+      "stadiumLabel": "Sakarya Atatürk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1369461",
+      "stadium": "http://www.wikidata.org/entity/Q17512881",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.4324 40.7805)",
+      "enwiki": "https://en.wikipedia.org/wiki/Sakaryaspor",
+      "website": "https://www.sakaryaspor.org.tr/",
+      "clubLabel": "Sakaryaspor",
+      "stadiumLabel": "New Sakarya Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1398111",
+      "stadium": "http://www.wikidata.org/entity/Q221122",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.765702777 41.074472222)",
+      "capacity": "80597",
+      "enwiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K.",
+      "website": "http://www.karagumruk.com/",
+      "clubLabel": "Fatih Karagümrük S.K.",
+      "stadiumLabel": "Atatürk Olympic Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FatihKarag%C3%BCmr%C3%BCkS.%20K.%20AKBALIK.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1398111",
+      "stadium": "http://www.wikidata.org/entity/Q11173914",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.939 41.0278)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K.",
+      "website": "http://www.karagumruk.com/",
+      "clubLabel": "Fatih Karagümrük S.K.",
+      "stadiumLabel": "Vefa Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FatihKarag%C3%BCmr%C3%BCkS.%20K.%20AKBALIK.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1543501",
+      "stadium": "http://www.wikidata.org/entity/Q1526701",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(38.37194444 40.90972222)",
+      "capacity": "12191",
+      "enwiki": "https://en.wikipedia.org/wiki/Giresunspor",
+      "website": "http://www.giresunspor.com.tr",
+      "clubLabel": "Giresunspor",
+      "stadiumLabel": "Giresun Atatürk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1628465",
+      "stadium": "http://www.wikidata.org/entity/Q6045919",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.9917 39.4183)",
+      "capacity": "11495",
+      "enwiki": "https://en.wikipedia.org/wiki/TK%C4%B0_Tav%C5%9Fanl%C4%B1_Linyitspor",
+      "website": "http://www.tavsanlilinyitspor.com/",
+      "clubLabel": "TKİ Tavşanlı Linyitspor",
+      "stadiumLabel": "Dumlupinar Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2426819",
+      "stadium": "http://www.wikidata.org/entity/Q6381835",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(41.238 39.911)",
+      "capacity": "23700",
+      "enwiki": "https://en.wikipedia.org/wiki/Erzurumspor_F.K.",
+      "website": "https://erzurumsporfk.org/",
+      "clubLabel": "Erzurumspor F.K.",
+      "stadiumLabel": "Kazım Karabekir Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6062228",
+      "stadium": "http://www.wikidata.org/entity/Q98091637",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.109533282 41.058950253)",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%9Cmraniyespor",
+      "website": "https://www.umraniyespor.org.tr",
+      "clubLabel": "Ümraniyespor",
+      "stadiumLabel": "Ümraniye Belediyesi Şehir Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q43710",
+      "stadium": "http://www.wikidata.org/entity/Q417007",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.646666666 36.893611111)",
+      "capacity": "7100",
+      "enwiki": "https://en.wikipedia.org/wiki/Antalyaspor",
+      "website": "http://www.antalyaspor.com.tr/",
+      "clubLabel": "Antalyaspor",
+      "stadiumLabel": "Akdeniz University Stadium",
+      "parent": "http://www.wikidata.org/entity/Q12808521"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q891679",
+      "enwiki": "https://en.wikipedia.org/wiki/Boluspor",
+      "website": "http://www.boluspor.org.tr",
+      "clubLabel": "Boluspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1110567",
+      "enwiki": "https://en.wikipedia.org/wiki/Hatayspor",
+      "website": "https://hatayspor.org.tr/",
+      "clubLabel": "Hatayspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1231804",
+      "enwiki": "https://en.wikipedia.org/wiki/Amed_S.F.K.",
+      "clubLabel": "Amed S.F.K."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1347349",
+      "enwiki": "https://en.wikipedia.org/wiki/Pendikspor",
+      "website": "http://www.pendikspor.org.tr/",
+      "clubLabel": "Pendikspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20472948",
+      "enwiki": "https://en.wikipedia.org/wiki/Bodrum_F.K.",
+      "clubLabel": "Bodrum FK"
+    }
+  ]
+}

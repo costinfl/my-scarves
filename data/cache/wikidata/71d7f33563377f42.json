@@ -1,0 +1,155 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q219592 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:38.981Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q131209",
+      "stadium": "http://www.wikidata.org/entity/Q696476",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.386694 48.162306)",
+      "capacity": "17656",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Austria_Wien",
+      "website": "http://www.fk-austria.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Austria%20Wien%20logo.svg",
+      "clubLabel": "FK Austria Wien",
+      "stadiumLabel": "Generali Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q131215",
+      "stadium": "http://www.wikidata.org/entity/Q17310225",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.2653 48.1981)",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Rapid_Wien",
+      "website": "https://www.skrapid.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Rapid%20Wien%20Logo.svg",
+      "clubLabel": "SK Rapid Wien",
+      "stadiumLabel": "Allianz Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q392310",
+      "stadium": "http://www.wikidata.org/entity/Q686798",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.276389 48.293333)",
+      "capacity": "18000",
+      "enwiki": "https://en.wikipedia.org/wiki/LASK",
+      "website": "http://www.lask.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LASK-Logo%202023.svg",
+      "clubLabel": "LASK Linz",
+      "stadiumLabel": "Linzer Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q457460",
+      "stadium": "http://www.wikidata.org/entity/Q686860",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.478333 48.207778)",
+      "capacity": "7680",
+      "enwiki": "https://en.wikipedia.org/wiki/SV_Ried",
+      "website": "http://www.svried.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SV%20Ried.svg",
+      "clubLabel": "SV Ried",
+      "stadiumLabel": "BWT X Upper Austrian Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q659780",
+      "stadium": "http://www.wikidata.org/entity/Q696491",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.454444 47.046111)",
+      "capacity": "15400",
+      "enwiki": "https://en.wikipedia.org/wiki/Grazer_AK",
+      "website": "http://www.grazerak.at/",
+      "clubLabel": "Grazer AK",
+      "stadiumLabel": "Merkur Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q670438",
+      "stadium": "http://www.wikidata.org/entity/Q267159",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.6372 47.3536)",
+      "capacity": "8500",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Rheindorf_Altach",
+      "website": "https://www.scra.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SCR%20Altach%20Logo.svg",
+      "clubLabel": "SC Rheindorf Altach",
+      "stadiumLabel": "Stadion Schnabelholz"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q686659",
+      "stadium": "http://www.wikidata.org/entity/Q204484",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.410789 47.255972)",
+      "capacity": "17400",
+      "enwiki": "https://en.wikipedia.org/wiki/WSG_Tirol",
+      "website": "https://www.wsg-fussball.at/",
+      "clubLabel": "WSG Tirol",
+      "stadiumLabel": "Tivoli Stadion Tirol"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q694484",
+      "stadium": "http://www.wikidata.org/entity/Q15057371",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.8514 46.8253)",
+      "capacity": "7300",
+      "enwiki": "https://en.wikipedia.org/wiki/Wolfsberger_AC",
+      "website": "https://www.rzpelletswac.at/",
+      "clubLabel": "Wolfsberger AC",
+      "stadiumLabel": "Lavanttal-Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q696507",
+      "stadium": "http://www.wikidata.org/entity/Q489700",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.65278 47.4211)",
+      "capacity": "8800",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Austria_Lustenau",
+      "website": "https://www.austria-lustenau.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SC%20Austria%20Lustenau.svg",
+      "clubLabel": "SC Austria Lustenau",
+      "stadiumLabel": "Reichshofstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q696525",
+      "stadium": "http://www.wikidata.org/entity/Q119291101",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.2983 48.3163)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Blau-Wei%C3%9F_Linz",
+      "website": "https://blauweiss-linz.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Blau-Wei%C3%9F%20Linz.png",
+      "clubLabel": "F.C. Blau-Weiß Linz",
+      "stadiumLabel": "Hofmann Personal Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q699746",
+      "stadium": "http://www.wikidata.org/entity/Q1232645",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.9772 47.281)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/TSV_Hartberg",
+      "website": "http://www.tsv-hartberg-fussball.at/",
+      "clubLabel": "TSV Hartberg",
+      "stadiumLabel": "Stadion Hartberg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q994811",
+      "stadium": "http://www.wikidata.org/entity/Q206135",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.998222222 47.81625)",
+      "capacity": "31895",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Red_Bull_Salzburg",
+      "website": "https://www.redbullsalzburg.at/",
+      "clubLabel": "FC Red Bull Salzburg",
+      "stadiumLabel": "Red Bull Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q124007617",
+      "stadium": "http://www.wikidata.org/entity/Q696491",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.454444 47.046111)",
+      "capacity": "15400",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Sturm_Graz",
+      "website": "https://www.sksturm.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Sturm%20Graz.svg",
+      "clubLabel": "SK Sturm Graz",
+      "stadiumLabel": "Merkur Arena"
+    }
+  ]
+}
