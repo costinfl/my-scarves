@@ -93,7 +93,8 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
       continue;
     }
     if (isReserveTeam(name, !!row.parent)) {
-      excluded.add(`${name} (${clubQid})${row.parent ? ', reserve team' : ''}`);
+      // P831 marks reserve teams and also a club's separate football-company item (FC Augsburg Q97905916).
+      excluded.add(`${name} (${clubQid})${row.parent ? `, part of club ${qid(row.parent) ?? '?'} (P831)` : ''}`);
       continue;
     }
     if (row.enwiki) withEnwiki.add(clubQid);

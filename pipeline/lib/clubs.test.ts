@@ -71,7 +71,7 @@ describe('parseLeagueRows', () => {
       '2026-27',
     );
     expect(r.clubs.map((c) => c.name)).toEqual(['Willem II']);
-    expect(r.excluded).toEqual(['Jong PSV (Q2), reserve team']);
+    expect(r.excluded).toEqual(['Jong PSV (Q2), part of club Q3 (P831)']);
     expect([...r.withEnwiki]).toEqual(['Q1']);
   });
 });
