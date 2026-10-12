@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q621120",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "53017"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Portimonense S.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Portimonense S.C."
+      }
+    }
+  }
+}

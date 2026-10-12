@@ -1,0 +1,241 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q610823 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T16:43:40.207Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q219233",
+      "stadium": "http://www.wikidata.org/entity/Q1067235",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.893056 51.9625)",
+      "capacity": "21000",
+      "website": "https://www.vitesse.nl",
+      "clubLabel": "SBV Vitesse",
+      "stadiumLabel": "GelreDome"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q219233",
+      "stadium": "http://www.wikidata.org/entity/Q1067235",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.893056 51.9625)",
+      "capacity": "41000",
+      "website": "https://www.vitesse.nl",
+      "clubLabel": "SBV Vitesse",
+      "stadiumLabel": "GelreDome"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q221927",
+      "stadium": "http://www.wikidata.org/entity/Q606265",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.309722 51.955833)",
+      "capacity": "12600",
+      "website": "https://www.degraafschap.nl/",
+      "clubLabel": "De Graafschap",
+      "stadiumLabel": "De Vijverberg",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Betaald%20Voetbal%20De%20Graafschap.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q332642",
+      "stadium": "http://www.wikidata.org/entity/Q2132300",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(4.750278 51.595556)",
+      "capacity": "19000",
+      "website": "https://www.nac.nl/",
+      "clubLabel": "NAC Breda",
+      "stadiumLabel": "Rat Verlegh Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20NAC%20Breda.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q332642",
+      "stadium": "http://www.wikidata.org/entity/Q2132300",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(4.75028 51.5956)",
+      "capacity": "19000",
+      "website": "https://www.nac.nl/",
+      "clubLabel": "NAC Breda",
+      "stadiumLabel": "Rat Verlegh Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20NAC%20Breda.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q636315",
+      "stadium": "http://www.wikidata.org/entity/Q132997935",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(5.679116 51.487363)",
+      "capacity": "3600",
+      "website": "https://www.helmondsport.nl/",
+      "clubLabel": "Helmond Sport",
+      "stadiumLabel": "MySteel Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q653119",
+      "stadium": "http://www.wikidata.org/entity/Q255387",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.240556 52.394444)",
+      "capacity": "4501",
+      "website": "http://www.almerecity.nl/",
+      "clubLabel": "Almere City FC",
+      "stadiumLabel": "Yanmar Hanasaka Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Almere%20City%20FC%20logo.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q738060",
+      "stadium": "http://www.wikidata.org/entity/Q953663",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.066389 52.494444)",
+      "capacity": "6200",
+      "website": "https://fcvolendam.nl/",
+      "clubLabel": "FC Volendam",
+      "stadiumLabel": "Kras Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q875169",
+      "stadium": "http://www.wikidata.org/entity/Q1855763",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.329722 51.701667)",
+      "capacity": "9000",
+      "website": "https://www.fcdenbosch.nl/",
+      "clubLabel": "FC Den Bosch",
+      "stadiumLabel": "De Vliert"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q876568",
+      "stadium": "http://www.wikidata.org/entity/Q391473",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.717778 50.8575)",
+      "capacity": "10000",
+      "website": "https://www.mvv.nl/",
+      "clubLabel": "MVV Maastricht",
+      "stadiumLabel": "De Geusselt"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q876699",
+      "stadium": "http://www.wikidata.org/entity/Q643426",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.479444 51.411667)",
+      "capacity": "4500",
+      "website": "http://www.fc-eindhoven.nl/",
+      "clubLabel": "FC Eindhoven",
+      "stadiumLabel": "Jan Louwers Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1045811",
+      "stadium": "http://www.wikidata.org/entity/Q1139863",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.69 51.8025)",
+      "capacity": "4077",
+      "website": "https://fcdordrecht.nl/",
+      "clubLabel": "FC Dordrecht",
+      "stadiumLabel": "M-Scores Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1045811",
+      "stadium": "http://www.wikidata.org/entity/Q1139863",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.69 51.8025)",
+      "capacity": "4235",
+      "website": "https://fcdordrecht.nl/",
+      "clubLabel": "FC Dordrecht",
+      "stadiumLabel": "M-Scores Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1061627",
+      "stadium": "http://www.wikidata.org/entity/Q2093331",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.945556 52.774722)",
+      "capacity": "8600",
+      "website": "https://fcemmen.nl/",
+      "clubLabel": "FC Emmen",
+      "stadiumLabel": "De Oude Meerdijk"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1149034",
+      "stadium": "http://www.wikidata.org/entity/Q1320629",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.528056 51.755)",
+      "capacity": "4560",
+      "website": "https://toposs.nl/",
+      "clubLabel": "TOP Oss",
+      "stadiumLabel": "Heesen Yachts Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1770361",
+      "stadium": "http://www.wikidata.org/entity/Q2200744",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.928914 52.313522)",
+      "capacity": "5000",
+      "website": "https://www.ajax.nl/teams/jong-ajax/",
+      "clubLabel": "Jong Ajax",
+      "stadiumLabel": "Sportpark De Toekomst"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q13534332",
+      "stadium": "http://www.wikidata.org/entity/Q1958120",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.4389 51.4608)",
+      "capacity": "2500",
+      "website": "http://www.psvjeugd.nl",
+      "clubLabel": "Jong PSV",
+      "stadiumLabel": "De Herdgang"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q14229572",
+      "stadium": "http://www.wikidata.org/entity/Q727389",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.8375 52.236666666)",
+      "capacity": "30000",
+      "clubLabel": "Jong FC Twente",
+      "stadiumLabel": "De Grolsch Veste"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24068131",
+      "stadium": "http://www.wikidata.org/entity/Q3264211",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.146111 52.075833)",
+      "capacity": "450",
+      "website": "http://www.fcutrecht.nl/",
+      "clubLabel": "Jong FC Utrecht",
+      "stadiumLabel": "Sportcomplex Zoudenbalch"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11961",
+      "stadium": "http://www.wikidata.org/entity/Q11969",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(6.649722 52.338611)",
+      "capacity": "12080",
+      "website": "https://www.heracles.nl/",
+      "clubLabel": "Heracles Almelo",
+      "stadiumLabel": "Asito Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24689",
+      "stadium": "http://www.wikidata.org/entity/Q2262017",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.179722 51.351944)",
+      "capacity": "7500",
+      "website": "https://www.vvv-venlo.nl/",
+      "clubLabel": "VVV-Venlo",
+      "stadiumLabel": "De Koel",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/VVV%20Venlo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24699",
+      "stadium": "http://www.wikidata.org/entity/Q942073",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.088611 51.686944)",
+      "capacity": "7500",
+      "website": "https://www.rkcwaalwijk.nl/",
+      "clubLabel": "RKC Waalwijk",
+      "stadiumLabel": "Mandemakers Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24719",
+      "stadium": "http://www.wikidata.org/entity/Q476674",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.005833333 50.856944444)",
+      "capacity": "19979",
+      "website": "https://www.rodajckerkrade.nl/",
+      "clubLabel": "Roda JC Kerkrade",
+      "stadiumLabel": "Parkstad Limburg Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Roda%20JC%20Kerkrade.svg"
+    }
+  ]
+}

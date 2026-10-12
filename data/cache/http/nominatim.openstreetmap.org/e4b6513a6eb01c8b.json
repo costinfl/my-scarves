@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.951380&lon=8.772040&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":81047317,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":302773423,\"lat\":\"41.9513099\",\"lon\":\"8.7719920\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.640802624547215e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Chemin du Stade, Stiletto, Ajaccio, Corse-du-Sud, Corse, France métropolitaine, 20090, France\",\"address\":{\"road\":\"Chemin du Stade\",\"suburb\":\"Stiletto\",\"city\":\"Ajaccio\",\"municipality\":\"Ajaccio\",\"county\":\"Corse-du-Sud\",\"ISO3166-2-lvl6\":\"FR-2A\",\"state\":\"Corse\",\"ISO3166-2-lvl4\":\"FR-20R\",\"region\":\"France métropolitaine\",\"postcode\":\"20090\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"41.9507762\",\"41.9520065\",\"8.7712864\",\"8.7728718\"]}",
+  "fetchedAt": "2026-10-12T16:48:24.377Z"
+}

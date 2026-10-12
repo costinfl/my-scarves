@@ -1,7 +1,15 @@
 {
+  "Q8507": {
+    "text": "Allée Sud-Ouest, 69150 Décines-Charpieu",
+    "osmUrl": "https://www.openstreetmap.org/way/914330757"
+  },
   "Q10626": {
     "text": "Yellow Brick Road, WD18 0LX Watford",
     "osmUrl": "https://www.openstreetmap.org/way/158264546"
+  },
+  "Q11969": {
+    "text": "Van Riemsdijkplein, 7606 ZA Almelo",
+    "osmUrl": "https://www.openstreetmap.org/way/375309874"
   },
   "Q16822": {
     "text": "Avenida Ingeniero Sáenz de Miera, 24004 León",
@@ -10,6 +18,10 @@
   "Q22130": {
     "text": "Rúa Manuel Murguía, 15011 A Coruña",
     "osmUrl": "https://www.openstreetmap.org/way/34237294"
+  },
+  "Q28500": {
+    "text": "Viale del Fante, 90167 Palermo",
+    "osmUrl": "https://www.openstreetmap.org/way/124120092"
   },
   "Q31670": {
     "text": "South Africa Road, W12 7PA London",
@@ -23,6 +35,10 @@
     "text": "Vaux Brewery Way, SR5 1SU Sunderland",
     "osmUrl": "https://www.openstreetmap.org/way/34334251"
   },
+  "Q39189": {
+    "text": "Allée des Merlus, 56100 Lorient",
+    "osmUrl": "https://www.openstreetmap.org/way/173786165"
+  },
   "Q45671": {
     "text": "Kemlyn Road, L4 0RQ Liverpool",
     "osmUrl": "https://www.openstreetmap.org/way/124589354"
@@ -31,13 +47,65 @@
     "text": "Joe Mercer Way, M11 3FF Manchester",
     "osmUrl": "https://www.openstreetmap.org/node/11488261768"
   },
+  "Q62149": {
+    "text": "Via Druento, 10151 Torino",
+    "osmUrl": "https://www.openstreetmap.org/way/119509430"
+  },
   "Q74413": {
     "text": "Aleea Stadionului, 400376 Cluj-Napoca",
     "osmUrl": "https://www.openstreetmap.org/node/7977397593"
   },
+  "Q82709": {
+    "text": "Via Francesco Galeota, 80125 Napoli",
+    "osmUrl": "https://www.openstreetmap.org/way/71450118"
+  },
   "Q83457": {
     "text": "Munich Tunnel, M32 0RZ Stretford",
     "osmUrl": "https://www.openstreetmap.org/way/165256230"
+  },
+  "Q94591": {
+    "text": "Viale Costantino Rozzi, 63100 Ascoli Piceno",
+    "osmUrl": "https://www.openstreetmap.org/way/442407170"
+  },
+  "Q94612": {
+    "text": "Via Schio 21, 36100 Vicenza",
+    "osmUrl": "https://www.openstreetmap.org/node/4526509417"
+  },
+  "Q94619": {
+    "text": "Via Cortonese, 06127 Perugia",
+    "osmUrl": "https://www.openstreetmap.org/way/161428291"
+  },
+  "Q94625": {
+    "text": "Via dello Stadio, 47521 Ponte Abbadesse",
+    "osmUrl": "https://www.openstreetmap.org/way/124108191"
+  },
+  "Q94633": {
+    "text": "Via della Maratona, 50053 Empoli",
+    "osmUrl": "https://www.openstreetmap.org/way/610415874"
+  },
+  "Q94646": {
+    "text": "Viale Monte Kosica, 41121 Modena",
+    "osmUrl": "https://www.openstreetmap.org/way/384730865"
+  },
+  "Q94649": {
+    "text": "Via Umberto Pettini, 05100 Terni",
+    "osmUrl": "https://www.openstreetmap.org/way/73298116"
+  },
+  "Q115372": {
+    "text": "Viale Giancarlo Puecher, 22100 Tavernola",
+    "osmUrl": "https://www.openstreetmap.org/way/110018188"
+  },
+  "Q115582": {
+    "text": "Via Angelo Gabrielli, 35013 Cittadella",
+    "osmUrl": "https://www.openstreetmap.org/way/367022073"
+  },
+  "Q115970": {
+    "text": "Via Ugo Rindi, 56123 Pisa",
+    "osmUrl": "https://www.openstreetmap.org/way/225094278"
+  },
+  "Q118955": {
+    "text": "Chemin de Paradis, 13500 Martigues",
+    "osmUrl": "https://www.openstreetmap.org/node/1767565354"
   },
   "Q121879": {
     "text": "Calle José Ramón García Fernández, 14010 Córdoba",
@@ -51,13 +119,89 @@
     "text": "Avenida Padre García Tejero, 41012 Sevilla",
     "osmUrl": "https://www.openstreetmap.org/way/28354947"
   },
+  "Q127372": {
+    "text": "Rue Alain Mimoun, 06205 Nice",
+    "osmUrl": "https://www.openstreetmap.org/way/202892015"
+  },
+  "Q127429": {
+    "text": "Hans-Jensen-Weg, 80939 München",
+    "osmUrl": "https://www.openstreetmap.org/way/123121774"
+  },
+  "Q129870": {
+    "text": "Dietmar-Hopp-Straße 1, 74889 Sinsheim",
+    "osmUrl": "https://www.openstreetmap.org/relation/448879"
+  },
+  "Q133566": {
+    "text": "Piazzale Angelo Moratti, 20151 Milano",
+    "osmUrl": "https://www.openstreetmap.org/way/218520544"
+  },
+  "Q150928": {
+    "text": "Sportweg, 44139 Dortmund",
+    "osmUrl": "https://www.openstreetmap.org/way/17235988"
+  },
+  "Q150933": {
+    "text": "Uwe-Seeler-Allee, 22525 Hamburg",
+    "osmUrl": "https://www.openstreetmap.org/way/123124326"
+  },
+  "Q150961": {
+    "text": "Arenaring 1, 45891 Gelsenkirchen",
+    "osmUrl": "https://www.openstreetmap.org/node/1281887164"
+  },
+  "Q151374": {
+    "text": "Marchtunnel, 14053 Berlin",
+    "osmUrl": "https://www.openstreetmap.org/way/8002785"
+  },
   "Q151816": {
     "text": "Avenida del Real Valladolid, 47016 Valladolid",
     "osmUrl": "https://www.openstreetmap.org/way/186188240"
   },
+  "Q151893": {
+    "text": "Oskar-Rehfeldt-Weg, 50933 Köln",
+    "osmUrl": "https://www.openstreetmap.org/way/123127315"
+  },
+  "Q152349": {
+    "text": "Mercedesstraße, 70372 Stuttgart",
+    "osmUrl": "https://www.openstreetmap.org/way/34685362"
+  },
+  "Q152599": {
+    "text": "Hans-Kalb-Straße, 90471 Nürnberg",
+    "osmUrl": "https://www.openstreetmap.org/way/23133289"
+  },
+  "Q152633": {
+    "text": "Lodemannweg, 30169 Hannover",
+    "osmUrl": "https://www.openstreetmap.org/way/27416158"
+  },
+  "Q154074": {
+    "text": "Dr.-Adalbert-Jordan-Straße, 41179 Mönchengladbach",
+    "osmUrl": "https://www.openstreetmap.org/way/30683533"
+  },
+  "Q154298": {
+    "text": "Stadionstraße, 67663 Kaiserslautern",
+    "osmUrl": "https://www.openstreetmap.org/way/30676034"
+  },
+  "Q154475": {
+    "text": "Franz-Böhmert-Straße, 28205 Bremen",
+    "osmUrl": "https://www.openstreetmap.org/way/56014971"
+  },
+  "Q155603": {
+    "text": "In den Allerwiesen 1, 38448 Wolfsburg",
+    "osmUrl": "https://www.openstreetmap.org/way/24950693"
+  },
+  "Q156630": {
+    "text": "Bismarckstraße, 51373 Leverkusen",
+    "osmUrl": "https://www.openstreetmap.org/way/363276488"
+  },
+  "Q157273": {
+    "text": "Otto-Fleck-Schneise, 60528 Frankfurt am Main",
+    "osmUrl": "https://www.openstreetmap.org/way/24833322"
+  },
   "Q159848": {
     "text": "Avinguda de Joan XXIII, 08028 Barcelona",
     "osmUrl": "https://www.openstreetmap.org/way/35815805"
+  },
+  "Q159884": {
+    "text": "2, 00194 Roma",
+    "osmUrl": "https://www.openstreetmap.org/way/667711166"
   },
   "Q163995": {
     "text": "Queensland Road, N7 7FF London",
@@ -66,6 +210,14 @@
   "Q164027": {
     "text": "Avenida de Concha Espina, 28020 Madrid",
     "osmUrl": "https://www.openstreetmap.org/way/1446479375"
+  },
+  "Q167418": {
+    "text": "B 17, 86199 Augsburg",
+    "osmUrl": "https://www.openstreetmap.org/way/181899832"
+  },
+  "Q170154": {
+    "text": "Lennéstraße 12, 01069 Dresden",
+    "osmUrl": "https://www.openstreetmap.org/node/1298741720"
   },
   "Q171458": {
     "text": "Bovril Gate, SW6 1EB London",
@@ -87,6 +239,10 @@
     "text": "Leazes Terrace, NE1 4LY Newcastle upon Tyne",
     "osmUrl": "https://www.openstreetmap.org/way/89176972"
   },
+  "Q193431": {
+    "text": "Boulevard Périphérique Extérieur, 75016 Paris",
+    "osmUrl": "https://www.openstreetmap.org/way/88005247"
+  },
   "Q195391": {
     "text": "Calle del Real Racing Club, 39005 Cueto",
     "osmUrl": "https://www.openstreetmap.org/way/181850130"
@@ -95,9 +251,29 @@
     "text": "Derwent Parade, DE24 8LZ Derby",
     "osmUrl": "https://www.openstreetmap.org/way/58124726"
   },
+  "Q202150": {
+    "text": "Boulevard Michelet 3, 13008 Marseille",
+    "osmUrl": "https://www.openstreetmap.org/way/172853962"
+  },
   "Q202762": {
     "text": "Avinguda de Suècia, 46021 València",
     "osmUrl": "https://www.openstreetmap.org/way/24044927"
+  },
+  "Q207109": {
+    "text": "Burgemeester Stramanweg, 1100 DL Amsterdam",
+    "osmUrl": "https://www.openstreetmap.org/node/4810622255"
+  },
+  "Q210466": {
+    "text": "Am Sportforum, 04105 Leipzig",
+    "osmUrl": "https://www.openstreetmap.org/way/107701742"
+  },
+  "Q214629": {
+    "text": "Corso Giovanni Agnelli, 10134 Torino",
+    "osmUrl": "https://www.openstreetmap.org/way/124253933"
+  },
+  "Q219462": {
+    "text": "Parvis, 76610 Le Havre",
+    "osmUrl": "https://www.openstreetmap.org/way/202378987"
   },
   "Q242772": {
     "text": "Burnden Way, BL6 6RQ Horwich",
@@ -107,13 +283,45 @@
     "text": "Nuttall Street, BB2 4JQ Blackburn",
     "osmUrl": "https://www.openstreetmap.org/way/55814762"
   },
+  "Q245720": {
+    "text": "Viale Te, 46100 Mantova",
+    "osmUrl": "https://www.openstreetmap.org/way/77462301"
+  },
+  "Q245799": {
+    "text": "Via Persico, 26100 Cremona",
+    "osmUrl": "https://www.openstreetmap.org/way/254037516"
+  },
+  "Q255387": {
+    "text": "Competitiepad, 1318 EA Almere",
+    "osmUrl": "https://www.openstreetmap.org/way/22969641"
+  },
   "Q255447": {
     "text": "Avenida de San Sebastián, 38005 Santa Cruz de Tenerife",
     "osmUrl": "https://www.openstreetmap.org/way/634661074"
   },
+  "Q256588": {
+    "text": "Avenida da Liberdade, 4815-270 Moreira de Cónegos",
+    "osmUrl": "https://www.openstreetmap.org/way/535285231"
+  },
   "Q264581": {
     "text": "Carrer d'Osca, 12004 Castelló de la Plana / Castellón de la Plana",
     "osmUrl": "https://www.openstreetmap.org/way/218993859"
+  },
+  "Q265199": {
+    "text": "Eingangsbereich Spieler/Presse, 49084 Osnabrück",
+    "osmUrl": "https://www.openstreetmap.org/way/35556536"
+  },
+  "Q270474": {
+    "text": "Viale Manfredo Fanti, 50137 Firenze",
+    "osmUrl": "https://www.openstreetmap.org/way/124109940"
+  },
+  "Q271454": {
+    "text": "Alameda das Antas, 4350-009 Porto",
+    "osmUrl": "https://www.openstreetmap.org/way/161124321"
+  },
+  "Q271568": {
+    "text": "Via Giovanni de Prà, 16139 Genova",
+    "osmUrl": "https://www.openstreetmap.org/way/124113467"
   },
   "Q275429": {
     "text": "Calle Sevilla Futbol Club, 41018 Sevilla",
@@ -123,29 +331,145 @@
     "text": "Camí dels Reis, 07013 Palma",
     "osmUrl": "https://www.openstreetmap.org/way/27263830"
   },
+  "Q276784": {
+    "text": "Via Alfredo Panzini, 80053 Castellammare di Stabia",
+    "osmUrl": "https://www.openstreetmap.org/way/405361018"
+  },
+  "Q287359": {
+    "text": "Porta da Maratona, 1600-617 Lisboa",
+    "osmUrl": "https://www.openstreetmap.org/way/54756293"
+  },
+  "Q290234": {
+    "text": "Am Eliaspark 1, 03042 Cottbus - Chóśebuz",
+    "osmUrl": "https://www.openstreetmap.org/way/150076813"
+  },
+  "Q291590": {
+    "text": "Stadionweg, 1814 XE Alkmaar",
+    "osmUrl": "https://www.openstreetmap.org/node/599607312"
+  },
+  "Q311458": {
+    "text": "Schwarzwaldstraße, 79117 Freiburg im Breisgau",
+    "osmUrl": "https://www.openstreetmap.org/way/193413739"
+  },
   "Q318043": {
     "text": "Stevenage Road, SW6 6PR London",
     "osmUrl": "https://www.openstreetmap.org/node/12911495853"
+  },
+  "Q318125": {
+    "text": "Dalhuysenstraat, 8448 EW Heerenveen",
+    "osmUrl": "https://www.openstreetmap.org/way/185039070"
+  },
+  "Q318851": {
+    "text": "Avenue des Castelans, 98020 Monaco",
+    "osmUrl": "https://www.openstreetmap.org/way/4224978"
+  },
+  "Q319774": {
+    "text": "Richard-Herrmann-Platz, 60386 Frankfurt am Main",
+    "osmUrl": "https://www.openstreetmap.org/way/9541641"
+  },
+  "Q322858": {
+    "text": "Stadionstraße, 89073 Ulm",
+    "osmUrl": "https://www.openstreetmap.org/way/126531501"
+  },
+  "Q328698": {
+    "text": "Settore Ospiti, 70131 Bari",
+    "osmUrl": "https://www.openstreetmap.org/way/124095651"
+  },
+  "Q330298": {
+    "text": "Olympiaweg, 3077 AL Rotterdam",
+    "osmUrl": "https://www.openstreetmap.org/way/136861540"
   },
   "Q338602": {
     "text": "Strada Sergent Șerbănică Vasile, 022172 București",
     "osmUrl": "https://www.openstreetmap.org/way/453563312"
   },
+  "Q339572": {
+    "text": "Budapester Straße, 20359 Hamburg",
+    "osmUrl": "https://www.openstreetmap.org/way/239069216"
+  },
+  "Q373769": {
+    "text": "Castroper Straße, 44791 Bochum",
+    "osmUrl": "https://www.openstreetmap.org/way/181891214"
+  },
+  "Q374883": {
+    "text": "Piste Georges Speicher, 67100 Strasbourg",
+    "osmUrl": "https://www.openstreetmap.org/way/28020121"
+  },
   "Q380823": {
     "text": "Molineux Street, WV1 1SG Park Village",
     "osmUrl": "https://www.openstreetmap.org/way/124646598"
+  },
+  "Q387213": {
+    "text": "Boulevard Pierre de Coubertin 31, 49000 Angers",
+    "osmUrl": "https://www.openstreetmap.org/way/126911080"
+  },
+  "Q391473": {
+    "text": "Geusseltweg, 6225 XS Maastricht",
+    "osmUrl": "https://www.openstreetmap.org/way/4729186"
+  },
+  "Q392494": {
+    "text": "Eugen-Salomon-Straße, 55128 Mainz",
+    "osmUrl": "https://www.openstreetmap.org/way/91231799"
+  },
+  "Q428115": {
+    "text": "Rue du Baron Pierre de Coubertin, 74000 Annecy",
+    "osmUrl": "https://www.openstreetmap.org/node/8890022260"
+  },
+  "Q462720": {
+    "text": "Fiffi-Gerritzen-Weg, 48153 Münster",
+    "osmUrl": "https://www.openstreetmap.org/way/99016409"
+  },
+  "Q473032": {
+    "text": "Heinz-Krügel-Platz, 39114 Magdeburg",
+    "osmUrl": "https://www.openstreetmap.org/way/126293742"
   },
   "Q473223": {
     "text": "Splau parking, 08820 el Prat de Llobregat",
     "osmUrl": "https://www.openstreetmap.org/way/111793518"
   },
+  "Q474858": {
+    "text": "Lindenstraße, 66583 Spiesen-Elversberg",
+    "osmUrl": "https://www.openstreetmap.org/way/31339206"
+  },
+  "Q476674": {
+    "text": "Roda J.C. Ring, 6466 NH Kerkrade",
+    "osmUrl": "https://www.openstreetmap.org/way/160523121"
+  },
+  "Q479619": {
+    "text": "Am Sportpark, 85053 Ingolstadt",
+    "osmUrl": "https://www.openstreetmap.org/way/293158134"
+  },
   "Q500922": {
     "text": "Stanley Matthews Way, ST4 4TL Fenton",
     "osmUrl": "https://www.openstreetmap.org/way/124603905"
   },
+  "Q500972": {
+    "text": "PSV-laan, 5616 RX Eindhoven",
+    "osmUrl": "https://www.openstreetmap.org/way/185034347"
+  },
+  "Q530735": {
+    "text": "Voie Jean Taittinger, 51100 Reims",
+    "osmUrl": "https://www.openstreetmap.org/way/801540181"
+  },
+  "Q541391": {
+    "text": "Voie DD/13, 75013 Paris",
+    "osmUrl": "https://www.openstreetmap.org/way/213880211"
+  },
+  "Q548138": {
+    "text": "Schloßhaustraße, 89522 Heidenheim an der Brenz",
+    "osmUrl": "https://www.openstreetmap.org/way/33882045"
+  },
+  "Q550041": {
+    "text": "Rua Dona Maria Paes Ribeiro, 4480-757 Vila do Conde",
+    "osmUrl": "https://www.openstreetmap.org/way/397645146"
+  },
   "Q567339": {
     "text": "Melbourne Street, SO14 5FB Southampton",
     "osmUrl": "https://www.openstreetmap.org/way/497396512"
+  },
+  "Q567402": {
+    "text": "Wilfried-Finke-Allee 1, 33104 Schloß Neuhaus",
+    "osmUrl": "https://www.openstreetmap.org/way/175029195"
   },
   "Q574565": {
     "text": "Calle Torre de Comares, 18007 Granada",
@@ -155,9 +479,25 @@
     "text": "Brunel Way, SA1 5JR Swansea",
     "osmUrl": "https://www.openstreetmap.org/node/11469196866"
   },
+  "Q588926": {
+    "text": "Fondamenta Sant'Elena, 30142 Lido",
+    "osmUrl": "https://www.openstreetmap.org/way/138997432"
+  },
+  "Q590268": {
+    "text": "Walther-Bensemann-Ring, 76131 Karlsruhe",
+    "osmUrl": "https://www.openstreetmap.org/way/156354082"
+  },
   "Q593446": {
     "text": "Trentside North, NG2 5FA West Bridgford",
     "osmUrl": "https://www.openstreetmap.org/way/16901197"
+  },
+  "Q606265": {
+    "text": "Vijverlaan, 7004 GS Doetinchem",
+    "osmUrl": "https://www.openstreetmap.org/way/59137628"
+  },
+  "Q610546": {
+    "text": "Via Giacomo Puccini, 43121 Parma",
+    "osmUrl": "https://www.openstreetmap.org/way/124245411"
   },
   "Q619094": {
     "text": "Middleton Gardens, BH7 7BT Bournemouth",
@@ -187,25 +527,105 @@
     "text": "The Circle, HU3 6HU Hull",
     "osmUrl": "https://www.openstreetmap.org/node/12058432570"
   },
+  "Q640031": {
+    "text": "Viale dell'Emigrazione, 33100 Rizzi",
+    "osmUrl": "https://www.openstreetmap.org/node/1383444882"
+  },
+  "Q643426": {
+    "text": "Bram Venemanlaan, 5644 HV Eindhoven",
+    "osmUrl": "https://www.openstreetmap.org/way/85871606"
+  },
+  "Q646151": {
+    "text": "EM 520-3, Almancil",
+    "osmUrl": "https://www.openstreetmap.org/way/292211870"
+  },
+  "Q662597": {
+    "text": "Südstrasse, 38112 Braunschweig",
+    "osmUrl": "https://www.openstreetmap.org/way/10801502"
+  },
+  "Q668094": {
+    "text": "Spartapark-Noord, 3027 VW Rotterdam",
+    "osmUrl": "https://www.openstreetmap.org/way/185053005"
+  },
   "Q683112": {
     "text": "Harry Potts Way, BB10 4AX Burnley",
     "osmUrl": "https://www.openstreetmap.org/way/52344832"
+  },
+  "Q684301": {
+    "text": "Laubenweg, 90765 Fürth",
+    "osmUrl": "https://www.openstreetmap.org/way/147032571"
+  },
+  "Q684727": {
+    "text": "Viale della Libertà, 73100 Lecce",
+    "osmUrl": "https://www.openstreetmap.org/way/124114965"
+  },
+  "Q685570": {
+    "text": "Margaretenstraße, 47055 Duisburg",
+    "osmUrl": "https://www.openstreetmap.org/way/69735665"
   },
   "Q695879": {
     "text": "Avenida de la Palmilla, 29011 Málaga",
     "osmUrl": "https://www.openstreetmap.org/way/146539044"
   },
+  "Q706435": {
+    "text": "Melanchthonstraße 31a, 33615 Bielefeld",
+    "osmUrl": "https://www.openstreetmap.org/node/13051529808"
+  },
+  "Q720978": {
+    "text": "Haags Kwartier, 2491 BM Den Haag",
+    "osmUrl": "https://www.openstreetmap.org/way/1492105883"
+  },
+  "Q720983": {
+    "text": "Stadionplein, 6532 AJ Nijmegen",
+    "osmUrl": "https://www.openstreetmap.org/way/185050513"
+  },
   "Q726370": {
     "text": "Ashton Road, BS3 2EQ Bristol",
     "osmUrl": "https://www.openstreetmap.org/way/128617880"
+  },
+  "Q727389": {
+    "text": "Colosseum, 7521 PP Enschede",
+    "osmUrl": "https://www.openstreetmap.org/way/185039569"
+  },
+  "Q733194": {
+    "text": "EM 597, 4590-292 Freamunde",
+    "osmUrl": "https://www.openstreetmap.org/node/9456379206"
   },
   "Q735783": {
     "text": "Sadar kalea, 31006 Pamplona / Iruña",
     "osmUrl": "https://www.openstreetmap.org/way/264079724"
   },
+  "Q737093": {
+    "text": "Piazzale Olimpia, 37138 Verona",
+    "osmUrl": "https://www.openstreetmap.org/way/124262144"
+  },
+  "Q738044": {
+    "text": "Pont Pierre de Coubertin, 31400 Toulouse",
+    "osmUrl": "https://www.openstreetmap.org/way/127530698"
+  },
   "Q741157": {
     "text": "Carrer Blasco Ibáñez, 12540 Vila-real",
     "osmUrl": "https://www.openstreetmap.org/way/464618828"
+  },
+  "Q749172": {
+    "text": "An der Wuhlheide, 12459 Berlin",
+    "osmUrl": "https://www.openstreetmap.org/way/54268821"
+  },
+  "Q757182": {
+    "text": "Via dello Sport, 40135 Bologna",
+    "osmUrl": "https://www.openstreetmap.org/way/79824333"
+  },
+  "Q777926": {
+    "text": "Vetkampstraat, 7416 WH Deventer",
+    "osmUrl": "https://www.openstreetmap.org/way/262339400"
+  },
+  "Q780526": {
+    "text": "Viale Giulio Cesare, 24124 Bergamo",
+    "osmUrl": "https://www.openstreetmap.org/way/43270093"
+  },
+  "Q815833": {
+    "text": "Allée des Brigades Internationales, 34080 Montpellier",
+    "osmUrl": "https://www.openstreetmap.org/way/1163845259"
   },
   "Q819179": {
     "text": "South Holme, B9 4PT Saltley",
@@ -215,13 +635,41 @@
     "text": "The Leeway, TS3 6RS Middlesbrough",
     "osmUrl": "https://www.openstreetmap.org/way/554223289"
   },
+  "Q832650": {
+    "text": "Neuer Weg, 69207 Sandhausen",
+    "osmUrl": "https://www.openstreetmap.org/way/223139713"
+  },
   "Q842077": {
     "text": "Rowleys Green Lane, CV6 6AQ Coventry",
     "osmUrl": "https://www.openstreetmap.org/way/31991381"
   },
+  "Q849239": {
+    "text": "Rua do Bairro Nossa Senhora do Monte, 4700-087 Real",
+    "osmUrl": "https://www.openstreetmap.org/way/116650252"
+  },
+  "Q854122": {
+    "text": "Allée Marc-Vivien Foé, 62300 Lens",
+    "osmUrl": "https://www.openstreetmap.org/way/268785940"
+  },
+  "Q861000": {
+    "text": "Allée Vladimir Durkovic, 42000 Saint-Étienne",
+    "osmUrl": "https://www.openstreetmap.org/way/147027148"
+  },
   "Q867902": {
     "text": "Ffordd Fred Keenor, CF11 8ER Cardiff",
     "osmUrl": "https://www.openstreetmap.org/way/191648566"
+  },
+  "Q872808": {
+    "text": "Stadionweg, 73430 Aalen",
+    "osmUrl": "https://www.openstreetmap.org/way/164637882"
+  },
+  "Q872915": {
+    "text": "Westring, 24106 Kiel",
+    "osmUrl": "https://www.openstreetmap.org/way/41783155"
+  },
+  "Q878622": {
+    "text": "Waldlaufbahn, 64287 Darmstadt",
+    "osmUrl": "https://www.openstreetmap.org/way/366600229"
   },
   "Q897533": {
     "text": "John Street, S2 4QX Sheffield",
@@ -243,9 +691,17 @@
     "text": "Calle Enrique Castro González 'Quini', 33203 Gijón",
     "osmUrl": "https://www.openstreetmap.org/way/14889422"
   },
+  "Q942073": {
+    "text": "Olympiaweg, 5142 AK Waalwijk",
+    "osmUrl": "https://www.openstreetmap.org/way/185040512"
+  },
   "Q953600": {
     "text": "Carrer Almagro, 03202 Elx / Elche",
     "osmUrl": "https://www.openstreetmap.org/way/79833561"
+  },
+  "Q953663": {
+    "text": "Wilgenlaan, 1131 NB Volendam",
+    "osmUrl": "https://www.openstreetmap.org/way/114126283"
   },
   "Q958319": {
     "text": "Harvey Gardens, SE7 8SR London",
@@ -263,17 +719,73 @@
     "text": "Calle Fondos del Segura, 35013 Las Palmas de Gran Canaria",
     "osmUrl": "https://www.openstreetmap.org/way/838329851"
   },
+  "Q1028392": {
+    "text": "Insulindestraat, 8921 JX Leeuwarden",
+    "osmUrl": "https://www.openstreetmap.org/way/639622152"
+  },
+  "Q1031484": {
+    "text": "Rua das Rosas, 9064-503 Funchal",
+    "osmUrl": "https://www.openstreetmap.org/node/9248078872"
+  },
+  "Q1053455": {
+    "text": "Périphérique Extérieur, 44305 Nantes",
+    "osmUrl": "https://www.openstreetmap.org/way/1556623891"
+  },
+  "Q1056864": {
+    "text": "Rua do Estádio, 2400-265 Leiria",
+    "osmUrl": "https://www.openstreetmap.org/way/177037521"
+  },
+  "Q1057274": {
+    "text": "Praça 26 de Maio, 4810-525 Guimarães",
+    "osmUrl": "https://www.openstreetmap.org/way/189966626"
+  },
+  "Q1059142": {
+    "text": "Via Francesco Paglia, 88100 Catanzaro",
+    "osmUrl": "https://www.openstreetmap.org/way/167362756"
+  },
   "Q1066373": {
     "text": "Park Road, SE25 6QX London",
     "osmUrl": "https://www.openstreetmap.org/node/13360409433"
+  },
+  "Q1067235": {
+    "text": "Elzenlaan, 6831 GM Arnhem",
+    "osmUrl": "https://www.openstreetmap.org/node/599585753"
+  },
+  "Q1067308": {
+    "text": "Rua Dom João III, 3030-319 Coimbra",
+    "osmUrl": "https://www.openstreetmap.org/way/58257175"
+  },
+  "Q1121760": {
+    "text": "Quai Éric Tabarly, 35000 Rennes",
+    "osmUrl": "https://www.openstreetmap.org/way/25950257"
   },
   "Q1122715": {
     "text": "Carrer de Manuel Azaña, 46019 València",
     "osmUrl": "https://www.openstreetmap.org/way/549557291"
   },
+  "Q1128228": {
+    "text": "Rue René Sauleau, 53000 Laval",
+    "osmUrl": "https://www.openstreetmap.org/way/233387599"
+  },
+  "Q1128263": {
+    "text": "Rue Robert Lemoy, 63118 Clermont-Ferrand",
+    "osmUrl": "https://www.openstreetmap.org/way/156843501"
+  },
   "Q1130617": {
     "text": "Calle Acebo, 04006 Almería",
     "osmUrl": "https://www.openstreetmap.org/way/27197904"
+  },
+  "Q1134861": {
+    "text": "Chemin du Stade, 20090 Ajaccio",
+    "osmUrl": "https://www.openstreetmap.org/way/302773423"
+  },
+  "Q1139863": {
+    "text": "Reeweg Oost, 3312 LK Dordrecht",
+    "osmUrl": "https://www.openstreetmap.org/way/26173520"
+  },
+  "Q1141104": {
+    "text": "Boerendanserdijk, 8024 AE Zwolle",
+    "osmUrl": "https://www.openstreetmap.org/way/137056786"
   },
   "Q1141958": {
     "text": "Alan Kelly Walk, PR1 6SB Preston",
@@ -282,6 +794,10 @@
   "Q1158963": {
     "text": "Strada Ștefan Covaci, 300736 Timișoara",
     "osmUrl": "https://www.openstreetmap.org/way/428867777"
+  },
+  "Q1167583": {
+    "text": "Rua da Lobata, 4750-777 Vila Boa",
+    "osmUrl": "https://www.openstreetmap.org/way/617582773"
   },
   "Q1202579": {
     "text": "Mold Road, LL11 2AF Stansty",
@@ -295,9 +811,49 @@
     "text": "Strada Romulus Vuia, 400220 Cluj-Napoca",
     "osmUrl": "https://www.openstreetmap.org/node/6208050952"
   },
+  "Q1261440": {
+    "text": "Viale Trieste - Triester Straße 19, 39100 Bolzano - Bozen",
+    "osmUrl": "https://www.openstreetmap.org/way/30342416"
+  },
+  "Q1272724": {
+    "text": "Rampa dos Barreiros, 9000-099 Funchal",
+    "osmUrl": "https://www.openstreetmap.org/way/490727380"
+  },
+  "Q1293399": {
+    "text": "Rua António Ferreira Magalhães, 4760-855 Vila Nova de Famalicão e Calendário",
+    "osmUrl": "https://www.openstreetmap.org/way/277935139"
+  },
+  "Q1308776": {
+    "text": "Avenida Zeca Afonso, 8500-643 Portimão",
+    "osmUrl": "https://www.openstreetmap.org/way/99819632"
+  },
+  "Q1320249": {
+    "text": "Rue du Docteur Bauer, 93400 Saint-Ouen-sur-Seine",
+    "osmUrl": "https://www.openstreetmap.org/way/49860831"
+  },
+  "Q1320629": {
+    "text": "Nelson Mandelaboulevard, 5342 CZ Oss",
+    "osmUrl": "https://www.openstreetmap.org/way/79730497"
+  },
   "Q1326578": {
     "text": "Avenida do Fragoso, 36210 Vigo",
     "osmUrl": "https://www.openstreetmap.org/way/380374713"
+  },
+  "Q1327324": {
+    "text": "Praça da Maratona, 2790-381 Oeiras",
+    "osmUrl": "https://www.openstreetmap.org/way/222285476"
+  },
+  "Q1341607": {
+    "text": "Rue Jean Moulin, 54510 Tomblaine",
+    "osmUrl": "https://www.openstreetmap.org/way/168293482"
+  },
+  "Q1341629": {
+    "text": "Impasse de la Forge, 25200 Montbéliard",
+    "osmUrl": "https://www.openstreetmap.org/way/35094111"
+  },
+  "Q1347183": {
+    "text": "Route de Vaux, 89000 Auxerre",
+    "osmUrl": "https://www.openstreetmap.org/way/56401744"
   },
   "Q1369118": {
     "text": "Avenida de España, 02008 Albacete",
@@ -327,41 +883,217 @@
     "text": "Calle José Tartiere, 33013 Oviedo",
     "osmUrl": "https://www.openstreetmap.org/way/10610083"
   },
+  "Q1369675": {
+    "text": "Rua Anacleto Pinto, 3500-021 Viseu",
+    "osmUrl": "https://www.openstreetmap.org/way/437323141"
+  },
   "Q1369687": {
     "text": "Avenida 26 de Abril, 28022 Madrid",
     "osmUrl": "https://www.openstreetmap.org/way/4409945"
+  },
+  "Q1370647": {
+    "text": "Rua Dom Bosco, 2765-131 Cascais",
+    "osmUrl": "https://www.openstreetmap.org/way/195730990"
+  },
+  "Q1370693": {
+    "text": "Avenida Clube Desportivo Feirense, 4520-179 Santa Maria da Feira",
+    "osmUrl": "https://www.openstreetmap.org/way/640154907"
+  },
+  "Q1370706": {
+    "text": "EN 326, 4540-102 Arouca",
+    "osmUrl": "https://www.openstreetmap.org/way/104701333"
+  },
+  "Q1370708": {
+    "text": "Rua do Ginásio Clube Figueirense, 3080-200 Tavarede",
+    "osmUrl": "https://www.openstreetmap.org/way/266069235"
+  },
+  "Q1370763": {
+    "text": "Rua do Estádio, 4595-158 Paços de Ferreira",
+    "osmUrl": "https://www.openstreetmap.org/way/150607012"
+  },
+  "Q1370765": {
+    "text": "Alameda Engenheiro Rui Alves, 9060-041 Funchal",
+    "osmUrl": "https://www.openstreetmap.org/way/54733421"
+  },
+  "Q1370770": {
+    "text": "Estrada do Alvito, 1300-052 Alcântara",
+    "osmUrl": "https://www.openstreetmap.org/way/199304519"
+  },
+  "Q1370792": {
+    "text": "Avenida do Doutor Edison Magalhães, 4450-060 Senhora da Hora",
+    "osmUrl": "https://www.openstreetmap.org/way/372189417"
+  },
+  "Q1370811": {
+    "text": "Avenida da Ilha da Madeira, 1400-007 Lisboa",
+    "osmUrl": "https://www.openstreetmap.org/way/189595174"
+  },
+  "Q1374804": {
+    "text": "Boumaboulevard, 9723 ZS Groningen",
+    "osmUrl": "https://www.openstreetmap.org/way/185043967"
   },
   "Q1409157": {
     "text": "Esplanada Stadion, 200003 Craiova",
     "osmUrl": "https://www.openstreetmap.org/way/220474447"
   },
+  "Q1410402": {
+    "text": "Boulevard de Tournai, 59491 Villeneuve-d'Ascq",
+    "osmUrl": "https://www.openstreetmap.org/way/178547373"
+  },
+  "Q1432517": {
+    "text": "Rue de Quimper, 29200 Brest",
+    "osmUrl": "https://www.openstreetmap.org/way/60678495"
+  },
+  "Q1434942": {
+    "text": "Voie Antoine Redin, 20600 Furiani",
+    "osmUrl": "https://www.openstreetmap.org/node/13378149816"
+  },
+  "Q1483409": {
+    "text": "Rue du Stade, 57050 Longeville-lès-Metz",
+    "osmUrl": "https://www.openstreetmap.org/way/35331105"
+  },
+  "Q1538773": {
+    "text": "Via Erminio Bercarich, 89129 Reggio di Calabria",
+    "osmUrl": "https://www.openstreetmap.org/way/28915407"
+  },
   "Q1546623": {
     "text": "Braemar Road 52, TW8 0NS Brentford",
     "osmUrl": "https://www.openstreetmap.org/way/1263088127"
+  },
+  "Q1569166": {
+    "text": "Via Antonio Gramsci, 52100 La Pace",
+    "osmUrl": "https://www.openstreetmap.org/way/176586205"
+  },
+  "Q1569222": {
+    "text": "Milaanstraat, 6135 LH Sittard",
+    "osmUrl": "https://www.openstreetmap.org/way/161757410"
+  },
+  "Q1671970": {
+    "text": "Via Stadio, 82100 Benevento",
+    "osmUrl": "https://www.openstreetmap.org/way/180665345"
+  },
+  "Q1675996": {
+    "text": "Herculesplein, 3584 AA Utrecht",
+    "osmUrl": "https://www.openstreetmap.org/way/24815004"
+  },
+  "Q1807356": {
+    "text": "Route du Docteur Jean Paul de Rocca Serra, 20090 Ajaccio",
+    "osmUrl": "https://www.openstreetmap.org/way/164963138"
+  },
+  "Q1817621": {
+    "text": "Rue Auguste Brizeux, 22200 Guingamp",
+    "osmUrl": "https://www.openstreetmap.org/way/186049321"
+  },
+  "Q1848312": {
+    "text": "Boulevard Paul Doumer, 21000 Dijon",
+    "osmUrl": "https://www.openstreetmap.org/way/115393852"
+  },
+  "Q1851616": {
+    "text": "Via Franco Tognini, 20852 Monza",
+    "osmUrl": "https://www.openstreetmap.org/way/836766299"
+  },
+  "Q1851894": {
+    "text": "Tolsduinerlaan, 1981 EG Velsen-Zuid",
+    "osmUrl": "https://www.openstreetmap.org/node/11989539144"
+  },
+  "Q1855763": {
+    "text": "Victorialaan, 5213 JE 's-Hertogenbosch",
+    "osmUrl": "https://www.openstreetmap.org/way/80739899"
+  },
+  "Q1862372": {
+    "text": "Chemin aux Bœufs, 72100 Le Mans",
+    "osmUrl": "https://www.openstreetmap.org/way/182386424"
+  },
+  "Q1887221": {
+    "text": "Viale Severino Taddei, 42100 Reggio nell'Emilia",
+    "osmUrl": "https://www.openstreetmap.org/way/177767516"
   },
   "Q1888199": {
     "text": "Strada Larisa, 060214 București",
     "osmUrl": "https://www.openstreetmap.org/way/803611819"
   },
+  "Q1958120": {
+    "text": "Oirschotsedijk 12A, 5651 GC Eindhoven",
+    "osmUrl": "https://www.openstreetmap.org/node/2735336058"
+  },
+  "Q2001732": {
+    "text": "Boulevard Georges Pompidou, 10410 Saint-Parres-aux-Tertres",
+    "osmUrl": "https://www.openstreetmap.org/way/131867453"
+  },
+  "Q2067371": {
+    "text": "Boulevard Eurvin, 62200 Boulogne-sur-Mer",
+    "osmUrl": "https://www.openstreetmap.org/way/1012804379"
+  },
+  "Q2093331": {
+    "text": "Velodrome, 7825 SH Emmen",
+    "osmUrl": "https://www.openstreetmap.org/way/89147156"
+  },
   "Q2097709": {
     "text": "Carrer de la Universitat de Girona, 17003 Girona",
     "osmUrl": "https://www.openstreetmap.org/way/32650923"
+  },
+  "Q2132300": {
+    "text": "Stadionstraat 23, 4815 NC Breda",
+    "osmUrl": "https://www.openstreetmap.org/node/2737934174"
+  },
+  "Q2200744": {
+    "text": "Borchlandweg 18, 1116 BD Amstelvoorde",
+    "osmUrl": "https://www.openstreetmap.org/node/14224657626"
+  },
+  "Q2262017": {
+    "text": "Karel V-laan, 5915 ZB Venlo",
+    "osmUrl": "https://www.openstreetmap.org/way/111844401"
   },
   "Q2262973": {
     "text": "Strada General Toma Dumitresc, 700471 Iași",
     "osmUrl": "https://www.openstreetmap.org/way/1239845733"
   },
+  "Q2298028": {
+    "text": "Via Pasquale Greco, 83100 Avellino",
+    "osmUrl": "https://www.openstreetmap.org/way/185585252"
+  },
+  "Q2298643": {
+    "text": "Honingerdijk, 3062 NX Rotterdam",
+    "osmUrl": "https://www.openstreetmap.org/way/85682623"
+  },
+  "Q2299298": {
+    "text": "Boulevard Jean Pain, 38100 Grenoble",
+    "osmUrl": "https://www.openstreetmap.org/way/25532414"
+  },
+  "Q2299919": {
+    "text": "Avenue des Sports, 59300 Valenciennes",
+    "osmUrl": "https://www.openstreetmap.org/way/184921263"
+  },
   "Q2301915": {
     "text": "Avenida de la Sanidad Pública, 11010 Cádiz",
     "osmUrl": "https://www.openstreetmap.org/way/1434618711"
+  },
+  "Q2325881": {
+    "text": "Rue de Krefeld, 59240 Dunkerque",
+    "osmUrl": "https://www.openstreetmap.org/way/438266900"
+  },
+  "Q2325894": {
+    "text": "Rue Eugène Loup, 12000 Rodez",
+    "osmUrl": "https://www.openstreetmap.org/way/45418312"
   },
   "Q2607402": {
     "text": "Strada Ștefan cel Mare, 077041 Chiajna",
     "osmUrl": "https://www.openstreetmap.org/way/236835222"
   },
+  "Q3059095": {
+    "text": "Avenida Doutor José Pontes, 2720-454 São Brás",
+    "osmUrl": "https://www.openstreetmap.org/way/689657372"
+  },
+  "Q3059098": {
+    "text": "Rua Gondomar Sport Clube, 4420-356 Gondomar",
+    "osmUrl": "https://www.openstreetmap.org/way/128432653"
+  },
   "Q3121017": {
     "text": "Strada Gheorghe Asachi, 800686 Galați",
     "osmUrl": "https://www.openstreetmap.org/way/657733000"
+  },
+  "Q3264211": {
+    "text": "Laan van Maarschalkerweerd, 3584 AB Utrecht",
+    "osmUrl": "https://www.openstreetmap.org/way/24510368"
   },
   "Q3274884": {
     "text": "Intrarea L, 100172 Ploiești",
@@ -379,9 +1111,57 @@
     "text": "Estrada da Malata, 15402 Ferrol",
     "osmUrl": "https://www.openstreetmap.org/way/152237180"
   },
+  "Q3330886": {
+    "text": "Rua Álvaro Ferreira Pinto, 6200-554 Covilhã",
+    "osmUrl": "https://www.openstreetmap.org/way/152480246"
+  },
+  "Q3446875": {
+    "text": "Rua de Américo Campos, 4785-625 Trofa",
+    "osmUrl": "https://www.openstreetmap.org/way/549553819"
+  },
+  "Q3496024": {
+    "text": "Rue de Stavropol, 34500 Béziers",
+    "osmUrl": "https://www.openstreetmap.org/way/38192108"
+  },
+  "Q3496035": {
+    "text": "Rue de Beaumarchais, 45100 Orléans",
+    "osmUrl": "https://www.openstreetmap.org/way/27435931"
+  },
+  "Q3514314": {
+    "text": "Rua 19 de Março, 4815-384 Infias",
+    "osmUrl": "https://www.openstreetmap.org/way/1003186146"
+  },
+  "Q3514858": {
+    "text": "Estrada Regional da Ribeira Grande, 9500-719 Ponta Delgada",
+    "osmUrl": "https://www.openstreetmap.org/way/727331117"
+  },
+  "Q3967768": {
+    "text": "Via Aldo Gastaldi, 16043 Chiavari",
+    "osmUrl": "https://www.openstreetmap.org/way/431568457"
+  },
+  "Q3967882": {
+    "text": "Via degli Stadi, 87100 Cosenza",
+    "osmUrl": "https://www.openstreetmap.org/way/181765027"
+  },
   "Q4684229": {
     "text": "Strada Octav Băncilă, 710006 Botoșani",
     "osmUrl": "https://www.openstreetmap.org/way/277214092"
+  },
+  "Q5028447": {
+    "text": "Rua Cândido dos Reis, 2560-273 Torres Vedras",
+    "osmUrl": "https://www.openstreetmap.org/way/782701541"
+  },
+  "Q5401985": {
+    "text": "Rua Emídio Amaral Semblano, 3720-275 Oliveira de Azeméis",
+    "osmUrl": "https://www.openstreetmap.org/way/1002433173"
+  },
+  "Q5402128": {
+    "text": "Avenida do Estádio, 5400-234 Chaves",
+    "osmUrl": "https://www.openstreetmap.org/way/175006155"
+  },
+  "Q5402247": {
+    "text": "Rua do Varzim Sport Clube, 4490-556 Póvoa de Varzim",
+    "osmUrl": "https://www.openstreetmap.org/way/771484912"
   },
   "Q6083752": {
     "text": "Camino de la Hoya de Tejedores, 02006 Albacete",
@@ -423,9 +1203,17 @@
     "text": "Aleea Stadionului, 110001 Pitești",
     "osmUrl": "https://www.openstreetmap.org/way/243200014"
   },
+  "Q7875112": {
+    "text": "Avenida Lusíada, 1500-065 São Domingos de Benfica",
+    "osmUrl": "https://www.openstreetmap.org/way/54756292"
+  },
   "Q9008639": {
     "text": "Garaioltza auzoa, 48196 Lezama",
     "osmUrl": "https://www.openstreetmap.org/way/42279723"
+  },
+  "Q10277320": {
+    "text": "Rua do Eirapedrense, 2495-518 Fátima",
+    "osmUrl": "https://www.openstreetmap.org/way/1307335635"
   },
   "Q13580789": {
     "text": "Strada Justiției, 130018 Târgoviște",
@@ -434,6 +1222,10 @@
   "Q14322671": {
     "text": "Strada Traian Lalescu, 300223 Timișoara",
     "osmUrl": "https://www.openstreetmap.org/way/154295262"
+  },
+  "Q16632396": {
+    "text": "Rua Doutor Eurico José Gouveia, 3460-582 Tondela",
+    "osmUrl": "https://www.openstreetmap.org/way/640773825"
   },
   "Q18125598": {
     "text": "Carrer de la Grau, AD500 Andorra la Vella",
@@ -463,6 +1255,14 @@
     "text": "Regent Road, L5 9TG Liverpool",
     "osmUrl": "https://www.openstreetmap.org/way/1367633432"
   },
+  "Q29655396": {
+    "text": "Viale Olimpia, 03100 Frosinone",
+    "osmUrl": "https://www.openstreetmap.org/way/827871589"
+  },
+  "Q30880646": {
+    "text": "Via Raimondo Carta Raspi, 09126 Casteddu/Cagliari",
+    "osmUrl": "https://www.openstreetmap.org/way/522940395"
+  },
   "Q39047118": {
     "text": "Bulevardul Mareșal Alexandru Averescu, 120262 Buzău",
     "osmUrl": "https://www.openstreetmap.org/node/5500126222"
@@ -471,9 +1271,25 @@
     "text": "Paxton Terrace, N17 0FH London",
     "osmUrl": "https://www.openstreetmap.org/node/12595913181"
   },
+  "Q63975205": {
+    "text": "Chemin de Bernadou, 64320 Bizanos",
+    "osmUrl": "https://www.openstreetmap.org/way/694338579"
+  },
+  "Q64586775": {
+    "text": "Achim-Stocker-Straße, 79108 Freiburg im Breisgau",
+    "osmUrl": "https://www.openstreetmap.org/way/1177370956"
+  },
   "Q97889239": {
     "text": "Calea Giulești, 060276 București",
     "osmUrl": "https://www.openstreetmap.org/way/859341021"
+  },
+  "Q99194551": {
+    "text": "Via della Vigna, 33054 Lignano Sabbiadoro",
+    "osmUrl": "https://www.openstreetmap.org/way/178082150"
+  },
+  "Q132997935": {
+    "text": "Rembrandtlaan, 5702 BT Helmond",
+    "osmUrl": "https://www.openstreetmap.org/way/1341506538"
   },
   "Q135682568": {
     "text": "Ronda de Boltaña, 50191 Zaragoza",

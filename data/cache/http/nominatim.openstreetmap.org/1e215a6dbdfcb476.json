@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.751389&lon=14.345556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":134907393,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":150076813,\"lat\":\"51.7516231\",\"lon\":\"14.3455790\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4524580407745302,\"addresstype\":\"leisure\",\"name\":\"LEAG Energie Stadion\",\"display_name\":\"LEAG Energie Stadion, 1, Am Eliaspark, Sandow, Cottbus - Chóśebuz, Brandenburg, 03042, Deutschland\",\"address\":{\"leisure\":\"LEAG Energie Stadion\",\"house_number\":\"1\",\"road\":\"Am Eliaspark\",\"suburb\":\"Sandow\",\"city\":\"Cottbus - Chóśebuz\",\"state\":\"Brandenburg\",\"ISO3166-2-lvl4\":\"DE-BB\",\"postcode\":\"03042\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"51.7510725\",\"51.7521736\",\"14.3448399\",\"14.3463181\"]}",
+  "fetchedAt": "2026-10-12T16:49:09.588Z"
+}

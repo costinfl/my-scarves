@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.586944&lon=9.898611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":142269995,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":123124326,\"lat\":\"53.5871500\",\"lon\":\"9.8986304\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.255359731436664e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Uwe-Seeler-Allee, Bahrenfeld, Altona, Hamburg, 22525, Deutschland\",\"address\":{\"road\":\"Uwe-Seeler-Allee\",\"suburb\":\"Bahrenfeld\",\"city_district\":\"Altona\",\"city\":\"Hamburg\",\"ISO3166-2-lvl4\":\"DE-HH\",\"postcode\":\"22525\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"53.5866484\",\"53.5876515\",\"9.8980142\",\"9.8992467\"]}",
+  "fetchedAt": "2026-10-12T16:49:13.485Z"
+}

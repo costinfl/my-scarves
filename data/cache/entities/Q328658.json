@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-12T16:43:43.975Z",
+  "version": 2,
+  "entity": {
+    "id": "Q328658",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 373160,
+                "id": "Q373160"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5975887,
+                "id": "Q5975887"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52664"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Le Havre AC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Le Havre AC"
+      }
+    }
+  }
+}

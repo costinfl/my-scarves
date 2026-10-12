@@ -28,6 +28,76 @@
     "participants": 22
   },
   {
+    "qid": "Q13394",
+    "association": "FRA",
+    "tier": 1,
+    "label": "Ligue 1",
+    "participants": 18
+  },
+  {
+    "qid": "Q217374",
+    "association": "FRA",
+    "tier": 2,
+    "label": "Ligue 2",
+    "participants": 18
+  },
+  {
+    "qid": "Q82595",
+    "association": "GER",
+    "tier": 1,
+    "label": "Bundesliga",
+    "participants": 20
+  },
+  {
+    "qid": "Q152665",
+    "association": "GER",
+    "tier": 2,
+    "label": "2. Bundesliga",
+    "participants": 18
+  },
+  {
+    "qid": "Q15804",
+    "association": "ITA",
+    "tier": 1,
+    "label": "Serie A",
+    "participants": 20
+  },
+  {
+    "qid": "Q194052",
+    "association": "ITA",
+    "tier": 2,
+    "label": "Serie B",
+    "participants": 20
+  },
+  {
+    "qid": "Q167541",
+    "association": "NED",
+    "tier": 1,
+    "label": "Eredivisie",
+    "participants": 18
+  },
+  {
+    "qid": "Q610823",
+    "association": "NED",
+    "tier": 2,
+    "label": "Eerste Divisie",
+    "participants": 20
+  },
+  {
+    "qid": "Q182994",
+    "association": "POR",
+    "tier": 1,
+    "label": "Primeira Liga",
+    "participants": 18
+  },
+  {
+    "qid": "Q754488",
+    "association": "POR",
+    "tier": 2,
+    "label": "Liga Portugal 2",
+    "participants": 18
+  },
+  {
     "qid": "Q237753",
     "association": "ROU",
     "tier": 1,

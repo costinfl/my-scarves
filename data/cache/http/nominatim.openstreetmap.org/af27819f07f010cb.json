@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.206111&lon=6.591389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":151482879,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":185043967,\"lat\":\"53.2061415\",\"lon\":\"6.5916542\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.985503929193588e-05,\"addresstype\":\"leisure\",\"name\":\"Euroborg\",\"display_name\":\"Euroborg, Boumaboulevard, Europapark, Zuid, Groningen, Nederland, 9723 ZS, Nederland\",\"address\":{\"leisure\":\"Euroborg\",\"road\":\"Boumaboulevard\",\"neighbourhood\":\"Europapark\",\"suburb\":\"Zuid\",\"city\":\"Groningen\",\"municipality\":\"Groningen\",\"state\":\"Groningen\",\"ISO3166-2-lvl4\":\"NL-GR\",\"country\":\"Nederland\",\"postcode\":\"9723 ZS\",\"country_code\":\"nl\"},\"boundingbox\":[\"53.2056587\",\"53.2066242\",\"6.5911332\",\"6.5921753\"]}",
+  "fetchedAt": "2026-10-12T16:50:37.380Z"
+}

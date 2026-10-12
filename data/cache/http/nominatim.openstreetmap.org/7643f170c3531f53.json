@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.668500&lon=10.139300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":127914669,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":33882045,\"lat\":\"48.6684586\",\"lon\":\"10.1393000\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8503852902983406e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Schloßhaustraße, Mergelstetten, Heidenheim an der Brenz, VVG der Stadt Heidenheim an der Brenz, Landkreis Heidenheim, Baden-Württemberg, 89522, Deutschland\",\"address\":{\"road\":\"Schloßhaustraße\",\"suburb\":\"Mergelstetten\",\"town\":\"Heidenheim an der Brenz\",\"municipality\":\"VVG der Stadt Heidenheim an der Brenz\",\"county\":\"Landkreis Heidenheim\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"89522\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.6681121\",\"48.6688042\",\"10.1385209\",\"10.1400850\"]}",
+  "fetchedAt": "2026-10-12T16:48:51.540Z"
+}

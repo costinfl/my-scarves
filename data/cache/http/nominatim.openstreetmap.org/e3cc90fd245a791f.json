@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.551111&lon=-8.622778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286999725,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":617582773,\"lat\":\"41.5511869\",\"lon\":\"-8.6230664\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.995345998316957e-05,\"addresstype\":\"leisure\",\"name\":\"Gil Vicente Futebol Clube\",\"display_name\":\"Gil Vicente Futebol Clube, Rua da Lobata, Vila Boa, Barcelos, Braga, 4750-777, Portugal\",\"address\":{\"leisure\":\"Gil Vicente Futebol Clube\",\"road\":\"Rua da Lobata\",\"village\":\"Vila Boa\",\"city\":\"Barcelos\",\"county\":\"Braga\",\"ISO3166-2-lvl6\":\"PT-03\",\"postcode\":\"4750-777\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.5506228\",\"41.5517509\",\"-8.6236321\",\"-8.6225008\"]}",
+  "fetchedAt": "2026-10-12T16:51:30.098Z"
+}

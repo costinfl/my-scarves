@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.021536&lon=7.830006&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":120823881,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1177370956,\"lat\":\"48.0216179\",\"lon\":\"7.8296793\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.206607156476718e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Achim-Stocker-Straße, Brühl-Industriegebiet, Brühl, Freiburg im Breisgau, Baden-Württemberg, 79108, Deutschland\",\"address\":{\"road\":\"Achim-Stocker-Straße\",\"quarter\":\"Brühl-Industriegebiet\",\"suburb\":\"Brühl\",\"city\":\"Freiburg im Breisgau\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"79108\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.0210054\",\"48.0222303\",\"7.8289363\",\"7.8304222\"]}",
+  "fetchedAt": "2026-10-12T16:49:22.688Z"
+}

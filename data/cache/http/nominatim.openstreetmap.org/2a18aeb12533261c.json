@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.106111&lon=12.357222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":79978186,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":161428291,\"lat\":\"43.1062077\",\"lon\":\"12.3570417\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.078583962763435e-05,\"addresstype\":\"leisure\",\"name\":\"Stadio Renato Curi\",\"display_name\":\"Stadio Renato Curi, Via Cortonese, Madonna Alta, Perugia, Umbria, 06127, Italia\",\"address\":{\"leisure\":\"Stadio Renato Curi\",\"road\":\"Via Cortonese\",\"suburb\":\"Madonna Alta\",\"city\":\"Perugia\",\"county\":\"Perugia\",\"ISO3166-2-lvl6\":\"IT-PG\",\"state\":\"Umbria\",\"ISO3166-2-lvl4\":\"IT-55\",\"postcode\":\"06127\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"43.1055892\",\"43.1068262\",\"12.3563106\",\"12.3577729\"]}",
+  "fetchedAt": "2026-10-12T16:49:40.484Z"
+}

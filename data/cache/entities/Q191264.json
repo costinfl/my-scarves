@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q191264",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "AZ Alkmaar.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52327"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AZ Alkmaar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "AZ Alkmaar"
+      }
+    }
+  }
+}

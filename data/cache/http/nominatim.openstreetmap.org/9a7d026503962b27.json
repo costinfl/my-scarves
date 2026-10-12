@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.906100&lon=2.341050&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":98296868,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":49860831,\"lat\":\"48.9060721\",\"lon\":\"2.3410263\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.393606469820733e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue du Docteur Bauer, Debain, Saint-Ouen-sur-Seine, Saint-Denis, Seine-Saint-Denis, Île-de-France, France métropolitaine, 93400, France\",\"address\":{\"road\":\"Rue du Docteur Bauer\",\"quarter\":\"Debain\",\"town\":\"Saint-Ouen-sur-Seine\",\"municipality\":\"Saint-Denis\",\"county\":\"Seine-Saint-Denis\",\"ISO3166-2-lvl6\":\"FR-93\",\"state\":\"Île-de-France\",\"ISO3166-2-lvl4\":\"FR-IDF\",\"region\":\"France métropolitaine\",\"postcode\":\"93400\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"48.9055221\",\"48.9066219\",\"2.3401917\",\"2.3418609\"]}",
+  "fetchedAt": "2026-10-12T16:48:38.571Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.709653&lon=-9.180878&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":294979035,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":199304519,\"lat\":\"38.7097014\",\"lon\":\"-9.1808232\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.359473463574925,\"addresstype\":\"leisure\",\"name\":\"Estádio da Tapadinha\",\"display_name\":\"Estádio da Tapadinha, Estrada do Alvito, Quinta do Cabrinha, Alcântara, Lisboa, 1300-052, Portugal\",\"address\":{\"leisure\":\"Estádio da Tapadinha\",\"road\":\"Estrada do Alvito\",\"neighbourhood\":\"Quinta do Cabrinha\",\"village\":\"Alcântara\",\"city\":\"Lisboa\",\"county\":\"Lisboa\",\"ISO3166-2-lvl6\":\"PT-11\",\"postcode\":\"1300-052\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"38.7091039\",\"38.7102988\",\"-9.1814848\",\"-9.1801617\"]}",
+  "fetchedAt": "2026-10-12T16:51:09.828Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.774722&lon=6.945556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":154006923,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":89147156,\"lat\":\"52.7747009\",\"lon\":\"6.9457751\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.6747539482673646e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Velodrome, Barger-Oosterveld, Emmen, Drenthe, Nederland, 7825 SH, Nederland\",\"address\":{\"road\":\"Velodrome\",\"quarter\":\"Barger-Oosterveld\",\"city\":\"Emmen\",\"municipality\":\"Emmen\",\"state\":\"Drenthe\",\"ISO3166-2-lvl4\":\"NL-DR\",\"country\":\"Nederland\",\"postcode\":\"7825 SH\",\"country_code\":\"nl\"},\"boundingbox\":[\"52.7741670\",\"52.7752349\",\"6.9451448\",\"6.9464053\"]}",
+  "fetchedAt": "2026-10-12T16:50:36.726Z"
+}

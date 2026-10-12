@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q622432",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64237"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Rio Ave F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Rio Ave F.C."
+      }
+    }
+  }
+}

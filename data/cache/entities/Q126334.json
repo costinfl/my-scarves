@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q126334",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Racing Club de Strasbourg contre Racing Lens décembre 2016 .jpg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59857"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "RC Strasbourg Alsace"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "RC Strasbourg Alsace"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.199694&lon=9.137417&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":53277123,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":522940395,\"lat\":\"39.1996578\",\"lon\":\"9.1373907\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.027924010066404e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Raimondo Carta Raspi, Nuovo Borgo Sant'Elia, Casteddu/Cagliari, Sardigna/Sardegna, 09126, Italia\",\"address\":{\"road\":\"Via Raimondo Carta Raspi\",\"quarter\":\"Nuovo Borgo Sant'Elia\",\"suburb\":\"Nuovo Borgo Sant'Elia\",\"city\":\"Casteddu/Cagliari\",\"county\":\"Casteddu/Cagliari\",\"ISO3166-2-lvl6\":\"IT-CA\",\"state\":\"Sardigna/Sardegna\",\"ISO3166-2-lvl4\":\"IT-88\",\"postcode\":\"09126\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"39.1991512\",\"39.2001644\",\"9.1369418\",\"9.1378395\"]}",
+  "fetchedAt": "2026-10-12T16:49:54.531Z"
+}

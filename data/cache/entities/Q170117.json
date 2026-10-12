@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q170117",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 122981952,
+                "id": "Q122981952"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Ingolstadt 04"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Ingolstadt 04"
+      }
+    }
+  }
+}

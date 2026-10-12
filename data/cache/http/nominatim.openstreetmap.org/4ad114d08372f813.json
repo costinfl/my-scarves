@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.724400&lon=1.619070&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":99855448,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1012804379,\"lat\":\"50.7236295\",\"lon\":\"1.6194832\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":0.40363877862033115,\"addresstype\":\"leisure\",\"name\":\"Stade de la Libération\",\"display_name\":\"Stade de la Libération, Boulevard Eurvin, Dernier-Sou, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France\",\"address\":{\"leisure\":\"Stade de la Libération\",\"road\":\"Boulevard Eurvin\",\"quarter\":\"Dernier-Sou\",\"city\":\"Boulogne-sur-Mer\",\"municipality\":\"Boulogne-sur-Mer\",\"county\":\"Pas-de-Calais\",\"ISO3166-2-lvl6\":\"FR-62\",\"state\":\"Hauts-de-France\",\"ISO3166-2-lvl4\":\"FR-HDF\",\"region\":\"France métropolitaine\",\"postcode\":\"62200\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"50.7224748\",\"50.7248490\",\"1.6178788\",\"1.6208170\"]}",
+  "fetchedAt": "2026-10-12T16:48:47.593Z"
+}

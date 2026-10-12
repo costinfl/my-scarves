@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.750640&lon=-7.464985&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":293104385,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":175006155,\"lat\":\"41.7505829\",\"lon\":\"-7.4649140\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.749523155561177e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida do Estádio, Quinta da Formiguinha, Santa Maria Maior, Chaves, Vila Real, 5400-234, Portugal\",\"address\":{\"road\":\"Avenida do Estádio\",\"neighbourhood\":\"Quinta da Formiguinha\",\"city_district\":\"Santa Maria Maior\",\"city\":\"Chaves\",\"county\":\"Vila Real\",\"ISO3166-2-lvl6\":\"PT-17\",\"postcode\":\"5400-234\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.7500220\",\"41.7511440\",\"-7.4656060\",\"-7.4642220\"]}",
+  "fetchedAt": "2026-10-12T16:51:28.312Z"
+}

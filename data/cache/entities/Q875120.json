@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.701Z",
+  "version": 2,
+  "entity": {
+    "id": "Q875120",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Wapen SC Cambuur.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SC Cambuur"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SC Cambuur"
+      }
+    }
+  }
+}

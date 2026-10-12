@@ -1,0 +1,57 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q6630",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Ascoli Calcio 1898 FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Ascoli Calcio 1898 FC"
+      }
+    }
+  }
+}

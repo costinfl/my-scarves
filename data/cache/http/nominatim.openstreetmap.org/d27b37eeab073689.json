@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.088333&lon=-7.974722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296565857,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":292211870,\"lat\":\"37.0882766\",\"lon\":\"-7.9746741\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.375143053325731e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"EM 520-3, Almancil, Loulé, Faro, Portugal\",\"address\":{\"road\":\"EM 520-3\",\"city\":\"Almancil\",\"county\":\"Faro\",\"ISO3166-2-lvl6\":\"PT-08\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"37.0877337\",\"37.0888194\",\"-7.9751612\",\"-7.9741870\"]}",
+  "fetchedAt": "2026-10-12T16:51:38.893Z"
+}

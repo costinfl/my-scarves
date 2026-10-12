@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.512380&lon=6.811160&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":93935694,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35094111,\"lat\":\"47.5124158\",\"lon\":\"6.8111660\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.651026169218001e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Impasse de la Forge, Peugeot (Sochaux et Exincourt), Montbéliard, Doubs, Bourgogne-Franche-Comté, France métropolitaine, 25200, France\",\"address\":{\"road\":\"Impasse de la Forge\",\"suburb\":\"Peugeot (Sochaux et Exincourt)\",\"town\":\"Montbéliard\",\"municipality\":\"Montbéliard\",\"county\":\"Doubs\",\"ISO3166-2-lvl6\":\"FR-25\",\"state\":\"Bourgogne-Franche-Comté\",\"ISO3166-2-lvl4\":\"FR-BFC\",\"region\":\"France métropolitaine\",\"postcode\":\"25200\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"47.5118947\",\"47.5129368\",\"6.8105871\",\"6.8117449\"]}",
+  "fetchedAt": "2026-10-12T16:48:22.069Z"
+}

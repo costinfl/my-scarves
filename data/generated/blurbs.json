@@ -1,7 +1,102 @@
 {
+  "Q631": {
+    "text": "Football Club Internazionale Milano, widely referred to as Internazionale or simply Inter, and commonly known as Inter Milan in English-speaking countries, is an Italian professional football club based in Milan, Lombardy. Inter is the only team to have an unbroken presence in the top division of Italian football, currently Serie A, since its debut in 1909, having never been relegated to Serie B.",
+    "source": "https://en.wikipedia.org/wiki/Inter_Milan",
+    "status": "draft"
+  },
+  "Q704": {
+    "text": "Olympique Lyonnais, commonly referred to as simply Lyon or OL, is a men's professional football club based in Lyon, Auvergne-Rhône-Alpes, France. With origins dating back to 1899, they were founded in 1950.",
+    "source": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
+    "status": "draft"
+  },
+  "Q1422": {
+    "text": "Juventus Football Club, commonly known as Juventus or colloquially as Juve, is a professional football club based in Turin, Piedmont, Italy. They compete in Serie A, the top tier of Italian football. Founded in 1897 by a group of Turinese students, Juventus is one of Italy's oldest football clubs and has played their home matches at Juventus Stadium since 2011.",
+    "source": "https://en.wikipedia.org/wiki/Juventus_FC",
+    "status": "draft"
+  },
+  "Q1457": {
+    "text": "Unione Calcio Sampdoria, commonly referred to as Sampdoria, is an Italian professional football club based in Genoa, Liguria.",
+    "source": "https://en.wikipedia.org/wiki/UC_Sampdoria",
+    "status": "draft"
+  },
+  "Q1543": {
+    "text": "Associazione Calcio Milan, commonly referred to as AC Milan or simply Milan mainly outside of Italy, is an Italian professional football club based in Milan, Lombardy. Founded in 1899, the club competes in Serie A, the top tier of Italian football. In its early history, Milan played its home games in different grounds around the city before moving to its current stadium, the San Siro, in 1926.",
+    "source": "https://en.wikipedia.org/wiki/AC_Milan",
+    "status": "draft"
+  },
+  "Q1886": {
+    "text": "Atalanta Bergamasca Calcio, commonly referred to as Atalanta, is a professional football club based in Bergamo, Lombardy, Italy, that competes in Serie A, the top tier of the Italian football league system. Founded in 1907, Atalanta holds the record for having played the most Serie A seasons (65) without being based in a regional capital and without having won the league title.",
+    "source": "https://en.wikipedia.org/wiki/Atalanta_BC",
+    "status": "draft"
+  },
+  "Q1893": {
+    "text": "Bologna Football Club 1909, commonly referred to as Bologna, is an Italian professional football club based in Bologna, Emilia-Romagna that plays in Serie A, the top flight of Italian football. The club have won seven top-flight titles, three Coppa Italia titles, and one UEFA Intertoto Cup.",
+    "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+    "status": "draft"
+  },
+  "Q1900": {
+    "text": "Cagliari Calcio, commonly referred to as Cagliari, is a professional Italian football club based in Cagliari, Sardinia, that plays in Serie A, the first tier of Italian football. The club currently plays home matches at the 16,416-seat Unipol Domus.",
+    "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio",
+    "status": "draft"
+  },
+  "Q2037": {
+    "text": "Associazione Calcio ChievoVerona, commonly referred to as ChievoVerona or simply Chievo, is an Italian football club named after and representing Chievo, a suburb of 4,500 inhabitants in Verona, Veneto.",
+    "source": "https://en.wikipedia.org/wiki/AC_ChievoVerona",
+    "status": "draft"
+  },
+  "Q2052": {
+    "text": "Associazione Calcio Firenze Fiorentina, commonly referred to as Fiorentina, is an Italian professional football club based in Florence, Tuscany. The original team was founded by a merger in August 1926, while the current club was refounded in August 2002 following bankruptcy.",
+    "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+    "status": "draft"
+  },
+  "Q2074": {
+    "text": "Genoa Cricket and Football Club is an Italian professional football club based in Genoa, Liguria. The team competes in Serie A, the top division of the Italian football league system.",
+    "source": "https://en.wikipedia.org/wiki/Genoa_CFC",
+    "status": "draft"
+  },
+  "Q2609": {
+    "text": "Società Sportiva Lazio, commonly known as SS Lazio or simply Lazio, is an Italian professional sports club based in Rome, most known for its football activity. Founded in 1900, the club plays in the Serie A and has spent most of its history in the top tier of Italian football. Lazio were Italian champions in 1974 and 2000.",
+    "source": "https://en.wikipedia.org/wiki/SS_Lazio",
+    "status": "draft"
+  },
+  "Q2641": {
+    "text": "Società Sportiva Calcio Napoli, commonly known as SSC Napoli or simply Napoli, is an Italian professional football club based in Naples, Campania, that plays in Serie A, the top league of Italian football. They are among the most successful clubs in the nation, with four league titles, six Coppe Italia, three Supercoppe Italiane, and one UEFA Cup.",
+    "source": "https://en.wikipedia.org/wiki/SSC_Napoli",
+    "status": "draft"
+  },
+  "Q2674": {
+    "text": "Palermo Football Club is an Italian professional football club based in Palermo, Sicily, that currently plays in Serie B, the second division of Italian football. It is part of the City Football Group.",
+    "source": "https://en.wikipedia.org/wiki/Palermo_FC",
+    "status": "draft"
+  },
+  "Q2693": {
+    "text": "Parma Calcio 1913 is an Italian professional football club based in Parma, Emilia-Romagna, which competes in Serie A, the top tier of the Italian football league system.",
+    "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+    "status": "draft"
+  },
   "Q2714": {
     "text": "Watford Football Club is a professional football club based in Watford, Hertfordshire, England. The club competes in the EFL Championship, the second tier of English football. The team played at several grounds in their early history, including what is now West Herts Sports Club, before moving to Vicarage Road in 1922.",
     "source": "https://en.wikipedia.org/wiki/Watford_F.C.",
+    "status": "draft"
+  },
+  "Q2739": {
+    "text": "Associazione Sportiva Roma is a professional football club based in Rome, Italy. Founded by a merger in 1927, Roma has participated in the top tier of Italian football for all of its existence, except for the 1951–52 season. Roma has won Serie A three times, in 1941–42, 1982–83 and 2000–01, as well as nine Coppa Italia titles and two Supercoppa Italiana titles.",
+    "source": "https://en.wikipedia.org/wiki/AS_Roma",
+    "status": "draft"
+  },
+  "Q2768": {
+    "text": "Torino Football Club, colloquially referred to as Toro, is a professional football club based in Turin, Piedmont, Italy, that plays in Serie A, the top tier of the Italian football league system. Founded in 1906 as Foot-Ball Club Torino, they are historically among the most successful clubs in the nation with seven league titles, many of which coming from the Grande Torino era in the 1940s.",
+    "source": "https://en.wikipedia.org/wiki/Torino_FC",
+    "status": "draft"
+  },
+  "Q2798": {
+    "text": "Udinese Calcio is a professional football club based in Udine, Friuli-Venezia Giulia, Italy. The team currently competes in Serie A, the first tier of Italian football. It was founded on 30 November 1896 as a sports club, and on 5 July 1911 as a football club.",
+    "source": "https://en.wikipedia.org/wiki/Udinese_Calcio",
+    "status": "draft"
+  },
+  "Q4512": {
+    "text": "Verein für Bewegungsspiele Stuttgart 1893 e. V., commonly known as VfB Stuttgart, is a German professional sports club based in Stuttgart, Baden-Württemberg. The club's football team is currently part of Germany's first division, the Bundesliga.",
+    "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
     "status": "draft"
   },
   "Q5794": {
@@ -9,9 +104,69 @@
     "source": "https://en.wikipedia.org/wiki/Everton_F.C.",
     "status": "draft"
   },
+  "Q6463": {
+    "text": "Fußball-Club St. Pauli von 1910 e.V., commonly known as simply St. Pauli, is a German professional football club based in the St. Pauli district of Hamburg.",
+    "source": "https://en.wikipedia.org/wiki/FC_St._Pauli",
+    "status": "draft"
+  },
+  "Q6630": {
+    "text": "Ascoli Calcio 1898 FC, commonly referred to as Ascoli, is an Italian football club based in Ascoli Piceno, Marche. The club was formed in 1898 and currently plays in Serie B.",
+    "source": "https://en.wikipedia.org/wiki/Ascoli_Calcio_1898_FC",
+    "status": "draft"
+  },
+  "Q6641": {
+    "text": "Società Sportiva Calcio Bari, commonly referred to as SSC Bari and simply Bari, is an Italian football club based in Bari, Apulia. Bari currently plays in the Serie C Group C.",
+    "source": "https://en.wikipedia.org/wiki/SSC_Bari",
+    "status": "draft"
+  },
+  "Q6673": {
+    "text": "Associazione Sportiva Cittadella, commonly referred to as Cittadella, is an Italian professional football club based in the city of Cittadella, Veneto, currently playing in Serie C Group A, following relegation in the 2024–25 season.",
+    "source": "https://en.wikipedia.org/wiki/AS_Cittadella",
+    "status": "draft"
+  },
+  "Q6703": {
+    "text": "Empoli Football Club is an Italian professional football club based in Empoli, Tuscany. Founded in 1920, the side is part of a select group of Italian football clubs not based in a provincial capital city that have participated in Serie A.",
+    "source": "https://en.wikipedia.org/wiki/Empoli_FC",
+    "status": "draft"
+  },
+  "Q6748": {
+    "text": "Società Sportiva Juve Stabia is a professional football club based in Castellammare di Stabia, Campania, Italy. The team plays in Serie B, the second tier of Italian football, following promotion from Serie C in the 2023–24 season.",
+    "source": "https://en.wikipedia.org/wiki/SS_Juve_Stabia",
+    "status": "draft"
+  },
   "Q7156": {
     "text": "Futbol Club Barcelona, commonly known as FC Barcelona and colloquially as Barça, is a professional football club based in Barcelona, Catalonia, Spain, that competes in La Liga, the top division of Spanish football.",
     "source": "https://en.wikipedia.org/wiki/FC_Barcelona",
+    "status": "draft"
+  },
+  "Q8408": {
+    "text": "Modena Football Club 2018, commonly referred to as Modena, is an Italian football club based in Modena, Emilia-Romagna. The club was founded in 1912, and refounded in 2018, having spent the majority of its existence playing in Serie B. They play in Serie B, having won 2021–22 Serie C's Group B title.",
+    "source": "https://en.wikipedia.org/wiki/Modena_FC_2018",
+    "status": "draft"
+  },
+  "Q8466": {
+    "text": "1. Fußball-Club Kaiserslautern e. V., also known as 1. FCK, FCK, FC Kaiserslautern, K'lautern or colloquially Lautern, is a German sports club based in Kaiserslautern, Rhineland-Palatinate. In addition to football, the club also operates in several other sports.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern",
+    "status": "draft"
+  },
+  "Q8476": {
+    "text": "Associazione Sportiva Reggina 1914, commonly referred to as Reggina, is an Italian football club based in Reggio Calabria. They play their home matches at the 27,763-seater Stadio Oreste Granillo and are currently playing in the Serie D.",
+    "source": "https://en.wikipedia.org/wiki/AS_Reggina_1914",
+    "status": "draft"
+  },
+  "Q8603": {
+    "text": "Unione Sportiva Sassuolo Calcio, commonly known as Sassuolo, is a professional football club based in Sassuolo, Emilia-Romagna, Italy. The team's colours are black and green, which have earned them the nickname Neroverdi. Sassuolo competes in Serie A, the highest division in the Italian football league system.",
+    "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
+    "status": "draft"
+  },
+  "Q8623": {
+    "text": "Ternana Calcio, commonly referred to as Ternana, is an Italian football club based in Terni, Umbria. They were founded in 1925 and were refounded in 2026, competed in Serie C, and won Serie B in the 1971-72 season.",
+    "source": "https://en.wikipedia.org/wiki/Nuova_Ternana_1925",
+    "status": "draft"
+  },
+  "Q8639": {
+    "text": "Hellas Verona Football Club, commonly referred to as simply Hellas Verona, is an Italian professional football club based in Verona, Veneto. The club will compete in Serie B, following relegation from Serie A.",
+    "source": "https://en.wikipedia.org/wiki/Hellas_Verona_FC",
     "status": "draft"
   },
   "Q8682": {
@@ -139,9 +294,19 @@
     "source": "https://en.wikipedia.org/wiki/Elche_CF",
     "status": "draft"
   },
+  "Q11938": {
+    "text": "Philips Sport Vereniging, abbreviated as PSV and internationally known as PSV Eindhoven, is a Dutch sports club from Eindhoven, Netherlands. It is best known for its professional football department, which has played in the Eredivisie, the top tier in Dutch football, since its inception in 1956. Along with Ajax and Feyenoord, PSV is one of the country's \"big three\" clubs that have dominated the Eredivisie.",
+    "source": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
+    "status": "draft"
+  },
   "Q11945": {
     "text": "Girona Futbol Club, S.A.D. is a Spanish professional football club based in Girona, Catalonia, Spain. Founded on 23 July 1930, the team plays in the Segunda División, following relegation from the 2025–26 La Liga season.",
     "source": "https://en.wikipedia.org/wiki/Girona_FC",
+    "status": "draft"
+  },
+  "Q11961": {
+    "text": "Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903. They play in the Eerste Divisie, the second tier of Dutch football, following relegation from the Eredivisie in the 2025–26 season. The club has won the Dutch national title twice, in 1927 and 1941.",
+    "source": "https://en.wikipedia.org/wiki/Heracles_Almelo",
     "status": "draft"
   },
   "Q11979": {
@@ -167,6 +332,31 @@
   "Q12297": {
     "text": "Villarreal Club de Fútbol, S.A.D., usually abbreviated to Villarreal CF, is a Spanish professional football club based in Villarreal, in the Castellón province of eastern Spain, that plays in La Liga, the top flight of Spanish football.",
     "source": "https://en.wikipedia.org/wiki/Villarreal_CF",
+    "status": "draft"
+  },
+  "Q13391": {
+    "text": "Unione Sportiva Lecce is a professional Italian football club based in Lecce, Apulia. The club plays in Serie A for the 2026-27, the top level of the Italian football pyramid. Lecce plays its home games at Stadio Via del Mare, which has a capacity of 31,533 spectators.",
+    "source": "https://en.wikipedia.org/wiki/US_Lecce",
+    "status": "draft"
+  },
+  "Q15755": {
+    "text": "Fußball-Club Augsburg 1907 e. V., commonly known as FC Augsburg, is a German professional football club based in Augsburg, Bavaria. FC Augsburg play in the Bundesliga, the top tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/FC_Augsburg",
+    "status": "draft"
+  },
+  "Q15786": {
+    "text": "1. Fußball-Club Nürnberg Verein für Leibesübungen e. V., often called 1. FC Nürnberg, is a German sports club based in Nuremberg, Bavaria. It is best known for its men's football team, who currently compete in the 2.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg",
+    "status": "draft"
+  },
+  "Q15789": {
+    "text": "Fußball-Club Bayern München e. V., commonly known as Bayern Munich, FC Bayern or simply Bayern, is a professional sports club based in Munich, Germany. They are most known for their men's professional football team, who play in the Bundesliga, the top tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+    "status": "draft"
+  },
+  "Q16344": {
+    "text": "Associazione Calcistica Perugia Calcio, or simply Perugia, is a professional football club based in Perugia, Umbria, Italy, that competes in the Serie C Group B, the third division of Italian football.",
+    "source": "https://en.wikipedia.org/wiki/AC_Perugia_Calcio",
     "status": "draft"
   },
   "Q18519": {
@@ -319,6 +509,41 @@
     "source": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
     "status": "draft"
   },
+  "Q19509": {
+    "text": "Stade Rennais Football Club, commonly referred to as Stade Rennais or simply Rennes, is a French professional football club based in Rennes, Brittany. It competes in Ligue 1, the top tier of French football, and plays its home matches at the Roazhon Park. The team's president is Olivier Cloarec, and its owner is Artémis, the holding company of businessman François Pinault.",
+    "source": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
+    "status": "draft"
+  },
+  "Q19512": {
+    "text": "Football Club Sochaux-Montbéliard is a French association football club based in the commune of Montbéliard. The club was founded in 1928 and will compete in Ligue 2, the second tier of French football, for the upcoming 2026–27 season after having been promoted from the Championnat National at the end of the 2025–26 season. Sochaux plays its home matches at the Stade Auguste Bonal, located within Montbéliard.",
+    "source": "https://en.wikipedia.org/wiki/FC_Sochaux-Montb%C3%A9liard",
+    "status": "draft"
+  },
+  "Q19513": {
+    "text": "Montpellier Hérault Sport Club, commonly referred to as Montpellier HSC, is a French professional football club based in Montpellier, Occitanie, France. The club's origins date back to 1919, but it was officially founded in 1974 through a merger of both Stade Olympique Montpelliérain and AS Paillade.",
+    "source": "https://en.wikipedia.org/wiki/Montpellier_HSC",
+    "status": "draft"
+  },
+  "Q19516": {
+    "text": "Lille Olympique Sporting Club, commonly referred to as LOSC, LOSC Lille or simply Lille, is a professional football club based in Lille, Northern France competing in Ligue 1, the top division of French football. Lille have played their home matches since 2012 at the Stade Pierre-Mauroy. The 50,186-capacity retractable roof venue is the fourth-largest stadium in France.",
+    "source": "https://en.wikipedia.org/wiki/Lille_OSC",
+    "status": "draft"
+  },
+  "Q19518": {
+    "text": "Toulouse Football Club is a French professional football club based in Toulouse. The club was founded in 1970 and currently plays in Ligue 1, the first division of French football. Toulouse plays its home matches at the Stadium de Toulouse located within the city.",
+    "source": "https://en.wikipedia.org/wiki/Toulouse_FC",
+    "status": "draft"
+  },
+  "Q19521": {
+    "text": "Association Sportive de Saint-Étienne Loire, abbreviated as A.S.S.E. and commonly known as Saint-Étienne, is a French professional football club based in Saint-Étienne, Auvergne-Rhône-Alpes. The club was founded in 1933 and competes in Ligue 2, the second division of French football. Saint-Étienne's home ground is the Stade Geoffroy-Guichard.",
+    "source": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne",
+    "status": "draft"
+  },
+  "Q19523": {
+    "text": "Association Sportive Nancy Lorraine, known as AS Nancy Lorraine, and more commonly as Nancy or ASNL, is a French football club founded in 1967 and based in Nancy, Grand Est. The club plays its home matches at the Stade Marcel Picot located in Tomblaine in the inner suburbs of Nancy, where its head office is also located.",
+    "source": "https://en.wikipedia.org/wiki/AS_Nancy_Lorraine",
+    "status": "draft"
+  },
   "Q19568": {
     "text": "AFC Bournemouth is a professional football club based in Kings Park, Boscombe, a suburb of Bournemouth, Dorset, England. The club competes in the Premier League, the top tier of English football. Formed in 1899 as Boscombe, the club adopted their current name in 1971.",
     "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
@@ -332,6 +557,11 @@
   "Q19580": {
     "text": "Coventry City Football Club is a professional football club based in Coventry, West Midlands, England. The club competes in the Premier League, the top tier of English football. The club is nicknamed the Sky Blues after the sky blue colours that have featured prominently throughout their history, which they have worn continuously since 1962.",
     "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
+    "status": "draft"
+  },
+  "Q19603": {
+    "text": "Football Club Twente, sometimes known internationally as Twente Enschede, or simply Twente, is a Dutch professional football club from Enschede. The club was formed in 1965 by the merger of Enschedese Boys with Sportclub Enschede, the 1926 Dutch champions. Twente have won the Eredivisie once, the KNVB Cup three times, and the Johan Cruyff Shield twice.",
+    "source": "https://en.wikipedia.org/wiki/FC_Twente",
     "status": "draft"
   },
   "Q19604": {
@@ -349,14 +579,279 @@
     "source": "https://en.wikipedia.org/wiki/Preston_North_End_F.C.",
     "status": "draft"
   },
+  "Q22707": {
+    "text": "Turn- und Sportgemeinschaft 1899 Hoffenheim e.V., commonly known as TSG Hoffenheim, are a German professional football club based in Sinsheim.",
+    "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+    "status": "draft"
+  },
+  "Q24680": {
+    "text": "Football Club Utrecht is a Dutch professional football club based in Utrecht. The club competes in the Eredivisie, the top tier of Dutch football, and plays its home matches at the Stadion Galgenwaard.",
+    "source": "https://en.wikipedia.org/wiki/FC_Utrecht",
+    "status": "draft"
+  },
+  "Q24689": {
+    "text": "Venlose Voetbal Vereniging, commonly known as VVV-Venlo or simply as VVV, is a Dutch professional football club based in Venlo, Limburg. Founded in 1903, the club competes in the Eerste Divisie, the second tier of the Dutch football league system. VVV-Venlo have played multiple seasons in the top-flight Eredivisie, most recently between 2017 and 2021, and are among the oldest active football clubs in the Netherlands.",
+    "source": "https://en.wikipedia.org/wiki/VVV-Venlo",
+    "status": "draft"
+  },
+  "Q24699": {
+    "text": "RKC Waalwijk is a Dutch professional football club based in Waalwijk, North Brabant. The club competes in the Eerste Divisie, the second tier of the Dutch football league system. Its name is an abbreviation of Rooms Katholieke Combinatie, reflecting its origins as a merger of three local Catholic clubs in 1940.",
+    "source": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
+    "status": "draft"
+  },
+  "Q24711": {
+    "text": "Football Club Groningen is a Dutch professional association football club based in Groningen. Founded in 1971 as the successor of GVAV, Groningen compete in the Eredivisie, the first tier of Dutch football.",
+    "source": "https://en.wikipedia.org/wiki/FC_Groningen",
+    "status": "draft"
+  },
+  "Q24719": {
+    "text": "Sportvereniging Roda Juliana Combinatie Kerkrade, shortly as Roda JC Kerkrade or commonly Roda JC or simply Roda, is a Dutch professional football club based in Kerkrade, Netherlands. Roda JC Kerkrade plays in the Eerste Divisie. The club was founded by a merger between Rapid JC and Roda Sport in 1962.",
+    "source": "https://en.wikipedia.org/wiki/Roda_JC_Kerkrade",
+    "status": "draft"
+  },
+  "Q24904": {
+    "text": "Alles Door Oefening Den Haag, commonly known by the abbreviated name ADO Den Haag, is a Dutch association football club from the city of The Hague. They play in the Eredivisie, the top tier of Dutch football, following promotion from the Eerste Divisie in the 2025–26 season. The club was for a time known as FC Den Haag, with ADO representing the amateur branch of the club.",
+    "source": "https://en.wikipedia.org/wiki/ADO_Den_Haag",
+    "status": "draft"
+  },
+  "Q32494": {
+    "text": "Fußballclub Gelsenkirchen-Schalke 04 e. V., commonly known as Schalke 04 and abbreviated as S04, is a professional sports club from the Schalke district of Gelsenkirchen, North Rhine-Westphalia. It is best known for its football team, which plays in the Bundesliga, the top flight of the German football league system, following promotion from the 2.",
+    "source": "https://en.wikipedia.org/wiki/FC_Schalke_04",
+    "status": "draft"
+  },
+  "Q33748": {
+    "text": "Hannoverscher Sportverein von 1896, commonly referred to as Hannover 96, is a German professional sports club based in Hanover, the capital of Lower Saxony. Its senior men's football team competes in the 2. Bundesliga, the second tier of German football, after spending 30 seasons in the top-flight Bundesliga between 1964 and 2019.",
+    "source": "https://en.wikipedia.org/wiki/Hannover_96",
+    "status": "draft"
+  },
+  "Q38245": {
+    "text": "Eintracht Frankfurt e.V. is a German professional sports club based in Frankfurt, Hesse. It is best known for its football club, which was founded on 8 March 1899. The club currently plays in the Bundesliga, the top tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+    "status": "draft"
+  },
+  "Q41420": {
+    "text": "Ballspielverein Borussia 09 e. V. Dortmund, often known simply as Borussia Dortmund or by its initialism BVB, or just Dortmund by international fans, is a German professional sports club based in Dortmund, North Rhine-Westphalia. It is best known for its men's professional football team, which plays in the Bundesliga, the top tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+    "status": "draft"
+  },
+  "Q48911": {
+    "text": "Football Club Lorient, commonly referred to as FC Lorient, is a French professional association football club based in Lorient, Brittany. The club was founded in 1926 and currently competes in Ligue 1, having been promoted from Ligue 2 at the end of the 2024–25 season. Lorient plays its home matches at the Stade Yves Allainmat, named after the former mayor of Lorient.",
+    "source": "https://en.wikipedia.org/wiki/FC_Lorient",
+    "status": "draft"
+  },
   "Q50602": {
     "text": "Manchester City Football Club, commonly referred to as Man City or simply City, is a professional football club based in Manchester, England, that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's, they became Ardwick Association Football Club in 1887 and Manchester City in 1894.",
     "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
     "status": "draft"
   },
+  "Q51974": {
+    "text": "Hamburger Sport-Verein e.V., commonly known as Hamburger SV or Hamburg, or HSV, is a German sports club based in Hamburg, with its largest branch being its football department, which plays in the Bundesliga, the top tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/Hamburger_SV",
+    "status": "draft"
+  },
+  "Q51976": {
+    "text": "Sportverein Werder Bremen von 1899 e. V., commonly known as Werder Bremen, Werder or simply Bremen, is a German professional sports club based in Bremen. Founded on 4 February 1899, Werder are best known for their professional association football team, who compete in the Bundesliga, the first tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+    "status": "draft"
+  },
+  "Q75684": {
+    "text": "Sporting Clube de Braga, commonly known as Sporting Braga, or simply Braga, is a Portuguese sports club from the city of Braga.",
+    "source": "https://en.wikipedia.org/wiki/S.C._Braga",
+    "status": "draft"
+  },
+  "Q75729": {
+    "text": "Sporting Clube de Portugal, otherwise referred to as Sporting CP, is a Portuguese sports club based in Lisbon. Having various sports departments and sporting disciplines, it is best known for its men's professional football team playing in the Primeira Liga, the top flight of Portuguese football.",
+    "source": "https://en.wikipedia.org/wiki/Sporting_CP",
+    "status": "draft"
+  },
+  "Q81888": {
+    "text": "Amsterdamsche Football Club Ajax, also known as AFC Ajax, Ajax Amsterdam, or simply Ajax, is a Dutch professional football club based in Amsterdam, that plays in the Eredivisie, the top tier in Dutch football. Historically, Ajax is the most successful club in the Netherlands, with 36 Eredivisie titles and 20 KNVB Cups, both records.",
+    "source": "https://en.wikipedia.org/wiki/AFC_Ajax",
+    "status": "draft"
+  },
+  "Q101859": {
+    "text": "Verein für Leibesübungen Wolfsburg e. V., commonly known as VfL Wolfsburg, is a German professional sports club based in Wolfsburg, Lower Saxony. The club grew out of a multi-sports club for Volkswagen workers in the city of Wolfsburg.",
+    "source": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
+    "status": "draft"
+  },
+  "Q101959": {
+    "text": "Borussia Verein für Leibesübungen 1900 e.V. Mönchengladbach, better known as Borussia Mönchengladbach and colloquially known as just Gladbach, is a professional football club based in Mönchengladbach, North Rhine-Westphalia, Germany. The club plays in the Bundesliga, the top flight of German football.",
+    "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+    "status": "draft"
+  },
+  "Q102720": {
+    "text": "Hertha, Berliner Sport-Club e. V., commonly known as Hertha BSC or Hertha Berlin, is a German professional football club based in Berlin. Hertha BSC plays in the 2.",
+    "source": "https://en.wikipedia.org/wiki/Hertha_BSC",
+    "status": "draft"
+  },
+  "Q104761": {
+    "text": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.",
+    "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+    "status": "draft"
+  },
+  "Q104770": {
+    "text": "1. Fußball-Club Köln 01/07 e. V., better known as simply 1. FC Köln or FC Cologne in English, is a German professional football club based in Cologne, North Rhine-Westphalia.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+    "status": "draft"
+  },
+  "Q105254": {
+    "text": "1. Fußball- und Sport-Verein Mainz 05 e. V., usually shortened to 1. FSV Mainz 05 or simply Mainz 05, is a German professional sports club, founded in 1905 and based in Mainz, Rhineland-Palatinate.",
+    "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+    "status": "draft"
+  },
+  "Q105844": {
+    "text": "Deutscher Sportclub Arminia Bielefeld e. V., or just Arminia, is a German sports club from Bielefeld, North Rhine-Westphalia. Arminia is best known as a professional football club, having competed in the first-tier Bundesliga for a total of 19 seasons.",
+    "source": "https://en.wikipedia.org/wiki/Arminia_Bielefeld",
+    "status": "draft"
+  },
+  "Q105853": {
+    "text": "Karlsruher Sport-Club Mühlburg-Phönix e. V., better known as Karlsruher SC, is a German association football club, based in Karlsruhe, Baden-Württemberg that currently plays in the 2. Bundesliga, the second tier of German football.",
+    "source": "https://en.wikipedia.org/wiki/Karlsruher_SC",
+    "status": "draft"
+  },
+  "Q105861": {
+    "text": "Verein für Leibesübungen Bochum 1848 Fußballgemeinschaft, commonly referred to as VfL Bochum, is a German professional association football club based in the city of Bochum, North Rhine-Westphalia. They currently play in the 2. Bundesliga following relegation from the Bundesliga in the previous season.",
+    "source": "https://en.wikipedia.org/wiki/VfL_Bochum",
+    "status": "draft"
+  },
+  "Q106394": {
+    "text": "Sport-Club Freiburg e.V., commonly known as SC Freiburg, is a German professional football club, based in the city of Freiburg im Breisgau, Baden-Württemberg. It plays in the Bundesliga, having been promoted as champions from the 2. Bundesliga in 2016.",
+    "source": "https://en.wikipedia.org/wiki/SC_Freiburg",
+    "status": "draft"
+  },
+  "Q107818": {
+    "text": "Fußballclub Energie Cottbus e. V. is a German football club based in Cottbus, Brandenburg. It was founded in 1963 as SC Cottbus in what was East Germany.",
+    "source": "https://en.wikipedia.org/wiki/FC_Energie_Cottbus",
+    "status": "draft"
+  },
+  "Q126334": {
+    "text": "Racing Club de Strasbourg Alsace, commonly known as RC Strasbourg or simply just Racing, is a French professional association football club founded in 1906 and based in the city of Strasbourg, Alsace. It became a professional club in 1933, and is currently playing in Ligue 1, the top tier of French football, having won the 2016–17 Ligue 2 championship.",
+    "source": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
+    "status": "draft"
+  },
+  "Q128446": {
+    "text": "Futebol Clube do Porto, MHIH, OM, commonly known as FC Porto, or simply Porto, is a Portuguese professional sports club based in Porto. It is best known for the professional football team playing in the Primeira Liga, the top flight of Portuguese football.",
+    "source": "https://en.wikipedia.org/wiki/FC_Porto",
+    "status": "draft"
+  },
+  "Q131499": {
+    "text": "Sport Lisboa e Benfica, commonly known as Benfica, is a professional football club based in Lisbon, Portugal, that competes in the Primeira Liga, the top flight of Portuguese football.",
+    "source": "https://en.wikipedia.org/wiki/S.L._Benfica",
+    "status": "draft"
+  },
+  "Q132885": {
+    "text": "Olympique de Marseille, also known simply as Marseille, or by the abbreviation OM, is a French professional football club based in Marseille which competes in Ligue 1, the top flight of French football. Marseille play their home matches at the Stade Vélodrome. OM is one of the most popular football clubs in the country, having regularly averaged the highest attendance in French football.",
+    "source": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
+    "status": "draft"
+  },
+  "Q134241": {
+    "text": "Feyenoord Rotterdam is a Dutch professional football club based in Rotterdam, which plays in the Eredivisie, the top tier in Dutch football. Founded as Wilhelmina in 1908, the club changed to various names before settling on being called after its neighbourhood in 1912 as SC Feijenoord, updated in 1974 to SC Feyenoord, and then to Feyenoord in 1978, when it split from the amateur club under its wing, SC Feyenoord.",
+    "source": "https://en.wikipedia.org/wiki/Feyenoord",
+    "status": "draft"
+  },
+  "Q141931": {
+    "text": "Sportgemeinschaft Dynamo Dresden e.V., commonly known as SG Dynamo Dresden or Dynamo Dresden, is a German association football club based in Dresden, Saxony. They were founded on 12 April 1953 as a club affiliated with the East German police and became one of the most popular and successful clubs in East German football, winning eight league titles.",
+    "source": "https://en.wikipedia.org/wiki/Dynamo_Dresden",
+    "status": "draft"
+  },
+  "Q141971": {
+    "text": "1. Fußballclub Union Berlin e. V., commonly known as Union Berlin, is a professional German football club based in Berlin.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+    "status": "draft"
+  },
+  "Q153539": {
+    "text": "Spielvereinigung Greuther Fürth, commonly known as Greuther Fürth or by their historical name, SpVgg Fürth, is a German football club based in Fürth, Bavaria. They play in the 2. Bundesliga, the second tier of the German football league system, following relegation from the Bundesliga in the 2021–22 season.",
+    "source": "https://en.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth",
+    "status": "draft"
+  },
+  "Q154053": {
+    "text": "Braunschweiger Turn- und Sportverein Eintracht von 1895 e.V., commonly known as Eintracht Braunschweig or BTSV, is a German football and sports club based in Braunschweig, Lower Saxony. They compete in the 2. Bundesliga, the second tier of the German football pyramid, and have played home games at the 24,406-capacity Eintracht-Stadion since 1923.",
+    "source": "https://en.wikipedia.org/wiki/Eintracht_Braunschweig",
+    "status": "draft"
+  },
+  "Q154293": {
+    "text": "Meidericher Spielverein 02 e. V. Duisburg, commonly known as simply MSV Duisburg, is a German association football club based in Duisburg, North Rhine-Westphalia. Nicknamed Die Zebras for their traditional striped jerseys, the club was one of the original members of the Bundesliga when it was formed in 1963.",
+    "source": "https://en.wikipedia.org/wiki/MSV_Duisburg",
+    "status": "draft"
+  },
+  "Q155730": {
+    "text": "1. FC Magdeburg is a German association football club based in Magdeburg. The club was founded in 1965 from the football department of the sports club SC Magdeburg and was one of the top teams in the East German Oberliga, winning three championships and seven cup titles.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Magdeburg",
+    "status": "draft"
+  },
+  "Q157352": {
+    "text": "Fußballsportverein Frankfurt 1899 e.V., commonly known as simply FSV Frankfurt and known as simply Frankfurt, is a German association football club based in the Bornheim district of Frankfurt am Main, Hessen and founded in 1899. FSV Frankfurt formerly fielded a rather successful women's team, which was disbanded in 2006.",
+    "source": "https://en.wikipedia.org/wiki/FSV_Frankfurt",
+    "status": "draft"
+  },
+  "Q157828": {
+    "text": "Kieler Sportvereinigung Holstein von 1900 e.V., commonly known as Holstein Kiel or KSV Holstein, is a German association football and sports club based in the city of Kiel, Schleswig-Holstein. From the 1900s through the 1960s, the club was one of the most dominant sides in northern Germany. Some notable honors from that period include the German football championship in 1912, and being vice-champions 1910 and 1930.",
+    "source": "https://en.wikipedia.org/wiki/Holstein_Kiel",
+    "status": "draft"
+  },
+  "Q160530": {
+    "text": "VfL Osnabrück is a German multi-sport club in Osnabrück, Lower Saxony. It currently fields teams in gymnastics, swimming, table tennis, and tennis but is by far best known for its football section.",
+    "source": "https://en.wikipedia.org/wiki/VfL_Osnabr%C3%BCck",
+    "status": "draft"
+  },
+  "Q160532": {
+    "text": "Sport-Club Paderborn 07 e.V., commonly known as simply SC Paderborn 07 or SC Paderborn, is a German association football club based in Paderborn, North Rhine-Westphalia. The club currently plays in the Bundesliga in the 2026–27 season.",
+    "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07",
+    "status": "draft"
+  },
+  "Q162251": {
+    "text": "1. FC Heidenheim 1846 is a German professional association football club from the town of Heidenheim, Baden-Württemberg. The club currently plays in the 2. Bundesliga, the second tier of the German football league system.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Heidenheim",
+    "status": "draft"
+  },
+  "Q170117": {
+    "text": "Fußballclub Ingolstadt 04 e. V., commonly known as FC Ingolstadt 04 or FC Ingolstadt, is a German football club based in Ingolstadt, Bavaria. The club was founded in 2004 out of the merger of the football sides of two other clubs: ESV Ingolstadt-Ringsee 1919 and MTV Ingolstadt 1881.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ingolstadt_04",
+    "status": "draft"
+  },
+  "Q176099": {
+    "text": "Centro Desportivo de Fátima, simply known as Fátima, is a Portuguese football club based in Fátima, in the municipality of Ourém. Founded in 1966, it holds home matches at Estádio Papa Francisco, with a capacity of 1,545 spectators.",
+    "source": "https://en.wikipedia.org/wiki/C.D._F%C3%A1tima",
+    "status": "draft"
+  },
   "Q179658": {
     "text": "Fotbal Club FCSB, sometimes still referred to as the former name FC Steaua București, is a Romanian professional football club based in Bucharest. It has spent its entire history in the Liga I, the top flight of the Romanian football league system.",
     "source": "https://en.wikipedia.org/wiki/FCSB",
+    "status": "draft"
+  },
+  "Q180305": {
+    "text": "Association Sportive de Monaco Football Club, commonly referred to as AS Monaco, is a professional football club based in Fontvieille, Monaco. Although not in France, due to the small size of Monaco, they are a member of the French Football Federation (FFF) and currently compete in Ligue 1, the top tier of French football. Founded in 1918, the team play their home matches at the Stade Louis II.",
+    "source": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
+    "status": "draft"
+  },
+  "Q182876": {
+    "text": "Association de la Jeunesse Auxerroise, commonly known as AJ Auxerre or by the abbreviation AJA, is a professional football club based in Auxerre, Bourgogne-Franche-Comté, France. The club currently competes in Ligue 1, the top division of French football. Auxerre plays its home matches at the Stade de l'Abbé-Deschamps, on the banks of the Yonne River.",
+    "source": "https://en.wikipedia.org/wiki/AJ_Auxerre",
+    "status": "draft"
+  },
+  "Q185163": {
+    "text": "Olympique Gymnaste Club de Nice, commonly referred to as OGC Nice or simply Nice, is a French professional football club based in Nice. The club was founded in 1904 and currently plays in Ligue 1, the top tier of French football. Nice plays its home matches at the Allianz Riviera.",
+    "source": "https://en.wikipedia.org/wiki/OGC_Nice",
+    "status": "draft"
+  },
+  "Q191264": {
+    "text": "Alkmaar Zaanstreek, better known internationally as AZ Alkmaar, or simply and most commonly as AZ in the Netherlands, is a Dutch professional football club from Alkmaar and the Zaan district. The club plays in the Eredivisie, the top tier in Dutch football.",
+    "source": "https://en.wikipedia.org/wiki/AZ_Alkmaar",
+    "status": "draft"
+  },
+  "Q191843": {
+    "text": "Racing Club de Lens, commonly referred to as RC Lens or simply as Lens, is a French professional football club based in the northern city of Lens in the department of Pas-de-Calais. The club's nickname, Les Sang et Or, comes from its traditional colours of red and gold. As of the 2026–27 season, Lens competes in Ligue 1, the highest tier of French football.",
+    "source": "https://en.wikipedia.org/wiki/RC_Lens",
+    "status": "draft"
+  },
+  "Q192071": {
+    "text": "Football Club de Nantes, commonly referred to as FC Nantes or simply Nantes, is a French professional football club based in Nantes in Pays de la Loire. The club was founded on 21 April 1943, during World War II, through a merger of five smaller local clubs based in the city. From 1992 to 2007, the club was referred to as FC Nantes Atlantique before reverting to its current name at the start of the 2007–08 season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Nantes",
+    "status": "draft"
+  },
+  "Q200321": {
+    "text": "Sportclub Heerenveen is a Dutch professional football club from Heerenveen. They currently play in the Eredivisie, the top level of football in the Netherlands. The club is known for its Frisian identity.",
+    "source": "https://en.wikipedia.org/wiki/SC_Heerenveen",
     "status": "draft"
   },
   "Q204237": {
@@ -369,9 +864,69 @@
     "source": "https://en.wikipedia.org/wiki/CFR_Cluj",
     "status": "draft"
   },
+  "Q208228": {
+    "text": "Stade de Reims is a French professional football club based in Reims. The club was formed in 1931 and plays in Ligue 2, the second tier of football in France. Reims plays home matches at the Stade Auguste Delaune.",
+    "source": "https://en.wikipedia.org/wiki/Stade_de_Reims",
+    "status": "draft"
+  },
+  "Q208399": {
+    "text": "Sporting Club Bastia is a French professional football club based in Bastia on the island of Corsica. The club plays in Ligue 3, the third tier of French football, having won the 2020–21 Championnat National. The club plays its home matches at the Stade Armand Cesari located within the city.",
+    "source": "https://en.wikipedia.org/wiki/SC_Bastia",
+    "status": "draft"
+  },
+  "Q209509": {
+    "text": "Grenoble Foot 38, commonly referred to as simply Grenoble or GF38, is a French association football club based in Grenoble. The club plays its home matches at the Stade des Alpes, a sports complex based in the heart of the city, and wears white and blue.",
+    "source": "https://en.wikipedia.org/wiki/Grenoble_Foot_38",
+    "status": "draft"
+  },
+  "Q209895": {
+    "text": "Sparta Rotterdam is a Dutch professional football club based in Rotterdam. Established on 1 April 1888, Sparta Rotterdam is the oldest professional football team in the Netherlands.",
+    "source": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
+    "status": "draft"
+  },
+  "Q210864": {
+    "text": "Le Mans Football Club is a French professional football club based in Le Mans. The club competes in Ligue 1, the first tier of French football, following successive promotions from Championnat National in 2024–25 and Ligue 2 in 2025–26.",
+    "source": "https://en.wikipedia.org/wiki/Le_Mans_FC",
+    "status": "draft"
+  },
+  "Q211401": {
+    "text": "União Desportiva de Leiria, commonly known as União de Leiria, is a Portuguese professional football club based in Leiria. Founded on 6 June 1966, it currently plays in the Liga Portugal 2, holding home matches at Estádio Dr. Magalhães Pessoa, with a 23,888-seat capacity.",
+    "source": "https://en.wikipedia.org/wiki/U.D._Leiria",
+    "status": "draft"
+  },
+  "Q212269": {
+    "text": "Valenciennes Football Club is a French professional football club based in Valenciennes. The club was founded in 1914 and currently play in Ligue 3, the third tier of French football. Valenciennes plays its home matches at the recently built Stade du Hainaut located within the city.",
+    "source": "https://en.wikipedia.org/wiki/Valenciennes_FC",
+    "status": "draft"
+  },
+  "Q216459": {
+    "text": "Clube Desportivo Nacional, commonly known as Nacional da Madeira and sometimes just Nacional, is a Portuguese football club based in Funchal, on the island of Madeira.",
+    "source": "https://en.wikipedia.org/wiki/C.D._Nacional",
+    "status": "draft"
+  },
+  "Q216503": {
+    "text": "Club Sport Marítimo MH M, commonly known as Marítimo or Marítimo da Madeira, is a Portuguese professional sports club based in the city of Funchal, on the island of Madeira. Established in 1910, Marítimo is best known for its football team currently playing in the first tier Primeira Liga. The club's female team also feature in the top-tier Campeonato Nacional Feminino.",
+    "source": "https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo",
+    "status": "draft"
+  },
+  "Q216510": {
+    "text": "Clube de Futebol Os Belenenses, commonly known as Os Belenenses or simply Belenenses, is a Portuguese sports club best known for its football team, which currently competes in Liga 3, the third tier of the Portuguese football league system. Founded in 1919, it is one of the oldest Portuguese sports clubs.",
+    "source": "https://en.wikipedia.org/wiki/C.F._Os_Belenenses",
+    "status": "draft"
+  },
   "Q216661": {
     "text": "Club Deportivo Tenerife, S.A.D. is a Spanish football club based in Santa Cruz de Tenerife, Tenerife, in the Canary Islands. Founded in 1922, the club plays in the Segunda División, holding home matches at the Estadio Heliodoro Rodríguez López, with a 22,824-seat capacity. The traditional home colours are white shirts and blue shorts.",
     "source": "https://en.wikipedia.org/wiki/CD_Tenerife",
+    "status": "draft"
+  },
+  "Q218372": {
+    "text": "Stade Brestois 29, commonly known as Stade Brestois or simply Brest, is a Breton professional football club based in Brest. It was founded in 1950 following the merger of five local patronages, including Armoricaine de Brest, founded in 1903. The club has competed in Ligue 1, the top division of French football, ever since being promoted to the top flight during the 2018–19 season.",
+    "source": "https://en.wikipedia.org/wiki/Stade_Brestois_29",
+    "status": "draft"
+  },
+  "Q219233": {
+    "text": "Stichting Betaald Voetbal Vitesse Arnhem, commonly known as Vitesse or internationally as Vitesse Arnhem, is a Dutch football club based in Arnhem, Gelderland. Founded on 14 May 1892, it is one of the oldest professional clubs in the Netherlands. Vitesse last competed in the Eerste Divisie, the second tier of the Dutch football league system.",
+    "source": "https://en.wikipedia.org/wiki/SBV_Vitesse",
     "status": "draft"
   },
   "Q220863": {
@@ -379,9 +934,29 @@
     "source": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
     "status": "draft"
   },
+  "Q221525": {
+    "text": "Football Club de Metz is a French association football club based in Metz, Lorraine. Founded in 1919, the club competes in the Ligue 2, following relegation from the Ligue 1 in the 2025-26 season. They play their home matches at Stade Saint-Symphorien located within the city.",
+    "source": "https://en.wikipedia.org/wiki/FC_Metz",
+    "status": "draft"
+  },
+  "Q221927": {
+    "text": "Vereniging Betaald Voetbal De Graafschap, simply known as De Graafschap, is a professional association football club based in Doetinchem, Netherlands. The team competes in the Eerste Divisie, the second level of the Dutch football league system.",
+    "source": "https://en.wikipedia.org/wiki/De_Graafschap",
+    "status": "draft"
+  },
+  "Q223450": {
+    "text": "Vitória Sport Clube, commonly known as Vitória de Guimarães, or simply Vitória, is a Portuguese professional football club based in Guimarães that competes in the Primeira Liga, the top flight of Portuguese football, at the Estádio D.",
+    "source": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
+    "status": "draft"
+  },
   "Q223620": {
     "text": "Deportivo Alavés, S.A.D., usually known as Alavés, is a Spanish football club based in Vitoria-Gasteiz, Álava, in the autonomous community of the Basque Country. Founded on 23 January 1921 as Sport Friends Club, the club competes in La Liga, the top flight of Spanish football.",
     "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+    "status": "draft"
+  },
+  "Q243235": {
+    "text": "The Associação Académica de Coimbra – Organismo Autónomo de Futebol (AAC-OAF), also referred to as Académica de Coimbra or simply Académica, is a professional football club based in Coimbra, Portugal.",
+    "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mica_de_Coimbra_(football)",
     "status": "draft"
   },
   "Q245162": {
@@ -389,9 +964,54 @@
     "source": "https://en.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti",
     "status": "draft"
   },
+  "Q257078": {
+    "text": "Nuovo Pordenone 2024 FC ASD, commonly referred to as Pordenone, is a football club based in Pordenone, Friuli-Venezia Giulia, Italy.",
+    "source": "https://en.wikipedia.org/wiki/Nuovo_Pordenone_2024_FC_ASD",
+    "status": "draft"
+  },
+  "Q269151": {
+    "text": "Prins Hendrik Ende Desespereert Nimmer Combinatie Zwolle, commonly known as PEC Zwolle, is a Dutch professional football club based in Zwolle, Netherlands. They play in the Eredivisie, the top tier of Dutch football. They have played in the Eredivisie for a total of 22 seasons, reaching sixth place in 2015.",
+    "source": "https://en.wikipedia.org/wiki/PEC_Zwolle",
+    "status": "draft"
+  },
+  "Q270051": {
+    "text": "Athletic Club Ajaccien, commonly referred to as AC Ajaccio, ACA or simply Ajaccio is a French football club based in the city of Ajaccio on the island of Corsica. They compete in the Régional 1, the sixth tier of French football.",
+    "source": "https://en.wikipedia.org/wiki/AC_Ajaccio",
+    "status": "draft"
+  },
   "Q271574": {
     "text": "Real Oviedo is a Spanish professional football club based in Oviedo, Asturias. Founded on 26 March 1926, the club plays in the Segunda División, the second level of the Spanish football league system. The club plays at the Estadio Carlos Tartiere, opened on 30 September 2000, and is the largest sports stadium in Asturias.",
     "source": "https://en.wikipedia.org/wiki/Real_Oviedo",
+    "status": "draft"
+  },
+  "Q288419": {
+    "text": "Pau Football Club, commonly referred to as Pau FC, is a professional football club based in Pau, capital of Béarn, France. Pau FC plays its home matches at the Nouste Camp and competes in Ligue 2, the second tier of French football. Nicknamed Les Maynats, Pau FC traces its origins to the patronage of the Bleuets de Notre-Dame, officially founded in 1920 in the Mayolis district.",
+    "source": "https://en.wikipedia.org/wiki/Pau_FC",
+    "status": "draft"
+  },
+  "Q289482": {
+    "text": "Associazione Calcio Monza, commonly referred to as Monza, is a professional football club based in Monza, Lombardy, Italy. The team plays in Serie A, the top tier of Italian football, following promotion from Serie B in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/AC_Monza",
+    "status": "draft"
+  },
+  "Q289613": {
+    "text": "Pisa Sporting Club, commonly referred to as Pisa, is an Italian professional football club based in Pisa, Tuscany. The club will compete in Serie B, following relegation from Serie A.",
+    "source": "https://en.wikipedia.org/wiki/Pisa_SC",
+    "status": "draft"
+  },
+  "Q289707": {
+    "text": "Associazione Calcio Reggiana 1919, commonly referred to as Reggiana, is a professional football club based in Reggio Emilia, Emilia-Romagna, Italy. The club was formed in 1919, reformed in 2005 and 2018 after going bankrupt twice, and currently plays in the Serie C, the third tier of Italian football. Reggiana is known as i Granata in reference to the club's main colour: maroon.",
+    "source": "https://en.wikipedia.org/wiki/AC_Reggiana_1919",
+    "status": "draft"
+  },
+  "Q292231": {
+    "text": "Rodez Aveyron Football is a French association football club based in Rodez. The club was founded in 1929 and currently plays in Ligue 2, the second level of French football. The club plays its home matches at the Stade Paul Lignon located within the city.",
+    "source": "https://en.wikipedia.org/wiki/Rodez_AF",
+    "status": "draft"
+  },
+  "Q297430": {
+    "text": "Società Sportiva Arezzo is an Italian association football club based in Arezzo, Tuscany. The club was formed in 1923, refounded in 1993 after going bankrupt and refounded in 2010 after being unable to enroll in the tournament. The club will play in Serie B, the second tier of Italian football in the 2026–27 season, following promotion from Serie C.",
+    "source": "https://en.wikipedia.org/wiki/SS_Arezzo",
     "status": "draft"
   },
   "Q298201": {
@@ -399,9 +1019,104 @@
     "source": "https://en.wikipedia.org/wiki/ASA_T%C3%A2rgu_Mure%C8%99_(1962)",
     "status": "draft"
   },
+  "Q298217": {
+    "text": "Unione Sportiva Avellino 1912, commonly referred to as US Avellino 1912, is an Italian professional football club based in Avellino, Campania. It competes in Serie B, the second tier of Italian football.",
+    "source": "https://en.wikipedia.org/wiki/US_Avellino_1912",
+    "status": "draft"
+  },
+  "Q309400": {
+    "text": "Union Sportive Boulogne Côte d'Opale is a French association football club based in the commune of Boulogne-sur-Mer. The club was founded in 1898 and currently plays in Ligue 2, the second level of French football, having been promoted from the Championnat National at the end of 2024–25 season due to AC Ajaccio being relegated for financial reasons.",
+    "source": "https://en.wikipedia.org/wiki/US_Boulogne",
+    "status": "draft"
+  },
+  "Q316865": {
+    "text": "SC Preußen Münster is a German sports club based in Münster, North Rhine-Westphalia which is mostly recognised for its football section. The football team currently plays in the 3. Liga which is the third tier in German football.",
+    "source": "https://en.wikipedia.org/wiki/SC_Preu%C3%9Fen_M%C3%BCnster",
+    "status": "draft"
+  },
+  "Q318348": {
+    "text": "NEC Nijmegen, commonly known as NEC or N.E.C., is a professional Dutch association football club based in Nijmegen. The club currently competes in the Eredivisie, the top tier of Dutch football.",
+    "source": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
+    "status": "draft"
+  },
+  "Q328658": {
+    "text": "Le Havre Athletic Club is a French professional association football club based in Le Havre, Normandy. The football club was founded in 1894 as a section of the sports club of the same name, founded in 1884. Le Havre plays in Ligue 1, the first tier of French football, after securing promotion from Ligue 2 as winners of the 2022–23 season, and plays its home matches at the Stade Océane.",
+    "source": "https://en.wikipedia.org/wiki/Le_Havre_AC",
+    "status": "draft"
+  },
+  "Q332642": {
+    "text": "NAC Breda, often simply known as NAC, is a Dutch professional football club, based in Breda, Netherlands. NAC Breda play in the Rat Verlegh Stadium, named after their most important player, Antoon 'Rat' Verlegh. The club competes in the Eerste Divisie, the second tier of Dutch football, following relegation from the Eredivisie in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/NAC_Breda",
+    "status": "draft"
+  },
+  "Q369349": {
+    "text": "Union Sportive Orléans Loiret Football is a French association football club based in Orléans. The club was founded in 1976 and currently play in Championnat National after being relegated from the prematurely-ended 2019–20 Ligue 2. Orléans plays its home matches at the Stade de la Source located within the city.",
+    "source": "https://en.wikipedia.org/wiki/US_Orl%C3%A9ans",
+    "status": "draft"
+  },
+  "Q370712": {
+    "text": "Excelsior Rotterdam, commonly known as Excelsior, is a Dutch professional football club based in Rotterdam. Founded on 23 July 1902, it competes in the Eredivisie, the highest tier of the Dutch football league system. The team plays its home matches at Stadion Woudestein, which has a capacity of approximately 4,500, making it one of the smallest stadiums used by professional clubs in the Netherlands.",
+    "source": "https://en.wikipedia.org/wiki/Excelsior_Rotterdam",
+    "status": "draft"
+  },
+  "Q371136": {
+    "text": "Futebol Clube Paços de Ferreira is a Portuguese professional football club based in Paços de Ferreira, Porto District. Founded in 1950, the club competes in Liga 3, holding home games at the 9,076 seat Estádio Capital do Móvel The club's colours are yellow and green. The club is owned 100% by its members (\"sócios\").",
+    "source": "https://en.wikipedia.org/wiki/F.C._Pa%C3%A7os_de_Ferreira",
+    "status": "draft"
+  },
+  "Q430993": {
+    "text": "Mantova 1911, commonly referred to as Mantova, is an Italian professional football club based in Mantua, Lombardy. Mantova had played consecutively in Serie A from the 1961–62 season to 1964–65, and from the 1966–67 season to 1967–68 as Associazione Calcio Mantova, when the team was called \"Little Brazil\", as its playing style recalled Brazilian football.",
+    "source": "https://en.wikipedia.org/wiki/Mantova_1911",
+    "status": "draft"
+  },
+  "Q459148": {
+    "text": "En avant de Guingamp, commonly referred to as EA Guingamp, EAG, or simply Guingamp, is a French professional football club based in the commune of Guingamp, in France's Brittany region. The club was founded in 1912 and play in Ligue 2, the second tier of French football.",
+    "source": "https://en.wikipedia.org/wiki/En_Avant_Guingamp",
+    "status": "draft"
+  },
   "Q460448": {
     "text": "Cádiz Club de Fútbol, S.A.D. is a Spanish professional football club based in Cádiz, Andalusia. Founded in 1910, the club competes in Segunda División, holding home games at Nuevo Mirandilla, with a seating capacity of 20,724.",
     "source": "https://en.wikipedia.org/wiki/C%C3%A1diz_CF",
+    "status": "draft"
+  },
+  "Q479351": {
+    "text": "Sportverein Darmstadt 1898 e.V., commonly known as Darmstadt 98, is a German professional association football club based in Darmstadt, Hesse. The club was founded on 22 May 1898 as FC Olympia Darmstadt. Early in 1919, the association was briefly known as Rasen-Sportverein Olympia before merging with Darmstädter Sport Club 1905 on 11 November that year to become Sportverein Darmstadt 98.",
+    "source": "https://en.wikipedia.org/wiki/SV_Darmstadt_98",
+    "status": "draft"
+  },
+  "Q483020": {
+    "text": "Paris Saint-Germain Football Club, commonly referred to as Paris Saint-Germain, PSG, Paris, or Paris SG, is a French professional football club based in Paris. Founded in 1970 through the merger of Paris FC and Stade Saint-Germain, the club competes in Ligue 1, the highest division of French football, and plays its home matches at the Parc des Princes.",
+    "source": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
+    "status": "draft"
+  },
+  "Q501245": {
+    "text": "Venezia Football Club is an Italian professional football club based in Venice, Veneto, that currently plays in Serie A, the first tier of Italian football.",
+    "source": "https://en.wikipedia.org/wiki/Venezia_FC",
+    "status": "draft"
+  },
+  "Q501372": {
+    "text": "Unione Sportiva Catanzaro 1929, or simply Catanzaro, is a professional football club based in Catanzaro, Calabria, Italy, that competes in Serie B, the second tier of Italian football, following a 17-year absence.",
+    "source": "https://en.wikipedia.org/wiki/US_Catanzaro_1929",
+    "status": "draft"
+  },
+  "Q501693": {
+    "text": "Espérance Sportive Troyes Aube Champagne (ESTAC), commonly known as Troyes, is a French professional association football club based in Troyes. The club competes in Ligue 1, the highest division of French football. It plays its home matches at the Stade de l'Aube.",
+    "source": "https://en.wikipedia.org/wiki/ES_Troyes_AC",
+    "status": "draft"
+  },
+  "Q503317": {
+    "text": "Dijon Football Côte d'Or, commonly referred to as Dijon FCO, Dijon or simply as DFCO, is a French football club based in Dijon. The club was founded in 1998 as a result of a merger between two local clubs in the city, and competed in Ligue 2 after suffering relegation from Ligue 1 in the 2011–12 season.",
+    "source": "https://en.wikipedia.org/wiki/Dijon_FCO",
+    "status": "draft"
+  },
+  "Q522283": {
+    "text": "Red Star Football Club, commonly referred to as Red Star FC or simply Red Star, is a French professional football club founded in Paris in 1897. The club plays its home matches at the Stade Bauer. They currently compete in Ligue 2, the second tier of French football, having been promoted from the third tier Championnat National at the end of the 2023–24 season.",
+    "source": "https://en.wikipedia.org/wiki/Red_Star_FC",
+    "status": "draft"
+  },
+  "Q543467": {
+    "text": "Grupo Desportivo de Chaves, commonly known as Chaves, is a Portuguese professional football club from Chaves, who are playing in the Liga Portugal 2. They were founded in 1949 and currently play at Estádio Municipal Eng. Manuel Branco Teixeira. Their home kit is red-and-blue striped shirt with blue shorts and socks, and the away kit is all white.",
+    "source": "https://en.wikipedia.org/wiki/G.D._Chaves",
     "status": "draft"
   },
   "Q576285": {
@@ -424,9 +1139,89 @@
     "source": "https://en.wikipedia.org/wiki/FC_Cartagena",
     "status": "draft"
   },
+  "Q621120": {
+    "text": "Portimonense Sporting Clube is a Portuguese sports club based in Portimão. Founded on 14 August 1914, it is most notable for its professional football team, which currently plays in the Liga Portugal 2, the second division of Portuguese football. It also fields various youth teams and a veterans team in football, as well as teams in basketball.",
+    "source": "https://en.wikipedia.org/wiki/Portimonense_S.C.",
+    "status": "draft"
+  },
+  "Q622432": {
+    "text": "Rio Ave Futebol Clube, commonly known as Rio Ave, is a Portuguese professional football club based in Vila do Conde, that competes in the Primeira Liga. The club is named after the Ave River, which flows through the town and into the Atlantic Ocean.",
+    "source": "https://en.wikipedia.org/wiki/Rio_Ave_F.C.",
+    "status": "draft"
+  },
+  "Q623730": {
+    "text": "Leixões Sport Club, commonly known as Leixões, is a Portuguese sports club from Matosinhos. It is organised into several departments for many sports, such as athletics, boxing, football, futsal, handball, karate, swimming, volleyball, water polo and billiards. It is most well known for its professional football department, which hosts a B reserve team called Leixões S.C.",
+    "source": "https://en.wikipedia.org/wiki/Leix%C3%B5es_S.C.",
+    "status": "draft"
+  },
+  "Q627334": {
+    "text": "Gazélec Football Club Ajaccio, commonly referred to as GFC Ajaccio, GFCA, Gazélec Ajaccio or simply Gazélec, is a French football club from Ajaccio, Corsica. Founded in 1910, Gazélec played one season in Ligue 1 in the 2015–16 season. As of the 2025–26 season, it competes in the Championnat National 3, the fifth tier of the French football league system.",
+    "source": "https://en.wikipedia.org/wiki/Gaz%C3%A9lec_Ajaccio",
+    "status": "draft"
+  },
+  "Q634829": {
+    "text": "Grupo Desportivo Estoril Praia, commonly known as Estoril, is a Portuguese professional sports club from Estoril, Cascais, Lisbon. Founded on 17 May 1939, its football team currently plays in Primeira Liga and hold home games at the Estádio António Coimbra da Mota, with a seating capacity of 5,094. As a sports club, Estoril has departments for football, futsal and basketball.",
+    "source": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia",
+    "status": "draft"
+  },
+  "Q636315": {
+    "text": "Helmond Sport is a Dutch professional football club based in Helmond, North Brabant.",
+    "source": "https://en.wikipedia.org/wiki/Helmond_Sport",
+    "status": "draft"
+  },
+  "Q639525": {
+    "text": "Sportverein Sandhausen 1916 e.V., commonly known as simply SV Sandhausen or Sandhausen, is a German association football club that plays in Sandhausen, immediately to the south of Heidelberg in Baden-Württemberg. It is Germany's smallest professional football club.",
+    "source": "https://en.wikipedia.org/wiki/SV_Sandhausen",
+    "status": "draft"
+  },
+  "Q650365": {
+    "text": "Carrarese Calcio 1908, commonly referred to as Carrarese, is an Italian football club based in Carrara, Tuscany. The team plays in Serie B, the second tier of Italian football, after promotion from Serie C in 2023–24.",
+    "source": "https://en.wikipedia.org/wiki/Carrarese_Calcio_1908",
+    "status": "draft"
+  },
+  "Q652516": {
+    "text": "Benevento Calcio, commonly referred to as Benevento, is an Italian professional football club based in Benevento, Campania. The club was originally founded in 1929 and then re-founded in 2005. They currently compete in Serie B, the second division of the Italian football league.",
+    "source": "https://en.wikipedia.org/wiki/Benevento_Calcio",
+    "status": "draft"
+  },
+  "Q653119": {
+    "text": "Almere City Football Club is a professional football club based in Almere, Netherlands. While the current organization was founded in 2001, it has roots dating back to 1959. The club currently compete in the Eerste Divisie, following relegation from the Eredivisie in 2024–25.",
+    "source": "https://en.wikipedia.org/wiki/Almere_City_FC",
+    "status": "draft"
+  },
+  "Q671042": {
+    "text": "Clube Desportivo Feirense, commonly known as CD Feirense or just Feirense, is a Portuguese football club based in Santa Maria da Feira. Founded on 18 March 1918, Feirense play in the LigaPro, the second tier of Portuguese football. Their chairman is Rodrigo Nunes and their manager is Ricardo Costa.",
+    "source": "https://en.wikipedia.org/wiki/C.D._Feirense",
+    "status": "draft"
+  },
   "Q680770": {
     "text": "Asociația Fotbal Club UTA Arad, commonly known as UTA Arad or simply UTA, is a Romanian professional football club based in the city of Arad, Arad County that competes in the Liga I, the top tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/FC_UTA_Arad",
+    "status": "draft"
+  },
+  "Q692586": {
+    "text": "Verein für Rasenspiele 1921 Aalen e.V., known simply as VfR Aalen, is a German football club based in Aalen, Baden-Württemberg. The football team is part of a larger sports club which also offers its members gymnastics, table tennis, and cheerleading. The club's greatest success came in 2011–12 when it finished second in the 3.",
+    "source": "https://en.wikipedia.org/wiki/VfR_Aalen",
+    "status": "draft"
+  },
+  "Q692691": {
+    "text": "Sportvereinigung 07 Elversberg e. V., is a professional German association football club, located in Spiesen-Elversberg, Saarland. The club competes in the Bundesliga, the highest tier of the German football league system, after promotion at the end of the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/SV_Elversberg",
+    "status": "draft"
+  },
+  "Q702455": {
+    "text": "RasenBallsport Leipzig e.V., commonly known as RB Leipzig or informally as Red Bull Leipzig, or simply Leipzig, is a German professional football club based in Leipzig, Saxony. The club was founded in 2009 by the initiative of the company Red Bull GmbH, which purchased the playing rights of fifth-tier side SSV Markranstädt with the intent of advancing the new club to the top-flight Bundesliga within eight years.",
+    "source": "https://en.wikipedia.org/wiki/RB_Leipzig",
+    "status": "draft"
+  },
+  "Q738060": {
+    "text": "Football Club Volendam is a professional football club based in Volendam, Netherlands. They play in the Eerste Divisie, the second tier of Dutch football, following relegation from the Eredivisie in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Volendam",
+    "status": "draft"
+  },
+  "Q740637": {
+    "text": "Clube Desportivo Santa Clara is a Portuguese professional football club from Ponta Delgada, Azores. As the most successful football team from the Azores Islands, they are the only team from the archipelago to compete in a UEFA competition, having qualified for the UEFA Intertoto Cup and the UEFA Europa Conference League.",
+    "source": "https://en.wikipedia.org/wiki/C.D._Santa_Clara",
     "status": "draft"
   },
   "Q743557": {
@@ -434,14 +1229,44 @@
     "source": "https://en.wikipedia.org/wiki/CD_Castell%C3%B3n",
     "status": "draft"
   },
+  "Q744353": {
+    "text": "Sporting Clube Farense, simply known as Farense, is a Portuguese professional football club based in Faro in the district of the same name and the region of Algarve. Founded in 1910, the club currently plays in the Liga Portugal 2.",
+    "source": "https://en.wikipedia.org/wiki/S.C._Farense",
+    "status": "draft"
+  },
+  "Q749589": {
+    "text": "The Go Ahead Eagles are a Dutch professional football club from the city of Deventer in the province of Overijssel. They play in the Eredivisie, the top tier of Dutch football, having achieved promotion from the second tier Eerste Divisie in the 2020–21 season. The club's home stadium since 1920 is De Adelaarshorst.",
+    "source": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles",
+    "status": "draft"
+  },
   "Q753462": {
     "text": "Asociația Sportivă Fotbal Club Universitatea Cluj, commonly known as Universitatea Cluj or simply U Cluj, is a Romanian professional football club based in the city of Cluj-Napoca, Cluj County, that competes in the Liga I, the top flight of the Romanian league system.",
     "source": "https://en.wikipedia.org/wiki/FC_Universitatea_Cluj",
     "status": "draft"
   },
+  "Q757422": {
+    "text": "Atlético Clube de Portugal is a Portuguese sports club based in the parish of Alcântara, in the west side of Lisbon. The club was established on 18 September 1942 through the merger of two local clubs from Alcântara: Carcavelinhos Football Club and União Foot-Ball Lisboa. In addition to football, the club has sections for futsal and basketball.",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Clube_de_Portugal",
+    "status": "draft"
+  },
+  "Q759482": {
+    "text": "Unione Sportiva Cremonese, commonly referred to as Cremonese, is an Italian professional football club based in Cremona, Lombardy, which plays in Serie B, following their relegation from Serie A in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/US_Cremonese",
+    "status": "draft"
+  },
+  "Q760736": {
+    "text": "Stade Lavallois Mayenne Football Club, also referred to as Stade Lavallois or simply Laval, is a French association football club based in Laval in western France. The club was formed on 17 July 1902 and currently plays in Ligue 2, the second level of French football. Laval plays its home matches at the Stade Francis Le Basser located in the city.",
+    "source": "https://en.wikipedia.org/wiki/Stade_Lavallois",
+    "status": "draft"
+  },
   "Q770740": {
     "text": "Sociedad Deportiva Eibar, S.A.D. is a Spanish professional football club based in Eibar, Gipuzkoa, in the autonomous Basque Country.",
     "source": "https://en.wikipedia.org/wiki/SD_Eibar",
+    "status": "draft"
+  },
+  "Q838134": {
+    "text": "Club Football Estrela Amadora SAD, sometimes just Estrela Amadora, is a Portuguese professional sports club based in Amadora, northwest of Lisbon. The team is currently competing in the Primeira Liga, the top tier of Portuguese football, after winning promotion from Liga Portugal 2 in 2022–23.",
+    "source": "https://en.wikipedia.org/wiki/C.F._Estrela_da_Amadora",
     "status": "draft"
   },
   "Q841245": {
@@ -454,14 +1279,74 @@
     "source": "https://en.wikipedia.org/wiki/Racing_de_Ferrol",
     "status": "draft"
   },
+  "Q845043": {
+    "text": "Frosinone Calcio is a professional football club based in Frosinone, Lazio, Italy. The club was founded on 5 March 1906 under the name Unione Sportiva Frusinate, but conventionally the year 1928 is indicated as the beginning of competitive activities of significant importance. Following cancellation by the Italian Football Federation, it was refounded in 1959 and in 1990.",
+    "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+    "status": "draft"
+  },
+  "Q845137": {
+    "text": "Angers Sporting Club de l'Ouest, commonly referred to as Angers SCO, is a French professional football club based in Angers in Pays de la Loire in western France. The club was founded in 1919 and plays in Ligue 1, the first division of Football in France. It plays its home matches at the Stade Raymond Kopa.",
+    "source": "https://en.wikipedia.org/wiki/Angers_SCO",
+    "status": "draft"
+  },
+  "Q846008": {
+    "text": "Associação Naval 1º de Maio or Naval 1º Maio, commonly known as Naval, was a Portuguese football club based in Figueira da Foz, Coimbra District. Founded on 1 May 1893, it last played in the Division of Honour in the Coimbra Football Association, holding home games at the Estádio Municipal José Bento Pessoa, with a capacity of 9,000 spectators.",
+    "source": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Naval_1%C2%BA_de_Maio",
+    "status": "draft"
+  },
   "Q852079": {
     "text": "Burgos Club de Fútbol, S.A.D. is a Spanish football team based in Burgos, in the autonomous community of Castile and León.",
     "source": "https://en.wikipedia.org/wiki/Burgos_CF",
     "status": "draft"
   },
+  "Q854167": {
+    "text": "Fortuna Sittard is a professional football club from the municipality of Sittard-Geleen, Netherlands. The club currently plays its football in the 12,500 capacity Fortuna Sittard Stadion and features in the Eredivisie. The club was established through a merger of former clubs Fortuna 54 and Sittardia, which merged as the Fortuna Sittardia Combinatie on 1 July 1968.",
+    "source": "https://en.wikipedia.org/wiki/Fortuna_Sittard",
+    "status": "draft"
+  },
   "Q856119": {
     "text": "Club Deportivo Leganés, S.A.D. is a professional football club based in Leganés, Community of Madrid. They currently compete in Segunda División. Leganés was officially founded 23 June 1928 and played their first season in the 6th division of Spanish football.",
     "source": "https://en.wikipedia.org/wiki/CD_Legan%C3%A9s",
+    "status": "draft"
+  },
+  "Q870182": {
+    "text": "Clermont Foot 63 is a French professional football club based in Clermont-Ferrand, France. It competes in Ligue 2. The first incarnation of the club was formed in 1911 and the current club was created in 1990 as a result of a merger.",
+    "source": "https://en.wikipedia.org/wiki/Clermont_Foot_63",
+    "status": "draft"
+  },
+  "Q875120": {
+    "text": "Sportclub Cambuur, most often styled SC Cambuur and sometimes Cambuur Leeuwarden, is a Dutch professional football club in Leeuwarden, the capital of Friesland. Founded on 19 June 1964, the team compete in the Eredivisie, the top tier of Dutch football, following promotion from the Eerste Divisie in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/SC_Cambuur",
+    "status": "draft"
+  },
+  "Q875169": {
+    "text": "FC Den Bosch is a professional football club from 's-Hertogenbosch, the Netherlands. They currently compete in the Eerste Divisie.",
+    "source": "https://en.wikipedia.org/wiki/FC_Den_Bosch",
+    "status": "draft"
+  },
+  "Q876568": {
+    "text": "Maatschappelijke Voetbal Vereniging Maastricht, commonly known as MVV Maastricht or simply as MVV, is a Dutch professional football club from the city of Maastricht. Founded on 2 April 1902, MVV Maastricht currently competes in the Eerste Divisie, the second tier of Dutch football.",
+    "source": "https://en.wikipedia.org/wiki/MVV_Maastricht",
+    "status": "draft"
+  },
+  "Q876699": {
+    "text": "Football Club Eindhoven, commonly known as FC Eindhoven, is a professional football club based in Eindhoven, NED, that competes in the Eerste Divisie, the second tier of Dutch football. They are one of two professional clubs which are based in the city of Eindhoven, the other one being PSV.",
+    "source": "https://en.wikipedia.org/wiki/FC_Eindhoven",
+    "status": "draft"
+  },
+  "Q926438": {
+    "text": "Gil Vicente Futebol Clube, commonly known as Gil Vicente, founded in 1924, is a Portuguese professional football club that plays in Barcelos. It plays their home matches at the Estádio Cidade de Barcelos. It competes in the Primeira Liga, the top division of football in the country, and it is named after Portuguese playwright Gil Vicente.",
+    "source": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
+    "status": "draft"
+  },
+  "Q1023227": {
+    "text": "Clube Desportivo de Tondela is a Portuguese professional football club that plays in Liga Portugal 2, the second tier of Portuguese football, following their relegation in the 2025–26 Primeira Liga. They are based in the town of Tondela and play in the Estádio João Cardoso. Founded in 1933, the club predominantly played within Portugal's regional leagues until their gradual climb up the league pyramid since 2004.",
+    "source": "https://en.wikipedia.org/wiki/C.D._Tondela",
+    "status": "draft"
+  },
+  "Q1023233": {
+    "text": "Clube Desportivo Trofense, commonly known as Trofense, is a Portuguese football club based in Trofa, Portugal. Founded in 1930, it plays in Liga 3, holding home games at Estádio do Clube Desportivo Trofense, with a capacity of 5,017 spectators.",
+    "source": "https://en.wikipedia.org/wiki/C.D._Trofense",
     "status": "draft"
   },
   "Q1024390": {
@@ -484,14 +1369,49 @@
     "source": "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna",
     "status": "draft"
   },
+  "Q1031307": {
+    "text": "Sport Clube Freamunde is a Portuguese football club based in Freamunde, Paços de Ferreira. Founded on 19 March 1933, it currently plays in the Campeonato de Portugal, holding home matches at the 3,919-capacity Complexo Desportivo do SC Freamunde.",
+    "source": "https://en.wikipedia.org/wiki/S.C._Freamunde",
+    "status": "draft"
+  },
+  "Q1045811": {
+    "text": "Football Club Dordrecht, or simply FC Dordrecht is a professional Dutch association football club based in Dordrecht, a city in the Western Netherlands, located in the province of South Holland. They currently compete in the Eerste Divisie, the second tier of the Dutch football league system.",
+    "source": "https://en.wikipedia.org/wiki/FC_Dordrecht",
+    "status": "draft"
+  },
+  "Q1046440": {
+    "text": "Casa Pia Atlético Clube, commonly known as Casa Pia, is a Portuguese multi-sports club founded in 1920 and based in Lisbon, Portugal, best known for its professional football team, that competes in the Primeira Liga. The club is named after Casa Pia, a Portuguese children's charity, and many of its athletes come from that institution.",
+    "source": "https://en.wikipedia.org/wiki/Casa_Pia_A.C.",
+    "status": "draft"
+  },
+  "Q1051013": {
+    "text": "Paris Football Club, commonly referred to as Paris FC, PFC or Paris, are a French professional football club based in Paris, France, which competes in Ligue 1, the top division of French football.",
+    "source": "https://en.wikipedia.org/wiki/Paris_FC",
+    "status": "draft"
+  },
   "Q1057672": {
     "text": "Club Sportiv Municipal 1932 Cetatea Suceava, commonly known as CSM Cetatea Suceava or Cetatea Suceava, is a Romanian football club based in Suceava, Suceava County, currently playing in Liga II, the second tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/CSM_Cetatea_Suceava",
     "status": "draft"
   },
+  "Q1061627": {
+    "text": "FC Emmen is a professional football club based in Emmen, the Netherlands. They currently compete in the Eerste Divisie, the second tier of Dutch football, following relegation from the Eredivisie in the 2022–23 season. Founded in 1925, the club entered the professional Eerste Divisie in 1985.",
+    "source": "https://en.wikipedia.org/wiki/FC_Emmen",
+    "status": "draft"
+  },
   "Q1067737": {
     "text": "Unión Deportiva Logroñés, S.A.D. is a Spanish football team based in Logroño, in the autonomous community of La Rioja. Founded in 2009, it currently plays in Primera Federación – Group 1, holding home matches at Estadio Las Gaunas, with a capacity of 16,000 seats.",
     "source": "https://en.wikipedia.org/wiki/UD_Logro%C3%B1%C3%A9s",
+    "status": "draft"
+  },
+  "Q1071713": {
+    "text": "Sportclub Telstar, commonly known simply as Telstar, is a Dutch professional football club based in IJmuiden, North Holland. Nicknamed the Witte Leeuwen (\"White Lions\") for their all‑white home strip, the team competes in the Eredivisie, the highest tier of the Dutch football league system, having secured promotion via the 2024–25 play‑offs—their first top‑flight appearance since 1978.",
+    "source": "https://en.wikipedia.org/wiki/SC_Telstar",
+    "status": "draft"
+  },
+  "Q1120838": {
+    "text": "Como 1907 is an Italian professional football club based in Como, Lombardy, that competes in Serie A, the top flight of the Italian football system. Founded in 1907 as Como Foot-Ball Club, the team traditionally plays in royal blue and has hosted home matches at the Stadio Giuseppe Sinigaglia since 1928. The club was acquired in 2019 by the Hartono brothers through Djarum Group.",
+    "source": "https://en.wikipedia.org/wiki/Como_1907",
     "status": "draft"
   },
   "Q1128631": {
@@ -504,9 +1424,34 @@
     "source": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
     "status": "draft"
   },
+  "Q1132418": {
+    "text": "Football Club de Martigues, known as FC Martigues or just Martigues, is a French professional football club based in Martigues, Bouches-du-Rhône. As of the 2025–26 season, it competes in the Départemental 3, the eleventh tier of French football.",
+    "source": "https://en.wikipedia.org/wiki/FC_Martigues",
+    "status": "draft"
+  },
   "Q1135735": {
     "text": "Asociaţia Club Sportiv FC Corvinul Hunedoara 1921, commonly known as Corvinul Hunedoara or simply Corvinul, is a Romanian professional football club based in the city of Hunedoara, Hunedoara County, that competes in the Liga I.",
     "source": "https://en.wikipedia.org/wiki/FC_Corvinul_Hunedoara",
+    "status": "draft"
+  },
+  "Q1136016": {
+    "text": "Cosenza Calcio is an Italian football club, based in Cosenza, Calabria. Currently the team plays in Serie C Group C.",
+    "source": "https://en.wikipedia.org/wiki/Cosenza_Calcio",
+    "status": "draft"
+  },
+  "Q1140695": {
+    "text": "Football Club d'Annecy is a French football club based in the town of Annecy, Haute-Savoie. The team plays its home matches at the Parc des Sports, where the club and its predecessor have been based since 1964. It currently competes in the Ligue 2.",
+    "source": "https://en.wikipedia.org/wiki/FC_Annecy",
+    "status": "draft"
+  },
+  "Q1149034": {
+    "text": "TOP Oss, is a professional association football club based in the town of Oss, North Brabant, Netherlands, that competes in the Eerste Divisie, the second tier of the Dutch football league system. Founded in 1928 as T.O.P., a Dutch abbreviation for Tot Ons Plezier, the team plays its home matches at the Frans Heesen Stadion, where it has been based since 1946.",
+    "source": "https://en.wikipedia.org/wiki/TOP_Oss",
+    "status": "draft"
+  },
+  "Q1256652": {
+    "text": "Gondomar Sport Club is a Portuguese football club based in Gondomar, Porto District. Founded on 1 May 1921, it currently plays in the fourth-tier Campeonato de Portugal, holding home games at Estádio de São Miguel, with a capacity of 2.450 spectators.",
+    "source": "https://en.wikipedia.org/wiki/Gondomar_S.C.",
     "status": "draft"
   },
   "Q1262822": {
@@ -519,14 +1464,99 @@
     "source": "https://en.wikipedia.org/wiki/FC_Petrolul_Ploie%C8%99ti",
     "status": "draft"
   },
+  "Q1346314": {
+    "text": "Moreirense Futebol Clube is a Portuguese professional football club based in Moreira de Cónegos, Guimarães Municipality, Minho. Founded on 1 November 1938, it plays in the Primeira Liga, holding home games at Parque de Jogos Comendador Joaquim de Almeida Freitas, with a capacity for 6,150 spectators.",
+    "source": "https://en.wikipedia.org/wiki/Moreirense_F.C.",
+    "status": "draft"
+  },
+  "Q1386850": {
+    "text": "Futebol Clube de Alverca is a professional football club based in Alverca do Ribatejo, Vila Franca de Xira, Portugal. The team play in the Liga Portugal, the top tier of Portuguese football, after promotion from the Liga Portugal 2 in the 2024–25 season.",
+    "source": "https://en.wikipedia.org/wiki/F.C._Alverca",
+    "status": "draft"
+  },
   "Q1386854": {
     "text": "Futbol Club Andorra is a professional football club based in Andorra la Vella, Andorra, that currently competes in Segunda División of the Spanish league system. The club was founded in 1942 and currently plays its home fixtures at Estadi de la FAF in Encamp.",
     "source": "https://en.wikipedia.org/wiki/FC_Andorra",
     "status": "draft"
   },
+  "Q1386869": {
+    "text": "Futebol Clube de Arouca is a professional football club based in Arouca, in the Porto metropolitan area. Founded in 1951, the club plays in the Primeira Liga, holding home games at Estádio Municipal de Arouca, with a 5,600-seat capacity.",
+    "source": "https://en.wikipedia.org/wiki/F.C._Arouca",
+    "status": "draft"
+  },
   "Q1386940": {
     "text": "Fotbal Club Bihor Oradea, commonly known as Bihor Oradea or simply as FC Bihor, was a Romanian professional football club based in Oradea, Bihor County.",
     "source": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(1958)",
+    "status": "draft"
+  },
+  "Q1387105": {
+    "text": "Futebol Clube de Famalicão, commonly known as Famalicão, is a Portuguese professional football club from Vila Nova de Famalicão. Founded on 21 August 1931, its senior team currently plays in the Primeira Liga, the top tier of Portuguese football.",
+    "source": "https://en.wikipedia.org/wiki/F.C._Famalic%C3%A3o",
+    "status": "draft"
+  },
+  "Q1387710": {
+    "text": "Fußball Club Südtirol, commonly referred to as Südtirol, is an Italian association football club, based in the city of Bolzano, in the autonomous province of South Tyrol. The club was formerly known as its bilingual name F.C. Südtirol – Alto Adige. They played for the first time in their history in Serie B during the 2022–23 season after having been crowned Serie C champions in the 2021–22 campaign.",
+    "source": "https://en.wikipedia.org/wiki/FC_S%C3%BCdtirol",
+    "status": "draft"
+  },
+  "Q1387855": {
+    "text": "Futebol Clube de Vizela is a Portuguese professional football club that plays in Liga Portugal 2, the second tier of Portuguese football. They are based in the town of Vizela and play in the Estádio do Futebol Clube de Vizela, with a capacity of 6,000.",
+    "source": "https://en.wikipedia.org/wiki/F.C._Vizela",
+    "status": "draft"
+  },
+  "Q1429473": {
+    "text": "Varzim Sport Club is a Portuguese football club based in Póvoa de Varzim. The club was founded on 25 December 1915, and has played at the Estádio do Varzim Sport Club since its foundation. The club plays in Liga 3, following relegation in the 2021–22 Liga Portugal 2.",
+    "source": "https://en.wikipedia.org/wiki/Varzim_S.C.",
+    "status": "draft"
+  },
+  "Q1762119": {
+    "text": "Clube de Futebol União, commonly known as União da Madeira, was a Portuguese football club based in Funchal, Madeira, notable for its six seasons in the Portuguese top-flight Primeira Liga, between the 1989–90 and 1991–92 seasons, the 1993–94 and 1994–95 seasons and most recently in the 2015–16 season.",
+    "source": "https://en.wikipedia.org/wiki/C.F._Uni%C3%A3o",
+    "status": "draft"
+  },
+  "Q1770361": {
+    "text": "Jong Ajax, also referred to as Ajax II or Ajax 2, is the reserve team of Ajax. Based at the club's training complex, Sportpark De Toekomst, in Amsterdam, it has competed in the Eerste Divisie, the second tier of Dutch professional football, since 2013.",
+    "source": "https://en.wikipedia.org/wiki/Jong_Ajax",
+    "status": "draft"
+  },
+  "Q1815297": {
+    "text": "Union Sportive du Littoral de Dunkerque is a football club based in Dunkirk, France. It competes in Ligue 2, having achieved promotion from the Championnat National in the 2022–23 season. The club colours are blue and white, and home matches are played at the Stade Marcel-Tribut.",
+    "source": "https://en.wikipedia.org/wiki/USL_Dunkerque",
+    "status": "draft"
+  },
+  "Q1853273": {
+    "text": "Sport Clube União Torreense is a Portuguese sports club, best known for its association football section. Founded in 1917 in Torres Vedras as Sport União Torreense, the club currently plays in Liga Portugal 2, the second tier of Portuguese football.",
+    "source": "https://en.wikipedia.org/wiki/S.C.U._Torreense",
+    "status": "draft"
+  },
+  "Q1891367": {
+    "text": "Sporting Clube da Covilhã, commonly known as just Sporting da Covilhã or Sp. Covilhã, is a Portuguese football club from the city of Covilhã that plays in the third-tier Liga 3. The club was founded on 2 June 1923 and became the branch number 8 of Sporting Clube de Portugal.",
+    "source": "https://en.wikipedia.org/wiki/S.C._Covilh%C3%A3",
+    "status": "draft"
+  },
+  "Q2061414": {
+    "text": "União Desportiva Oliveirense (UDO), commonly known as Oliveirense, is a Portuguese sports club from the city of Oliveira de Azeméis, in Aveiro District. The club was founded on 25 October 1922. The main football team currently plays at the Estádio Carlos Osório which holds a seating capacity of 1,750 and plays in Liga Portugal 2.",
+    "source": "https://en.wikipedia.org/wiki/U.D._Oliveirense",
+    "status": "draft"
+  },
+  "Q2276413": {
+    "text": "Virtus Entella, commonly referred to as Entella, is an Italian professional football club based in Chiavari, Liguria. Founded in 1914, the club currently competes in the Serie B.",
+    "source": "https://en.wikipedia.org/wiki/Virtus_Entella",
+    "status": "draft"
+  },
+  "Q2410944": {
+    "text": "Académico de Viseu Futebol Clube, commonly known as Académico de Viseu, is a Portuguese professional football club based in Viseu. Founded in 1914 as Clube Académico de Futebol, the club went through several changes over the course of the years, folding in 2005 due to financial troubles and re-founding under its current name.",
+    "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mico_de_Viseu_F.C.",
+    "status": "draft"
+  },
+  "Q2619514": {
+    "text": "Avenir Sportif Béziers is a French association football club founded in 2007 by the merger of AS Saint-Chinian, FC Béziers Méditerranée, and the Béziers-Méditerranée Football Cheminots. They are based in the town of Béziers and their home stadium is the Stade de Sauclières.",
+    "source": "https://en.wikipedia.org/wiki/AS_B%C3%A9ziers_(2007)",
+    "status": "draft"
+  },
+  "Q3551877": {
+    "text": "União Desportiva Vilafranquense is a Portuguese football club from Vila Franca de Xira, Lisbon District.",
+    "source": "https://en.wikipedia.org/wiki/U.D._Vilafranquense",
     "status": "draft"
   },
   "Q4654417": {
@@ -554,6 +1584,21 @@
     "source": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi",
     "status": "draft"
   },
+  "Q13534332": {
+    "text": "Jong PSV is a Dutch football team based in Eindhoven. It is the reserve team of PSV Eindhoven and plays in the Eerste Divisie since the 2013–14 season.",
+    "source": "https://en.wikipedia.org/wiki/Jong_PSV",
+    "status": "draft"
+  },
+  "Q14229572": {
+    "text": "Football Club Twente, sometimes known internationally as Twente Enschede, or simply Twente, is a Dutch professional football club from Enschede. The club was formed in 1965 by the merger of Enschedese Boys with Sportclub Enschede, the 1926 Dutch champions. Twente have won the Eredivisie once, the KNVB Cup three times, and the Johan Cruyff Shield twice.",
+    "source": "https://en.wikipedia.org/wiki/FC_Twente",
+    "status": "draft"
+  },
+  "Q14551982": {
+    "text": "SSV Ulm 1846 FUSSBALL e.V., commonly known as SSV Ulm 1846 or SSV Ulm, is a German football club based in Ulm, Baden-Württemberg. SSV Ulm 1846 FUSSBALL was formed on 7 March 2009 as new independent club through the separation of the football department from the present-day multi-sports club SSV Ulm 1846 e.V. The team currently plays in Regionalliga Südwest, following back-to-back relegations from both the 2.",
+    "source": "https://en.wikipedia.org/wiki/SSV_Ulm_1846",
+    "status": "draft"
+  },
   "Q15966154": {
     "text": "Fundación Albacete is the women's football section of Albacete Balompié. Founded in 2004 they reached the Spanish league's top division in 2014.",
     "source": "https://en.wikipedia.org/wiki/Fundaci%C3%B3n_Albacete",
@@ -562,6 +1607,16 @@
   "Q16838020": {
     "text": "U Craiova 1948 Club Sportiv, commonly known as Universitatea Craiova, CS U Craiova, U Craiova, or simply Craiova, is a Romanian professional football club based in Craiova, Dolj County. It competes in the Liga I, the top tier of the Romanian league system.",
     "source": "https://en.wikipedia.org/wiki/CS_Universitatea_Craiova",
+    "status": "draft"
+  },
+  "Q16848949": {
+    "text": "Cesena Football Club is an Italian professional football club based in Cesena, Emilia-Romagna. It currently plays in the Serie B, after promotion from the Serie C in 2023–24. It has claimed to be the phoenix club of AC Cesena since 2018, the year that the club folded.",
+    "source": "https://en.wikipedia.org/wiki/Cesena_FC",
+    "status": "draft"
+  },
+  "Q17524289": {
+    "text": "Clube Desportivo Cova da Piedade is a football club established in the parish of Cova da Piedade, municipality of Almada, Portugal. The club merged with B-SAD, in an attempt of the former to retain their position currently in Liga 3, the third tier of Portuguese football, but they weren't granted license and were relegated to distrital championships.",
+    "source": "https://en.wikipedia.org/wiki/C.D._Cova_da_Piedade",
     "status": "draft"
   },
   "Q18129096": {
@@ -584,6 +1639,11 @@
     "source": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc",
     "status": "draft"
   },
+  "Q24068131": {
+    "text": "Jong FC Utrecht (U23) is a Dutch football team, based in Utrecht. It is the reserve team of FC Utrecht and plays in the Eerste Divisie since the 2016–17 Eerste Divisie season.",
+    "source": "https://en.wikipedia.org/wiki/Jong_FC_Utrecht",
+    "status": "draft"
+  },
   "Q37855796": {
     "text": "Asociația Fotbal Club Metalul Buzău, commonly known as Metalul Buzău, is a Romanian professional football club based in the city of Buzău, Buzău County, that competes in the Liga II.",
     "source": "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u",
@@ -599,14 +1659,29 @@
     "source": "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba",
     "status": "draft"
   },
+  "Q56542463": {
+    "text": "L.R. Vicenza S.p.A., better known as Vicenza or Lanerossi, is an Italian football club based in the city of Vicenza. It plays in Serie C, the third division of the Italian football league, but will play in Serie B in the 2026–27 season following promotion.",
+    "source": "https://en.wikipedia.org/wiki/LR_Vicenza",
+    "status": "draft"
+  },
   "Q56677281": {
     "text": "Clubul Sportiv Gloria Bistrița, commonly known as Gloria Bistrița or simply as Gloria, is a professional football club based in Bistrița, Bistrița-Năsăud County, competing in Liga II, the second tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/CS_Gloria_Bistri%C8%9Ba_(football)",
     "status": "draft"
   },
+  "Q59212899": {
+    "text": "B-SAD was a Portuguese professional football club based in Almada, which existed between 2018 and 2024. It originated from the professional football company formerly associated with Clube de Futebol Os Belenenses, following a legal and institutional separation between the historic club and its SAD in 2018.",
+    "source": "https://en.wikipedia.org/wiki/B-SAD",
+    "status": "draft"
+  },
   "Q66424141": {
     "text": "Club Sportiv Comunal 1599 Șelimbăr, commonly known as 1599 Șelimbăr or simply as Șelimbăr, is a Romanian football club based in Șelimbăr, Sibiu County, currently playing in the Liga II.",
     "source": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r",
+    "status": "draft"
+  },
+  "Q120775987": {
+    "text": "AVS Futebol SAD is a Portuguese professional football club currently playing in the Liga Portugal 2. They are based in the town of Vila das Aves, and play in Estádio do CD Aves.",
+    "source": "https://en.wikipedia.org/wiki/AVS_Futebol_SAD",
     "status": "draft"
   }
 }

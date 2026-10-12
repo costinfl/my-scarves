@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.332083&lon=8.647667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":123489654,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":223139713,\"lat\":\"49.3320651\",\"lon\":\"8.6477062\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.482185091931056e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Neuer Weg, Sandhausen, Rhein-Neckar-Kreis, Baden-Württemberg, 69207, Deutschland\",\"address\":{\"road\":\"Neuer Weg\",\"town\":\"Sandhausen\",\"county\":\"Rhein-Neckar-Kreis\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"69207\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.3317372\",\"49.3323928\",\"8.6469390\",\"8.6484735\"]}",
+  "fetchedAt": "2026-10-12T16:49:31.493Z"
+}

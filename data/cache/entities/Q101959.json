@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q101959",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Borussia Mönchengladbach logo.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52757"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Borussia Mönchengladbach"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Borussia Mönchengladbach"
+      }
+    }
+  }
+}

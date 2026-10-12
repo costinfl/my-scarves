@@ -1,0 +1,308 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q217374 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T16:43:22.979Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q192071",
+      "stadium": "http://www.wikidata.org/entity/Q1053455",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.52466 47.2561)",
+      "capacity": "35318",
+      "website": "https://www.fcnantes.com",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20FC%20Nantes%20%28avec%20fond%29%20-%202019.svg",
+      "clubLabel": "FC Nantes",
+      "stadiumLabel": "Stade de la Beaujoire"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q208228",
+      "stadium": "http://www.wikidata.org/entity/Q530735",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.02478 49.24716)",
+      "capacity": "21684",
+      "website": "http://www.stade-de-reims.com",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Stade%20Reims.svg",
+      "clubLabel": "Stade de Reims",
+      "stadiumLabel": "Stade Auguste Delaune"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q208399",
+      "stadium": "http://www.wikidata.org/entity/Q1434942",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.44303 42.65196)",
+      "capacity": "16000",
+      "website": "http://www.sc-bastia.corsica/",
+      "clubLabel": "SC Bastia",
+      "stadiumLabel": "Stade Armand Cesari"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q209509",
+      "stadium": "http://www.wikidata.org/entity/Q2299298",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.740194 45.187474)",
+      "capacity": "20068",
+      "website": "http://www.gf38.fr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20GF38%20%28cropped%29.png",
+      "clubLabel": "Grenoble Foot 38",
+      "stadiumLabel": "Stade des Alpes"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212269",
+      "stadium": "http://www.wikidata.org/entity/Q2299919",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.53178 50.34851)",
+      "capacity": "25000",
+      "website": "http://www.va-fc.com",
+      "clubLabel": "Valenciennes F.C.",
+      "stadiumLabel": "Stade du Hainaut"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q221525",
+      "stadium": "http://www.wikidata.org/entity/Q1483409",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.159532 49.109945)",
+      "capacity": "26671",
+      "website": "https://fcmetz.com",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Metz%202021%20Logo.svg",
+      "clubLabel": "FC Metz",
+      "stadiumLabel": "Stade Saint-Symphorien"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q270051",
+      "stadium": "http://www.wikidata.org/entity/Q1807356",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.77887 41.93157)",
+      "capacity": "10660",
+      "website": "http://www.ac-ajaccio.corsica/",
+      "clubLabel": "A.C. Ajaccio",
+      "stadiumLabel": "Stade Michel Moretti"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q288419",
+      "stadium": "http://www.wikidata.org/entity/Q63975205",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.325233941 43.307676531)",
+      "website": "https://paufc.fr/",
+      "clubLabel": "Foot club de Pau",
+      "stadiumLabel": "Nouste Camp"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q292231",
+      "stadium": "http://www.wikidata.org/entity/Q2325894",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.56376 44.35161)",
+      "capacity": "6761",
+      "website": "https://rodezaveyronfootball.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Rodez%20AF.svg",
+      "clubLabel": "Rodez AF",
+      "stadiumLabel": "Stade Paul-Lignon"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q309400",
+      "stadium": "http://www.wikidata.org/entity/Q2067371",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.61907 50.7244)",
+      "capacity": "6600",
+      "website": "https://www.usbco.com",
+      "clubLabel": "US Boulogne",
+      "stadiumLabel": "Stade de la Libération"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q369349",
+      "stadium": "http://www.wikidata.org/entity/Q3496035",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.94169 47.84069)",
+      "capacity": "6863",
+      "website": "https://orleansloiretfoot.com/",
+      "clubLabel": "US Orléans",
+      "stadiumLabel": "Stade de la Source"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q459148",
+      "stadium": "http://www.wikidata.org/entity/Q1817621",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.16552 48.56516)",
+      "capacity": "18250",
+      "website": "http://www.eaguingamp.com",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20EA%20Guingamp%202019.svg",
+      "clubLabel": "En Avant de Guingamp",
+      "stadiumLabel": "Stade de Roudourou"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q503317",
+      "stadium": "http://www.wikidata.org/entity/Q1848312",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.06757 47.32616)",
+      "capacity": "15995",
+      "website": "https://www.dfco.fr/",
+      "clubLabel": "Dijon FCO",
+      "stadiumLabel": "Stade Gaston Gérard"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q503317",
+      "stadium": "http://www.wikidata.org/entity/Q1848312",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.06793 47.3261)",
+      "capacity": "15995",
+      "website": "https://www.dfco.fr/",
+      "clubLabel": "Dijon FCO",
+      "stadiumLabel": "Stade Gaston Gérard"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q522283",
+      "stadium": "http://www.wikidata.org/entity/Q1320249",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.34105 48.9061)",
+      "capacity": "8000",
+      "website": "https://www.redstar.fr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Red%20Star%20FC%202014.svg",
+      "clubLabel": "Red Star F.C.",
+      "stadiumLabel": "Stade de Paris"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q627334",
+      "stadium": "http://www.wikidata.org/entity/Q1134861",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.77204 41.95138)",
+      "capacity": "6000",
+      "website": "https://www.gfca-foot.com/",
+      "clubLabel": "Gazélec Ajaccio",
+      "stadiumLabel": "Stade Ange Casanova"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q760736",
+      "stadium": "http://www.wikidata.org/entity/Q1128228",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.75351 48.08387)",
+      "capacity": "11107",
+      "website": "https://www.stade-lavallois.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LogoStadeLavalloisMayenneFC%202015.png",
+      "clubLabel": "Stade Lavallois",
+      "stadiumLabel": "Stade Francis Le Basser"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q870182",
+      "stadium": "http://www.wikidata.org/entity/Q1128263",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.12162 45.81584)",
+      "capacity": "9190",
+      "website": "http://www.clermontfoot.com/",
+      "clubLabel": "Clermont Foot 63",
+      "stadiumLabel": "Stade Gabriel Montpied"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q870182",
+      "stadium": "http://www.wikidata.org/entity/Q1128263",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.12162 45.81584)",
+      "capacity": "11980",
+      "website": "http://www.clermontfoot.com/",
+      "clubLabel": "Clermont Foot 63",
+      "stadiumLabel": "Stade Gabriel Montpied"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1132418",
+      "stadium": "http://www.wikidata.org/entity/Q118955",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.04935 43.407277)",
+      "capacity": "11500",
+      "website": "https://fcmartigues.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20FC%20Martigues%20-%202020.svg",
+      "clubLabel": "FC Martigues",
+      "stadiumLabel": "Stade Francis Turcan"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1140695",
+      "stadium": "http://www.wikidata.org/entity/Q428115",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.11972 45.91722)",
+      "capacity": "15660",
+      "website": "https://www.fc-annecy.fr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20annecy.png",
+      "clubLabel": "F.C. Annecy",
+      "stadiumLabel": "Parc des Sports, Annecy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1140695",
+      "stadium": "http://www.wikidata.org/entity/Q428115",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.11972 45.91722)",
+      "capacity": "15714",
+      "website": "https://www.fc-annecy.fr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20annecy.png",
+      "clubLabel": "F.C. Annecy",
+      "stadiumLabel": "Parc des Sports, Annecy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1815297",
+      "stadium": "http://www.wikidata.org/entity/Q2325881",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.39027778 51.03555556)",
+      "capacity": "4200",
+      "website": "http://www.usldunkerque.com",
+      "clubLabel": "USL Dunkerque",
+      "stadiumLabel": "Stade Marcel Tribut"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2619514",
+      "stadium": "http://www.wikidata.org/entity/Q3496024",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.26658 43.33633)",
+      "capacity": "18555",
+      "website": "https://www.asb-foot.com/",
+      "clubLabel": "AS Béziers",
+      "stadiumLabel": "Stade Raoul-Barrière"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19512",
+      "stadium": "http://www.wikidata.org/entity/Q1341629",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.81116 47.51238)",
+      "capacity": "20025",
+      "website": "http://www.fcsochaux.fr/",
+      "clubLabel": "FC Sochaux-Montbéliard",
+      "stadiumLabel": "Stade Auguste Bonal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19512",
+      "stadium": "http://www.wikidata.org/entity/Q1341629",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.81116 47.51238)",
+      "capacity": "20025",
+      "website": "http://www.fcsochaux.fr/",
+      "clubLabel": "FC Sochaux-Montbéliard",
+      "stadiumLabel": "Stade Auguste Bonal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19513",
+      "stadium": "http://www.wikidata.org/entity/Q815833",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.81279 43.62061)",
+      "capacity": "32900",
+      "website": "http://www.mhscfoot.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Montpellier%20H%C3%A9rault%20Sport%20Club%20%28logo%2C%202000%29.svg",
+      "clubLabel": "Montpellier Hérault Sport Club",
+      "stadiumLabel": "Stade de la Mosson"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19523",
+      "stadium": "http://www.wikidata.org/entity/Q1341607",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.21222 48.696)",
+      "capacity": "20087",
+      "website": "http://www.asnl.net/",
+      "clubLabel": "A.S. Nancy-Lorraine",
+      "stadiumLabel": "Stade Marcel Picot"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19521",
+      "stadium": "http://www.wikidata.org/entity/Q861000",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.390171 45.460749)",
+      "capacity": "41965",
+      "website": "https://www.asse.fr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20AS%20Saint-%C3%89tienne.svg",
+      "clubLabel": "AS Saint-Étienne",
+      "stadiumLabel": "Stade Geoffroy-Guichard"
+    }
+  ]
+}

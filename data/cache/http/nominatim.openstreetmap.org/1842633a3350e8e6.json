@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.498800&lon=0.169700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":100020042,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":202378987,\"lat\":\"49.4987755\",\"lon\":\"0.1697667\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.223392080563085e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Parvis, Champs Barets, Le Havre, Seine-Maritime, Normandie, France métropolitaine, 76610, France\",\"address\":{\"road\":\"Parvis\",\"suburb\":\"Champs Barets\",\"city_district\":\"Le Havre\",\"city\":\"Le Havre\",\"municipality\":\"Le Havre\",\"county\":\"Seine-Maritime\",\"ISO3166-2-lvl6\":\"FR-76\",\"state\":\"Normandie\",\"ISO3166-2-lvl4\":\"FR-NOR\",\"region\":\"France métropolitaine\",\"postcode\":\"76610\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"49.4982380\",\"49.4993131\",\"0.1692235\",\"0.1703099\"]}",
+  "fetchedAt": "2026-10-12T16:48:26.406Z"
+}

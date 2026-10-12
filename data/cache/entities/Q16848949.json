@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q16848949",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo Cesena FC 2018.png"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Cesena FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Cesena FC"
+      }
+    }
+  }
+}

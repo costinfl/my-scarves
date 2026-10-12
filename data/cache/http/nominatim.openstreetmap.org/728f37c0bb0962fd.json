@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.360000&lon=9.731111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":141174565,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":27416158,\"lat\":\"52.3600088\",\"lon\":\"9.7312186\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.639047837029095e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Lodemannweg, Calenberger Neustadt, Mitte, Hannover, Region Hannover, Niedersachsen, 30169, Deutschland\",\"address\":{\"road\":\"Lodemannweg\",\"suburb\":\"Calenberger Neustadt\",\"city_district\":\"Mitte\",\"city\":\"Hannover\",\"county\":\"Region Hannover\",\"state\":\"Niedersachsen\",\"ISO3166-2-lvl4\":\"DE-NI\",\"postcode\":\"30169\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"52.3594706\",\"52.3605470\",\"9.7305746\",\"9.7318627\"]}",
+  "fetchedAt": "2026-10-12T16:49:14.502Z"
+}

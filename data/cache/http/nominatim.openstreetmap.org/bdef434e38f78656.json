@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.489944&lon=7.236489&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":115207672,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":181891214,\"lat\":\"51.4899159\",\"lon\":\"7.2365082\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.923857480730934e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Castroper Straße, Innenstadt, Bochum-Mitte, Bochum, Nordrhein-Westfalen, 44791, Deutschland\",\"address\":{\"road\":\"Castroper Straße\",\"suburb\":\"Innenstadt\",\"borough\":\"Bochum-Mitte\",\"city\":\"Bochum\",\"state\":\"Nordrhein-Westfalen\",\"ISO3166-2-lvl4\":\"DE-NW\",\"postcode\":\"44791\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"51.4893832\",\"51.4904510\",\"7.2355468\",\"7.2374695\"]}",
+  "fetchedAt": "2026-10-12T16:49:35.769Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.841450&lon=2.253050&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":98524662,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":88005247,\"lat\":\"48.8414231\",\"lon\":\"2.2530607\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":9.317235065227768e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Boulevard Périphérique Extérieur, Quartier d'Auteuil, Paris 16e Arrondissement, Paris, Île-de-France, France métropolitaine, 75016, France\",\"address\":{\"road\":\"Boulevard Périphérique Extérieur\",\"suburb\":\"Quartier d'Auteuil\",\"city_district\":\"Paris\",\"city\":\"Paris\",\"ISO3166-2-lvl6\":\"FR-75C\",\"state\":\"Île-de-France\",\"ISO3166-2-lvl4\":\"FR-IDF\",\"region\":\"France métropolitaine\",\"postcode\":\"75016\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"48.8408298\",\"48.8420341\",\"2.2522140\",\"2.2539265\"]}",
+  "fetchedAt": "2026-10-12T16:48:35.479Z"
+}

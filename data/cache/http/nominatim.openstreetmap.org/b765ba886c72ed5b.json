@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.239000&lon=8.888278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":124537466,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":448879,\"lat\":\"49.2380604\",\"lon\":\"8.8866642\",\"category\":\"building\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.010452429994686e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"1, Dietmar-Hopp-Straße, Sinsheim, VVG der Stadt Sinsheim, Rhein-Neckar-Kreis, Baden-Württemberg, 74889, Deutschland\",\"address\":{\"house_number\":\"1\",\"road\":\"Dietmar-Hopp-Straße\",\"town\":\"Sinsheim\",\"city\":\"Sinsheim\",\"municipality\":\"VVG der Stadt Sinsheim\",\"county\":\"Rhein-Neckar-Kreis\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"74889\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.2369857\",\"49.2390619\",\"8.8861413\",\"8.8891312\"]}",
+  "fetchedAt": "2026-10-12T16:49:33.577Z"
+}

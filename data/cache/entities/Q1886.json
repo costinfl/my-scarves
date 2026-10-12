@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1886",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Atalanta BC.png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52816"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Atalanta BC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Atalanta BC"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-12T16:43:43.975Z",
+  "version": 2,
+  "entity": {
+    "id": "Q289482",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo of AC Monza.png"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AC Monza"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "AC Monza"
+      }
+    }
+  }
+}

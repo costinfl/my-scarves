@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.748611&lon=-8.813056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296404081,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":177037521,\"lat\":\"39.7487653\",\"lon\":\"-8.8129359\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.291981383988735e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rua do Estádio, Quinta do Cabeço, São Romão, Leiria, Pousos, Barreira e Cortes, Leiria, 2400-265, Portugal\",\"address\":{\"road\":\"Rua do Estádio\",\"neighbourhood\":\"Quinta do Cabeço\",\"suburb\":\"São Romão\",\"city_district\":\"Leiria, Pousos, Barreira e Cortes\",\"city\":\"Leiria\",\"county\":\"Leiria\",\"ISO3166-2-lvl6\":\"PT-10\",\"postcode\":\"2400-265\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"39.7482354\",\"39.7492952\",\"-8.8133876\",\"-8.8124842\"]}",
+  "fetchedAt": "2026-10-12T16:51:45.143Z"
+}

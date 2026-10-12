@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.582778&lon=9.308056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":74746192,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":836766299,\"lat\":\"45.5830637\",\"lon\":\"9.3081120\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.859464408326875e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Franco Tognini, Cristo Re, Monza, Monza e della Brianza, Lombardia, 20852, Italia\",\"address\":{\"road\":\"Via Franco Tognini\",\"suburb\":\"Cristo Re\",\"city\":\"Monza\",\"county\":\"Monza e della Brianza\",\"ISO3166-2-lvl6\":\"IT-MB\",\"state\":\"Lombardia\",\"ISO3166-2-lvl4\":\"IT-25\",\"postcode\":\"20852\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.5825181\",\"45.5836094\",\"9.3075397\",\"9.3086843\"]}",
+  "fetchedAt": "2026-10-12T16:49:45.020Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.928333&lon=-8.248611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":287431994,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":104701333,\"lat\":\"40.9283318\",\"lon\":\"-8.2487338\",\"category\":\"highway\",\"type\":\"secondary\",\"place_rank\":26,\"importance\":0.05338807736324098,\"addresstype\":\"road\",\"name\":\"EN 326\",\"display_name\":\"EN 326, Crasto, Arouca e Burgo, Arouca, Aveiro, 4540-102, Portugal\",\"address\":{\"road\":\"EN 326\",\"hamlet\":\"Crasto\",\"city_district\":\"Arouca e Burgo\",\"town\":\"Arouca\",\"county\":\"Aveiro\",\"ISO3166-2-lvl6\":\"PT-01\",\"postcode\":\"4540-102\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"40.9282277\",\"40.9284526\",\"-8.2488830\",\"-8.2485859\"]}",
+  "fetchedAt": "2026-10-12T16:51:22.929Z"
+}

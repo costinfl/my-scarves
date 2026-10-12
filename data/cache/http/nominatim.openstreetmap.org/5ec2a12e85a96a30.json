@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.959580&lon=0.221290&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":95959238,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":182386424,\"lat\":\"47.9593494\",\"lon\":\"0.2215784\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":7.036163881890619e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"Chemin aux Bœufs, Le Tertre Rouge, Le Mans, Sarthe, Pays de la Loire, France métropolitaine, 72100, France\",\"address\":{\"road\":\"Chemin aux Bœufs\",\"quarter\":\"Le Tertre Rouge\",\"city\":\"Le Mans\",\"municipality\":\"Le Mans\",\"county\":\"Sarthe\",\"ISO3166-2-lvl6\":\"FR-72\",\"state\":\"Pays de la Loire\",\"ISO3166-2-lvl4\":\"FR-PDL\",\"region\":\"France métropolitaine\",\"postcode\":\"72100\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"47.9589650\",\"47.9597552\",\"0.2212795\",\"0.2218401\"]}",
+  "fetchedAt": "2026-10-12T16:48:27.281Z"
+}

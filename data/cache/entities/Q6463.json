@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q6463",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2608042"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC St. Pauli"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC St. Pauli"
+      }
+    }
+  }
+}

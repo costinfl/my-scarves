@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.218775&lon=11.624753&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":128116099,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":123121774,\"lat\":\"48.2187940\",\"lon\":\"11.6247020\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.462272068355866e-05,\"addresstype\":\"leisure\",\"name\":\"Allianz Arena\",\"display_name\":\"Allianz Arena, Hans-Jensen-Weg, Betriebshof Nord, Freimann, Schwabing-Freimann, München, Bayern, 80939, Deutschland\",\"address\":{\"leisure\":\"Allianz Arena\",\"road\":\"Hans-Jensen-Weg\",\"industrial\":\"Betriebshof Nord\",\"suburb\":\"Freimann\",\"city_district\":\"Schwabing-Freimann\",\"city\":\"München\",\"state\":\"Bayern\",\"ISO3166-2-lvl4\":\"DE-BY\",\"postcode\":\"80939\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.2182586\",\"48.2193294\",\"11.6240741\",\"11.6253298\"]}",
+  "fetchedAt": "2026-10-12T16:49:08.261Z"
+}

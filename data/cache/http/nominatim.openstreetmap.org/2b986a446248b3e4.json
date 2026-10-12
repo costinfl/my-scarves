@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.307677&lon=-0.325234&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":290568487,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":694338579,\"lat\":\"43.3076706\",\"lon\":\"-0.3250853\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8114747844617646e-05,\"addresstype\":\"leisure\",\"name\":\"Nouste Camp\",\"display_name\":\"Nouste Camp, Chemin de Bernadou, Bizanos, Pau, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64320, France\",\"address\":{\"leisure\":\"Nouste Camp\",\"road\":\"Chemin de Bernadou\",\"village\":\"Bizanos\",\"municipality\":\"Pau\",\"county\":\"Pyrénées-Atlantiques\",\"ISO3166-2-lvl6\":\"FR-64\",\"state\":\"Nouvelle-Aquitaine\",\"ISO3166-2-lvl4\":\"FR-NAQ\",\"region\":\"France métropolitaine\",\"postcode\":\"64320\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"43.3070576\",\"43.3082834\",\"-0.3257767\",\"-0.3243940\"]}",
+  "fetchedAt": "2026-10-12T16:48:23.153Z"
+}

@@ -1,0 +1,68 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q15789",
+    "claims": {
+      "P154": [
+        {
+          "rank": "preferred",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Bayern München logo (2024).svg"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo FC Bayern München (2002–2017).svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "35c0020265dd882b92ff53afc3f29993e62a042f",
+                "datavalue": {
+                  "value": {
+                    "time": "+2017-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50037"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Bayern Munich"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Bayern Munich"
+      }
+    }
+  }
+}

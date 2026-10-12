@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.109594&lon=7.641247&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":88661029,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":119509430,\"lat\":\"45.1095825\",\"lon\":\"7.6412589\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.068131532764199e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Druento, Continassa, Vallette, Circoscrizione 5, Torino, Piemonte, 10151, Italia\",\"address\":{\"road\":\"Via Druento\",\"neighbourhood\":\"Continassa\",\"suburb\":\"Vallette\",\"city\":\"Torino\",\"county\":\"Torino\",\"ISO3166-2-lvl6\":\"IT-TO\",\"state\":\"Piemonte\",\"ISO3166-2-lvl4\":\"IT-21\",\"postcode\":\"10151\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.1090487\",\"45.1101086\",\"7.6406731\",\"7.6418461\"]}",
+  "fetchedAt": "2026-10-12T16:50:03.616Z"
+}

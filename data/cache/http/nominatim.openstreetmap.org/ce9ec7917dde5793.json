@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.755000&lon=5.528056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":109902292,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":79730497,\"lat\":\"51.7550563\",\"lon\":\"5.5281466\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.863202868691565e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Nelson Mandelaboulevard, Oss Zuid, Oss, Noord-Brabant, Nederland, 5342 CZ, Nederland\",\"address\":{\"road\":\"Nelson Mandelaboulevard\",\"quarter\":\"Oss Zuid\",\"town\":\"Oss\",\"municipality\":\"Oss\",\"state\":\"Noord-Brabant\",\"ISO3166-2-lvl4\":\"NL-NB\",\"country\":\"Nederland\",\"postcode\":\"5342 CZ\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.7544964\",\"51.7556160\",\"5.5273007\",\"5.5289926\"]}",
+  "fetchedAt": "2026-10-12T16:51:03.808Z"
+}

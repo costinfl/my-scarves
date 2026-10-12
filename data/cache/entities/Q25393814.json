@@ -1,0 +1,37 @@
+{
+  "fetchedAt": "2026-10-12T16:45:15.484Z",
+  "version": 2,
+  "entity": {
+    "id": "Q25393814",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "800000"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "C32148"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Maroon"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "maroon"
+      }
+    }
+  }
+}

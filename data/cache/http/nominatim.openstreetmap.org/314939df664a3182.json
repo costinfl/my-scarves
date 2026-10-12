@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.893894&lon=4.523253&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":109504123,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":136861540,\"lat\":\"51.8938560\",\"lon\":\"4.5231884\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.67399099717253e-05,\"addresstype\":\"leisure\",\"name\":\"De Kuip\",\"display_name\":\"De Kuip, Olympiaweg, Oud-IJsselmonde, IJsselmonde, Rotterdam, Zuid-Holland, Nederland, 3077 AL, Nederland\",\"address\":{\"leisure\":\"De Kuip\",\"road\":\"Olympiaweg\",\"quarter\":\"Oud-IJsselmonde\",\"suburb\":\"IJsselmonde\",\"city\":\"Rotterdam\",\"municipality\":\"Rotterdam\",\"state\":\"Zuid-Holland\",\"ISO3166-2-lvl4\":\"NL-ZH\",\"country\":\"Nederland\",\"postcode\":\"3077 AL\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.8932958\",\"51.8944187\",\"4.5223921\",\"4.5239872\"]}",
+  "fetchedAt": "2026-10-12T16:50:42.220Z"
+}

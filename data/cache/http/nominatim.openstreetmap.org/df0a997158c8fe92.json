@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.459050&lon=-0.531630&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":289937073,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":126911080,\"lat\":\"47.4592190\",\"lon\":\"-0.5316935\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.140840772101958e-05,\"addresstype\":\"leisure\",\"name\":\"Piscine Jean Bouin\",\"display_name\":\"Piscine Jean Bouin, 31, Boulevard Pierre de Coubertin, Justices - Madeleine - Saint-Léonard, Angers, Maine-et-Loire, Pays de la Loire, France métropolitaine, 49000, France\",\"address\":{\"leisure\":\"Piscine Jean Bouin\",\"house_number\":\"31\",\"road\":\"Boulevard Pierre de Coubertin\",\"quarter\":\"Justices - Madeleine - Saint-Léonard\",\"city\":\"Angers\",\"municipality\":\"Angers\",\"county\":\"Maine-et-Loire\",\"ISO3166-2-lvl6\":\"FR-49\",\"state\":\"Pays de la Loire\",\"ISO3166-2-lvl4\":\"FR-PDL\",\"region\":\"France métropolitaine\",\"postcode\":\"49000\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"47.4588570\",\"47.4595810\",\"-0.5324390\",\"-0.5309170\"]}",
+  "fetchedAt": "2026-10-12T16:48:07.971Z"
+}

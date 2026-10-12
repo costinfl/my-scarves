@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.174583&lon=6.385464&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":111956096,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":30683533,\"lat\":\"51.1746302\",\"lon\":\"6.3854021\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.801480125119428e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Dr.-Adalbert-Jordan-Straße, Dorthausen, Rheindahlen-Land, West, Mönchengladbach, Nordrhein-Westfalen, 41179, Deutschland\",\"address\":{\"road\":\"Dr.-Adalbert-Jordan-Straße\",\"hamlet\":\"Dorthausen\",\"suburb\":\"Rheindahlen-Land\",\"city_district\":\"West\",\"city\":\"Mönchengladbach\",\"state\":\"Nordrhein-Westfalen\",\"ISO3166-2-lvl4\":\"DE-NW\",\"postcode\":\"41179\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"51.1740673\",\"51.1751867\",\"6.3846059\",\"6.3861933\"]}",
+  "fetchedAt": "2026-10-12T16:49:02.756Z"
+}

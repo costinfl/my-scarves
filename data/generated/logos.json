@@ -1,10 +1,138 @@
 {
+  "Q631": {
+    "file": "Q631.svg",
+    "commonsFile": "FC Internazionale Milano 2021.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg",
+    "license": "Public domain",
+    "author": "FC Internazionale Milano S.p.A. / Bureau Borsche",
+    "attributionRequired": false
+  },
+  "Q1422": {
+    "file": "Q1422.svg",
+    "commonsFile": "Juventus FC - logo black (Italy, 2020).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juventus_FC_-_logo_black_(Italy,_2020).svg",
+    "license": "Public domain",
+    "author": "Interbrand – Global Brand Consultancy / Juventus Football Club SpA",
+    "attributionRequired": false
+  },
+  "Q1457": {
+    "file": "Q1457.svg",
+    "commonsFile": "Flag of Sampdoria.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sampdoria.svg",
+    "license": "Public domain",
+    "author": "F l a n k e r",
+    "attributionRequired": false
+  },
+  "Q1543": {
+    "file": "Q1543.svg",
+    "commonsFile": "Logo of AC Milan.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_AC_Milan.svg",
+    "license": "Public domain",
+    "author": "A.C. Milan Uploaded by Vargklo at en.wikipedia",
+    "attributionRequired": false
+  },
+  "Q1886": {
+    "file": "Q1886.png",
+    "commonsFile": "Atalanta BC.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atalanta_BC.png",
+    "license": "Public domain",
+    "author": "Atalanta BC",
+    "attributionRequired": false
+  },
+  "Q1893": {
+    "file": "Q1893.svg",
+    "commonsFile": "Bologna F.C. 1909 logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bologna_F.C._1909_logo.svg",
+    "license": "Public domain",
+    "author": "Bologna FC",
+    "attributionRequired": false
+  },
+  "Q2052": {
+    "file": "Q2052.svg",
+    "commonsFile": "ACF Fiorentina - logo (Italy, 2022).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ACF_Fiorentina_-_logo_(Italy,_2022).svg",
+    "license": "Public domain",
+    "author": "FutureBrand Creative Agency / ACF Fiorentina S.r.l. a socio unico",
+    "attributionRequired": false
+  },
+  "Q2609": {
+    "file": "Q2609.svg",
+    "commonsFile": "S.S. Lazio logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S.S._Lazio_logo.svg",
+    "license": "Public domain",
+    "author": "S.S. Lazio",
+    "attributionRequired": false
+  },
+  "Q2641": {
+    "file": "Q2641.svg",
+    "commonsFile": "SSC Napoli 2024 (deep blue navy).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SSC_Napoli_2024_(deep_blue_navy).svg",
+    "license": "Public domain",
+    "author": "Logo: SSC Napoli S.p.A. Upload: The White Lion",
+    "attributionRequired": false
+  },
+  "Q2693": {
+    "file": "Q2693.svg",
+    "commonsFile": "Logo Parma Calcio 1913 (adozione 2016).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Parma_Calcio_1913_(adozione_2016).svg",
+    "license": "Public domain",
+    "author": "Parma Calcio 1913",
+    "attributionRequired": false
+  },
+  "Q2739": {
+    "file": "Q2739.svg",
+    "commonsFile": "AS ROMA Text Logo 2020 - 2021 .svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AS_ROMA_Text_Logo_2020_-_2021_.svg",
+    "license": "Public domain",
+    "author": "Associazione Sportiva Roma S.p.A.",
+    "attributionRequired": false
+  },
+  "Q2798": {
+    "file": "Q2798.svg",
+    "commonsFile": "Udinese Calcio 2010.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Udinese_Calcio_2010.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q4512": {
+    "file": "Q4512.svg",
+    "commonsFile": "VfB Stuttgart 1893 Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VfB_Stuttgart_1893_Logo.svg",
+    "license": "Public domain",
+    "author": "VfB Stuttgart",
+    "attributionRequired": false
+  },
+  "Q6641": {
+    "file": "Q6641.png",
+    "commonsFile": "600pixel Bianco Rosso (Bordato) con gallo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:600pixel_Bianco_Rosso_(Bordato)_con_gallo.png",
+    "license": "CC BY-SA 3.0",
+    "author": "RR6",
+    "attributionRequired": true
+  },
+  "Q6703": {
+    "file": "Q6703.svg",
+    "commonsFile": "Empoli FC logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Empoli_FC_logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q7156": {
     "file": "Q7156.png",
     "commonsFile": "Football Club Barcelona Color Update.png",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Football_Club_Barcelona_Color_Update.png",
     "license": "CC0",
     "author": "HAMDANI 72",
+    "attributionRequired": false
+  },
+  "Q8466": {
+    "file": "Q8466.svg",
+    "commonsFile": "Logo 1 FC Kaiserslautern.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_1_FC_Kaiserslautern.svg",
+    "license": "Public domain",
+    "author": "1. FC Kaiserslautern Gmbh &amp; Co. KGaa",
     "attributionRequired": false
   },
   "Q8749": {
@@ -23,6 +151,22 @@
     "author": "Yawen",
     "attributionRequired": true
   },
+  "Q15786": {
+    "file": "Q15786.svg",
+    "commonsFile": "1. FC Nürnberg logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1._FC_N%C3%BCrnberg_logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q15789": {
+    "file": "Q15789.svg",
+    "commonsFile": "FC Bayern München logo (2024).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Bayern_M%C3%BCnchen_logo_(2024).svg",
+    "license": "Public domain",
+    "author": "FC Bayern Munich",
+    "attributionRequired": false
+  },
   "Q18661": {
     "file": "Q18661.png",
     "commonsFile": "Middlesbrough Walk (27470064759).jpg",
@@ -39,12 +183,340 @@
     "author": "Martin1994ramos",
     "attributionRequired": true
   },
+  "Q19513": {
+    "file": "Q19513.svg",
+    "commonsFile": "Montpellier Hérault Sport Club (logo, 2000).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montpellier_H%C3%A9rault_Sport_Club_(logo,_2000).svg",
+    "license": "Public domain",
+    "author": "Montpellier Hérault Sport Club",
+    "attributionRequired": false
+  },
+  "Q19521": {
+    "file": "Q19521.svg",
+    "commonsFile": "Logo AS Saint-Étienne.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_AS_Saint-%C3%89tienne.svg",
+    "license": "Public domain",
+    "author": "Association Sportive de Saint-Étienne",
+    "attributionRequired": false
+  },
+  "Q22707": {
+    "file": "Q22707.png",
+    "commonsFile": "TSG Logo-Standard 4c.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TSG_Logo-Standard_4c.png",
+    "license": "Public domain",
+    "author": "Template:Lalilu123",
+    "attributionRequired": false
+  },
+  "Q24680": {
+    "file": "Q24680.svg",
+    "commonsFile": "FC Utrecht.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Utrecht.svg",
+    "license": "Public domain",
+    "author": "FC Utrecht",
+    "attributionRequired": false
+  },
+  "Q24689": {
+    "file": "Q24689.svg",
+    "commonsFile": "VVV Venlo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VVV_Venlo.svg",
+    "license": "Public domain",
+    "author": "VVV-Venlo",
+    "attributionRequired": false
+  },
+  "Q24711": {
+    "file": "Q24711.svg",
+    "commonsFile": "FC Groningen logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Groningen_logo.svg",
+    "license": "Public domain",
+    "author": "FC Groningen",
+    "attributionRequired": false
+  },
+  "Q24719": {
+    "file": "Q24719.svg",
+    "commonsFile": "Roda JC Kerkrade.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roda_JC_Kerkrade.svg",
+    "license": "Public domain",
+    "author": "Roda JC Kerkrade",
+    "attributionRequired": false
+  },
+  "Q24904": {
+    "file": "Q24904.png",
+    "commonsFile": "Logo of ADO Den Haag on a poster (17058468161).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_ADO_Den_Haag_on_a_poster_(17058468161).jpg",
+    "license": "CC BY 2.0",
+    "author": "Ben Sutherland from Crystal Palace, London, UK",
+    "attributionRequired": true
+  },
+  "Q32494": {
+    "file": "Q32494.svg",
+    "commonsFile": "FC Schalke 04 Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Schalke_04_Logo.svg",
+    "license": "Public domain",
+    "author": "FC Schalke 04",
+    "attributionRequired": false
+  },
+  "Q33748": {
+    "file": "Q33748.svg",
+    "commonsFile": "Hannover 96 Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hannover_96_Logo.svg",
+    "license": "Public domain",
+    "author": "Hannoverscher Sportverein von 1896",
+    "attributionRequired": false
+  },
+  "Q41420": {
+    "file": "Q41420.svg",
+    "commonsFile": "Borussia Dortmund logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borussia_Dortmund_logo.svg",
+    "license": "Public domain",
+    "author": "Lispir (Lispir)",
+    "attributionRequired": false
+  },
+  "Q51974": {
+    "file": "Q51974.svg",
+    "commonsFile": "Hamburger SV logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_SV_logo.svg",
+    "license": "Public domain",
+    "author": "Hamburger SV",
+    "attributionRequired": false
+  },
+  "Q51976": {
+    "file": "Q51976.svg",
+    "commonsFile": "SV-Werder-Bremen-Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV-Werder-Bremen-Logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q101859": {
+    "file": "Q101859.svg",
+    "commonsFile": "VfL Wolfsburg logo 2026.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VfL_Wolfsburg_logo_2026.svg",
+    "license": "Public domain",
+    "author": "VfL Wolfsburg-Fußball GmbH",
+    "attributionRequired": false
+  },
+  "Q101959": {
+    "file": "Q101959.svg",
+    "commonsFile": "Borussia Mönchengladbach logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borussia_M%C3%B6nchengladbach_logo.svg",
+    "license": "Public domain",
+    "author": "Borussia Mönchengladbach",
+    "attributionRequired": false
+  },
+  "Q102720": {
+    "file": "Q102720.svg",
+    "commonsFile": "Hertha BSC Logo 2012.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hertha_BSC_Logo_2012.svg",
+    "license": "Public domain",
+    "author": "Hertha, Berliner SC e. V. / Hertha BSC GmbH &amp; Co KGaA (Lizenzrechteinhaber)",
+    "attributionRequired": false
+  },
+  "Q104770": {
+    "file": "Q104770.svg",
+    "commonsFile": "1. FC Koeln Logo 2014–.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1._FC_Koeln_Logo_2014%E2%80%93.svg",
+    "license": "CC BY-SA 4.0",
+    "author": "1. FC Köln",
+    "attributionRequired": true
+  },
+  "Q105254": {
+    "file": "Q105254.svg",
+    "commonsFile": "Logo Mainz 05.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Mainz_05.svg",
+    "license": "Public domain",
+    "author": "1. FSV Mainz 05",
+    "attributionRequired": false
+  },
+  "Q105844": {
+    "file": "Q105844.svg",
+    "commonsFile": "Arminia Bielefeld Logo 2021–.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+    "license": "Public domain",
+    "author": "DSC Arminia Bielefeld",
+    "attributionRequired": false
+  },
+  "Q105853": {
+    "file": "Q105853.svg",
+    "commonsFile": "Karlsruher SC Logo 2.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karlsruher_SC_Logo_2.svg",
+    "license": "Public domain",
+    "author": "Karlsruher SC",
+    "attributionRequired": false
+  },
+  "Q105861": {
+    "file": "Q105861.svg",
+    "commonsFile": "VfL Bochum logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VfL_Bochum_logo.svg",
+    "license": "Public domain",
+    "author": "VfL Bochum",
+    "attributionRequired": false
+  },
+  "Q107818": {
+    "file": "Q107818.svg",
+    "commonsFile": "Logo Energie Cottbus.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Energie_Cottbus.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q126334": {
+    "file": "Q126334.png",
+    "commonsFile": "Racing Club de Strasbourg contre Racing Lens décembre 2016 .jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Racing_Club_de_Strasbourg_contre_Racing_Lens_d%C3%A9cembre_2016_.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "KOBI FRANCK",
+    "attributionRequired": true
+  },
+  "Q128446": {
+    "file": "Q128446.png",
+    "commonsFile": "Emblema F C Porto (derived).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emblema_F_C_Porto_(derived).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Manuel de Sousa / JotaCartas",
+    "attributionRequired": true
+  },
+  "Q132885": {
+    "file": "Q132885.svg",
+    "commonsFile": "Olympique de Marseille 2026 logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olympique_de_Marseille_2026_logo.svg",
+    "license": "Public domain",
+    "author": "Olympique de Marseille",
+    "attributionRequired": false
+  },
+  "Q141931": {
+    "file": "Q141931.svg",
+    "commonsFile": "Logo Dinamo Dresde desde 2011.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Dinamo_Dresde_desde_2011.svg",
+    "license": "Public domain",
+    "author": "SG Dinamo Dresde (SG Dynamo Dresden e.V. Lennéstraße 12 01069 Dresden teléfono : +49 351 439 43 0 fax : +49 351 439 43 13 verein@dynamo-dresden.de https://www.dynamo-dresden.de https://www.youtube.com/channel/UCTRY6TKbFpRuPvAIDJVKuaA https://www.facebook.com/dynamodresden.de/ https://www.instagram.com/sgdynamodresden/?hl=de https://twitter.com/DynamoDresden )",
+    "attributionRequired": false
+  },
+  "Q153539": {
+    "file": "Q153539.svg",
+    "commonsFile": "SpVgg Greuther Fürth 2017.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SpVgg_Greuther_F%C3%BCrth_2017.svg",
+    "license": "Public domain",
+    "author": "unbekannt",
+    "attributionRequired": false
+  },
+  "Q154053": {
+    "file": "Q154053.png",
+    "commonsFile": "600px Giallo e Blu con stemma Eintracht Braunschweig.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png",
+    "license": "CC BY-SA 3.0",
+    "author": "Skawise",
+    "attributionRequired": true
+  },
+  "Q154293": {
+    "file": "Q154293.svg",
+    "commonsFile": "Msv duisburg (2017).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Msv_duisburg_(2017).svg",
+    "license": "Public domain",
+    "author": "MSV Duisburg",
+    "attributionRequired": false
+  },
+  "Q155730": {
+    "file": "Q155730.svg",
+    "commonsFile": "1. FC Magdeburg.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1._FC_Magdeburg.svg",
+    "license": "Public domain",
+    "author": "1. FC Magdeburg",
+    "attributionRequired": false
+  },
+  "Q157352": {
+    "file": "Q157352.svg",
+    "commonsFile": "FSV Frankfurt 1899.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FSV_Frankfurt_1899.svg",
+    "license": "Public domain",
+    "author": "FSV Frankfurt",
+    "attributionRequired": false
+  },
+  "Q157828": {
+    "file": "Q157828.svg",
+    "commonsFile": "Holstein Kiel Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holstein_Kiel_Logo.svg",
+    "license": "Public domain",
+    "author": "Kieler Sportvereinigung Holstein von 1900 e.V.",
+    "attributionRequired": false
+  },
+  "Q160530": {
+    "file": "Q160530.svg",
+    "commonsFile": "VfL Osnabrueck Logo 2021–.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VfL_Osnabrueck_Logo_2021%E2%80%93.svg",
+    "license": "Public domain",
+    "author": "VfL Osnabrück",
+    "attributionRequired": false
+  },
+  "Q160532": {
+    "file": "Q160532.svg",
+    "commonsFile": "SC Paderborn 07 Logo new.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SC_Paderborn_07_Logo_new.svg",
+    "license": "Public domain",
+    "author": "SC Paderborn 07 e.V.",
+    "attributionRequired": false
+  },
+  "Q162251": {
+    "file": "Q162251.svg",
+    "commonsFile": "1. FC Heidenheim 1846.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1._FC_Heidenheim_1846.svg",
+    "license": "Public domain",
+    "author": "1. FC Heidenheim",
+    "attributionRequired": false
+  },
+  "Q185163": {
+    "file": "Q185163.svg",
+    "commonsFile": "OGC Nice (simplified logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OGC_Nice_(simplified_logo).svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q191264": {
+    "file": "Q191264.svg",
+    "commonsFile": "AZ Alkmaar.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AZ_Alkmaar.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q192071": {
+    "file": "Q192071.svg",
+    "commonsFile": "Logo FC Nantes (avec fond) - 2019.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FC_Nantes_(avec_fond)_-_2019.svg",
+    "license": "Public domain",
+    "author": "FC Nantes",
+    "attributionRequired": false
+  },
   "Q204237": {
     "file": "Q204237.svg",
     "commonsFile": "FC Dinamo București - logo 2026.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Dinamo_Bucure%C8%99ti_-_logo_2026.svg",
     "license": "Public domain",
     "author": "FC Dinamo 1948 București",
+    "attributionRequired": false
+  },
+  "Q208228": {
+    "file": "Q208228.svg",
+    "commonsFile": "Stade Reims.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stade_Reims.svg",
+    "license": "Public domain",
+    "author": "Stade de Reims",
+    "attributionRequired": false
+  },
+  "Q209509": {
+    "file": "Q209509.png",
+    "commonsFile": "Logo GF38 (cropped).png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_GF38_(cropped).png",
+    "license": "CC BY-SA 4.0",
+    "author": "Grenoble Foot 38",
+    "attributionRequired": true
+  },
+  "Q216510": {
+    "file": "Q216510.png",
+    "commonsFile": "Os Belenenses.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Os_Belenenses.png",
+    "license": "Public domain",
+    "author": "Clube de Futebol Os Belenenses",
     "attributionRequired": false
   },
   "Q216661": {
@@ -55,6 +527,158 @@
     "author": "Cd tenerife",
     "attributionRequired": true
   },
+  "Q221525": {
+    "file": "Q221525.svg",
+    "commonsFile": "FC Metz 2021 Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Metz_2021_Logo.svg",
+    "license": "Public domain",
+    "author": "Fc Metz",
+    "attributionRequired": false
+  },
+  "Q221927": {
+    "file": "Q221927.svg",
+    "commonsFile": "Logo Betaald Voetbal De Graafschap.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Betaald_Voetbal_De_Graafschap.svg",
+    "license": "Public domain",
+    "author": "Dennis van Amerongen",
+    "attributionRequired": false
+  },
+  "Q257078": {
+    "file": "Q257078.svg",
+    "commonsFile": "Logo of Pordenone Calcio (2018).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_Pordenone_Calcio_(2018).svg",
+    "license": "Public domain",
+    "author": "OttavianoLolnoob",
+    "attributionRequired": false
+  },
+  "Q269151": {
+    "file": "Q269151.svg",
+    "commonsFile": "PEC Zwolle logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PEC_Zwolle_logo.svg",
+    "license": "Public domain",
+    "author": "PEC Zwolle",
+    "attributionRequired": false
+  },
+  "Q289482": {
+    "file": "Q289482.png",
+    "commonsFile": "Logo of AC Monza.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_AC_Monza.png",
+    "license": "Public domain",
+    "author": "AC Monza Uploaded by Giorgio Pallavicini",
+    "attributionRequired": false
+  },
+  "Q289613": {
+    "file": "Q289613.svg",
+    "commonsFile": "Logo Pisa Sporting Club.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Pisa_Sporting_Club.svg",
+    "license": "Public domain",
+    "author": "Pisa Sporting Club S.r.l.",
+    "attributionRequired": false
+  },
+  "Q292231": {
+    "file": "Q292231.svg",
+    "commonsFile": "Rodez AF.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rodez_AF.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q332642": {
+    "file": "Q332642.svg",
+    "commonsFile": "Logo NAC Breda.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_NAC_Breda.svg",
+    "license": "Public domain",
+    "author": "Original: NAC Breda Vector: Strepulah",
+    "attributionRequired": false
+  },
+  "Q370712": {
+    "file": "Q370712.svg",
+    "commonsFile": "Excelsior Rotterdam logo 2021.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Excelsior_Rotterdam_logo_2021.svg",
+    "license": "Public domain",
+    "author": "https://excelsiorrotterdam.nl/",
+    "attributionRequired": false
+  },
+  "Q430993": {
+    "file": "Q430993.svg",
+    "commonsFile": "Logo Mantova 1911.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Mantova_1911.svg",
+    "license": "Public domain",
+    "author": "Mantova 1911 s.r.l.",
+    "attributionRequired": false
+  },
+  "Q459148": {
+    "file": "Q459148.svg",
+    "commonsFile": "Logo EA Guingamp 2019.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_EA_Guingamp_2019.svg",
+    "license": "Public domain",
+    "author": "En Avant Guingamp",
+    "attributionRequired": false
+  },
+  "Q479351": {
+    "file": "Q479351.svg",
+    "commonsFile": "SV Darmstadt 98 Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Darmstadt_98_Logo.svg",
+    "license": "Public domain",
+    "author": "SV Darmstadt 1898 e.V.",
+    "attributionRequired": false
+  },
+  "Q501693": {
+    "file": "Q501693.svg",
+    "commonsFile": "ES Troyes AC.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ES_Troyes_AC.svg",
+    "license": "Public domain",
+    "author": "Espérance Sportive Troyes Aube Champagne",
+    "attributionRequired": false
+  },
+  "Q522283": {
+    "file": "Q522283.svg",
+    "commonsFile": "Logo Red Star FC 2014.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Red_Star_FC_2014.svg",
+    "license": "Public domain",
+    "author": "Red Star FC",
+    "attributionRequired": false
+  },
+  "Q653119": {
+    "file": "Q653119.png",
+    "commonsFile": "Almere City FC logo.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Almere_City_FC_logo.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Youri165",
+    "attributionRequired": true
+  },
+  "Q692586": {
+    "file": "Q692586.svg",
+    "commonsFile": "VfR Aalen Wappen.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VfR_Aalen_Wappen.svg",
+    "license": "Public domain",
+    "author": "VfR Aalen Wappen",
+    "attributionRequired": false
+  },
+  "Q692691": {
+    "file": "Q692691.svg",
+    "commonsFile": "SV Elversberg Logo 2021.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Elversberg_Logo_2021.svg",
+    "license": "Public domain",
+    "author": "SV Elversberg",
+    "attributionRequired": false
+  },
+  "Q702455": {
+    "file": "Q702455.png",
+    "commonsFile": "2019-07-12 Fußball; Freundschaftsspiel RB Leipzig - FC Zürich 1DX 0881 by Stepro 2.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-12_Fu%C3%9Fball;_Freundschaftsspiel_RB_Leipzig_-_FC_Z%C3%BCrich_1DX_0881_by_Stepro_2.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Steffen Prößdorf, edited by User:CennoxX",
+    "attributionRequired": true
+  },
+  "Q749589": {
+    "file": "Q749589.png",
+    "commonsFile": "Go Ahead Eagles logo 2015-heden.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Go_Ahead_Eagles_logo_2015-heden.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Go Ahead Eagles",
+    "attributionRequired": true
+  },
   "Q753462": {
     "file": "Q753462.svg",
     "commonsFile": "Logo Universitatea Cluj.svg",
@@ -63,12 +687,116 @@
     "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
+  "Q760736": {
+    "file": "Q760736.png",
+    "commonsFile": "LogoStadeLavalloisMayenneFC 2015.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LogoStadeLavalloisMayenneFC_2015.png",
+    "license": "Public domain",
+    "author": "Stade Lavallois Mayenne Football Club",
+    "attributionRequired": false
+  },
+  "Q838134": {
+    "file": "Q838134.svg",
+    "commonsFile": "Símbolo Estrela da Amadora.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%ADmbolo_Estrela_da_Amadora.svg",
+    "license": "Public domain",
+    "author": "C.F. Estrela da Amadora",
+    "attributionRequired": false
+  },
+  "Q845137": {
+    "file": "Q845137.svg",
+    "commonsFile": "Angers Sporting Club de l'Ouest logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angers_Sporting_Club_de_l%27Ouest_logo.svg",
+    "license": "Public domain",
+    "author": "Angers Sporting Club de l'Ouest",
+    "attributionRequired": false
+  },
+  "Q875120": {
+    "file": "Q875120.png",
+    "commonsFile": "Wapen SC Cambuur.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wapen_SC_Cambuur.png",
+    "license": "CC BY-SA 4.0",
+    "author": "SC Cambuur",
+    "attributionRequired": true
+  },
+  "Q1023227": {
+    "file": "Q1023227.svg",
+    "commonsFile": "CD Tondela (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CD_Tondela_(logo).svg",
+    "license": "Public domain",
+    "author": "CD Tondela",
+    "attributionRequired": false
+  },
+  "Q1120838": {
+    "file": "Q1120838.svg",
+    "commonsFile": "Calcio Como - logo (Italy, 2019-).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calcio_Como_-_logo_(Italy,_2019-).svg",
+    "license": "Public domain",
+    "author": "Como 1907 srl",
+    "attributionRequired": false
+  },
   "Q1130849": {
     "file": "Q1130849.png",
     "commonsFile": "Logo Liverpool FC (2024).png",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Liverpool_FC_(2024).png",
     "license": "Public domain",
     "author": "Liverpool FC",
+    "attributionRequired": false
+  },
+  "Q1132418": {
+    "file": "Q1132418.svg",
+    "commonsFile": "Logo FC Martigues - 2020.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FC_Martigues_-_2020.svg",
+    "license": "Public domain",
+    "author": "Football Club de Martigues",
+    "attributionRequired": false
+  },
+  "Q1140695": {
+    "file": "Q1140695.png",
+    "commonsFile": "Logo annecy.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_annecy.png",
+    "license": "CC BY-SA 4.0",
+    "author": "MaLigue2",
+    "attributionRequired": true
+  },
+  "Q2410944": {
+    "file": "Q2410944.svg",
+    "commonsFile": "A.C. Viseu.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A.C._Viseu.svg",
+    "license": "Public domain",
+    "author": "Académico de Viseu FC",
+    "attributionRequired": false
+  },
+  "Q14551982": {
+    "file": "Q14551982.svg",
+    "commonsFile": "SSV Ulm 1846 Fussball.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SSV_Ulm_1846_Fussball.svg",
+    "license": "Public domain",
+    "author": "SSV Ulm 1846 Fußball e.V.",
+    "attributionRequired": false
+  },
+  "Q16848949": {
+    "file": "Q16848949.png",
+    "commonsFile": "Logo Cesena FC 2018.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Cesena_FC_2018.png",
+    "license": "Public domain",
+    "author": "RC Cesena FC ASD",
+    "attributionRequired": false
+  },
+  "Q56542463": {
+    "file": "Q56542463.svg",
+    "commonsFile": "LR Vicenza Virtus (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LR_Vicenza_Virtus_(logo).svg",
+    "license": "Public domain",
+    "author": "LR Vicenza Virtus",
+    "attributionRequired": false
+  },
+  "Q97905930": {
+    "file": "Q97905930.svg",
+    "commonsFile": "Hamburger SV logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_SV_logo.svg",
+    "license": "Public domain",
+    "author": "Hamburger SV",
     "attributionRequired": false
   }
 }

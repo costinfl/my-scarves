@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.988889&lon=7.893056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":93485029,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":193413739,\"lat\":\"47.9889343\",\"lon\":\"7.8928888\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.206607156476718e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Schwarzwaldstraße, Waldsee, Freiburg im Breisgau, Baden-Württemberg, 79117, Deutschland\",\"address\":{\"road\":\"Schwarzwaldstraße\",\"suburb\":\"Waldsee\",\"city\":\"Freiburg im Breisgau\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"79117\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"47.9883773\",\"47.9894867\",\"7.8921961\",\"7.8935867\"]}",
+  "fetchedAt": "2026-10-12T16:49:21.481Z"
+}

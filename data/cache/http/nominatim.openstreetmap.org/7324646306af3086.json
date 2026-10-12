@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.792222&lon=9.231944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":123019162,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":34685362,\"lat\":\"48.7922531\",\"lon\":\"9.2320788\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.8644235904433e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Mercedesstraße, Wasen, Bad Cannstatt, Stuttgart, Baden-Württemberg, 70372, Deutschland\",\"address\":{\"road\":\"Mercedesstraße\",\"neighbourhood\":\"Wasen\",\"suburb\":\"Bad Cannstatt\",\"city\":\"Stuttgart\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"70372\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.7916893\",\"48.7928170\",\"9.2311784\",\"9.2329792\"]}",
+  "fetchedAt": "2026-10-12T16:49:34.286Z"
+}

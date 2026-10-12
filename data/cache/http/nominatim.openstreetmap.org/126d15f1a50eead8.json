@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.919722&lon=16.587778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56150214,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":167362756,\"lat\":\"38.9197152\",\"lon\":\"16.5878313\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.589227130536382e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Francesco Paglia, Pontepiccolo, Catanzaro, Calabria, 88100, Italia\",\"address\":{\"road\":\"Via Francesco Paglia\",\"suburb\":\"Pontepiccolo\",\"city\":\"Catanzaro\",\"county\":\"Catanzaro\",\"ISO3166-2-lvl6\":\"IT-CZ\",\"state\":\"Calabria\",\"ISO3166-2-lvl4\":\"IT-78\",\"postcode\":\"88100\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"38.9194000\",\"38.9200303\",\"16.5872091\",\"16.5884536\"]}",
+  "fetchedAt": "2026-10-12T16:50:21.213Z"
+}

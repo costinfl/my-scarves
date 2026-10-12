@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.512000&lon=-8.082820&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286168010,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":640773825,\"lat\":\"40.5120237\",\"lon\":\"-8.0828285\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.429083695730552e-05,\"addresstype\":\"leisure\",\"name\":\"Clube Desportivo de Tondela\",\"display_name\":\"Clube Desportivo de Tondela, Rua Doutor Eurico José Gouveia, Carvalhal, Tondela e Nandufe, Tondela, Viseu, 3460-582, Portugal\",\"address\":{\"leisure\":\"Clube Desportivo de Tondela\",\"road\":\"Rua Doutor Eurico José Gouveia\",\"hamlet\":\"Carvalhal\",\"city_district\":\"Tondela e Nandufe\",\"city\":\"Tondela\",\"county\":\"Viseu\",\"ISO3166-2-lvl6\":\"PT-18\",\"postcode\":\"3460-582\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"40.5115402\",\"40.5125004\",\"-8.0835711\",\"-8.0820856\"]}",
+  "fetchedAt": "2026-10-12T16:51:21.694Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.727778&lon=7.415556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":82280253,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":4224978,\"lat\":\"43.7275872\",\"lon\":\"7.4155485\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.896620126645331e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenue des Castelans, Fontvieille, Monaco, 98020, Monaco\",\"address\":{\"road\":\"Avenue des Castelans\",\"suburb\":\"Fontvieille\",\"ISO3166-2-lvl10\":\"MC-FO\",\"town\":\"Monaco\",\"postcode\":\"98020\",\"country\":\"Monaco\",\"country_code\":\"mc\"},\"boundingbox\":[\"43.7270373\",\"43.7281370\",\"7.4147887\",\"7.4163083\"]}",
+  "fetchedAt": "2026-10-12T16:48:09.702Z"
+}

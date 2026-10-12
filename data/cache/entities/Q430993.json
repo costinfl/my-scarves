@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q430993",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo Mantova 1911.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Mantova 1911"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Mantova 1911"
+      }
+    }
+  }
+}

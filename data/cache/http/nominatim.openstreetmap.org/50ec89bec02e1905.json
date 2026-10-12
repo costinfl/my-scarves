@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.554503&lon=7.067589&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":113744761,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1281887164,\"lat\":\"51.5536744\",\"lon\":\"7.0674047\",\"category\":\"tourism\",\"type\":\"museum\",\"place_rank\":30,\"importance\":6.874570840004604e-05,\"addresstype\":\"tourism\",\"name\":\"Schalke-Museum\",\"display_name\":\"Schalke-Museum, 1, Arenaring, Erle-Berger Feld, Erle, Gelsenkirchen-Ost, Gelsenkirchen, Nordrhein-Westfalen, 45891, Deutschland\",\"address\":{\"tourism\":\"Schalke-Museum\",\"house_number\":\"1\",\"road\":\"Arenaring\",\"neighbourhood\":\"Erle-Berger Feld\",\"suburb\":\"Erle\",\"city_district\":\"Gelsenkirchen-Ost\",\"city\":\"Gelsenkirchen\",\"state\":\"Nordrhein-Westfalen\",\"ISO3166-2-lvl4\":\"DE-NW\",\"postcode\":\"45891\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"51.5536244\",\"51.5537244\",\"7.0673547\",\"7.0674547\"]}",
+  "fetchedAt": "2026-10-12T16:49:25.864Z"
+}

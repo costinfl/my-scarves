@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.205278&lon=5.814722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":157620384,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":639622152,\"lat\":\"53.2054993\",\"lon\":\"5.8146525\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.57167925535518e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Insulindestraat, Cambuursterhoek, Oud Oost, Leeuwarden, Fryslân, Nederland, 8921 JX, Nederland\",\"address\":{\"road\":\"Insulindestraat\",\"neighbourhood\":\"Cambuursterhoek\",\"quarter\":\"Oud Oost\",\"city\":\"Leeuwarden\",\"municipality\":\"Leeuwarden\",\"state\":\"Fryslân\",\"ISO3166-2-lvl4\":\"NL-FR\",\"country\":\"Nederland\",\"postcode\":\"8921 JX\",\"country_code\":\"nl\"},\"boundingbox\":[\"53.2049793\",\"53.2060194\",\"5.8140369\",\"5.8152680\"]}",
+  "fetchedAt": "2026-10-12T16:50:59.402Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q692586",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "VfR Aalen Wappen.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "VfR Aalen"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "VfR Aalen"
+      }
+    }
+  }
+}

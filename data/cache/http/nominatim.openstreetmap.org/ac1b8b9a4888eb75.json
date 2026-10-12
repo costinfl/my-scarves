@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.840556&lon=10.072222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":127108338,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":164637882,\"lat\":\"48.8405309\",\"lon\":\"10.0722075\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0893415732006066e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stadionweg, Hüttfeld, Unterrombach, Aalen, VVG der Stadt Aalen, Ostalbkreis, Baden-Württemberg, 73430, Deutschland\",\"address\":{\"road\":\"Stadionweg\",\"neighbourhood\":\"Hüttfeld\",\"suburb\":\"Unterrombach\",\"town\":\"Aalen\",\"municipality\":\"VVG der Stadt Aalen\",\"county\":\"Ostalbkreis\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"73430\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.8402176\",\"48.8408440\",\"10.0714832\",\"10.0729318\"]}",
+  "fetchedAt": "2026-10-12T16:49:39.988Z"
+}

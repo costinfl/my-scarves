@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.066389&lon=8.837500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":141474269,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":56014971,\"lat\":\"53.0664290\",\"lon\":\"8.8376655\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.550545510028256e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Franz-Böhmert-Straße, Peterswerder, Östliche Vorstadt, Bremen-Ost, Bremen, 28205, Deutschland\",\"address\":{\"road\":\"Franz-Böhmert-Straße\",\"quarter\":\"Peterswerder\",\"suburb\":\"Östliche Vorstadt\",\"city_district\":\"Bremen-Ost\",\"city\":\"Bremen\",\"state\":\"Bremen\",\"ISO3166-2-lvl4\":\"DE-HB\",\"postcode\":\"28205\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"53.0659955\",\"53.0668625\",\"8.8367714\",\"8.8385597\"]}",
+  "fetchedAt": "2026-10-12T16:49:32.150Z"
+}

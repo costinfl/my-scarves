@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-12T16:43:43.975Z",
+  "version": 2,
+  "entity": {
+    "id": "Q269151",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "PEC Zwolle logo.svg"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "77910"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "PEC Zwolle"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "PEC Zwolle"
+      }
+    }
+  }
+}

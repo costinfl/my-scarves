@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:43.975Z",
+  "version": 2,
+  "entity": {
+    "id": "Q318348",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52330"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NEC Nijmegen"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "N.E.C."
+      }
+    }
+  }
+}

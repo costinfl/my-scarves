@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.040278&lon=13.747778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":135513545,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1298741720,\"lat\":\"51.0399339\",\"lon\":\"13.7481989\",\"category\":\"amenity\",\"type\":\"bicycle_parking\",\"place_rank\":30,\"importance\":7.848859388108671e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"12, Lennéstraße, Seevorstadt-Ost/Großer Garten, Seevorstadt, Altstadt, Dresden, Sachsen, 01069, Deutschland\",\"address\":{\"house_number\":\"12\",\"road\":\"Lennéstraße\",\"neighbourhood\":\"Seevorstadt-Ost/Großer Garten\",\"suburb\":\"Seevorstadt\",\"city_district\":\"Altstadt\",\"city\":\"Dresden\",\"state\":\"Sachsen\",\"ISO3166-2-lvl4\":\"DE-SN\",\"postcode\":\"01069\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"51.0398839\",\"51.0399839\",\"13.7481489\",\"13.7482489\"]}",
+  "fetchedAt": "2026-10-12T16:49:03.989Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.786720&lon=3.588710&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":94922904,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":56401744,\"lat\":\"47.7867522\",\"lon\":\"3.5886782\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.842526894021542e-05,\"addresstype\":\"leisure\",\"name\":\"Terrain d'honneur\",\"display_name\":\"Terrain d'honneur, Route de Vaux, La Noue, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89000, France\",\"address\":{\"leisure\":\"Terrain d'honneur\",\"road\":\"Route de Vaux\",\"neighbourhood\":\"La Noue\",\"city_district\":\"Auxerre\",\"town\":\"Auxerre\",\"municipality\":\"Auxerre\",\"county\":\"Yonne\",\"ISO3166-2-lvl6\":\"FR-89\",\"state\":\"Bourgogne-Franche-Comté\",\"ISO3166-2-lvl4\":\"FR-BFC\",\"region\":\"France métropolitaine\",\"postcode\":\"89000\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"47.7861822\",\"47.7873221\",\"3.5878139\",\"3.5895424\"]}",
+  "fetchedAt": "2026-10-12T16:48:06.459Z"
+}

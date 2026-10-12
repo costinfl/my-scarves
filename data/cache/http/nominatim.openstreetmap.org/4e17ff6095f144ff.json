@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.426241&lon=11.125617&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":126796902,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":23133289,\"lat\":\"49.4262511\",\"lon\":\"11.1256974\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.61417563133748e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hans-Kalb-Straße, Dutzendteich, Südöstliche Außenstadt, Nürnberg, Bayern, 90471, Deutschland\",\"address\":{\"road\":\"Hans-Kalb-Straße\",\"neighbourhood\":\"Dutzendteich\",\"suburb\":\"Südöstliche Außenstadt\",\"city\":\"Nürnberg\",\"state\":\"Bayern\",\"ISO3166-2-lvl4\":\"DE-BY\",\"postcode\":\"90471\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.4257221\",\"49.4267801\",\"11.1250725\",\"11.1263223\"]}",
+  "fetchedAt": "2026-10-12T16:48:56.156Z"
+}

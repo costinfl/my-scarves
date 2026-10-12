@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.716000&lon=-9.406000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296970356,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":195730990,\"lat\":\"38.7158373\",\"lon\":\"-9.4063800\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0882734416678375e-05,\"addresstype\":\"leisure\",\"name\":\"Grupo Desportivo Estoril Praia\",\"display_name\":\"Grupo Desportivo Estoril Praia, Rua Dom Bosco, Bairro Fausto de Figueiredo, Monte Estoril, Cascais e Estoril, Cascais, Lisboa, 2765-131, Portugal\",\"address\":{\"leisure\":\"Grupo Desportivo Estoril Praia\",\"road\":\"Rua Dom Bosco\",\"neighbourhood\":\"Bairro Fausto de Figueiredo\",\"suburb\":\"Monte Estoril\",\"city_district\":\"Cascais e Estoril\",\"town\":\"Cascais\",\"county\":\"Lisboa\",\"ISO3166-2-lvl6\":\"PT-11\",\"postcode\":\"2765-131\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"38.7152876\",\"38.7163964\",\"-9.4069057\",\"-9.4058553\"]}",
+  "fetchedAt": "2026-10-12T16:51:29.528Z"
+}

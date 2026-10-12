@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.035556&lon=2.390278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":100286024,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":438266900,\"lat\":\"51.0352648\",\"lon\":\"2.3898456\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.4141856465713948,\"addresstype\":\"leisure\",\"name\":\"Stade Marcel Tribut\",\"display_name\":\"Stade Marcel Tribut, Rue de Krefeld, Tribut-Corderie, Rosendaël, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59240, France\",\"address\":{\"leisure\":\"Stade Marcel Tribut\",\"road\":\"Rue de Krefeld\",\"neighbourhood\":\"Tribut-Corderie\",\"suburb\":\"Rosendaël\",\"city_district\":\"Dunkerque\",\"city\":\"Dunkerque\",\"municipality\":\"Dunkerque\",\"county\":\"Nord\",\"ISO3166-2-lvl6\":\"FR-59\",\"state\":\"Hauts-de-France\",\"ISO3166-2-lvl4\":\"FR-HDF\",\"region\":\"France métropolitaine\",\"postcode\":\"59240\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"51.0345147\",\"51.0360156\",\"2.3883224\",\"2.3912573\"]}",
+  "fetchedAt": "2026-10-12T16:48:49.194Z"
+}

@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q208399",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "SC Bastia"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SC Bastia"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q106394",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59880"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SC Freiburg"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SC Freiburg"
+      }
+    }
+  }
+}

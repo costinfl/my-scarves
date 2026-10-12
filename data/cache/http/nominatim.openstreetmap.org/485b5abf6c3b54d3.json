@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.642778&lon=11.781111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":74282914,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":367022073,\"lat\":\"45.6429220\",\"lon\":\"11.7810731\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.124742504000942e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Angelo Gabrielli, Cittadella, Padova, Veneto, 35013, Italia\",\"address\":{\"road\":\"Via Angelo Gabrielli\",\"town\":\"Cittadella\",\"city\":\"Cittadella\",\"county\":\"Padova\",\"ISO3166-2-lvl6\":\"IT-PD\",\"state\":\"Veneto\",\"ISO3166-2-lvl4\":\"IT-34\",\"postcode\":\"35013\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.6423969\",\"45.6434399\",\"11.7805554\",\"11.7815962\"]}",
+  "fetchedAt": "2026-10-12T16:49:50.124Z"
+}
