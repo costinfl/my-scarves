@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.005136&lon=-3.754269&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276273405,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":157929979,\"lat\":\"56.0056971\",\"lon\":\"-3.7550792\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":5.865339131757103e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"Stadium Way, Middlefield, Falkirk, Alba / Scotland, FK2 9EE, United Kingdom\",\"address\":{\"road\":\"Stadium Way\",\"suburb\":\"Middlefield\",\"town\":\"Falkirk\",\"county\":\"Falkirk\",\"ISO3166-2-lvl6\":\"GB-FAL\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"FK2 9EE\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"56.0049074\",\"56.0063588\",\"-3.7557332\",\"-3.7541512\"]}",
+  "fetchedAt": "2026-10-12T17:59:51.461Z"
+}

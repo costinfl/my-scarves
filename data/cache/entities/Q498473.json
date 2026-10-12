@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q498473",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2609895"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Hamilton Academical F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Hamilton Academical F.C."
+      }
+    }
+  }
+}

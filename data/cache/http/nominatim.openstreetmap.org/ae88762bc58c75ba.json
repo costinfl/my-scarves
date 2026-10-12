@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.998700&lon=39.646300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206515226,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":470197421,\"lat\":\"40.9987434\",\"lon\":\"39.6463326\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.71648737315483e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Özkan Sümer Caddesi, 1 Nolu Beşirli Mahallesi, Akyazı Mahallesi, Ortahisar, Trabzon, Karadeniz Bölgesi, 61310, Türkiye\",\"address\":{\"road\":\"Özkan Sümer Caddesi\",\"suburb\":\"1 Nolu Beşirli Mahallesi\",\"village\":\"Akyazı Mahallesi\",\"town\":\"Ortahisar\",\"province\":\"Trabzon\",\"ISO3166-2-lvl4\":\"TR-61\",\"region\":\"Karadeniz Bölgesi\",\"postcode\":\"61310\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.9981524\",\"40.9993357\",\"39.6456735\",\"39.6469917\"]}",
+  "fetchedAt": "2026-10-12T18:01:06.156Z"
+}

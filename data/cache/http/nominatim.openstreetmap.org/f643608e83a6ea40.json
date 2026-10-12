@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.129800&lon=15.338500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68453816,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":232063343,\"lat\":\"47.1300822\",\"lon\":\"15.3384745\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.0907911802807925e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Sportplatzgasse, Kirchenviertel, Katastralgemeinde Kirchenviertel, Gratkorn, Bezirk Graz-Umgebung, Steiermark, 8101, Österreich\",\"address\":{\"road\":\"Sportplatzgasse\",\"hamlet\":\"Kirchenviertel\",\"suburb\":\"Katastralgemeinde Kirchenviertel\",\"village\":\"Gratkorn\",\"county\":\"Bezirk Graz-Umgebung\",\"state\":\"Steiermark\",\"ISO3166-2-lvl4\":\"AT-6\",\"postcode\":\"8101\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.1295313\",\"47.1306329\",\"15.3377262\",\"15.3392229\"]}",
+  "fetchedAt": "2026-10-12T17:59:03.202Z"
+}

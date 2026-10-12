@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.980000&lon=32.613900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209864850,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":669944782,\"lat\":\"39.9799972\",\"lon\":\"32.6139051\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.754329747458637e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"1814. Cadde, Devlet Mahallesi, Etimesgut, Ankara, İç Anadolu Bölgesi, 06824, Türkiye\",\"address\":{\"road\":\"1814. Cadde\",\"suburb\":\"Devlet Mahallesi\",\"town\":\"Etimesgut\",\"province\":\"Ankara\",\"ISO3166-2-lvl4\":\"TR-06\",\"region\":\"İç Anadolu Bölgesi\",\"postcode\":\"06824\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"39.9794970\",\"39.9804974\",\"32.6134931\",\"32.6143171\"]}",
+  "fetchedAt": "2026-10-12T18:00:48.562Z"
+}

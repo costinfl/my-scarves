@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.097600&lon=16.310900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":187571240,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":25842801,\"lat\":\"48.0975123\",\"lon\":\"16.3113868\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3618648643770844,\"addresstype\":\"leisure\",\"name\":\"DATENPOL ARENA\",\"display_name\":\"DATENPOL ARENA, Sonnenstraße, EVN, Katastralgemeinde Maria Enzersdorf, Südstadt, Maria Enzersdorf, Bezirk Mödling, Niederösterreich, 2344, Österreich\",\"address\":{\"leisure\":\"DATENPOL ARENA\",\"road\":\"Sonnenstraße\",\"commercial\":\"EVN\",\"suburb\":\"Katastralgemeinde Maria Enzersdorf\",\"village\":\"Südstadt\",\"county\":\"Bezirk Mödling\",\"state\":\"Niederösterreich\",\"ISO3166-2-lvl4\":\"AT-3\",\"postcode\":\"2344\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.0968433\",\"48.0982676\",\"16.3105392\",\"16.3123028\"]}",
+  "fetchedAt": "2026-10-12T17:59:00.810Z"
+}

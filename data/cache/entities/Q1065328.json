@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1065328",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FCV Dender EH"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "F.C. Verbroedering Dender Eendracht Hekelgem"
+      }
+    }
+  }
+}

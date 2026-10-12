@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.214139&lon=4.243931&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":106689364,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":10508355,\"lat\":\"51.2141336\",\"lon\":\"4.2438800\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4022453104308014,\"addresstype\":\"leisure\",\"name\":\"Freethiel\",\"display_name\":\"Freethiel, Stadionplein, Yzerhand, Beveren, Beveren-Kruibeke-Zwijndrecht, Sint-Niklaas, Oost-Vlaanderen, Vlaanderen, 9120, België / Belgique / Belgien\",\"address\":{\"leisure\":\"Freethiel\",\"road\":\"Stadionplein\",\"hamlet\":\"Yzerhand\",\"town\":\"Beveren\",\"municipality\":\"Beveren-Kruibeke-Zwijndrecht\",\"county\":\"Sint-Niklaas\",\"state\":\"Oost-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VOV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"9120\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.2138269\",\"51.2144403\",\"4.2431102\",\"4.2446498\"]}",
+  "fetchedAt": "2026-10-12T17:59:42.678Z"
+}

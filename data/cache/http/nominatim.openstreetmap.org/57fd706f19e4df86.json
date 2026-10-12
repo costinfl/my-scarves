@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.414609&lon=4.453787&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":103540446,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":117227792,\"lat\":\"50.4146265\",\"lon\":\"4.4537453\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.686732280456271e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue de la Neuville, Ville-Basse, Charleroi, Hainaut, Wallonie, 6000, België / Belgique / Belgien\",\"address\":{\"road\":\"Rue de la Neuville\",\"suburb\":\"Ville-Basse\",\"city_district\":\"Charleroi\",\"city\":\"Charleroi\",\"county\":\"Charleroi\",\"state\":\"Hainaut\",\"ISO3166-2-lvl6\":\"BE-WHT\",\"ISO3166-2-lvl4\":\"BE-WAL\",\"postcode\":\"6000\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.4140294\",\"50.4152287\",\"4.4529166\",\"4.4545743\"]}",
+  "fetchedAt": "2026-10-12T17:59:36.248Z"
+}

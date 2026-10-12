@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.042000&lon=40.573200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":205908667,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":482088676,\"lat\":\"41.0420110\",\"lon\":\"40.5732868\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.447318226897105e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Menderes Bulvarı , İslampaşa Mahallesi, Rize Merkez, Rize, Karadeniz Bölgesi, 53020, Türkiye\",\"address\":{\"road\":\"Menderes Bulvarı \",\"suburb\":\"İslampaşa Mahallesi\",\"city\":\"Rize Merkez\",\"province\":\"Rize\",\"ISO3166-2-lvl4\":\"TR-53\",\"region\":\"Karadeniz Bölgesi\",\"postcode\":\"53020\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.0414277\",\"41.0425902\",\"40.5726325\",\"40.5739420\"]}",
+  "fetchedAt": "2026-10-12T18:00:38.603Z"
+}

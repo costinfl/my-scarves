@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.830278&lon=3.248889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":102606246,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":107887283,\"lat\":\"50.8303608\",\"lon\":\"3.2490304\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.502098115506244e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Meensesteenweg, Kortrijk, West-Vlaanderen, Vlaanderen, 8500, België / Belgique / Belgien\",\"address\":{\"road\":\"Meensesteenweg\",\"city_district\":\"Kortrijk\",\"city\":\"Kortrijk\",\"county\":\"Kortrijk\",\"state\":\"West-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VWV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"8500\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.8298071\",\"50.8309144\",\"3.2482372\",\"3.2498237\"]}",
+  "fetchedAt": "2026-10-12T17:59:28.380Z"
+}

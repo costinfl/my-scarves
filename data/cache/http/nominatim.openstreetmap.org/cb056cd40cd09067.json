@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.193269&lon=3.181311&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":101480333,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":184958291,\"lat\":\"51.1933461\",\"lon\":\"3.1805853\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.5232183774663921,\"addresstype\":\"leisure\",\"name\":\"Jan Breydelstadion\",\"display_name\":\"Jan Breydelstadion, Olympialaan, Sint-Andries, Brugge, West-Vlaanderen, Vlaanderen, 8200, België / Belgique / Belgien\",\"address\":{\"leisure\":\"Jan Breydelstadion\",\"road\":\"Olympialaan\",\"city_district\":\"Sint-Andries\",\"city\":\"Brugge\",\"county\":\"Brugge\",\"state\":\"West-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VWV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"8200\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.1924258\",\"51.1942689\",\"3.1793509\",\"3.1819365\"]}",
+  "fetchedAt": "2026-10-12T17:59:21.730Z"
+}

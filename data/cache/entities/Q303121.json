@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q303121",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "78058"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Yeni Malatyaspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Yeni Malatyaspor"
+      }
+    }
+  }
+}

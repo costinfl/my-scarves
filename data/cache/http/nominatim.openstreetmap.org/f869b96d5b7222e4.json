@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.604225&lon=-4.508122&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274770767,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":116475823,\"lat\":\"55.6040974\",\"lon\":\"-4.5093662\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.5004186889258039,\"addresstype\":\"leisure\",\"name\":\"The BBSP Stadium\",\"display_name\":\"The BBSP Stadium, Rowanhill Place, Grange, Kilmarnock, East Ayrshire, Alba / Scotland, KA1 1UN, United Kingdom\",\"address\":{\"leisure\":\"The BBSP Stadium\",\"road\":\"Rowanhill Place\",\"suburb\":\"Grange\",\"town\":\"Kilmarnock\",\"county\":\"East Ayrshire\",\"ISO3166-2-lvl6\":\"GB-EAY\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"KA1 1UN\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.6029133\",\"55.6054965\",\"-4.5114330\",\"-4.5071573\"]}",
+  "fetchedAt": "2026-10-12T17:59:57.136Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.316300&lon=14.298300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":130938639,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":11662344449,\"lat\":\"48.3162452\",\"lon\":\"14.2981079\",\"category\":\"amenity\",\"type\":\"restaurant\",\"place_rank\":30,\"importance\":7.217135881585439e-05,\"addresstype\":\"amenity\",\"name\":\"Tante kaethe\",\"display_name\":\"Tante kaethe, 3, Straßerau, Lustenau, Kaplanhof, Linz, Oberösterreich, 4020, Österreich\",\"address\":{\"amenity\":\"Tante kaethe\",\"house_number\":\"3\",\"road\":\"Straßerau\",\"suburb\":\"Lustenau\",\"city\":\"Linz\",\"state\":\"Oberösterreich\",\"ISO3166-2-lvl4\":\"AT-4\",\"postcode\":\"4020\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.3161952\",\"48.3162952\",\"14.2980579\",\"14.2981579\"]}",
+  "fetchedAt": "2026-10-12T17:59:02.344Z"
+}

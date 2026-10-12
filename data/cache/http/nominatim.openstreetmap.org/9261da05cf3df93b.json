@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.783297&lon=6.647056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":92015878,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":79701353,\"lat\":\"46.7833016\",\"lon\":\"6.6470580\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9471274891233955e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue des Pêcheurs, Yverdon-les-Bains, District du Jura-Nord vaudois, Vaud, 1400, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Rue des Pêcheurs\",\"city_district\":\"Yverdon-les-Bains\",\"town\":\"Yverdon-les-Bains\",\"county\":\"District du Jura-Nord vaudois\",\"state\":\"Vaud\",\"ISO3166-2-lvl4\":\"CH-VD\",\"postcode\":\"1400\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.7827414\",\"46.7838649\",\"6.6463433\",\"6.6477739\"]}",
+  "fetchedAt": "2026-10-12T18:00:27.798Z"
+}

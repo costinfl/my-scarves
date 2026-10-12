@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q464775",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Thun Logo 2011.svg"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 116445668,
+                "id": "Q116445668"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "80409"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Thun"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Thun"
+      }
+    }
+  }
+}

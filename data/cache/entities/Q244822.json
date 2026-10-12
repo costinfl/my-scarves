@@ -1,0 +1,25 @@
+{
+  "fetchedAt": "2026-10-12T17:57:01.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q244822",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "B30033"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {},
+    "labels": {
+      "en": {
+        "value": "garnet"
+      }
+    }
+  }
+}

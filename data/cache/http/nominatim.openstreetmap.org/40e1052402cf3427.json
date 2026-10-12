@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.220900&lon=15.653100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":129632107,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":247568647,\"lat\":\"48.2209285\",\"lon\":\"15.6535287\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.396047913324204e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Umgang NV Arena, Ratzersdorf an der Traisen, Katastralgemeinde Ratzersdorf an der Traisen, St. Pölten, Niederösterreich, 3100, Österreich\",\"address\":{\"road\":\"Umgang NV Arena\",\"suburb\":\"Ratzersdorf an der Traisen\",\"town\":\"St. Pölten\",\"state\":\"Niederösterreich\",\"ISO3166-2-lvl4\":\"AT-3\",\"postcode\":\"3100\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.2204499\",\"48.2214070\",\"15.6530667\",\"15.6539908\"]}",
+  "fetchedAt": "2026-10-12T17:59:17.510Z"
+}

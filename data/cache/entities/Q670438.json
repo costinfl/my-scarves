@@ -1,0 +1,65 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q670438",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "SCR Altach Logo.svg"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "92382"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SC Rheindorf Altach"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SC Rheindorf Altach"
+      }
+    }
+  }
+}

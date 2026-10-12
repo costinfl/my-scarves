@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.162306&lon=16.386694&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186786287,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1250083689,\"lat\":\"48.1623450\",\"lon\":\"16.3871486\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.694209201185653e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Schwarzerweg, Katastralgemeinde Oberlaa Stadt, Favoriten, Wien, 1100, Österreich\",\"address\":{\"road\":\"Schwarzerweg\",\"suburb\":\"Katastralgemeinde Oberlaa Stadt\",\"city_district\":\"Favoriten\",\"city\":\"Wien\",\"ISO3166-2-lvl4\":\"AT-9\",\"postcode\":\"1100\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.1618338\",\"48.1628561\",\"16.3862898\",\"16.3880074\"]}",
+  "fetchedAt": "2026-10-12T17:59:09.623Z"
+}

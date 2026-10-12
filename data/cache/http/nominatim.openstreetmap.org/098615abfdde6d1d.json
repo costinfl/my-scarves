@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.541389&lon=7.620000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":92906464,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":8956974917,\"lat\":\"47.5413462\",\"lon\":\"7.6204624\",\"category\":\"emergency\",\"type\":\"defibrillator\",\"place_rank\":30,\"importance\":7.607461661702933e-05,\"addresstype\":\"emergency\",\"name\":\"\",\"display_name\":\"St. Jakobs-Strasse, St. Alban, Kleinbasel, Basel, Basel-Stadt, 4127, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"St. Jakobs-Strasse\",\"suburb\":\"St. Alban\",\"borough\":\"Kleinbasel\",\"city\":\"Basel\",\"state\":\"Basel-Stadt\",\"ISO3166-2-lvl4\":\"CH-BS\",\"postcode\":\"4127\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.5412962\",\"47.5413962\",\"7.6204124\",\"7.6205124\"]}",
+  "fetchedAt": "2026-10-12T18:00:08.093Z"
+}

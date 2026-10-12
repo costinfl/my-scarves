@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.435000&lon=27.178056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55515938,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":392518564,\"lat\":\"38.4349829\",\"lon\":\"27.1779842\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.225070572971721e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Şehitler Caddesi, Mersinli Mahallesi, İzmir, Konak, İzmir, Ege Bölgesi, 35170, Türkiye\",\"address\":{\"road\":\"Şehitler Caddesi\",\"suburb\":\"Mersinli Mahallesi\",\"city\":\"İzmir\",\"town\":\"Konak\",\"province\":\"İzmir\",\"ISO3166-2-lvl4\":\"TR-35\",\"region\":\"Ege Bölgesi\",\"postcode\":\"35170\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"38.4345147\",\"38.4354510\",\"27.1776035\",\"27.1783650\"]}",
+  "fetchedAt": "2026-10-12T18:00:50.817Z"
+}

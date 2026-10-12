@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q805909",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Balıkesirspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Balıkesirspor"
+      }
+    }
+  }
+}

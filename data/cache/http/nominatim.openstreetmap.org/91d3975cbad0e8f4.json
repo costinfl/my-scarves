@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.534000&lon=6.625000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":91946067,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":45284475,\"lat\":\"46.5342814\",\"lon\":\"6.6251266\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.429846646825387e-05,\"addresstype\":\"leisure\",\"name\":\"Lausanne-Sports Tennis\",\"display_name\":\"Lausanne-Sports Tennis, Route des Plaines-du-Loup, Lausanne, District de Lausanne, Vaud, 1018, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"leisure\":\"Lausanne-Sports Tennis\",\"road\":\"Route des Plaines-du-Loup\",\"city\":\"Lausanne\",\"county\":\"District de Lausanne\",\"state\":\"Vaud\",\"ISO3166-2-lvl4\":\"CH-VD\",\"postcode\":\"1018\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.5339872\",\"46.5345755\",\"6.6246630\",\"6.6255902\"]}",
+  "fetchedAt": "2026-10-12T18:00:12.311Z"
+}

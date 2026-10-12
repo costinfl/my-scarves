@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.816250&lon=12.998222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":70127537,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":2213783,\"lat\":\"47.8162982\",\"lon\":\"12.9982259\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.3387502861021095e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kleßheimer Allee, Kleßheim, Siezenheim, Wals-Siezenheim, Bezirk Salzburg-Umgebung, Salzburg, 5071, Österreich\",\"address\":{\"road\":\"Kleßheimer Allee\",\"suburb\":\"Kleßheim\",\"village\":\"Siezenheim\",\"county\":\"Bezirk Salzburg-Umgebung\",\"state\":\"Salzburg\",\"ISO3166-2-lvl4\":\"AT-5\",\"postcode\":\"5071\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.8157085\",\"47.8169013\",\"12.9974650\",\"12.9990020\"]}",
+  "fetchedAt": "2026-10-12T17:59:05.422Z"
+}

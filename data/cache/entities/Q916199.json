@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q916199",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Oud-Heverlee Löwen.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Oud-Heverlee Leuven"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Oud-Heverlee Leuven"
+      }
+    }
+  }
+}

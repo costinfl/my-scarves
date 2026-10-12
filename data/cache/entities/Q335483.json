@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q335483",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "53033"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Dundee F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Dundee F.C."
+      }
+    }
+  }
+}

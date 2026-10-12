@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.883889&lon=4.070833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":105444248,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1643540965,\"lat\":\"50.8838455\",\"lon\":\"4.0709627\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3272701010450185,\"addresstype\":\"leisure\",\"name\":\"Florent Beeckman Stadion\",\"display_name\":\"Florent Beeckman Stadion, Oude Molenweg, Hemelrijk, Denderleeuw, Aalst, Oost-Vlaanderen, Vlaanderen, 9470, België / Belgique / Belgien\",\"address\":{\"leisure\":\"Florent Beeckman Stadion\",\"road\":\"Oude Molenweg\",\"hamlet\":\"Hemelrijk\",\"town\":\"Denderleeuw\",\"municipality\":\"Denderleeuw\",\"county\":\"Aalst\",\"state\":\"Oost-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VOV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"9470\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.8837955\",\"50.8838955\",\"4.0709127\",\"4.0710127\"]}",
+  "fetchedAt": "2026-10-12T17:59:23.232Z"
+}

@@ -1,0 +1,37 @@
+{
+  "fetchedAt": "2026-10-12T17:57:01.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q373058",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "007FFF"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "F0FFFF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Azure (color)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "azure"
+      }
+    }
+  }
+}

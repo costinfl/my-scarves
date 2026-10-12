@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.780500&lon=30.432400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59891066,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1268642439,\"lat\":\"40.7805583\",\"lon\":\"30.4324121\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.482566567478473e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kerkük Caddesi, Yağcılar Mahallesi, Karaköy, Adapazarı, Sakarya, Marmara Bölgesi, 54000, Türkiye\",\"address\":{\"road\":\"Kerkük Caddesi\",\"suburb\":\"Yağcılar Mahallesi\",\"village\":\"Karaköy\",\"town\":\"Adapazarı\",\"province\":\"Sakarya\",\"ISO3166-2-lvl4\":\"TR-54\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"54000\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.7800531\",\"40.7811496\",\"30.4318744\",\"30.4329393\"]}",
+  "fetchedAt": "2026-10-12T18:01:00.837Z"
+}

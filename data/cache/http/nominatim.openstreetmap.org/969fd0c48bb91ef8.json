@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.409686&lon=-3.476928&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273532729,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":56291046,\"lat\":\"56.4098617\",\"lon\":\"-3.4768370\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.414969100476109e-05,\"addresstype\":\"leisure\",\"name\":\"St Johnstone F.C.\",\"display_name\":\"St Johnstone F.C., A85, Hillyland, Perth, Perth and Kinross, Alba / Scotland, PH1 2UH, United Kingdom\",\"address\":{\"leisure\":\"St Johnstone F.C.\",\"road\":\"A85\",\"suburb\":\"Hillyland\",\"city\":\"Perth\",\"county\":\"Perth and Kinross\",\"ISO3166-2-lvl6\":\"GB-PKN\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"PH1 2UH\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"56.4093636\",\"56.4103597\",\"-3.4774228\",\"-3.4762512\"]}",
+  "fetchedAt": "2026-10-12T18:00:03.447Z"
+}

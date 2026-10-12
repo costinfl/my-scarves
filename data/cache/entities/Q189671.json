@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q189671",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Basel.png"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 122981955,
+                "id": "Q122981955"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59856"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Basel"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Basel"
+      }
+    }
+  }
+}

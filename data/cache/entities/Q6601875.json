@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q6601875",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5975887,
+                "id": "Q5975887"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52692"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Fenerbahçe S.K. (football)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Fenerbahçe Istanbul"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q696525",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Blau-Weiß Linz.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Blau-Weiß Linz"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "F.C. Blau-Weiß Linz"
+      }
+    }
+  }
+}

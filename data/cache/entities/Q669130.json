@@ -1,0 +1,43 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q669130",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo Yverdon Sport FC.png"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 116445605,
+                "id": "Q116445605"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Yverdon-Sport FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Yverdon-Sport FC"
+      }
+    }
+  }
+}

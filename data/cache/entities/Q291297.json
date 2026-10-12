@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q291297",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64269"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Kayseri Erciyesspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Kayseri Erciyesspor"
+      }
+    }
+  }
+}

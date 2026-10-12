@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q697322",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "600px Bianco e Verde di Vienna.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Gratkorn"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Gratkorn"
+      }
+    }
+  }
+}

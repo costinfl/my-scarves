@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.039167&lon=28.994167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59712422,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1328815936,\"lat\":\"41.0394982\",\"lon\":\"28.9943382\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.48648550869497137,\"addresstype\":\"leisure\",\"name\":\"Tüpraş Stadyumu\",\"display_name\":\"Tüpraş Stadyumu, 1, Dolmabahçe Caddesi, Maçka, Vişnezade Mahallesi, Beşiktaş, İstanbul, Marmara Bölgesi, 34357, Türkiye\",\"address\":{\"leisure\":\"Tüpraş Stadyumu\",\"house_number\":\"1\",\"road\":\"Dolmabahçe Caddesi\",\"quarter\":\"Maçka\",\"suburb\":\"Vişnezade Mahallesi\",\"town\":\"Beşiktaş\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34357\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.0380488\",\"41.0408682\",\"28.9930219\",\"28.9961927\"]}",
+  "fetchedAt": "2026-10-12T18:00:36.691Z"
+}

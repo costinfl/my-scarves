@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q659212",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC St. Gallen logo.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "51151"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC St. Gallen"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC St. Gallen"
+      }
+    }
+  }
+}

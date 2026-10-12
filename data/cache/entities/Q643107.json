@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q643107",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "73447"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Denizlispor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Denizlispor"
+      }
+    }
+  }
+}

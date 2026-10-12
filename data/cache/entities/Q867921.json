@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q867921",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "77915"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Livingston F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Livingston F.C."
+      }
+    }
+  }
+}

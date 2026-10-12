@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.075308&lon=-3.441906&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273936417,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":122229455,\"lat\":\"56.0756460\",\"lon\":\"-3.4419920\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.473391020701476,\"addresstype\":\"leisure\",\"name\":\"KDM Group East End Park\",\"display_name\":\"KDM Group East End Park, Halbeath Road, Transy, Gardeners' Lands, Garvock, Townhill, Dunfermline, Fife, Alba / Scotland, KY12 7RB, United Kingdom\",\"address\":{\"leisure\":\"KDM Group East End Park\",\"road\":\"Halbeath Road\",\"neighbourhood\":\"Transy\",\"quarter\":\"Gardeners' Lands\",\"suburb\":\"Garvock\",\"village\":\"Townhill\",\"city\":\"Dunfermline\",\"county\":\"Fife\",\"ISO3166-2-lvl6\":\"GB-FIF\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"KY12 7RB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"56.0748392\",\"56.0764897\",\"-3.4435161\",\"-3.4401249\"]}",
+  "fetchedAt": "2026-10-12T17:59:50.518Z"
+}

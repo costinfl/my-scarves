@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.033264&lon=8.305187&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":73052365,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":121852652,\"lat\":\"47.0329207\",\"lon\":\"8.3051385\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.4901960784268214e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Allmendweg, Luzern, 6005, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Allmendweg\",\"city\":\"Luzern\",\"state\":\"Luzern\",\"ISO3166-2-lvl4\":\"CH-LU\",\"postcode\":\"6005\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.0323997\",\"47.0334416\",\"8.3045732\",\"8.3057038\"]}",
+  "fetchedAt": "2026-10-12T18:00:15.847Z"
+}

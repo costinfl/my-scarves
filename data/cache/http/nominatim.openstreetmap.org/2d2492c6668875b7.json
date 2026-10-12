@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.198100&lon=16.265300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186903421,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2726747967,\"lat\":\"48.1975927\",\"lon\":\"16.2647569\",\"category\":\"shop\",\"type\":\"clothes\",\"place_rank\":30,\"importance\":8.694209201185653e-05,\"addresstype\":\"shop\",\"name\":\"Fanshop SK Rapid\",\"display_name\":\"Fanshop SK Rapid, 1, Gerhard-Hanappi-Platz, Katastralgemeinde Hütteldorf, Penzing, Wien, 1140, Österreich\",\"address\":{\"shop\":\"Fanshop SK Rapid\",\"house_number\":\"1\",\"road\":\"Gerhard-Hanappi-Platz\",\"suburb\":\"Katastralgemeinde Hütteldorf\",\"city_district\":\"Penzing\",\"city\":\"Wien\",\"ISO3166-2-lvl4\":\"AT-9\",\"postcode\":\"1140\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.1975427\",\"48.1976427\",\"16.2647069\",\"16.2648069\"]}",
+  "fetchedAt": "2026-10-12T17:59:16.435Z"
+}

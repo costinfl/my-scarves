@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.447000&lon=27.262200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55448657,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":5888809998,\"lat\":\"38.4470244\",\"lon\":\"27.2622380\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3750543179568698,\"addresstype\":\"leisure\",\"name\":\"Bornova Stadyumu\",\"display_name\":\"Bornova Stadyumu, 1411/4. Sokak, Ümit Mahallesi, Bornova, İzmir, Ege Bölgesi, 35060, Türkiye\",\"address\":{\"leisure\":\"Bornova Stadyumu\",\"road\":\"1411/4. Sokak\",\"suburb\":\"Ümit Mahallesi\",\"town\":\"Bornova\",\"province\":\"İzmir\",\"ISO3166-2-lvl4\":\"TR-35\",\"region\":\"Ege Bölgesi\",\"postcode\":\"35060\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"38.4469744\",\"38.4470744\",\"27.2621880\",\"27.2622880\"]}",
+  "fetchedAt": "2026-10-12T18:00:34.326Z"
+}

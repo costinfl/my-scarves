@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.145300&lon=7.261040&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":419141485,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13878218317,\"lat\":\"47.1453113\",\"lon\":\"7.2614587\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.320210574497623e-05,\"addresstype\":\"leisure\",\"name\":\"Tennis\",\"display_name\":\"Tennis, Rue Jakob-Stämpfli / Jakob-Stämpfli-Strasse, Champagne, Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, 2504, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"leisure\":\"Tennis\",\"road\":\"Rue Jakob-Stämpfli / Jakob-Stämpfli-Strasse\",\"suburb\":\"Champagne\",\"city\":\"Biel/Bienne\",\"county\":\"Verwaltungskreis Biel/Bienne\",\"state_district\":\"Verwaltungsregion Seeland\",\"state\":\"Bern/Berne\",\"ISO3166-2-lvl4\":\"CH-BE\",\"postcode\":\"2504\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.1452613\",\"47.1453613\",\"7.2614087\",\"7.2615087\"]}",
+  "fetchedAt": "2026-10-12T18:00:09.094Z"
+}

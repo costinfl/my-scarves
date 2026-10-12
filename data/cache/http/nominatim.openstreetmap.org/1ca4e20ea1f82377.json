@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.255972&lon=11.410789&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":70762911,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":99581644,\"lat\":\"47.2560041\",\"lon\":\"11.4111751\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.47196154726027e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Wiesengasse, Pradl, Innsbruck, Tirol, 6020, Österreich\",\"address\":{\"road\":\"Wiesengasse\",\"suburb\":\"Pradl\",\"city_district\":\"Pradl\",\"city\":\"Innsbruck\",\"state\":\"Tirol\",\"ISO3166-2-lvl4\":\"AT-7\",\"postcode\":\"6020\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.2554802\",\"47.2565282\",\"11.4105973\",\"11.4117529\"]}",
+  "fetchedAt": "2026-10-12T17:59:07.478Z"
+}

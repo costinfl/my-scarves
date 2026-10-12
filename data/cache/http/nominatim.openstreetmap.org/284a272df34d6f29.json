@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.881556&lon=-4.269639&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274654151,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":29122012,\"lat\":\"55.8815646\",\"lon\":\"-4.2695307\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.89066910810562e-05,\"addresstype\":\"leisure\",\"name\":\"Partick Thistle FC\",\"display_name\":\"Partick Thistle FC, Firhill Road, Firhill, Oakbank, Glasgow, Glasgow City, Alba / Scotland, G20 7BE, United Kingdom\",\"address\":{\"leisure\":\"Partick Thistle FC\",\"road\":\"Firhill Road\",\"quarter\":\"Firhill\",\"suburb\":\"Oakbank\",\"city\":\"Glasgow\",\"county\":\"Glasgow City\",\"ISO3166-2-lvl6\":\"GB-GLG\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"G20 7BE\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.8810147\",\"55.8821146\",\"-4.2703549\",\"-4.2687065\"]}",
+  "fetchedAt": "2026-10-12T18:00:00.270Z"
+}

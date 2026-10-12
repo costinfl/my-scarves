@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.227778&lon=36.457500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206733723,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":558363387,\"lat\":\"41.2279897\",\"lon\":\"36.4577119\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.493400473025128e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Samsun-Ordu yolu, Sanayi Mahallesi, Çırakman, Tekkeköy, Samsun, Karadeniz Bölgesi, 55330, Türkiye\",\"address\":{\"road\":\"Samsun-Ordu yolu\",\"suburb\":\"Sanayi Mahallesi\",\"village\":\"Çırakman\",\"town\":\"Tekkeköy\",\"province\":\"Samsun\",\"ISO3166-2-lvl4\":\"TR-55\",\"region\":\"Karadeniz Bölgesi\",\"postcode\":\"55330\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.2274963\",\"41.2284831\",\"36.4573018\",\"36.4581219\"]}",
+  "fetchedAt": "2026-10-12T18:01:01.739Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.382791&lon=8.503801&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72247798,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":168927595,\"lat\":\"47.3827296\",\"lon\":\"8.5037732\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.85145342183111e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Herdernstrasse, Hard, Kreis 4, Zürich, Bezirk Zürich, Zürich, 8004, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Herdernstrasse\",\"quarter\":\"Hard\",\"suburb\":\"Kreis 4\",\"city\":\"Zürich\",\"county\":\"Bezirk Zürich\",\"state\":\"Zürich\",\"ISO3166-2-lvl4\":\"CH-ZH\",\"postcode\":\"8004\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.3821750\",\"47.3832841\",\"8.5029958\",\"8.5045505\"]}",
+  "fetchedAt": "2026-10-12T18:00:23.564Z"
+}

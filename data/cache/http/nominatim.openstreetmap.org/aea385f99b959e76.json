@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.177778&lon=6.127500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":91781455,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":311021104,\"lat\":\"46.1777941\",\"lon\":\"6.1274254\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.90165560387124e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Passerelle du Stade de Genève, Grand-Lancy, Lancy, Genève, 1212, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Passerelle du Stade de Genève\",\"suburb\":\"Grand-Lancy\",\"town\":\"Lancy\",\"state\":\"Genève\",\"ISO3166-2-lvl4\":\"CH-GE\",\"postcode\":\"1212\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.1772626\",\"46.1783288\",\"6.1268862\",\"6.1279636\"]}",
+  "fetchedAt": "2026-10-12T18:00:26.676Z"
+}

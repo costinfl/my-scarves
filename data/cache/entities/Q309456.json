@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q309456",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Lausanne-Sport logo.svg"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 116450159,
+                "id": "Q116450159"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "4251"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Lausanne-Sport"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Lausanne-Sport"
+      }
+    }
+  }
+}
