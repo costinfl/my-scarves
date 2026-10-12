@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.475264&lon=-2.973194&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274733873,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":26476777,\"lat\":\"56.4746055\",\"lon\":\"-2.9736296\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.5027363594524359,\"addresstype\":\"leisure\",\"name\":\"Dens Park\",\"display_name\":\"Dens Park, Sandeman Street, Clepington, Stobswell, Dundee, Dundee City, Alba / Scotland, DD3 7JY, United Kingdom\",\"address\":{\"leisure\":\"Dens Park\",\"road\":\"Sandeman Street\",\"quarter\":\"Clepington\",\"suburb\":\"Stobswell\",\"city\":\"Dundee\",\"county\":\"Dundee City\",\"ISO3166-2-lvl6\":\"GB-DND\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"DD3 7JY\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"56.4738799\",\"56.4753522\",\"-2.9751640\",\"-2.9719259\"]}",
+  "fetchedAt": "2026-10-12T17:59:48.341Z"
+}

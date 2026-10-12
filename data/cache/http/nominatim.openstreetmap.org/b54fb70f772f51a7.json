@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.421100&lon=9.652780&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72955180,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1182180264,\"lat\":\"47.4210824\",\"lon\":\"9.6529182\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.401922636754433e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Schützengartenstraße, Lustenau, Bezirk Dornbirn, Vorarlberg, 6890, Österreich\",\"address\":{\"road\":\"Schützengartenstraße\",\"town\":\"Lustenau\",\"county\":\"Bezirk Dornbirn\",\"state\":\"Vorarlberg\",\"ISO3166-2-lvl4\":\"AT-8\",\"postcode\":\"6890\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.4205466\",\"47.4216182\",\"9.6522983\",\"9.6535381\"]}",
+  "fetchedAt": "2026-10-12T17:59:06.325Z"
+}

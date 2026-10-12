@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.595900&lon=-4.418910&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273770971,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":151769393,\"lat\":\"57.5958739\",\"lon\":\"-4.4190639\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.584878309295823e-05,\"addresstype\":\"leisure\",\"name\":\"Ross County F.C.\",\"display_name\":\"Ross County F.C., Jubilee Park Road, Pitglassie, Dingwall, Highland, Alba / Scotland, IV15 9QZ, United Kingdom\",\"address\":{\"leisure\":\"Ross County F.C.\",\"road\":\"Jubilee Park Road\",\"hamlet\":\"Pitglassie\",\"town\":\"Dingwall\",\"county\":\"Highland\",\"ISO3166-2-lvl6\":\"GB-HLD\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"IV15 9QZ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"57.5953191\",\"57.5964286\",\"-4.4198919\",\"-4.4182359\"]}",
+  "fetchedAt": "2026-10-12T18:00:02.420Z"
+}

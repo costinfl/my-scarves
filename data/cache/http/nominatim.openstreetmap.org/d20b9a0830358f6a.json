@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.641500&lon=27.887700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":54770785,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":623201732,\"lat\":\"39.6415454\",\"lon\":\"27.8877447\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.134966048671728e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Atatürk Caddesi, Balıkesir, Kasaplar, Bahçelievler Mahallesi, Altıeylül, Balıkesir, Marmara Bölgesi, 10100, Türkiye\",\"address\":{\"road\":\"Atatürk Caddesi\",\"residential\":\"Balıkesir\",\"suburb\":\"Kasaplar\",\"town\":\"Altıeylül\",\"province\":\"Balıkesir\",\"ISO3166-2-lvl4\":\"TR-10\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"10100\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"39.6410063\",\"39.6420845\",\"27.8872176\",\"27.8882720\"]}",
+  "fetchedAt": "2026-10-12T18:00:35.631Z"
+}

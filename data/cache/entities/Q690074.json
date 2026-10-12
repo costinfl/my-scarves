@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q690074",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 122981960,
+                "id": "Q122981960"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Gossau"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Gossau"
+      }
+    }
+  }
+}

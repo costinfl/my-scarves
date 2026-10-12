@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.962778&lon=7.465000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":430188763,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":14255834645,\"lat\":\"46.9629405\",\"lon\":\"7.4650879\",\"category\":\"shop\",\"type\":\"kiosk\",\"place_rank\":30,\"importance\":7.734264133664481e-05,\"addresstype\":\"shop\",\"name\":\"Coop\",\"display_name\":\"Coop, 73, Papiermühlestrasse, Breitfeld, Stadtteil V, Bern, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 3014, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"shop\":\"Coop\",\"house_number\":\"73\",\"road\":\"Papiermühlestrasse\",\"quarter\":\"Breitfeld\",\"city_district\":\"Stadtteil V\",\"city\":\"Bern\",\"county\":\"Verwaltungskreis Bern-Mittelland\",\"state_district\":\"Verwaltungsregion Bern-Mittelland\",\"state\":\"Bern/Berne\",\"ISO3166-2-lvl4\":\"CH-BE\",\"postcode\":\"3014\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.9628905\",\"46.9629905\",\"7.4650379\",\"7.4651379\"]}",
+  "fetchedAt": "2026-10-12T18:00:05.808Z"
+}

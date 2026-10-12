@@ -1,0 +1,150 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q650236 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:45.437Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q261813",
+      "stadium": "http://www.wikidata.org/entity/Q204484",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.410789 47.255972)",
+      "capacity": "17400",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Wacker_Innsbruck_(2002)",
+      "website": "https://fc-wacker-innsbruck.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Wacker%20Innsbruck%20%28altes%20Logo%29.svg",
+      "clubLabel": "FC Wacker Innsbruck",
+      "stadiumLabel": "Tivoli Stadion Tirol"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q427491",
+      "stadium": "http://www.wikidata.org/entity/Q1988779",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.6531 48.2209)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/SKN_St._P%C3%B6lten",
+      "website": "https://www.skn-stpoelten.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Skn%20logo%20farbe%20web.png",
+      "clubLabel": "SKN St. Pölten",
+      "stadiumLabel": "NV Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q686826",
+      "stadium": "http://www.wikidata.org/entity/Q3245127",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.3597 48.2489)",
+      "capacity": "5500",
+      "enwiki": "https://en.wikipedia.org/wiki/First_Vienna_FC",
+      "website": "http://www.firstviennafc.at/",
+      "clubLabel": "First Vienna FC",
+      "stadiumLabel": "Casino-Stadion Hohe Warte"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q692186",
+      "stadium": "http://www.wikidata.org/entity/Q489700",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.65278 47.4211)",
+      "capacity": "8800",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Lustenau_07",
+      "website": "http://www.fc-lustenau.com",
+      "clubLabel": "FC Lustenau 07",
+      "stadiumLabel": "Reichshofstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q697322",
+      "stadium": "http://www.wikidata.org/entity/Q1776570",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.3385 47.1298)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Gratkorn",
+      "website": "http://www.fcgratkorn.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/600px%20Bianco%20e%20Verde%20di%20Vienna.png",
+      "clubLabel": "FC Gratkorn",
+      "stadiumLabel": "Sportstadion Gratkorn"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q698702",
+      "stadium": "http://www.wikidata.org/entity/Q872250",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.3109 48.0976)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/Admira_Wacker",
+      "website": "https://admirawacker.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Admira%20Wacker%20logo%202024.svg",
+      "clubLabel": "Admira Wacker",
+      "stadiumLabel": "Datenpol Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q699184",
+      "stadium": "http://www.wikidata.org/entity/Q216167",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.278281 46.608847)",
+      "capacity": "32000",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Austria_Klagenfurt_(2007)",
+      "website": "https://www.skaustriaklagenfurt.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Austria%20Klagenfurt%202007%20Logo.svg",
+      "clubLabel": "SK Austria Klagenfurt",
+      "stadiumLabel": "Wörthersee Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q741382",
+      "stadium": "http://www.wikidata.org/entity/Q671514",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.3006 47.4439)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/Kapfenberger_SV",
+      "website": "https://www.ksv1919.at/",
+      "clubLabel": "Kapfenberger SV",
+      "stadiumLabel": "Alpenstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387293",
+      "stadium": "http://www.wikidata.org/entity/Q206135",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.998222222 47.81625)",
+      "capacity": "31895",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Liefering",
+      "website": "https://www.fc-liefering.at/",
+      "clubLabel": "FC Liefering",
+      "stadiumLabel": "Red Bull Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387445",
+      "stadium": "http://www.wikidata.org/entity/Q677617",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.226667 48.235556)",
+      "capacity": "7152",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Juniors_O%C3%96",
+      "website": "https://www.fcjuniors.at/",
+      "clubLabel": "FC Juniors OÖ",
+      "stadiumLabel": "Waldstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q60967849",
+      "stadium": "http://www.wikidata.org/entity/Q696476",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.386694 48.162306)",
+      "capacity": "17656",
+      "website": "http://www.fk-austria.at/en/teams/second-team-squad/",
+      "clubLabel": "Young Violets Austria Wien",
+      "stadiumLabel": "Generali Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q689889",
+      "enwiki": "https://en.wikipedia.org/wiki/SV_Horn",
+      "website": "http://www.svhorn.at",
+      "clubLabel": "SV Horn"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15137936",
+      "enwiki": "https://en.wikipedia.org/wiki/SV_Lafnitz",
+      "website": "http://www.sv-licht-loidl-lafnitz.at/",
+      "clubLabel": "SV Lafnitz"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q22866",
+      "enwiki": "https://en.wikipedia.org/wiki/SV_Austria_Salzburg",
+      "website": "https://www.austria-salzburg.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SV%20Austria%20Salzburg%20Logo.png",
+      "clubLabel": "SV Austria Salzburg"
+    }
+  ]
+}

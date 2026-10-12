@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.353600&lon=9.637200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":73479286,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":9197733826,\"lat\":\"47.3541138\",\"lon\":\"9.6376069\",\"category\":\"emergency\",\"type\":\"defibrillator\",\"place_rank\":30,\"importance\":5.194552529178328e-05,\"addresstype\":\"emergency\",\"name\":\"\",\"display_name\":\"Schnabelholz, Altach, Bezirk Feldkirch, Vorarlberg, 6844, Österreich\",\"address\":{\"road\":\"Schnabelholz\",\"village\":\"Altach\",\"county\":\"Bezirk Feldkirch\",\"state\":\"Vorarlberg\",\"ISO3166-2-lvl4\":\"AT-8\",\"postcode\":\"6844\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.3540638\",\"47.3541638\",\"9.6375569\",\"9.6376569\"]}",
+  "fetchedAt": "2026-10-12T17:59:14.192Z"
+}

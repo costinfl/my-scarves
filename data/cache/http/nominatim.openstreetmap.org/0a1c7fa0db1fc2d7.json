@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.534530&lon=34.922820&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206518538,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":887612863,\"lat\":\"40.5345080\",\"lon\":\"34.9228116\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.6465247577584765e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Çorum-Ankara yolu, Çepni Mahallesi, Yaydiğin, Çorum Merkez, Çorum, Karadeniz Bölgesi, 19100, Türkiye\",\"address\":{\"road\":\"Çorum-Ankara yolu\",\"suburb\":\"Çepni Mahallesi\",\"village\":\"Yaydiğin\",\"city\":\"Çorum Merkez\",\"province\":\"Çorum\",\"ISO3166-2-lvl4\":\"TR-19\",\"region\":\"Karadeniz Bölgesi\",\"postcode\":\"19100\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.5339677\",\"40.5350483\",\"34.9223109\",\"34.9233123\"]}",
+  "fetchedAt": "2026-10-12T18:00:40.022Z"
+}

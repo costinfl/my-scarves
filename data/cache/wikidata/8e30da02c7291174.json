@@ -1,0 +1,156 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q219592 wd:Q650236 wd:Q216022 wd:Q23925620 wd:Q13394 wd:Q217374 wd:Q82595 wd:Q152665 wd:Q15804 wd:Q194052 wd:Q167541 wd:Q610823 wd:Q182994 wd:Q754488 wd:Q14377162 wd:Q14468438 wd:Q202699 wd:Q669073 wd:Q485568 wd:Q1141692 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-12T17:53:32.218Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q15804",
+      "label": "Serie A",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q82595",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q82595",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q82595",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q13394",
+      "label": "Ligue 1",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q152665",
+      "label": "2. Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q167541",
+      "label": "Eredivisie",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q182994",
+      "label": "Primeira Liga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q194052",
+      "label": "Serie B",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q202699",
+      "label": "Swiss Super League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q216022",
+      "label": "Belgian Pro League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q216022",
+      "label": "Belgian Pro League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q217374",
+      "label": "Ligue 2",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q219592",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q485568",
+      "label": "Süper Lig",
+      "isFootballLeague": "true",
+      "participants": "19"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q610823",
+      "label": "Eerste Divisie",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q650236",
+      "label": "Austrian Football Second League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q669073",
+      "label": "Challenge League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q754488",
+      "label": "Liga Portugal 2",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1141692",
+      "label": "TFF First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q14377162",
+      "label": "Scottish Premiership",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q14468438",
+      "label": "Scottish Championship",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q23925620",
+      "label": "Challenger Pro League",
+      "isFootballLeague": "true",
+      "participants": "8"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q23925620",
+      "label": "Challenger Pro League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q23925620",
+      "label": "Challenger Pro League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    }
+  ]
+}

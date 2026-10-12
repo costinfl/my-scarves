@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.782200&lon=-4.058500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273168741,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":93628033,\"lat\":\"55.7821405\",\"lon\":\"-4.0579043\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.749828335999111e-05,\"addresstype\":\"leisure\",\"name\":\"Hamilton Academical F.C.\",\"display_name\":\"Hamilton Academical F.C., Cadzow Avenue, Whitehill, Bothwell, South Lanarkshire, Alba / Scotland, ML3 0LU, United Kingdom\",\"address\":{\"leisure\":\"Hamilton Academical F.C.\",\"road\":\"Cadzow Avenue\",\"suburb\":\"Whitehill\",\"town\":\"Bothwell\",\"county\":\"South Lanarkshire\",\"ISO3166-2-lvl6\":\"GB-SLK\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"ML3 0LU\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.7815393\",\"55.7827417\",\"-4.0588480\",\"-4.0569607\"]}",
+  "fetchedAt": "2026-10-12T17:59:52.740Z"
+}

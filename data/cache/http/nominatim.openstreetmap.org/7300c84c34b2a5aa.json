@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.232700&lon=4.471575&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":106713221,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":166528192,\"lat\":\"51.2323970\",\"lon\":\"4.4720772\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.83436331730681e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vic Meesstraat, Kruininge-Bremweide, Deurne, Antwerpen, Vlaanderen, 2100, België / Belgique / Belgien\",\"address\":{\"road\":\"Vic Meesstraat\",\"neighbourhood\":\"Kruininge-Bremweide\",\"town\":\"Deurne\",\"city\":\"Antwerpen\",\"county\":\"Antwerpen\",\"state\":\"Antwerpen\",\"ISO3166-2-lvl6\":\"BE-VAN\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"2100\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.2318316\",\"51.2329624\",\"4.4712368\",\"4.4729177\"]}",
+  "fetchedAt": "2026-10-12T17:59:35.171Z"
+}

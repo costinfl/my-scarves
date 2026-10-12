@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q583599",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 116450093,
+                "id": "Q116450093"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Wohlen"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Wohlen"
+      }
+    }
+  }
+}

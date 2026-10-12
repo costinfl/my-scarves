@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.825300&lon=14.851400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":69181712,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":509972892,\"lat\":\"46.8266218\",\"lon\":\"14.8513739\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":5.442969405656546e-05,\"addresstype\":\"leisure\",\"name\":\"Lavanttal Arena\",\"display_name\":\"Lavanttal Arena, Don-Bosco-Weg, Gries, Katastralgemeinde Gries, Paildorf, Wolfsberg, Bezirk Wolfsberg, Kärnten, 9400, Österreich\",\"address\":{\"leisure\":\"Lavanttal Arena\",\"road\":\"Don-Bosco-Weg\",\"suburb\":\"Gries\",\"village\":\"Paildorf\",\"town\":\"Wolfsberg\",\"county\":\"Bezirk Wolfsberg\",\"state\":\"Kärnten\",\"ISO3166-2-lvl4\":\"AT-2\",\"postcode\":\"9400\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"46.8251714\",\"46.8278706\",\"14.8498142\",\"14.8530342\"]}",
+  "fetchedAt": "2026-10-12T17:59:20.832Z"
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1398111",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FatihKaragümrükS. K. AKBALIK.png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2606184"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Fatih Karagümrük S.K."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Fatih Karagümrük S.K."
+      }
+    }
+  }
+}

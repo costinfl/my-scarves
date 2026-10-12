@@ -1,0 +1,110 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q23925620 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:03.062Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q291937",
+      "stadium": "http://www.wikidata.org/entity/Q2110834",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.200436 50.683795)",
+      "capacity": "8100",
+      "enwiki": "https://en.wikipedia.org/wiki/Royale_Union_Tubize-Braine",
+      "website": "https://www.rutb.be/",
+      "clubLabel": "Royale Union Tubize-Braine",
+      "stadiumLabel": "Stade Leburton"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q370206",
+      "stadium": "http://www.wikidata.org/entity/Q2639454",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/KV_Oostende",
+      "website": "http://www.kvo.be/",
+      "clubLabel": "KV Oostende",
+      "stadiumLabel": "Albertpark"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1053917",
+      "stadium": "http://www.wikidata.org/entity/Q265477",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.10527778 50.95194444)",
+      "capacity": "9700",
+      "enwiki": "https://en.wikipedia.org/wiki/KSV_Roeselare",
+      "clubLabel": "K.S.V. Roeselare",
+      "stadiumLabel": "Schiervelde Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1423718",
+      "stadium": "http://www.wikidata.org/entity/Q469079",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.045833 50.626389)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/KAS_Eupen",
+      "website": "http://as-eupen.be/",
+      "clubLabel": "K.A.S. Eupen",
+      "stadiumLabel": "Kehrweg Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2268833",
+      "stadium": "http://www.wikidata.org/entity/Q1057087",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.382222 51.185)",
+      "capacity": "12771",
+      "enwiki": "https://en.wikipedia.org/wiki/K_Beerschot_VA",
+      "website": "http://www.beerschotwilrijk.be",
+      "clubLabel": "K Beerschot VA",
+      "stadiumLabel": "Olympisch Stadion Antwerp"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q113884742",
+      "stadium": "http://www.wikidata.org/entity/Q925654",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.533333 51.005)",
+      "capacity": "25000",
+      "clubLabel": "Jong Genk",
+      "stadiumLabel": "Cegeka Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q115476719",
+      "stadium": "http://www.wikidata.org/entity/Q959934",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.543344 50.609908)",
+      "capacity": "30023",
+      "enwiki": "https://en.wikipedia.org/wiki/SL16_FC",
+      "clubLabel": "SL16 FC",
+      "stadiumLabel": "Stade Maurice Dufrasne"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q115476719",
+      "stadium": "http://www.wikidata.org/entity/Q17620899",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/SL16_FC",
+      "clubLabel": "SL16 FC",
+      "stadiumLabel": "SL16 Football Campus"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q925973",
+      "enwiki": "https://en.wikipedia.org/wiki/RFC_Seraing_(1922)",
+      "website": "https://www.rfc-seraing.be",
+      "clubLabel": "RFC Seraing"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1668203",
+      "enwiki": "https://en.wikipedia.org/wiki/Lommel_SK",
+      "website": "https://www.lommelsk.be/",
+      "clubLabel": "Lommel SK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20979061",
+      "enwiki": "https://en.wikipedia.org/wiki/RWDM_Brussels",
+      "website": "https://www.rwdm.brussels/",
+      "clubLabel": "RWDM Brussels",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Rwdmolenbeek.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q101625593",
+      "enwiki": "https://en.wikipedia.org/wiki/Club_NXT",
+      "clubLabel": "Club NXT",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Isabel%20van%20den%20Berg%20-%20Ter%20Specke%20Bokaal%202024%20in%20Lisse%2C%20Nederland.jpg"
+    }
+  ]
+}

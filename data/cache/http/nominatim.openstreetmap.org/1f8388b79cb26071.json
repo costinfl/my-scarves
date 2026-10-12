@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.608847&lon=14.278281&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":69067178,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":177209194,\"lat\":\"46.6089325\",\"lon\":\"14.2782712\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.633478294036801e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Südring, Waidmannsdorf, St. Martin, Klagenfurt am Wörthersee, Kärnten, 9020, Österreich\",\"address\":{\"road\":\"Südring\",\"suburb\":\"Waidmannsdorf\",\"city\":\"Klagenfurt am Wörthersee\",\"state\":\"Kärnten\",\"ISO3166-2-lvl4\":\"AT-2\",\"postcode\":\"9020\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"46.6084308\",\"46.6094342\",\"14.2777728\",\"14.2787694\"]}",
+  "fetchedAt": "2026-10-12T17:59:15.302Z"
+}

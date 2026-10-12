@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.233333&lon=7.376389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":91957365,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":224458990,\"lat\":\"46.2333258\",\"lon\":\"7.3759624\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.144731822685614e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenue du Bietschhorn, Sion, Valais central, Valais/Wallis, 1950, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Avenue du Bietschhorn\",\"city_district\":\"Sion\",\"town\":\"Sion\",\"county\":\"Sion\",\"state_district\":\"Valais central\",\"state\":\"Valais/Wallis\",\"ISO3166-2-lvl4\":\"CH-VS\",\"postcode\":\"1950\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.2327752\",\"46.2338763\",\"7.3750957\",\"7.3768290\"]}",
+  "fetchedAt": "2026-10-12T18:00:16.930Z"
+}

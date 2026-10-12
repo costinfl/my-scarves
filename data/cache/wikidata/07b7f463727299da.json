@@ -1,0 +1,234 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q182994 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:54:33.763Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q1046440",
+      "enwiki": "https://en.wikipedia.org/wiki/Casa_Pia_A.C.",
+      "website": "https://casapiaac.pt/",
+      "clubLabel": "Casa Pia A.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1386850",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Alverca",
+      "website": "http://www.alvercafutebolsad.pt/",
+      "clubLabel": "F.C. Alverca"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q75684",
+      "enwiki": "https://en.wikipedia.org/wiki/S.C._Braga",
+      "website": "https://scbraga.pt/",
+      "clubLabel": "S.C. Braga",
+      "stadium": "http://www.wikidata.org/entity/Q849239",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.4308 41.5624)",
+      "capacity": "30286",
+      "stadiumLabel": "Estádio Municipal de Braga"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q75729",
+      "enwiki": "https://en.wikipedia.org/wiki/Sporting_CP",
+      "website": "https://www.sporting.pt/",
+      "clubLabel": "Sporting CP",
+      "stadium": "http://www.wikidata.org/entity/Q287359",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-9.160783333 38.761194444)",
+      "capacity": "52095",
+      "stadiumLabel": "Estádio José Alvalade",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Third%20Sporting%20Clube%20de%20Portugal%20Crest%20%281930-1945%29.jpeg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q75729",
+      "enwiki": "https://en.wikipedia.org/wiki/Sporting_CP",
+      "website": "https://www.sporting.pt/",
+      "clubLabel": "Sporting CP",
+      "stadium": "http://www.wikidata.org/entity/Q287359",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-9.160783333 38.761194444)",
+      "capacity": "52095",
+      "stadiumLabel": "Estádio José Alvalade",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Second%20Crest.jpeg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q75729",
+      "enwiki": "https://en.wikipedia.org/wiki/Sporting_CP",
+      "website": "https://www.sporting.pt/",
+      "clubLabel": "Sporting CP",
+      "stadium": "http://www.wikidata.org/entity/Q287359",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-9.160783333 38.761194444)",
+      "capacity": "52095",
+      "stadiumLabel": "Estádio José Alvalade",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Sporting%20Clube%20de%20Portugal.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q75729",
+      "enwiki": "https://en.wikipedia.org/wiki/Sporting_CP",
+      "website": "https://www.sporting.pt/",
+      "clubLabel": "Sporting CP",
+      "stadium": "http://www.wikidata.org/entity/Q287359",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-9.160783333 38.761194444)",
+      "capacity": "52095",
+      "stadiumLabel": "Estádio José Alvalade",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Primeiro-s%C3%ADmbolo-SCP.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q128446",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Porto",
+      "website": "https://www.fcporto.pt/",
+      "clubLabel": "FC Porto",
+      "stadium": "http://www.wikidata.org/entity/Q271454",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-8.583933 41.161758)",
+      "capacity": "50033",
+      "stadiumLabel": "Estádio do Dragão",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Emblema%20F%20C%20Porto%20%28derived%29.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q131499",
+      "enwiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
+      "website": "https://www.slbenfica.pt/",
+      "clubLabel": "S.L. Benfica",
+      "stadium": "http://www.wikidata.org/entity/Q7875112",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-9.184722222 38.752777777)",
+      "capacity": "68100",
+      "stadiumLabel": "Estádio da Luz"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q216459",
+      "enwiki": "https://en.wikipedia.org/wiki/C.D._Nacional",
+      "website": "http://www.cdnacional.pt",
+      "clubLabel": "C.D. Nacional",
+      "stadium": "http://www.wikidata.org/entity/Q1370765",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-16.883525 32.670625)",
+      "capacity": "5200",
+      "stadiumLabel": "Estádio da Madeira"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q216503",
+      "enwiki": "https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo",
+      "website": "https://www.csmaritimo.org.pt/",
+      "clubLabel": "C.S. Marítimo",
+      "stadium": "http://www.wikidata.org/entity/Q1272724",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-16.928331 32.645561)",
+      "capacity": "10600",
+      "stadiumLabel": "Estádio do Marítimo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q223450",
+      "enwiki": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
+      "website": "https://www.vitoriasc.pt/",
+      "clubLabel": "Vitória S.C.",
+      "stadium": "http://www.wikidata.org/entity/Q1057274",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.300972222 41.445833333)",
+      "capacity": "30029",
+      "stadiumLabel": "Estádio D. Afonso Henriques"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q622432",
+      "enwiki": "https://en.wikipedia.org/wiki/Rio_Ave_F.C.",
+      "website": "https://rioavefc.pt/",
+      "clubLabel": "Rio Ave F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q550041",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.740186 41.362756)",
+      "capacity": "5300",
+      "stadiumLabel": "Estádio do Rio Ave FC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q634829",
+      "enwiki": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia",
+      "website": "https://estorilpraia.pt/",
+      "clubLabel": "G.D. Estoril Praia",
+      "stadium": "http://www.wikidata.org/entity/Q1370647",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-9.406 38.716)",
+      "capacity": "5094",
+      "stadiumLabel": "Estádio António Coimbra da Mota"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q740637",
+      "enwiki": "https://en.wikipedia.org/wiki/C.D._Santa_Clara",
+      "website": "https://cdsantaclara.com/",
+      "clubLabel": "C.D. Santa Clara",
+      "stadium": "http://www.wikidata.org/entity/Q3514858",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-25.622589 37.763708)",
+      "capacity": "12500",
+      "stadiumLabel": "Estádio de São Miguel"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q838134",
+      "enwiki": "https://en.wikipedia.org/wiki/C.F._Estrela_da_Amadora",
+      "website": "https://www.cdestrela.pt/",
+      "clubLabel": "C.F. Estrela da Amadora",
+      "stadium": "http://www.wikidata.org/entity/Q3059095",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-9.227967 38.752036)",
+      "capacity": "9288",
+      "stadiumLabel": "Estádio José Gomes",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%ADmbolo%20Estrela%20da%20Amadora.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q926438",
+      "enwiki": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
+      "website": "http://www.gilvicentefc.pt/",
+      "clubLabel": "Gil Vicente F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q1167583",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.622777777 41.551111111)",
+      "capacity": "12046",
+      "stadiumLabel": "Estádio Cidade de Barcelos"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1023227",
+      "enwiki": "https://en.wikipedia.org/wiki/C.D._Tondela",
+      "website": "https://cdtondela.pt/",
+      "clubLabel": "CD Tondela",
+      "stadium": "http://www.wikidata.org/entity/Q16632396",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.08282 40.512)",
+      "capacity": "5000",
+      "stadiumLabel": "Estádio João Cardoso",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/CD%20Tondela%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1346314",
+      "enwiki": "https://en.wikipedia.org/wiki/Moreirense_F.C.",
+      "website": "https://www.moreirensefc.pt/",
+      "clubLabel": "Moreirense F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q256588",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.354761 41.378089)",
+      "capacity": "6150",
+      "stadiumLabel": "Parque de Jogos Comendador Joaquim de Almeida Freitas"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1386869",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Arouca",
+      "website": "https://fcarouca.eu/",
+      "clubLabel": "F.C. Arouca",
+      "stadium": "http://www.wikidata.org/entity/Q1370706",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.24861111 40.92833333)",
+      "capacity": "5600",
+      "stadiumLabel": "Estádio Municipal de Arouca"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387105",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Famalic%C3%A3o",
+      "website": "https://www.fcfamalicao.pt/",
+      "clubLabel": "FC Famalicão",
+      "stadium": "http://www.wikidata.org/entity/Q1293399",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.52242222 41.40127778)",
+      "capacity": "5186",
+      "stadiumLabel": "Estádio Municipal 22 de Junho"
+    }
+  ]
+}

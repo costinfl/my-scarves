@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.892014&lon=29.191017&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59551259,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":997691938,\"lat\":\"40.8919679\",\"lon\":\"29.1909302\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":5.2829022659602004e-05,\"addresstype\":\"amenity\",\"name\":\"İspark\",\"display_name\":\"İspark, Şahabbey Sokağı, Karlıktepe Mahallesi, Kartal, İstanbul, Marmara Bölgesi, 34870, Türkiye\",\"address\":{\"amenity\":\"İspark\",\"road\":\"Şahabbey Sokağı\",\"suburb\":\"Karlıktepe Mahallesi\",\"town\":\"Kartal\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34870\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.8914001\",\"40.8925802\",\"29.1901035\",\"29.1917611\"]}",
+  "fetchedAt": "2026-10-12T18:00:54.135Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.140278&lon=9.510278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":73336951,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":320911509,\"lat\":\"47.1405379\",\"lon\":\"9.5100687\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4990198087986086,\"addresstype\":\"leisure\",\"name\":\"Rheinparkstadion\",\"display_name\":\"Rheinparkstadion, Rheindamm, Ebenholz, Vaduz, Oberland, 9490, Liechtenstein\",\"address\":{\"leisure\":\"Rheinparkstadion\",\"road\":\"Rheindamm\",\"village\":\"Ebenholz\",\"town\":\"Vaduz\",\"ISO3166-2-lvl8\":\"LI-11\",\"county\":\"Oberland\",\"postcode\":\"9490\",\"country\":\"Liechtenstein\",\"country_code\":\"li\"},\"boundingbox\":[\"47.1399778\",\"47.1410979\",\"9.5094187\",\"9.5107186\"]}",
+  "fetchedAt": "2026-10-12T18:00:20.015Z"
+}

@@ -1,0 +1,43 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q18232",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 373058,
+                "id": "Q373058"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "4608"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "KAA Gent"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "KAA Gent"
+      }
+    }
+  }
+}

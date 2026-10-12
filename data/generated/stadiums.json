@@ -98,6 +98,13 @@
     "capacity": 30335
   },
   {
+    "qid": "Q81492",
+    "name": "Rams Park",
+    "lat": 41.103388888,
+    "lon": 28.991,
+    "capacity": 52652
+  },
+  {
     "qid": "Q82709",
     "name": "Stadio Diego Armando Maradona",
     "lat": 40.827967,
@@ -413,6 +420,13 @@
     "capacity": 53289
   },
   {
+    "qid": "Q190010",
+    "name": "St. Jakob-Park",
+    "lat": 47.541389,
+    "lon": 7.62,
+    "capacity": 38512
+  },
+  {
     "qid": "Q191774",
     "name": "St James’ Park",
     "lat": 54.975555555,
@@ -425,6 +439,13 @@
     "lat": 48.84145,
     "lon": 2.25305,
     "capacity": 47930
+  },
+  {
+    "qid": "Q194479",
+    "name": "Stadion Wankdorf",
+    "lat": 46.962778,
+    "lon": 7.465,
+    "capacity": 32000
   },
   {
     "qid": "Q195391",
@@ -455,11 +476,39 @@
     "capacity": 49430
   },
   {
+    "qid": "Q204484",
+    "name": "Tivoli Stadion Tirol",
+    "lat": 47.255972,
+    "lon": 11.410789,
+    "capacity": 17400
+  },
+  {
+    "qid": "Q206135",
+    "name": "Red Bull Arena",
+    "lat": 47.81625,
+    "lon": 12.998222222,
+    "capacity": 31895
+  },
+  {
     "qid": "Q207109",
     "name": "Johan Cruyff Arena",
     "lat": 52.314166666,
     "lon": 4.941944444,
     "capacity": 54990
+  },
+  {
+    "qid": "Q207623",
+    "name": "Letzigrund",
+    "lat": 47.382791,
+    "lon": 8.503801,
+    "capacity": 25000
+  },
+  {
+    "qid": "Q208709",
+    "name": "Ibrox Stadium",
+    "lat": 55.853055555,
+    "lon": -4.309166666,
+    "capacity": 51700
   },
   {
     "qid": "Q210466",
@@ -476,11 +525,53 @@
     "capacity": 28177
   },
   {
+    "qid": "Q215295",
+    "name": "Stade de Genève",
+    "lat": 46.177778,
+    "lon": 6.1275,
+    "capacity": 30084
+  },
+  {
+    "qid": "Q216037",
+    "name": "Celtic Park",
+    "lat": 55.849711111,
+    "lon": -4.205588888,
+    "capacity": 60355
+  },
+  {
+    "qid": "Q216167",
+    "name": "Wörthersee Stadion",
+    "lat": 46.608847,
+    "lon": 14.278281,
+    "capacity": 32000
+  },
+  {
     "qid": "Q219462",
     "name": "Stade Océane",
     "lat": 49.4988,
     "lon": 0.1697,
     "capacity": 33000
+  },
+  {
+    "qid": "Q221122",
+    "name": "Atatürk Olympic Stadium",
+    "lat": 41.074472222,
+    "lon": 28.765702777,
+    "capacity": 80597
+  },
+  {
+    "qid": "Q222865",
+    "name": "Şükrü Saracoğlu Stadium",
+    "lat": 40.9875,
+    "lon": 29.036666666,
+    "capacity": 50530
+  },
+  {
+    "qid": "Q241022",
+    "name": "Visana Stadion",
+    "lat": 46.744817,
+    "lon": 7.606075,
+    "capacity": 10000
   },
   {
     "qid": "Q242772",
@@ -511,6 +602,13 @@
     "capacity": 15191
   },
   {
+    "qid": "Q252696",
+    "name": "Fir Park",
+    "lat": 55.779947,
+    "lon": -3.980078,
+    "capacity": 13677
+  },
+  {
     "qid": "Q255387",
     "name": "Yanmar Hanasaka Stadion",
     "lat": 52.394444,
@@ -532,6 +630,20 @@
     "capacity": 6150
   },
   {
+    "qid": "Q259830",
+    "name": "İzmir Atatürk Stadium",
+    "lat": 38.435,
+    "lon": 27.178055555,
+    "capacity": 70000
+  },
+  {
+    "qid": "Q262326",
+    "name": "Lotto Park",
+    "lat": 50.834167,
+    "lon": 4.298333,
+    "capacity": 21500
+  },
+  {
     "qid": "Q264581",
     "name": "Nou Estadi Castalia",
     "lat": 39.996053,
@@ -544,6 +656,20 @@
     "lat": 52.280833,
     "lon": 8.071111,
     "capacity": 16130
+  },
+  {
+    "qid": "Q265477",
+    "name": "Schiervelde Stadion",
+    "lat": 50.95194444,
+    "lon": 3.10527778,
+    "capacity": 9700
+  },
+  {
+    "qid": "Q267159",
+    "name": "Stadion Schnabelholz",
+    "lat": 47.3536,
+    "lon": 9.6372,
+    "capacity": 8500
   },
   {
     "qid": "Q270474",
@@ -607,6 +733,20 @@
     "lat": 52.6125,
     "lon": 4.741667,
     "capacity": 17023
+  },
+  {
+    "qid": "Q292010",
+    "name": "kybunpark",
+    "lat": 47.408333,
+    "lon": 9.306389,
+    "capacity": 19694
+  },
+  {
+    "qid": "Q301760",
+    "name": "Den Dreef",
+    "lat": 50.868333,
+    "lon": 4.694167,
+    "capacity": 9493
   },
   {
     "qid": "Q311458",
@@ -700,11 +840,25 @@
     "capacity": 30852
   },
   {
+    "qid": "Q385083",
+    "name": "Gurzelen Stadion",
+    "lat": 47.1453,
+    "lon": 7.26104,
+    "capacity": 1500
+  },
+  {
     "qid": "Q387213",
     "name": "Stade Raymond Kopa",
     "lat": 47.45905,
     "lon": -0.53163,
     "capacity": 18000
+  },
+  {
+    "qid": "Q388470",
+    "name": "Şanlıurfa 11 Nisan Stadium",
+    "lat": 37.1478,
+    "lon": 38.8068,
+    "capacity": 28965
   },
   {
     "qid": "Q391473",
@@ -733,6 +887,13 @@
     "lat": 51.929722,
     "lon": 7.624583,
     "capacity": 45000
+  },
+  {
+    "qid": "Q469079",
+    "name": "Kehrweg Stadion",
+    "lat": 50.626389,
+    "lon": 6.045833,
+    "capacity": 8000
   },
   {
     "qid": "Q473032",
@@ -770,6 +931,20 @@
     "capacity": 15000
   },
   {
+    "qid": "Q489700",
+    "name": "Reichshofstadion",
+    "lat": 47.4211,
+    "lon": 9.65278,
+    "capacity": 8800
+  },
+  {
+    "qid": "Q495324",
+    "name": "Stadion Schützenwiese",
+    "lat": 47.501389,
+    "lon": 8.716389,
+    "capacity": 8700
+  },
+  {
     "qid": "Q500922",
     "name": "Britannia Stadium",
     "lat": 52.988333333,
@@ -782,6 +957,13 @@
     "lat": 51.4417,
     "lon": 5.4674,
     "capacity": 36500
+  },
+  {
+    "qid": "Q515782",
+    "name": "Stayen",
+    "lat": 50.813611,
+    "lon": 5.165278,
+    "capacity": 11250
   },
   {
     "qid": "Q530735",
@@ -833,6 +1015,13 @@
     "capacity": 19436
   },
   {
+    "qid": "Q574897",
+    "name": "Kartal Stadium",
+    "lat": 40.892014,
+    "lon": 29.191017,
+    "capacity": 7195
+  },
+  {
     "qid": "Q580480",
     "name": "Liberty Stadium",
     "lat": 51.6422,
@@ -861,6 +1050,20 @@
     "capacity": 30404
   },
   {
+    "qid": "Q597004",
+    "name": "Rheinpark Stadion",
+    "lat": 47.140277777,
+    "lon": 9.510277777,
+    "capacity": 7584
+  },
+  {
+    "qid": "Q597945",
+    "name": "Sivas 4 Eylül Stadium",
+    "lat": 39.728612,
+    "lon": 36.984065,
+    "capacity": 14998
+  },
+  {
     "qid": "Q606265",
     "name": "De Vijverberg",
     "lat": 51.955833,
@@ -868,11 +1071,32 @@
     "capacity": 12600
   },
   {
+    "qid": "Q606856",
+    "name": "Het Kuipje",
+    "lat": 51.094722,
+    "lon": 4.928333,
+    "capacity": 7982
+  },
+  {
     "qid": "Q610546",
     "name": "Stadio Ennio Tardini",
     "lat": 44.794916666,
     "lon": 10.338444444,
     "capacity": 22352
+  },
+  {
+    "qid": "Q614983",
+    "name": "Dumbarton Football Stadium",
+    "lat": 55.9384,
+    "lon": -4.56144,
+    "capacity": 2020
+  },
+  {
+    "qid": "Q615561",
+    "name": "Dens Park",
+    "lat": 56.475264,
+    "lon": -2.973194,
+    "capacity": 11506
   },
   {
     "qid": "Q619094",
@@ -945,6 +1169,13 @@
     "capacity": 30305
   },
   {
+    "qid": "Q649755",
+    "name": "AFAS Stadion KV Mechelen",
+    "lat": 51.037222,
+    "lon": 4.486389,
+    "capacity": 13213
+  },
+  {
     "qid": "Q662597",
     "name": "Eintracht-Stadion",
     "lat": 52.29,
@@ -952,11 +1183,67 @@
     "capacity": 24406
   },
   {
+    "qid": "Q663857",
+    "name": "Stadio comunale Riva IV",
+    "lat": 45.834089,
+    "lon": 9.016686,
+    "capacity": 11160
+  },
+  {
+    "qid": "Q663896",
+    "name": "Stadio del Lido",
+    "lat": 46.162687,
+    "lon": 8.801544,
+    "capacity": 11000
+  },
+  {
     "qid": "Q668094",
     "name": "Sparta Stadion Het Kasteel",
     "lat": 51.919444,
     "lon": 4.433333,
     "capacity": 11026
+  },
+  {
+    "qid": "Q668606",
+    "name": "Stade Olympique de la Pontaise",
+    "lat": 46.534,
+    "lon": 6.625,
+    "capacity": 50000
+  },
+  {
+    "qid": "Q669063",
+    "name": "Stade de Tourbillon",
+    "lat": 46.233333,
+    "lon": 7.376389,
+    "capacity": 16263
+  },
+  {
+    "qid": "Q671514",
+    "name": "Alpenstadion",
+    "lat": 47.4439,
+    "lon": 15.3006,
+    "capacity": 12000
+  },
+  {
+    "qid": "Q677343",
+    "name": "Stade Municipal",
+    "lat": 46.783297,
+    "lon": 6.647056,
+    "capacity": 6600
+  },
+  {
+    "qid": "Q677617",
+    "name": "Waldstadion",
+    "lat": 48.235556,
+    "lon": 14.226667,
+    "capacity": 7152
+  },
+  {
+    "qid": "Q681492",
+    "name": "Stadion Kleinfeld",
+    "lat": 47.029836,
+    "lon": 8.287797,
+    "capacity": 5360
   },
   {
     "qid": "Q683112",
@@ -987,11 +1274,46 @@
     "capacity": 31500
   },
   {
+    "qid": "Q686798",
+    "name": "Linzer Stadion",
+    "lat": 48.293333,
+    "lon": 14.276389,
+    "capacity": 18000
+  },
+  {
+    "qid": "Q686860",
+    "name": "BWT X Upper Austrian Arena",
+    "lat": 48.207778,
+    "lon": 13.478333,
+    "capacity": 7680
+  },
+  {
+    "qid": "Q692534",
+    "name": "thermoplan arena",
+    "lat": 47.033264,
+    "lon": 8.305187,
+    "capacity": 16800
+  },
+  {
     "qid": "Q695879",
     "name": "La Rosaleda Stadium",
     "lat": 36.734092,
     "lon": -4.426422,
     "capacity": 30778
+  },
+  {
+    "qid": "Q696476",
+    "name": "Generali Arena",
+    "lat": 48.162306,
+    "lon": 16.386694,
+    "capacity": 17656
+  },
+  {
+    "qid": "Q696491",
+    "name": "Merkur Arena",
+    "lat": 47.046111,
+    "lon": 15.454444,
+    "capacity": 15400
   },
   {
     "qid": "Q706435",
@@ -1064,6 +1386,13 @@
     "capacity": 24891
   },
   {
+    "qid": "Q747467",
+    "name": "Stadion Niedermatten",
+    "lat": 47.356997,
+    "lon": 8.264067,
+    "capacity": 3734
+  },
+  {
     "qid": "Q749172",
     "name": "Stadion An der Alten Försterei",
     "lat": 52.457222,
@@ -1076,6 +1405,13 @@
     "lat": 44.4922,
     "lon": 11.3098,
     "capacity": 36462
+  },
+  {
+    "qid": "Q777672",
+    "name": "Tannadice Park",
+    "lat": 56.474703,
+    "lon": -2.968961,
+    "capacity": 14229
   },
   {
     "qid": "Q777926",
@@ -1155,6 +1491,20 @@
     "capacity": 33260
   },
   {
+    "qid": "Q870106",
+    "name": "Stade de la Maladière",
+    "lat": 46.9952,
+    "lon": 6.944,
+    "capacity": 12000
+  },
+  {
+    "qid": "Q872250",
+    "name": "Datenpol Arena",
+    "lat": 48.0976,
+    "lon": 16.3109,
+    "capacity": 12000
+  },
+  {
     "qid": "Q872808",
     "name": "Ostalb Arena",
     "lat": 48.840556,
@@ -1197,6 +1547,13 @@
     "capacity": 40000
   },
   {
+    "qid": "Q925654",
+    "name": "Cegeka Arena",
+    "lat": 51.005,
+    "lon": 5.533333,
+    "capacity": 25000
+  },
+  {
     "qid": "Q929109",
     "name": "Estadio Coliseum",
     "lat": 40.325556,
@@ -1209,6 +1566,13 @@
     "lat": 43.536111,
     "lon": -5.637222,
     "capacity": 29371
+  },
+  {
+    "qid": "Q937866",
+    "name": "Sakarya Atatürk Stadium",
+    "lat": 40.777014,
+    "lon": 30.386558,
+    "capacity": 13216
   },
   {
     "qid": "Q942073",
@@ -1239,6 +1603,13 @@
     "capacity": 27111
   },
   {
+    "qid": "Q959934",
+    "name": "Stade Maurice Dufrasne",
+    "lat": 50.609908,
+    "lon": 5.543344,
+    "capacity": 30023
+  },
+  {
     "qid": "Q979112",
     "name": "Estadio El Toralín",
     "lat": 42.5574,
@@ -1258,6 +1629,27 @@
     "lat": 28.1,
     "lon": -15.456667,
     "capacity": 32392
+  },
+  {
+    "qid": "Q997619",
+    "name": "Buca Arena",
+    "lat": 38.3951,
+    "lon": 27.1928,
+    "capacity": 10500
+  },
+  {
+    "qid": "Q1026588",
+    "name": "Caledonian Stadium",
+    "lat": 57.494722,
+    "lon": -4.2175,
+    "capacity": 7800
+  },
+  {
+    "qid": "Q1027157",
+    "name": "Falkirk Stadium",
+    "lat": 56.005136,
+    "lon": -3.754269,
+    "capacity": 8750
   },
   {
     "qid": "Q1028392",
@@ -1286,6 +1678,13 @@
     "lat": 39.748611111,
     "lon": -8.813055555,
     "capacity": 23888
+  },
+  {
+    "qid": "Q1057087",
+    "name": "Olympisch Stadion Antwerp",
+    "lat": 51.185,
+    "lon": 4.382222,
+    "capacity": 12771
   },
   {
     "qid": "Q1057274",
@@ -1321,6 +1720,13 @@
     "lat": 40.203333333,
     "lon": -8.407777777,
     "capacity": 29622
+  },
+  {
+    "qid": "Q1070150",
+    "name": "Jan Breydel Stadium",
+    "lat": 51.193269,
+    "lon": 3.181311,
+    "capacity": 29062
   },
   {
     "qid": "Q1121760",
@@ -1379,11 +1785,25 @@
     "capacity": 12500
   },
   {
+    "qid": "Q1141259",
+    "name": "Pittodrie Stadium",
+    "lat": 57.159166666,
+    "lon": -2.088888888,
+    "capacity": 21421
+  },
+  {
     "qid": "Q1141958",
     "name": "Deepdale",
     "lat": 53.772222222,
     "lon": -2.688055555,
     "capacity": 24500
+  },
+  {
+    "qid": "Q1147565",
+    "name": "Stade du Pays de Charleroi",
+    "lat": 50.414609,
+    "lon": 4.453787,
+    "capacity": 14891
   },
   {
     "qid": "Q1158963",
@@ -1400,6 +1820,13 @@
     "capacity": 12046
   },
   {
+    "qid": "Q1187869",
+    "name": "Denizli Atatürk Stadium",
+    "lat": 37.7659,
+    "lon": 29.0823,
+    "capacity": 15427
+  },
+  {
     "qid": "Q1202579",
     "name": "Racecourse Ground",
     "lat": 53.051944,
@@ -1412,6 +1839,13 @@
     "lat": 44.455083,
     "lon": 26.102444,
     "capacity": 15032
+  },
+  {
+    "qid": "Q1232645",
+    "name": "Stadion Hartberg",
+    "lat": 47.281,
+    "lon": 15.9772,
+    "capacity": 4500
   },
   {
     "qid": "Q1253767",
@@ -1435,6 +1869,20 @@
     "capacity": 10600
   },
   {
+    "qid": "Q1277834",
+    "name": "East End Park",
+    "lat": 56.075308,
+    "lon": -3.441906,
+    "capacity": 11480
+  },
+  {
+    "qid": "Q1278116",
+    "name": "Easter Road",
+    "lat": 55.961666666,
+    "lon": -3.165555555,
+    "capacity": 20421
+  },
+  {
     "qid": "Q1293399",
     "name": "Estádio Municipal 22 de Junho",
     "lat": 41.40127778,
@@ -1449,6 +1897,13 @@
     "capacity": 4961
   },
   {
+    "qid": "Q1309785",
+    "name": "Almondvale Stadium",
+    "lat": 55.886167,
+    "lon": -3.522872,
+    "capacity": 9865
+  },
+  {
     "qid": "Q1320249",
     "name": "Stade de Paris",
     "lat": 48.9061,
@@ -1461,6 +1916,13 @@
     "lat": 51.755,
     "lon": 5.528056,
     "capacity": 4560
+  },
+  {
+    "qid": "Q1326446",
+    "name": "Tynecastle Park",
+    "lat": 55.939055555,
+    "lon": -3.232444444,
+    "capacity": 17529
   },
   {
     "qid": "Q1326578",
@@ -1631,6 +2093,13 @@
     "capacity": 22550
   },
   {
+    "qid": "Q1408176",
+    "name": "Koning Willem II Stadion",
+    "lat": 51.542778,
+    "lon": 5.066944,
+    "capacity": 14637
+  },
+  {
     "qid": "Q1409157",
     "name": "Stadionul Ion Oblemenco",
     "lat": 44.313889,
@@ -1643,6 +2112,20 @@
     "lat": 50.611962,
     "lon": 3.130631,
     "capacity": 50000
+  },
+  {
+    "qid": "Q1419068",
+    "name": "Firhill Stadium",
+    "lat": 55.881556,
+    "lon": -4.269639,
+    "capacity": 10102
+  },
+  {
+    "qid": "Q1420267",
+    "name": "Yeni Rize Şehir Stadı",
+    "lat": 41.042,
+    "lon": 40.5732,
+    "capacity": 15558
   },
   {
     "qid": "Q1432517",
@@ -1659,11 +2142,32 @@
     "capacity": 16000
   },
   {
+    "qid": "Q1467574",
+    "name": "Adana 5 Ocak Stadium",
+    "lat": 36.999,
+    "lon": 35.3297,
+    "capacity": 14085
+  },
+  {
     "qid": "Q1483409",
     "name": "Stade Saint-Symphorien",
     "lat": 49.109945,
     "lon": 6.159532,
     "capacity": 26671
+  },
+  {
+    "qid": "Q1493501",
+    "name": "Kadir Has Stadium",
+    "lat": 38.736944444,
+    "lon": 35.423055555,
+    "capacity": 32864
+  },
+  {
+    "qid": "Q1526701",
+    "name": "Giresun Atatürk Stadium",
+    "lat": 40.90972222,
+    "lon": 38.37194444,
+    "capacity": 12191
   },
   {
     "qid": "Q1538773",
@@ -1673,11 +2177,25 @@
     "capacity": 27543
   },
   {
+    "qid": "Q1543487",
+    "name": "Alsancak Mustafa Denizli Stadium",
+    "lat": 38.4373,
+    "lon": 27.1508,
+    "capacity": 15358
+  },
+  {
     "qid": "Q1546623",
     "name": "Griffin Park",
     "lat": 51.488167,
     "lon": -0.302639,
     "capacity": 14863
+  },
+  {
+    "qid": "Q1554251",
+    "name": "Guldensporen Stadion",
+    "lat": 50.830278,
+    "lon": 3.248889,
+    "capacity": 9399
   },
   {
     "qid": "Q1569166",
@@ -1694,6 +2212,20 @@
     "capacity": 12500
   },
   {
+    "qid": "Q1637255",
+    "name": "Rugby Park",
+    "lat": 55.604225,
+    "lon": -4.508122,
+    "capacity": 18128
+  },
+  {
+    "qid": "Q1652487",
+    "name": "Hüseyin Avni Aker Stadium",
+    "lat": 41.003664,
+    "lon": 39.705317,
+    "capacity": 24169
+  },
+  {
     "qid": "Q1671970",
     "name": "Stadio Ciro Vigorito",
     "lat": 41.116389,
@@ -1706,6 +2238,34 @@
     "lat": 52.078333333,
     "lon": 5.145833333,
     "capacity": 23750
+  },
+  {
+    "qid": "Q1711746",
+    "name": "Jules Ottenstadion",
+    "lat": 51.031389,
+    "lon": 3.766111,
+    "capacity": 12919
+  },
+  {
+    "qid": "Q1770357",
+    "name": "Recep Tayyip Erdoğan Stadium",
+    "lat": 41.032777777,
+    "lon": 28.972222222,
+    "capacity": 14234
+  },
+  {
+    "qid": "Q1776570",
+    "name": "Sportstadion Gratkorn",
+    "lat": 47.1298,
+    "lon": 15.3385,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q1786202",
+    "name": "Victoria Park",
+    "lat": 57.5959,
+    "lon": -4.41891,
+    "capacity": 6541
   },
   {
     "qid": "Q1807356",
@@ -1727,6 +2287,20 @@
     "lat": 47.32616,
     "lon": 5.06757,
     "capacity": 15995
+  },
+  {
+    "qid": "Q1848848",
+    "name": "McDiarmid Park",
+    "lat": 56.409686,
+    "lon": -3.476928,
+    "capacity": 10696
+  },
+  {
+    "qid": "Q1850335",
+    "name": "Regenboogstadion",
+    "lat": 50.883056,
+    "lon": 3.428889,
+    "capacity": 10200
   },
   {
     "qid": "Q1851616",
@@ -1757,6 +2331,13 @@
     "capacity": 25000
   },
   {
+    "qid": "Q1875713",
+    "name": "Malatya İnönü Stadium",
+    "lat": 38.352178,
+    "lon": 38.330494,
+    "capacity": 13000
+  },
+  {
     "qid": "Q1887221",
     "name": "Mapei Stadium - Città del Tricolore",
     "lat": 44.714722,
@@ -1776,6 +2357,20 @@
     "lat": 51.4608,
     "lon": 5.4389,
     "capacity": 2500
+  },
+  {
+    "qid": "Q1982570",
+    "name": "New Douglas Park",
+    "lat": 55.7822,
+    "lon": -4.0585,
+    "capacity": 6078
+  },
+  {
+    "qid": "Q1988779",
+    "name": "NV Arena",
+    "lat": 48.2209,
+    "lon": 15.6531,
+    "capacity": 8000
   },
   {
     "qid": "Q2001732",
@@ -1806,11 +2401,32 @@
     "capacity": 14624
   },
   {
+    "qid": "Q2110834",
+    "name": "Stade Leburton",
+    "lat": 50.683795,
+    "lon": 4.200436,
+    "capacity": 8100
+  },
+  {
     "qid": "Q2132300",
     "name": "Rat Verlegh Stadion",
     "lat": 51.595556,
     "lon": 4.750278,
     "capacity": 19000
+  },
+  {
+    "qid": "Q2135912",
+    "name": "Freethiel Stadion",
+    "lat": 51.214139,
+    "lon": 4.243931,
+    "capacity": 13290
+  },
+  {
+    "qid": "Q2139208",
+    "name": "St. Mirren Park",
+    "lat": 55.850556,
+    "lon": -4.443889,
+    "capacity": 8023
   },
   {
     "qid": "Q2200744",
@@ -1869,6 +2485,13 @@
     "capacity": 26000
   },
   {
+    "qid": "Q2312361",
+    "name": "Sportanlage Buechenwald",
+    "lat": 47.4104,
+    "lon": 9.2543,
+    "capacity": 3500
+  },
+  {
     "qid": "Q2325881",
     "name": "Stade Marcel Tribut",
     "lat": 51.03555556,
@@ -1890,6 +2513,17 @@
     "capacity": 5123
   },
   {
+    "qid": "Q2639454",
+    "name": "Albertpark"
+  },
+  {
+    "qid": "Q2744854",
+    "name": "Florent Beeckmanstadion",
+    "lat": 50.883889,
+    "lon": 4.070833,
+    "capacity": 12000
+  },
+  {
     "qid": "Q3059095",
     "name": "Estádio José Gomes",
     "lat": 38.752036,
@@ -1909,6 +2543,13 @@
     "lat": 45.430236,
     "lon": 28.022378,
     "capacity": 13500
+  },
+  {
+    "qid": "Q3245127",
+    "name": "Casino-Stadion Hohe Warte",
+    "lat": 48.2489,
+    "lon": 16.3597,
+    "capacity": 5500
   },
   {
     "qid": "Q3264211",
@@ -1960,6 +2601,13 @@
     "capacity": 5017
   },
   {
+    "qid": "Q3495665",
+    "name": "Joseph Marien Stadium",
+    "lat": 50.8178,
+    "lon": 4.32917,
+    "capacity": 5100
+  },
+  {
     "qid": "Q3496024",
     "name": "Stade Raoul-Barrière",
     "lat": 43.33633,
@@ -2009,6 +2657,19 @@
     "capacity": 12000
   },
   {
+    "qid": "Q4843094",
+    "name": "Bahçelievler Stadium",
+    "lat": 40.99656667,
+    "lon": 28.83211944
+  },
+  {
+    "qid": "Q4853221",
+    "name": "Balıkesir Atatürk Stadium",
+    "lat": 39.6415,
+    "lon": 27.8877,
+    "capacity": 15800
+  },
+  {
     "qid": "Q5028447",
     "name": "Estádio Manuel Marques",
     "lat": 39.09487778,
@@ -2037,10 +2698,24 @@
     "capacity": 7280
   },
   {
+    "qid": "Q6045919",
+    "name": "Dumlupinar Stadium",
+    "lat": 39.4183,
+    "lon": 29.9917,
+    "capacity": 11495
+  },
+  {
     "qid": "Q6083752",
     "name": "Ciudad Deportiva Andrés Iniesta",
     "lat": 38.967597222,
     "lon": -1.853777777
+  },
+  {
+    "qid": "Q6099597",
+    "name": "Samsun 19 Mayıs Stadium",
+    "lat": 41.227777777,
+    "lon": 36.4575,
+    "capacity": 33919
   },
   {
     "qid": "Q6271952",
@@ -2048,6 +2723,41 @@
     "lat": 46.549722,
     "lon": 24.545833,
     "capacity": 8200
+  },
+  {
+    "qid": "Q6381835",
+    "name": "Kazım Karabekir Stadium",
+    "lat": 39.911,
+    "lon": 41.238,
+    "capacity": 23700
+  },
+  {
+    "qid": "Q7009690",
+    "name": "Konya Büyükşehir Stadium",
+    "lat": 37.9462,
+    "lon": 32.4881,
+    "capacity": 42276
+  },
+  {
+    "qid": "Q7012155",
+    "name": "Papara Park",
+    "lat": 40.9987,
+    "lon": 39.6463,
+    "capacity": 41500
+  },
+  {
+    "qid": "Q7596242",
+    "name": "Stade de la Fontenette",
+    "lat": 46.185861,
+    "lon": 6.149833,
+    "capacity": 7200
+  },
+  {
+    "qid": "Q7596290",
+    "name": "Stadion Broodstraat",
+    "lat": 51.2327,
+    "lon": 4.471575,
+    "capacity": 5350
   },
   {
     "qid": "Q7596362",
@@ -2125,6 +2835,19 @@
     "capacity": 1545
   },
   {
+    "qid": "Q11173914",
+    "name": "Vefa Stadium",
+    "lat": 41.0278,
+    "lon": 28.939,
+    "capacity": 12500
+  },
+  {
+    "qid": "Q12808383",
+    "name": "Alanya Oba Stadium",
+    "lat": 36.5626,
+    "lon": 32.0791
+  },
+  {
     "qid": "Q13580789",
     "name": "Eugen Popescu Stadium",
     "lat": 44.931558,
@@ -2138,6 +2861,20 @@
     "capacity": 1000
   },
   {
+    "qid": "Q14914703",
+    "name": "Beşiktaş Stadium",
+    "lat": 41.039166666,
+    "lon": 28.994166666,
+    "capacity": 41903
+  },
+  {
+    "qid": "Q15057371",
+    "name": "Lavanttal-Arena",
+    "lat": 46.8253,
+    "lon": 14.8514,
+    "capacity": 7300
+  },
+  {
     "qid": "Q16632396",
     "name": "Estádio João Cardoso",
     "lat": 40.512,
@@ -2145,11 +2882,58 @@
     "capacity": 5000
   },
   {
+    "qid": "Q17182993",
+    "name": "Başakşehir Fatih Terim Stadium",
+    "lat": 41.1228,
+    "lon": 28.8087
+  },
+  {
+    "qid": "Q17310225",
+    "name": "Allianz Stadion",
+    "lat": 48.1981,
+    "lon": 16.2653
+  },
+  {
+    "qid": "Q17508044",
+    "name": "Akhisar Stadium",
+    "lat": 38.9209,
+    "lon": 27.8118
+  },
+  {
+    "qid": "Q17512849",
+    "name": "Gaziantep Stadium",
+    "lat": 37.123888888,
+    "lon": 37.3825,
+    "capacity": 33502
+  },
+  {
+    "qid": "Q17512881",
+    "name": "New Sakarya Stadium",
+    "lat": 40.7805,
+    "lon": 30.4324
+  },
+  {
+    "qid": "Q17620899",
+    "name": "SL16 Football Campus"
+  },
+  {
     "qid": "Q18125598",
     "name": "Estadi Nacional",
     "lat": 42.5046,
     "lon": 1.51746,
     "capacity": 3306
+  },
+  {
+    "qid": "Q19611724",
+    "name": "Kocaeli Stadium",
+    "lat": 40.774722222,
+    "lon": 30.0175
+  },
+  {
+    "qid": "Q20988339",
+    "name": "Bornova Stadium",
+    "lat": 38.447,
+    "lon": 27.2622
   },
   {
     "qid": "Q23051502",
@@ -2181,6 +2965,12 @@
     "name": "Estadio Municipal Nuevo Pepico Amat",
     "lat": 38.467356,
     "lon": -0.796031
+  },
+  {
+    "qid": "Q28451127",
+    "name": "Eryaman Stadium",
+    "lat": 39.98,
+    "lon": 32.6139
   },
   {
     "qid": "Q29347805",
@@ -2238,10 +3028,29 @@
     "capacity": 14000
   },
   {
+    "qid": "Q98091637",
+    "name": "Ümraniye Belediyesi Şehir Stadium",
+    "lat": 41.058950253,
+    "lon": 29.109533282
+  },
+  {
     "qid": "Q99194551",
     "name": "Stadio Guido Teghil",
     "lat": 45.675319,
     "lon": 13.09953
+  },
+  {
+    "qid": "Q109452443",
+    "name": "Çorum City Stadium",
+    "lat": 40.53453,
+    "lon": 34.92282,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q119291101",
+    "name": "Hofmann Personal Stadion",
+    "lat": 48.3163,
+    "lon": 14.2983
   },
   {
     "qid": "Q132997935",
@@ -2263,5 +3072,12 @@
     "lat": 41.636611111,
     "lon": -0.901805555,
     "capacity": 43110
+  },
+  {
+    "qid": "Q140038602",
+    "name": "AIL Arena",
+    "lat": 46.0230878,
+    "lon": 8.9601204,
+    "capacity": 8093
   }
 ]

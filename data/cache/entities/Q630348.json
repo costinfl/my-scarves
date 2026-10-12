@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q630348",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bucaspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Bucaspor"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.123889&lon=37.382500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209875567,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":622175385,\"lat\":\"37.1239449\",\"lon\":\"37.3825363\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.371023117413623e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Gaziantep-Adıyaman yolu, Göktürk Mahallesi, Şehitkamil, Gaziantep, Güneydoğu Anadolu Bölgesi, 27590, Türkiye\",\"address\":{\"road\":\"Gaziantep-Adıyaman yolu\",\"suburb\":\"Göktürk Mahallesi\",\"town\":\"Şehitkamil\",\"province\":\"Gaziantep\",\"ISO3166-2-lvl4\":\"TR-27\",\"region\":\"Güneydoğu Anadolu Bölgesi\",\"postcode\":\"27590\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"37.1233976\",\"37.1244864\",\"37.3820464\",\"37.3830261\"]}",
+  "fetchedAt": "2026-10-12T18:00:47.655Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.418300&lon=29.991700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55668253,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":316893655,\"lat\":\"39.4183082\",\"lon\":\"29.9916938\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3095991533582804,\"addresstype\":\"leisure\",\"name\":\"Dumlupınar Stadyumu\",\"display_name\":\"Dumlupınar Stadyumu, Fatih Sultan Mehmet Bulvarı, Alipaşa Mahallesi, Kütahya Merkez, Kütahya, Ege Bölgesi, 43030, Türkiye\",\"address\":{\"leisure\":\"Dumlupınar Stadyumu\",\"road\":\"Fatih Sultan Mehmet Bulvarı\",\"suburb\":\"Alipaşa Mahallesi\",\"city\":\"Kütahya Merkez\",\"province\":\"Kütahya\",\"ISO3166-2-lvl4\":\"TR-43\",\"region\":\"Ege Bölgesi\",\"postcode\":\"43030\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"39.4175092\",\"39.4191565\",\"29.9907874\",\"29.9925443\"]}",
+  "fetchedAt": "2026-10-12T18:01:05.263Z"
+}

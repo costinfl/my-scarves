@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.443900&lon=15.300600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68447603,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":270608972,\"lat\":\"47.4439617\",\"lon\":\"15.3004507\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.5389486533867666e-05,\"addresstype\":\"leisure\",\"name\":\"Alpenstadion\",\"display_name\":\"Alpenstadion, Viktor-Kaplan-Straße, Mürzbogen, Katastralgemeinde Kapfenberg, Pötschen, Kapfenberg, Bezirk Bruck-Mürzzuschlag, Steiermark, 8605, Österreich\",\"address\":{\"leisure\":\"Alpenstadion\",\"road\":\"Viktor-Kaplan-Straße\",\"suburb\":\"Mürzbogen\",\"village\":\"Pötschen\",\"town\":\"Kapfenberg\",\"county\":\"Bezirk Bruck-Mürzzuschlag\",\"state\":\"Steiermark\",\"ISO3166-2-lvl4\":\"AT-6\",\"postcode\":\"8605\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.4439117\",\"47.4440117\",\"15.3004007\",\"15.3005007\"]}",
+  "fetchedAt": "2026-10-12T17:59:11.820Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.779947&lon=-3.980078&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273699895,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":193879618,\"lat\":\"55.7803660\",\"lon\":\"-3.9801760\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.749828335999111e-05,\"addresstype\":\"leisure\",\"name\":\"Motherwell FC\",\"display_name\":\"Motherwell FC, Knowetop Avenue, Knowetop, Watsonville, Motherwell, North Lanarkshire, Alba / Scotland, ML1 2PN, United Kingdom\",\"address\":{\"leisure\":\"Motherwell FC\",\"road\":\"Knowetop Avenue\",\"quarter\":\"Knowetop\",\"suburb\":\"Watsonville\",\"town\":\"Motherwell\",\"county\":\"North Lanarkshire\",\"ISO3166-2-lvl6\":\"GB-NLK\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"ML1 2PN\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.7798681\",\"55.7808639\",\"-3.9807669\",\"-3.9795851\"]}",
+  "fetchedAt": "2026-10-12T17:59:59.023Z"
+}

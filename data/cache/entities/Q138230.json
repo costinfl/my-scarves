@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q138230",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Former logo of Kasımpaşa SK (1996-2012).png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2600289"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Kasımpaşa S.K."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Kasımpaşa S.K."
+      }
+    }
+  }
+}

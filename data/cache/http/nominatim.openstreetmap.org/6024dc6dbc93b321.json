@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.951944&lon=3.105278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":102513667,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":87293618,\"lat\":\"50.9520266\",\"lon\":\"3.1054453\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0594338902830817e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kuipersstraat, Schiervelde, Roeselare, West-Vlaanderen, Vlaanderen, 8800, België / Belgique / Belgien\",\"address\":{\"road\":\"Kuipersstraat\",\"neighbourhood\":\"Schiervelde\",\"city_district\":\"Roeselare\",\"town\":\"Roeselare\",\"county\":\"Roeselare\",\"state\":\"West-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VWV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"8800\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.9515176\",\"50.9525356\",\"3.1048727\",\"3.1060179\"]}",
+  "fetchedAt": "2026-10-12T17:59:27.429Z"
+}

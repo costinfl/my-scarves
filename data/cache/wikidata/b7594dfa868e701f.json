@@ -1,0 +1,167 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q669073 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:56:00.716Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q869907",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy",
+      "website": "https://www.fcslo-association.ch",
+      "clubLabel": "FC Stade Lausanne-Ouchy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q869907",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy",
+      "website": "https://fcslo.ch/",
+      "clubLabel": "FC Stade Lausanne-Ouchy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q166496",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC",
+      "website": "https://etoile-carouge.ch/",
+      "clubLabel": "Étoile Carouge FC",
+      "stadium": "http://www.wikidata.org/entity/Q7596242",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.149833 46.185861)",
+      "capacity": "7200",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89toile%20Carouge%20FC%202023%20logo.png",
+      "stadiumLabel": "Stade de la Fontenette"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q166496",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC",
+      "website": "https://etoile-carouge.ch/",
+      "clubLabel": "Étoile Carouge FC",
+      "stadium": "http://www.wikidata.org/entity/Q7596242",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.149833 46.185861)",
+      "capacity": "7200",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89toile%20Carouge%20FC%202023%20Logo.svg",
+      "stadiumLabel": "Stade de la Fontenette"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q201969",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Winterthur",
+      "website": "https://www.fcwinterthur.ch",
+      "clubLabel": "FC Winterthur",
+      "stadium": "http://www.wikidata.org/entity/Q495324",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.716389 47.501389)",
+      "capacity": "8700",
+      "stadiumLabel": "Stadion Schützenwiese"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q201969",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Winterthur",
+      "website": "https://fcwinterthur.ch/",
+      "clubLabel": "FC Winterthur",
+      "stadium": "http://www.wikidata.org/entity/Q495324",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.716389 47.501389)",
+      "capacity": "8700",
+      "stadiumLabel": "Stadion Schützenwiese"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q335195",
+      "enwiki": "https://en.wikipedia.org/wiki/Neuch%C3%A2tel_Xamax_FCS",
+      "website": "https://xamax.ch/",
+      "clubLabel": "Neuchâtel Xamax FCS",
+      "stadium": "http://www.wikidata.org/entity/Q870106",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.944 46.9952)",
+      "capacity": "12000",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Neuchatel%20Xamax%20logo%202022.png",
+      "stadiumLabel": "Stade de la Maladière"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q368675",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Locarno",
+      "website": "http://www.fclocarno.ch",
+      "clubLabel": "FC Locarno",
+      "stadium": "http://www.wikidata.org/entity/Q663896",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.801544 46.162687)",
+      "capacity": "11000",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Locarno.svg",
+      "stadiumLabel": "Stadio del Lido"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q583599",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Wohlen",
+      "website": "http://www.fcwohlen.ch",
+      "clubLabel": "FC Wohlen",
+      "stadium": "http://www.wikidata.org/entity/Q747467",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.264067 47.356997)",
+      "capacity": "3734",
+      "stadiumLabel": "Stadion Niedermatten"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q668573",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Chiasso",
+      "website": "https://fcchiasso.com/",
+      "clubLabel": "FC Chiasso",
+      "stadium": "http://www.wikidata.org/entity/Q663857",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.016686 45.834089)",
+      "capacity": "11160",
+      "stadiumLabel": "Stadio comunale Riva IV"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q669130",
+      "enwiki": "https://en.wikipedia.org/wiki/Yverdon-Sport_FC",
+      "website": "https://www.yverdonsport.ch/",
+      "clubLabel": "Yverdon-Sport FC",
+      "stadium": "http://www.wikidata.org/entity/Q677343",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.647056 46.783297)",
+      "capacity": "6600",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Yverdon%20Sport%20FC.png",
+      "stadiumLabel": "Stade Municipal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q671950",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Kriens",
+      "website": "https://www.sckriens.ch/",
+      "clubLabel": "SC Kriens",
+      "stadium": "http://www.wikidata.org/entity/Q681492",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.287797 47.029836)",
+      "capacity": "5360",
+      "stadiumLabel": "Stadion Kleinfeld"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q674799",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Biel-Bienne",
+      "website": "http://fcbiel-bienne.ch/",
+      "clubLabel": "FC Biel-Bienne",
+      "stadium": "http://www.wikidata.org/entity/Q385083",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.26104 47.1453)",
+      "capacity": "1500",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Wappen%20FC%20Biel-Bienne.png",
+      "stadiumLabel": "Gurzelen Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q690074",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Gossau",
+      "website": "https://www.fcgossau.ch",
+      "clubLabel": "FC Gossau",
+      "stadium": "http://www.wikidata.org/entity/Q2312361",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.2543 47.4104)",
+      "capacity": "3500",
+      "stadiumLabel": "Sportanlage Buechenwald"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q690074",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Gossau",
+      "website": "http://www.fc-gossau.ch/",
+      "clubLabel": "FC Gossau",
+      "stadium": "http://www.wikidata.org/entity/Q2312361",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.2543 47.4104)",
+      "capacity": "3500",
+      "stadiumLabel": "Sportanlage Buechenwald"
+    }
+  ]
+}

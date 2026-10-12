@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.736944&lon=35.423056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209447240,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":866949532,\"lat\":\"38.7372300\",\"lon\":\"35.4232184\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.483176928354342e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Bahariye Caddesi, Keykubat Mahallesi, Kayseri, Melikgazi, Kayseri, İç Anadolu Bölgesi, 38170, Türkiye\",\"address\":{\"road\":\"Bahariye Caddesi\",\"suburb\":\"Keykubat Mahallesi\",\"city\":\"Kayseri\",\"ISO3166-2-lvl15\":\"TR-38\",\"town\":\"Melikgazi\",\"province\":\"Kayseri\",\"ISO3166-2-lvl4\":\"TR-38\",\"region\":\"İç Anadolu Bölgesi\",\"postcode\":\"38170\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"38.7366068\",\"38.7378381\",\"35.4226199\",\"35.4238132\"]}",
+  "fetchedAt": "2026-10-12T18:00:56.254Z"
+}

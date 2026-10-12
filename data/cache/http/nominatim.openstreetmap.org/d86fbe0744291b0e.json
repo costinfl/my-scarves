@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.474703&lon=-2.968961&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":272181450,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":84205486,\"lat\":\"56.4746993\",\"lon\":\"-2.9690066\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.780727855339922e-05,\"addresstype\":\"leisure\",\"name\":\"Dundee United Football Club\",\"display_name\":\"Dundee United Football Club, North Isla Street, Clepington, Hilltown, Dundee, Dundee City, Alba / Scotland, DD3 7JQ, United Kingdom\",\"address\":{\"leisure\":\"Dundee United Football Club\",\"road\":\"North Isla Street\",\"quarter\":\"Clepington\",\"suburb\":\"Hilltown\",\"city\":\"Dundee\",\"county\":\"Dundee City\",\"ISO3166-2-lvl6\":\"GB-DND\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"DD3 7JQ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"56.4742332\",\"56.4751653\",\"-2.9699641\",\"-2.9680492\"]}",
+  "fetchedAt": "2026-10-12T17:59:49.393Z"
+}

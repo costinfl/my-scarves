@@ -207,6 +207,14 @@
     "author": "Template:Lalilu123",
     "attributionRequired": false
   },
+  "Q22866": {
+    "file": "Q22866.png",
+    "commonsFile": "SV Austria Salzburg Logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Austria_Salzburg_Logo.png",
+    "license": "CC0",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q24680": {
     "file": "Q24680.svg",
     "commonsFile": "FC Utrecht.svg",
@@ -359,6 +367,14 @@
     "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
+  "Q118919": {
+    "file": "Q118919.png",
+    "commonsFile": "Eyüpspor Logosu.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ey%C3%BCpspor_Logosu.png",
+    "license": "CC BY 4.0",
+    "author": "Eyüpspor",
+    "attributionRequired": true
+  },
   "Q126334": {
     "file": "Q126334.png",
     "commonsFile": "Racing Club de Strasbourg contre Racing Lens décembre 2016 .jpg",
@@ -375,12 +391,36 @@
     "author": "Manuel de Sousa / JotaCartas",
     "attributionRequired": true
   },
+  "Q131209": {
+    "file": "Q131209.svg",
+    "commonsFile": "FK Austria Wien logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Austria_Wien_logo.svg",
+    "license": "Public domain",
+    "author": "FK Austria Wien",
+    "attributionRequired": false
+  },
+  "Q131215": {
+    "file": "Q131215.svg",
+    "commonsFile": "SK Rapid Wien Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SK_Rapid_Wien_Logo.svg",
+    "license": "Public domain",
+    "author": "SK Rapid",
+    "attributionRequired": false
+  },
   "Q132885": {
     "file": "Q132885.svg",
     "commonsFile": "Olympique de Marseille 2026 logo.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olympique_de_Marseille_2026_logo.svg",
     "license": "Public domain",
     "author": "Olympique de Marseille",
+    "attributionRequired": false
+  },
+  "Q138230": {
+    "file": "Q138230.png",
+    "commonsFile": "Former logo of Kasımpaşa SK (1996-2012).png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_logo_of_Kas%C4%B1mpa%C5%9Fa_SK_(1996-2012).png",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
   "Q141931": {
@@ -463,12 +503,44 @@
     "author": "1. FC Heidenheim",
     "attributionRequired": false
   },
+  "Q166496": {
+    "file": "Q166496.png",
+    "commonsFile": "Étoile Carouge FC 2023 logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89toile_Carouge_FC_2023_logo.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Etoile Carouge Football Club / Etoile Carouge FC",
+    "attributionRequired": true
+  },
+  "Q172567": {
+    "file": "Q172567.svg",
+    "commonsFile": "BesiktasJK-Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BesiktasJK-Logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q185163": {
     "file": "Q185163.svg",
     "commonsFile": "OGC Nice (simplified logo).svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:OGC_Nice_(simplified_logo).svg",
     "license": "Public domain",
     "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q189671": {
+    "file": "Q189671.png",
+    "commonsFile": "FC Basel.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Basel.png",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q190526": {
+    "file": "Q190526.svg",
+    "commonsFile": "BSC Young Boys.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BSC_Young_Boys.svg",
+    "license": "Public domain",
+    "author": "BSC Young Boys",
     "attributionRequired": false
   },
   "Q191264": {
@@ -487,12 +559,36 @@
     "author": "FC Nantes",
     "attributionRequired": false
   },
+  "Q196160": {
+    "file": "Q196160.png",
+    "commonsFile": "USG.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USG.png",
+    "license": "CC BY 4.0",
+    "author": "www.rusg.brussels/nl",
+    "attributionRequired": true
+  },
+  "Q201360": {
+    "file": "Q201360.svg",
+    "commonsFile": "GC Zürich Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GC_Z%C3%BCrich_Logo.svg",
+    "license": "Public domain",
+    "author": "Grasshopper Club Zürich",
+    "attributionRequired": false
+  },
   "Q204237": {
     "file": "Q204237.svg",
     "commonsFile": "FC Dinamo București - logo 2026.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Dinamo_Bucure%C8%99ti_-_logo_2026.svg",
     "license": "Public domain",
     "author": "FC Dinamo 1948 București",
+    "attributionRequired": false
+  },
+  "Q206692": {
+    "file": "Q206692.svg",
+    "commonsFile": "FC Zurich Logo 2022.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Zurich_Logo_2022.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
   "Q208228": {
@@ -511,6 +607,14 @@
     "author": "Grenoble Foot 38",
     "attributionRequired": true
   },
+  "Q216032": {
+    "file": "Q216032.svg",
+    "commonsFile": "KRC Genk Logo 2016.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KRC_Genk_Logo_2016.svg",
+    "license": "Public domain",
+    "author": "KRC Genk",
+    "attributionRequired": false
+  },
   "Q216510": {
     "file": "Q216510.png",
     "commonsFile": "Os Belenenses.png",
@@ -519,6 +623,14 @@
     "author": "Clube de Futebol Os Belenenses",
     "attributionRequired": false
   },
+  "Q216523": {
+    "file": "Q216523.svg",
+    "commonsFile": "Motherwell FC crest.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motherwell_FC_crest.svg",
+    "license": "CC BY-SA 3.0",
+    "author": "Motherwell F.C.",
+    "attributionRequired": true
+  },
   "Q216661": {
     "file": "Q216661.png",
     "commonsFile": "Escucdt.png",
@@ -526,6 +638,14 @@
     "license": "CC BY-SA 3.0",
     "author": "Cd tenerife",
     "attributionRequired": true
+  },
+  "Q219235": {
+    "file": "Q219235.svg",
+    "commonsFile": "Servette FC.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Servette_FC.svg",
+    "license": "Public domain",
+    "author": "Servette FC Genève",
+    "attributionRequired": false
   },
   "Q221525": {
     "file": "Q221525.svg",
@@ -551,6 +671,14 @@
     "author": "OttavianoLolnoob",
     "attributionRequired": false
   },
+  "Q261813": {
+    "file": "Q261813.svg",
+    "commonsFile": "FC Wacker Innsbruck (altes Logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Wacker_Innsbruck_(altes_Logo).svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q269151": {
     "file": "Q269151.svg",
     "commonsFile": "PEC Zwolle logo.svg",
@@ -558,6 +686,14 @@
     "license": "Public domain",
     "author": "PEC Zwolle",
     "attributionRequired": false
+  },
+  "Q272712": {
+    "file": "Q272712.png",
+    "commonsFile": "Logo of Rivespor football team.png\".png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_Rivespor_football_team.png%22.png",
+    "license": "CC BY-SA 4.0",
+    "author": "PMGR.WIKI",
+    "attributionRequired": true
   },
   "Q289482": {
     "file": "Q289482.png",
@@ -583,12 +719,52 @@
     "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
+  "Q309456": {
+    "file": "Q309456.svg",
+    "commonsFile": "FC Lausanne-Sport logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Lausanne-Sport_logo.svg",
+    "license": "Public domain",
+    "author": "FC Lausanne-Sport",
+    "attributionRequired": false
+  },
+  "Q321061": {
+    "file": "Q321061.svg",
+    "commonsFile": "FC Sion.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Sion.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q332642": {
     "file": "Q332642.svg",
     "commonsFile": "Logo NAC Breda.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_NAC_Breda.svg",
     "license": "Public domain",
     "author": "Original: NAC Breda Vector: Strepulah",
+    "attributionRequired": false
+  },
+  "Q335195": {
+    "file": "Q335195.png",
+    "commonsFile": "Neuchatel Xamax logo 2022.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuchatel_Xamax_logo_2022.png",
+    "license": "Public domain",
+    "author": "Xamax",
+    "attributionRequired": false
+  },
+  "Q364698": {
+    "file": "Q364698.png",
+    "commonsFile": "Logo Cercle Brugge 2022.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Cercle_Brugge_2022.png",
+    "license": "Public domain",
+    "author": "Cercle Brugge",
+    "attributionRequired": false
+  },
+  "Q368675": {
+    "file": "Q368675.svg",
+    "commonsFile": "FC Locarno.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Locarno.svg",
+    "license": "Public domain",
+    "author": "FC Locarno",
     "attributionRequired": false
   },
   "Q370712": {
@@ -599,12 +775,52 @@
     "author": "https://excelsiorrotterdam.nl/",
     "attributionRequired": false
   },
+  "Q372599": {
+    "file": "Q372599.png",
+    "commonsFile": "Sivasspor-Logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sivasspor-Logo.png",
+    "license": "Public domain",
+    "author": "Sivasspor logo",
+    "attributionRequired": false
+  },
+  "Q392310": {
+    "file": "Q392310.svg",
+    "commonsFile": "LASK-Logo 2023.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LASK-Logo_2023.svg",
+    "license": "Public domain",
+    "author": "LASK Linz",
+    "attributionRequired": false
+  },
+  "Q427491": {
+    "file": "Q427491.png",
+    "commonsFile": "Skn logo farbe web.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skn_logo_farbe_web.png",
+    "license": "CC BY-SA 4.0",
+    "author": "SKN St. Pölten",
+    "attributionRequired": true
+  },
   "Q430993": {
     "file": "Q430993.svg",
     "commonsFile": "Logo Mantova 1911.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Mantova_1911.svg",
     "license": "Public domain",
     "author": "Mantova 1911 s.r.l.",
+    "attributionRequired": false
+  },
+  "Q447191": {
+    "file": "Q447191.svg",
+    "commonsFile": "Altınordu Futbol Kulübü (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alt%C4%B1nordu_Futbol_Kul%C3%BCb%C3%BC_(logo).svg",
+    "license": "Public domain",
+    "author": "Altınordu Futbol Kulübü",
+    "attributionRequired": false
+  },
+  "Q457460": {
+    "file": "Q457460.svg",
+    "commonsFile": "SV Ried.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Ried.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
   "Q459148": {
@@ -615,12 +831,28 @@
     "author": "En Avant Guingamp",
     "attributionRequired": false
   },
+  "Q464775": {
+    "file": "Q464775.svg",
+    "commonsFile": "FC Thun Logo 2011.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Thun_Logo_2011.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q479351": {
     "file": "Q479351.svg",
     "commonsFile": "SV Darmstadt 98 Logo.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Darmstadt_98_Logo.svg",
     "license": "Public domain",
     "author": "SV Darmstadt 1898 e.V.",
+    "attributionRequired": false
+  },
+  "Q495299": {
+    "file": "Q495299.svg",
+    "commonsFile": "Galatasaray Sports Club Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galatasaray_Sports_Club_Logo.svg",
+    "license": "Public domain",
+    "author": "Ayet Emin (died on 29 September 1931, Galatasaray Logosunun Doğuşu), Vector drawing: Turkish Wikipedia @SAİT71",
     "attributionRequired": false
   },
   "Q501693": {
@@ -631,12 +863,28 @@
     "author": "Espérance Sportive Troyes Aube Champagne",
     "attributionRequired": false
   },
+  "Q513237": {
+    "file": "Q513237.png",
+    "commonsFile": "Kocaelispor AKBALIK.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kocaelispor_AKBALIK.png",
+    "license": "CC0",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q522283": {
     "file": "Q522283.svg",
     "commonsFile": "Logo Red Star FC 2014.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Red_Star_FC_2014.svg",
     "license": "Public domain",
     "author": "Red Star FC",
+    "attributionRequired": false
+  },
+  "Q633521": {
+    "file": "Q633521.svg",
+    "commonsFile": "Logo FC Lugano 2025.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FC_Lugano_2025.svg",
+    "license": "Public domain",
+    "author": "FC Lugano",
     "attributionRequired": false
   },
   "Q653119": {
@@ -646,6 +894,38 @@
     "license": "CC BY-SA 3.0",
     "author": "Youri165",
     "attributionRequired": true
+  },
+  "Q659212": {
+    "file": "Q659212.svg",
+    "commonsFile": "FC St. Gallen logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_St._Gallen_logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q669130": {
+    "file": "Q669130.png",
+    "commonsFile": "Logo Yverdon Sport FC.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Yverdon_Sport_FC.png",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q670438": {
+    "file": "Q670438.svg",
+    "commonsFile": "SCR Altach Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SCR_Altach_Logo.svg",
+    "license": "Public domain",
+    "author": "SCR Altach Spielbetriebs GmbH",
+    "attributionRequired": false
+  },
+  "Q674799": {
+    "file": "Q674799.png",
+    "commonsFile": "Wappen FC Biel-Bienne.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wappen_FC_Biel-Bienne.png",
+    "license": "Public domain",
+    "author": "FC Biel-Bienne 1896",
+    "attributionRequired": false
   },
   "Q692586": {
     "file": "Q692586.svg",
@@ -661,6 +941,46 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Elversberg_Logo_2021.svg",
     "license": "Public domain",
     "author": "SV Elversberg",
+    "attributionRequired": false
+  },
+  "Q696507": {
+    "file": "Q696507.svg",
+    "commonsFile": "SC Austria Lustenau.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SC_Austria_Lustenau.svg",
+    "license": "CC0",
+    "author": "austria-lustenau",
+    "attributionRequired": false
+  },
+  "Q696525": {
+    "file": "Q696525.png",
+    "commonsFile": "FC Blau-Weiß Linz.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Blau-Wei%C3%9F_Linz.png",
+    "license": "CC BY-SA 4.0",
+    "author": "blauweisslinz",
+    "attributionRequired": true
+  },
+  "Q697322": {
+    "file": "Q697322.png",
+    "commonsFile": "600px Bianco e Verde di Vienna.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:600px_Bianco_e_Verde_di_Vienna.png",
+    "license": "Public domain",
+    "author": "Kanchelskis",
+    "attributionRequired": false
+  },
+  "Q698702": {
+    "file": "Q698702.svg",
+    "commonsFile": "Admira Wacker logo 2024.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Admira_Wacker_logo_2024.svg",
+    "license": "Public domain",
+    "author": "Admira Wacker",
+    "attributionRequired": false
+  },
+  "Q699184": {
+    "file": "Q699184.svg",
+    "commonsFile": "SK Austria Klagenfurt 2007 Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SK_Austria_Klagenfurt_2007_Logo.svg",
+    "license": "Public domain",
+    "author": "SK Austria Klagenfurt",
     "attributionRequired": false
   },
   "Q702455": {
@@ -695,6 +1015,14 @@
     "author": "Stade Lavallois Mayenne Football Club",
     "attributionRequired": false
   },
+  "Q824850": {
+    "file": "Q824850.png",
+    "commonsFile": "GFK-Official-Logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GFK-Official-Logo.png",
+    "license": "CC BY 4.0",
+    "author": "Gaziantep Futbol Kulübü",
+    "attributionRequired": true
+  },
   "Q838134": {
     "file": "Q838134.svg",
     "commonsFile": "Símbolo Estrela da Amadora.svg",
@@ -718,6 +1046,14 @@
     "license": "CC BY-SA 4.0",
     "author": "SC Cambuur",
     "attributionRequired": true
+  },
+  "Q916199": {
+    "file": "Q916199.svg",
+    "commonsFile": "Oud-Heverlee Löwen.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oud-Heverlee_L%C3%B6wen.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
   },
   "Q1023227": {
     "file": "Q1023227.svg",
@@ -759,6 +1095,14 @@
     "author": "MaLigue2",
     "attributionRequired": true
   },
+  "Q1398111": {
+    "file": "Q1398111.png",
+    "commonsFile": "FatihKaragümrükS. K. AKBALIK.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FatihKarag%C3%BCmr%C3%BCkS._K._AKBALIK.png",
+    "license": "CC0",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q2410944": {
     "file": "Q2410944.svg",
     "commonsFile": "A.C. Viseu.svg",
@@ -783,6 +1127,13 @@
     "author": "RC Cesena FC ASD",
     "attributionRequired": false
   },
+  "Q20979061": {
+    "file": "Q20979061.svg",
+    "commonsFile": "Rwdmolenbeek.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rwdmolenbeek.svg",
+    "license": "Public domain",
+    "attributionRequired": false
+  },
   "Q56542463": {
     "file": "Q56542463.svg",
     "commonsFile": "LR Vicenza Virtus (logo).svg",
@@ -797,6 +1148,22 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_SV_logo.svg",
     "license": "Public domain",
     "author": "Hamburger SV",
+    "attributionRequired": false
+  },
+  "Q101625593": {
+    "file": "Q101625593.png",
+    "commonsFile": "Isabel van den Berg - Ter Specke Bokaal 2024 in Lisse, Nederland.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isabel_van_den_Berg_-_Ter_Specke_Bokaal_2024_in_Lisse,_Nederland.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Erik van Leeuwen",
+    "attributionRequired": true
+  },
+  "Q124007617": {
+    "file": "Q124007617.svg",
+    "commonsFile": "SK Sturm Graz.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SK_Sturm_Graz.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
     "attributionRequired": false
   }
 }

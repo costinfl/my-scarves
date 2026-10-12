@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.817800&lon=4.329170&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":106112187,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":17379423,\"lat\":\"50.8177812\",\"lon\":\"4.3293296\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.668192568851785e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue du Stade - Stadionstraat, Forest - Vorst, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1190, België / Belgique / Belgien\",\"address\":{\"road\":\"Rue du Stade - Stadionstraat\",\"town\":\"Forest - Vorst\",\"county\":\"Brussel-Hoofdstad - Bruxelles-Capitale\",\"region\":\"Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest\",\"ISO3166-2-lvl4\":\"BE-BRU\",\"postcode\":\"1190\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.8171818\",\"50.8183894\",\"4.3284409\",\"4.3302172\"]}",
+  "fetchedAt": "2026-10-12T17:59:37.155Z"
+}

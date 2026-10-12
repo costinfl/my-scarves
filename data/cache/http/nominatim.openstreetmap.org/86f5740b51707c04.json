@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.005000&lon=5.533333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":112044571,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":629463851,\"lat\":\"51.0050153\",\"lon\":\"5.5332995\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.160296025020244e-05,\"addresstype\":\"leisure\",\"name\":\"KRC Genk\",\"display_name\":\"KRC Genk, Stadionplein, Nieuw-Texas, Waterschei, Genk, Hasselt, Limburg, Vlaanderen, 3600, België / Belgique / Belgien\",\"address\":{\"leisure\":\"KRC Genk\",\"road\":\"Stadionplein\",\"neighbourhood\":\"Nieuw-Texas\",\"suburb\":\"Waterschei\",\"town\":\"Genk\",\"county\":\"Hasselt\",\"state\":\"Limburg\",\"ISO3166-2-lvl6\":\"BE-VLI\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"3600\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.0044709\",\"51.0055597\",\"5.5326092\",\"5.5339899\"]}",
+  "fetchedAt": "2026-10-12T17:59:24.106Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.938400&lon=-4.561440&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275011704,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":158240917,\"lat\":\"55.9384057\",\"lon\":\"-4.5616577\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8459601739482986e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Castle Road, Silverton, Dumbarton, West Dunbartonshire, Alba / Scotland, G82 1DB, United Kingdom\",\"address\":{\"road\":\"Castle Road\",\"suburb\":\"Silverton\",\"town\":\"Dumbarton\",\"county\":\"West Dunbartonshire\",\"ISO3166-2-lvl6\":\"GB-WDU\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"G82 1DB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.9380477\",\"55.9387696\",\"-4.5625593\",\"-4.5607566\"]}",
+  "fetchedAt": "2026-10-12T17:59:47.195Z"
+}

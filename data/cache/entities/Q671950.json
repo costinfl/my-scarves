@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q671950",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 122981967,
+                "id": "Q122981967"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SC Kriens"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SC Kriens"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.094722&lon=4.928333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":106940149,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":100006192,\"lat\":\"51.0947648\",\"lon\":\"4.9288957\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.6703288319173226e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Goorakker, Westerlo, Laakdal, Turnhout, Antwerpen, Vlaanderen, 2260, België / Belgique / Belgien\",\"address\":{\"road\":\"Goorakker\",\"city_district\":\"Westerlo\",\"town\":\"Westerlo\",\"municipality\":\"Laakdal\",\"county\":\"Turnhout\",\"state\":\"Antwerpen\",\"ISO3166-2-lvl6\":\"BE-VAN\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"2260\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.0943299\",\"51.0951998\",\"4.9280348\",\"4.9297567\"]}",
+  "fetchedAt": "2026-10-12T17:59:29.585Z"
+}

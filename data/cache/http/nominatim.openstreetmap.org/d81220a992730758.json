@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.356997&lon=8.264067&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72469728,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":383058277,\"lat\":\"47.3570491\",\"lon\":\"8.2640824\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.319523918512272e-05,\"addresstype\":\"leisure\",\"name\":\"Fussballplatz Niedermatten\",\"display_name\":\"Fussballplatz Niedermatten, Sorenbühlweg, Wohlen, Bezirk Bremgarten, Aargau, 5611, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"leisure\":\"Fussballplatz Niedermatten\",\"road\":\"Sorenbühlweg\",\"town\":\"Wohlen\",\"county\":\"Bezirk Bremgarten\",\"state\":\"Aargau\",\"ISO3166-2-lvl4\":\"CH-AG\",\"postcode\":\"5611\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.3564615\",\"47.3576365\",\"8.2632185\",\"8.2649464\"]}",
+  "fetchedAt": "2026-10-12T18:00:22.273Z"
+}

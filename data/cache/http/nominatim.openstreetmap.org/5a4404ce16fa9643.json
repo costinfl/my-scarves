@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.046111&lon=15.454444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68044773,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":183465511,\"lat\":\"47.0463618\",\"lon\":\"15.4547832\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.381322957193893e-05,\"addresstype\":\"leisure\",\"name\":\"Merkur Arena\",\"display_name\":\"Merkur Arena, Ivica-Osim-Platz, Katastralgemeinde Liebenau, Liebenau, Graz, Steiermark, 8041, Österreich\",\"address\":{\"leisure\":\"Merkur Arena\",\"road\":\"Ivica-Osim-Platz\",\"neighbourhood\":\"Katastralgemeinde Liebenau\",\"suburb\":\"Liebenau\",\"city\":\"Graz\",\"state\":\"Steiermark\",\"ISO3166-2-lvl4\":\"AT-6\",\"postcode\":\"8041\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.0457381\",\"47.0469854\",\"15.4539747\",\"15.4555916\"]}",
+  "fetchedAt": "2026-10-12T17:59:10.956Z"
+}

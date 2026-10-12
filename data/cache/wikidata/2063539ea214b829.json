@@ -1,0 +1,72 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q14468438 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:11.992Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q180420",
+      "stadium": "http://www.wikidata.org/entity/Q1786202",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.41891 57.5959)",
+      "capacity": "6541",
+      "enwiki": "https://en.wikipedia.org/wiki/Ross_County_F.C.",
+      "website": "https://www.rosscountyfootballclub.co.uk/",
+      "clubLabel": "Ross County F.C.",
+      "stadiumLabel": "Victoria Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q309059",
+      "stadium": "http://www.wikidata.org/entity/Q1026588",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.2175 57.494722)",
+      "capacity": "7800",
+      "enwiki": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C.",
+      "website": "https://ictfc.com/",
+      "clubLabel": "Inverness Caledonian Thistle F.C.",
+      "stadiumLabel": "Caledonian Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q390256",
+      "stadium": "http://www.wikidata.org/entity/Q1277834",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.441906 56.075308)",
+      "capacity": "11480",
+      "enwiki": "https://en.wikipedia.org/wiki/Dunfermline_Athletic_F.C.",
+      "website": "https://dafc.co.uk/",
+      "clubLabel": "Dunfermline Athletic F.C.",
+      "stadiumLabel": "East End Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q498473",
+      "stadium": "http://www.wikidata.org/entity/Q1982570",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.0585 55.7822)",
+      "capacity": "6078",
+      "enwiki": "https://en.wikipedia.org/wiki/Hamilton_Academical_F.C.",
+      "website": "https://www.hamiltonacciesfc.co.uk/",
+      "clubLabel": "Hamilton Academical F.C.",
+      "stadiumLabel": "New Douglas Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q822722",
+      "stadium": "http://www.wikidata.org/entity/Q1419068",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.269639 55.881556)",
+      "capacity": "10102",
+      "enwiki": "https://en.wikipedia.org/wiki/Partick_Thistle_F.C.",
+      "website": "https://ptfc.co.uk/",
+      "clubLabel": "Partick Thistle F.C.",
+      "stadiumLabel": "Firhill Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1059399",
+      "stadium": "http://www.wikidata.org/entity/Q614983",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.56144 55.9384)",
+      "capacity": "2020",
+      "enwiki": "https://en.wikipedia.org/wiki/Dumbarton_F.C.",
+      "website": "https://dumbartonfootballclub.com/",
+      "clubLabel": "Dumbarton F.C.",
+      "stadiumLabel": "Dumbarton Football Stadium"
+    }
+  ]
+}

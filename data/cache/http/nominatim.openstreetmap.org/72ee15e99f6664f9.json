@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.609908&lon=5.543344&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":104327201,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28774769,\"lat\":\"50.6099117\",\"lon\":\"5.5434999\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.366063935297196e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue Ernest Solvay, Sclessin, Liège, Wallonie, 4000, België / Belgique / Belgien\",\"address\":{\"road\":\"Rue Ernest Solvay\",\"suburb\":\"Sclessin\",\"village\":\"Sclessin\",\"city\":\"Liège\",\"county\":\"Liège\",\"state\":\"Liège\",\"ISO3166-2-lvl6\":\"BE-WLG\",\"ISO3166-2-lvl4\":\"BE-WAL\",\"postcode\":\"4000\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.6093994\",\"50.6104241\",\"5.5428864\",\"5.5441135\"]}",
+  "fetchedAt": "2026-10-12T17:59:41.700Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.961667&lon=-3.165556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277143420,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":62171393,\"lat\":\"55.9617712\",\"lon\":\"-3.1652775\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.767071030742378e-05,\"addresstype\":\"leisure\",\"name\":\"Hibernian F.C.\",\"display_name\":\"Hibernian F.C., Albion Road, Hillside, Leith, City of Edinburgh, Alba / Scotland, EH7 5NP, United Kingdom\",\"address\":{\"leisure\":\"Hibernian F.C.\",\"road\":\"Albion Road\",\"quarter\":\"Hillside\",\"suburb\":\"Leith\",\"city\":\"City of Edinburgh\",\"ISO3166-2-lvl6\":\"GB-EDH\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"EH7 5NP\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.9612139\",\"55.9623285\",\"-3.1661333\",\"-3.1644218\"]}",
+  "fetchedAt": "2026-10-12T17:59:54.799Z"
+}

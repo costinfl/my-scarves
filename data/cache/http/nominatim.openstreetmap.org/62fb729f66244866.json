@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.542778&lon=5.066944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":109076497,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":629536000,\"lat\":\"51.5426766\",\"lon\":\"5.0668151\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.333638513766717e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ringbaan-Zuid, Oud-Zuid, Tilburg, Noord-Brabant, Nederland, 5025 SZ, Nederland\",\"address\":{\"road\":\"Ringbaan-Zuid\",\"suburb\":\"Oud-Zuid\",\"city\":\"Tilburg\",\"municipality\":\"Tilburg\",\"state\":\"Noord-Brabant\",\"ISO3166-2-lvl4\":\"NL-NB\",\"country\":\"Nederland\",\"postcode\":\"5025 SZ\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.5421613\",\"51.5431919\",\"5.0662202\",\"5.0674100\"]}",
+  "fetchedAt": "2026-10-12T17:59:44.230Z"
+}

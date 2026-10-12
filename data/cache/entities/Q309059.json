@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:15.323Z",
+  "version": 2,
+  "entity": {
+    "id": "Q309059",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "88279"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Inverness Caledonian Thistle F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Inverness Caledonian Thistle F.C."
+      }
+    }
+  }
+}

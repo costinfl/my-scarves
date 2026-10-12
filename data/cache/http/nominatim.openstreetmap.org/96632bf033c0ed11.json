@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.987500&lon=29.036667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59763975,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":128542335,\"lat\":\"40.9876269\",\"lon\":\"29.0369389\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.147783627064954e-05,\"addresstype\":\"leisure\",\"name\":\"Fenerbahçe Şükrü Saraçoğlu Spor Kompleksi\",\"display_name\":\"Fenerbahçe Şükrü Saraçoğlu Spor Kompleksi, Recep Peker Caddesi, Kızıltoprak, Zühtüpaşa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34724, Türkiye\",\"address\":{\"leisure\":\"Fenerbahçe Şükrü Saraçoğlu Spor Kompleksi\",\"road\":\"Recep Peker Caddesi\",\"quarter\":\"Kızıltoprak\",\"suburb\":\"Zühtüpaşa Mahallesi\",\"town\":\"Kadıköy\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34724\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.9870543\",\"40.9881995\",\"29.0362907\",\"29.0375870\"]}",
+  "fetchedAt": "2026-10-12T18:00:45.284Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q187326",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50122"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Aberdeen F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Aberdeen F.C."
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.834089&lon=9.016686&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":75339110,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":190924360,\"lat\":\"45.8340915\",\"lon\":\"9.0166147\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.880903334091733e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via I Agosto, Pontegana, Chiasso, Circolo di Balerna, Distretto di Mendrisio, Ticino, 6828, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Via I Agosto\",\"hamlet\":\"Pontegana\",\"town\":\"Chiasso\",\"municipality\":\"Circolo di Balerna\",\"county\":\"Distretto di Mendrisio\",\"state\":\"Ticino\",\"ISO3166-2-lvl4\":\"CH-TI\",\"postcode\":\"6828\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"45.8335906\",\"45.8345888\",\"9.0161061\",\"9.0171287\"]}",
+  "fetchedAt": "2026-10-12T18:00:10.172Z"
+}

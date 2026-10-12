@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.728612&lon=36.984065&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209065972,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":400048847,\"lat\":\"39.7285442\",\"lon\":\"36.9842115\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.292439154645636e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Sivasspor Caddesi, Stadyum, Gültepe Mahallesi, Sivas Belediyesi, Sivas Merkez, Sivas, İç Anadolu Bölgesi, 58010, Türkiye\",\"address\":{\"road\":\"Sivasspor Caddesi\",\"quarter\":\"Stadyum\",\"suburb\":\"Gültepe Mahallesi\",\"city\":\"Sivas Belediyesi\",\"county\":\"Sivas Merkez\",\"province\":\"Sivas\",\"ISO3166-2-lvl4\":\"TR-58\",\"region\":\"İç Anadolu Bölgesi\",\"postcode\":\"58010\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"39.7278966\",\"39.7291830\",\"36.9837121\",\"36.9847318\"]}",
+  "fetchedAt": "2026-10-12T18:01:04.153Z"
+}

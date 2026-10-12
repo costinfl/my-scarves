@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q118919",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Eyüpspor Logosu.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Eyüpspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Eyüpspor"
+      }
+    }
+  }
+}

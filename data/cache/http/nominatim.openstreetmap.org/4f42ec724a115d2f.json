@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.834167&lon=4.298333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":106425934,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":241834426,\"lat\":\"50.8341839\",\"lon\":\"4.2983446\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.189440756842935e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenue Théo Verbeeck - Théo Verbeecklaan, Meir, Anderlecht, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1070, België / Belgique / Belgien\",\"address\":{\"road\":\"Avenue Théo Verbeeck - Théo Verbeecklaan\",\"neighbourhood\":\"Meir\",\"town\":\"Anderlecht\",\"county\":\"Brussel-Hoofdstad - Bruxelles-Capitale\",\"region\":\"Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest\",\"ISO3166-2-lvl4\":\"BE-BRU\",\"postcode\":\"1070\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.8336325\",\"50.8347352\",\"4.2977063\",\"4.2989829\"]}",
+  "fetchedAt": "2026-10-12T17:59:34.110Z"
+}
