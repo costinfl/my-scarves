@@ -1,7 +1,7 @@
 // Imports clubs and home stadiums of the tier 1/2 leagues of the given associations from Wikidata.
 // Usage: npm run import -- ROU ENG ESP [--refresh]
 // Writes only to data/generated/ and data/cache/. Leagues that fail label verification are skipped.
-import { CLUBS_IN_LEAGUE, dedupeClubs, mergeClubs, mergeStadiums, parseLeagueRows, SEASON_TEAMS, seasonFor } from './lib/clubs.ts';
+import { CLUBS_IN_LEAGUE, dedupeClubs, dropChildTeams, mergeClubs, mergeStadiums, parseLeagueRows, SEASON_TEAMS, seasonFor } from './lib/clubs.ts';
 import { qid } from './lib/wikidata.ts';
 import { readJson, writeJson } from './lib/json.ts';
 import { checkLeagues } from './lib/leagues.ts';
@@ -32,6 +32,7 @@ const report = readJson<Record<string, LeagueImportResult[]>>(paths.importReport
 for (const code of codes) {
   const results: LeagueImportResult[] = [];
   const withEnwiki = new Set<string>();
+  const parents = new Map<string, string>();
   const mine = checks.filter((c) => c.seed.association === code);
   if (mine.length === 0) console.warn(`${code}: no leagues in data/seed/leagues.json`);
 
@@ -50,6 +51,7 @@ for (const code of codes) {
       const rows = await sparql(CLUBS_IN_LEAGUE(seed.qid, seasonTeams), { refresh });
       const parsed = parseLeagueRows(rows, seed, season);
       for (const q of parsed.withEnwiki) withEnwiki.add(q);
+      for (const [child, parent] of parsed.parents) parents.set(child, parent);
       clubs = mergeClubs(clubs, parsed.clubs, [seed.qid], season);
       stadiums = mergeStadiums(stadiums, parsed.stadiums);
       console.log(
@@ -71,12 +73,14 @@ for (const code of codes) {
       results.push({ league: seed.qid, name: seed.name, status: `failed: ${msg}`, clubs: 0, stadiums: 0, excluded: [] });
     }
   }
-  const deduped = dedupeClubs(clubs, code, season, withEnwiki);
+  const children = dropChildTeams(clubs, code, season, parents);
+  const deduped = dedupeClubs(children.clubs, code, season, withEnwiki);
   clubs = deduped.clubs;
-  if (deduped.dropped.length) {
-    console.log(`${code}: merged duplicate items: ${deduped.dropped.join('; ')}`);
+  const dropped = [...children.dropped, ...deduped.dropped];
+  if (dropped.length) {
+    console.log(`${code}: left out ${dropped.join('; ')}`);
     const first = results.find((r) => r.status === 'ok');
-    if (first) first.excluded = [...first.excluded, ...deduped.dropped].sort();
+    if (first) first.excluded = [...first.excluded, ...dropped].sort();
   }
   report[code] = results;
 }

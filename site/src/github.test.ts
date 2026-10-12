@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { fromBase64, toBase64, updateFile } from './github.ts';
+import { bytesToBase64, commitFiles, fromBase64, toBase64, updateFile } from './github.ts';
 import { applyEdit } from './overrides.ts';
 
 describe('base64', () => {
@@ -7,6 +7,10 @@ describe('base64', () => {
     const text = '{"name":"Stadionul Giulești – Valentin Stănescu"}';
     expect(fromBase64(toBase64(text))).toBe(text);
     expect(fromBase64('eyJh\nIjoxfQ==')).toBe('{"a":1}');
+  });
+  it('encodes binary data larger than one chunk', () => {
+    const bytes = Uint8Array.from({ length: 100_000 }, (_, i) => i % 256);
+    expect(Uint8Array.from(atob(bytesToBase64(bytes)), (c) => c.charCodeAt(0))).toEqual(bytes);
   });
 });
 
@@ -54,5 +58,45 @@ describe('updateFile', () => {
   it('does not commit when nothing changes', async () => {
     vi.stubGlobal('fetch', async () => json(200, { content: toBase64('{}\n'), sha: 's' }));
     expect(await updateFile(config, 'x.json', (t) => t, 'edit')).toBe(false);
+  });
+});
+
+describe('commitFiles', () => {
+  afterEach(() => vi.unstubAllGlobals());
+  const config = { token: 't', repo: 'me/repo', branch: 'main' };
+  const json = (status: number, body: unknown) => new Response(JSON.stringify(body), { status });
+
+  it('commits on top of the branch head, and starts over from the new head if the branch moved', async () => {
+    const calls: string[] = [];
+    const trees: unknown[] = [];
+    let head = 'c1';
+    vi.stubGlobal('fetch', async (url: string, init: RequestInit = {}) => {
+      const path = url.replace('https://api.github.com/repos/me/repo', '');
+      const method = init.method ?? 'GET';
+      calls.push(`${method} ${path.replace(/\?.*/, '')}`);
+      if (path === '/git/ref/heads/main') return json(200, { object: { sha: head } });
+      if (path.startsWith('/git/commits/')) return json(200, { tree: { sha: `tree-of-${path.slice(13)}` } });
+      if (path.startsWith('/contents/')) return json(200, { content: toBase64(`scarves at ${path.split('ref=')[1]}`), sha: 'f' });
+      if (path === '/git/trees') return trees.push(JSON.parse(init.body as string)), json(201, { sha: 'tree-new' });
+      if (path === '/git/commits') return json(201, { sha: 'new-commit' });
+      // Someone else pushed between reading and moving the branch, the first time only.
+      if (path === '/git/refs/heads/main') return head === 'c1' ? ((head = 'c2'), json(422, { message: 'Update is not a fast forward' })) : json(200, {});
+      throw new Error(`unexpected ${path}`);
+    });
+    const seen: string[] = [];
+    await commitFiles(config, 'Add scarf', async (read) => {
+      const text = await read('data/collection/scarves.json');
+      seen.push(text);
+      return [{ path: 'assets/photos/x-1/1.jpg', blobSha: 'b1' }, { path: 'data/collection/scarves.json', text: `${text}+1` }];
+    });
+    expect(seen).toEqual(['scarves at c1', 'scarves at c2']);
+    expect(trees[1]).toEqual({
+      base_tree: 'tree-of-c2',
+      tree: [
+        { path: 'assets/photos/x-1/1.jpg', mode: '100644', type: 'blob', sha: 'b1' },
+        { path: 'data/collection/scarves.json', mode: '100644', type: 'blob', content: 'scarves at c2+1' },
+      ],
+    });
+    expect(calls.filter((c) => c.startsWith('PATCH'))).toHaveLength(2);
   });
 });

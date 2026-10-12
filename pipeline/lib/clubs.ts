@@ -10,8 +10,8 @@ export function seasonFor(date: Date): string {
 
 // Reserve, B and youth teams sometimes carry a league membership of the senior league.
 // Anything matched is left out and listed in the coverage report for review.
-// A trailing " II" alone is not enough (Willem II is a club named after a king); it only counts
-// together with a parent club on Wikidata (P831), which excludes a team whatever its name.
+// A trailing " II" alone is not enough (Willem II is a club named after a king); teams whose
+// parent club (P831) is itself one of the imported clubs are removed by dropChildTeams.
 const RESERVE_PATTERNS = [
   /\sB$/,
   /\bU-?\d{2}\b/i,
@@ -26,8 +26,24 @@ const RESERVE_PATTERNS = [
   /\bfeminin\b/i,
 ];
 
-export function isReserveTeam(name: string, hasParentClub = false): boolean {
-  return hasParentClub || RESERVE_PATTERNS.some((p) => p.test(name));
+export function isReserveTeam(name: string): boolean {
+  return RESERVE_PATTERNS.some((p) => p.test(name));
+}
+
+/**
+ * A team whose parent club (P831) is one of this association's current clubs is not a separate
+ * club: a reserve side (Jong PSV -> PSV) or the club's football-company item (FC Augsburg
+ * Q97905916 -> Q15755). A parent that is not an imported football club, such as Antalyaspor's
+ * multi-sport club, does not count: the team itself is the club we want.
+ */
+export function dropChildTeams(clubs: Club[], association: string, season: string, parents: Map<string, string>): { clubs: Club[]; dropped: string[] } {
+  const current = new Set(clubs.filter((c) => c.association === association && c.leagues.some((m) => m.season === season)).map((c) => c.qid));
+  const drop = new Map([...parents].filter(([child, parent]) => current.has(child) && current.has(parent)));
+  if (drop.size === 0) return { clubs, dropped: [] };
+  return {
+    clubs: clubs.map((c) => (drop.has(c.qid) ? { ...c, leagues: c.leagues.filter((m) => m.season !== season) } : c)),
+    dropped: [...drop].map(([q, parent]) => `${clubs.find((c) => c.qid === q)!.name} (${q}), part of club ${parent} (P831)`),
+  };
 }
 
 /** Teams listed as participants (P1923) of the league's season starting in startYear, if Wikidata has them. */
@@ -73,6 +89,8 @@ export interface LeagueRows {
   excluded: string[];
   /** Clubs with an English Wikipedia article: the main item when Wikidata has duplicates. */
   withEnwiki: Set<string>;
+  /** Club QID -> parent club QID (P831). */
+  parents: Map<string, string>;
 }
 
 /** Groups the flat SPARQL rows (one per club x website x logo x venue x ... combination) into records. */
@@ -82,6 +100,7 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
   const stadiums = new Map<string, Stadium>();
   const excluded = new Set<string>();
   const withEnwiki = new Set<string>();
+  const parents = new Map<string, string>();
 
   for (const row of rows) {
     const clubQid = qid(row.club);
@@ -92,11 +111,13 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
       excluded.add(`${clubQid} (no label)`);
       continue;
     }
-    if (isReserveTeam(name, !!row.parent)) {
-      // P831 marks reserve teams and also a club's separate football-company item (FC Augsburg Q97905916).
-      excluded.add(`${name} (${clubQid})${row.parent ? `, part of club ${qid(row.parent) ?? '?'} (P831)` : ''}`);
+    if (isReserveTeam(name)) {
+      excluded.add(`${name} (${clubQid})`);
       continue;
     }
+    // Parent clubs are decided per association, once all its leagues are known (see dropChildTeams).
+    const parent = qid(row.parent);
+    if (parent) parents.set(clubQid, parent);
     if (row.enwiki) withEnwiki.add(clubQid);
 
     let club = clubs.get(clubQid);
@@ -146,6 +167,7 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
     stadiums: [...stadiums.values()],
     excluded: [...excluded].sort(),
     withEnwiki,
+    parents,
   };
 }
 

@@ -1,10 +1,7 @@
 import { mkdirSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import sharp from 'sharp';
-import { thumbOf } from './scarves.ts';
-
-export const FULL_SIZE = 1600;
-export const THUMB_SIZE = 400;
+import { PHOTO_SIZE as FULL_SIZE, THUMB_SIZE, thumbOf } from './scarves.ts';
 
 /**
  * Writes <dir>/<n>.jpg (longest side at most 1600 px) and <n>.thumb.jpg (400 px).
