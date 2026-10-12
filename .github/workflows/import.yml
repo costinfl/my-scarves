@@ -126,6 +126,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run coverage
+      # A PR opened with the workflow's own token does not trigger CI, so check here that the
+      # site still builds with the new data before proposing it.
+      - run: npm run typecheck && npm test && npm run build
       - name: Open a pull request with the data diff
         env:
           GH_TOKEN: ${{ github.token }}
