@@ -1,0 +1,182 @@
+{
+  "query": "SELECT DISTINCT ?club ?country WHERE {\n  VALUES ?club { wd:Q189847 wd:Q352251 wd:Q352270 wd:Q417685 wd:Q1636019 wd:Q434929 wd:Q447191 wd:Q1231804 wd:Q43710 wd:Q805909 wd:Q172567 wd:Q20472948 wd:Q891679 wd:Q630348 wd:Q272712 wd:Q19613395 wd:Q643107 wd:Q2426819 wd:Q118919 wd:Q1398111 wd:Q6601875 wd:Q495299 wd:Q824850 wd:Q641373 wd:Q1543501 wd:Q1423118 wd:Q1110567 wd:Q857938 wd:Q344328 wd:Q1170018 wd:Q138230 wd:Q291297 wd:Q608122 wd:Q513237 wd:Q513840 wd:Q1347349 wd:Q1369461 wd:Q430107 wd:Q388487 wd:Q372599 wd:Q1628465 wd:Q192641 wd:Q6062228 wd:Q303121 }\n  VALUES ?country { wd:Q222 wd:Q228 wd:Q399 wd:Q40 wd:Q227 wd:Q184 wd:Q31 wd:Q225 wd:Q219 wd:Q224 wd:Q229 wd:Q213 wd:Q35 wd:Q21 wd:Q191 wd:Q4628 wd:Q33 wd:Q142 wd:Q230 wd:Q183 wd:Q1410 wd:Q41 wd:Q28 wd:Q189 wd:Q801 wd:Q38 wd:Q232 wd:Q1246 wd:Q211 wd:Q347 wd:Q37 wd:Q32 wd:Q233 wd:Q217 wd:Q236 wd:Q55 wd:Q221 wd:Q26 wd:Q20 wd:Q36 wd:Q45 wd:Q27 wd:Q218 wd:Q159 wd:Q238 wd:Q22 wd:Q403 wd:Q214 wd:Q215 wd:Q29 wd:Q34 wd:Q39 wd:Q43 wd:Q212 wd:Q25 }\n  { ?club wdt:P17 ?country } UNION { ?club (wdt:P131|wdt:P159)/wdt:P131* ?country }\n}",
+  "fetchedAt": "2026-10-12T20:43:04.365Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q118919",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q138230",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q172567",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q189847",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q192641",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q272712",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291297",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q303121",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q344328",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q352251",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q352270",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q372599",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q388487",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q417685",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q430107",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q434929",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q447191",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q495299",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q513237",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q513840",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q608122",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q630348",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q641373",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q643107",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q805909",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q824850",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q857938",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q891679",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1110567",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1170018",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1231804",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1347349",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1369461",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1398111",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1423118",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1543501",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1628465",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1636019",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2426819",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6062228",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6601875",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19613395",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20472948",
+      "country": "http://www.wikidata.org/entity/Q43"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q43710",
+      "country": "http://www.wikidata.org/entity/Q43"
+    }
+  ]
+}

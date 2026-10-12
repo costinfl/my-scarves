@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.893611&lon=30.646667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55070799,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":250644252,\"lat\":\"36.8937544\",\"lon\":\"30.6468336\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3511138876399894,\"addresstype\":\"leisure\",\"name\":\"Akdeniz Üniversitesi Stadyumu\",\"display_name\":\"Akdeniz Üniversitesi Stadyumu, Otopark Yolu, Pınarbaşı Mahallesi, Konyaaltı, Antalya, Akdeniz Bölgesi, 07220, Türkiye\",\"address\":{\"leisure\":\"Akdeniz Üniversitesi Stadyumu\",\"road\":\"Otopark Yolu\",\"suburb\":\"Pınarbaşı Mahallesi\",\"town\":\"Konyaaltı\",\"province\":\"Antalya\",\"ISO3166-2-lvl4\":\"TR-07\",\"region\":\"Akdeniz Bölgesi\",\"postcode\":\"07220\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"36.8932824\",\"36.8942265\",\"30.6464382\",\"30.6472289\"]}",
+  "fetchedAt": "2026-10-12T20:43:03.831Z"
+}

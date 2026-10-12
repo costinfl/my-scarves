@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T20:43:00.976Z",
+  "version": 2,
+  "entity": {
+    "id": "Q43710",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60532"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Antalyaspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Antalyaspor"
+      }
+    }
+  }
+}
