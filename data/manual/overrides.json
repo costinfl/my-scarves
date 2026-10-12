@@ -1,4 +1,11 @@
 {
+  "Q631": {
+    "fanshop": {
+      "url": "https://store.inter.it",
+      "status": "confirmed",
+      "checkedAt": "2026-10-12"
+    }
+  },
   "Q205998": {
     "fanshop": {
       "status": "none",
