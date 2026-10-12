@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2037",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "77904"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AC ChievoVerona"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "AC ChievoVerona"
+      }
+    }
+  }
+}

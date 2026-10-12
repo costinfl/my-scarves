@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q11961",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "89710"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Heracles Almelo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Heracles Almelo"
+      }
+    }
+  }
+}

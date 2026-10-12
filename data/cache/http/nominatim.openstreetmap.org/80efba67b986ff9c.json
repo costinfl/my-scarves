@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.269241&lon=5.394907&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":83637508,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":172853962,\"lat\":\"43.2698474\",\"lon\":\"5.3959082\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.5848541698858359,\"addresstype\":\"leisure\",\"name\":\"CEPAC Vélodrome\",\"display_name\":\"CEPAC Vélodrome, 3, Boulevard Michelet, Saint-Giniez, Marseille 8e Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13008, France\",\"address\":{\"leisure\":\"CEPAC Vélodrome\",\"house_number\":\"3\",\"road\":\"Boulevard Michelet\",\"quarter\":\"Saint-Giniez\",\"suburb\":\"Marseille 8e Arrondissement\",\"city\":\"Marseille\",\"municipality\":\"Marseille\",\"county\":\"Bouches-du-Rhône\",\"ISO3166-2-lvl6\":\"FR-13\",\"state\":\"Provence-Alpes-Côte d'Azur\",\"ISO3166-2-lvl4\":\"FR-PAC\",\"region\":\"France métropolitaine\",\"postcode\":\"13008\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"43.2686908\",\"43.2709995\",\"5.3943564\",\"5.3974590\"]}",
+  "fetchedAt": "2026-10-12T16:48:32.076Z"
+}

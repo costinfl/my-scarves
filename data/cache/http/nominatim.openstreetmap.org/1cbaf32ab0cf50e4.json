@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.020000&lon=8.413056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":124001111,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":156354082,\"lat\":\"49.0200092\",\"lon\":\"8.4130370\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.329747463183058e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Walther-Bensemann-Ring, Innenstadt-Ost Nordöstlicher Teil, Innenstadt-Ost, Karlsruhe, Baden-Württemberg, 76131, Deutschland\",\"address\":{\"road\":\"Walther-Bensemann-Ring\",\"neighbourhood\":\"Innenstadt-Ost Nordöstlicher Teil\",\"suburb\":\"Innenstadt-Ost\",\"city\":\"Karlsruhe\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"76131\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.0194459\",\"49.0205725\",\"8.4122044\",\"8.4138697\"]}",
+  "fetchedAt": "2026-10-12T16:49:18.183Z"
+}

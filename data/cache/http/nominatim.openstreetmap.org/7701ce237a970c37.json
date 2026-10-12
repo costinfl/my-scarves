@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.338611&lon=6.649722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":151591903,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":375309874,\"lat\":\"52.3385542\",\"lon\":\"6.6493221\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":5.9991607537911305e-05,\"addresstype\":\"amenity\",\"name\":\"Van Riemsdijkplein\",\"display_name\":\"Van Riemsdijkplein, Windmolenbroek, Almelo, Overijssel, Nederland, 7606 ZA, Nederland\",\"address\":{\"amenity\":\"Van Riemsdijkplein\",\"road\":\"Van Riemsdijkplein\",\"quarter\":\"Windmolenbroek\",\"city_district\":\"Almelo\",\"town\":\"Almelo\",\"state\":\"Overijssel\",\"ISO3166-2-lvl4\":\"NL-OV\",\"country\":\"Nederland\",\"postcode\":\"7606 ZA\",\"country_code\":\"nl\"},\"boundingbox\":[\"52.3379813\",\"52.3390510\",\"6.6488507\",\"6.6516705\"]}",
+  "fetchedAt": "2026-10-12T16:50:46.713Z"
+}

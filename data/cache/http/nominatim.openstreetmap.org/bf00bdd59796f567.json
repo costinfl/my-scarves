@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.109945&lon=6.159532&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":118827782,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35331105,\"lat\":\"49.1097987\",\"lon\":\"6.1594960\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.503318837257981e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue du Stade, Longeville-lès-Metz, Metz, Moselle, Grand Est, France métropolitaine, 57050, France\",\"address\":{\"road\":\"Rue du Stade\",\"village\":\"Longeville-lès-Metz\",\"municipality\":\"Metz\",\"county\":\"Moselle\",\"ISO3166-2-lvl6\":\"FR-57\",\"state\":\"Grand Est\",\"ISO3166-2-lvl4\":\"FR-GES\",\"region\":\"France métropolitaine\",\"postcode\":\"57050\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"49.1091990\",\"49.1103984\",\"6.1585168\",\"6.1604752\"]}",
+  "fetchedAt": "2026-10-12T16:48:19.883Z"
+}

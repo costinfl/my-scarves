@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.991944&lon=5.843611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":105084528,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":161757410,\"lat\":\"50.9919919\",\"lon\":\"5.8436216\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8200198367239144e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Milaanstraat, Sittard, Sittard-Geleen, Limburg, Nederland, 6135 LH, Nederland\",\"address\":{\"road\":\"Milaanstraat\",\"town\":\"Sittard\",\"municipality\":\"Sittard-Geleen\",\"state\":\"Limburg\",\"ISO3166-2-lvl4\":\"NL-LI\",\"country\":\"Nederland\",\"postcode\":\"6135 LH\",\"country_code\":\"nl\"},\"boundingbox\":[\"50.9913238\",\"50.9925967\",\"5.8426455\",\"5.8447167\"]}",
+  "fetchedAt": "2026-10-12T16:50:42.818Z"
+}

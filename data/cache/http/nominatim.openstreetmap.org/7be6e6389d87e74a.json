@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.929722&lon=7.624583&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":114030687,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":99016409,\"lat\":\"51.9298318\",\"lon\":\"7.6245687\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.215915159833703e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Fiffi-Gerritzen-Weg, Berg Fidel, Münster-Hiltrup, Münster, Nordrhein-Westfalen, 48153, Deutschland\",\"address\":{\"road\":\"Fiffi-Gerritzen-Weg\",\"suburb\":\"Berg Fidel\",\"city\":\"Münster\",\"state\":\"Nordrhein-Westfalen\",\"ISO3166-2-lvl4\":\"DE-NW\",\"postcode\":\"48153\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"51.9293896\",\"51.9302739\",\"7.6236463\",\"7.6254912\"]}",
+  "fetchedAt": "2026-10-12T16:49:24.386Z"
+}

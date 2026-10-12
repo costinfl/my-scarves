@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:45:15.484Z",
+  "version": 2,
+  "entity": {
+    "id": "Q42519",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "808080"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Grey"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "grey"
+      }
+    }
+  }
+}

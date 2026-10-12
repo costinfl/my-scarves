@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.841900&lon=-8.470300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":287771278,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1002433173,\"lat\":\"40.8419454\",\"lon\":\"-8.4703933\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.570229648274994e-05,\"addresstype\":\"leisure\",\"name\":\"União Desportiva Oliveirense\",\"display_name\":\"União Desportiva Oliveirense, Rua Emídio Amaral Semblano, Lações de Cima, Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail, Oliveira de Azeméis, Aveiro, 3720-275, Portugal\",\"address\":{\"leisure\":\"União Desportiva Oliveirense\",\"road\":\"Rua Emídio Amaral Semblano\",\"hamlet\":\"Lações de Cima\",\"city_district\":\"Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail\",\"city\":\"Oliveira de Azeméis\",\"county\":\"Aveiro\",\"ISO3166-2-lvl6\":\"PT-01\",\"postcode\":\"3720-275\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"40.8414516\",\"40.8424444\",\"-8.4708711\",\"-8.4699167\"]}",
+  "fetchedAt": "2026-10-12T16:51:46.365Z"
+}

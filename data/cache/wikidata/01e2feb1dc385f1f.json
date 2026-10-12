@@ -1,0 +1,233 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q13394 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T16:43:20.055Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q126334",
+      "stadium": "http://www.wikidata.org/entity/Q374883",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.75738 48.55942)",
+      "capacity": "26109",
+      "website": "https://www.rcstrasbourgalsace.fr",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Racing%20Club%20de%20Strasbourg%20contre%20Racing%20Lens%20d%C3%A9cembre%202016%20.jpg",
+      "clubLabel": "RC Strasbourg Alsace",
+      "stadiumLabel": "Stade de la Meinau"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q132885",
+      "stadium": "http://www.wikidata.org/entity/Q202150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.394907 43.269241)",
+      "capacity": "67394",
+      "website": "https://www.om.fr",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Olympique%20de%20Marseille%202026%20logo.svg",
+      "clubLabel": "Olympique de Marseille",
+      "stadiumLabel": "Stade Vélodrome"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q180305",
+      "stadium": "http://www.wikidata.org/entity/Q318851",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.415556 43.727778)",
+      "capacity": "18523",
+      "website": "https://asmonaco.com",
+      "clubLabel": "AS Monaco FC",
+      "stadiumLabel": "Stade Louis II"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q182876",
+      "stadium": "http://www.wikidata.org/entity/Q1347183",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.58871 47.78672)",
+      "capacity": "18541",
+      "website": "https://www.aja.fr",
+      "clubLabel": "AJ Auxerre",
+      "stadiumLabel": "Stade de l'Abbé-Deschamps"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q185163",
+      "stadium": "http://www.wikidata.org/entity/Q127372",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.19262 43.70513)",
+      "capacity": "36178",
+      "website": "https://www.ogcnice.com",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/OGC%20Nice%20%28simplified%20logo%29.svg",
+      "clubLabel": "OGC Nice",
+      "stadiumLabel": "Allianz Riviera"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q191843",
+      "stadium": "http://www.wikidata.org/entity/Q854122",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.81491 50.4329)",
+      "capacity": "38223",
+      "website": "https://www.rclens.fr",
+      "clubLabel": "R.C. Lens",
+      "stadiumLabel": "Stade Bollaert-Delelis"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q210864",
+      "stadium": "http://www.wikidata.org/entity/Q1862372",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(0.22129 47.95958)",
+      "capacity": "25000",
+      "website": "http://www.lemansfc.fr/",
+      "clubLabel": "Le Mans F.C.",
+      "stadiumLabel": "stade Marie-Marvingt"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q218372",
+      "stadium": "http://www.wikidata.org/entity/Q1432517",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.46148 48.40293)",
+      "capacity": "15097",
+      "website": "https://www.sb29.bzh",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Stade%20Brestois%20Logo%20avant%201985.svg",
+      "clubLabel": "Stade Brestois 29",
+      "stadiumLabel": "Stade Francis-Le Blé"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q328658",
+      "stadium": "http://www.wikidata.org/entity/Q219462",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(0.1697 49.4988)",
+      "capacity": "25178",
+      "website": "https://hac.football",
+      "clubLabel": "Le Havre AC",
+      "stadiumLabel": "Stade Océane"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q328658",
+      "stadium": "http://www.wikidata.org/entity/Q219462",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(0.1697 49.4988)",
+      "capacity": "33000",
+      "website": "https://hac.football",
+      "clubLabel": "Le Havre AC",
+      "stadiumLabel": "Stade Océane"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q483020",
+      "stadium": "http://www.wikidata.org/entity/Q193431",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.25305 48.84145)",
+      "capacity": "47930",
+      "website": "https://www.psg.fr",
+      "clubLabel": "Paris Saint-Germain FC",
+      "stadiumLabel": "Parc des Princes"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q501693",
+      "stadium": "http://www.wikidata.org/entity/Q2001732",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.0982 48.30616)",
+      "capacity": "20400",
+      "website": "https://www.estac.fr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/ES%20Troyes%20AC.svg",
+      "clubLabel": "ES Troyes AC",
+      "stadiumLabel": "Stade de l'Aube"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q845137",
+      "stadium": "http://www.wikidata.org/entity/Q387213",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-0.53163 47.45905)",
+      "capacity": "18000",
+      "website": "https://angers-sco.fr",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Angers%20Sporting%20Club%20de%20l%27Ouest%20logo.svg",
+      "clubLabel": "Angers SCO",
+      "stadiumLabel": "Stade Raymond Kopa"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1051013",
+      "stadium": "http://www.wikidata.org/entity/Q541391",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(2.34511 48.81716)",
+      "capacity": "20000",
+      "website": "https://parisfc.fr",
+      "clubLabel": "Paris FC",
+      "stadiumLabel": "Stade Charléty"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q704",
+      "stadium": "http://www.wikidata.org/entity/Q8507",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.982131 45.765224)",
+      "capacity": "59286",
+      "website": "https://www.ol.fr",
+      "clubLabel": "Olympique Lyonnais",
+      "stadiumLabel": "Parc Olympique Lyonnais"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q704",
+      "stadium": "http://www.wikidata.org/entity/Q8507",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(4.982131 45.765224)",
+      "capacity": "59286",
+      "website": "https://www.ol.fr",
+      "clubLabel": "Olympique Lyonnais",
+      "stadiumLabel": "Parc Olympique Lyonnais"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19509",
+      "stadium": "http://www.wikidata.org/entity/Q1121760",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-1.71282 48.10743)",
+      "capacity": "31127",
+      "website": "https://www.staderennais.com",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Stade%20Rennais%20%28logo%201960%29.svg",
+      "clubLabel": "Stade Rennais F.C.",
+      "stadiumLabel": "Roazhon Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19518",
+      "stadium": "http://www.wikidata.org/entity/Q738044",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.434055 43.583296)",
+      "capacity": "33150",
+      "website": "https://www.toulousefc.com",
+      "clubLabel": "Toulouse FC",
+      "stadiumLabel": "Stadium Municipal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19516",
+      "stadium": "http://www.wikidata.org/entity/Q1410402",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(3.130631 50.611962)",
+      "capacity": "50000",
+      "website": "https://losc.fr",
+      "clubLabel": "Lille OSC",
+      "stadiumLabel": "Pierre Mauroy Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q48911",
+      "stadium": "http://www.wikidata.org/entity/Q39189",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.36929 47.74869)",
+      "capacity": "18500",
+      "website": "https://www.fclorient.bzh",
+      "clubLabel": "F.C. Lorient",
+      "stadiumLabel": "Stade du Moustoir"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q48911",
+      "stadium": "http://www.wikidata.org/entity/Q39189",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.36929 47.74869)",
+      "capacity": "18970",
+      "website": "https://www.fclorient.bzh",
+      "clubLabel": "F.C. Lorient",
+      "stadiumLabel": "Stade du Moustoir"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q48911",
+      "stadium": "http://www.wikidata.org/entity/Q39189",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.36929 47.74869)",
+      "capacity": "19010",
+      "website": "https://www.fclorient.bzh",
+      "clubLabel": "F.C. Lorient",
+      "stadiumLabel": "Stade du Moustoir"
+    }
+  ]
+}

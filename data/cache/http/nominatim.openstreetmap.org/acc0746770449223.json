@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.351610&lon=2.563760&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":86738653,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":45418312,\"lat\":\"44.3516258\",\"lon\":\"2.5637614\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.41312073637402513,\"addresstype\":\"leisure\",\"name\":\"Stade Paul-Lignon\",\"display_name\":\"Stade Paul-Lignon, Rue Eugène Loup, Plateau Paul-Lignon, Combarel, Cité Robinson, Rodez, Aveyron, Occitanie, France métropolitaine, 12000, France\",\"address\":{\"leisure\":\"Stade Paul-Lignon\",\"road\":\"Rue Eugène Loup\",\"neighbourhood\":\"Plateau Paul-Lignon\",\"quarter\":\"Combarel\",\"hamlet\":\"Cité Robinson\",\"town\":\"Rodez\",\"municipality\":\"Rodez\",\"county\":\"Aveyron\",\"ISO3166-2-lvl6\":\"FR-12\",\"state\":\"Occitanie\",\"ISO3166-2-lvl4\":\"FR-OCC\",\"region\":\"France métropolitaine\",\"postcode\":\"12000\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"44.3510238\",\"44.3522277\",\"2.5631381\",\"2.5643846\"]}",
+  "fetchedAt": "2026-10-12T16:48:39.426Z"
+}

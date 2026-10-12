@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.135694&lon=-8.539833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":298523243,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":99819632,\"lat\":\"37.1356935\",\"lon\":\"-8.5398305\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3957352519202844,\"addresstype\":\"leisure\",\"name\":\"Estádio Municipal de Portimão\",\"display_name\":\"Estádio Municipal de Portimão, Avenida Zeca Afonso, Praia da Rocha, Portimão, Faro, 8500-643, Portugal\",\"address\":{\"leisure\":\"Estádio Municipal de Portimão\",\"road\":\"Avenida Zeca Afonso\",\"suburb\":\"Praia da Rocha\",\"city_district\":\"Portimão\",\"city\":\"Portimão\",\"county\":\"Faro\",\"ISO3166-2-lvl6\":\"PT-08\",\"postcode\":\"8500-643\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"37.1351560\",\"37.1362311\",\"-8.5403272\",\"-8.5393338\"]}",
+  "fetchedAt": "2026-10-12T16:51:35.025Z"
+}

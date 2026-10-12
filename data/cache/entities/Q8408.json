@@ -1,0 +1,89 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q8408",
+    "claims": {
+      "P154": [
+        {
+          "rank": "deprecated",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Modena FC 2018 (logo).svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "c9582fcdd0adc330e4c921177cb7e523de50720e",
+                "datavalue": {
+                  "value": {
+                    "time": "+2019-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "deprecated",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Modena.png"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "f8612f95221010acb3bf2e187932c458ab880b91",
+                "datavalue": {
+                  "value": {
+                    "time": "+2011-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "79944"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Modena FC 2018"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Modena F.C."
+      }
+    }
+  }
+}

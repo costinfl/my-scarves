@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.686944&lon=5.088611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":109835496,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":185040512,\"lat\":\"51.6866132\",\"lon\":\"5.0890066\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.729839017314439e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Olympiaweg, Laageinde, Waalwijk, Noord-Brabant, Nederland, 5142 AK, Nederland\",\"address\":{\"road\":\"Olympiaweg\",\"quarter\":\"Laageinde\",\"town\":\"Waalwijk\",\"municipality\":\"Waalwijk\",\"state\":\"Noord-Brabant\",\"ISO3166-2-lvl4\":\"NL-NB\",\"country\":\"Nederland\",\"postcode\":\"5142 AK\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.6861444\",\"51.6870819\",\"5.0885065\",\"5.0895066\"]}",
+  "fetchedAt": "2026-10-12T16:50:56.524Z"
+}

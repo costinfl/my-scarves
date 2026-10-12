@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.388722&lon=-8.307511&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":287182773,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1003186146,\"lat\":\"41.3887616\",\"lon\":\"-8.3073782\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.245670252532261e-05,\"addresstype\":\"leisure\",\"name\":\"Futebol Clube de Vizela\",\"display_name\":\"Futebol Clube de Vizela, Rua 19 de Março, Infias, Vizela, Braga, 4815-384, Portugal\",\"address\":{\"leisure\":\"Futebol Clube de Vizela\",\"road\":\"Rua 19 de Março\",\"village\":\"Infias\",\"city\":\"Vizela\",\"county\":\"Braga\",\"ISO3166-2-lvl6\":\"PT-03\",\"postcode\":\"4815-384\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.3882156\",\"41.3893008\",\"-8.3079604\",\"-8.3067933\"]}",
+  "fetchedAt": "2026-10-12T16:51:24.997Z"
+}

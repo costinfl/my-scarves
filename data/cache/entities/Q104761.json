@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q104761",
+    "claims": {
+      "P154": [
+        {
+          "rank": "deprecated",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo TSV Bayer 04 Leverkusen.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50109"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bayer 04 Leverkusen"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Bayer 04 Leverkusen"
+      }
+    }
+  }
+}

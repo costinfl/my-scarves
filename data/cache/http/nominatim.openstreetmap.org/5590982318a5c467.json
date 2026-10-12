@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.794917&lon=10.338444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":77027865,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124245411,\"lat\":\"44.7949071\",\"lon\":\"10.3384528\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.255893797203048e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Giacomo Puccini, Cittadella, Parma, Emilia-Romagna, 43121, Italia\",\"address\":{\"road\":\"Via Giacomo Puccini\",\"suburb\":\"Cittadella\",\"city\":\"Parma\",\"county\":\"Parma\",\"ISO3166-2-lvl6\":\"IT-PR\",\"state\":\"Emilia-Romagna\",\"ISO3166-2-lvl4\":\"IT-45\",\"postcode\":\"43121\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"44.7943454\",\"44.7954688\",\"10.3377385\",\"10.3391672\"]}",
+  "fetchedAt": "2026-10-12T16:50:09.215Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.031389&lon=8.516944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":140964022,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13051529808,\"lat\":\"52.0312197\",\"lon\":\"8.5169610\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":6.852597848473361e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"31a, Melanchthonstraße, Mitte, Bielefeld, Nordrhein-Westfalen, 33615, Deutschland\",\"address\":{\"house_number\":\"31a\",\"road\":\"Melanchthonstraße\",\"suburb\":\"Mitte\",\"city\":\"Bielefeld\",\"state\":\"Nordrhein-Westfalen\",\"ISO3166-2-lvl4\":\"DE-NW\",\"postcode\":\"33615\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"52.0311697\",\"52.0312697\",\"8.5169110\",\"8.5170110\"]}",
+  "fetchedAt": "2026-10-12T16:48:59.140Z"
+}

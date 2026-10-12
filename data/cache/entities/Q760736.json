@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.198Z",
+  "version": 2,
+  "entity": {
+    "id": "Q760736",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "LogoStadeLavalloisMayenneFC 2015.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Stade Lavallois"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Stade Lavallois"
+      }
+    }
+  }
+}

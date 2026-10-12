@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.701Z",
+  "version": 2,
+  "entity": {
+    "id": "Q926438",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "73926"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Gil Vicente F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Gil Vicente F.C."
+      }
+    }
+  }
+}

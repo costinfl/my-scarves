@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.478056&lon=9.123889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":76059605,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":218520544,\"lat\":\"45.4780781\",\"lon\":\"9.1240343\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.390707255660361e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Piazzale Angelo Moratti, Quartiere Harar, San Siro, Municipio 7, Milano, Lombardia, 20151, Italia\",\"address\":{\"road\":\"Piazzale Angelo Moratti\",\"neighbourhood\":\"Quartiere Harar\",\"suburb\":\"San Siro\",\"city\":\"Milano\",\"county\":\"Milano\",\"ISO3166-2-lvl6\":\"IT-MI\",\"state\":\"Lombardia\",\"ISO3166-2-lvl4\":\"IT-25\",\"postcode\":\"20151\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.4775255\",\"45.4786305\",\"9.1233915\",\"9.1246771\"]}",
+  "fetchedAt": "2026-10-12T16:49:43.802Z"
+}

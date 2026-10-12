@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.125556&lon=11.670833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":144132678,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":126293742,\"lat\":\"52.1251071\",\"lon\":\"11.6707911\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.251926451509908e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Heinz-Krügel-Platz, Stadion, Cracau, Magdeburg, Sachsen-Anhalt, 39114, Deutschland\",\"address\":{\"road\":\"Heinz-Krügel-Platz\",\"neighbourhood\":\"Stadion\",\"suburb\":\"Cracau\",\"city\":\"Magdeburg\",\"state\":\"Sachsen-Anhalt\",\"ISO3166-2-lvl4\":\"DE-ST\",\"postcode\":\"39114\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"52.1245525\",\"52.1256617\",\"11.6700700\",\"11.6715122\"]}",
+  "fetchedAt": "2026-10-12T16:48:54.879Z"
+}

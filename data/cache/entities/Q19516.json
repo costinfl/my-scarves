@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q19516",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "75797"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Lille OSC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Lille OSC"
+      }
+    }
+  }
+}

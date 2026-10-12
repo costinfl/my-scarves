@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.562400&lon=-8.430800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286807517,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":116650252,\"lat\":\"41.5624996\",\"lon\":\"-8.4298677\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.49218393025071866,\"addresstype\":\"leisure\",\"name\":\"Estádio Municipal de Braga\",\"display_name\":\"Estádio Municipal de Braga, Rua do Bairro Nossa Senhora do Monte, Braga (São Vicente), Real, Braga, 4700-087, Portugal\",\"address\":{\"leisure\":\"Estádio Municipal de Braga\",\"road\":\"Rua do Bairro Nossa Senhora do Monte\",\"suburb\":\"Braga (São Vicente)\",\"village\":\"Real\",\"city\":\"Braga\",\"county\":\"Braga\",\"ISO3166-2-lvl6\":\"PT-03\",\"postcode\":\"4700-087\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.5613227\",\"41.5636806\",\"-8.4313616\",\"-8.4283691\"]}",
+  "fetchedAt": "2026-10-12T16:51:37.102Z"
+}

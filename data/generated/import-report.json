@@ -38,6 +38,105 @@
       ]
     }
   ],
+  "FRA": [
+    {
+      "league": "Q13394",
+      "name": "Ligue 1",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 18,
+      "excluded": []
+    },
+    {
+      "league": "Q217374",
+      "name": "Ligue 2",
+      "status": "ok",
+      "clubs": 25,
+      "stadiums": 25,
+      "excluded": []
+    }
+  ],
+  "GER": [
+    {
+      "league": "Q82595",
+      "name": "Bundesliga",
+      "status": "ok",
+      "clubs": 19,
+      "stadiums": 19,
+      "excluded": []
+    },
+    {
+      "league": "Q152665",
+      "name": "2. Bundesliga",
+      "status": "ok",
+      "clubs": 26,
+      "stadiums": 26,
+      "excluded": []
+    }
+  ],
+  "ITA": [
+    {
+      "league": "Q15804",
+      "name": "Serie A",
+      "status": "ok",
+      "clubs": 20,
+      "stadiums": 18,
+      "excluded": []
+    },
+    {
+      "league": "Q194052",
+      "name": "Serie B",
+      "status": "ok",
+      "clubs": 28,
+      "stadiums": 26,
+      "excluded": []
+    }
+  ],
+  "NED": [
+    {
+      "league": "Q167541",
+      "name": "Eredivisie",
+      "status": "ok",
+      "clubs": 17,
+      "stadiums": 17,
+      "excluded": [
+        "Willem II (Q332664)"
+      ]
+    },
+    {
+      "league": "Q610823",
+      "name": "Eerste Divisie",
+      "status": "ok",
+      "clubs": 20,
+      "stadiums": 20,
+      "excluded": []
+    }
+  ],
+  "POR": [
+    {
+      "league": "Q182994",
+      "name": "Primeira Liga",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 16,
+      "excluded": []
+    },
+    {
+      "league": "Q754488",
+      "name": "Liga Portugal 2",
+      "status": "ok",
+      "clubs": 26,
+      "stadiums": 23,
+      "excluded": [
+        "C.S. Marítimo B (Q5006215)",
+        "FC Porto B (Q5423714)",
+        "S.C. Braga B (Q7387158)",
+        "S.L. Benfica B (Q7387221)",
+        "Sporting CP B (Q3494112)",
+        "Vitória S.C. B (Q17518847)"
+      ]
+    }
+  ],
   "ROU": [
     {
       "league": "Q237753",

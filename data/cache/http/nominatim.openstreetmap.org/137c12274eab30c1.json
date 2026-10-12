@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.387836&lon=-8.772575&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286686295,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":771484912,\"lat\":\"41.3877598\",\"lon\":\"-8.7724836\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.0543984130571714e-05,\"addresstype\":\"leisure\",\"name\":\"Varzim Sport Club\",\"display_name\":\"Varzim Sport Club, Rua do Varzim Sport Clube, Bairro Piscatório, Póvoa de Varzim, Porto, 4490-556, Portugal\",\"address\":{\"leisure\":\"Varzim Sport Club\",\"road\":\"Rua do Varzim Sport Clube\",\"suburb\":\"Bairro Piscatório\",\"city_district\":\"Póvoa de Varzim\",\"city\":\"Póvoa de Varzim\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4490-556\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.3871524\",\"41.3883612\",\"-8.7731773\",\"-8.7717853\"]}",
+  "fetchedAt": "2026-10-12T16:51:47.369Z"
+}

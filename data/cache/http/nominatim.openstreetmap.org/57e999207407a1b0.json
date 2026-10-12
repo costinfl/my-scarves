@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.378089&lon=-8.354761&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286789114,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":535285231,\"lat\":\"41.3780911\",\"lon\":\"-8.3545971\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.5133897917098e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Avenida da Liberdade, Parque Industrial Cruzeiro, Ponte, Moreira de Cónegos, Guimarães, Braga, 4815-270, Portugal\",\"address\":{\"road\":\"Avenida da Liberdade\",\"industrial\":\"Parque Industrial Cruzeiro\",\"hamlet\":\"Ponte\",\"town\":\"Moreira de Cónegos\",\"city\":\"Guimarães\",\"county\":\"Braga\",\"ISO3166-2-lvl6\":\"PT-03\",\"postcode\":\"4815-270\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.3775281\",\"41.3786541\",\"-8.3554162\",\"-8.3537779\"]}",
+  "fetchedAt": "2026-10-12T16:51:33.770Z"
+}

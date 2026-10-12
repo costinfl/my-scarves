@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.726389&lon=10.955000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":82350287,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":610415874,\"lat\":\"43.7264908\",\"lon\":\"10.9547846\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8079652094255246e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via della Maratona, Serravalle, Empoli, Unione dei Comuni Circondario dell'Empolese Valdelsa, Firenze, Toscana, 50053, Italia\",\"address\":{\"road\":\"Via della Maratona\",\"village\":\"Serravalle\",\"town\":\"Empoli\",\"municipality\":\"Unione dei Comuni Circondario dell'Empolese Valdelsa\",\"county\":\"Firenze\",\"ISO3166-2-lvl6\":\"IT-FI\",\"state\":\"Toscana\",\"ISO3166-2-lvl4\":\"IT-52\",\"postcode\":\"50053\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"43.7259548\",\"43.7270269\",\"10.9542099\",\"10.9553592\"]}",
+  "fetchedAt": "2026-10-12T16:49:59.215Z"
+}

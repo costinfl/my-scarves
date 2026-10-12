@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.933611&lon=6.875000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":116884312,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":123127315,\"lat\":\"50.9335013\",\"lon\":\"6.8751322\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.006485084301545e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Oskar-Rehfeldt-Weg, Müngersdorf, Lindenthal, Köln, Nordrhein-Westfalen, 50933, Deutschland\",\"address\":{\"road\":\"Oskar-Rehfeldt-Weg\",\"suburb\":\"Müngersdorf\",\"city_district\":\"Lindenthal\",\"city\":\"Köln\",\"state\":\"Nordrhein-Westfalen\",\"ISO3166-2-lvl4\":\"DE-NW\",\"postcode\":\"50933\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"50.9329438\",\"50.9340586\",\"6.8744971\",\"6.8757672\"]}",
+  "fetchedAt": "2026-10-12T16:48:54.071Z"
+}

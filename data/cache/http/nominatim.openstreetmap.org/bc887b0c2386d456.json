@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.919444&lon=4.433333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":108579299,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":185053005,\"lat\":\"51.9194403\",\"lon\":\"4.4335686\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.67399099717253e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Spartapark-Noord, Spangen, Delfshaven, Rotterdam, Zuid-Holland, Nederland, 3027 VW, Nederland\",\"address\":{\"road\":\"Spartapark-Noord\",\"quarter\":\"Spangen\",\"suburb\":\"Delfshaven\",\"city\":\"Rotterdam\",\"municipality\":\"Rotterdam\",\"state\":\"Zuid-Holland\",\"ISO3166-2-lvl4\":\"NL-ZH\",\"country\":\"Nederland\",\"postcode\":\"3027 VW\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.9189370\",\"51.9199436\",\"4.4326561\",\"4.4344810\"]}",
+  "fetchedAt": "2026-10-12T16:51:03.121Z"
+}

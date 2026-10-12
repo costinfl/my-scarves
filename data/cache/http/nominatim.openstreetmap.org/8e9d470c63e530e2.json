@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.362756&lon=-8.740186&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286536631,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":397645146,\"lat\":\"41.3627303\",\"lon\":\"-8.7401320\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8465705348241664e-05,\"addresstype\":\"leisure\",\"name\":\"Rio Ave Futebol Clube\",\"display_name\":\"Rio Ave Futebol Clube, Rua Dona Maria Paes Ribeiro, Lapa, Alto da Pega, Vila do Conde, Porto, 4480-757, Portugal\",\"address\":{\"leisure\":\"Rio Ave Futebol Clube\",\"road\":\"Rua Dona Maria Paes Ribeiro\",\"neighbourhood\":\"Lapa\",\"suburb\":\"Alto da Pega\",\"city_district\":\"Vila do Conde\",\"city\":\"Vila do Conde\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4480-757\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.3622399\",\"41.3632097\",\"-8.7405640\",\"-8.7396995\"]}",
+  "fetchedAt": "2026-10-12T16:51:35.990Z"
+}

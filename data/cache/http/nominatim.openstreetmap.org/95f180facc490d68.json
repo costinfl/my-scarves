@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.761194&lon=-9.160783&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296957759,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":54756293,\"lat\":\"38.7612136\",\"lon\":\"-9.1607974\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.149767299911524e-05,\"addresstype\":\"leisure\",\"name\":\"Sporting Clube de Portugal\",\"display_name\":\"Sporting Clube de Portugal, Porta da Maratona, Lumiar, Lisboa, 1600-617, Portugal\",\"address\":{\"leisure\":\"Sporting Clube de Portugal\",\"road\":\"Porta da Maratona\",\"suburb\":\"Lumiar\",\"city\":\"Lisboa\",\"county\":\"Lisboa\",\"ISO3166-2-lvl6\":\"PT-11\",\"postcode\":\"1600-617\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"38.7607447\",\"38.7616825\",\"-9.1612031\",\"-9.1603917\"]}",
+  "fetchedAt": "2026-10-12T16:51:44.169Z"
+}

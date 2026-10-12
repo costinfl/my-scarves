@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.817160&lon=2.345110&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":98049232,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":213880211,\"lat\":\"48.8172275\",\"lon\":\"2.3451234\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":9.317235065227768e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Voie DD/13, Maison-Blanche, Paris 13e Arrondissement, Paris, Île-de-France, France métropolitaine, 75013, France\",\"address\":{\"road\":\"Voie DD/13\",\"quarter\":\"Maison-Blanche\",\"suburb\":\"Paris 13e Arrondissement\",\"city_district\":\"Paris\",\"city\":\"Paris\",\"ISO3166-2-lvl6\":\"FR-75C\",\"state\":\"Île-de-France\",\"ISO3166-2-lvl4\":\"FR-IDF\",\"region\":\"France métropolitaine\",\"postcode\":\"75013\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"48.8167683\",\"48.8176868\",\"2.3446900\",\"2.3455567\"]}",
+  "fetchedAt": "2026-10-12T16:48:34.279Z"
+}

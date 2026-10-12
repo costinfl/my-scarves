@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.653611&lon=10.923333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":77475196,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":384730865,\"lat\":\"44.6534702\",\"lon\":\"10.9231892\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.206301976038784e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Viale Monte Kosica, Quartiere Cittanova, Cittadella, Centro storico, Modena, Emilia-Romagna, 41121, Italia\",\"address\":{\"road\":\"Viale Monte Kosica\",\"neighbourhood\":\"Quartiere Cittanova\",\"suburb\":\"Cittadella\",\"city\":\"Modena\",\"county\":\"Modena\",\"ISO3166-2-lvl6\":\"IT-MO\",\"state\":\"Emilia-Romagna\",\"ISO3166-2-lvl4\":\"IT-45\",\"postcode\":\"41121\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"44.6529371\",\"44.6540033\",\"10.9226061\",\"10.9237723\"]}",
+  "fetchedAt": "2026-10-12T16:50:07.122Z"
+}

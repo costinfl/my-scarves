@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.332833&lon=-8.564367&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":287874332,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":549553819,\"lat\":\"41.3329617\",\"lon\":\"-8.5643389\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.3105210955932214e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rua de Américo Campos, Trofa Velha, Lagoa, Bougado (São Martinho e Santiago), Trofa, Porto, 4785-625, Portugal\",\"address\":{\"road\":\"Rua de Américo Campos\",\"neighbourhood\":\"Trofa Velha\",\"hamlet\":\"Lagoa\",\"city_district\":\"Bougado (São Martinho e Santiago)\",\"city\":\"Trofa\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4785-625\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.3324197\",\"41.3335034\",\"-8.5649347\",\"-8.5637430\"]}",
+  "fetchedAt": "2026-10-12T16:51:16.330Z"
+}

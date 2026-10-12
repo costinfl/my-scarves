@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.827967&lon=14.193008&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":80640088,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":71450118,\"lat\":\"40.8279707\",\"lon\":\"14.1929482\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.093614099331682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Francesco Galeota, Rione Lauro, Fuorigrotta, Municipalità 10, Napoli, Campania, 80125, Italia\",\"address\":{\"road\":\"Via Francesco Galeota\",\"neighbourhood\":\"Rione Lauro\",\"suburb\":\"Fuorigrotta\",\"city\":\"Napoli\",\"county\":\"Napoli\",\"ISO3166-2-lvl6\":\"IT-NA\",\"state\":\"Campania\",\"ISO3166-2-lvl4\":\"IT-72\",\"postcode\":\"80125\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"40.8274454\",\"40.8284960\",\"14.1924251\",\"14.1934713\"]}",
+  "fetchedAt": "2026-10-12T16:50:15.339Z"
+}

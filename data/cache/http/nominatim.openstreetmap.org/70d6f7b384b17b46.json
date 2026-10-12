@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.611962&lon=3.130631&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":102302632,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":178547373,\"lat\":\"50.6119074\",\"lon\":\"3.1305202\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.686121919580404e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Boulevard de Tournai, Hôtel-de-Ville, Saint-Sauveur, Villeneuve-d'Ascq, Lille, Nord, Hauts-de-France, France métropolitaine, 59491, France\",\"address\":{\"road\":\"Boulevard de Tournai\",\"quarter\":\"Hôtel-de-Ville\",\"suburb\":\"Saint-Sauveur\",\"town\":\"Villeneuve-d'Ascq\",\"municipality\":\"Lille\",\"county\":\"Nord\",\"ISO3166-2-lvl6\":\"FR-59\",\"state\":\"Hauts-de-France\",\"ISO3166-2-lvl4\":\"FR-HDF\",\"region\":\"France métropolitaine\",\"postcode\":\"59491\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"50.6112979\",\"50.6125168\",\"3.1297999\",\"3.1312405\"]}",
+  "fetchedAt": "2026-10-12T16:48:28.775Z"
+}

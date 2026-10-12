@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.140278&lon=10.034722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":75004477,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":254037516,\"lat\":\"45.1401435\",\"lon\":\"10.0348561\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.913633936060147e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Persico, San Bernardo, Vecchia Dogana, Cremona, Lombardia, 26100, Italia\",\"address\":{\"road\":\"Via Persico\",\"neighbourhood\":\"San Bernardo\",\"suburb\":\"Vecchia Dogana\",\"city\":\"Cremona\",\"county\":\"Cremona\",\"ISO3166-2-lvl6\":\"IT-CR\",\"state\":\"Lombardia\",\"ISO3166-2-lvl4\":\"IT-25\",\"postcode\":\"26100\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.1395624\",\"45.1407246\",\"10.0341843\",\"10.0355280\"]}",
+  "fetchedAt": "2026-10-12T16:50:22.412Z"
+}

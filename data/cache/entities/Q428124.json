@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:45:15.484Z",
+  "version": 2,
+  "entity": {
+    "id": "Q428124",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "7F00FF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Violet (color)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "violet"
+      }
+    }
+  }
+}

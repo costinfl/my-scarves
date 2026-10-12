@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.107430&lon=-1.712820&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":283731533,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":25950257,\"lat\":\"48.1074777\",\"lon\":\"-1.7128701\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.251163500415073e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Quai Éric Tabarly, Moulin du Comte, Bourg l'Évesque - La Touche - Moulin du Comte, Quartiers Ouest, Rennes, Ille-et-Vilaine, Bretagne, France métropolitaine, 35000, France\",\"address\":{\"road\":\"Quai Éric Tabarly\",\"neighbourhood\":\"Moulin du Comte\",\"suburb\":\"Bourg l'Évesque - La Touche - Moulin du Comte\",\"city_district\":\"Quartiers Ouest\",\"city\":\"Rennes\",\"municipality\":\"Rennes\",\"county\":\"Ille-et-Vilaine\",\"ISO3166-2-lvl6\":\"FR-35\",\"state\":\"Bretagne\",\"ISO3166-2-lvl4\":\"FR-BRE\",\"region\":\"France métropolitaine\",\"postcode\":\"35000\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"48.1070271\",\"48.1079283\",\"-1.7136886\",\"-1.7120516\"]}",
+  "fetchedAt": "2026-10-12T16:48:45.288Z"
+}

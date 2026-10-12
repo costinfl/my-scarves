@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.187474&lon=5.740194&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":89919973,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":25532414,\"lat\":\"45.1874315\",\"lon\":\"5.7401273\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.483634699011242e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Boulevard Jean Pain, Exposition Bajatière, Secteur 5, Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38100, France\",\"address\":{\"road\":\"Boulevard Jean Pain\",\"residential\":\"Exposition Bajatière\",\"suburb\":\"Secteur 5\",\"city\":\"Grenoble\",\"municipality\":\"Grenoble\",\"county\":\"Isère\",\"ISO3166-2-lvl6\":\"FR-38\",\"state\":\"Auvergne-Rhône-Alpes\",\"ISO3166-2-lvl4\":\"FR-ARA\",\"region\":\"France métropolitaine\",\"postcode\":\"38100\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"45.1868260\",\"45.1880346\",\"5.7391558\",\"5.7411016\"]}",
+  "fetchedAt": "2026-10-12T16:48:25.474Z"
+}

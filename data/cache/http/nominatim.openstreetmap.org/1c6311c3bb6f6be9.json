@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.318600&lon=7.121670&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":118755629,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":31339206,\"lat\":\"49.3188067\",\"lon\":\"7.1217067\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.5635156786404475e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Lindenstraße, Elversberg, Spiesen-Elversberg, Landkreis Neunkirchen, Saarland, 66583, Deutschland\",\"address\":{\"road\":\"Lindenstraße\",\"suburb\":\"Elversberg\",\"city_district\":\"Elversberg\",\"village\":\"Spiesen-Elversberg\",\"county\":\"Landkreis Neunkirchen\",\"state\":\"Saarland\",\"ISO3166-2-lvl4\":\"DE-SL\",\"postcode\":\"66583\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.3182348\",\"49.3193787\",\"7.1208048\",\"7.1226086\"]}",
+  "fetchedAt": "2026-10-12T16:49:30.385Z"
+}

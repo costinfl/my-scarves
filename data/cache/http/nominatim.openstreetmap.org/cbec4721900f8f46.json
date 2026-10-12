@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.962500&lon=5.893056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":110363175,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":599585753,\"lat\":\"51.9626377\",\"lon\":\"5.8931040\",\"category\":\"man_made\",\"type\":\"tower\",\"place_rank\":30,\"importance\":6.905394064235931e-05,\"addresstype\":\"man_made\",\"name\":\"\",\"display_name\":\"Elzenlaan, Elden, Arnhem-Zuid, Arnhem, Gelderland, Nederland, 6831 GM, Nederland\",\"address\":{\"road\":\"Elzenlaan\",\"quarter\":\"Elden\",\"suburb\":\"Arnhem-Zuid\",\"city\":\"Arnhem\",\"state\":\"Gelderland\",\"ISO3166-2-lvl4\":\"NL-GE\",\"country\":\"Nederland\",\"postcode\":\"6831 GM\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.9625877\",\"51.9626877\",\"5.8930540\",\"5.8931540\"]}",
+  "fetchedAt": "2026-10-12T16:50:58.341Z"
+}

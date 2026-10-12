@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.247160&lon=4.024780&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":119693016,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":801540181,\"lat\":\"49.2471627\",\"lon\":\"4.0247750\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.317387655446734e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Voie Jean Taittinger, Port Sec, Reims, Marne, Grand Est, France métropolitaine, 51100, France\",\"address\":{\"road\":\"Voie Jean Taittinger\",\"suburb\":\"Port Sec\",\"city\":\"Reims\",\"municipality\":\"Reims\",\"county\":\"Marne\",\"ISO3166-2-lvl6\":\"FR-51\",\"state\":\"Grand Est\",\"ISO3166-2-lvl4\":\"FR-GES\",\"region\":\"France métropolitaine\",\"postcode\":\"51100\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"49.2465850\",\"49.2477403\",\"4.0238834\",\"4.0256667\"]}",
+  "fetchedAt": "2026-10-12T16:48:43.168Z"
+}

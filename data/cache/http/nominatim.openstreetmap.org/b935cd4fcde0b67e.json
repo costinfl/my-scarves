@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.435356&lon=10.968647&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":74459770,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124262144,\"lat\":\"45.4353326\",\"lon\":\"10.9685789\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.461738002589482e-05,\"addresstype\":\"leisure\",\"name\":\"Stadio Marcantonio Bentegodi\",\"display_name\":\"Stadio Marcantonio Bentegodi, Piazzale Olimpia, Borgo Milano, Ovest, Verona, Veneto, 37138, Italia\",\"address\":{\"leisure\":\"Stadio Marcantonio Bentegodi\",\"road\":\"Piazzale Olimpia\",\"suburb\":\"Borgo Milano\",\"city\":\"Verona\",\"county\":\"Verona\",\"ISO3166-2-lvl6\":\"IT-VR\",\"state\":\"Veneto\",\"ISO3166-2-lvl4\":\"IT-34\",\"postcode\":\"37138\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.4347745\",\"45.4358907\",\"10.9679044\",\"10.9692534\"]}",
+  "fetchedAt": "2026-10-12T16:49:42.822Z"
+}

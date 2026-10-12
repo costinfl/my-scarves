@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.323321&lon=10.885926&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":126902233,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":181899832,\"lat\":\"48.3231098\",\"lon\":\"10.8859456\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.340428778510746e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"B 17, Universitätsviertel, Augsburg, Bayern, 86199, Deutschland\",\"address\":{\"road\":\"B 17\",\"suburb\":\"Universitätsviertel\",\"city\":\"Augsburg\",\"state\":\"Bayern\",\"ISO3166-2-lvl4\":\"DE-BY\",\"postcode\":\"86199\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.3226272\",\"48.3235924\",\"10.8854619\",\"10.8864293\"]}",
+  "fetchedAt": "2026-10-12T16:49:07.150Z"
+}

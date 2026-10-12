@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.290000&lon=10.521389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":144622731,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":10801502,\"lat\":\"52.2901398\",\"lon\":\"10.5215683\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.18844892041965e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Südstrasse, Siegfriedviertel, Nordstadt-Schunteraue, Braunschweig, Niedersachsen, 38112, Deutschland\",\"address\":{\"road\":\"Südstrasse\",\"quarter\":\"Siegfriedviertel\",\"suburb\":\"Nordstadt-Schunteraue\",\"city\":\"Braunschweig\",\"state\":\"Niedersachsen\",\"ISO3166-2-lvl4\":\"DE-NI\",\"postcode\":\"38112\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"52.2896230\",\"52.2906565\",\"10.5209521\",\"10.5221846\"]}",
+  "fetchedAt": "2026-10-12T16:49:04.955Z"
+}

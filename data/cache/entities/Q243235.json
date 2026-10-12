@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:43.975Z",
+  "version": 2,
+  "entity": {
+    "id": "Q243235",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64232"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Académica de Coimbra (football)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Associação Académica de Coimbra – O.A.F."
+      }
+    }
+  }
+}

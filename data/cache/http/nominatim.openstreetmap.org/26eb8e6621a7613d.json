@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.427761&lon=12.363731&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":78588365,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":138997432,\"lat\":\"45.4277869\",\"lon\":\"12.3639927\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.110246433199081e-05,\"addresstype\":\"leisure\",\"name\":\"Stadio Pier Luigi Penzo\",\"display_name\":\"Stadio Pier Luigi Penzo, Fondamenta Sant'Elena, Sant'Elena, Venezia-Murano-Burano, Lido, Venezia, Veneto, 30142, Italia\",\"address\":{\"leisure\":\"Stadio Pier Luigi Penzo\",\"road\":\"Fondamenta Sant'Elena\",\"neighbourhood\":\"Sant'Elena\",\"suburb\":\"Venezia-Murano-Burano\",\"town\":\"Lido\",\"city\":\"Venezia\",\"county\":\"Venezia\",\"ISO3166-2-lvl6\":\"IT-VE\",\"state\":\"Veneto\",\"ISO3166-2-lvl4\":\"IT-34\",\"postcode\":\"30142\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.4272172\",\"45.4283565\",\"12.3634300\",\"12.3645556\"]}",
+  "fetchedAt": "2026-10-12T16:50:24.609Z"
+}

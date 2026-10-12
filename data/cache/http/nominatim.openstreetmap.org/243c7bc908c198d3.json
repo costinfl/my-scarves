@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.916944&lon=4.520556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":108232566,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":85682623,\"lat\":\"51.9170711\",\"lon\":\"4.5205404\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.67399099717253e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Honingerdijk, Kralingen-Oost, Crooswijk, Kralingen-Crooswijk, Rotterdam, Zuid-Holland, Nederland, 3062 NX, Nederland\",\"address\":{\"road\":\"Honingerdijk\",\"neighbourhood\":\"Kralingen-Oost\",\"suburb\":\"Crooswijk\",\"city\":\"Rotterdam\",\"municipality\":\"Rotterdam\",\"state\":\"Zuid-Holland\",\"ISO3166-2-lvl4\":\"NL-ZH\",\"country\":\"Nederland\",\"postcode\":\"3062 NX\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.9165314\",\"51.9176075\",\"4.5198102\",\"4.5212697\"]}",
+  "fetchedAt": "2026-10-12T16:50:32.514Z"
+}

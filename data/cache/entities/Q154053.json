@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q154053",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "600px Giallo e Blu con stemma Eintracht Braunschweig.png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "65172"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Eintracht Braunschweig"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Eintracht Braunschweig"
+      }
+    }
+  }
+}

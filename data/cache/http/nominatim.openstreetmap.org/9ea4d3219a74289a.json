@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.857778&lon=8.672222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":124297302,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":366600229,\"lat\":\"49.8577132\",\"lon\":\"8.6724171\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.148928053707205e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Waldlaufbahn, An den Lichtwiesen, Darmstadt-Ost, Darmstadt, Hessen, 64287, Deutschland\",\"address\":{\"road\":\"Waldlaufbahn\",\"quarter\":\"An den Lichtwiesen\",\"suburb\":\"Darmstadt-Ost\",\"city\":\"Darmstadt\",\"state\":\"Hessen\",\"ISO3166-2-lvl4\":\"DE-HE\",\"postcode\":\"64287\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.8571802\",\"49.8582462\",\"8.6718419\",\"8.6729922\"]}",
+  "fetchedAt": "2026-10-12T16:49:28.831Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.256100&lon=-1.524660&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":427702618,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1556623891,\"lat\":\"47.2560145\",\"lon\":\"-1.5247131\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.430914778358157e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Périphérique Extérieur, La Halvêque, Beaujoire - Halvèque, Nantes Erdre, Nantes, Loire-Atlantique, Pays de la Loire, France métropolitaine, 44305, France\",\"address\":{\"road\":\"Périphérique Extérieur\",\"neighbourhood\":\"La Halvêque\",\"suburb\":\"Nantes Erdre\",\"city\":\"Nantes\",\"municipality\":\"Nantes\",\"county\":\"Loire-Atlantique\",\"ISO3166-2-lvl6\":\"FR-44\",\"state\":\"Pays de la Loire\",\"ISO3166-2-lvl4\":\"FR-PDL\",\"region\":\"France métropolitaine\",\"postcode\":\"44305\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"47.2555047\",\"47.2565243\",\"-1.5252453\",\"-1.5241811\"]}",
+  "fetchedAt": "2026-10-12T16:48:20.573Z"
+}

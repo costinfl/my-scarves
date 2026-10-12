@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.081603&lon=13.200136&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":69199687,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1383444882,\"lat\":\"46.0820595\",\"lon\":\"13.2000964\",\"category\":\"man_made\",\"type\":\"tower\",\"place_rank\":30,\"importance\":6.996795605397143e-05,\"addresstype\":\"man_made\",\"name\":\"\",\"display_name\":\"Viale dell'Emigrazione, Villaggio del Sole, Rizzi, Udine, Friuli-Venezia Giulia, 33100, Italia\",\"address\":{\"road\":\"Viale dell'Emigrazione\",\"hamlet\":\"Villaggio del Sole\",\"village\":\"Rizzi\",\"city\":\"Udine\",\"county\":\"Udine\",\"ISO3166-2-lvl6\":\"IT-UD\",\"state\":\"Friuli-Venezia Giulia\",\"ISO3166-2-lvl4\":\"IT-36\",\"postcode\":\"33100\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"46.0820095\",\"46.0821095\",\"13.2000464\",\"13.2001464\"]}",
+  "fetchedAt": "2026-10-12T16:50:20.233Z"
+}

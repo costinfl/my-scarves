@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1132418",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo FC Martigues - 2020.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Martigues"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Martigues"
+      }
+    }
+  }
+}

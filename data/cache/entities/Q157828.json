@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q157828",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Holstein Kiel Logo.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Holstein Kiel"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Holstein Kiel"
+      }
+    }
+  }
+}

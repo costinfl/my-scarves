@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.094878&lon=-9.256594&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":297151415,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":782701541,\"lat\":\"39.0948686\",\"lon\":\"-9.2566413\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.658274204618933e-05,\"addresstype\":\"leisure\",\"name\":\"Sport Clube União Torreense\",\"display_name\":\"Sport Clube União Torreense, Rua Cândido dos Reis, Santa Maria, São Pedro e Matacães, Torres Vedras, Lisboa, 2560-273, Portugal\",\"address\":{\"leisure\":\"Sport Clube União Torreense\",\"road\":\"Rua Cândido dos Reis\",\"city_district\":\"Santa Maria, São Pedro e Matacães\",\"city\":\"Torres Vedras\",\"county\":\"Lisboa\",\"ISO3166-2-lvl6\":\"PT-11\",\"postcode\":\"2560-273\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"39.0943469\",\"39.0953904\",\"-9.2571027\",\"-9.2561800\"]}",
+  "fetchedAt": "2026-10-12T16:51:41.939Z"
+}

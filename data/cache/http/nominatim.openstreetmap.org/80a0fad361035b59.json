@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.813889&lon=9.072222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":75726037,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":110018188,\"lat\":\"45.8138623\",\"lon\":\"9.0723709\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.922789349198165e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Viale Giancarlo Puecher, Stadio, Vico, Tavernola, Como, Lombardia, 22100, Italia\",\"address\":{\"road\":\"Viale Giancarlo Puecher\",\"city_block\":\"Stadio\",\"suburb\":\"Vico\",\"village\":\"Tavernola\",\"city\":\"Como\",\"county\":\"Como\",\"ISO3166-2-lvl6\":\"IT-CO\",\"state\":\"Lombardia\",\"ISO3166-2-lvl4\":\"IT-25\",\"postcode\":\"22100\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.8134785\",\"45.8142462\",\"9.0716318\",\"9.0731099\"]}",
+  "fetchedAt": "2026-10-12T16:49:57.120Z"
+}

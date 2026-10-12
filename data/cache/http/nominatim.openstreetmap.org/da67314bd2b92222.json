@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.083870&lon=-0.753510&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":283505530,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":233387599,\"lat\":\"48.0838944\",\"lon\":\"-0.7535021\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.560540169370592e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue René Sauleau, Les Pommeraies, Laval, Mayenne, Pays de la Loire, France métropolitaine, 53000, France\",\"address\":{\"road\":\"Rue René Sauleau\",\"neighbourhood\":\"Les Pommeraies\",\"suburb\":\"Les Pommeraies\",\"town\":\"Laval\",\"municipality\":\"Laval\",\"county\":\"Mayenne\",\"ISO3166-2-lvl6\":\"FR-53\",\"state\":\"Pays de la Loire\",\"ISO3166-2-lvl4\":\"FR-PDL\",\"region\":\"France métropolitaine\",\"postcode\":\"53000\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"48.0834530\",\"48.0843357\",\"-0.7542845\",\"-0.7527196\"]}",
+  "fetchedAt": "2026-10-12T16:48:44.175Z"
+}

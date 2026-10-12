@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.326160&lon=5.067570&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":94148713,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":115393852,\"lat\":\"47.3261583\",\"lon\":\"5.0678942\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.336308842598638e-05,\"addresstype\":\"leisure\",\"name\":\"Vélodrome municipal de Dijon\",\"display_name\":\"Vélodrome municipal de Dijon, Boulevard Paul Doumer, Montmuzard, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21000, France\",\"address\":{\"leisure\":\"Vélodrome municipal de Dijon\",\"road\":\"Boulevard Paul Doumer\",\"suburb\":\"Montmuzard\",\"city\":\"Dijon\",\"municipality\":\"Dijon\",\"county\":\"Côte-d'Or\",\"ISO3166-2-lvl6\":\"FR-21\",\"state\":\"Bourgogne-Franche-Comté\",\"ISO3166-2-lvl4\":\"FR-BFC\",\"region\":\"France métropolitaine\",\"postcode\":\"21000\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"47.3256296\",\"47.3266768\",\"5.0673353\",\"5.0684432\"]}",
+  "fetchedAt": "2026-10-12T16:48:12.846Z"
+}

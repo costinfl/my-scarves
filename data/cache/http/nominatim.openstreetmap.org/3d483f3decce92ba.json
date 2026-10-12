@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.714722&lon=10.649722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":77454687,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":177767516,\"lat\":\"44.7145502\",\"lon\":\"10.6496769\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.725490196073881e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Viale Severino Taddei, Castello di Mancasale, Mancasale, Reggio nell'Emilia, Reggio Emilia, Emilia-Romagna, 42100, Italia\",\"address\":{\"road\":\"Viale Severino Taddei\",\"hamlet\":\"Castello di Mancasale\",\"suburb\":\"Mancasale\",\"city\":\"Reggio nell'Emilia\",\"county\":\"Reggio Emilia\",\"ISO3166-2-lvl6\":\"IT-RE\",\"state\":\"Emilia-Romagna\",\"ISO3166-2-lvl4\":\"IT-45\",\"postcode\":\"42100\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"44.7139270\",\"44.7151570\",\"10.6490279\",\"10.6503328\"]}",
+  "fetchedAt": "2026-10-12T16:49:41.453Z"
+}

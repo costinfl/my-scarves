@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q141931",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo Dinamo Dresde desde 2011.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Dynamo Dresden"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Dynamo Dresden"
+      }
+    }
+  }
+}

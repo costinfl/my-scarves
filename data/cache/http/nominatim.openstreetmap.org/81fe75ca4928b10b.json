@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.651960&lon=9.443030&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":81684288,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13378149816,\"lat\":\"42.6516526\",\"lon\":\"9.4421987\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":6.581750209807e-05,\"addresstype\":\"club\",\"name\":\"Sporting Club de Bastia\",\"display_name\":\"Sporting Club de Bastia, Voie Antoine Redin, Camera, Lotissement Volpaghjolu, Furiani, Bastia, Haute-Corse, Corse, France métropolitaine, 20600, France\",\"address\":{\"club\":\"Sporting Club de Bastia\",\"road\":\"Voie Antoine Redin\",\"neighbourhood\":\"Camera\",\"hamlet\":\"Lotissement Volpaghjolu\",\"village\":\"Furiani\",\"municipality\":\"Bastia\",\"county\":\"Haute-Corse\",\"ISO3166-2-lvl6\":\"FR-2B\",\"state\":\"Corse\",\"ISO3166-2-lvl4\":\"FR-20R\",\"region\":\"France métropolitaine\",\"postcode\":\"20600\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"42.6516026\",\"42.6517026\",\"9.4421487\",\"9.4422487\"]}",
+  "fetchedAt": "2026-10-12T16:48:40.882Z"
+}

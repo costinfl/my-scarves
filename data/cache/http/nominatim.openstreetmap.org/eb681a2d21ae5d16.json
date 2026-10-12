@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.276389&lon=-8.339444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":288698428,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":9456379206,\"lat\":\"41.2764704\",\"lon\":\"-8.3393731\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":5.578316929880243e-05,\"addresstype\":\"leisure\",\"name\":\"Complexo Desportivo do Sport Clube de Freamunde\",\"display_name\":\"Complexo Desportivo do Sport Clube de Freamunde, EM 597, Pessô, Freamunde, Paços de Ferreira, Porto, 4590-292, Portugal\",\"address\":{\"leisure\":\"Complexo Desportivo do Sport Clube de Freamunde\",\"road\":\"EM 597\",\"neighbourhood\":\"Pessô\",\"city\":\"Freamunde\",\"municipality\":\"Paços de Ferreira\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4590-292\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.2764204\",\"41.2765204\",\"-8.3394231\",\"-8.3393231\"]}",
+  "fetchedAt": "2026-10-12T16:51:40.429Z"
+}

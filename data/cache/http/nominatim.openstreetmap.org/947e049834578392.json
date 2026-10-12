@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.404589&lon=10.009575&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":127688899,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":126531501,\"lat\":\"48.4044943\",\"lon\":\"10.0095512\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.860914015407061e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stadionstraße, Arbeitersiedlung Untere Bleiche, Oststadt, Ulm, Baden-Württemberg, 89073, Deutschland\",\"address\":{\"road\":\"Stadionstraße\",\"neighbourhood\":\"Arbeitersiedlung Untere Bleiche\",\"suburb\":\"Oststadt\",\"city\":\"Ulm\",\"state\":\"Baden-Württemberg\",\"ISO3166-2-lvl4\":\"DE-BW\",\"postcode\":\"89073\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"48.4039604\",\"48.4050281\",\"10.0087026\",\"10.0103998\"]}",
+  "fetchedAt": "2026-10-12T16:49:28.096Z"
+}

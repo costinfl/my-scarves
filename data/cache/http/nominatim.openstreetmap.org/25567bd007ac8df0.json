@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.314167&lon=4.941944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":156911749,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":4810622255,\"lat\":\"52.3141605\",\"lon\":\"4.9420018\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":5.465247577625723e-05,\"addresstype\":\"amenity\",\"name\":\"P+R Transferium ArenA\",\"display_name\":\"P+R Transferium ArenA, Burgemeester Stramanweg, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1100 DL, Nederland\",\"address\":{\"amenity\":\"P+R Transferium ArenA\",\"road\":\"Burgemeester Stramanweg\",\"suburb\":\"Zuidoost\",\"city\":\"Amsterdam\",\"municipality\":\"Amsterdam\",\"state\":\"Noord-Holland\",\"ISO3166-2-lvl4\":\"NL-NH\",\"country\":\"Nederland\",\"postcode\":\"1100 DL\",\"country_code\":\"nl\"},\"boundingbox\":[\"52.3141105\",\"52.3142105\",\"4.9419518\",\"4.9420518\"]}",
+  "fetchedAt": "2026-10-12T16:50:27.509Z"
+}

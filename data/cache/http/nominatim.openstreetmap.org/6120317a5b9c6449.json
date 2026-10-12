@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.092778&lon=15.635278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":53850212,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28915407,\"lat\":\"38.0926383\",\"lon\":\"15.6350761\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.803768978403933e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Erminio Bercarich, Reggio di Calabria, Reggio Calabria, Calabria, 89129, Italia\",\"address\":{\"road\":\"Via Erminio Bercarich\",\"city\":\"Reggio di Calabria\",\"county\":\"Reggio Calabria\",\"ISO3166-2-lvl6\":\"IT-RC\",\"state\":\"Calabria\",\"ISO3166-2-lvl4\":\"IT-78\",\"postcode\":\"89129\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"38.0921286\",\"38.0931481\",\"15.6346167\",\"15.6355356\"]}",
+  "fetchedAt": "2026-10-12T16:49:46.695Z"
+}

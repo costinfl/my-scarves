@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.765224&lon=4.982131&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":90180662,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":914330757,\"lat\":\"45.7652015\",\"lon\":\"4.9820240\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.078202487216018e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Allée Sud-Ouest, Le Grand Montout, Charpieu, Décines-Charpieu, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69150, France\",\"address\":{\"road\":\"Allée Sud-Ouest\",\"neighbourhood\":\"Le Grand Montout\",\"suburb\":\"Charpieu\",\"town\":\"Décines-Charpieu\",\"municipality\":\"Lyon\",\"county\":\"Métropole de Lyon\",\"ISO3166-2-lvl6\":\"FR-69M\",\"state_district\":\"Rhône\",\"state\":\"Auvergne-Rhône-Alpes\",\"ISO3166-2-lvl4\":\"FR-ARA\",\"region\":\"France métropolitaine\",\"postcode\":\"69150\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"45.7646688\",\"45.7657397\",\"4.9814985\",\"4.9825416\"]}",
+  "fetchedAt": "2026-10-12T16:48:32.656Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.659444&lon=-7.900833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":293873521,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":437323141,\"lat\":\"40.6595820\",\"lon\":\"-7.9004421\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.119096665899165e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rua Anacleto Pinto, Urbanização do Fontelo, Viseu, 3500-021, Portugal\",\"address\":{\"road\":\"Rua Anacleto Pinto\",\"neighbourhood\":\"Urbanização do Fontelo\",\"city_district\":\"Viseu\",\"city\":\"Viseu\",\"county\":\"Viseu\",\"ISO3166-2-lvl6\":\"PT-18\",\"postcode\":\"3500-021\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"40.6589898\",\"40.6600847\",\"-7.9011392\",\"-7.8998048\"]}",
+  "fetchedAt": "2026-10-12T16:51:06.145Z"
+}

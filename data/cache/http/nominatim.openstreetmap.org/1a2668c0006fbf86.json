@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.984167&lon=8.224167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":124673696,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":91231799,\"lat\":\"49.9839477\",\"lon\":\"8.2244704\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.383611810478397e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Eugen-Salomon-Straße, Bretzenheim, Mainz, Rheinland-Pfalz, 55128, Deutschland\",\"address\":{\"road\":\"Eugen-Salomon-Straße\",\"suburb\":\"Bretzenheim\",\"city\":\"Mainz\",\"state\":\"Rheinland-Pfalz\",\"ISO3166-2-lvl4\":\"DE-RP\",\"postcode\":\"55128\",\"country\":\"Deutschland\",\"country_code\":\"de\"},\"boundingbox\":[\"49.9834000\",\"49.9844955\",\"8.2234904\",\"8.2254504\"]}",
+  "fetchedAt": "2026-10-12T16:48:58.354Z"
+}

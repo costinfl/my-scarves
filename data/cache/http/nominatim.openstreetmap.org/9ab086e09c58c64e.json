@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.544167&lon=11.555556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":74833385,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":4526509417,\"lat\":\"45.5445131\",\"lon\":\"11.5548805\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.091706721594594e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"21, Via Schio, Santa Caterina, Stadio, Vicenza, Veneto, 36100, Italia\",\"address\":{\"house_number\":\"21\",\"road\":\"Via Schio\",\"neighbourhood\":\"Santa Caterina\",\"quarter\":\"Stadio\",\"city\":\"Vicenza\",\"county\":\"Vicenza\",\"ISO3166-2-lvl6\":\"IT-VI\",\"state\":\"Veneto\",\"ISO3166-2-lvl4\":\"IT-34\",\"postcode\":\"36100\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"45.5444631\",\"45.5445631\",\"11.5548305\",\"11.5549305\"]}",
+  "fetchedAt": "2026-10-12T16:50:04.816Z"
+}

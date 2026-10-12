@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:45.701Z",
+  "version": 2,
+  "entity": {
+    "id": "Q876568",
+    "claims": {
+      "P154": [
+        {
+          "rank": "deprecated",
+          "mainsnak": {
+            "datavalue": {
+              "value": "MVV Maastricht.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "MVV Maastricht"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "MVV Maastricht"
+      }
+    }
+  }
+}

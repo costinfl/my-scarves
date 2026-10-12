@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.620610&lon=3.812790&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":85523526,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1163845259,\"lat\":\"43.6206133\",\"lon\":\"3.8126242\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.41214618142522e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Allée des Brigades Internationales, La Paillade, Mosson, Montpellier, Hérault, Occitanie, France métropolitaine, 34080, France\",\"address\":{\"road\":\"Allée des Brigades Internationales\",\"neighbourhood\":\"La Paillade\",\"suburb\":\"Mosson\",\"city\":\"Montpellier\",\"municipality\":\"Montpellier\",\"county\":\"Hérault\",\"ISO3166-2-lvl6\":\"FR-34\",\"state\":\"Occitanie\",\"ISO3166-2-lvl4\":\"FR-OCC\",\"region\":\"France métropolitaine\",\"postcode\":\"34080\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"43.6201530\",\"43.6211802\",\"3.8122876\",\"3.8129501\"]}",
+  "fetchedAt": "2026-10-12T16:48:29.881Z"
+}

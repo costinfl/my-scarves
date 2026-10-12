@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.565160&lon=-3.165520&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":284671704,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":186049321,\"lat\":\"48.5652059\",\"lon\":\"-3.1654954\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.237659266036496e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue Auguste Brizeux, Guingamp, Côtes-d'Armor, Bretagne, France métropolitaine, 22200, France\",\"address\":{\"road\":\"Rue Auguste Brizeux\",\"village\":\"Guingamp\",\"municipality\":\"Guingamp\",\"county\":\"Côtes-d'Armor\",\"ISO3166-2-lvl6\":\"FR-22\",\"state\":\"Bretagne\",\"ISO3166-2-lvl4\":\"FR-BRE\",\"region\":\"France métropolitaine\",\"postcode\":\"22200\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"48.5648288\",\"48.5655768\",\"-3.1662333\",\"-3.1647635\"]}",
+  "fetchedAt": "2026-10-12T16:48:14.033Z"
+}

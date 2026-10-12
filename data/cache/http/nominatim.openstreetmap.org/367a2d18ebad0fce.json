@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.701667&lon=5.329722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":109942074,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":80739899,\"lat\":\"51.7016474\",\"lon\":\"5.3298375\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.674830243376848e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Victorialaan, Graafsewijk-Noord, 's-Hertogenbosch, Noord-Brabant, Nederland, 5213 JE, Nederland\",\"address\":{\"road\":\"Victorialaan\",\"neighbourhood\":\"Graafsewijk-Noord\",\"city\":\"'s-Hertogenbosch\",\"municipality\":\"'s-Hertogenbosch\",\"state\":\"Noord-Brabant\",\"ISO3166-2-lvl4\":\"NL-NB\",\"country\":\"Nederland\",\"postcode\":\"5213 JE\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.7010889\",\"51.7022062\",\"5.3290574\",\"5.3306188\"]}",
+  "fetchedAt": "2026-10-12T16:50:33.311Z"
+}

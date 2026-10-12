@@ -1,10 +1,24 @@
 [
   {
+    "qid": "Q8507",
+    "name": "Parc Olympique Lyonnais",
+    "lat": 45.765224,
+    "lon": 4.982131,
+    "capacity": 59286
+  },
+  {
     "qid": "Q10626",
     "name": "Vicarage Road",
     "lat": 51.649928,
     "lon": -0.401606,
     "capacity": 22000
+  },
+  {
+    "qid": "Q11969",
+    "name": "Asito Stadion",
+    "lat": 52.338611,
+    "lon": 6.649722,
+    "capacity": 12080
   },
   {
     "qid": "Q16822",
@@ -19,6 +33,13 @@
     "lat": 43.368667,
     "lon": -8.417372,
     "capacity": 32490
+  },
+  {
+    "qid": "Q28500",
+    "name": "Stadio Renzo Barbera",
+    "lat": 38.152767,
+    "lon": 13.342275,
+    "capacity": 36365
   },
   {
     "qid": "Q31670",
@@ -42,6 +63,13 @@
     "capacity": 48339
   },
   {
+    "qid": "Q39189",
+    "name": "Stade du Moustoir",
+    "lat": 47.74869,
+    "lon": -3.36929,
+    "capacity": 19010
+  },
+  {
     "qid": "Q45671",
     "name": "Anfield",
     "lat": 53.430833333,
@@ -56,6 +84,13 @@
     "capacity": 52900
   },
   {
+    "qid": "Q62149",
+    "name": "Juventus Stadium",
+    "lat": 45.109594,
+    "lon": 7.641247,
+    "capacity": 41689
+  },
+  {
     "qid": "Q74413",
     "name": "Cluj Arena",
     "lat": 46.768333,
@@ -63,11 +98,95 @@
     "capacity": 30335
   },
   {
+    "qid": "Q82709",
+    "name": "Stadio Diego Armando Maradona",
+    "lat": 40.827967,
+    "lon": 14.193008,
+    "capacity": 54726
+  },
+  {
     "qid": "Q83457",
     "name": "Old Trafford",
     "lat": 53.463055555,
     "lon": -2.291388888,
     "capacity": 75731
+  },
+  {
+    "qid": "Q94591",
+    "name": "Stadio Cino e Lillo Del Duca",
+    "lat": 42.861111,
+    "lon": 13.594167,
+    "capacity": 13708
+  },
+  {
+    "qid": "Q94612",
+    "name": "Stadio Romeo Menti",
+    "lat": 45.544167,
+    "lon": 11.555556,
+    "capacity": 12163
+  },
+  {
+    "qid": "Q94619",
+    "name": "Stadio Renato Curi",
+    "lat": 43.106111,
+    "lon": 12.357222,
+    "capacity": 28000
+  },
+  {
+    "qid": "Q94625",
+    "name": "Stadio Dino Manuzzi",
+    "lat": 44.140556,
+    "lon": 12.261944,
+    "capacity": 23860
+  },
+  {
+    "qid": "Q94633",
+    "name": "Stadio Carlo Castellani",
+    "lat": 43.726389,
+    "lon": 10.955,
+    "capacity": 19847
+  },
+  {
+    "qid": "Q94646",
+    "name": "Stadio Alberto Braglia",
+    "lat": 44.653611,
+    "lon": 10.923333,
+    "capacity": 21151
+  },
+  {
+    "qid": "Q94649",
+    "name": "Stadio Libero Liberati",
+    "lat": 42.562222,
+    "lon": 12.635278,
+    "capacity": 17460
+  },
+  {
+    "qid": "Q115372",
+    "name": "Stadio Giuseppe Sinigaglia",
+    "lat": 45.81388889,
+    "lon": 9.07222222,
+    "capacity": 13602
+  },
+  {
+    "qid": "Q115582",
+    "name": "Stadio Pier Cesare Tombolato",
+    "lat": 45.642778,
+    "lon": 11.781111,
+    "capacity": 7623
+  },
+  {
+    "qid": "Q115970",
+    "name": "Arena Garibaldi – Stadio Romeo Anconetani",
+    "lat": 43.725278,
+    "lon": 10.4,
+    "capacity": 10442
+  },
+  {
+    "qid": "Q118955",
+    "name": "Stade Francis Turcan",
+    "lat": 43.407277,
+    "lon": 5.04935,
+    "capacity": 11500
   },
   {
     "qid": "Q121879",
@@ -91,6 +210,62 @@
     "capacity": 60721
   },
   {
+    "qid": "Q127372",
+    "name": "Allianz Riviera",
+    "lat": 43.70513,
+    "lon": 7.19262,
+    "capacity": 36178
+  },
+  {
+    "qid": "Q127429",
+    "name": "Allianz Arena",
+    "lat": 48.218775,
+    "lon": 11.624752777,
+    "capacity": 75024
+  },
+  {
+    "qid": "Q129870",
+    "name": "SNP Arena",
+    "lat": 49.239,
+    "lon": 8.888278,
+    "capacity": 30150
+  },
+  {
+    "qid": "Q133566",
+    "name": "Giuseppe Meazza Stadium",
+    "lat": 45.478055555,
+    "lon": 9.123888888,
+    "capacity": 75817
+  },
+  {
+    "qid": "Q150928",
+    "name": "Westfalenstadion",
+    "lat": 51.4925,
+    "lon": 7.451667,
+    "capacity": 81359
+  },
+  {
+    "qid": "Q150933",
+    "name": "Volksparkstadion",
+    "lat": 53.586944,
+    "lon": 9.898611,
+    "capacity": 57000
+  },
+  {
+    "qid": "Q150961",
+    "name": "Arena AufSchalke",
+    "lat": 51.554502777,
+    "lon": 7.067588888,
+    "capacity": 62271
+  },
+  {
+    "qid": "Q151374",
+    "name": "Berlin Olympic Stadium",
+    "lat": 52.514722222,
+    "lon": 13.239444444,
+    "capacity": 74475
+  },
+  {
     "qid": "Q151816",
     "name": "Estadio Nuevo José Zorrilla",
     "lat": 41.644444,
@@ -98,11 +273,88 @@
     "capacity": 27618
   },
   {
+    "qid": "Q151893",
+    "name": "RheinEnergie Stadion",
+    "lat": 50.933611,
+    "lon": 6.875,
+    "capacity": 46195
+  },
+  {
+    "qid": "Q152349",
+    "name": "MHPArena",
+    "lat": 48.792222,
+    "lon": 9.231944,
+    "capacity": 60058
+  },
+  {
+    "qid": "Q152599",
+    "name": "Max-Morlock-Stadion",
+    "lat": 49.426240624,
+    "lon": 11.125617009,
+    "capacity": 50000
+  },
+  {
+    "qid": "Q152633",
+    "name": "Niedersachsenstadion",
+    "lat": 52.36,
+    "lon": 9.731111,
+    "capacity": 49000
+  },
+  {
+    "qid": "Q154074",
+    "name": "ista-Borussia-Park",
+    "lat": 51.174583333,
+    "lon": 6.385463888,
+    "capacity": 59749
+  },
+  {
+    "qid": "Q154298",
+    "name": "Fritz Walter Stadium",
+    "lat": 49.434444,
+    "lon": 7.775833,
+    "capacity": 49780
+  },
+  {
+    "qid": "Q154475",
+    "name": "Weserstadion",
+    "lat": 53.066389,
+    "lon": 8.8375,
+    "capacity": 42500
+  },
+  {
+    "qid": "Q155603",
+    "name": "Volkswagen Arena",
+    "lat": 52.431944,
+    "lon": 10.803889,
+    "capacity": 30000
+  },
+  {
+    "qid": "Q156630",
+    "name": "BayArena",
+    "lat": 51.038255555,
+    "lon": 7.002205555,
+    "capacity": 30210
+  },
+  {
+    "qid": "Q157273",
+    "name": "Waldstadion",
+    "lat": 50.068611,
+    "lon": 8.645278,
+    "capacity": 51500
+  },
+  {
     "qid": "Q159848",
     "name": "Camp Nou",
     "lat": 41.380833333,
     "lon": 2.122777777,
     "capacity": 105000
+  },
+  {
+    "qid": "Q159884",
+    "name": "Stadio Olimpico",
+    "lat": 41.933888888,
+    "lon": 12.454722222,
+    "capacity": 70634
   },
   {
     "qid": "Q163995",
@@ -117,6 +369,20 @@
     "lat": 40.45306,
     "lon": -3.68835,
     "capacity": 83186
+  },
+  {
+    "qid": "Q167418",
+    "name": "WWK Arena",
+    "lat": 48.3233205,
+    "lon": 10.8859261,
+    "capacity": 30660
+  },
+  {
+    "qid": "Q170154",
+    "name": "Rudolf-Harbig-Stadion",
+    "lat": 51.040278,
+    "lon": 13.747778,
+    "capacity": 32085
   },
   {
     "qid": "Q171458",
@@ -154,6 +420,13 @@
     "capacity": 52305
   },
   {
+    "qid": "Q193431",
+    "name": "Parc des Princes",
+    "lat": 48.84145,
+    "lon": 2.25305,
+    "capacity": 47930
+  },
+  {
     "qid": "Q195391",
     "name": "Campos de Sport de El Sardinero",
     "lat": 43.476389,
@@ -168,11 +441,46 @@
     "capacity": 33597
   },
   {
+    "qid": "Q202150",
+    "name": "Stade Vélodrome",
+    "lat": 43.269241,
+    "lon": 5.394907,
+    "capacity": 67394
+  },
+  {
     "qid": "Q202762",
     "name": "Mestalla Stadium",
     "lat": 39.474722,
     "lon": -0.358333,
     "capacity": 49430
+  },
+  {
+    "qid": "Q207109",
+    "name": "Johan Cruyff Arena",
+    "lat": 52.314166666,
+    "lon": 4.941944444,
+    "capacity": 54990
+  },
+  {
+    "qid": "Q210466",
+    "name": "Red Bull Arena",
+    "lat": 51.345833,
+    "lon": 12.348056,
+    "capacity": 42000
+  },
+  {
+    "qid": "Q214629",
+    "name": "Stadio Olimpico Grande Torino",
+    "lat": 45.041667,
+    "lon": 7.65,
+    "capacity": 28177
+  },
+  {
+    "qid": "Q219462",
+    "name": "Stade Océane",
+    "lat": 49.4988,
+    "lon": 0.1697,
+    "capacity": 33000
   },
   {
     "qid": "Q242772",
@@ -189,6 +497,27 @@
     "capacity": 31367
   },
   {
+    "qid": "Q245720",
+    "name": "Stadio Danilo Martelli",
+    "lat": 45.146111,
+    "lon": 10.794167,
+    "capacity": 7367
+  },
+  {
+    "qid": "Q245799",
+    "name": "Stadio Giovanni Zini",
+    "lat": 45.140278,
+    "lon": 10.034722,
+    "capacity": 15191
+  },
+  {
+    "qid": "Q255387",
+    "name": "Yanmar Hanasaka Stadion",
+    "lat": 52.394444,
+    "lon": 5.240556,
+    "capacity": 4501
+  },
+  {
     "qid": "Q255447",
     "name": "Estadio Heliodoro Rodríguez López",
     "lat": 28.463055555,
@@ -196,11 +525,46 @@
     "capacity": 21732
   },
   {
+    "qid": "Q256588",
+    "name": "Parque de Jogos Comendador Joaquim de Almeida Freitas",
+    "lat": 41.378089,
+    "lon": -8.354761,
+    "capacity": 6150
+  },
+  {
     "qid": "Q264581",
     "name": "Nou Estadi Castalia",
     "lat": 39.996053,
     "lon": -0.038792,
     "capacity": 16000
+  },
+  {
+    "qid": "Q265199",
+    "name": "Stadion an der Bremer Brücke",
+    "lat": 52.280833,
+    "lon": 8.071111,
+    "capacity": 16130
+  },
+  {
+    "qid": "Q270474",
+    "name": "Stadio Artemio Franchi",
+    "lat": 43.780822,
+    "lon": 11.282258,
+    "capacity": 43325
+  },
+  {
+    "qid": "Q271454",
+    "name": "Estádio do Dragão",
+    "lat": 41.161758,
+    "lon": -8.583933,
+    "capacity": 50033
+  },
+  {
+    "qid": "Q271568",
+    "name": "Stadio Luigi Ferraris",
+    "lat": 44.416431,
+    "lon": 8.952428,
+    "capacity": 33205
   },
   {
     "qid": "Q275429",
@@ -217,11 +581,88 @@
     "capacity": 25736
   },
   {
+    "qid": "Q276784",
+    "name": "Stadio Romeo Menti",
+    "lat": 40.706667,
+    "lon": 14.494444,
+    "capacity": 13000
+  },
+  {
+    "qid": "Q287359",
+    "name": "Estádio José Alvalade",
+    "lat": 38.761194444,
+    "lon": -9.160783333,
+    "capacity": 52095
+  },
+  {
+    "qid": "Q290234",
+    "name": "LEAG Energie Stadion",
+    "lat": 51.751389,
+    "lon": 14.345556,
+    "capacity": 22528
+  },
+  {
+    "qid": "Q291590",
+    "name": "AFAS Stadion",
+    "lat": 52.6125,
+    "lon": 4.741667,
+    "capacity": 17023
+  },
+  {
+    "qid": "Q311458",
+    "name": "Dreisamstadion",
+    "lat": 47.988889,
+    "lon": 7.893056,
+    "capacity": 24000
+  },
+  {
     "qid": "Q318043",
     "name": "Craven Cottage",
     "lat": 51.475,
     "lon": -0.221666666,
     "capacity": 25700
+  },
+  {
+    "qid": "Q318125",
+    "name": "Abe Lenstra Stadion",
+    "lat": 52.958611,
+    "lon": 5.936111,
+    "capacity": 26100
+  },
+  {
+    "qid": "Q318851",
+    "name": "Stade Louis II",
+    "lat": 43.727778,
+    "lon": 7.415556,
+    "capacity": 18523
+  },
+  {
+    "qid": "Q319774",
+    "name": "Stadion am Bornheimer Hang",
+    "lat": 50.128056,
+    "lon": 8.723333,
+    "capacity": 12542
+  },
+  {
+    "qid": "Q322858",
+    "name": "Donaustadion",
+    "lat": 48.404589,
+    "lon": 10.009575,
+    "capacity": 19500
+  },
+  {
+    "qid": "Q328698",
+    "name": "Stadio San Nicola",
+    "lat": 41.084736,
+    "lon": 16.840072,
+    "capacity": 58270
+  },
+  {
+    "qid": "Q330298",
+    "name": "De Kuip",
+    "lat": 51.893894444,
+    "lon": 4.523252777,
+    "capacity": 51577
   },
   {
     "qid": "Q338602",
@@ -231,11 +672,74 @@
     "capacity": 55634
   },
   {
+    "qid": "Q339572",
+    "name": "Millerntor-Stadion",
+    "lat": 53.554444,
+    "lon": 9.967778,
+    "capacity": 29546
+  },
+  {
+    "qid": "Q373769",
+    "name": "Ruhrstadion",
+    "lat": 51.489944,
+    "lon": 7.236489,
+    "capacity": 29299
+  },
+  {
+    "qid": "Q374883",
+    "name": "Stade de la Meinau",
+    "lat": 48.55942,
+    "lon": 7.75738,
+    "capacity": 26109
+  },
+  {
     "qid": "Q380823",
     "name": "Molineux Stadium",
     "lat": 52.590277777,
     "lon": -2.130277777,
     "capacity": 30852
+  },
+  {
+    "qid": "Q387213",
+    "name": "Stade Raymond Kopa",
+    "lat": 47.45905,
+    "lon": -0.53163,
+    "capacity": 18000
+  },
+  {
+    "qid": "Q391473",
+    "name": "De Geusselt",
+    "lat": 50.8575,
+    "lon": 5.717778,
+    "capacity": 10000
+  },
+  {
+    "qid": "Q392494",
+    "name": "Mewa Arena",
+    "lat": 49.984167,
+    "lon": 8.224167,
+    "capacity": 34034
+  },
+  {
+    "qid": "Q428115",
+    "name": "Parc des Sports, Annecy",
+    "lat": 45.91722,
+    "lon": 6.11972,
+    "capacity": 15714
+  },
+  {
+    "qid": "Q462720",
+    "name": "Preußenstadion",
+    "lat": 51.929722,
+    "lon": 7.624583,
+    "capacity": 45000
+  },
+  {
+    "qid": "Q473032",
+    "name": "Avnet Arena",
+    "lat": 52.125556,
+    "lon": 11.670833,
+    "capacity": 30098
   },
   {
     "qid": "Q473223",
@@ -245,6 +749,27 @@
     "capacity": 40500
   },
   {
+    "qid": "Q474858",
+    "name": "Waldstadion an der Kaiserlinde",
+    "lat": 49.3186,
+    "lon": 7.12167,
+    "capacity": 10000
+  },
+  {
+    "qid": "Q476674",
+    "name": "Parkstad Limburg Stadion",
+    "lat": 50.856944444,
+    "lon": 6.005833333,
+    "capacity": 19979
+  },
+  {
+    "qid": "Q479619",
+    "name": "Audi-Sportpark",
+    "lat": 48.745555555,
+    "lon": 11.485,
+    "capacity": 15000
+  },
+  {
     "qid": "Q500922",
     "name": "Britannia Stadium",
     "lat": 52.988333333,
@@ -252,11 +777,53 @@
     "capacity": 27740
   },
   {
+    "qid": "Q500972",
+    "name": "Philips Stadion",
+    "lat": 51.4417,
+    "lon": 5.4674,
+    "capacity": 36500
+  },
+  {
+    "qid": "Q530735",
+    "name": "Stade Auguste Delaune",
+    "lat": 49.24716,
+    "lon": 4.02478,
+    "capacity": 21684
+  },
+  {
+    "qid": "Q541391",
+    "name": "Stade Charléty",
+    "lat": 48.81716,
+    "lon": 2.34511,
+    "capacity": 20000
+  },
+  {
+    "qid": "Q548138",
+    "name": "Voith-Arena",
+    "lat": 48.6685,
+    "lon": 10.1393,
+    "capacity": 10001
+  },
+  {
+    "qid": "Q550041",
+    "name": "Estádio do Rio Ave FC",
+    "lat": 41.362756,
+    "lon": -8.740186,
+    "capacity": 5300
+  },
+  {
     "qid": "Q567339",
     "name": "St Mary's Stadium",
     "lat": 50.90583333,
     "lon": -1.39111111,
     "capacity": 32589
+  },
+  {
+    "qid": "Q567402",
+    "name": "Home Deluxe Arena",
+    "lat": 51.731389,
+    "lon": 8.710833,
+    "capacity": 15000
   },
   {
     "qid": "Q574565",
@@ -273,11 +840,39 @@
     "capacity": 20750
   },
   {
+    "qid": "Q588926",
+    "name": "Stadio Pierluigi Penzo",
+    "lat": 45.427761,
+    "lon": 12.363731,
+    "capacity": 10500
+  },
+  {
+    "qid": "Q590268",
+    "name": "Wildparkstadion",
+    "lat": 49.02,
+    "lon": 8.413055555,
+    "capacity": 33180
+  },
+  {
     "qid": "Q593446",
     "name": "City Ground",
     "lat": 52.94,
     "lon": -1.132778,
     "capacity": 30404
+  },
+  {
+    "qid": "Q606265",
+    "name": "De Vijverberg",
+    "lat": 51.955833,
+    "lon": 6.309722,
+    "capacity": 12600
+  },
+  {
+    "qid": "Q610546",
+    "name": "Stadio Ennio Tardini",
+    "lat": 44.794916666,
+    "lon": 10.338444444,
+    "capacity": 22352
   },
   {
     "qid": "Q619094",
@@ -329,11 +924,67 @@
     "capacity": 25400
   },
   {
+    "qid": "Q640031",
+    "name": "Stadio Friuli",
+    "lat": 46.081603,
+    "lon": 13.200136,
+    "capacity": 25312
+  },
+  {
+    "qid": "Q643426",
+    "name": "Jan Louwers Stadion",
+    "lat": 51.411667,
+    "lon": 5.479444,
+    "capacity": 4500
+  },
+  {
+    "qid": "Q646151",
+    "name": "Estádio Algarve",
+    "lat": 37.088333,
+    "lon": -7.974722,
+    "capacity": 30305
+  },
+  {
+    "qid": "Q662597",
+    "name": "Eintracht-Stadion",
+    "lat": 52.29,
+    "lon": 10.521389,
+    "capacity": 24406
+  },
+  {
+    "qid": "Q668094",
+    "name": "Sparta Stadion Het Kasteel",
+    "lat": 51.919444,
+    "lon": 4.433333,
+    "capacity": 11026
+  },
+  {
     "qid": "Q683112",
     "name": "Turf Moor",
     "lat": 53.789064,
     "lon": -2.230225,
     "capacity": 22546
+  },
+  {
+    "qid": "Q684301",
+    "name": "Trolli Arena",
+    "lat": 49.486944,
+    "lon": 10.999167,
+    "capacity": 18500
+  },
+  {
+    "qid": "Q684727",
+    "name": "Stadio Via del Mare",
+    "lat": 40.365278,
+    "lon": 18.208889,
+    "capacity": 31461
+  },
+  {
+    "qid": "Q685570",
+    "name": "Schauinsland-Reisen-Arena",
+    "lat": 51.409028,
+    "lon": 6.778639,
+    "capacity": 31500
   },
   {
     "qid": "Q695879",
@@ -343,11 +994,46 @@
     "capacity": 30778
   },
   {
+    "qid": "Q706435",
+    "name": "Bielefelder Alm",
+    "lat": 52.031389,
+    "lon": 8.516944,
+    "capacity": 27300
+  },
+  {
+    "qid": "Q720978",
+    "name": "WerkTalent Stadion",
+    "lat": 52.062778,
+    "lon": 4.383056,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q720983",
+    "name": "Stadion de Goffert",
+    "lat": 51.8225,
+    "lon": 5.836667,
+    "capacity": 12500
+  },
+  {
     "qid": "Q726370",
     "name": "Ashton Gate Stadium",
     "lat": 51.44,
     "lon": -2.620278,
     "capacity": 27000
+  },
+  {
+    "qid": "Q727389",
+    "name": "De Grolsch Veste",
+    "lat": 52.236666666,
+    "lon": 6.8375,
+    "capacity": 30000
+  },
+  {
+    "qid": "Q733194",
+    "name": "Complexo Desportivo do Sport Clube de Freamunde",
+    "lat": 41.27638889,
+    "lon": -8.33944444,
+    "capacity": 3919
   },
   {
     "qid": "Q735783",
@@ -357,11 +1043,60 @@
     "capacity": 23576
   },
   {
+    "qid": "Q737093",
+    "name": "Stadio Marcantonio Bentegodi",
+    "lat": 45.435356,
+    "lon": 10.968647,
+    "capacity": 31045
+  },
+  {
+    "qid": "Q738044",
+    "name": "Stadium Municipal",
+    "lat": 43.583296,
+    "lon": 1.434055,
+    "capacity": 33150
+  },
+  {
     "qid": "Q741157",
     "name": "Estadio de la Cerámica",
     "lat": 39.944167,
     "lon": -0.103611,
     "capacity": 24891
+  },
+  {
+    "qid": "Q749172",
+    "name": "Stadion An der Alten Försterei",
+    "lat": 52.457222,
+    "lon": 13.568056,
+    "capacity": 21704
+  },
+  {
+    "qid": "Q757182",
+    "name": "Stadio Renato Dall'Ara",
+    "lat": 44.4922,
+    "lon": 11.3098,
+    "capacity": 36462
+  },
+  {
+    "qid": "Q777926",
+    "name": "De Adelaarshorst",
+    "lat": 52.260278,
+    "lon": 6.1725,
+    "capacity": 6700
+  },
+  {
+    "qid": "Q780526",
+    "name": "Stadio Atleti Azzurri d'Italia",
+    "lat": 45.708889,
+    "lon": 9.680833,
+    "capacity": 24950
+  },
+  {
+    "qid": "Q815833",
+    "name": "Stade de la Mosson",
+    "lat": 43.62061,
+    "lon": 3.81279,
+    "capacity": 32900
   },
   {
     "qid": "Q819179",
@@ -378,6 +1113,13 @@
     "capacity": 34742
   },
   {
+    "qid": "Q832650",
+    "name": "Hardtwaldstadion",
+    "lat": 49.332083,
+    "lon": 8.647667,
+    "capacity": 12100
+  },
+  {
     "qid": "Q842077",
     "name": "Coventry Building Society Arena",
     "lat": 52.448056,
@@ -385,11 +1127,53 @@
     "capacity": 32609
   },
   {
+    "qid": "Q849239",
+    "name": "Estádio Municipal de Braga",
+    "lat": 41.5624,
+    "lon": -8.4308,
+    "capacity": 30286
+  },
+  {
+    "qid": "Q854122",
+    "name": "Stade Bollaert-Delelis",
+    "lat": 50.4329,
+    "lon": 2.81491,
+    "capacity": 38223
+  },
+  {
+    "qid": "Q861000",
+    "name": "Stade Geoffroy-Guichard",
+    "lat": 45.460749,
+    "lon": 4.390171,
+    "capacity": 41965
+  },
+  {
     "qid": "Q867902",
     "name": "Cardiff City Stadium",
     "lat": 51.472778,
     "lon": -3.203056,
     "capacity": 33260
+  },
+  {
+    "qid": "Q872808",
+    "name": "Ostalb Arena",
+    "lat": 48.840556,
+    "lon": 10.072222,
+    "capacity": 13271
+  },
+  {
+    "qid": "Q872915",
+    "name": "Holstein-Stadion",
+    "lat": 54.349167,
+    "lon": 10.123611,
+    "capacity": 15034
+  },
+  {
+    "qid": "Q878622",
+    "name": "Stadion am Böllenfalltor",
+    "lat": 49.857778,
+    "lon": 8.672222,
+    "capacity": 19000
   },
   {
     "qid": "Q897533",
@@ -427,11 +1211,25 @@
     "capacity": 29371
   },
   {
+    "qid": "Q942073",
+    "name": "Mandemakers Stadion",
+    "lat": 51.686944,
+    "lon": 5.088611,
+    "capacity": 7500
+  },
+  {
     "qid": "Q953600",
     "name": "Estadio Manuel Martínez Valero",
     "lat": 38.266944,
     "lon": -0.663333,
     "capacity": 31388
+  },
+  {
+    "qid": "Q953663",
+    "name": "Kras Stadion",
+    "lat": 52.494444,
+    "lon": 5.066389,
+    "capacity": 6200
   },
   {
     "qid": "Q958319",
@@ -462,11 +1260,74 @@
     "capacity": 32392
   },
   {
+    "qid": "Q1028392",
+    "name": "Cambuur Stadion",
+    "lat": 53.205278,
+    "lon": 5.814722,
+    "capacity": 10500
+  },
+  {
+    "qid": "Q1031484",
+    "name": "Campo do Adelino Rodrigues",
+    "lat": 32.649333333,
+    "lon": -16.900361111,
+    "capacity": 2000
+  },
+  {
+    "qid": "Q1053455",
+    "name": "Stade de la Beaujoire",
+    "lat": 47.2561,
+    "lon": -1.52466,
+    "capacity": 35318
+  },
+  {
+    "qid": "Q1056864",
+    "name": "Estádio Dr. Magalhães Pessoa",
+    "lat": 39.748611111,
+    "lon": -8.813055555,
+    "capacity": 23888
+  },
+  {
+    "qid": "Q1057274",
+    "name": "Estádio D. Afonso Henriques",
+    "lat": 41.445833333,
+    "lon": -8.300972222,
+    "capacity": 30029
+  },
+  {
+    "qid": "Q1059142",
+    "name": "Stadio Nicola Ceravolo",
+    "lat": 38.919722,
+    "lon": 16.587778,
+    "capacity": 14650
+  },
+  {
     "qid": "Q1066373",
     "name": "Selhurst Park",
     "lat": 51.398333333,
     "lon": -0.085555555,
     "capacity": 26255
+  },
+  {
+    "qid": "Q1067235",
+    "name": "GelreDome",
+    "lat": 51.9625,
+    "lon": 5.893056,
+    "capacity": 41000
+  },
+  {
+    "qid": "Q1067308",
+    "name": "Estádio Cidade de Coimbra",
+    "lat": 40.203333333,
+    "lon": -8.407777777,
+    "capacity": 29622
+  },
+  {
+    "qid": "Q1121760",
+    "name": "Roazhon Park",
+    "lat": 48.10743,
+    "lon": -1.71282,
+    "capacity": 31127
   },
   {
     "qid": "Q1122715",
@@ -476,11 +1337,46 @@
     "capacity": 26354
   },
   {
+    "qid": "Q1128228",
+    "name": "Stade Francis Le Basser",
+    "lat": 48.08387,
+    "lon": -0.75351,
+    "capacity": 11107
+  },
+  {
+    "qid": "Q1128263",
+    "name": "Stade Gabriel Montpied",
+    "lat": 45.81584,
+    "lon": 3.12162,
+    "capacity": 11980
+  },
+  {
     "qid": "Q1130617",
     "name": "Estadio de los Juegos Mediterraneos",
     "lat": 36.84,
     "lon": -2.435278,
     "capacity": 22000
+  },
+  {
+    "qid": "Q1134861",
+    "name": "Stade Ange Casanova",
+    "lat": 41.95138,
+    "lon": 8.77204,
+    "capacity": 6000
+  },
+  {
+    "qid": "Q1139863",
+    "name": "M-Scores Stadion",
+    "lat": 51.8025,
+    "lon": 4.69,
+    "capacity": 4235
+  },
+  {
+    "qid": "Q1141104",
+    "name": "MAC³PARK stadion",
+    "lat": 52.517292,
+    "lon": 6.121911,
+    "capacity": 12500
   },
   {
     "qid": "Q1141958",
@@ -495,6 +1391,13 @@
     "lat": 45.740556,
     "lon": 21.244167,
     "capacity": 32972
+  },
+  {
+    "qid": "Q1167583",
+    "name": "Estádio Cidade de Barcelos",
+    "lat": 41.551111111,
+    "lon": -8.622777777,
+    "capacity": 12046
   },
   {
     "qid": "Q1202579",
@@ -518,11 +1421,81 @@
     "capacity": 23500
   },
   {
+    "qid": "Q1261440",
+    "name": "Stadio Druso",
+    "lat": 46.49234,
+    "lon": 11.345385,
+    "capacity": 5500
+  },
+  {
+    "qid": "Q1272724",
+    "name": "Estádio do Marítimo",
+    "lat": 32.645561,
+    "lon": -16.928331,
+    "capacity": 10600
+  },
+  {
+    "qid": "Q1293399",
+    "name": "Estádio Municipal 22 de Junho",
+    "lat": 41.40127778,
+    "lon": -8.52242222,
+    "capacity": 5186
+  },
+  {
+    "qid": "Q1308776",
+    "name": "Estádio Municipal de Portimão",
+    "lat": 37.135694,
+    "lon": -8.539833,
+    "capacity": 4961
+  },
+  {
+    "qid": "Q1320249",
+    "name": "Stade de Paris",
+    "lat": 48.9061,
+    "lon": 2.34105,
+    "capacity": 8000
+  },
+  {
+    "qid": "Q1320629",
+    "name": "Heesen Yachts Stadion",
+    "lat": 51.755,
+    "lon": 5.528056,
+    "capacity": 4560
+  },
+  {
     "qid": "Q1326578",
     "name": "Abanca Balaídos Stadium",
     "lat": 42.211861,
     "lon": -8.740328,
     "capacity": 24870
+  },
+  {
+    "qid": "Q1327324",
+    "name": "Estádio Nacional",
+    "lat": 38.708806,
+    "lon": -9.260833,
+    "capacity": 37593
+  },
+  {
+    "qid": "Q1341607",
+    "name": "Stade Marcel Picot",
+    "lat": 48.696,
+    "lon": 6.21222,
+    "capacity": 20087
+  },
+  {
+    "qid": "Q1341629",
+    "name": "Stade Auguste Bonal",
+    "lat": 47.51238,
+    "lon": 6.81116,
+    "capacity": 20025
+  },
+  {
+    "qid": "Q1347183",
+    "name": "Stade de l'Abbé-Deschamps",
+    "lat": 47.78672,
+    "lon": 3.58871,
+    "capacity": 18541
   },
   {
     "qid": "Q1369118",
@@ -574,11 +1547,88 @@
     "capacity": 30500
   },
   {
+    "qid": "Q1369675",
+    "name": "Estádio do Fontelo",
+    "lat": 40.65944444,
+    "lon": -7.90083333,
+    "capacity": 6912
+  },
+  {
     "qid": "Q1369687",
     "name": "Metropolitano Stadium",
     "lat": 40.436111,
     "lon": -3.599444,
     "capacity": 70813
+  },
+  {
+    "qid": "Q1370647",
+    "name": "Estádio António Coimbra da Mota",
+    "lat": 38.716,
+    "lon": -9.406,
+    "capacity": 5094
+  },
+  {
+    "qid": "Q1370693",
+    "name": "Estádio Marcolino de Castro",
+    "lat": 40.926689,
+    "lon": -8.545814,
+    "capacity": 5401
+  },
+  {
+    "qid": "Q1370706",
+    "name": "Estádio Municipal de Arouca",
+    "lat": 40.92833333,
+    "lon": -8.24861111,
+    "capacity": 5600
+  },
+  {
+    "qid": "Q1370708",
+    "name": "Estádio Municipal José Bento Pessoa",
+    "lat": 40.162675,
+    "lon": -8.859369,
+    "capacity": 9000
+  },
+  {
+    "qid": "Q1370763",
+    "name": "Estádio Capital do Móvel",
+    "lat": 41.271388888,
+    "lon": -8.385277777,
+    "capacity": 9076
+  },
+  {
+    "qid": "Q1370765",
+    "name": "Estádio da Madeira",
+    "lat": 32.670625,
+    "lon": -16.883525,
+    "capacity": 5200
+  },
+  {
+    "qid": "Q1370770",
+    "name": "Estádio da Tapadinha",
+    "lat": 38.70965278,
+    "lon": -9.18087778,
+    "capacity": 4000
+  },
+  {
+    "qid": "Q1370792",
+    "name": "Estádio do Mar",
+    "lat": 41.18388889,
+    "lon": -8.66694444,
+    "capacity": 6000
+  },
+  {
+    "qid": "Q1370811",
+    "name": "Estádio do Restelo",
+    "lat": 38.702778,
+    "lon": -9.207778,
+    "capacity": 19856
+  },
+  {
+    "qid": "Q1374804",
+    "name": "Euroborg",
+    "lat": 53.206111111,
+    "lon": 6.591388888,
+    "capacity": 22550
   },
   {
     "qid": "Q1409157",
@@ -588,11 +1638,130 @@
     "capacity": 30944
   },
   {
+    "qid": "Q1410402",
+    "name": "Pierre Mauroy Stadium",
+    "lat": 50.611962,
+    "lon": 3.130631,
+    "capacity": 50000
+  },
+  {
+    "qid": "Q1432517",
+    "name": "Stade Francis-Le Blé",
+    "lat": 48.40293,
+    "lon": -4.46148,
+    "capacity": 15097
+  },
+  {
+    "qid": "Q1434942",
+    "name": "Stade Armand Cesari",
+    "lat": 42.65196,
+    "lon": 9.44303,
+    "capacity": 16000
+  },
+  {
+    "qid": "Q1483409",
+    "name": "Stade Saint-Symphorien",
+    "lat": 49.109945,
+    "lon": 6.159532,
+    "capacity": 26671
+  },
+  {
+    "qid": "Q1538773",
+    "name": "Stadio Oreste Granillo",
+    "lat": 38.092778,
+    "lon": 15.635278,
+    "capacity": 27543
+  },
+  {
     "qid": "Q1546623",
     "name": "Griffin Park",
     "lat": 51.488167,
     "lon": -0.302639,
     "capacity": 14863
+  },
+  {
+    "qid": "Q1569166",
+    "name": "Stadio Città di Arezzo",
+    "lat": 43.451111,
+    "lon": 11.894444,
+    "capacity": 13128
+  },
+  {
+    "qid": "Q1569222",
+    "name": "Fortuna Sittard Stadion",
+    "lat": 50.991944,
+    "lon": 5.843611,
+    "capacity": 12500
+  },
+  {
+    "qid": "Q1671970",
+    "name": "Stadio Ciro Vigorito",
+    "lat": 41.116389,
+    "lon": 14.781111,
+    "capacity": 25000
+  },
+  {
+    "qid": "Q1675996",
+    "name": "Stadion Galgenwaard",
+    "lat": 52.078333333,
+    "lon": 5.145833333,
+    "capacity": 23750
+  },
+  {
+    "qid": "Q1807356",
+    "name": "Stade Michel Moretti",
+    "lat": 41.93157,
+    "lon": 8.77887,
+    "capacity": 10660
+  },
+  {
+    "qid": "Q1817621",
+    "name": "Stade de Roudourou",
+    "lat": 48.56516,
+    "lon": -3.16552,
+    "capacity": 18250
+  },
+  {
+    "qid": "Q1848312",
+    "name": "Stade Gaston Gérard",
+    "lat": 47.32616,
+    "lon": 5.06757,
+    "capacity": 15995
+  },
+  {
+    "qid": "Q1851616",
+    "name": "Stadio Brianteo",
+    "lat": 45.582778,
+    "lon": 9.308056,
+    "capacity": 17102
+  },
+  {
+    "qid": "Q1851894",
+    "name": "BUKO Stadion",
+    "lat": 52.455,
+    "lon": 4.635,
+    "capacity": 5200
+  },
+  {
+    "qid": "Q1855763",
+    "name": "De Vliert",
+    "lat": 51.701667,
+    "lon": 5.329722,
+    "capacity": 9000
+  },
+  {
+    "qid": "Q1862372",
+    "name": "stade Marie-Marvingt",
+    "lat": 47.95958,
+    "lon": 0.22129,
+    "capacity": 25000
+  },
+  {
+    "qid": "Q1887221",
+    "name": "Mapei Stadium - Città del Tricolore",
+    "lat": 44.714722,
+    "lon": 10.649722,
+    "capacity": 21525
   },
   {
     "qid": "Q1888199",
@@ -602,11 +1771,60 @@
     "capacity": 10020
   },
   {
+    "qid": "Q1958120",
+    "name": "De Herdgang",
+    "lat": 51.4608,
+    "lon": 5.4389,
+    "capacity": 2500
+  },
+  {
+    "qid": "Q2001732",
+    "name": "Stade de l'Aube",
+    "lat": 48.30616,
+    "lon": 4.0982,
+    "capacity": 20400
+  },
+  {
+    "qid": "Q2067371",
+    "name": "Stade de la Libération",
+    "lat": 50.7244,
+    "lon": 1.61907,
+    "capacity": 6600
+  },
+  {
+    "qid": "Q2093331",
+    "name": "De Oude Meerdijk",
+    "lat": 52.774722,
+    "lon": 6.945556,
+    "capacity": 8600
+  },
+  {
     "qid": "Q2097709",
     "name": "Montilivi Stadium",
     "lat": 41.961389,
     "lon": 2.828611,
     "capacity": 14624
+  },
+  {
+    "qid": "Q2132300",
+    "name": "Rat Verlegh Stadion",
+    "lat": 51.595556,
+    "lon": 4.750278,
+    "capacity": 19000
+  },
+  {
+    "qid": "Q2200744",
+    "name": "Sportpark De Toekomst",
+    "lat": 52.313522,
+    "lon": 4.928914,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q2262017",
+    "name": "De Koel",
+    "lat": 51.351944,
+    "lon": 6.179722,
+    "capacity": 7500
   },
   {
     "qid": "Q2262973",
@@ -616,11 +1834,53 @@
     "capacity": 11390
   },
   {
+    "qid": "Q2298028",
+    "name": "Stadio Partenio-Adriano Lombardi",
+    "lat": 40.926944,
+    "lon": 14.7925,
+    "capacity": 10125
+  },
+  {
+    "qid": "Q2298643",
+    "name": "Stadion Woudestein",
+    "lat": 51.916944,
+    "lon": 4.520556,
+    "capacity": 3531
+  },
+  {
+    "qid": "Q2299298",
+    "name": "Stade des Alpes",
+    "lat": 45.187474,
+    "lon": 5.740194,
+    "capacity": 20068
+  },
+  {
+    "qid": "Q2299919",
+    "name": "Stade du Hainaut",
+    "lat": 50.34851,
+    "lon": 3.53178,
+    "capacity": 25000
+  },
+  {
     "qid": "Q2301915",
     "name": "Estadio Nuevo Mirandilla",
     "lat": 36.502778,
     "lon": -6.273056,
     "capacity": 26000
+  },
+  {
+    "qid": "Q2325881",
+    "name": "Stade Marcel Tribut",
+    "lat": 51.03555556,
+    "lon": 2.39027778,
+    "capacity": 4200
+  },
+  {
+    "qid": "Q2325894",
+    "name": "Stade Paul-Lignon",
+    "lat": 44.35161,
+    "lon": 2.56376,
+    "capacity": 6761
   },
   {
     "qid": "Q2607402",
@@ -630,11 +1890,32 @@
     "capacity": 5123
   },
   {
+    "qid": "Q3059095",
+    "name": "Estádio José Gomes",
+    "lat": 38.752036,
+    "lon": -9.227967,
+    "capacity": 9288
+  },
+  {
+    "qid": "Q3059098",
+    "name": "Estádio de São Miguel",
+    "lat": 41.135955555,
+    "lon": -8.541758333,
+    "capacity": 2450
+  },
+  {
     "qid": "Q3121017",
     "name": "Stadionul Oțelul",
     "lat": 45.430236,
     "lon": 28.022378,
     "capacity": 13500
+  },
+  {
+    "qid": "Q3264211",
+    "name": "Sportcomplex Zoudenbalch",
+    "lat": 52.075833,
+    "lon": 5.146111,
+    "capacity": 450
   },
   {
     "qid": "Q3274884",
@@ -665,11 +1946,95 @@
     "capacity": 11669
   },
   {
+    "qid": "Q3330886",
+    "name": "Complexo Desportivo da Covilhã",
+    "lat": 40.264889,
+    "lon": -7.497869,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q3446875",
+    "name": "Estádio do Clube Desportivo Trofense",
+    "lat": 41.332833,
+    "lon": -8.564367,
+    "capacity": 5017
+  },
+  {
+    "qid": "Q3496024",
+    "name": "Stade Raoul-Barrière",
+    "lat": 43.33633,
+    "lon": 3.26658,
+    "capacity": 18555
+  },
+  {
+    "qid": "Q3496035",
+    "name": "Stade de la Source",
+    "lat": 47.84069,
+    "lon": 1.94169,
+    "capacity": 6863
+  },
+  {
+    "qid": "Q3514314",
+    "name": "Estádio do Futebol Clube de Vizela",
+    "lat": 41.38872222,
+    "lon": -8.30751111,
+    "capacity": 6000
+  },
+  {
+    "qid": "Q3514858",
+    "name": "Estádio de São Miguel",
+    "lat": 37.763708,
+    "lon": -25.622589,
+    "capacity": 12500
+  },
+  {
+    "qid": "Q3967768",
+    "name": "Stadio Comunale (Chiavari)",
+    "lat": 44.3156,
+    "lon": 9.33732,
+    "capacity": 5587
+  },
+  {
+    "qid": "Q3967882",
+    "name": "Stadio San Vito",
+    "lat": 39.31,
+    "lon": 16.2308,
+    "capacity": 20987
+  },
+  {
     "qid": "Q4684229",
     "name": "Stadionul Municipal",
     "lat": 47.7483,
     "lon": 26.6519,
     "capacity": 12000
+  },
+  {
+    "qid": "Q5028447",
+    "name": "Estádio Manuel Marques",
+    "lat": 39.09487778,
+    "lon": -9.25659444,
+    "capacity": 2431
+  },
+  {
+    "qid": "Q5401985",
+    "name": "Estádio Carlos Osório",
+    "lat": 40.8419,
+    "lon": -8.4703,
+    "capacity": 1750
+  },
+  {
+    "qid": "Q5402128",
+    "name": "Estádio Municipal Eng. Manuel Branco Teixeira",
+    "lat": 41.75064,
+    "lon": -7.464985,
+    "capacity": 8400
+  },
+  {
+    "qid": "Q5402247",
+    "name": "Estádio do Varzim Sport Club",
+    "lat": 41.38783611,
+    "lon": -8.772575,
+    "capacity": 7280
   },
   {
     "qid": "Q6083752",
@@ -739,11 +2104,25 @@
     "capacity": 15000
   },
   {
+    "qid": "Q7875112",
+    "name": "Estádio da Luz",
+    "lat": 38.752777777,
+    "lon": -9.184722222,
+    "capacity": 68100
+  },
+  {
     "qid": "Q9008639",
     "name": "Lezama Facilities",
     "lat": 43.2775,
     "lon": -2.83932,
     "capacity": 3250
+  },
+  {
+    "qid": "Q10277320",
+    "name": "Estádio Municipal de Fátima",
+    "lat": 39.603509016,
+    "lon": -8.66327242,
+    "capacity": 1545
   },
   {
     "qid": "Q13580789",
@@ -757,6 +2136,13 @@
     "lat": 45.746111111,
     "lon": 21.228333333,
     "capacity": 1000
+  },
+  {
+    "qid": "Q16632396",
+    "name": "Estádio João Cardoso",
+    "lat": 40.512,
+    "lon": -8.08282,
+    "capacity": 5000
   },
   {
     "qid": "Q18125598",
@@ -804,6 +2190,20 @@
     "capacity": 52769
   },
   {
+    "qid": "Q29655396",
+    "name": "Benito Stirpe Stadium",
+    "lat": 41.63426,
+    "lon": 13.321866,
+    "capacity": 16227
+  },
+  {
+    "qid": "Q30880646",
+    "name": "Unipol Domus",
+    "lat": 39.199694444,
+    "lon": 9.137416666,
+    "capacity": 16416
+  },
+  {
     "qid": "Q39047118",
     "name": "Stadionul Cornel Negoescu",
     "lat": 45.14472222,
@@ -818,11 +2218,37 @@
     "capacity": 62850
   },
   {
+    "qid": "Q63975205",
+    "name": "Nouste Camp",
+    "lat": 43.307676531,
+    "lon": -0.325233941
+  },
+  {
+    "qid": "Q64586775",
+    "name": "Europa-Park-Stadion",
+    "lat": 48.021536,
+    "lon": 7.830006,
+    "capacity": 34700
+  },
+  {
     "qid": "Q97889239",
     "name": "Stadionul Rapid-Giulești",
     "lat": 44.455888888,
     "lon": 26.056805555,
     "capacity": 14000
+  },
+  {
+    "qid": "Q99194551",
+    "name": "Stadio Guido Teghil",
+    "lat": 45.675319,
+    "lon": 13.09953
+  },
+  {
+    "qid": "Q132997935",
+    "name": "MySteel Stadion",
+    "lat": 51.487363,
+    "lon": 5.679116,
+    "capacity": 3600
   },
   {
     "qid": "Q135682568",

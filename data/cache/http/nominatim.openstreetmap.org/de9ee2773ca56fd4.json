@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.763708&lon=-25.622589&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":284549783,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":727331117,\"lat\":\"37.7637711\",\"lon\":\"-25.6226357\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0045014114549744e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Estrada Regional da Ribeira Grande, Rosto do Cão (São Roque), Ponta Delgada, Açores, 9500-719, Portugal\",\"address\":{\"road\":\"Estrada Regional da Ribeira Grande\",\"city_district\":\"Rosto do Cão (São Roque)\",\"city\":\"Ponta Delgada\",\"archipelago\":\"Açores\",\"ISO3166-2-lvl4\":\"PT-20\",\"postcode\":\"9500-719\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"37.7632605\",\"37.7642816\",\"-25.6230997\",\"-25.6221718\"]}",
+  "fetchedAt": "2026-10-12T16:51:14.683Z"
+}

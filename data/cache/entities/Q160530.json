@@ -1,0 +1,74 @@
+{
+  "fetchedAt": "2026-10-12T16:43:42.922Z",
+  "version": 2,
+  "entity": {
+    "id": "Q160530",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "VfL Osnabrück (1930er Jahre Kurmark).svg"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "VfL Osnabrueck logo 1976–1977.svg"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "VfL Osnabrueck Logo 2017–2021.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "1ab4607250ac7a0c1a2f1b93c25e4bff9e147330",
+                "datavalue": {
+                  "value": {
+                    "time": "+2021-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "preferred",
+          "mainsnak": {
+            "datavalue": {
+              "value": "VfL Osnabrueck Logo 2021–.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "VfL Osnabrück"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "VfL Osnabrück"
+      }
+    }
+  }
+}

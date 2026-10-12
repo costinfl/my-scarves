@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.595556&lon=4.750278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":109672171,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2737934174,\"lat\":\"51.5954257\",\"lon\":\"4.7508966\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":6.572137026012081e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"23, Stadionstraat, Breda, Noord-Brabant, Nederland, 4815 NC, Nederland\",\"address\":{\"house_number\":\"23\",\"road\":\"Stadionstraat\",\"city\":\"Breda\",\"municipality\":\"Breda\",\"state\":\"Noord-Brabant\",\"ISO3166-2-lvl4\":\"NL-NB\",\"country\":\"Nederland\",\"postcode\":\"4815 NC\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.5953757\",\"51.5954757\",\"4.7508466\",\"4.7509466\"]}",
+  "fetchedAt": "2026-10-12T16:50:53.228Z"
+}

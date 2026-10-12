@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T16:43:41.874Z",
+  "version": 2,
+  "entity": {
+    "id": "Q105844",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Arminia Bielefeld Logo 2021–.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Arminia Bielefeld"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Arminia Bielefeld"
+      }
+    }
+  }
+}

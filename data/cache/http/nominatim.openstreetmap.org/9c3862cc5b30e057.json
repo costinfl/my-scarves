@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.407277&lon=5.049350&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":82636568,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1767565354,\"lat\":\"43.4072484\",\"lon\":\"5.0495308\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":0.36615672375168384,\"addresstype\":\"leisure\",\"name\":\"Stade Francis Turcan\",\"display_name\":\"Stade Francis Turcan, Chemin de Paradis, Martigues, Istres, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13500, France\",\"address\":{\"leisure\":\"Stade Francis Turcan\",\"road\":\"Chemin de Paradis\",\"town\":\"Martigues\",\"municipality\":\"Istres\",\"county\":\"Bouches-du-Rhône\",\"ISO3166-2-lvl6\":\"FR-13\",\"state\":\"Provence-Alpes-Côte d'Azur\",\"ISO3166-2-lvl4\":\"FR-PAC\",\"region\":\"France métropolitaine\",\"postcode\":\"13500\",\"country\":\"France\",\"country_code\":\"fr\"},\"boundingbox\":[\"43.4071984\",\"43.4072984\",\"5.0494808\",\"5.0495808\"]}",
+  "fetchedAt": "2026-10-12T16:48:18.768Z"
+}

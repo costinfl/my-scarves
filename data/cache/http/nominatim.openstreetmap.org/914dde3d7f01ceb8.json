@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.933889&lon=12.454722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":81311390,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":667711166,\"lat\":\"41.9337916\",\"lon\":\"12.4548240\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.896238651097914e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"2, Municipio Roma XV, Roma, Roma Capitale, Lazio, 00194, Italia\",\"address\":{\"road\":\"2\",\"suburb\":\"Municipio Roma XV\",\"city\":\"Roma\",\"county\":\"Roma Capitale\",\"ISO3166-2-lvl6\":\"IT-RM\",\"state\":\"Lazio\",\"ISO3166-2-lvl4\":\"IT-62\",\"postcode\":\"00194\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"41.9334122\",\"41.9344788\",\"12.4542144\",\"12.4553270\"]}",
+  "fetchedAt": "2026-10-12T16:49:48.223Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.351944&lon=6.179722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":112731414,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":111844401,\"lat\":\"51.3519256\",\"lon\":\"6.1797585\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.1711299305669e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Karel V-laan, Hagerhof, Venlo, Limburg, Nederland, 5915 ZB, Nederland\",\"address\":{\"road\":\"Karel V-laan\",\"quarter\":\"Hagerhof\",\"city\":\"Venlo\",\"municipality\":\"Venlo\",\"state\":\"Limburg\",\"ISO3166-2-lvl4\":\"NL-LI\",\"country\":\"Nederland\",\"postcode\":\"5915 ZB\",\"country_code\":\"nl\"},\"boundingbox\":[\"51.3513704\",\"51.3524807\",\"6.1790031\",\"6.1805140\"]}",
+  "fetchedAt": "2026-10-12T16:51:05.074Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.271389&lon=-8.385278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286449576,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":150607012,\"lat\":\"41.2714010\",\"lon\":\"-8.3852738\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.578316929880243e-05,\"addresstype\":\"leisure\",\"name\":\"Futebol Clube Paços de Ferreira\",\"display_name\":\"Futebol Clube Paços de Ferreira, Rua do Estádio, Ponte Real, Paços de Ferreira, Porto, 4595-158, Portugal\",\"address\":{\"leisure\":\"Futebol Clube Paços de Ferreira\",\"road\":\"Rua do Estádio\",\"neighbourhood\":\"Ponte Real\",\"city\":\"Paços de Ferreira\",\"municipality\":\"Paços de Ferreira\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4595-158\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.2710254\",\"41.2717741\",\"-8.3859845\",\"-8.3845473\"]}",
+  "fetchedAt": "2026-10-12T16:51:23.903Z"
+}

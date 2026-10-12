@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.492200&lon=11.309800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":78310342,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":79824333,\"lat\":\"44.4922993\",\"lon\":\"11.3099588\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.805828946359988e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via dello Sport, Meloncello, Saragozza, Porto-Saragozza, Bologna, Emilia-Romagna, 40135, Italia\",\"address\":{\"road\":\"Via dello Sport\",\"neighbourhood\":\"Meloncello\",\"suburb\":\"Saragozza\",\"city\":\"Bologna\",\"county\":\"Bologna\",\"ISO3166-2-lvl6\":\"IT-BO\",\"state\":\"Emilia-Romagna\",\"ISO3166-2-lvl4\":\"IT-45\",\"postcode\":\"40135\",\"country\":\"Italia\",\"country_code\":\"it\"},\"boundingbox\":[\"44.4917972\",\"44.4927987\",\"11.3094630\",\"11.3104538\"]}",
+  "fetchedAt": "2026-10-12T16:49:53.828Z"
+}
