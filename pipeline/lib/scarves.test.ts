@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import sharp from 'sharp';
 import { afterAll, describe, expect, it } from 'vitest';
 import { dirSize, savePhoto } from './photos.ts';
-import { findClubs, nextScarfId, parsePrice, slug, thumbOf } from './scarves.ts';
+import { findClubs, nextScarfId, parsePrice, slug, thumbOf, checkScarfInput, makeScarf } from './scarves.ts';
 import type { Club } from './types.ts';
 
 const club = (qid: string, name: string): Club => ({ qid, name, association: 'ROU', leagues: [], stadiumIds: [] });
@@ -61,5 +61,27 @@ describe('savePhoto', () => {
     await sharp({ create: { width: 300, height: 200, channels: 3, background: '#fff' } }).jpeg().toFile(input);
     const rel = await savePhoto(input, join(dir, 'photos'), 'small-1', 1);
     expect((await sharp(join(dir, 'photos', rel)).metadata()).width).toBe(300);
+  });
+});
+
+describe('checkScarfInput and makeScarf', () => {
+  it('rejects bad values with a message', () => {
+    expect(checkScarfInput({ status: 'sold' })).toMatch(/Status/);
+    expect(checkScarfInput({ type: 'scarf' })).toMatch(/Type/);
+    expect(checkScarfInput({ date: '12.05.2024' })).toMatch(/Date/);
+    expect(checkScarfInput({ price: 'fifty' })).toMatch(/Price/);
+    expect(checkScarfInput({ status: '', type: '', date: '2024-05', price: '50 ron' })).toBeUndefined();
+  });
+
+  it('builds the entry, leaving out empty fields and defaulting to owned', () => {
+    expect(makeScarf('rapid-1', 'Q245162', { type: '', date: '2024-05-12', place: ' Giulești ', price: '50 ron', notes: '' }, ['rapid-1/1.jpg'])).toEqual({
+      id: 'rapid-1',
+      clubQid: 'Q245162',
+      status: 'owned',
+      acquired: { date: '2024-05-12', place: 'Giulești' },
+      price: { amount: 50, currency: 'RON' },
+      photos: ['rapid-1/1.jpg'],
+    });
+    expect(makeScarf('x-1', 'Q1', { status: 'wishlist' }, [])).toEqual({ id: 'x-1', clubQid: 'Q1', status: 'wishlist' });
   });
 });

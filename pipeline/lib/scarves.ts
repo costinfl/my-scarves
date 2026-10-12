@@ -46,3 +46,45 @@ export function parsePrice(s: string): { amount: number; currency: string } | un
 
 /** Thumbnail path for a photo path: "x-1/1.jpg" -> "x-1/1.thumb.jpg". */
 export const thumbOf = (photo: string) => photo.replace(/\.jpg$/, '.thumb.jpg');
+
+/** Photo sizes (longest side, px), shared by the CLI (sharp) and the site's add-scarf form (canvas). */
+export const PHOTO_SIZE = 1600;
+export const THUMB_SIZE = 400;
+
+/** The scarf fields as typed by me, in the CLI or the site form. Empty strings count as not given. */
+export interface ScarfInput {
+  status?: string;
+  type?: string;
+  date?: string;
+  place?: string;
+  price?: string;
+  condition?: string;
+  notes?: string;
+}
+
+/** Checks the input and returns an error message, or undefined when it is valid. */
+export function checkScarfInput(input: ScarfInput): string | undefined {
+  const t = (s?: string) => s?.trim() ?? '';
+  if (t(input.status) && !(STATUSES as readonly string[]).includes(t(input.status))) return `Status must be one of ${STATUSES.join(', ')}`;
+  if (t(input.type) && !(TYPES as readonly string[]).includes(t(input.type))) return `Type must be one of ${TYPES.join(', ')}`;
+  if (t(input.date) && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(t(input.date))) return 'Date must look like 2024, 2024-05 or 2024-05-12';
+  if (t(input.price) && !parsePrice(t(input.price))) return 'Price must look like "50 RON" or "49.90 EUR"';
+  return undefined;
+}
+
+/** Builds the scarves.json entry from checked input; status defaults to owned. */
+export function makeScarf(id: string, clubQid: string, input: ScarfInput, photos: string[]): Scarf {
+  const t = (s?: string) => s?.trim() || undefined;
+  const [date, place, price] = [t(input.date), t(input.place), t(input.price)];
+  return {
+    id,
+    clubQid,
+    status: (t(input.status) ?? 'owned') as Scarf['status'],
+    ...(t(input.type) ? { type: t(input.type) as Scarf['type'] } : {}),
+    ...(date || place ? { acquired: { ...(date ? { date } : {}), ...(place ? { place } : {}) } } : {}),
+    ...(price ? { price: parsePrice(price)! } : {}),
+    ...(t(input.condition) ? { condition: t(input.condition)! } : {}),
+    ...(t(input.notes) ? { notes: t(input.notes)! } : {}),
+    ...(photos.length ? { photos } : {}),
+  };
+}

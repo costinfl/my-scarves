@@ -1,10 +1,13 @@
 import './style.css';
+import type { Scarf } from '../../pipeline/lib/types.ts';
 import { FILTERS, loadStore, type Filter, type Store } from './data.ts';
 import { html } from './html.ts';
 import { href, parseRoute, type Route } from './router.ts';
 import { buildSearch } from './search.ts';
 import { collectEdit, editorView, mountEditor } from './editor.ts';
-import { checkAccess, DEFAULT_REPO, GitHubError, loadConfig, saveConfig, updateFile } from './github.ts';
+import { checkAccess, commitFiles, createBlob, DEFAULT_REPO, GitHubError, loadConfig, saveConfig, updateFile } from './github.ts';
+import { checkScarfInput, makeScarf, PHOTO_SIZE, THUMB_SIZE, thumbOf } from '../../pipeline/lib/scarves.ts';
+import { appendScarf, photoPaths, PHOTOS_DIR, previewPhotos, readScarfForm, resizeToJpeg, scarfFormView, scarfIdFor, SCARVES_PATH } from './scarf-form.ts';
 import { applyEdit, OVERRIDES_PATH, type Edit } from './overrides.ts';
 import {
   associationView,
@@ -85,6 +88,9 @@ async function main() {
     if (form.id === 'editor') {
       e.preventDefault();
       void saveEdit(store, form);
+    } else if (form.id === 'scarf-form') {
+      e.preventDefault();
+      void saveScarf(store, form);
     } else if (form.id === 'token-form') {
       e.preventDefault();
       void saveToken(form).then((ok) => ok && render());
@@ -97,7 +103,9 @@ async function main() {
     status('Token removed from this browser.');
   });
   app.addEventListener('change', (e) => {
-    if ((e.target as HTMLElement).id === 'only-owned') {
+    const target = e.target as HTMLInputElement;
+    if (target.name === 'photos' && target.form?.id === 'scarf-form') previewPhotos(target, app.querySelector('#photo-preview')!);
+    if (target.id === 'only-owned') {
       onlyOwned = (e.target as HTMLInputElement).checked;
       render();
     }
@@ -136,6 +144,8 @@ function view(store: Store, route: Route, search: (q: string) => ReturnType<Retu
       return clubView(store, route.qid, !!loadConfig());
     case 'edit':
       return editView(store, route.qid, (c) => editorView(c), !!loadConfig());
+    case 'addScarf':
+      return editView(store, route.qid, scarfFormView, !!loadConfig(), 'Add a scarf');
     case 'settings':
       return settingsView(loadConfig(), { repo: DEFAULT_REPO });
     case 'map':
@@ -161,7 +171,7 @@ async function saveToken(form: HTMLFormElement): Promise<boolean> {
   try {
     const repo = await checkAccess(config);
     saveConfig(config);
-    notice = `Saved. Club pages now have an Edit link; edits are committed to ${repo}.`;
+    notice = `Saved. Club pages now have Edit and Add a scarf links; changes are committed to ${repo}.`;
     return true;
   } catch (e) {
     // Keep the form as typed; only report.
@@ -190,6 +200,61 @@ async function saveEdit(store: Store, form: HTMLFormElement): Promise<void> {
     location.hash = href.club(club.qid);
   } catch (e) {
     // Keep the form as edited so nothing is lost; only report.
+    button.disabled = false;
+    status(
+      e instanceof GitHubError && e.status === 401
+        ? 'GitHub rejected the token (expired or revoked). Set a new one in Settings.'
+        : `Not saved: ${e instanceof Error ? e.message : String(e)}`,
+    );
+  }
+}
+
+/** Resizes the photos, then commits them with the new scarves.json entry in one commit. */
+async function saveScarf(store: Store, form: HTMLFormElement): Promise<void> {
+  const config = loadConfig();
+  const club = store.club.get(form.dataset.qid!);
+  if (!config || !club) return;
+  const { input, files } = readScarfForm(form);
+  const invalid = checkScarfInput(input);
+  if (invalid) {
+    status(invalid);
+    return;
+  }
+  const button = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+  button.disabled = true;
+  try {
+    // Blobs don't depend on the scarf id, so they are uploaded once even if the commit is retried.
+    const blobs: { full: string; thumb: string }[] = [];
+    for (const [i, file] of files.entries()) {
+      status(`Resizing and uploading photo ${i + 1} of ${files.length}…`);
+      let full: Uint8Array, thumb: Uint8Array;
+      try {
+        [full, thumb] = [await resizeToJpeg(file, PHOTO_SIZE, 0.82), await resizeToJpeg(file, THUMB_SIZE, 0.75)];
+      } catch {
+        throw new Error(`this browser cannot read ${file.name}; save it as JPEG or PNG and try again`);
+      }
+      blobs.push({ full: await createBlob(config, full), thumb: await createBlob(config, thumb) });
+    }
+    status('Saving…');
+    let scarf: Scarf | undefined;
+    await commitFiles(config, `Add scarf: ${club.name} (${club.qid}), ${input.status || 'owned'}`, async (read) => {
+      const text = await read(SCARVES_PATH);
+      const id = scarfIdFor(club, text);
+      const paths = photoPaths(id, blobs.length);
+      scarf = makeScarf(id, club.qid, input, paths);
+      return [
+        ...paths.flatMap((p, i) => [
+          { path: `${PHOTOS_DIR}/${p}`, blobSha: blobs[i]!.full },
+          { path: `${PHOTOS_DIR}/${thumbOf(p)}`, blobSha: blobs[i]!.thumb },
+        ]),
+        { path: SCARVES_PATH, text: appendScarf(text, scarf) },
+      ];
+    });
+    // Shown right away without photos: those are served only after the redeploy.
+    if (scarf) club.scarves.push({ ...scarf, photos: undefined });
+    notice = `Added. The site rebuilds in a couple of minutes; reload then to see ${files.length ? 'the photos' : 'it everywhere'}.`;
+    location.hash = href.club(club.qid);
+  } catch (e) {
     button.disabled = false;
     status(
       e instanceof GitHubError && e.status === 401

@@ -13,7 +13,7 @@ import { parseArgs } from 'node:util';
 import { readJson, writeJson } from './lib/json.ts';
 import { paths } from './lib/paths.ts';
 import { dirSize, savePhoto } from './lib/photos.ts';
-import { findClubs, nextScarfId, parsePrice, STATUSES, TYPES } from './lib/scarves.ts';
+import { checkScarfInput, findClubs, makeScarf, nextScarfId, type ScarfInput } from './lib/scarves.ts';
 import type { Club, Scarf } from './lib/types.ts';
 
 const PHOTO_BUDGET_MB = 300;
@@ -69,13 +69,14 @@ while (!club) {
   }
 }
 
-// Status and type
-const status = (opts.status ?? (interactive && !opts.club ? (await ask('Status [owned]/wishlist: ')) : '')) || 'owned';
-if (!(STATUSES as readonly string[]).includes(status)) fail(`--status must be one of ${STATUSES.join(', ')}`);
-if (opts.type && !(TYPES as readonly string[]).includes(opts.type)) fail(`--type must be one of ${TYPES.join(', ')}`);
-if (opts.date && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(opts.date)) fail('--date must look like 2024, 2024-05 or 2024-05-12');
-const price = opts.price === undefined ? undefined : parsePrice(opts.price);
-if (opts.price !== undefined && !price) fail('--price must look like "50 RON" or "49.90 EUR"');
+// Status and the other fields
+const { type, date, place, price, condition, notes } = opts;
+const input: ScarfInput = {
+  type, date, place, price, condition, notes,
+  status: opts.status ?? (interactive && !opts.club ? await ask('Status [owned]/wishlist: ') : undefined),
+};
+const invalid = checkScarfInput(input);
+if (invalid) fail(invalid);
 
 // Photos: check every file before writing anything.
 const photoInputs = opts.photo.map(expandHome);
@@ -100,17 +101,7 @@ try {
   fail(`Could not process photo: ${e instanceof Error ? e.message : String(e)}`);
 }
 
-const scarf: Scarf = {
-  id,
-  clubQid: club.qid,
-  status: status as Scarf['status'],
-  ...(opts.type ? { type: opts.type as Scarf['type'] } : {}),
-  ...(opts.date || opts.place ? { acquired: { ...(opts.date ? { date: opts.date } : {}), ...(opts.place ? { place: opts.place } : {}) } } : {}),
-  ...(price ? { price } : {}),
-  ...(opts.condition ? { condition: opts.condition } : {}),
-  ...(opts.notes ? { notes: opts.notes } : {}),
-  ...(photos.length ? { photos } : {}),
-};
+const scarf = makeScarf(id, club.qid, input, photos);
 writeJson(paths.scarves, [...scarves, scarf]);
 
 console.log(`Added ${scarf.id}: ${club.name}, ${scarf.status}, ${photos.length} photo(s).`);

@@ -316,6 +316,14 @@ footer {
   background: var(--card);
   color: var(--fg);
 }
+.editor select {
+  padding: 0.3rem 0.4rem;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--fg);
+}
 .editor .row input[type='text'],
 .editor .row input[type='password'] {
   flex: 1 1 14rem;

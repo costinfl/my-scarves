@@ -187,7 +187,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
       <div>
         <h1>${c.name} ${badge(c)}</h1>
         <p class="muted">${l.name} · ${a.name}${c.home && ` · from ${store.association.get(c.home)?.name ?? c.home}`}${!c.current && ' · not in tier 1 or 2 this season'}
-          ${canEdit && html` · <a href="${href.edit(c.qid)}">Edit</a>`}</p>
+          ${canEdit && html` · <a href="${href.edit(c.qid)}">Edit</a> · <a href="${href.addScarf(c.qid)}">Add a scarf</a>`}</p>
       </div>
     </header>
     ${c.colors &&
@@ -200,7 +200,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
     <section>
       <h2>My scarves</h2>
       ${c.scarves.length === 0
-        ? html`<p class="muted">No scarf yet.</p>`
+        ? html`<p class="muted">No scarf yet.${canEdit && html` <a href="${href.addScarf(c.qid)}">Add one</a>.`}</p>`
         : html`<ul class="scarves">${c.scarves.map(scarfDetails)}</ul>`}
     </section>
 
@@ -305,13 +305,13 @@ export function mapView(store: Store, onlyOwned: boolean): Html {
   `;
 }
 
-export function editView(store: Store, qid: string, editor: (c: CatalogClub) => Html, canEdit: boolean): Html {
+export function editView(store: Store, qid: string, editor: (c: CatalogClub) => Html, canEdit: boolean, title = 'Edit'): Html {
   const c = store.club.get(qid);
   const a = c && store.association.get(c.association);
   if (!c || !a) return notFoundView();
   return html`
-    ${crumbs([a.name, href.association(a.code)], [c.name, href.club(c.qid)], ['Edit'])}
-    <h1>Edit ${c.name}</h1>
+    ${crumbs([a.name, href.association(a.code)], [c.name, href.club(c.qid)], [title])}
+    <h1>${title}: ${c.name}</h1>
     ${canEdit ? editor(c) : html`<p>Editing needs a GitHub token. <a href="${href.settings()}">Set it up in Settings</a>.</p>`}
   `;
 }
