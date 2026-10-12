@@ -16,7 +16,7 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | SCO Scotland | 19 | 22 | 0 (0%) | 0 (0%) | 18 (95%) | 0 (0%) |
 | ESP Spain | 46 | 42 | 0 (0%) | 0 (0%) | 41 (89%) | 0 (0%) |
 | SUI Switzerland | 23 | 22 | 1 (4%) | 1 (4%) | 8 (35%) | 0 (0%) |
-| TUR Türkiye | 43 | 37 | 6 (14%) | 6 (14%) | 33 (77%) | 2 (5%) |
+| TUR Türkiye | 44 | 37 | 6 (14%) | 6 (14%) | 34 (77%) | 2 (5%) |
 
 Not imported yet: 42 of 55 associations.
 
@@ -38,7 +38,7 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | SCO Scotland | 19 | 16 / 1 | 1 (5%) | 19 (100%) | 19 (100%) | 14 (74%) |
 | ESP Spain | 46 | 29 / 4 | 20 (43%) | 46 (100%) | 46 (100%) | 19 (41%) |
 | SUI Switzerland | 23 | 16 / 15 | 6 (26%) | 23 (100%) | 22 (96%) | 15 (65%) |
-| TUR Türkiye | 43 | 26 / 10 | 11 (26%) | 43 (100%) | 37 (86%) | 5 (12%) |
+| TUR Türkiye | 44 | 27 / 10 | 11 (25%) | 44 (100%) | 38 (86%) | 6 (14%) |
 
 ## Leagues
 
@@ -71,7 +71,7 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | SUI Swiss Super League (Q202699) | 1 | ok | open | 12 | 12 | 0 |
 | SUI Challenge League (Q669073) | 2 | ok | open | 11 | 10 | +1 |
 | TUR Süper Lig (Q485568) | 1 | ok | open | 16 | 19 | -3 |
-| TUR TFF First League (Q1141692) | 2 | ok | open | 27 | 18 | +9 |
+| TUR TFF First League (Q1141692) | 2 | ok | open | 28 | 18 | +10 |
 
 <details><summary>AUT Bundesliga: 13 found, 10 expected</summary>
 
@@ -157,9 +157,9 @@ Alanyaspor, Beşiktaş J.K., Çaykur Rizespor, Çorum FK, Eyüpspor, Fenerbahçe
 
 </details>
 
-<details><summary>TUR TFF First League: 27 found, 18 expected</summary>
+<details><summary>TUR TFF First League: 28 found, 18 expected</summary>
 
-1461 Trabzon, Adana Demirspor, Adanaspor, Akhisar Belediyespor, Altay S.K., Altınordu F.K., Amed S.F.K., Balıkesirspor, Bodrum FK, Boluspor, Bucaspor, Denizlispor, Erzurumspor F.K., Fatih Karagümrük S.K., Giresunspor, Hatayspor, İstanbulspor A.Ş., Kartal S.K., Kayseri Erciyesspor, Kayserispor, Pendikspor, Sakaryaspor, Şanlıurfaspor, Sivasspor, TKİ Tavşanlı Linyitspor, Ümraniyespor, Yeni Malatyaspor
+1461 Trabzon, Adana Demirspor, Adanaspor, Akhisar Belediyespor, Altay S.K., Altınordu F.K., Amed S.F.K., Antalyaspor, Balıkesirspor, Bodrum FK, Boluspor, Bucaspor, Denizlispor, Erzurumspor F.K., Fatih Karagümrük S.K., Giresunspor, Hatayspor, İstanbulspor A.Ş., Kartal S.K., Kayseri Erciyesspor, Kayserispor, Pendikspor, Sakaryaspor, Şanlıurfaspor, Sivasspor, TKİ Tavşanlı Linyitspor, Ümraniyespor, Yeni Malatyaspor
 
 </details>
 
@@ -217,5 +217,4 @@ Alanyaspor, Beşiktaş J.K., Çaykur Rizespor, Çorum FK, Eyüpspor, Fenerbahçe
 - TUR Hatayspor (Q1110567): no home venue (P115)
 - TUR Pendikspor (Q1347349): no home venue (P115)
 - TUR Sakaryaspor (Q1369461): several home venues (Sakarya Atatürk Stadium, New Sakarya Stadium); first one shown, set stadiumIds in overrides.json to choose
-- TUR TFF First League: excluded Antalyaspor (Q43710), part of club Q12808521 (P831)
 - TUR İstanbul Başakşehir F.K. (Q857938): several home venues (Atatürk Olympic Stadium, Başakşehir Fatih Terim Stadium); first one shown, set stadiumIds in overrides.json to choose
