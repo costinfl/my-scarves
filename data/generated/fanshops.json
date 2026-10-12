@@ -659,6 +659,11 @@
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
   },
+  "Q43710": {
+    "url": "https://store.antalyaspor.com.tr",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q48911": {
     "url": "https://boutique.fclorient.bzh",
     "status": "candidate",
