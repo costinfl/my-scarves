@@ -19,6 +19,7 @@ const catalog = buildCatalog({
     blurbs: readJson(paths.enriched.blurbs, {}),
     addresses: readJson(paths.enriched.addresses, {}),
     fanshops: readJson(paths.enriched.fanshops, {}),
+    homes: readJson(paths.enriched.homes, {}),
   },
   overrides: readJson(paths.overrides, {}),
   scarves: readJson(paths.scarves, []),

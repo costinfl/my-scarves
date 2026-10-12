@@ -2,276 +2,331 @@
   {
     "code": "ALB",
     "name": "Albania",
-    "notes": null
+    "notes": null,
+    "country": "Q222"
   },
   {
     "code": "AND",
     "name": "Andorra",
-    "notes": null
+    "notes": null,
+    "country": "Q228"
   },
   {
     "code": "ARM",
     "name": "Armenia",
-    "notes": null
+    "notes": null,
+    "country": "Q399"
   },
   {
     "code": "AUT",
     "name": "Austria",
-    "notes": null
+    "notes": null,
+    "country": "Q40"
   },
   {
     "code": "AZE",
     "name": "Azerbaijan",
-    "notes": null
+    "notes": null,
+    "country": "Q227"
   },
   {
     "code": "BLR",
     "name": "Belarus",
-    "notes": null
+    "notes": null,
+    "country": "Q184"
   },
   {
     "code": "BEL",
     "name": "Belgium",
-    "notes": null
+    "notes": null,
+    "country": "Q31"
   },
   {
     "code": "BIH",
     "name": "Bosnia and Herzegovina",
-    "notes": null
+    "notes": null,
+    "country": "Q225"
   },
   {
     "code": "BUL",
     "name": "Bulgaria",
-    "notes": null
+    "notes": null,
+    "country": "Q219"
   },
   {
     "code": "CRO",
     "name": "Croatia",
-    "notes": null
+    "notes": null,
+    "country": "Q224"
   },
   {
     "code": "CYP",
     "name": "Cyprus",
-    "notes": null
+    "notes": null,
+    "country": "Q229"
   },
   {
     "code": "CZE",
     "name": "Czechia",
-    "notes": null
+    "notes": null,
+    "country": "Q213"
   },
   {
     "code": "DEN",
     "name": "Denmark",
-    "notes": null
+    "notes": null,
+    "country": "Q35"
   },
   {
     "code": "ENG",
     "name": "England",
-    "notes": "Welsh clubs such as Cardiff and Swansea play in the English pyramid"
+    "notes": "Welsh clubs such as Cardiff and Swansea play in the English pyramid",
+    "country": "Q21"
   },
   {
     "code": "EST",
     "name": "Estonia",
-    "notes": null
+    "notes": null,
+    "country": "Q191"
   },
   {
     "code": "FRO",
     "name": "Faroe Islands",
-    "notes": null
+    "notes": null,
+    "country": "Q4628"
   },
   {
     "code": "FIN",
     "name": "Finland",
-    "notes": null
+    "notes": null,
+    "country": "Q33"
   },
   {
     "code": "FRA",
     "name": "France",
-    "notes": "Monaco plays in Ligue 1"
+    "notes": "Monaco plays in Ligue 1",
+    "country": "Q142"
   },
   {
     "code": "GEO",
     "name": "Georgia",
-    "notes": null
+    "notes": null,
+    "country": "Q230"
   },
   {
     "code": "GER",
     "name": "Germany",
-    "notes": null
+    "notes": null,
+    "country": "Q183"
   },
   {
     "code": "GIB",
     "name": "Gibraltar",
-    "notes": "No real second tier"
+    "notes": "No real second tier",
+    "country": "Q1410"
   },
   {
     "code": "GRE",
     "name": "Greece",
-    "notes": null
+    "notes": null,
+    "country": "Q41"
   },
   {
     "code": "HUN",
     "name": "Hungary",
-    "notes": null
+    "notes": null,
+    "country": "Q28"
   },
   {
     "code": "ISL",
     "name": "Iceland",
-    "notes": null
+    "notes": null,
+    "country": "Q189"
   },
   {
     "code": "ISR",
     "name": "Israel",
-    "notes": null
+    "notes": null,
+    "country": "Q801"
   },
   {
     "code": "ITA",
     "name": "Italy",
-    "notes": null
+    "notes": null,
+    "country": "Q38"
   },
   {
     "code": "KAZ",
     "name": "Kazakhstan",
-    "notes": null
+    "notes": null,
+    "country": "Q232"
   },
   {
     "code": "KOS",
     "name": "Kosovo",
-    "notes": null
+    "notes": null,
+    "country": "Q1246"
   },
   {
     "code": "LVA",
     "name": "Latvia",
-    "notes": null
+    "notes": null,
+    "country": "Q211"
   },
   {
     "code": "LIE",
     "name": "Liechtenstein",
-    "notes": "Clubs play in the Swiss pyramid; no own league"
+    "notes": "Clubs play in the Swiss pyramid; no own league",
+    "country": "Q347"
   },
   {
     "code": "LTU",
     "name": "Lithuania",
-    "notes": null
+    "notes": null,
+    "country": "Q37"
   },
   {
     "code": "LUX",
     "name": "Luxembourg",
-    "notes": null
+    "notes": null,
+    "country": "Q32"
   },
   {
     "code": "MLT",
     "name": "Malta",
-    "notes": null
+    "notes": null,
+    "country": "Q233"
   },
   {
     "code": "MDA",
     "name": "Moldova",
-    "notes": null
+    "notes": null,
+    "country": "Q217"
   },
   {
     "code": "MNE",
     "name": "Montenegro",
-    "notes": null
+    "notes": null,
+    "country": "Q236"
   },
   {
     "code": "NED",
     "name": "Netherlands",
-    "notes": null
+    "notes": null,
+    "country": "Q55"
   },
   {
     "code": "MKD",
     "name": "North Macedonia",
-    "notes": null
+    "notes": null,
+    "country": "Q221"
   },
   {
     "code": "NIR",
     "name": "Northern Ireland",
-    "notes": null
+    "notes": null,
+    "country": "Q26"
   },
   {
     "code": "NOR",
     "name": "Norway",
-    "notes": null
+    "notes": null,
+    "country": "Q20"
   },
   {
     "code": "POL",
     "name": "Poland",
-    "notes": null
+    "notes": null,
+    "country": "Q36"
   },
   {
     "code": "POR",
     "name": "Portugal",
-    "notes": null
+    "notes": null,
+    "country": "Q45"
   },
   {
     "code": "IRL",
     "name": "Republic of Ireland",
-    "notes": null
+    "notes": null,
+    "country": "Q27"
   },
   {
     "code": "ROU",
     "name": "Romania",
-    "notes": null
+    "notes": null,
+    "country": "Q218"
   },
   {
     "code": "RUS",
     "name": "Russia",
-    "notes": "Suspended by UEFA but still a member"
+    "notes": "Suspended by UEFA but still a member",
+    "country": "Q159"
   },
   {
     "code": "SMR",
     "name": "San Marino",
-    "notes": "No real second tier"
+    "notes": "No real second tier",
+    "country": "Q238"
   },
   {
     "code": "SCO",
     "name": "Scotland",
-    "notes": null
+    "notes": null,
+    "country": "Q22"
   },
   {
     "code": "SRB",
     "name": "Serbia",
-    "notes": null
+    "notes": null,
+    "country": "Q403"
   },
   {
     "code": "SVK",
     "name": "Slovakia",
-    "notes": null
+    "notes": null,
+    "country": "Q214"
   },
   {
     "code": "SVN",
     "name": "Slovenia",
-    "notes": null
+    "notes": null,
+    "country": "Q215"
   },
   {
     "code": "ESP",
     "name": "Spain",
-    "notes": null
+    "notes": null,
+    "country": "Q29"
   },
   {
     "code": "SWE",
     "name": "Sweden",
-    "notes": null
+    "notes": null,
+    "country": "Q34"
   },
   {
     "code": "SUI",
     "name": "Switzerland",
-    "notes": null
+    "notes": null,
+    "country": "Q39"
   },
   {
     "code": "TUR",
     "name": "Türkiye",
-    "notes": null
+    "notes": null,
+    "country": "Q43"
   },
   {
     "code": "UKR",
     "name": "Ukraine",
-    "notes": null
+    "notes": null,
+    "country": "Q212"
   },
   {
     "code": "WAL",
     "name": "Wales",
-    "notes": "Own pyramid, separate from the English clubs playing in England"
+    "notes": "Own pyramid, separate from the English clubs playing in England",
+    "country": "Q25"
   }
 ]

@@ -26,6 +26,7 @@ export const paths = {
     blurbs: data('generated', 'blurbs.json'),
     addresses: data('generated', 'addresses.json'),
     fanshops: data('generated', 'fanshops.json'),
+    homes: data('generated', 'homes.json'),
   },
   wikidataCache: data('cache', 'wikidata'),
 };

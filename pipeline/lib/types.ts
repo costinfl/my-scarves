@@ -2,6 +2,8 @@ export interface Association {
   code: string;
   name: string;
   notes: string | null;
+  /** Wikidata QID of the country or territory (Wales Q25, not the United Kingdom); used to find clubs playing abroad. */
+  country?: string;
 }
 
 export interface SeedLeague {
@@ -79,6 +81,8 @@ export interface ClubEnrichment {
   colors?: ColorInfo;
   /** Main colours of the badge, offered as suggestions in the editor (never shown as club colours). */
   palette?: string[];
+  /** Home association when it differs from the league's (Swansea: WAL in an ENG league). */
+  home?: string;
   blurb?: BlurbInfo;
   fanshop?: FanshopInfo;
 }
