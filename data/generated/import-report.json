@@ -261,11 +261,9 @@
       "league": "Q1141692",
       "name": "TFF First League",
       "status": "ok",
-      "clubs": 27,
-      "stadiums": 22,
-      "excluded": [
-        "Antalyaspor (Q43710), part of club Q12808521 (P831)"
-      ],
+      "clubs": 28,
+      "stadiums": 23,
+      "excluded": [],
       "source": "memberships"
     }
   ]

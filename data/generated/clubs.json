@@ -7180,6 +7180,22 @@
     "stadiumIds": []
   },
   {
+    "qid": "Q43710",
+    "name": "Antalyaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q417007"
+    ],
+    "officialWebsite": "http://www.antalyaspor.com.tr/"
+  },
+  {
     "qid": "Q805909",
     "name": "Balıkesirspor",
     "association": "TUR",
