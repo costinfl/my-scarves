@@ -53,12 +53,14 @@ export interface Enrichment {
   uefa: Record<string, UefaInfo>;
   colors: Record<string, ColorInfo>;
   palettes: Record<string, string[]>;
+  /** Club QID -> home association code, or a list of candidates when ambiguous (ignored here). */
+  homes: Record<string, string | string[]>;
   blurbs: Record<string, BlurbInfo>;
   addresses: Record<string, AddressInfo>;
   fanshops: Record<string, FanshopInfo>;
 }
 
-export const noEnrichment: Enrichment = { logos: {}, uefa: {}, colors: {}, palettes: {}, blurbs: {}, addresses: {}, fanshops: {} };
+export const noEnrichment: Enrichment = { logos: {}, uefa: {}, colors: {}, palettes: {}, blurbs: {}, addresses: {}, fanshops: {}, homes: {} };
 
 export interface CatalogInput {
   associations: Association[];
@@ -81,6 +83,7 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
         ...(enrichment.uefa[c.qid] ? { uefaId: enrichment.uefa[c.qid]!.id } : {}),
         ...(enrichment.colors[c.qid] ? { colors: enrichment.colors[c.qid] } : {}),
         ...(enrichment.palettes[c.qid]?.length ? { palette: enrichment.palettes[c.qid] } : {}),
+        ...(typeof enrichment.homes[c.qid] === 'string' ? { home: enrichment.homes[c.qid] as string } : {}),
         ...(enrichment.blurbs[c.qid] ? { blurb: enrichment.blurbs[c.qid] } : {}),
         ...(enrichment.fanshops[c.qid] ? { fanshop: enrichment.fanshops[c.qid] } : {}),
       },
@@ -120,6 +123,7 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
       ...(c.logoSource ? { logoSource: c.logoSource } : {}),
       ...(c.colors ? { colors: c.colors } : {}),
       ...(c.palette ? { palette: c.palette } : {}),
+      ...(c.home && c.home !== c.association ? { home: c.home } : {}),
       ...(c.blurb ? { blurb: c.blurb } : {}),
       // The page shows only candidate/confirmed/manual shops; the editor also needs to see the rest.
       ...(c.fanshop ? { fanshop: c.fanshop } : {}),
@@ -132,7 +136,8 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
     });
   }
 
-  const usedCodes = new Set(catalogClubs.map((c) => c.association));
+  // An association appears if clubs play in its leagues or if it is home to clubs playing abroad (LIE).
+  const usedCodes = new Set(catalogClubs.flatMap((c) => [c.association, ...(c.home ? [c.home] : [])]));
   return {
     season,
     associations: associations.filter((a) => usedCodes.has(a.code)),

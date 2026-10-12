@@ -1,4 +1,4 @@
-// Enrichment stages: logos, uefa, colors, palettes, blurbs, addresses, fanshops. Each writes its own file in
+// Enrichment stages: logos, uefa, colors, palettes, blurbs, addresses, fanshops, homes. Each writes its own file in
 // data/generated/ keyed by QID, skips what it already has (use --refresh to redo), and never
 // replaces a value with nothing.
 // Usage: npm run enrich [-- ROU ENG] [--stage logos,colors] [--refresh]
@@ -9,15 +9,16 @@ import { fetchAddress } from './lib/enrich/addresses.ts';
 import { fetchBlurb } from './lib/enrich/blurbs.ts';
 import { palette, wikidataColors } from './lib/enrich/colors.ts';
 import { discoverFanshop } from './lib/enrich/fanshops.ts';
+import { findHomes } from './lib/enrich/homes.ts';
 import { fetchLogo } from './lib/enrich/logos.ts';
 import { uefaBadgeUrl, uefaFromEntity } from './lib/enrich/uefa.ts';
 import { getBytes } from './lib/http.ts';
 import { claims, getEntities, itemValue } from './lib/entities.ts';
 import { readJson, writeJson } from './lib/json.ts';
 import { paths } from './lib/paths.ts';
-import type { AddressInfo, BlurbInfo, Club, ColorInfo, FanshopInfo, LogoInfo, Stadium, UefaInfo } from './lib/types.ts';
+import type { AddressInfo, Association, BlurbInfo, Club, ColorInfo, FanshopInfo, LogoInfo, Stadium, UefaInfo } from './lib/types.ts';
 
-const STAGES = ['logos', 'uefa', 'colors', 'palettes', 'blurbs', 'addresses', 'fanshops'] as const;
+const STAGES = ['logos', 'uefa', 'colors', 'palettes', 'blurbs', 'addresses', 'fanshops', 'homes'] as const;
 type Stage = (typeof STAGES)[number];
 
 const { values: opts, positionals } = parseArgs({
@@ -128,3 +129,16 @@ await stage<FanshopInfo>(
   // "Run once per club": only retry when the last attempt could not reach the site.
   (existing) => existing.status === 'unchecked',
 );
+
+// Cross-border clubs (Swansea in the English pyramid, Vaduz in the Swiss one). Recomputed for the
+// clubs of this run on every run; the SPARQL cache makes repeats free.
+if (stages.includes('homes')) {
+  const associations = readJson<Association[]>(paths.associations, []);
+  const { homes, ambiguous } = await findHomes(clubs, associations, { refresh });
+  const data = readJson<Record<string, string | string[]>>(paths.enriched.homes, {});
+  for (const c of clubs) delete data[c.qid];
+  Object.assign(data, homes, ambiguous);
+  writeJson(paths.enriched.homes, sortKeys(data));
+  const name = (q: string) => clubs.find((c) => c.qid === q)?.name ?? q;
+  console.log(`homes: ${Object.keys(homes).length} cross-border (${Object.entries(homes).map(([q, h]) => `${name(q)} -> ${h}`).join(', ') || 'none'}), ${Object.keys(ambiguous).length} ambiguous`);
+}

@@ -8,6 +8,19 @@ import { formatAddress } from './addresses.ts';
 import { trimSentences } from './blurbs.ts';
 import { palette, wikidataColors } from './colors.ts';
 import { parseUefaId, uefaBadgeUrl } from './uefa.ts';
+import { decideHome } from './homes.ts';
+
+describe('decideHome', () => {
+  it('is unset when the club is located where its league is, or nowhere known', () => {
+    expect(decideHome('ENG', ['ENG'])).toBeUndefined();
+    expect(decideHome('FRA', [])).toBeUndefined(); // AS Monaco: Monaco is not a UEFA member
+  });
+  it('picks the one other association (Swansea in an English league, Vaduz in a Swiss one)', () => {
+    expect(decideHome('ENG', ['WAL'])).toBe('WAL');
+    expect(decideHome('SUI', ['LIE'])).toBe('LIE');
+  });
+  it('returns the candidates when ambiguous', () => expect(decideHome('IRL', ['NIR', 'ENG'])).toEqual(['ENG', 'NIR']));
+});
 import { findShopLinks, isMarketplace, looksLikeShop, robotsAllows } from './fanshops.ts';
 
 describe('trimSentences', () => {

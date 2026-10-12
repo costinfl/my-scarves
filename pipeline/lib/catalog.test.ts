@@ -66,6 +66,7 @@ describe('buildCatalog', () => {
         blurbs: { Q10: { text: 'Draft.', source: 'https://en.wikipedia.org/wiki/Rapid', status: 'draft' } },
         addresses: { Q90: { text: 'Strada Giulești 18, București' } },
         fanshops: { Q10: { status: 'none', checkedAt: '2026-10-10' } },
+        homes: {},
       },
       overrides: {
         Q10: { blurb: { text: 'Reviewed.', source: 'https://en.wikipedia.org/wiki/Rapid', status: 'reviewed' } },
@@ -80,6 +81,16 @@ describe('buildCatalog', () => {
     expect(rapid.uefaId).toBe('59039');
     expect(rapid.palette).toEqual(['#FDFDFD', '#A4333A']);
     expect(rapid.venues).toEqual([rapid.stadium]);
+  });
+
+  it('marks clubs playing abroad and lists their home association even without own leagues', () => {
+    const withHome = buildCatalog({
+      ...input,
+      associations: [...input.associations, { code: 'LIE', name: 'Liechtenstein', notes: null }],
+      enrichment: { logos: {}, uefa: {}, colors: {}, palettes: {}, blurbs: {}, addresses: {}, fanshops: {}, homes: { Q10: 'LIE', Q11: ['ALB', 'LIE'] } },
+    });
+    expect(withHome.clubs.find((c) => c.qid === 'Q10')!.home).toBe('LIE');
+    expect(withHome.associations.map((a) => a.code)).toEqual(['ROU', 'LIE']);
   });
 
   it('keeps only associations that have clubs, and league labels as names', () => {

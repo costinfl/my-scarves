@@ -98,7 +98,9 @@ export function homeView(store: Store): Html {
     <p class="muted">Tier 1 and 2 clubs, season ${catalog.season}. <a href="${href.stats()}">Stats</a></p>
     <ul class="cards">
       ${catalog.associations.map((a) => {
-        const mine = clubs.filter((c) => c.association === a.code);
+        const playing = clubs.filter((c) => c.association === a.code);
+        // An association without its own league (LIE) shows its clubs playing abroad.
+        const mine = playing.length > 0 ? playing : clubs.filter((c) => c.home === a.code);
         return html`<li><a class="card" href="${href.association(a.code)}">
           <strong>${a.name}</strong><span class="muted">${a.code}</span>${progress(mine)}
         </a></li>`;
@@ -113,6 +115,7 @@ export function associationView(store: Store, code: string, filter: Filter): Htm
   if (!a) return notFoundView();
   const leagues = store.catalog.leagues.filter((l) => l.association === code).sort((x, y) => x.tier - y.tier);
   const former = store.catalog.clubs.filter((c) => c.association === code && !c.current);
+  const abroad = store.catalog.clubs.filter((c) => c.home === code && c.current);
   return html`
     ${crumbs([a.name])}
     <h1>${a.name}</h1>
@@ -125,6 +128,12 @@ export function associationView(store: Store, code: string, filter: Filter): Htm
         ${clubList(clubs, store, filter)}
       </section>`;
     })}
+    ${abroad.length > 0 &&
+    html`<section>
+      <h2>${a.name} clubs in other leagues</h2>
+      ${clubList(abroad, store, filter, true)}
+    </section>`}
+    ${leagues.length === 0 && abroad.length === 0 && html`<p class="muted">No tier 1 or 2 league.</p>`}
     ${former.length > 0 &&
     html`<section>
       <h2>Other clubs <small class="muted">not in tier 1 or 2 this season</small></h2>
@@ -177,7 +186,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
       ${logoImg(c)}
       <div>
         <h1>${c.name} ${badge(c)}</h1>
-        <p class="muted">${l.name} · ${a.name}${!c.current && ' · not in tier 1 or 2 this season'}
+        <p class="muted">${l.name} · ${a.name}${c.home && ` · from ${store.association.get(c.home)?.name ?? c.home}`}${!c.current && ' · not in tier 1 or 2 this season'}
           ${canEdit && html` · <a href="${href.edit(c.qid)}">Edit</a>`}</p>
       </div>
     </header>

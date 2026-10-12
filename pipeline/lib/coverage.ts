@@ -105,6 +105,11 @@ export function coverageMarkdown({ season, associations, leagues, clubs, stadium
       for (const x of r.excluded) issues.push(`- ${a.code} ${r.name}: excluded ${x}`);
     }
   }
+  for (const c of current) {
+    const home = enrichment.homes[c.qid];
+    if (typeof home === 'string') issues.push(`- ${c.association} ${c.name} (${c.qid}): plays abroad, home association ${home}`);
+    else if (Array.isArray(home)) issues.push(`- ${c.association} ${c.name} (${c.qid}): located in several countries (${home.join(', ')}); home left unset`);
+  }
   out.push('', '## To review', '', ...(issues.length ? issues.sort() : ['Nothing.']), '');
   return out.join('\n');
 }

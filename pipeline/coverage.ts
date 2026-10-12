@@ -21,6 +21,7 @@ const md = coverageMarkdown({
     blurbs: readJson(paths.enriched.blurbs, {}),
     addresses: readJson(paths.enriched.addresses, {}),
     fanshops: readJson(paths.enriched.fanshops, {}),
+    homes: readJson(paths.enriched.homes, {}),
   },
 });
 writeFileSync(paths.coverage, md, 'utf8');

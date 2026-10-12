@@ -13,14 +13,18 @@ export interface LeagueCheck {
 const LEAGUE_FACTS = (qids: string[]) => `
 SELECT ?league ?label ?isFootballLeague ?participants WHERE {
   VALUES ?league { ${qids.map((q) => `wd:${q}`).join(' ')} }
-  OPTIONAL { ?league rdfs:label ?label . FILTER(LANG(?label) = "en") }
-  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:${FOOTBALL_LEAGUE} } AS ?isFootballLeague)
+  # Some big items (Bundesliga, Serie A) only carry a language-neutral "mul" label, no "en" one.
+  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = "en") }
+  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = "mul") }
+  BIND(COALESCE(?en, ?mul) AS ?label)
+  # Either typed as an association football league, or as a sports league whose sport (P641) is football.
+  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:${FOOTBALL_LEAGUE} } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)
   OPTIONAL { ?league wdt:P1132 ?participants }
 }`;
 
 /**
  * Checks each seed league against Wikidata: the QID must exist, be an association football league,
- * and its English label must equal the seed name. Never import a league that fails this.
+ * and its English label (or, if it has none, its "mul" label) must equal the seed name. Never import a league that fails this.
  */
 export async function checkLeagues(seeds: SeedLeague[], opts: SparqlOptions = {}): Promise<LeagueCheck[]> {
   if (seeds.length === 0) return [];
@@ -29,7 +33,7 @@ export async function checkLeagues(seeds: SeedLeague[], opts: SparqlOptions = {}
   return seeds.map((seed) => {
     const mine = rows.filter((r) => qid(r.league) === seed.qid);
     const label = mine.find((r) => r.label)?.label;
-    if (!label) return { seed, ok: false, problem: `${seed.qid} has no English label (wrong or deleted QID?)` };
+    if (!label) return { seed, ok: false, problem: `${seed.qid} has no English or multilingual label (wrong or deleted QID?)` };
     if (!mine.some((r) => r.isFootballLeague === 'true')) {
       return { seed, ok: false, problem: `${seed.qid} "${label}" is not an association football league` };
     }

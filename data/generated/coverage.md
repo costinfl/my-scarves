@@ -51,7 +51,11 @@ AD Ceuta FC, Albacete Balompié, Burgos CF, C.D. Tenerife, Cádiz Club de Fútbo
 
 ## To review
 
+- ENG Cardiff City F.C. (Q18662): plays abroad, home association WAL
+- ENG Swansea City A.F.C. (Q18659): plays abroad, home association WAL
+- ENG Wrexham A.F.C. (Q18529): plays abroad, home association WAL
 - ESP Athletic Club (Q8687): several home venues (San Mamés Stadium, Lezama Facilities); first one shown, set stadiumIds in overrides.json to choose
+- ESP FC Andorra (Q1386854): plays abroad, home association AND
 - ESP LaLiga 2: excluded FC Barcelona Atlètic (Q10467)
 - ESP LaLiga 2: excluded Real Sociedad B (Q1067750)
 - ESP Real Zaragoza (Q10308): several home venues (Ibercaja Stadium, New Stadium La Romareda); first one shown, set stadiumIds in overrides.json to choose
