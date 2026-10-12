@@ -359,6 +359,11 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q18232": {
+    "url": "https://webshop.kaagent.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q18519": {
     "url": "https://shop.weareimps.com/",
     "status": "candidate",
@@ -559,6 +564,21 @@
     "checkedAt": "2026-10-10",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
+  "Q19585": {
+    "url": "https://shop.sporting-charleroi.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q19593": {
+    "url": "https://store.celticfc.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q19597": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 202"
+  },
   "Q19603": {
     "url": "https://shop.fctwente.nl",
     "status": "candidate",
@@ -581,6 +601,11 @@
   },
   "Q22707": {
     "url": "https://www.tsg-hoffenheim.de/tickets/ticketcenter",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q22866": {
+    "url": "https://fanshop.austria-salzburg.at",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -724,6 +749,16 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q113000": {
+    "url": "https://shop.kvmechelen.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q118919": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
   "Q126334": {
     "url": "https://boutique.rcstrasbourgalsace.fr",
     "status": "candidate",
@@ -733,6 +768,16 @@
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q131209": {
+    "url": "https://fk-austria.at/arena/fanshop",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q131215": {
+    "url": "https://www.skrapid.at/aktuelles/magazin",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q131499": {
     "status": "unchecked",
@@ -748,6 +793,16 @@
     "status": "unchecked",
     "checkedAt": "2026-10-12",
     "note": "homepage answered 403"
+  },
+  "Q138230": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q138248": {
+    "url": "https://shops.topfanz.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q141931": {
     "status": "none",
@@ -804,10 +859,20 @@
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
   },
+  "Q166496": {
+    "url": "https://infomaniak.events/fr-ch/shop/etoile-carouge-fc-saison-20262027-5SZH3WUNM9",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q170117": {
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
+  },
+  "Q172567": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
   },
   "Q176099": {
     "status": "none",
@@ -824,6 +889,11 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q180420": {
+    "url": "https://store.rosscountyfootballclub.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q182876": {
     "url": "https://boutique.aja.fr",
     "status": "candidate",
@@ -833,6 +903,41 @@
     "url": "https://boutique.ogcnice.com",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q187326": {
+    "url": "https://shop.afc.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q187528": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 202"
+  },
+  "Q189671": {
+    "url": "https://fcb.ch/pages/rotblau-magazin",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q189847": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
+  },
+  "Q190526": {
+    "url": "http://shop.bscyb.ch",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q190561": {
+    "url": "https://fanshop.standard.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q190916": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 429"
   },
   "Q191264": {
     "url": "https://www.az.nl/webshop",
@@ -849,10 +954,45 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q192597": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q192641": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
+  },
+  "Q192873": {
+    "url": "https://store.lokkaroom.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q196160": {
+    "url": "https://shop.rusg.brussels",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q200321": {
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
+  },
+  "Q201360": {
+    "url": "https://shop.gcz.ch",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q201969": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
+  "Q202093": {
+    "url": "https://www.heartsfc.co.uk/pages/maroon-mile-north-merchiston-cemetery",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q204237": {
     "url": "https://shop.dinamo1948.ro/",
@@ -863,6 +1003,11 @@
     "status": "none",
     "checkedAt": "2026-10-10",
     "note": "shop links found but none looked like a shop"
+  },
+  "Q206692": {
+    "url": "https://www.fcz.ch/pages/fanshop",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q208228": {
     "url": "https://boutique.stade-de-reims.com",
@@ -889,6 +1034,11 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q210961": {
+    "url": "https://store.lokkaroom.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q211401": {
     "url": "https://www.uniaodeleiria.pt/loja",
     "status": "candidate",
@@ -896,6 +1046,11 @@
   },
   "Q212269": {
     "url": "https://boutique.va-fc.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q216032": {
+    "url": "https://webshop.krcgenk.be",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -914,10 +1069,20 @@
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
   },
+  "Q216523": {
+    "url": "https://www.motherwelldirect.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q216661": {
     "status": "none",
     "checkedAt": "2026-10-10",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q216773": {
+    "url": "https://shop.fcvaduz.li",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q218372": {
     "url": "https://boutique.sb29.com",
@@ -926,6 +1091,16 @@
   },
   "Q219233": {
     "url": "https://shop.vitesse.nl",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q219235": {
+    "url": "https://shop.servettefc.ch",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q219241": {
+    "url": "https://store.lokkaroom.com",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -943,6 +1118,11 @@
     "url": "https://degraafshop.nl",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q223262": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 522"
   },
   "Q223450": {
     "url": "https://loja.vitoriasc.pt",
@@ -969,6 +1149,16 @@
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
   },
+  "Q261813": {
+    "url": "https://shop.wackerinnsbruck.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q268776": {
+    "url": "https://retail.perthstjohnstonefc.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q269151": {
     "url": "https://www.voetbalshop.nl/fanshop/pec-zwolle.html",
     "status": "candidate",
@@ -983,6 +1173,11 @@
     "url": "https://realoviedo.shop/tienda/equipaciones/primera-equipacion-26-27/",
     "status": "candidate",
     "checkedAt": "2026-10-10"
+  },
+  "Q272712": {
+    "url": "https://www.atmacasm.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q288419": {
     "url": "https://paufc-boutique.fr",
@@ -1004,6 +1199,16 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q291297": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q291937": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
   "Q292231": {
     "url": "https://boutique.rodezaveyronfootball.com",
     "status": "candidate",
@@ -1024,8 +1229,23 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q303121": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 404"
+  },
+  "Q309059": {
+    "url": "https://shop.ictfc.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q309400": {
     "url": "https://trevisport.fr/usbco-officiel",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q309456": {
+    "url": "https://www.lausanne-sport.ch/pages/shop",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -1039,6 +1259,16 @@
     "checkedAt": "2026-10-12",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
+  "Q319136": {
+    "url": "https://www.stmirrendirect.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q321061": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
+  },
   "Q328658": {
     "url": "https://boutique.hac.football",
     "status": "candidate",
@@ -1049,10 +1279,55 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q332664": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q335195": {
+    "url": "https://xamax.ch/shop",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q335483": {
+    "url": "http://www.dfcdirect.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q344328": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q352251": {
+    "url": "https://www.adanademirspor.com.tr",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q352270": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q364698": {
+    "url": "https://www.voetbalshop.be/fanshop/cercle-brugge.html",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q368675": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
   "Q369349": {
     "url": "http://orleansloiretfoot.com/pre_boutique",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q370206": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 520"
   },
   "Q370712": {
     "url": "https://excelsiorrotterdam.nl/fanshop",
@@ -1064,10 +1339,65 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q372599": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
+  },
+  "Q376635": {
+    "url": "https://www.essevee.be/nl/shop-merchandise",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q388487": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
+  },
+  "Q390256": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q392310": {
+    "url": "https://shop.lask.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q417685": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
+  "Q427491": {
+    "url": "https://shop.skn-stpoelten.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q430107": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
+  },
   "Q430993": {
     "url": "https://shop.mantova1911.club",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q434929": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
+  "Q447191": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q457460": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
   },
   "Q459148": {
     "url": "https://boutique.eaguingamp.com",
@@ -1079,6 +1409,11 @@
     "checkedAt": "2026-10-10",
     "note": "shop links found but none looked like a shop"
   },
+  "Q464775": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
   "Q479351": {
     "url": "https://shop.sv98.de",
     "status": "candidate",
@@ -1088,6 +1423,16 @@
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
+  },
+  "Q495299": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
+  "Q498473": {
+    "url": "https://www.tor-sports.co.uk/club-shops/hamilton-academical-fc-training-wear/hamilton-academical-fc-merchendise",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q501245": {
     "url": "https://shop.veneziafc.it",
@@ -1109,8 +1454,28 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q509170": {
+    "url": "https://shops.topfanz.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q513237": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q513840": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
   "Q522283": {
     "url": "https://shop.redstar.fr",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q536651": {
+    "url": "https://store.raal.be",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -1129,15 +1494,30 @@
     "checkedAt": "2026-10-10",
     "note": "shop links found but none looked like a shop"
   },
+  "Q583599": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
   "Q600232": {
     "status": "none",
     "checkedAt": "2026-10-10",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q608122": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q611653": {
     "status": "unchecked",
     "checkedAt": "2026-10-10",
     "note": "fetch failed"
+  },
+  "Q618620": {
+    "url": "https://www.kvk.be/club",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q621120": {
     "status": "none",
@@ -1159,6 +1539,16 @@
     "checkedAt": "2026-10-12",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
+  "Q630348": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 503"
+  },
+  "Q633521": {
+    "url": "https://shop.fclugano.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q634829": {
     "url": "https://estorilpraia.pt/store",
     "status": "candidate",
@@ -1173,6 +1563,16 @@
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
+  },
+  "Q641373": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 522"
+  },
+  "Q643107": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q650365": {
     "url": "https://www.carrareseofficialstore.it",
@@ -1189,8 +1589,43 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q659212": {
+    "url": "https://www.fcsg.ch/products/product-719",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q659780": {
+    "url": "https://shop.grazerak.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q668573": {
+    "url": "https://fcchiasso.com/negozio",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q669130": {
+    "url": "https://yverdonsport.onisswiss.ch/categorie-produit/yverdon-sport",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q670438": {
+    "url": "https://shop.scra.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q671042": {
     "url": "http://cdfeirensesad.pt/loja",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q671950": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q674799": {
+    "url": "https://shop.fcbiel-bienne.ch",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -1198,6 +1633,31 @@
     "url": "https://uta-shop.ro/",
     "status": "candidate",
     "checkedAt": "2026-10-10"
+  },
+  "Q686659": {
+    "url": "https://wsg-fussball.shop",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q686826": {
+    "url": "https://webshop.firstviennafc.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q689889": {
+    "url": "https://shop.qtixx.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q690074": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q692186": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
   },
   "Q692586": {
     "url": "https://shop.vfr-aalen.de",
@@ -1209,10 +1669,50 @@
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
   },
+  "Q694484": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
+  "Q696507": {
+    "url": "https://shop.austria-lustenau.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q696525": {
+    "url": "https://blauweisslinz-shop.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q697322": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 503"
+  },
+  "Q698702": {
+    "url": "https://fanshop.admirawacker.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q699184": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q699746": {
+    "url": "https://www.tsv-fanshop.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q702455": {
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q732002": {
+    "url": "https://shop.royalantwerpfc.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q738060": {
     "url": "https://shop.fcvolendam.nl",
@@ -1221,6 +1721,11 @@
   },
   "Q740637": {
     "url": "https://cdsantaclara.com/loja",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q741382": {
+    "url": "https://shop.ksv1919.at",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -1264,6 +1769,21 @@
     "status": "candidate",
     "checkedAt": "2026-10-10"
   },
+  "Q805909": {
+    "url": "https://www.balikesirsporstore.com/urunler",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q822722": {
+    "url": "https://www.ptfc.co.uk/shop",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q824850": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
   "Q838134": {
     "status": "unchecked",
     "checkedAt": "2026-10-12",
@@ -1289,6 +1809,11 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q849544": {
+    "url": "https://fanshop.kvcwesterlo.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q852079": {
     "status": "none",
     "checkedAt": "2026-10-10",
@@ -1303,6 +1828,21 @@
     "url": "https://store.cdleganes.com/",
     "status": "candidate",
     "checkedAt": "2026-10-10"
+  },
+  "Q857938": {
+    "url": "https://ibfk.com.tr/basaksehir-store",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q867921": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q869907": {
+    "url": "https://fcslo-association.ch/boutique",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q870182": {
     "url": "https://boutique.clermontfoot.com",
@@ -1329,8 +1869,28 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q891679": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q916199": {
+    "url": "https://shops.topfanz.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q925973": {
+    "url": "https://www.rfc-seraing.be/fanshop",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q926438": {
     "url": "https://loja.gilvicentefc.pt",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q994811": {
+    "url": "https://www.redbullsalzburg.at/en/fanshop",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -1389,10 +1949,20 @@
     "checkedAt": "2026-10-10",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
+  "Q1059399": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
   "Q1061627": {
     "url": "https://shop.fcemmen.nl",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q1065328": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
   },
   "Q1067737": {
     "status": "unchecked",
@@ -1403,6 +1973,11 @@
     "url": "https://sctelstar-fanshop.com",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q1110567": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
   },
   "Q1120838": {
     "url": "https://shop.comofootball.com",
@@ -1444,6 +2019,11 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q1170018": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
   "Q1256652": {
     "status": "none",
     "checkedAt": "2026-10-12",
@@ -1463,6 +2043,16 @@
     "url": "https://moreirensefc.pt/loja",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q1347349": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q1369461": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1386850": {
     "status": "unchecked",
@@ -1489,6 +2079,16 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q1387293": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q1387445": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
+  },
   "Q1387710": {
     "url": "https://shop.fc-suedtirol.com",
     "status": "candidate",
@@ -1499,8 +2099,43 @@
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
+  "Q1398111": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q1423118": {
+    "url": "https://www.gozgoz.com.tr",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q1423718": {
+    "url": "https://ticketing.as-eupen.be/cms",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
   "Q1429473": {
     "url": "https://store.varzim.pt",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
+  },
+  "Q1543501": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
+  },
+  "Q1628465": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q1636019": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
+  },
+  "Q1668203": {
+    "url": "https://www.voetbalshop.be/fanshop/lommel-sk.html",
     "status": "candidate",
     "checkedAt": "2026-10-12"
   },
@@ -1525,9 +2160,14 @@
     "note": "shop links found but none looked like a shop"
   },
   "Q2061414": {
-    "status": "unchecked",
+    "status": "none",
     "checkedAt": "2026-10-12",
-    "note": "The operation was aborted due to timeout"
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
+  "Q2268833": {
+    "url": "https://shop.beerschot.be",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   },
   "Q2276413": {
     "status": "unchecked",
@@ -1538,6 +2178,11 @@
     "url": "http://academicodeviseu.pt/loja",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q2426819": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "shop links found but none looked like a shop"
   },
   "Q2619514": {
     "url": "https://www.asb-foot.com/boutique",
@@ -1564,6 +2209,16 @@
     "status": "candidate",
     "checkedAt": "2026-10-10"
   },
+  "Q6062228": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
+  },
+  "Q6601875": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 403"
+  },
   "Q12723169": {
     "status": "unchecked",
     "checkedAt": "2026-10-10",
@@ -1578,6 +2233,11 @@
     "url": "https://shop.ssvulm1846-fussball.de",
     "status": "candidate",
     "checkedAt": "2026-10-12"
+  },
+  "Q15137936": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
   },
   "Q15966154": {
     "status": "unchecked",
@@ -1609,10 +2269,20 @@
     "checkedAt": "2026-10-10",
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
+  "Q19613395": {
+    "status": "none",
+    "checkedAt": "2026-10-12",
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
+  },
   "Q20429561": {
     "url": "https://fanshop.sepsiosk.ro/",
     "status": "candidate",
     "checkedAt": "2026-10-10"
+  },
+  "Q20979061": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "fetch failed"
   },
   "Q23051672": {
     "status": "unchecked",
@@ -1654,6 +2324,11 @@
     "checkedAt": "2026-10-12",
     "note": "fetch failed"
   },
+  "Q60967849": {
+    "status": "unchecked",
+    "checkedAt": "2026-10-12",
+    "note": "homepage answered 404"
+  },
   "Q66424141": {
     "status": "none",
     "checkedAt": "2026-10-10",
@@ -1663,5 +2338,10 @@
     "status": "none",
     "checkedAt": "2026-10-12",
     "note": "shop links found but none looked like a shop"
+  },
+  "Q124007617": {
+    "url": "https://shop.sksturm.at",
+    "status": "candidate",
+    "checkedAt": "2026-10-12"
   }
 }
