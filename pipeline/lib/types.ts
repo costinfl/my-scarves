@@ -56,6 +56,8 @@ export interface LeagueImportResult {
   clubs: number;
   stadiums: number;
   excluded: string[];
+  /** Where membership came from: the season's participant list (exact) or open P118 memberships. */
+  source?: 'season' | 'memberships';
 }
 
 export interface Scarf {

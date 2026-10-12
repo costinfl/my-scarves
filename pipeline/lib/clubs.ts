@@ -10,9 +10,10 @@ export function seasonFor(date: Date): string {
 
 // Reserve, B and youth teams sometimes carry a league membership of the senior league.
 // Anything matched is left out and listed in the coverage report for review.
+// A trailing " II" alone is not enough (Willem II is a club named after a king); it only counts
+// together with a parent club on Wikidata (P831), which excludes a team whatever its name.
 const RESERVE_PATTERNS = [
   /\sB$/,
-  /\sII$/,
   /\bU-?\d{2}\b/i,
   /\breserves?\b/i,
   /\bacademy\b/i,
@@ -25,16 +26,33 @@ const RESERVE_PATTERNS = [
   /\bfeminin\b/i,
 ];
 
-export function isReserveTeam(name: string): boolean {
-  return RESERVE_PATTERNS.some((p) => p.test(name));
+export function isReserveTeam(name: string, hasParentClub = false): boolean {
+  return hasParentClub || RESERVE_PATTERNS.some((p) => p.test(name));
 }
 
-export const CLUBS_IN_LEAGUE = (leagueQid: string) => `
-SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity WHERE {
-  ?club p:P118 ?membership .
+/** Teams listed as participants (P1923) of the league's season starting in startYear, if Wikidata has them. */
+export const SEASON_TEAMS = (leagueQid: string, startYear: number) => `
+SELECT DISTINCT ?team WHERE {
+  ?season wdt:P3450 wd:${leagueQid} ; wdt:P580 ?start ; wdt:P1923 ?team .
+  FILTER(YEAR(?start) = ${startYear})
+}`;
+
+/**
+ * Clubs of a league with their venues. Members are the season's participants when Wikidata lists
+ * them (exact), otherwise clubs with a P118 membership without end date (can be stale).
+ */
+export const CLUBS_IN_LEAGUE = (leagueQid: string, seasonTeams: string[] = []) => `
+SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {
+  ${
+    seasonTeams.length > 0
+      ? `VALUES ?club { ${seasonTeams.map((q) => `wd:${q}`).join(' ')} }`
+      : `?club p:P118 ?membership .
   ?membership ps:P118 wd:${leagueQid} .
-  FILTER NOT EXISTS { ?membership pq:P582 ?end }
+  FILTER NOT EXISTS { ?membership pq:P582 ?end }`
+  }
   ?club wdt:P31/wdt:P279* wd:Q476028 .
+  OPTIONAL { ?club wdt:P831 ?parent }
+  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }
   FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }
   OPTIONAL { ?club wdt:P856 ?website }
   OPTIONAL { ?club wdt:P154 ?logo }
@@ -53,6 +71,8 @@ export interface LeagueRows {
   clubs: Club[];
   stadiums: Stadium[];
   excluded: string[];
+  /** Clubs with an English Wikipedia article: the main item when Wikidata has duplicates. */
+  withEnwiki: Set<string>;
 }
 
 /** Groups the flat SPARQL rows (one per club x website x logo x venue x ... combination) into records. */
@@ -61,6 +81,7 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
   const venues = new Map<string, { qid: string; preferred: boolean }[]>();
   const stadiums = new Map<string, Stadium>();
   const excluded = new Set<string>();
+  const withEnwiki = new Set<string>();
 
   for (const row of rows) {
     const clubQid = qid(row.club);
@@ -71,10 +92,12 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
       excluded.add(`${clubQid} (no label)`);
       continue;
     }
-    if (isReserveTeam(name)) {
-      excluded.add(`${name} (${clubQid})`);
+    if (isReserveTeam(name, !!row.parent)) {
+      // P831 marks reserve teams and also a club's separate football-company item (FC Augsburg Q97905916).
+      excluded.add(`${name} (${clubQid})${row.parent ? `, part of club ${qid(row.parent) ?? '?'} (P831)` : ''}`);
       continue;
     }
+    if (row.enwiki) withEnwiki.add(clubQid);
 
     let club = clubs.get(clubQid);
     if (!club) {
@@ -122,6 +145,38 @@ export function parseLeagueRows(rows: Row[], league: SeedLeague, season: string)
     clubs: [...clubs.values()],
     stadiums: [...stadiums.values()],
     excluded: [...excluded].sort(),
+    withEnwiki,
+  };
+}
+
+/**
+ * Wikidata sometimes has two items for one club (the club and its football company, e.g.
+ * FC Augsburg Q15755 and Q97905916), both listed as league members. Clubs of one association with
+ * the same name and the same home venue (or no venue on one side) are one club: the item with an
+ * English Wikipedia article is kept, otherwise the oldest QID. The others lose their memberships
+ * of this season, so they drop out of the site but stay in the data for reference.
+ */
+export function dedupeClubs(clubs: Club[], association: string, season: string, withEnwiki: Set<string>): { clubs: Club[]; dropped: string[] } {
+  const current = clubs.filter((c) => c.association === association && c.leagues.some((m) => m.season === season));
+  const byName = new Map<string, Club[]>();
+  for (const c of current) {
+    const key = c.name.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+    byName.set(key, [...(byName.get(key) ?? []), c]);
+  }
+  const drop = new Map<string, string>();
+  for (const group of byName.values()) {
+    if (group.length < 2) continue;
+    const ranked = [...group].sort((a, b) => Number(withEnwiki.has(b.qid)) - Number(withEnwiki.has(a.qid)) || compareQid(a.qid, b.qid));
+    const keep = ranked[0]!;
+    for (const other of ranked.slice(1)) {
+      const sameVenue = !keep.stadiumIds[0] || !other.stadiumIds[0] || keep.stadiumIds[0] === other.stadiumIds[0];
+      if (sameVenue) drop.set(other.qid, keep.qid);
+    }
+  }
+  if (drop.size === 0) return { clubs, dropped: [] };
+  return {
+    clubs: clubs.map((c) => (drop.has(c.qid) ? { ...c, leagues: c.leagues.filter((m) => m.season !== season) } : c)),
+    dropped: [...drop].map(([q, keep]) => `${clubs.find((c) => c.qid === q)!.name} (${q}), duplicate item of ${keep}`),
   };
 }
 

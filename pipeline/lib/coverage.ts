@@ -54,15 +54,16 @@ export function coverageMarkdown({ season, associations, leagues, clubs, stadium
   out.push('');
 
   out.push('## Leagues', '');
-  out.push('| League | Tier | Status | Clubs found | Wikidata P1132 | Difference |');
-  out.push('|---|---:|---|---:|---:|---:|');
+  out.push('Membership source: "season" = the season\'s participant list on Wikidata (exact); "open" = P118 memberships without end date (can include relegated clubs).', '');
+  out.push('| League | Tier | Status | Source | Clubs found | Wikidata P1132 | Difference |');
+  out.push('|---|---:|---|---|---:|---:|---:|');
   for (const a of imported) {
     for (const r of report[a.code] ?? []) {
       const info = leagues.find((l) => l.qid === r.league);
       const found = current.filter((c) => c.leagues.some((m) => m.season === season && m.league === r.league)).length;
       const diff = info?.participants ? found - info.participants : undefined;
       out.push(
-        `| ${a.code} ${r.name} (${r.league}) | ${info?.tier ?? '?'} | ${r.status} | ${found} | ${info?.participants ?? '?'} | ` +
+        `| ${a.code} ${r.name} (${r.league}) | ${info?.tier ?? '?'} | ${r.status} | ${r.source === 'season' ? 'season' : 'open'} | ${found} | ${info?.participants ?? '?'} | ` +
           `${diff === undefined ? '?' : diff > 0 ? `+${diff}` : diff} |`,
       );
     }
