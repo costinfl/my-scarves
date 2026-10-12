@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dedupeClubs, isReserveTeam, mergeClubs, mergeStadiums, parseLeagueRows, seasonFor } from './clubs.ts';
+import { dedupeClubs, dropChildTeams, isReserveTeam, mergeClubs, mergeStadiums, parseLeagueRows, seasonFor } from './clubs.ts';
 import type { Club, SeedLeague } from './types.ts';
 import type { Row } from './wikidata.ts';
 
@@ -23,10 +23,7 @@ describe('isReserveTeam', () => {
     'keeps %s',
     (name) => expect(isReserveTeam(name)).toBe(false),
   );
-  it('excludes any team with a parent club, whatever its name', () => {
-    expect(isReserveTeam('Jong Ajax', true)).toBe(true);
-    expect(isReserveTeam('Steaua II', true)).toBe(true);
-  });
+  it('does not exclude " II" names on their own', () => expect(isReserveTeam('Steaua II')).toBe(false));
 });
 
 describe('parseLeagueRows', () => {
@@ -61,7 +58,7 @@ describe('parseLeagueRows', () => {
     expect(r.excluded).toEqual(['Q2 (no label)', 'Rapid B (Q3)']);
   });
 
-  it('excludes teams with a parent club and records which clubs have an English article', () => {
+  it('records parent clubs and which clubs have an English article, without excluding yet', () => {
     const r = parseLeagueRows(
       [
         { club: `${E}Q1`, clubLabel: 'Willem II', enwiki: 'https://en.wikipedia.org/wiki/Willem_II_(football_club)' },
@@ -70,46 +67,33 @@ describe('parseLeagueRows', () => {
       LIGA1,
       '2026-27',
     );
-    expect(r.clubs.map((c) => c.name)).toEqual(['Willem II']);
-    expect(r.excluded).toEqual(['Jong PSV (Q2), part of club Q3 (P831)']);
+    expect(r.clubs.map((c) => c.name)).toEqual(['Willem II', 'Jong PSV']);
+    expect([...r.parents]).toEqual([['Q2', 'Q3']]);
     expect([...r.withEnwiki]).toEqual(['Q1']);
   });
 });
 
-describe('mergeClubs', () => {
-  const base: Club = {
-    qid: 'Q1',
-    name: 'Rapid',
-    association: 'ROU',
-    leagues: [
-      { league: 'Q237753', tier: 1, season: '2026-27' },
-      { league: 'Q386384', tier: 2, season: '2025-26' },
-    ],
-    officialWebsite: 'https://rapid.ro',
-    stadiumIds: ['Q30'],
-  };
+describe('dropChildTeams', () => {
+  const m = [{ league: 'L', tier: 1 as const, season: '2026-27' }];
+  const club = (qid: string, name: string, association = 'GER'): Club => ({ qid, name, association, leagues: m, stadiumIds: [] });
+  const clubs = [
+    club('Q15755', 'FC Augsburg'),
+    club('Q97905916', 'FC Augsburg'),
+    club('Q43710', 'Antalyaspor', 'TUR'),
+    club('Q200', 'PSV', 'NED'),
+    club('Q201', 'Jong PSV', 'NED'),
+  ];
+  const parents = new Map([
+    ['Q97905916', 'Q15755'], // football-company item of an imported club
+    ['Q43710', 'Q12808521'], // multi-sport parent that is not an imported football club
+    ['Q201', 'Q200'], // reserve team
+  ]);
 
-  it('never erases existing values with empty ones', () => {
-    const incoming: Club = { qid: 'Q1', name: 'Rapid București', association: 'ROU', leagues: [], stadiumIds: [] };
-    const [merged] = mergeClubs([base], [incoming], [], '2026-27');
-    expect(merged).toMatchObject({ name: 'Rapid București', officialWebsite: 'https://rapid.ro', stadiumIds: ['Q30'] });
-  });
-
-  it('replaces only this season memberships of the imported leagues', () => {
-    // Q1 dropped out of Liga I this season; its 2025-26 Liga II membership is history and stays.
-    const [merged] = mergeClubs([base], [], ['Q237753'], '2026-27');
-    expect(merged!.leagues).toEqual([{ league: 'Q386384', tier: 2, season: '2025-26' }]);
-  });
-
-  it('is idempotent', () => {
-    const once = mergeClubs([], [base], ['Q237753'], '2026-27');
-    expect(mergeClubs(once, [base], ['Q237753'], '2026-27')).toEqual(once);
-  });
-
-  it('does not mutate its input', () => {
-    const existing = [structuredClone(base)];
-    mergeClubs(existing, [], ['Q237753'], '2026-27');
-    expect(existing).toEqual([base]);
+  it('drops teams whose parent is an imported club of the same association, keeps the rest', () => {
+    const ger = dropChildTeams(clubs, 'GER', '2026-27', parents);
+    expect(ger.dropped).toEqual(['FC Augsburg (Q97905916), part of club Q15755 (P831)']);
+    expect(dropChildTeams(clubs, 'TUR', '2026-27', parents).dropped).toEqual([]);
+    expect(dropChildTeams(clubs, 'NED', '2026-27', parents).dropped).toEqual(['Jong PSV (Q201), part of club Q200 (P831)']);
   });
 });
 
