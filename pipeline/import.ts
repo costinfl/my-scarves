@@ -1,7 +1,8 @@
 // Imports clubs and home stadiums of the tier 1/2 leagues of the given associations from Wikidata.
 // Usage: npm run import -- ROU ENG ESP [--refresh]
 // Writes only to data/generated/ and data/cache/. Leagues that fail label verification are skipped.
-import { CLUBS_IN_LEAGUE, mergeClubs, mergeStadiums, parseLeagueRows, seasonFor } from './lib/clubs.ts';
+import { CLUBS_IN_LEAGUE, dedupeClubs, mergeClubs, mergeStadiums, parseLeagueRows, SEASON_TEAMS, seasonFor } from './lib/clubs.ts';
+import { qid } from './lib/wikidata.ts';
 import { readJson, writeJson } from './lib/json.ts';
 import { checkLeagues } from './lib/leagues.ts';
 import { paths } from './lib/paths.ts';
@@ -30,6 +31,7 @@ const report = readJson<Record<string, LeagueImportResult[]>>(paths.importReport
 
 for (const code of codes) {
   const results: LeagueImportResult[] = [];
+  const withEnwiki = new Set<string>();
   const mine = checks.filter((c) => c.seed.association === code);
   if (mine.length === 0) console.warn(`${code}: no leagues in data/seed/leagues.json`);
 
@@ -42,11 +44,18 @@ for (const code of codes) {
     }
     leagueInfo.set(seed.qid, check.info);
     try {
-      const rows = await sparql(CLUBS_IN_LEAGUE(seed.qid), { refresh });
+      // Prefer the season's participant list (exact) over open-ended P118 memberships (can be stale).
+      const seasonTeams = (await sparql(SEASON_TEAMS(seed.qid, Number(season.slice(0, 4))), { refresh }))
+        .flatMap((r) => qid(r.team) ?? []);
+      const rows = await sparql(CLUBS_IN_LEAGUE(seed.qid, seasonTeams), { refresh });
       const parsed = parseLeagueRows(rows, seed, season);
+      for (const q of parsed.withEnwiki) withEnwiki.add(q);
       clubs = mergeClubs(clubs, parsed.clubs, [seed.qid], season);
       stadiums = mergeStadiums(stadiums, parsed.stadiums);
-      console.log(`${code} ${seed.name}: ${parsed.clubs.length} clubs, ${parsed.stadiums.length} stadiums, ${parsed.excluded.length} excluded`);
+      console.log(
+        `${code} ${seed.name}: ${parsed.clubs.length} clubs (${seasonTeams.length ? 'season participants' : 'open memberships'}), ` +
+          `${parsed.stadiums.length} stadiums, ${parsed.excluded.length} excluded`,
+      );
       results.push({
         league: seed.qid,
         name: seed.name,
@@ -54,12 +63,20 @@ for (const code of codes) {
         clubs: parsed.clubs.length,
         stadiums: parsed.stadiums.length,
         excluded: parsed.excluded,
+        source: seasonTeams.length ? 'season' : 'memberships',
       });
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
       console.warn(`${code} ${seed.name}: failed, ${msg}`);
       results.push({ league: seed.qid, name: seed.name, status: `failed: ${msg}`, clubs: 0, stadiums: 0, excluded: [] });
     }
+  }
+  const deduped = dedupeClubs(clubs, code, season, withEnwiki);
+  clubs = deduped.clubs;
+  if (deduped.dropped.length) {
+    console.log(`${code}: merged duplicate items: ${deduped.dropped.join('; ')}`);
+    const first = results.find((r) => r.status === 'ok');
+    if (first) first.excluded = [...first.excluded, ...deduped.dropped].sort();
   }
   report[code] = results;
 }

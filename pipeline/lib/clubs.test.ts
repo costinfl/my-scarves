@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isReserveTeam, mergeClubs, mergeStadiums, parseLeagueRows, seasonFor } from './clubs.ts';
+import { dedupeClubs, isReserveTeam, mergeClubs, mergeStadiums, parseLeagueRows, seasonFor } from './clubs.ts';
 import type { Club, SeedLeague } from './types.ts';
 import type { Row } from './wikidata.ts';
 
@@ -15,14 +15,18 @@ describe('seasonFor', () => {
 });
 
 describe('isReserveTeam', () => {
-  it.each(['Real Sociedad B', 'FC Barcelona Atlètic', 'Real Madrid Castilla', 'Steaua II', 'Chelsea U21', 'Arsenal Women'])(
+  it.each(['Real Sociedad B', 'FC Barcelona Atlètic', 'Real Madrid Castilla', 'Chelsea U21', 'Arsenal Women'])(
     'flags %s',
     (name) => expect(isReserveTeam(name)).toBe(true),
   );
-  it.each(['FCSB', 'Real Betis', 'CFR Cluj', 'Brighton & Hove Albion', 'Burgos CF', 'Universitatea Craiova'])(
+  it.each(['FCSB', 'Real Betis', 'CFR Cluj', 'Brighton & Hove Albion', 'Burgos CF', 'Universitatea Craiova', 'Willem II'])(
     'keeps %s',
     (name) => expect(isReserveTeam(name)).toBe(false),
   );
+  it('excludes any team with a parent club, whatever its name', () => {
+    expect(isReserveTeam('Jong Ajax', true)).toBe(true);
+    expect(isReserveTeam('Steaua II', true)).toBe(true);
+  });
 });
 
 describe('parseLeagueRows', () => {
@@ -55,6 +59,20 @@ describe('parseLeagueRows', () => {
     ]);
     expect(r.stadiums).toContainEqual({ qid: 'Q30', name: 'Giulești', lat: 44.45, lon: 26.07, capacity: 14047 });
     expect(r.excluded).toEqual(['Q2 (no label)', 'Rapid B (Q3)']);
+  });
+
+  it('excludes teams with a parent club and records which clubs have an English article', () => {
+    const r = parseLeagueRows(
+      [
+        { club: `${E}Q1`, clubLabel: 'Willem II', enwiki: 'https://en.wikipedia.org/wiki/Willem_II_(football_club)' },
+        { club: `${E}Q2`, clubLabel: 'Jong PSV', parent: `${E}Q3` },
+      ],
+      LIGA1,
+      '2026-27',
+    );
+    expect(r.clubs.map((c) => c.name)).toEqual(['Willem II']);
+    expect(r.excluded).toEqual(['Jong PSV (Q2), reserve team']);
+    expect([...r.withEnwiki]).toEqual(['Q1']);
   });
 });
 
@@ -92,6 +110,29 @@ describe('mergeClubs', () => {
     const existing = [structuredClone(base)];
     mergeClubs(existing, [], ['Q237753'], '2026-27');
     expect(existing).toEqual([base]);
+  });
+});
+
+describe('dedupeClubs', () => {
+  const m = (league: string) => [{ league, tier: 1 as const, season: '2026-27' }];
+  const clubs: Club[] = [
+    { qid: 'Q97905916', name: 'FC Augsburg', association: 'GER', leagues: m('Q82595'), stadiumIds: ['Q167418'] },
+    { qid: 'Q15755', name: 'FC Augsburg', association: 'GER', leagues: m('Q82595'), stadiumIds: ['Q167418'] },
+    { qid: 'Q97905930', name: 'Hamburger SV', association: 'GER', leagues: m('Q152665'), stadiumIds: ['Q150933'] },
+    { qid: 'Q51974', name: 'Hamburger SV', association: 'GER', leagues: m('Q82595'), stadiumIds: ['Q150933'] },
+    { qid: 'Q100', name: 'Racing', association: 'GER', leagues: m('Q82595'), stadiumIds: ['Q1'] },
+    { qid: 'Q101', name: 'Racing', association: 'GER', leagues: m('Q152665'), stadiumIds: ['Q2'] },
+  ];
+
+  it('keeps the item with an English article (or the oldest) and drops the duplicate\'s memberships', () => {
+    const { clubs: out, dropped } = dedupeClubs(clubs, 'GER', '2026-27', new Set(['Q15755', 'Q51974']));
+    const current = out.filter((c) => c.leagues.length > 0).map((c) => c.qid);
+    expect(current).toEqual(['Q15755', 'Q51974', 'Q100', 'Q101']);
+    expect(dropped).toEqual(['FC Augsburg (Q97905916), duplicate item of Q15755', 'Hamburger SV (Q97905930), duplicate item of Q51974']);
+  });
+
+  it('does not merge same-named clubs with different home venues', () => {
+    expect(dedupeClubs(clubs.slice(4), 'GER', '2026-27', new Set()).dropped).toEqual([]);
   });
 });
 
