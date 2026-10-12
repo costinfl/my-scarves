@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.003664&lon=39.705317&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207497432,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":981462063,\"lat\":\"41.0040430\",\"lon\":\"39.7052186\",\"category\":\"leisure\",\"type\":\"track\",\"place_rank\":30,\"importance\":6.71648737315483e-05,\"addresstype\":\"leisure\",\"name\":\"Koşu Yolu\",\"display_name\":\"Koşu Yolu, Faik Dranaz Caddesi, İnönü Mahallesi, Trabzon, Ortahisar, Trabzon, Karadeniz Bölgesi, 61030, Türkiye\",\"address\":{\"leisure\":\"Koşu Yolu\",\"road\":\"Faik Dranaz Caddesi\",\"suburb\":\"İnönü Mahallesi\",\"city\":\"Trabzon\",\"town\":\"Ortahisar\",\"province\":\"Trabzon\",\"ISO3166-2-lvl4\":\"TR-61\",\"region\":\"Karadeniz Bölgesi\",\"postcode\":\"61030\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.0035236\",\"41.0045683\",\"39.7047127\",\"39.7057169\"]}",
+  "fetchedAt": "2026-10-12T18:00:28.772Z"
+}

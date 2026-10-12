@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.408333&lon=9.306389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72970531,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":10091934168,\"lat\":\"47.4082296\",\"lon\":\"9.3062204\",\"category\":\"shop\",\"type\":\"books\",\"place_rank\":30,\"importance\":6.722743572132474e-05,\"addresstype\":\"shop\",\"name\":\"Orell Füssli\",\"display_name\":\"Orell Füssli, Zürcher Strasse, Winkeln, St. Gallen, Wahlkreis St. Gallen, St. Gallen, 9015, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"shop\":\"Orell Füssli\",\"road\":\"Zürcher Strasse\",\"suburb\":\"Winkeln\",\"city\":\"St. Gallen\",\"county\":\"Wahlkreis St. Gallen\",\"state\":\"St. Gallen\",\"ISO3166-2-lvl4\":\"CH-SG\",\"postcode\":\"9015\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.4081796\",\"47.4082796\",\"9.3061704\",\"9.3062704\"]}",
+  "fetchedAt": "2026-10-12T18:00:17.847Z"
+}

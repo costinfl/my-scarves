@@ -1,0 +1,191 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q485568 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:15.365Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q118919",
+      "enwiki": "https://en.wikipedia.org/wiki/Ey%C3%BCpspor",
+      "website": "https://eyupspor.org.tr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ey%C3%BCpspor%20Logosu.png",
+      "clubLabel": "Eyüpspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q138230",
+      "enwiki": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
+      "website": "http://www.kasimpasaspor.org.tr",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Former%20logo%20of%20Kas%C4%B1mpa%C5%9Fa%20SK%20%281996-2012%29.png",
+      "clubLabel": "Kasımpaşa S.K.",
+      "stadium": "http://www.wikidata.org/entity/Q1770357",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.972222222 41.032777777)",
+      "capacity": "14234",
+      "stadiumLabel": "Recep Tayyip Erdoğan Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q172567",
+      "enwiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
+      "website": "http://bjk.com.tr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/BesiktasJK-Logo.svg",
+      "clubLabel": "Beşiktaş J.K.",
+      "stadium": "http://www.wikidata.org/entity/Q14914703",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.994166666 41.039166666)",
+      "capacity": "41903",
+      "stadiumLabel": "Beşiktaş Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q192641",
+      "enwiki": "https://en.wikipedia.org/wiki/Trabzonspor",
+      "website": "https://www.trabzonspor.org.tr/",
+      "clubLabel": "Trabzonspor",
+      "stadium": "http://www.wikidata.org/entity/Q7012155",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(39.6463 40.9987)",
+      "capacity": "41500",
+      "stadiumLabel": "Papara Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q272712",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
+      "website": "https://www.caykurrizespor.org.tr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20of%20Rivespor%20football%20team.png%22.png",
+      "clubLabel": "Çaykur Rizespor",
+      "stadium": "http://www.wikidata.org/entity/Q1420267",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(40.5732 41.042)",
+      "capacity": "15558",
+      "stadiumLabel": "Yeni Rize Şehir Stadı"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q430107",
+      "enwiki": "https://en.wikipedia.org/wiki/Samsunspor",
+      "website": "http://samsunspor.com.tr",
+      "clubLabel": "Samsunspor FC",
+      "stadium": "http://www.wikidata.org/entity/Q6099597",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(36.4575 41.227777777)",
+      "capacity": "33919",
+      "stadiumLabel": "Samsun 19 Mayıs Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q495299",
+      "enwiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
+      "website": "https://www.galatasaray.org",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Galatasaray%20Sports%20Club%20Logo.svg",
+      "clubLabel": "Galatasaray S.K.",
+      "stadium": "http://www.wikidata.org/entity/Q81492",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.991 41.103388888)",
+      "capacity": "52652",
+      "stadiumLabel": "Rams Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q513237",
+      "enwiki": "https://en.wikipedia.org/wiki/Kocaelispor",
+      "website": "https://kocaelispor.com.tr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Kocaelispor%20AKBALIK.png",
+      "clubLabel": "Kocaelispor",
+      "stadium": "http://www.wikidata.org/entity/Q19611724",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(30.0175 40.774722222)",
+      "stadiumLabel": "Kocaeli Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q513840",
+      "enwiki": "https://en.wikipedia.org/wiki/Konyaspor",
+      "website": "http://www.konyaspor.org.tr/",
+      "clubLabel": "Konyaspor",
+      "stadium": "http://www.wikidata.org/entity/Q7009690",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(32.4881 37.9462)",
+      "capacity": "42276",
+      "stadiumLabel": "Konya Büyükşehir Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q641373",
+      "enwiki": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K.",
+      "website": "http://www.genclerbirligi.org.tr/",
+      "clubLabel": "Gençlerbirliği S.K.",
+      "stadium": "http://www.wikidata.org/entity/Q28451127",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(32.6139 39.98)",
+      "stadiumLabel": "Eryaman Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q824850",
+      "enwiki": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
+      "website": "https://www.gaziantepfk.org/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/GFK-Official-Logo.png",
+      "clubLabel": "Gaziantep F.K.",
+      "stadium": "http://www.wikidata.org/entity/Q17512849",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(37.3825 37.123888888)",
+      "capacity": "33502",
+      "stadiumLabel": "Gaziantep Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q857938",
+      "enwiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
+      "website": "http://www.ibfk.com.tr/",
+      "clubLabel": "İstanbul Başakşehir F.K.",
+      "stadium": "http://www.wikidata.org/entity/Q221122",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.765702777 41.074472222)",
+      "capacity": "80597",
+      "stadiumLabel": "Atatürk Olympic Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q857938",
+      "enwiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
+      "website": "http://www.ibfk.com.tr/",
+      "clubLabel": "İstanbul Başakşehir F.K.",
+      "stadium": "http://www.wikidata.org/entity/Q17182993",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.8087 41.1228)",
+      "stadiumLabel": "Başakşehir Fatih Terim Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1423118",
+      "enwiki": "https://en.wikipedia.org/wiki/G%C3%B6ztepe_S.K.",
+      "website": "https://www.goztepe.org.tr/",
+      "clubLabel": "Göztepe S.K.",
+      "stadium": "http://www.wikidata.org/entity/Q259830",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.178055555 38.435)",
+      "capacity": "70000",
+      "stadiumLabel": "İzmir Atatürk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1636019",
+      "enwiki": "https://en.wikipedia.org/wiki/Alanyaspor",
+      "website": "https://www.alanyaspor.org.tr/",
+      "clubLabel": "Alanyaspor",
+      "stadium": "http://www.wikidata.org/entity/Q12808383",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(32.0791 36.5626)",
+      "stadiumLabel": "Alanya Oba Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6601875",
+      "enwiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
+      "website": "https://www.fenerbahce.org",
+      "clubLabel": "Fenerbahçe Istanbul",
+      "stadium": "http://www.wikidata.org/entity/Q222865",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.036666666 40.9875)",
+      "capacity": "50530",
+      "stadiumLabel": "Şükrü Saracoğlu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19613395",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%87orum_F.K.",
+      "website": "https://corumfk.com.tr/",
+      "clubLabel": "Çorum FK",
+      "stadium": "http://www.wikidata.org/entity/Q109452443",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.92282 40.53453)",
+      "capacity": "15000",
+      "stadiumLabel": "Çorum City Stadium"
+    }
+  ]
+}

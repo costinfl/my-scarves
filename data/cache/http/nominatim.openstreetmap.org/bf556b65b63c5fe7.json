@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.946200&lon=32.488100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209729581,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":527090983,\"lat\":\"37.9461452\",\"lon\":\"32.4880684\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.675593194471684e-05,\"addresstype\":\"leisure\",\"name\":\"Konya Büyükşehir Belediye Stadyumu\",\"display_name\":\"Konya Büyükşehir Belediye Stadyumu, Kaletaş Caddesi, Parsana Mahallesi, Konya, Selçuklu, Konya, İç Anadolu Bölgesi, 42130, Türkiye\",\"address\":{\"leisure\":\"Konya Büyükşehir Belediye Stadyumu\",\"road\":\"Kaletaş Caddesi\",\"suburb\":\"Parsana Mahallesi\",\"city\":\"Konya\",\"town\":\"Selçuklu\",\"province\":\"Konya\",\"ISO3166-2-lvl4\":\"TR-42\",\"region\":\"İç Anadolu Bölgesi\",\"postcode\":\"42130\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"37.9456481\",\"37.9466422\",\"32.4876108\",\"32.4885259\"]}",
+  "fetchedAt": "2026-10-12T18:00:58.638Z"
+}

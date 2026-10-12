@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.883056&lon=3.428889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":102613870,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":585223612,\"lat\":\"50.8830811\",\"lon\":\"3.4290269\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.937819485766411e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Meersstraat, Ten Hede, Waregem, Kortrijk, West-Vlaanderen, Vlaanderen, 8790, België / Belgique / Belgien\",\"address\":{\"road\":\"Meersstraat\",\"neighbourhood\":\"Ten Hede\",\"city_district\":\"Waregem\",\"town\":\"Waregem\",\"county\":\"Kortrijk\",\"state\":\"West-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VWV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"8790\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.8825251\",\"50.8836371\",\"3.4282980\",\"3.4297597\"]}",
+  "fetchedAt": "2026-10-12T17:59:39.397Z"
+}

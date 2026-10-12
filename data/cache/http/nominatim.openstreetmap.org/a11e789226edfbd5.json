@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.207778&lon=13.478333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":129027247,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":395282870,\"lat\":\"48.2078245\",\"lon\":\"13.4786304\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.549019607838586e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Messeplatz, Ried im Innkreis, Bezirk Ried, Oberösterreich, 4910, Österreich\",\"address\":{\"road\":\"Messeplatz\",\"town\":\"Ried im Innkreis\",\"county\":\"Bezirk Ried\",\"state\":\"Oberösterreich\",\"ISO3166-2-lvl4\":\"AT-4\",\"postcode\":\"4910\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.2074782\",\"48.2081708\",\"13.4778758\",\"13.4793850\"]}",
+  "fetchedAt": "2026-10-12T17:59:18.499Z"
+}

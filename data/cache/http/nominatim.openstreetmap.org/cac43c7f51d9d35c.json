@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.248900&lon=16.359700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":187770454,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":175029500,\"lat\":\"48.2487647\",\"lon\":\"16.3597049\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.694209201185653e-05,\"addresstype\":\"leisure\",\"name\":\"Hohe Warte\",\"display_name\":\"Hohe Warte, Aussichtsweg, Katastralgemeinde Heiligenstadt, Döbling, Wien, 1190, Österreich\",\"address\":{\"leisure\":\"Hohe Warte\",\"road\":\"Aussichtsweg\",\"suburb\":\"Katastralgemeinde Heiligenstadt\",\"city_district\":\"Döbling\",\"city\":\"Wien\",\"ISO3166-2-lvl4\":\"AT-9\",\"postcode\":\"1190\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"48.2482243\",\"48.2493051\",\"16.3589794\",\"16.3604304\"]}",
+  "fetchedAt": "2026-10-12T17:59:08.725Z"
+}

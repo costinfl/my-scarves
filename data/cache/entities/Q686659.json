@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q686659",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "WSG Tirol"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "WSG Tirol"
+      }
+    }
+  }
+}

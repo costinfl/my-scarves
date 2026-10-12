@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:57:01.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q604079",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "E0B0FF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Mauve"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "mauve"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.813611&lon=5.165278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":105598603,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":11898745552,\"lat\":\"50.8135478\",\"lon\":\"5.1652148\",\"category\":\"shop\",\"type\":\"clothes\",\"place_rank\":30,\"importance\":6.016250858315431e-05,\"addresstype\":\"shop\",\"name\":\"Bel&Bo\",\"display_name\":\"Bel&Bo, 168, Tiensesteenweg, Sint-Truiden, Hasselt, Limburg, Vlaanderen, 3800, België / Belgique / Belgien\",\"address\":{\"shop\":\"Bel&Bo\",\"house_number\":\"168\",\"road\":\"Tiensesteenweg\",\"city_district\":\"Sint-Truiden\",\"town\":\"Sint-Truiden\",\"county\":\"Hasselt\",\"state\":\"Limburg\",\"ISO3166-2-lvl6\":\"BE-VLI\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"3800\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.8134978\",\"50.8135978\",\"5.1651648\",\"5.1652648\"]}",
+  "fetchedAt": "2026-10-12T17:59:40.612Z"
+}

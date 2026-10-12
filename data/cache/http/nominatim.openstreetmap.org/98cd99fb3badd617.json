@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.159167&lon=-2.088889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274936709,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":263291385,\"lat\":\"57.1592664\",\"lon\":\"-2.0887484\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.999237048900615e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Pittodrie Street, Pittodrie, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB24 5QT, United Kingdom\",\"address\":{\"road\":\"Pittodrie Street\",\"suburb\":\"Pittodrie\",\"city\":\"Aberdeen City\",\"ISO3166-2-lvl6\":\"GB-ABE\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"AB24 5QT\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"57.1589603\",\"57.1595703\",\"-2.0896303\",\"-2.0878666\"]}",
+  "fetchedAt": "2026-10-12T17:59:45.043Z"
+}

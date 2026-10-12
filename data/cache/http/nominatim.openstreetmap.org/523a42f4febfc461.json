@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.501389&lon=8.716389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72004594,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":22814472,\"lat\":\"47.5014518\",\"lon\":\"8.7163096\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.545433737692863e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Schützenwiesenweg, Neuwiesen, Stadt, Winterthur, Bezirk Winterthur, Zürich, 8401, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Schützenwiesenweg\",\"quarter\":\"Neuwiesen\",\"suburb\":\"Stadt\",\"city\":\"Winterthur\",\"county\":\"Bezirk Winterthur\",\"state\":\"Zürich\",\"ISO3166-2-lvl4\":\"CH-ZH\",\"postcode\":\"8401\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.5009043\",\"47.5019939\",\"8.7155953\",\"8.7170294\"]}",
+  "fetchedAt": "2026-10-12T18:00:21.249Z"
+}

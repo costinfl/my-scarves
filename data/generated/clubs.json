@@ -1,5 +1,902 @@
 [
   {
+    "qid": "Q698702",
+    "name": "Admira Wacker",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q872250"
+    ],
+    "officialWebsite": "https://admirawacker.at/",
+    "logoFile": "Admira Wacker logo 2024.svg"
+  },
+  {
+    "qid": "Q696525",
+    "name": "F.C. Blau-Weiß Linz",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q119291101"
+    ],
+    "officialWebsite": "https://blauweiss-linz.at/",
+    "logoFile": "FC Blau-Weiß Linz.png"
+  },
+  {
+    "qid": "Q697322",
+    "name": "FC Gratkorn",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1776570"
+    ],
+    "officialWebsite": "http://www.fcgratkorn.at/",
+    "logoFile": "600px Bianco e Verde di Vienna.png"
+  },
+  {
+    "qid": "Q1387445",
+    "name": "FC Juniors OÖ",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q677617"
+    ],
+    "officialWebsite": "https://www.fcjuniors.at/"
+  },
+  {
+    "qid": "Q1387293",
+    "name": "FC Liefering",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q206135"
+    ],
+    "officialWebsite": "https://www.fc-liefering.at/"
+  },
+  {
+    "qid": "Q692186",
+    "name": "FC Lustenau 07",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q489700"
+    ],
+    "officialWebsite": "http://www.fc-lustenau.com"
+  },
+  {
+    "qid": "Q994811",
+    "name": "FC Red Bull Salzburg",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q206135"
+    ],
+    "officialWebsite": "https://www.redbullsalzburg.at/"
+  },
+  {
+    "qid": "Q261813",
+    "name": "FC Wacker Innsbruck",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q204484"
+    ],
+    "officialWebsite": "https://fc-wacker-innsbruck.at/",
+    "logoFile": "FC Wacker Innsbruck (altes Logo).svg"
+  },
+  {
+    "qid": "Q686826",
+    "name": "First Vienna FC",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3245127"
+    ],
+    "officialWebsite": "http://www.firstviennafc.at/"
+  },
+  {
+    "qid": "Q131209",
+    "name": "FK Austria Wien",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q696476"
+    ],
+    "officialWebsite": "http://www.fk-austria.at/",
+    "logoFile": "FK Austria Wien logo.svg"
+  },
+  {
+    "qid": "Q659780",
+    "name": "Grazer AK",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q696491"
+    ],
+    "officialWebsite": "http://www.grazerak.at/"
+  },
+  {
+    "qid": "Q741382",
+    "name": "Kapfenberger SV",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q671514"
+    ],
+    "officialWebsite": "https://www.ksv1919.at/"
+  },
+  {
+    "qid": "Q392310",
+    "name": "LASK Linz",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q686798"
+    ],
+    "officialWebsite": "http://www.lask.at/",
+    "logoFile": "LASK-Logo 2023.svg"
+  },
+  {
+    "qid": "Q696507",
+    "name": "SC Austria Lustenau",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q489700"
+    ],
+    "officialWebsite": "https://www.austria-lustenau.at/",
+    "logoFile": "SC Austria Lustenau.svg"
+  },
+  {
+    "qid": "Q670438",
+    "name": "SC Rheindorf Altach",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q267159"
+    ],
+    "officialWebsite": "https://www.scra.at/",
+    "logoFile": "SCR Altach Logo.svg"
+  },
+  {
+    "qid": "Q699184",
+    "name": "SK Austria Klagenfurt",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q216167"
+    ],
+    "officialWebsite": "https://www.skaustriaklagenfurt.at/",
+    "logoFile": "SK Austria Klagenfurt 2007 Logo.svg"
+  },
+  {
+    "qid": "Q131215",
+    "name": "SK Rapid Wien",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q17310225"
+    ],
+    "officialWebsite": "https://www.skrapid.at/",
+    "logoFile": "SK Rapid Wien Logo.svg"
+  },
+  {
+    "qid": "Q124007617",
+    "name": "SK Sturm Graz",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q696491"
+    ],
+    "officialWebsite": "https://www.sksturm.at/",
+    "logoFile": "SK Sturm Graz.svg"
+  },
+  {
+    "qid": "Q427491",
+    "name": "SKN St. Pölten",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1988779"
+    ],
+    "officialWebsite": "https://www.skn-stpoelten.at/",
+    "logoFile": "Skn logo farbe web.png"
+  },
+  {
+    "qid": "Q22866",
+    "name": "SV Austria Salzburg",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.austria-salzburg.at/",
+    "logoFile": "SV Austria Salzburg Logo.png"
+  },
+  {
+    "qid": "Q689889",
+    "name": "SV Horn",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.svhorn.at"
+  },
+  {
+    "qid": "Q15137936",
+    "name": "SV Lafnitz",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.sv-licht-loidl-lafnitz.at/"
+  },
+  {
+    "qid": "Q457460",
+    "name": "SV Ried",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q686860"
+    ],
+    "officialWebsite": "http://www.svried.at/",
+    "logoFile": "SV Ried.svg"
+  },
+  {
+    "qid": "Q699746",
+    "name": "TSV Hartberg",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1232645"
+    ],
+    "officialWebsite": "http://www.tsv-hartberg-fussball.at/"
+  },
+  {
+    "qid": "Q694484",
+    "name": "Wolfsberger AC",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q15057371"
+    ],
+    "officialWebsite": "https://www.rzpelletswac.at/"
+  },
+  {
+    "qid": "Q686659",
+    "name": "WSG Tirol",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q219592",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q204484"
+    ],
+    "officialWebsite": "https://www.wsg-fussball.at/"
+  },
+  {
+    "qid": "Q60967849",
+    "name": "Young Violets Austria Wien",
+    "association": "AUT",
+    "leagues": [
+      {
+        "league": "Q650236",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q696476"
+    ],
+    "officialWebsite": "http://www.fk-austria.at/en/teams/second-team-squad/"
+  },
+  {
+    "qid": "Q364698",
+    "name": "Cercle Brugge K.S.V.",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1070150"
+    ],
+    "officialWebsite": "https://www.cerclebrugge.be/",
+    "logoFile": "Logo Cercle Brugge 2022.png"
+  },
+  {
+    "qid": "Q190916",
+    "name": "Club Brugge K.V.",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1070150"
+    ],
+    "officialWebsite": "https://www.clubbrugge.be/"
+  },
+  {
+    "qid": "Q101625593",
+    "name": "Club NXT",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "logoFile": "Isabel van den Berg - Ter Specke Bokaal 2024 in Lisse, Nederland.jpg"
+  },
+  {
+    "qid": "Q1065328",
+    "name": "F.C. Verbroedering Dender Eendracht Hekelgem",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2744854"
+    ],
+    "officialWebsite": "https://fcvdendereh.be/"
+  },
+  {
+    "qid": "Q113884742",
+    "name": "Jong Genk",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q925654"
+    ]
+  },
+  {
+    "qid": "Q2268833",
+    "name": "K Beerschot VA",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1057087"
+    ],
+    "officialWebsite": "http://www.beerschotwilrijk.be"
+  },
+  {
+    "qid": "Q1423718",
+    "name": "K.A.S. Eupen",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q469079"
+    ],
+    "officialWebsite": "http://as-eupen.be/"
+  },
+  {
+    "qid": "Q216032",
+    "name": "K.R.C. Genk",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q925654"
+    ],
+    "officialWebsite": "https://www.krcgenk.be/",
+    "logoFile": "KRC Genk Logo 2016.svg"
+  },
+  {
+    "qid": "Q1053917",
+    "name": "K.S.V. Roeselare",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q265477"
+    ]
+  },
+  {
+    "qid": "Q618620",
+    "name": "K.V. Kortrijk",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1554251"
+    ],
+    "officialWebsite": "http://kvk.be/"
+  },
+  {
+    "qid": "Q849544",
+    "name": "K.V.C. Westerlo",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q606856"
+    ],
+    "officialWebsite": "https://kvcwesterlo.be/"
+  },
+  {
+    "qid": "Q18232",
+    "name": "KAA Gent",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1711746"
+    ],
+    "officialWebsite": "http://www.kaagent.be/"
+  },
+  {
+    "qid": "Q113000",
+    "name": "KV Mechelen",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q649755"
+    ],
+    "officialWebsite": "https://www.kvmechelen.be/"
+  },
+  {
+    "qid": "Q370206",
+    "name": "KV Oostende",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2639454"
+    ],
+    "officialWebsite": "http://www.kvo.be/"
+  },
+  {
+    "qid": "Q1668203",
+    "name": "Lommel SK",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.lommelsk.be/"
+  },
+  {
+    "qid": "Q916199",
+    "name": "Oud-Heverlee Leuven",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q301760"
+    ],
+    "officialWebsite": "https://ohleuven.com/",
+    "logoFile": "Oud-Heverlee Löwen.svg"
+  },
+  {
+    "qid": "Q187528",
+    "name": "R.S.C. Anderlecht",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q262326"
+    ],
+    "officialWebsite": "https://www.rsca.be/"
+  },
+  {
+    "qid": "Q536651",
+    "name": "RAAL La Louvière",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.raal.be/"
+  },
+  {
+    "qid": "Q925973",
+    "name": "RFC Seraing",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.rfc-seraing.be"
+  },
+  {
+    "qid": "Q732002",
+    "name": "Royal Antwerp F.C.",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596290"
+    ],
+    "officialWebsite": "http://www.rafc.be/"
+  },
+  {
+    "qid": "Q19585",
+    "name": "Royal Charleroi S.C.",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1147565"
+    ],
+    "officialWebsite": "https://www.sporting-charleroi.be/"
+  },
+  {
+    "qid": "Q196160",
+    "name": "Royale Union Saint-Gilloise",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3495665"
+    ],
+    "officialWebsite": "https://rusg.brussels/",
+    "logoFile": "USG.png"
+  },
+  {
+    "qid": "Q291937",
+    "name": "Royale Union Tubize-Braine",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2110834"
+    ],
+    "officialWebsite": "https://www.rutb.be/"
+  },
+  {
+    "qid": "Q20979061",
+    "name": "RWDM Brussels",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.rwdm.brussels/",
+    "logoFile": "Rwdmolenbeek.svg"
+  },
+  {
+    "qid": "Q376635",
+    "name": "S.V. Zulte Waregem",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1850335"
+    ],
+    "officialWebsite": "https://www.essevee.be/"
+  },
+  {
+    "qid": "Q138248",
+    "name": "Sint-Truidense V.V.",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q515782"
+    ],
+    "officialWebsite": "https://www.stvv.com/"
+  },
+  {
+    "qid": "Q115476719",
+    "name": "SL16 FC",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q23925620",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q959934",
+      "Q17620899"
+    ]
+  },
+  {
+    "qid": "Q509170",
+    "name": "Sportkring Beveren",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2135912"
+    ],
+    "officialWebsite": "https://www.skbeveren.be/"
+  },
+  {
+    "qid": "Q190561",
+    "name": "Standard Liège",
+    "association": "BEL",
+    "leagues": [
+      {
+        "league": "Q216022",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q959934"
+    ],
+    "officialWebsite": "http://standard.be/"
+  },
+  {
     "qid": "Q19568",
     "name": "AFC Bournemouth",
     "association": "ENG",
@@ -1453,13 +2350,7 @@
     "qid": "Q270051",
     "name": "A.C. Ajaccio",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q1807356"
     ],
@@ -1518,13 +2409,7 @@
     "qid": "Q2619514",
     "name": "AS Béziers",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q3496024"
     ],
@@ -1666,13 +2551,7 @@
     "qid": "Q1132418",
     "name": "FC Martigues",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q118955"
     ],
@@ -1749,13 +2628,7 @@
     "qid": "Q627334",
     "name": "Gazélec Ajaccio",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q1134861"
     ],
@@ -1996,13 +2869,7 @@
     "qid": "Q208399",
     "name": "SC Bastia",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q1434942"
     ],
@@ -2112,13 +2979,7 @@
     "qid": "Q369349",
     "name": "US Orléans",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q3496035"
     ],
@@ -2144,13 +3005,7 @@
     "qid": "Q212269",
     "name": "Valenciennes F.C.",
     "association": "FRA",
-    "leagues": [
-      {
-        "league": "Q217374",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q2299919"
     ],
@@ -2411,13 +3266,7 @@
     "qid": "Q97905916",
     "name": "FC Augsburg",
     "association": "GER",
-    "leagues": [
-      {
-        "league": "Q82595",
-        "tier": 1,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q167418"
     ]
@@ -2526,13 +3375,7 @@
     "qid": "Q97905930",
     "name": "Hamburger SV",
     "association": "GER",
-    "leagues": [
-      {
-        "league": "Q152665",
-        "tier": 2,
-        "season": "2026-27"
-      }
-    ],
+    "leagues": [],
     "stadiumIds": [
       "Q150933"
     ],
@@ -4302,6 +5145,22 @@
     "logoFile": "VVV Venlo.svg"
   },
   {
+    "qid": "Q332664",
+    "name": "Willem II",
+    "association": "NED",
+    "leagues": [
+      {
+        "league": "Q167541",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1408176"
+    ],
+    "officialWebsite": "https://www.willem-ii.nl/"
+  },
+  {
     "qid": "Q2410944",
     "name": "Académico de Viseu FC",
     "association": "POR",
@@ -5506,5 +6365,1379 @@
       "Q14322671"
     ],
     "officialWebsite": "https://www.politehnicatimisoara.com"
+  },
+  {
+    "qid": "Q187326",
+    "name": "Aberdeen F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1141259"
+    ],
+    "officialWebsite": "https://www.afc.co.uk/"
+  },
+  {
+    "qid": "Q19593",
+    "name": "Celtic F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q216037"
+    ],
+    "officialWebsite": "https://www.celticfc.com/japanese-section"
+  },
+  {
+    "qid": "Q1059399",
+    "name": "Dumbarton F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14468438",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q614983"
+    ],
+    "officialWebsite": "https://dumbartonfootballclub.com/"
+  },
+  {
+    "qid": "Q335483",
+    "name": "Dundee F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q615561"
+    ],
+    "officialWebsite": "https://dundeefc.co.uk/"
+  },
+  {
+    "qid": "Q192873",
+    "name": "Dundee United F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q777672"
+    ],
+    "officialWebsite": "https://www.dundeeunitedfc.co.uk/"
+  },
+  {
+    "qid": "Q390256",
+    "name": "Dunfermline Athletic F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14468438",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1277834"
+    ],
+    "officialWebsite": "https://dafc.co.uk/"
+  },
+  {
+    "qid": "Q219241",
+    "name": "Falkirk F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1027157"
+    ],
+    "officialWebsite": "https://www.falkirkfc.co.uk/"
+  },
+  {
+    "qid": "Q498473",
+    "name": "Hamilton Academical F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14468438",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1982570"
+    ],
+    "officialWebsite": "https://www.hamiltonacciesfc.co.uk/"
+  },
+  {
+    "qid": "Q202093",
+    "name": "Heart of Midlothian F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1326446"
+    ],
+    "officialWebsite": "https://www.heartsfc.co.uk/"
+  },
+  {
+    "qid": "Q192597",
+    "name": "Hibernian F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1278116"
+    ],
+    "officialWebsite": "https://www.hibernianfc.co.uk/"
+  },
+  {
+    "qid": "Q309059",
+    "name": "Inverness Caledonian Thistle F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14468438",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1026588"
+    ],
+    "officialWebsite": "https://ictfc.com/"
+  },
+  {
+    "qid": "Q210961",
+    "name": "Kilmarnock F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1637255"
+    ],
+    "officialWebsite": "https://kilmarnockfc.co.uk/"
+  },
+  {
+    "qid": "Q867921",
+    "name": "Livingston F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1309785"
+    ],
+    "officialWebsite": "https://livingstonfc.co.uk/"
+  },
+  {
+    "qid": "Q216523",
+    "name": "Motherwell F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q252696"
+    ],
+    "officialWebsite": "https://www.motherwellfc.co.uk/",
+    "logoFile": "Motherwell FC crest.svg"
+  },
+  {
+    "qid": "Q822722",
+    "name": "Partick Thistle F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14468438",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1419068"
+    ],
+    "officialWebsite": "https://ptfc.co.uk/"
+  },
+  {
+    "qid": "Q19597",
+    "name": "Rangers F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q208709"
+    ],
+    "officialWebsite": "https://www.rangers.co.uk/"
+  },
+  {
+    "qid": "Q180420",
+    "name": "Ross County F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14468438",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1786202"
+    ],
+    "officialWebsite": "https://www.rosscountyfootballclub.co.uk/"
+  },
+  {
+    "qid": "Q268776",
+    "name": "St Johnstone F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1848848"
+    ],
+    "officialWebsite": "https://www.perthstjohnstonefc.co.uk/"
+  },
+  {
+    "qid": "Q319136",
+    "name": "St. Mirren F.C.",
+    "association": "SCO",
+    "leagues": [
+      {
+        "league": "Q14377162",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2139208"
+    ],
+    "officialWebsite": "https://www.stmirren.com/"
+  },
+  {
+    "qid": "Q190526",
+    "name": "BSC Young Boys",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q194479"
+    ],
+    "officialWebsite": "https://www.bscyb.ch/",
+    "logoFile": "Young Boys Logo 1957 bis 1971.svg"
+  },
+  {
+    "qid": "Q166496",
+    "name": "Étoile Carouge FC",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596242"
+    ],
+    "officialWebsite": "https://etoile-carouge.ch/",
+    "logoFile": "Étoile Carouge FC 2023 logo.png"
+  },
+  {
+    "qid": "Q189671",
+    "name": "FC Basel",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q190010"
+    ],
+    "officialWebsite": "https://www.fcb.ch/",
+    "logoFile": "FC Basel.png"
+  },
+  {
+    "qid": "Q674799",
+    "name": "FC Biel-Bienne",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q385083"
+    ],
+    "officialWebsite": "http://fcbiel-bienne.ch/",
+    "logoFile": "Wappen FC Biel-Bienne.png"
+  },
+  {
+    "qid": "Q668573",
+    "name": "FC Chiasso",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q663857"
+    ],
+    "officialWebsite": "https://fcchiasso.com/"
+  },
+  {
+    "qid": "Q690074",
+    "name": "FC Gossau",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2312361"
+    ],
+    "officialWebsite": "https://www.fcgossau.ch"
+  },
+  {
+    "qid": "Q309456",
+    "name": "FC Lausanne-Sport",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q668606"
+    ],
+    "officialWebsite": "https://www.lausanne-sport.ch/",
+    "logoFile": "FC Lausanne-Sport logo.svg"
+  },
+  {
+    "qid": "Q368675",
+    "name": "FC Locarno",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q663896"
+    ],
+    "officialWebsite": "http://www.fclocarno.ch",
+    "logoFile": "FC Locarno.svg"
+  },
+  {
+    "qid": "Q633521",
+    "name": "FC Lugano",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q140038602"
+    ],
+    "officialWebsite": "https://www.fclugano.com/",
+    "logoFile": "Logo FC Lugano 2025.svg"
+  },
+  {
+    "qid": "Q223262",
+    "name": "FC Luzern",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q692534"
+    ],
+    "officialWebsite": "https://www.fcl.ch/"
+  },
+  {
+    "qid": "Q321061",
+    "name": "FC Sion",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q669063"
+    ],
+    "officialWebsite": "https://www.fcsionpourtous.ch",
+    "logoFile": "FC Sion.svg"
+  },
+  {
+    "qid": "Q659212",
+    "name": "FC St. Gallen",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q292010"
+    ],
+    "officialWebsite": "http://www.fcsg.ch",
+    "logoFile": "FC St. Gallen logo.svg"
+  },
+  {
+    "qid": "Q869907",
+    "name": "FC Stade Lausanne-Ouchy",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fcslo-association.ch"
+  },
+  {
+    "qid": "Q464775",
+    "name": "FC Thun",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q241022"
+    ],
+    "officialWebsite": "https://www.fcthun.ch/",
+    "logoFile": "FC Thun Logo 2011.svg"
+  },
+  {
+    "qid": "Q216773",
+    "name": "FC Vaduz",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q597004"
+    ],
+    "officialWebsite": "http://www.fcvaduz.li/"
+  },
+  {
+    "qid": "Q201969",
+    "name": "FC Winterthur",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q495324"
+    ],
+    "officialWebsite": "https://www.fcwinterthur.ch"
+  },
+  {
+    "qid": "Q583599",
+    "name": "FC Wohlen",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q747467"
+    ],
+    "officialWebsite": "http://www.fcwohlen.ch"
+  },
+  {
+    "qid": "Q206692",
+    "name": "FC Zürich",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q207623"
+    ],
+    "officialWebsite": "https://www.fcz.ch/",
+    "logoFile": "FC Zurich Logo 2022.svg"
+  },
+  {
+    "qid": "Q201360",
+    "name": "Grasshopper Club Zürich",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q207623"
+    ],
+    "officialWebsite": "https://www.gcz.ch/",
+    "logoFile": "GC Zürich Logo.svg"
+  },
+  {
+    "qid": "Q335195",
+    "name": "Neuchâtel Xamax FCS",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q870106"
+    ],
+    "officialWebsite": "https://xamax.ch/",
+    "logoFile": "Neuchatel Xamax logo 2022.png"
+  },
+  {
+    "qid": "Q671950",
+    "name": "SC Kriens",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q681492"
+    ],
+    "officialWebsite": "https://www.sckriens.ch/"
+  },
+  {
+    "qid": "Q219235",
+    "name": "Servette FC",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q202699",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q215295"
+    ],
+    "officialWebsite": "https://www.servettefc.ch/",
+    "logoFile": "Servette FC.svg"
+  },
+  {
+    "qid": "Q669130",
+    "name": "Yverdon-Sport FC",
+    "association": "SUI",
+    "leagues": [
+      {
+        "league": "Q669073",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q677343"
+    ],
+    "officialWebsite": "https://www.yverdonsport.ch/",
+    "logoFile": "Logo Yverdon Sport FC.png"
+  },
+  {
+    "qid": "Q189847",
+    "name": "1461 Trabzon",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1652487"
+    ],
+    "officialWebsite": "http://www.1461trabzon.com.tr/"
+  },
+  {
+    "qid": "Q352251",
+    "name": "Adana Demirspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1467574"
+    ],
+    "officialWebsite": "http://www.adanademirspor.org.tr/"
+  },
+  {
+    "qid": "Q352270",
+    "name": "Adanaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1467574"
+    ],
+    "officialWebsite": "https://www.adanaspor.com.tr/"
+  },
+  {
+    "qid": "Q417685",
+    "name": "Akhisar Belediyespor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q17508044"
+    ],
+    "officialWebsite": "http://www.akhisarspor.com/"
+  },
+  {
+    "qid": "Q1636019",
+    "name": "Alanyaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q12808383"
+    ],
+    "officialWebsite": "https://www.alanyaspor.org.tr/"
+  },
+  {
+    "qid": "Q434929",
+    "name": "Altay S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1543487"
+    ],
+    "officialWebsite": "http://altay.org.tr"
+  },
+  {
+    "qid": "Q447191",
+    "name": "Altınordu F.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1543487",
+      "Q20988339"
+    ],
+    "officialWebsite": "http://www.altinordu.org.tr/",
+    "logoFile": "Altınordu Futbol Kulübü (logo).svg"
+  },
+  {
+    "qid": "Q1231804",
+    "name": "Amed S.F.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q805909",
+    "name": "Balıkesirspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4853221"
+    ],
+    "officialWebsite": "https://www.balikesirspor.com.tr/"
+  },
+  {
+    "qid": "Q172567",
+    "name": "Beşiktaş J.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q14914703"
+    ],
+    "officialWebsite": "http://bjk.com.tr/",
+    "logoFile": "BesiktasJK-Logo.svg"
+  },
+  {
+    "qid": "Q20472948",
+    "name": "Bodrum FK",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q891679",
+    "name": "Boluspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.boluspor.org.tr"
+  },
+  {
+    "qid": "Q630348",
+    "name": "Bucaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q997619"
+    ],
+    "officialWebsite": "http://www.bucaspor.org.tr"
+  },
+  {
+    "qid": "Q272712",
+    "name": "Çaykur Rizespor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1420267"
+    ],
+    "officialWebsite": "https://www.caykurrizespor.org.tr/",
+    "logoFile": "Logo of Rivespor football team.png\".png"
+  },
+  {
+    "qid": "Q19613395",
+    "name": "Çorum FK",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q109452443"
+    ],
+    "officialWebsite": "https://corumfk.com.tr/"
+  },
+  {
+    "qid": "Q643107",
+    "name": "Denizlispor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1187869"
+    ],
+    "officialWebsite": "http://www.denizlispor.org.tr/"
+  },
+  {
+    "qid": "Q2426819",
+    "name": "Erzurumspor F.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6381835"
+    ],
+    "officialWebsite": "https://erzurumsporfk.org/"
+  },
+  {
+    "qid": "Q118919",
+    "name": "Eyüpspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://eyupspor.org.tr/",
+    "logoFile": "Eyüpspor Logosu.png"
+  },
+  {
+    "qid": "Q1398111",
+    "name": "Fatih Karagümrük S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q221122",
+      "Q11173914"
+    ],
+    "officialWebsite": "http://www.karagumruk.com/",
+    "logoFile": "FatihKaragümrükS. K. AKBALIK.png"
+  },
+  {
+    "qid": "Q6601875",
+    "name": "Fenerbahçe Istanbul",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q222865"
+    ],
+    "officialWebsite": "https://www.fenerbahce.org"
+  },
+  {
+    "qid": "Q495299",
+    "name": "Galatasaray S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q81492"
+    ],
+    "officialWebsite": "https://www.galatasaray.org",
+    "logoFile": "Galatasaray Sports Club Logo.svg"
+  },
+  {
+    "qid": "Q824850",
+    "name": "Gaziantep F.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q17512849"
+    ],
+    "officialWebsite": "https://www.gaziantepfk.org/",
+    "logoFile": "GFK-Official-Logo.png"
+  },
+  {
+    "qid": "Q641373",
+    "name": "Gençlerbirliği S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q28451127"
+    ],
+    "officialWebsite": "http://www.genclerbirligi.org.tr/"
+  },
+  {
+    "qid": "Q1543501",
+    "name": "Giresunspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1526701"
+    ],
+    "officialWebsite": "http://www.giresunspor.com.tr"
+  },
+  {
+    "qid": "Q1423118",
+    "name": "Göztepe S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q259830"
+    ],
+    "officialWebsite": "https://www.goztepe.org.tr/"
+  },
+  {
+    "qid": "Q1110567",
+    "name": "Hatayspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://hatayspor.org.tr/"
+  },
+  {
+    "qid": "Q857938",
+    "name": "İstanbul Başakşehir F.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q221122",
+      "Q17182993"
+    ],
+    "officialWebsite": "http://www.ibfk.com.tr/"
+  },
+  {
+    "qid": "Q344328",
+    "name": "İstanbulspor A.Ş.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4843094"
+    ],
+    "officialWebsite": "https://www.istanbulspor.com.tr/"
+  },
+  {
+    "qid": "Q1170018",
+    "name": "Kartal S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q574897"
+    ],
+    "officialWebsite": "http://www.kartalspor.org"
+  },
+  {
+    "qid": "Q138230",
+    "name": "Kasımpaşa S.K.",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1770357"
+    ],
+    "officialWebsite": "http://www.kasimpasaspor.org.tr",
+    "logoFile": "Former logo of Kasımpaşa SK (1996-2012).png"
+  },
+  {
+    "qid": "Q291297",
+    "name": "Kayseri Erciyesspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1493501"
+    ],
+    "officialWebsite": "http://www.erciyesspor.org.tr"
+  },
+  {
+    "qid": "Q608122",
+    "name": "Kayserispor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1493501"
+    ],
+    "officialWebsite": "http://kayserispor.org.tr/"
+  },
+  {
+    "qid": "Q513237",
+    "name": "Kocaelispor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q19611724"
+    ],
+    "officialWebsite": "https://kocaelispor.com.tr/",
+    "logoFile": "Kocaelispor AKBALIK.png"
+  },
+  {
+    "qid": "Q513840",
+    "name": "Konyaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7009690"
+    ],
+    "officialWebsite": "http://www.konyaspor.org.tr/"
+  },
+  {
+    "qid": "Q1347349",
+    "name": "Pendikspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.pendikspor.org.tr/"
+  },
+  {
+    "qid": "Q1369461",
+    "name": "Sakaryaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q937866",
+      "Q17512881"
+    ],
+    "officialWebsite": "https://www.sakaryaspor.org.tr/"
+  },
+  {
+    "qid": "Q430107",
+    "name": "Samsunspor FC",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6099597"
+    ],
+    "officialWebsite": "http://samsunspor.com.tr"
+  },
+  {
+    "qid": "Q388487",
+    "name": "Şanlıurfaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q388470"
+    ],
+    "officialWebsite": "http://www.sanliurfaspor.org"
+  },
+  {
+    "qid": "Q372599",
+    "name": "Sivasspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q597945"
+    ],
+    "officialWebsite": "http://sivasspor.org.tr/",
+    "logoFile": "Sivasspor-Logo.png"
+  },
+  {
+    "qid": "Q1628465",
+    "name": "TKİ Tavşanlı Linyitspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6045919"
+    ],
+    "officialWebsite": "http://www.tavsanlilinyitspor.com/"
+  },
+  {
+    "qid": "Q192641",
+    "name": "Trabzonspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q485568",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7012155"
+    ],
+    "officialWebsite": "https://www.trabzonspor.org.tr/"
+  },
+  {
+    "qid": "Q6062228",
+    "name": "Ümraniyespor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q98091637"
+    ],
+    "officialWebsite": "https://www.umraniyespor.org.tr"
+  },
+  {
+    "qid": "Q303121",
+    "name": "Yeni Malatyaspor",
+    "association": "TUR",
+    "leagues": [
+      {
+        "league": "Q1141692",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1875713"
+    ],
+    "officialWebsite": "http://www.yenimalatyaspor.org.tr/"
   }
 ]

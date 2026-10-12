@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.281000&lon=15.977200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68191073,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":27857254,\"lat\":\"47.2810655\",\"lon\":\"15.9778510\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.34431618017923493,\"addresstype\":\"leisure\",\"name\":\"Profertil Arena Hartberg\",\"display_name\":\"Profertil Arena Hartberg, Otto-Gerlitz-Platz, Katastralgemeinde Ungarvorstadt, Ring, Hartberg, Bezirk Hartberg-Fürstenfeld, Steiermark, 8230, Österreich\",\"address\":{\"leisure\":\"Profertil Arena Hartberg\",\"road\":\"Otto-Gerlitz-Platz\",\"suburb\":\"Katastralgemeinde Ungarvorstadt\",\"village\":\"Ring\",\"town\":\"Hartberg\",\"county\":\"Bezirk Hartberg-Fürstenfeld\",\"state\":\"Steiermark\",\"ISO3166-2-lvl4\":\"AT-6\",\"postcode\":\"8230\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.2802614\",\"47.2821326\",\"15.9767885\",\"15.9787157\"]}",
+  "fetchedAt": "2026-10-12T17:59:19.715Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.995200&lon=6.944000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":92166237,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":365931922,\"lat\":\"46.9951773\",\"lon\":\"6.9441457\",\"category\":\"shop\",\"type\":\"supermarket\",\"place_rank\":30,\"importance\":4.5001144426596745e-05,\"addresstype\":\"shop\",\"name\":\"La Maladière centre\",\"display_name\":\"La Maladière centre, Quai Robert-Comtesse, Neuchâtel, Région Littoral, Neuchâtel, 2001, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"shop\":\"La Maladière centre\",\"road\":\"Quai Robert-Comtesse\",\"town\":\"Neuchâtel\",\"county\":\"Région Littoral\",\"state\":\"Neuchâtel\",\"ISO3166-2-lvl4\":\"CH-NE\",\"postcode\":\"2001\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.9951273\",\"46.9952273\",\"6.9440957\",\"6.9441957\"]}",
+  "fetchedAt": "2026-10-12T18:00:24.430Z"
+}

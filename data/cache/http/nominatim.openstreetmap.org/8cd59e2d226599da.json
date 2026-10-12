@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.939056&lon=-3.232444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274386596,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":61884112,\"lat\":\"55.9389599\",\"lon\":\"-3.2324300\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.767071030742378e-05,\"addresstype\":\"leisure\",\"name\":\"Heart of Midlothian F.C.\",\"display_name\":\"Heart of Midlothian F.C., Tynecastle Terrace, Tynecastle, Gorgie, City of Edinburgh, Alba / Scotland, EH11 1TJ, United Kingdom\",\"address\":{\"leisure\":\"Heart of Midlothian F.C.\",\"road\":\"Tynecastle Terrace\",\"neighbourhood\":\"Tynecastle\",\"suburb\":\"Gorgie\",\"city\":\"City of Edinburgh\",\"ISO3166-2-lvl6\":\"GB-EDH\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"EH11 1TJ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.9384567\",\"55.9394630\",\"-3.2331100\",\"-3.2317499\"]}",
+  "fetchedAt": "2026-10-12T17:59:53.799Z"
+}

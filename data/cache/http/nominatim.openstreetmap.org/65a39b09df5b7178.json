@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.023088&lon=8.960120&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":74106669,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13606950312,\"lat\":\"46.0230052\",\"lon\":\"8.9598560\",\"category\":\"highway\",\"type\":\"bus_stop\",\"place_rank\":30,\"importance\":5.000152590214416e-05,\"addresstype\":\"highway\",\"name\":\"Cornaredo\",\"display_name\":\"Cornaredo, Via Trevano, Molino Nuovo, Lugano, Circolo di Lugano ovest, Distretto di Lugano, Ticino, 6948, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"highway\":\"Cornaredo\",\"road\":\"Via Trevano\",\"suburb\":\"Molino Nuovo\",\"city\":\"Lugano\",\"municipality\":\"Circolo di Lugano ovest\",\"county\":\"Distretto di Lugano\",\"state\":\"Ticino\",\"ISO3166-2-lvl4\":\"CH-TI\",\"postcode\":\"6948\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.0229552\",\"46.0230552\",\"8.9598060\",\"8.9599060\"]}",
+  "fetchedAt": "2026-10-12T18:00:14.726Z"
+}

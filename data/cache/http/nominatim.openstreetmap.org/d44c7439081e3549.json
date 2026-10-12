@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.037222&lon=4.486389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":106589019,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":9355529838,\"lat\":\"51.0371829\",\"lon\":\"4.4863913\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":6.667048142209533e-05,\"addresstype\":\"club\",\"name\":\"Koninklijke Voetbalclub Mechelen\",\"display_name\":\"Koninklijke Voetbalclub Mechelen, 53, Kleine Nieuwedijkstraat, Klein Malinois, Nekkerspoel, Mechelen, Antwerpen, Vlaanderen, 2800, België / Belgique / Belgien\",\"address\":{\"club\":\"Koninklijke Voetbalclub Mechelen\",\"house_number\":\"53\",\"road\":\"Kleine Nieuwedijkstraat\",\"neighbourhood\":\"Klein Malinois\",\"suburb\":\"Nekkerspoel\",\"city_district\":\"Mechelen\",\"city\":\"Mechelen\",\"county\":\"Mechelen\",\"state\":\"Antwerpen\",\"ISO3166-2-lvl6\":\"BE-VAN\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"2800\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.0371329\",\"51.0372329\",\"4.4863413\",\"4.4864413\"]}",
+  "fetchedAt": "2026-10-12T17:59:31.808Z"
+}

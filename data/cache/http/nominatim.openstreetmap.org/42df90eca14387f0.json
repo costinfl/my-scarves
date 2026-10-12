@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.395100&lon=27.192800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55647144,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":685942339,\"lat\":\"38.3951421\",\"lon\":\"27.1928163\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.225070572971721e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Yavuz Sultan Selim Caddesi, Cumhuriyet Mahallesi, Buca, İzmir, Ege Bölgesi, 35400, Türkiye\",\"address\":{\"road\":\"Yavuz Sultan Selim Caddesi\",\"suburb\":\"Cumhuriyet Mahallesi\",\"town\":\"Buca\",\"province\":\"İzmir\",\"ISO3166-2-lvl4\":\"TR-35\",\"region\":\"Ege Bölgesi\",\"postcode\":\"35400\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"38.3945727\",\"38.3957115\",\"27.1921210\",\"27.1935116\"]}",
+  "fetchedAt": "2026-10-12T18:00:37.702Z"
+}

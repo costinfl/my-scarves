@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.032778&lon=28.972222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59802780,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":224685355,\"lat\":\"41.0328170\",\"lon\":\"28.9723654\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.462786696392632,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Altiocak Sokağı, Çatma Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34440, Türkiye\",\"address\":{\"road\":\"Altiocak Sokağı\",\"suburb\":\"Çatma Mescit Mahallesi\",\"town\":\"Beyoğlu\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34440\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.0322919\",\"41.0333420\",\"28.9715885\",\"28.9731422\"]}",
+  "fetchedAt": "2026-10-12T18:00:55.182Z"
+}

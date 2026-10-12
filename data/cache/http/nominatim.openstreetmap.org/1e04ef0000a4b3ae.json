@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.185861&lon=6.149833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":91140488,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":84072407,\"lat\":\"46.1858342\",\"lon\":\"6.1498383\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.90165560387124e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Passage des Tireurs-de-Sable, Val d'Arve, Pinchat, La Praille, Carouge, Genève, 1227, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Passage des Tireurs-de-Sable\",\"neighbourhood\":\"Val d'Arve\",\"quarter\":\"Pinchat\",\"suburb\":\"La Praille\",\"town\":\"Carouge\",\"state\":\"Genève\",\"ISO3166-2-lvl4\":\"CH-GE\",\"postcode\":\"1227\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.1854575\",\"46.1862092\",\"6.1490751\",\"6.1506020\"]}",
+  "fetchedAt": "2026-10-12T18:00:07.033Z"
+}

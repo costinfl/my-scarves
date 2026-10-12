@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.853056&lon=-4.309167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":272416896,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":81878798,\"lat\":\"55.8531761\",\"lon\":\"-4.3092719\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.89066910810562e-05,\"addresstype\":\"leisure\",\"name\":\"Rangers FC\",\"display_name\":\"Rangers FC, Edmiston Drive, Ibroxholm, Ibrox, Glasgow, Glasgow City, Alba / Scotland, G51 2XD, United Kingdom\",\"address\":{\"leisure\":\"Rangers FC\",\"road\":\"Edmiston Drive\",\"quarter\":\"Ibroxholm\",\"suburb\":\"Ibrox\",\"city\":\"Glasgow\",\"county\":\"Glasgow City\",\"ISO3166-2-lvl6\":\"GB-GLG\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"G51 2XD\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.8527393\",\"55.8536128\",\"-4.3102179\",\"-4.3083259\"]}",
+  "fetchedAt": "2026-10-12T18:00:01.365Z"
+}

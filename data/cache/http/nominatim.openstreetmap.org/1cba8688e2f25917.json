@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.031389&lon=3.766111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":101905311,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":822865832,\"lat\":\"51.0323029\",\"lon\":\"3.7664805\",\"category\":\"building\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.355687800407443e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"50, Bruiloftstraat, Moscou, Gentbrugge, Gent, Oost-Vlaanderen, Vlaanderen, 9050, België / Belgique / Belgien\",\"address\":{\"house_number\":\"50\",\"road\":\"Bruiloftstraat\",\"neighbourhood\":\"Moscou\",\"town\":\"Gentbrugge\",\"city\":\"Gent\",\"county\":\"Gent\",\"state\":\"Oost-Vlaanderen\",\"ISO3166-2-lvl6\":\"BE-VOV\",\"ISO3166-2-lvl4\":\"BE-VLG\",\"postcode\":\"9050\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"51.0322182\",\"51.0323882\",\"3.7663410\",\"3.7666197\"]}",
+  "fetchedAt": "2026-10-12T17:59:30.810Z"
+}

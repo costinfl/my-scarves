@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:14.525Z",
+  "version": 2,
+  "entity": {
+    "id": "Q101625593",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Isabel van den Berg - Ter Specke Bokaal 2024 in Lisse, Nederland.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Club NXT"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Club NXT"
+      }
+    }
+  }
+}

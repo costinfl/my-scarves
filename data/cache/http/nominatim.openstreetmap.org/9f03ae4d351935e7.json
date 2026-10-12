@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.626389&lon=6.045833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":117529187,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":6207700302,\"lat\":\"50.6263653\",\"lon\":\"6.0453424\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":6.155413138013302e-05,\"addresstype\":\"club\",\"name\":\"KAS Eupen\",\"display_name\":\"KAS Eupen, Kehrweg, Unterstadt, Nispert, Eupen, Verviers, Liège, Wallonie, 4700, België / Belgique / Belgien\",\"address\":{\"club\":\"KAS Eupen\",\"road\":\"Kehrweg\",\"neighbourhood\":\"Unterstadt\",\"quarter\":\"Nispert\",\"city_district\":\"Eupen\",\"town\":\"Eupen\",\"county\":\"Verviers\",\"state\":\"Liège\",\"ISO3166-2-lvl6\":\"BE-WLG\",\"ISO3166-2-lvl4\":\"BE-WAL\",\"postcode\":\"4700\",\"country\":\"België / Belgique / Belgien\",\"country_code\":\"be\"},\"boundingbox\":[\"50.6263153\",\"50.6264153\",\"6.0452924\",\"6.0453924\"]}",
+  "fetchedAt": "2026-10-12T17:59:26.727Z"
+}

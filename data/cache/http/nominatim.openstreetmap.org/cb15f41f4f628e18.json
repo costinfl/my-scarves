@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.777014&lon=30.386558&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59721462,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1218066285,\"lat\":\"40.7769908\",\"lon\":\"30.3862938\",\"category\":\"highway\",\"type\":\"pedestrian\",\"place_rank\":26,\"importance\":0.05339815899900813,\"addresstype\":\"road\",\"name\":\"\",\"display_name\":\"Şeker Mahallesi, Sakarya, Adapazarı, Sakarya, Marmara Bölgesi, 54100, Türkiye\",\"address\":{\"suburb\":\"Şeker Mahallesi\",\"city\":\"Sakarya\",\"town\":\"Adapazarı\",\"province\":\"Sakarya\",\"ISO3166-2-lvl4\":\"TR-54\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"54100\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.7761659\",\"40.7792042\",\"30.3860971\",\"30.3863662\"]}",
+  "fetchedAt": "2026-10-12T18:00:59.621Z"
+}

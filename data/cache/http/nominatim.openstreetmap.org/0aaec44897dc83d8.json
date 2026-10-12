@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.999000&lon=35.329700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209486227,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":461201303,\"lat\":\"36.9990669\",\"lon\":\"35.3297283\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.42119130781949454,\"addresstype\":\"leisure\",\"name\":\"Eski Stad (Yıkıldı)\",\"display_name\":\"Eski Stad (Yıkıldı), Vali Yolu Caddesi, Reşatbey, Reşatbey Mahallesi, Seyhan, Adana, Akdeniz Bölgesi, 01120, Türkiye\",\"address\":{\"leisure\":\"Eski Stad (Yıkıldı)\",\"road\":\"Vali Yolu Caddesi\",\"suburb\":\"Reşatbey\",\"city_district\":\"Reşatbey Mahallesi\",\"town\":\"Seyhan\",\"province\":\"Adana\",\"ISO3166-2-lvl4\":\"TR-01\",\"region\":\"Akdeniz Bölgesi\",\"postcode\":\"01120\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"36.9983836\",\"36.9997501\",\"35.3291968\",\"35.3302599\"]}",
+  "fetchedAt": "2026-10-12T18:00:29.952Z"
+}

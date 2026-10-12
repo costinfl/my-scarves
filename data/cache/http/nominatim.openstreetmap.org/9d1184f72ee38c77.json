@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.765900&lon=29.082300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55136863,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":211424489,\"lat\":\"37.7659496\",\"lon\":\"29.0823900\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4269424380574794,\"addresstype\":\"leisure\",\"name\":\"Denizli Atatürk Stadyumu\",\"display_name\":\"Denizli Atatürk Stadyumu, 1306 Sokak, Kuşpınar Mahallesi, Denizli, Pamukkale, Denizli, Ege Bölgesi, 20200, Türkiye\",\"address\":{\"leisure\":\"Denizli Atatürk Stadyumu\",\"road\":\"1306 Sokak\",\"suburb\":\"Kuşpınar Mahallesi\",\"city\":\"Denizli\",\"town\":\"Pamukkale\",\"province\":\"Denizli\",\"ISO3166-2-lvl4\":\"TR-20\",\"region\":\"Ege Bölgesi\",\"postcode\":\"20200\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"37.7653336\",\"37.7665693\",\"29.0816068\",\"29.0831683\"]}",
+  "fetchedAt": "2026-10-12T18:00:40.994Z"
+}

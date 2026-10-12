@@ -1,0 +1,60 @@
+{
+  "query": "SELECT DISTINCT ?team WHERE {\n  ?season wdt:P3450 wd:Q217374 ; wdt:P580 ?start ; wdt:P1923 ?team .\n  FILTER(YEAR(?start) = 2026)\n}",
+  "fetchedAt": "2026-10-12T17:53:52.136Z",
+  "rows": [
+    {
+      "team": "http://www.wikidata.org/entity/Q192071"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q208228"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q209509"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q221525"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q288419"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q292231"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q309400"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q459148"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q503317"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q522283"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q760736"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q870182"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q1140695"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q1815297"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q19512"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q19513"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q19523"
+    },
+    {
+      "team": "http://www.wikidata.org/entity/Q19521"
+    }
+  ]
+}

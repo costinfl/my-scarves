@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.103389&lon=28.991000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59703210,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":342816591,\"lat\":\"41.1033413\",\"lon\":\"28.9909741\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.147783627064954e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Metin Oktay Caddesi, Huzur Mahallesi, Sarıyer, İstanbul, Marmara Bölgesi, 34485, Türkiye\",\"address\":{\"road\":\"Metin Oktay Caddesi\",\"suburb\":\"Huzur Mahallesi\",\"town\":\"Sarıyer\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34485\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.1026807\",\"41.1040020\",\"28.9901257\",\"28.9918224\"]}",
+  "fetchedAt": "2026-10-12T18:00:46.603Z"
+}

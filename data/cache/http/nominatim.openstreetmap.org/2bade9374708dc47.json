@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.029836&lon=8.287797&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72593371,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":88199126,\"lat\":\"47.0299209\",\"lon\":\"8.2879199\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.488059815361284e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Horwerstrasse, Roggern, Gabeldingen, Kriens, Luzern, 6010, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Horwerstrasse\",\"neighbourhood\":\"Roggern\",\"hamlet\":\"Gabeldingen\",\"town\":\"Kriens\",\"state\":\"Luzern\",\"ISO3166-2-lvl4\":\"CH-LU\",\"postcode\":\"6010\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.0293593\",\"47.0304825\",\"8.2871702\",\"8.2886695\"]}",
+  "fetchedAt": "2026-10-12T18:00:25.603Z"
+}

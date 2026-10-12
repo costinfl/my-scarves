@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.074472&lon=28.765703&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60225328,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35875785,\"lat\":\"41.0744555\",\"lon\":\"28.7657008\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.0907911802807925e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Olimpiyat Bulvarı, Ziya Gökalp Mahallesi, Başakşehir, İstanbul, Marmara Bölgesi, 34490, Türkiye\",\"address\":{\"road\":\"Olimpiyat Bulvarı\",\"suburb\":\"Ziya Gökalp Mahallesi\",\"town\":\"Başakşehir\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34490\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.0739253\",\"41.0749857\",\"28.7651560\",\"28.7662457\"]}",
+  "fetchedAt": "2026-10-12T18:00:43.265Z"
+}

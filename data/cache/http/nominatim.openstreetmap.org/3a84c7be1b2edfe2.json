@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.920900&lon=27.811800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55408119,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":946765796,\"lat\":\"38.9209932\",\"lon\":\"27.8118674\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.329594872964092e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"167. Sokak, Reşatbey Mahallesi, Atatürk Mahallesi, Akhisar, Manisa, Ege Bölgesi, 45200, Türkiye\",\"address\":{\"road\":\"167. Sokak\",\"suburb\":\"Reşatbey Mahallesi\",\"city_district\":\"Atatürk Mahallesi\",\"town\":\"Akhisar\",\"province\":\"Manisa\",\"ISO3166-2-lvl4\":\"TR-45\",\"region\":\"Ege Bölgesi\",\"postcode\":\"45200\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"38.9205049\",\"38.9214815\",\"27.8114552\",\"27.8122796\"]}",
+  "fetchedAt": "2026-10-12T18:00:31.156Z"
+}

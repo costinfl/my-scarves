@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.494722&lon=-4.217500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274650865,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":204183224,\"lat\":\"57.4950152\",\"lon\":\"-4.2174832\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.526665140759926e-05,\"addresstype\":\"leisure\",\"name\":\"Inverness Caledonian Thistle F.C.\",\"display_name\":\"Inverness Caledonian Thistle F.C., Stadium Road, Longman, Crown and City Centre, Inverness, Highland, Alba / Scotland, IV1 1FB, United Kingdom\",\"address\":{\"leisure\":\"Inverness Caledonian Thistle F.C.\",\"road\":\"Stadium Road\",\"suburb\":\"Longman\",\"city\":\"Inverness\",\"county\":\"Highland\",\"ISO3166-2-lvl6\":\"GB-HLD\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"IV1 1FB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"57.4944632\",\"57.4955629\",\"-4.2185042\",\"-4.2164604\"]}",
+  "fetchedAt": "2026-10-12T17:59:56.000Z"
+}

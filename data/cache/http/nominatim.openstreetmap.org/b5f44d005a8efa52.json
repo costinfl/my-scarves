@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.909722&lon=38.371944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207426516,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":157284880,\"lat\":\"40.9087818\",\"lon\":\"38.3722804\",\"category\":\"highway\",\"type\":\"tertiary\",\"place_rank\":26,\"importance\":0.05339227664606695,\"addresstype\":\"road\",\"name\":\"\",\"display_name\":\"Çıtlakkale, Bayazıt, Giresun Merkez, Giresun, Karadeniz Bölgesi, 28200, Türkiye\",\"address\":{\"suburb\":\"Çıtlakkale\",\"village\":\"Bayazıt\",\"city\":\"Giresun Merkez\",\"province\":\"Giresun\",\"ISO3166-2-lvl4\":\"TR-28\",\"region\":\"Karadeniz Bölgesi\",\"postcode\":\"28200\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.9076061\",\"40.9095841\",\"38.3690830\",\"38.3735864\"]}",
+  "fetchedAt": "2026-10-12T18:00:49.842Z"
+}

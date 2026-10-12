@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.850556&lon=-4.443889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273226966,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":26161144,\"lat\":\"55.8505063\",\"lon\":\"-4.4442520\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.064164187071057e-05,\"addresstype\":\"leisure\",\"name\":\"St Mirren FC\",\"display_name\":\"St Mirren FC, Craigielea Drive, Ferguslie, Paisley, Renfrewshire, Alba / Scotland, PA3 1RU, United Kingdom\",\"address\":{\"leisure\":\"St Mirren FC\",\"road\":\"Craigielea Drive\",\"suburb\":\"Ferguslie\",\"town\":\"Paisley\",\"county\":\"Renfrewshire\",\"ISO3166-2-lvl6\":\"GB-RFW\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"PA3 1RU\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.8499338\",\"55.8510852\",\"-4.4450902\",\"-4.4434154\"]}",
+  "fetchedAt": "2026-10-12T18:00:04.571Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.162687&lon=8.801544&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":73545044,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":278977348,\"lat\":\"46.1626840\",\"lon\":\"8.8015332\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.223926146329468e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via della Posta, Locarno Monti, Locarno, Circolo di Locarno, Distretto di Locarno, Ticino, 6605, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"road\":\"Via della Posta\",\"suburb\":\"Locarno Monti\",\"town\":\"Locarno\",\"municipality\":\"Circolo di Locarno\",\"county\":\"Distretto di Locarno\",\"state\":\"Ticino\",\"ISO3166-2-lvl4\":\"CH-TI\",\"postcode\":\"6605\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.1623944\",\"46.1629725\",\"8.8008856\",\"8.8021809\"]}",
+  "fetchedAt": "2026-10-12T18:00:13.563Z"
+}

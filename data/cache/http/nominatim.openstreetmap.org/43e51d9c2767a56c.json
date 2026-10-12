@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.911000&lon=41.238000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207618640,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":621755714,\"lat\":\"39.9111432\",\"lon\":\"41.2381159\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.625238422212585e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"E80 Karayolu Bulvarı, Erzurum, Lalapaşa Mahallesi, Erzurum, Yakutiye, Erzurum, Doğu Anadolu Bölgesi, 25100, Türkiye\",\"address\":{\"road\":\"E80 Karayolu Bulvarı\",\"residential\":\"Erzurum\",\"suburb\":\"Lalapaşa Mahallesi\",\"city\":\"Erzurum\",\"town\":\"Yakutiye\",\"province\":\"Erzurum\",\"ISO3166-2-lvl4\":\"TR-25\",\"region\":\"Doğu Anadolu Bölgesi\",\"postcode\":\"25100\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"39.9105123\",\"39.9117740\",\"41.2374574\",\"41.2387744\"]}",
+  "fetchedAt": "2026-10-12T18:00:42.174Z"
+}

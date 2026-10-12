@@ -1,0 +1,161 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q14377162 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-12T17:55:09.160Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q187326",
+      "stadium": "http://www.wikidata.org/entity/Q1141259",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.088888888 57.159166666)",
+      "capacity": "21421",
+      "enwiki": "https://en.wikipedia.org/wiki/Aberdeen_F.C.",
+      "website": "https://www.afc.co.uk/",
+      "clubLabel": "Aberdeen F.C.",
+      "stadiumLabel": "Pittodrie Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q192597",
+      "stadium": "http://www.wikidata.org/entity/Q1278116",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.165555555 55.961666666)",
+      "capacity": "20421",
+      "enwiki": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+      "website": "https://www.hibernianfc.co.uk/",
+      "clubLabel": "Hibernian F.C.",
+      "stadiumLabel": "Easter Road"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q192873",
+      "stadium": "http://www.wikidata.org/entity/Q777672",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.968961 56.474703)",
+      "capacity": "14229",
+      "enwiki": "https://en.wikipedia.org/wiki/Dundee_United_F.C.",
+      "website": "https://www.dundeeunitedfc.co.uk/",
+      "clubLabel": "Dundee United F.C.",
+      "stadiumLabel": "Tannadice Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q202093",
+      "stadium": "http://www.wikidata.org/entity/Q1326446",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.232444444 55.939055555)",
+      "capacity": "17529",
+      "enwiki": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.",
+      "website": "https://www.heartsfc.co.uk/",
+      "clubLabel": "Heart of Midlothian F.C.",
+      "stadiumLabel": "Tynecastle Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q210961",
+      "stadium": "http://www.wikidata.org/entity/Q1637255",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.508122 55.604225)",
+      "capacity": "18128",
+      "enwiki": "https://en.wikipedia.org/wiki/Kilmarnock_F.C.",
+      "website": "https://kilmarnockfc.co.uk/",
+      "clubLabel": "Kilmarnock F.C.",
+      "stadiumLabel": "Rugby Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q216523",
+      "stadium": "http://www.wikidata.org/entity/Q252696",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.980078 55.779947)",
+      "capacity": "13677",
+      "enwiki": "https://en.wikipedia.org/wiki/Motherwell_F.C.",
+      "website": "https://www.motherwellfc.co.uk/",
+      "clubLabel": "Motherwell F.C.",
+      "stadiumLabel": "Fir Park",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Motherwell%20FC%20crest.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q219241",
+      "stadium": "http://www.wikidata.org/entity/Q1027157",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.754269 56.005136)",
+      "capacity": "8750",
+      "enwiki": "https://en.wikipedia.org/wiki/Falkirk_F.C.",
+      "website": "https://www.falkirkfc.co.uk/",
+      "clubLabel": "Falkirk F.C.",
+      "stadiumLabel": "Falkirk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q268776",
+      "stadium": "http://www.wikidata.org/entity/Q1848848",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.476928 56.409686)",
+      "capacity": "10696",
+      "enwiki": "https://en.wikipedia.org/wiki/St_Johnstone_F.C.",
+      "website": "https://www.perthstjohnstonefc.co.uk/",
+      "clubLabel": "St Johnstone F.C.",
+      "stadiumLabel": "McDiarmid Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q319136",
+      "stadium": "http://www.wikidata.org/entity/Q2139208",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.443889 55.850556)",
+      "capacity": "8023",
+      "enwiki": "https://en.wikipedia.org/wiki/St_Mirren_F.C.",
+      "website": "https://www.stmirren.com/",
+      "clubLabel": "St. Mirren F.C.",
+      "stadiumLabel": "St. Mirren Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q335483",
+      "stadium": "http://www.wikidata.org/entity/Q615561",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.973194 56.475264)",
+      "capacity": "11506",
+      "enwiki": "https://en.wikipedia.org/wiki/Dundee_F.C.",
+      "website": "https://dundeefc.co.uk/",
+      "clubLabel": "Dundee F.C.",
+      "stadiumLabel": "Dens Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q867921",
+      "stadium": "http://www.wikidata.org/entity/Q1309785",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.522872 55.886167)",
+      "capacity": "9865",
+      "enwiki": "https://en.wikipedia.org/wiki/Livingston_F.C.",
+      "website": "https://livingstonfc.co.uk/",
+      "clubLabel": "Livingston F.C.",
+      "stadiumLabel": "Almondvale Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19593",
+      "stadium": "http://www.wikidata.org/entity/Q216037",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-4.205588888 55.849711111)",
+      "capacity": "60355",
+      "enwiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
+      "website": "https://www.celticfc.com/japanese-section",
+      "clubLabel": "Celtic F.C.",
+      "stadiumLabel": "Celtic Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19593",
+      "stadium": "http://www.wikidata.org/entity/Q216037",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(-4.205588888 55.849711111)",
+      "capacity": "60355",
+      "enwiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
+      "website": "https://www.celticfc.com",
+      "clubLabel": "Celtic F.C.",
+      "stadiumLabel": "Celtic Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19597",
+      "stadium": "http://www.wikidata.org/entity/Q208709",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.309166666 55.853055555)",
+      "capacity": "51700",
+      "enwiki": "https://en.wikipedia.org/wiki/Rangers_F.C.",
+      "website": "https://www.rangers.co.uk/",
+      "clubLabel": "Rangers F.C.",
+      "stadiumLabel": "Ibrox Stadium"
+    }
+  ]
+}

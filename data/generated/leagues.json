@@ -1,5 +1,33 @@
 [
   {
+    "qid": "Q219592",
+    "association": "AUT",
+    "tier": 1,
+    "label": "Bundesliga",
+    "participants": 10
+  },
+  {
+    "qid": "Q650236",
+    "association": "AUT",
+    "tier": 2,
+    "label": "Austrian Football Second League",
+    "participants": 16
+  },
+  {
+    "qid": "Q216022",
+    "association": "BEL",
+    "tier": 1,
+    "label": "Belgian Pro League",
+    "participants": 18
+  },
+  {
+    "qid": "Q23925620",
+    "association": "BEL",
+    "tier": 2,
+    "label": "Challenger Pro League",
+    "participants": 16
+  },
+  {
     "qid": "Q9448",
     "association": "ENG",
     "tier": 1,
@@ -110,5 +138,47 @@
     "tier": 2,
     "label": "Liga II",
     "participants": 21
+  },
+  {
+    "qid": "Q14377162",
+    "association": "SCO",
+    "tier": 1,
+    "label": "Scottish Premiership",
+    "participants": 12
+  },
+  {
+    "qid": "Q14468438",
+    "association": "SCO",
+    "tier": 2,
+    "label": "Scottish Championship",
+    "participants": 10
+  },
+  {
+    "qid": "Q202699",
+    "association": "SUI",
+    "tier": 1,
+    "label": "Swiss Super League",
+    "participants": 12
+  },
+  {
+    "qid": "Q669073",
+    "association": "SUI",
+    "tier": 2,
+    "label": "Challenge League",
+    "participants": 10
+  },
+  {
+    "qid": "Q485568",
+    "association": "TUR",
+    "tier": 1,
+    "label": "Süper Lig",
+    "participants": 19
+  },
+  {
+    "qid": "Q1141692",
+    "association": "TUR",
+    "tier": 2,
+    "label": "TFF First League",
+    "participants": 18
   }
 ]

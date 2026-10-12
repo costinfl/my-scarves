@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.562600&lon=32.079100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209761564,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":617590531,\"lat\":\"36.5626280\",\"lon\":\"32.0791630\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.113603418016355e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kızılcaşehir Cd., Kızılcaşehir, Alanya, Antalya, Akdeniz Bölgesi, 07460, Türkiye\",\"address\":{\"road\":\"Kızılcaşehir Cd.\",\"village\":\"Kızılcaşehir\",\"town\":\"Alanya\",\"province\":\"Antalya\",\"ISO3166-2-lvl4\":\"TR-07\",\"region\":\"Akdeniz Bölgesi\",\"postcode\":\"07460\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"36.5621868\",\"36.5630690\",\"32.0785260\",\"32.0798001\"]}",
+  "fetchedAt": "2026-10-12T18:00:32.269Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q699184",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "SK Austria Klagenfurt 2007 Logo.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SK Austria Klagenfurt (2007)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SK Austria Klagenfurt"
+      }
+    }
+  }
+}

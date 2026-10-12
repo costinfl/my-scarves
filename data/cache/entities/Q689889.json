@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-12T17:56:16.157Z",
+  "version": 2,
+  "entity": {
+    "id": "Q689889",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "SV Horn"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SV Horn"
+      }
+    }
+  }
+}

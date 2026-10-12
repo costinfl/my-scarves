@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.849711&lon=-4.205589&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273196245,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":193158462,\"lat\":\"55.8496807\",\"lon\":\"-4.2055271\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.89066910810562e-05,\"addresstype\":\"leisure\",\"name\":\"Celtic FC\",\"display_name\":\"Celtic FC, The Celtic Way, Barrowfield, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RW, United Kingdom\",\"address\":{\"leisure\":\"Celtic FC\",\"road\":\"The Celtic Way\",\"quarter\":\"Barrowfield\",\"suburb\":\"Newbank\",\"city\":\"Glasgow\",\"county\":\"Glasgow City\",\"ISO3166-2-lvl6\":\"GB-GLG\",\"state\":\"Alba / Scotland\",\"ISO3166-2-lvl4\":\"GB-SCT\",\"postcode\":\"G40 3RW\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.8490606\",\"55.8503008\",\"-4.2066657\",\"-4.2043884\"]}",
+  "fetchedAt": "2026-10-12T17:59:46.228Z"
+}
