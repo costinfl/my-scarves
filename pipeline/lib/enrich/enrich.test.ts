@@ -21,7 +21,7 @@ describe('decideHome', () => {
   });
   it('returns the candidates when ambiguous', () => expect(decideHome('IRL', ['NIR', 'ENG'])).toEqual(['ENG', 'NIR']));
 });
-import { findShopLinks, isMarketplace, looksLikeShop, robotsAllows } from './fanshops.ts';
+import { findShopLinks, isMarketplace, looksLikeShop, robotsAllows, shouldRecheck, TERMS_VERSION } from './fanshops.ts';
 
 describe('trimSentences', () => {
   const text =
@@ -102,6 +102,17 @@ describe('findShopLinks', () => {
     expect(looksLikeShop('<button>Add to cart</button>')).toBe(true);
     expect(looksLikeShop('<span>Fular 49,90 lei</span>')).toBe(true);
     expect(looksLikeShop('<p>Latest news</p>')).toBe(false);
+    expect(looksLikeShop('<button>Afegeix a la cistella</button>')).toBe(true);
+  });
+  it('finds Catalan, Italian and French shop words', () => {
+    const links = findShopLinks('<a href="/botiga">Botiga</a><a href="/it/bottega-ufficiale">x</a><a href="/la-boutique">x</a>', 'https://www.fcandorra.ad/');
+    expect(links.map((l) => l.url)).toEqual(['https://www.fcandorra.ad/botiga', 'https://www.fcandorra.ad/it/bottega-ufficiale', 'https://www.fcandorra.ad/la-boutique']);
+  });
+  it('checks again clubs where older search words found nothing, once', () => {
+    expect(shouldRecheck({ status: 'none' })).toBe(true);
+    expect(shouldRecheck({ status: 'none', terms: TERMS_VERSION })).toBe(false);
+    expect(shouldRecheck({ status: 'unchecked', terms: TERMS_VERSION })).toBe(true);
+    expect(shouldRecheck({ status: 'candidate', url: 'https://shop.x' })).toBe(false);
   });
 });
 
