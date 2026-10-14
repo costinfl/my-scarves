@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.732800&lon=12.496800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":147998399,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":598864947,\"lat\":\"55.7328302\",\"lon\":\"12.4967361\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.19920653085682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Gladsaxevej, Søborg, Gladsaxe Kommune, Region Hovedstaden, 2860, Danmark\",\"address\":{\"road\":\"Gladsaxevej\",\"suburb\":\"Søborg\",\"municipality\":\"Gladsaxe Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"2860\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.7322476\",\"55.7334127\",\"12.4959097\",\"12.4975625\"]}",
+  "fetchedAt": "2026-10-14T19:13:35.812Z"
+}

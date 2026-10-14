@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q368104",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2604753"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FCV Farul Constanța"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SSC Farul Constanța"
+      }
+    }
+  }
+}

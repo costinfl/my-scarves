@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Nyva%20Bershad",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Nyva Bershad\",\"pageid\":36088944,\"redirects\":[],\"wikitext\":\"{{Infobox football club |\\n  clubname = Nyva Bershad|\\n  image    = Nyva Bershad.jpg|\\n  image_size = 100|\\n  alt      = logo|\\n  fullname = FC Nyva Bershad |\\n  nickname = |\\n  founded  = |\\n  ground   = |\\n  capacity = |\\n  chairman = |\\n  manager  = |\\n  league   = Vinnytsia Oblast Football League |\\n  season   = 2013–14|\\n  position = 2nd, Group B|\\n  }}\\n'''Nyva Bershad''' is a Ukrainian football club and currently competes in the Vinnytsia Oblast Football League is from [[Bershad]], [[Vinnytsia Oblast]].\"}}",
+  "fetchedAt": "2026-10-14T19:13:13.723Z"
+}

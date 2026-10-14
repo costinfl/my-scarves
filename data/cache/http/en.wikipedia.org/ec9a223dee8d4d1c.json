@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Spartak%20Sumy",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Spartak Sumy\",\"pageid\":8120860,\"redirects\":[],\"wikitext\":\"{{Use mdy dates|date=September 2011}}\\n{{Infobox Football club\\n| clubname = FC Spartak Sumy\\n| image    = FC Spartak Sumy.png\\n| upright  = 0.6\\n| alt      = Club Crest\\n| fullname = FC Spartak Sumy\\n| nickname = \\n| founded  = 1999 (1982 as Yavir)\\n| dissolved     = 2007\\n| ground   = [[Yuvileiny Stadium]], [[Sumy]]\\n| capacity = 25,830\\n| chairman =\\n| manager  =\\n| league   = \\n| season   = \\n| position = \\n| pattern_la1 =\\n| pattern_b1 =\\n| pattern_ra1 =\\n| leftarm1 = F60A0F\\n| body1 = F60A0F\\n| rightarm1 = F60A0F\\n| shorts1 = F60A0F\\n| socks1 = F60A0F\\n| pattern_la2 = \\n| pattern_b2 = _unknown\\n| pattern_ra2 = \\n| leftarm2 =\\n| body2 =\\n| rightarm2 =\\n| shorts2 =\\n| socks2 =\\n}}\\n'''FC Spartak Sumy''' was a [[Ukraine|Ukrainian]] [[association football|football]] club based in [[Sumy]].\"}}",
+  "fetchedAt": "2026-10-14T19:13:18.745Z"
+}

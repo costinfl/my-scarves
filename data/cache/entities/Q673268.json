@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q673268",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 116487404,
+                "id": "Q116487404"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Stade Nyonnais"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Stade Nyonnais"
+      }
+    }
+  }
+}

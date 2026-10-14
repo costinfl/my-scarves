@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=U.D.%20Leiria",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"U.D. Leiria\",\"pageid\":1050355,\"redirects\":[],\"wikitext\":\"{{short description|Portuguese association football club}}\\n{{Infobox football club\\n| clubname = União de Leiria\\n| image = U.D._Leiria_logo.svg\\n| upright = 0.7\\n| fullname = União Desportiva de Leiria\\n| nickname = ''Os Lis''<br>(The ones from the Lis river)\\n| founded = {{Start date and age|1966|6|6|df=y}}\\n| ground = [[Estádio Dr. Magalhães Pessoa]]\\n| capacity = 23,888\\n| chairman = Armando Marques\\n| manager = [[Fábio Pereira (footballer, born 1978)|Fábio Pereira]]\\n| league = [[Liga Portugal 2]]\\n| season = [[2025–26 Liga Portugal 2|2025–26]]\\n| position = Liga Portugal 2, 6th of 18\\n| website = {{URL|https://www.uniaodeleiria.pt}}\\n| current = 2026–27 U.D. Leiria season\\n}}\\n\\n'''União Desportiva de Leiria''' ({{IPA|pt|uniˈɐ̃w dɨ lɐjˈɾiɐ}}), commonly known as '''União de Leiria''', is a Portuguese professional [[Association football|football]] club based in [[Leiria]]. Founded on 6 June 1966, it currently plays in the [[Liga Portugal 2]], holding home matches at [[Estádio Dr. Magalhães Pessoa]], with a 23,888-seat capacity.\"}}",
+  "fetchedAt": "2026-10-14T19:11:36.479Z"
+}

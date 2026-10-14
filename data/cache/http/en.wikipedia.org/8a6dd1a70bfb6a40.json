@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Ban%C3%ADk%20Sokolov",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Baník Sokolov\",\"pageid\":8145389,\"redirects\":[],\"wikitext\":\"{{Short description|Association football club in the Czech Republic}}\\n{{Use dmy dates|date=September 2025}}\\n{{Infobox football club\\n| clubname = FK Baník Sokolov\\n| image = FK Banik Sokolov, 2024 logo.png\\n| image_size = 160px\\n| fullname = FK Baník Sokolov 1948, s.r.o. \\n| founded = {{Start date and age|1948|df=yes}}\\n| ground = [[Stadion FK Baník Sokolov]]\\n| capacity = 5,000 (770 seated)\\n| chairman = Tomáš Provazník\\n| manager = Marian Václavík\\n| league = [[Czech Fourth Division]]&nbsp;– Divize B\\n| season = 2025–26\\n| position = 9th\\n| website = https://www.fksokolov.cz/\\n| pattern_la1 = \\n| pattern_b1 = _nike\\n| pattern_ra1 = \\n| leftarm1 = F3DA23\\n| body1 = F3DA23\\n| rightarm1 = F3DA23\\n| shorts1 = 000000\\n| socks1 = F3DA23\\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra2 = \\n| leftarm2 = 207D50\\n| body2 = 207D50\\n| rightarm2 = 207D50\\n| shorts2 = 000000\\n| socks2 = 207D50\\n}}\\n'''FK Baník Sokolov''' is a Czech [[association football|football]] club based in [[Sokolov (Sokolov District)|Sokolov]]. The club plays in [[Czech Fourth Division|Division B]], which is the fourth tier of [[Football in Czech Republic|Czech football]].\"}}",
+  "fetchedAt": "2026-10-14T19:07:46.578Z"
+}

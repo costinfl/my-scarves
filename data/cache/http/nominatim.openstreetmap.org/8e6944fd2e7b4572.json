@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.554722&lon=2.091944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":83236082,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":131702037,\"lat\":\"41.5546608\",\"lon\":\"2.0919544\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.631799801628165e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Plaça d'Olímpia, la Concòrdia, Sabadell, Vallès Occidental, Barcelona, Catalunya, 08206, España\",\"address\":{\"road\":\"Plaça d'Olímpia\",\"quarter\":\"la Concòrdia\",\"city\":\"Sabadell\",\"county\":\"Vallès Occidental\",\"province\":\"Barcelona\",\"ISO3166-2-lvl6\":\"ES-B\",\"state\":\"Catalunya\",\"ISO3166-2-lvl4\":\"ES-CT\",\"postcode\":\"08206\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"41.5541441\",\"41.5551776\",\"2.0914536\",\"2.0924551\"]}",
+  "fetchedAt": "2026-10-14T19:13:36.899Z"
+}

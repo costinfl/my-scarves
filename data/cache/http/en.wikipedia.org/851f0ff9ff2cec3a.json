@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Varnsdorf",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Varnsdorf\",\"pageid\":27987453,\"redirects\":[],\"wikitext\":\"{{Football club infobox\\n| clubname = FK Varnsdorf\\n| image    = SK Slovan Varnsdorf logo.png\\n| image_size = 190px\\n| fullname = Fotbalový klub Varnsdorf a.s.\\n| nickname =\\n| founded  = {{Start date and age|1938|df=yes}}\\n| ground   = [[Městský stadion v Kotlině]]<br/>[[Varnsdorf]]\\n| capacity = 5,000 (900 seated)\\n| chairman = Vlastimil Gabriel\\n| manager  = [[Pavlo Rudnytskyi]]\\n| league   = [[Bohemian Football League]] Gr. B\\n| season   = 2025–26\\n| position = 11th of 16 \\n| website  = {{URL|https://fkvarnsdorf.cz/}} |\\n pattern_la1= _mezokovesd1617h | pattern_b1=_mezokovesd1617h | pattern_ra1=_mezokovesd1617h |\\n leftarm1=FFFF00 | body1=FFFF00 | rightarm1=FFFF00 | shorts1=FFFF00 | socks1=FFFF00 |\\n pattern_la2=_adidascondivo21bw| pattern_b2=_adidascondivo21bw| pattern_ra2=_adidascondivo21bw | pattern_sh2=_adidascondivo20bw| pattern_so2=_color_3_stripes_white|\\n leftarm2=000000 | body2=000000| rightarm2=000000| shorts2=000000| socks2=000000|\\n}}\\n\\n'''FK Varnsdorf''' is a Czech football club located in [[Varnsdorf]], Czech Republic. In 2011 the club changed its name from SK Slovan Varnsdorf to FK Varnsdorf. It currently plays in the [[Bohemian Football League]].\"}}",
+  "fetchedAt": "2026-10-14T19:07:52.566Z"
+}

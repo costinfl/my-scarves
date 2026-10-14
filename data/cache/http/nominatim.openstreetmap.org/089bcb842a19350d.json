@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.172500&lon=29.050278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59865382,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":498348911,\"lat\":\"41.1726071\",\"lon\":\"29.0502775\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3389888108010248,\"addresstype\":\"leisure\",\"name\":\"Yusuf Ziya Öniş Stadyumu\",\"display_name\":\"Yusuf Ziya Öniş Stadyumu, Nalbant Çeşme Caddesi, Merkez, Merkez Mahallesi, Sarıyer, İstanbul, Marmara Bölgesi, 34450, Türkiye\",\"address\":{\"leisure\":\"Yusuf Ziya Öniş Stadyumu\",\"road\":\"Nalbant Çeşme Caddesi\",\"neighbourhood\":\"Merkez\",\"suburb\":\"Merkez Mahallesi\",\"town\":\"Sarıyer\",\"province\":\"İstanbul\",\"ISO3166-2-lvl4\":\"TR-34\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"34450\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"41.1720712\",\"41.1731430\",\"29.0497377\",\"29.0508173\"]}",
+  "fetchedAt": "2026-10-14T19:13:50.054Z"
+}

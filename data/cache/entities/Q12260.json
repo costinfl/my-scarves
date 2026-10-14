@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q12260",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "CE Sabadell FC 1903.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "CE Sabadell FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Centre d'Esports Sabadell Futbol Club"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Mu%C4%9Flaspor",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Muğlaspor\",\"pageid\":8312414,\"redirects\":[],\"wikitext\":\"{{short description|Turkish sports club}}\\n{{Infobox football club\\n| clubname = Muğlaspor\\n| image    = <!-- Deleted image removed: [[Image:Muglaspor.JPG]] -->\\n| fullname = Muğla Spor Kulübü\\n| nickname = \\n| founded = 1967 \\n| ground = Muğla Atatürk Stadium, <br>[[Muğla]]\\n| capacity = 7,755\\n| coordinates = {{Coord|37.211944|28.363889|format=dms|type:landmark_scale:3000_region:TR|display=it}}\\n| chairman = Menaf Kıyanç\\n| manager = [[Yalçın Koşukavak]]\\n| league  = {{Turkish football updater|Muğlaspor}}\\n| season  = {{Turkish football updater|Muğlaspor2}}\\n| position = {{Turkish football updater|Muğlaspor3}}\\n|  pattern_la1=|\\n  pattern_b1=_whitestripes|\\n  pattern_ra1=|\\n  leftarm1=228b22|\\n  body1=228b22|\\n  rightarm1=228b22|\\n  shorts1=228b22|\\n  socks1=228b22|\\n  pattern_la2=|\\n  pattern_b2=|\\n  pattern_ra2=|\\n  leftarm2=228b22|\\n  body2=228b22|\\n  rightarm2=228b21|\\n  shorts2=11111|\\n  socks2=228b21\\n}}\\n\\t\\n'''Muğlaspor''' is a [[sports]] club in located in [[Muğla]], [[Turkey]]. The football club plays in the [[TFF 1. Lig|1. Lig]].\"}}",
+  "fetchedAt": "2026-10-14T19:12:49.169Z"
+}

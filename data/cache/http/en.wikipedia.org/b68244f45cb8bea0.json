@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Silon%20T%C3%A1borsko",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Silon Táborsko\",\"pageid\":27988150,\"redirects\":[],\"wikitext\":\"{{Short description|Football club}}\\n{{Use dmy dates|date=August 2024}}\\n{{Football club infobox\\n| clubname = FC Silon Táborsko\\n| image    = FC_Silon_Táborsko_logo.svg\\n| image_size = \\n| fullname = Football Club Silon Táborsko a.s.\\n| nickname = \\n| founded  = {{Start date and age|2012|df=yes}}\\n| ground   = Stadion v Kvapilově ulici\\n| capacity = \\n| chairman = Jiří Smrž\\n| manager  = Miloslav Brožek\\n| league   = [[Czech National Football League]] \\n| season   = [[2025–26 Czech National Football League|2025–26]]\\n| position = 2nd of 16\\n| website  = {{URL|https://www.fctaborsko.cz/}}\\n| pattern_la1=_whiteshoulders|pattern_b1=_whiteshoulders|pattern_ra1=_whiteshoulders\\n |leftarm1=0000FF|body1=0000FF|rightarm1=0000FF|shorts1=FFFFFF|socks1=FFFFFF|\\n pattern_la2= | pattern_b2= | pattern_ra2= |\\n leftarm2=000000 | body2=FF0000 | rightarm2=000000 | shorts2=000000 | socks2=FF0000 |\\n}}\\n'''FC Silon Táborsko''' is a [[association football|football]] club located in [[Tábor]], Czech Republic. It plays in the [[Czech National Football League]] (2nd tier).\"}}",
+  "fetchedAt": "2026-10-14T19:07:44.216Z"
+}

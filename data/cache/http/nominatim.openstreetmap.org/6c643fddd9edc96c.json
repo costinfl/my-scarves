@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.289883&lon=17.402386&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186660409,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":250374836,\"lat\":\"49.2898835\",\"lon\":\"17.4024033\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.193865873192978e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kotojedská, Vážany, Kroměříž, okres Kroměříž, Zlínský kraj, 767 01, Česko\",\"address\":{\"road\":\"Kotojedská\",\"suburb\":\"Vážany\",\"town\":\"Kroměříž\",\"district\":\"okres Kroměříž\",\"ISO3166-2-lvl5\":\"CZ-721\",\"state\":\"Zlínský kraj\",\"ISO3166-2-lvl4\":\"CZ-72\",\"postcode\":\"767 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.2893149\",\"49.2904521\",\"17.4017388\",\"17.4030679\"]}",
+  "fetchedAt": "2026-10-14T19:13:33.622Z"
+}

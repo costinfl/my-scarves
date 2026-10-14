@@ -2425,6 +2425,13 @@
     ],
     "source": "wikidata"
   },
+  "Q681483": {
+    "primary": "#FF0000",
+    "names": [
+      "red"
+    ],
+    "source": "wikidata"
+  },
   "Q686826": {
     "primary": "#FFFF00",
     "secondary": "#0000FF",
@@ -2469,6 +2476,16 @@
       "white",
       "red",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q699686": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white",
+      "blue"
     ],
     "source": "wikidata"
   },

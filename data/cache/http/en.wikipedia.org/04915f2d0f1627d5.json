@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Avanhard%20Zhovti%20Vody",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Avanhard Zhovti Vody\",\"pageid\":40567843,\"redirects\":[],\"wikitext\":\"{{short description|Ukrainian football club}}\\n{{No footnotes|date=July 2026}}\\n\\n[[File:Zhovti_Vody_Avanhard_Stadium_2.jpg | thumb | right | Avanhard Stadium]]\\n'''FC Avanhard Zhovti Vody''' is a [[Ukraine|Ukrainian]] amateur football club from [[Zhovti Vody]], [[Dnipropetrovsk Oblast]].\\n\\nIn 1959–70 as Avanhard the club participated in the championship of the [[Ukrainian SSR]] among teams of masters (professional). Since 1993 it was known as Sirius and in 1994 moved to [[Kryvyi Rih]]. In 1995 Sirius was merged with a local amateur team Sportinvest Kryvyi Rih which replaced Sirius in competition for year. In 1996 the club folded. It was replaced by [[FC Nyva Bershad|Nyva Bershad]]. In 2010 was the club refounded.\"}}",
+  "fetchedAt": "2026-10-14T19:13:18.423Z"
+}

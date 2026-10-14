@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.370711&lon=6.226201&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":91370992,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":497108972,\"lat\":\"46.3707252\",\"lon\":\"6.2261680\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.5001144426596745e-05,\"addresstype\":\"leisure\",\"name\":\"6 Terrrain de Football\",\"display_name\":\"6 Terrrain de Football, Chemin de Colovray, Nyon, District de Nyon, Vaud, 1260, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"leisure\":\"6 Terrrain de Football\",\"road\":\"Chemin de Colovray\",\"town\":\"Nyon\",\"county\":\"District de Nyon\",\"state\":\"Vaud\",\"ISO3166-2-lvl4\":\"CH-VD\",\"postcode\":\"1260\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"46.3702618\",\"46.3711884\",\"6.2253963\",\"6.2269397\"]}",
+  "fetchedAt": "2026-10-14T19:13:46.774Z"
+}

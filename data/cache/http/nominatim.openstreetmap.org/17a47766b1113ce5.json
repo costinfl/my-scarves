@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.503400&lon=9.734780&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":71288596,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":119252111,\"lat\":\"47.5034751\",\"lon\":\"9.7347921\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.31461790426364866,\"addresstype\":\"leisure\",\"name\":\"Casino Stadium\",\"display_name\":\"Casino Stadium, Stadionstraße, Bregenz, Bezirk Bregenz, Vorarlberg, 6900, Österreich\",\"address\":{\"leisure\":\"Casino Stadium\",\"road\":\"Stadionstraße\",\"town\":\"Bregenz\",\"county\":\"Bezirk Bregenz\",\"state\":\"Vorarlberg\",\"ISO3166-2-lvl4\":\"AT-8\",\"postcode\":\"6900\",\"country\":\"Österreich\",\"country_code\":\"at\"},\"boundingbox\":[\"47.5029691\",\"47.5039811\",\"9.7342039\",\"9.7353804\"]}",
+  "fetchedAt": "2026-10-14T19:13:32.771Z"
+}

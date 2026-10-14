@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Fr%C3%BDdek-M%C3%ADstek",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Frýdek-Místek\",\"pageid\":19133731,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n|clubname = FK Frýdek-Místek\\n|current  = \\n|image    = FK_Frýdek-Místek_logo.svg\\n|image_size = \\n|fullname = Fotbalový klub Frýdek-Místek\\n|nickname = \\n|founded  = {{Start date and age|1921|df=yes}}\\n|ground   = [[Stovky]]\\n|capacity = 12,400\\n|chairman = Radek Šmíd\\n|manager  = Lukáš Papřok\\n|league   = [[Moravian-Silesian Football League]]\\n|season   = 2025–26\\n|position = 6th\\n|website  = https://fotbal-fm.cz/\\n|pattern_la1=_whiteshoulders|pattern_b1=_rightsashonwhite|pattern_ra1=_whiteshoulders\\n|leftarm1=FFFFFF|body1=054AA7|rightarm1=FFFFFF|shorts1=FFFFFF|socks1=FFFFFF|\\n|pattern_la2=|pattern_b2=_whiterightsash|pattern_ra2=\\n|leftarm2=054AA7|body2=054AA7|rightarm2=054AA7|shorts2=054AA7|socks2=054AA7\\n}}\\n'''FK Frýdek-Místek''' is a [[association football|football]] club based in [[Frýdek-Místek]], [[Czech Republic]]. It currently plays in the [[Moravian-Silesian Football League]], which is the third tier of Czech football.<ref>{{cite web |title=FK Frýdek-Místek|url=https://www.msfl.cz/klub/mfk-frydek-mistek|publisher=Moravskoslezská fotbalová liga|access-date=2019-07-15|language=cs}}</ref>\"}}",
+  "fetchedAt": "2026-10-14T19:07:53.281Z"
+}

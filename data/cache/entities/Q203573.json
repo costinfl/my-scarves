@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q203573",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52695"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bursaspor"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Bursaspor"
+      }
+    }
+  }
+}

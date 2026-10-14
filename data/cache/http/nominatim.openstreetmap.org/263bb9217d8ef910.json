@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.197278&lon=28.639333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60908151,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1010719235,\"lat\":\"44.1978362\",\"lon\":\"28.6390123\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":6.711909666585821e-05,\"addresstype\":\"leisure\",\"name\":\"Complex Sportiv Farul\",\"display_name\":\"Complex Sportiv Farul, 2, Strada Primăverii, Victoria, Tomis 3, Constanța, Zona Metropolitană Constanța, Constanța, 900636, România\",\"address\":{\"leisure\":\"Complex Sportiv Farul\",\"house_number\":\"2\",\"road\":\"Strada Primăverii\",\"neighbourhood\":\"Victoria\",\"suburb\":\"Tomis 3\",\"city\":\"Constanța\",\"municipality\":\"Zona Metropolitană Constanța\",\"county\":\"Constanța\",\"ISO3166-2-lvl4\":\"RO-CT\",\"postcode\":\"900636\",\"country\":\"România\",\"country_code\":\"ro\"},\"boundingbox\":[\"44.1957234\",\"44.1998581\",\"28.6371141\",\"28.6406559\"]}",
+  "fetchedAt": "2026-10-14T19:13:44.666Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Poltava",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Poltava\",\"pageid\":12507091,\"redirects\":[],\"wikitext\":\"{{distinguish|SC Poltava}}\\n{{Use mdy dates|date=September 2011}}\\n{{Infobox football club\\n| clubname = FC Poltava\\n| image = \\n| image_size = \\n| fullname = FC Poltava\\n| nickname = \\n| founded = June 5, 2007<ref>[http://ua-football.com/ukrainian/news/46697bf8.html?page=0 UA-Футбол: З днем народження, ФК \\\"Полтава\\\"!<!-- Bot generated title -->]</ref>\\n| dissolved  = June 21, 2018\\n| ground = [[Lokomotiv Stadium (Poltava)|Lokomotiv Stadium]]\\n| capacity = 2,500\\n| chairman = Leonid Sobolev\\n| mgrtitle = \\n| manager = \\n| captain = \\n| Chief Executive = \\n| Life President = \\n| league = defunct\\n| season = [[2017–18 Ukrainian First League|2017–18]]\\n| position = First League, 2nd <br> ''(promotion via play-offs)''\\n| pattern_la1 = \\n| pattern_la2 = \\n| shirtsupplier = \\n| shirtsponsors = \\n|}}\\n[[File:Kopyly Poltava Training Base 2.jpg|thumb|[[FC Poltava]] training base in [[Kopyly]]]]\\n[[File:Poltava lokomotiv.JPG|thumb|[[Lokomotyv Stadium (Poltava)|Lokomotyv Stadium]] during the game between Arsenal Kharkiv and FC Poltava]]'''FC Poltava''' ({{langx |uk|ФК Полтава}}) was a Ukrainian [[association football|football]] club based in [[Poltava]] in 2007–2018.\"}}",
+  "fetchedAt": "2026-10-14T19:13:17.024Z"
+}

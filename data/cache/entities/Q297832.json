@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q297832",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "ASK Voitsberg"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "ASK Voitsberg"
+      }
+    }
+  }
+}

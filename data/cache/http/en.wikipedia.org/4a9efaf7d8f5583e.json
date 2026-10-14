@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20%C4%8C%C3%A1slav",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Čáslav\",\"pageid\":8070868,\"redirects\":[],\"wikitext\":\"{{Use dmy dates|date=January 2026}}\\n{{Infobox football club\\n| clubname = FK Čáslav\\n| image = FK Čáslav, logo, 2025.png\\n| upright = 0.7\\n| fullname = FK Čáslav\\n| founded = 1902\\n| ground = [[Stadion pod Hrádkem]]\\n| capacity = 2,575\\n| chairman = Milan Urban\\n| manager = Roman Kučera\\n| league  = [[Bohemian Football League]]\\n| season  = 2025–26\\n| position = [[Czech Fourth Division]] group C,<br>1st of 17 (promoted)\\n| website = {{URL|https://www.fkcaslav.cz/}}\\n| pattern_la1=|pattern_b1=_mariupol1819h|pattern_ra1=|pattern_sh1=|pattern_so1=\\n| leftarm1=000055|body1=000055|rightarm1=000055|shorts1=000055|socks1=000055\\n| pattern_la2=|pattern_b2=_1fcwilmersdorf1112h|pattern_ra2=|pattern_sh2=_nikewhite|pattern_so2=\\n| leftarm2=000000|body2=000000|rightarm2=000000|shorts2=000000|socks2=000000\\n}}\\n'''FK Čáslav''' is a Czech [[association football|football]] club from [[Čáslav]]. It plays in the [[Bohemian Football League]].\"}}",
+  "fetchedAt": "2026-10-14T19:07:46.916Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.383333&lon=8.060000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":72870682,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":27672850,\"lat\":\"47.3833371\",\"lon\":\"8.0598089\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4418261338629232,\"addresstype\":\"leisure\",\"name\":\"Brügglifeld\",\"display_name\":\"Brügglifeld, Bachstrasse, Hübeliacker, Suhr, Bezirk Aarau, Aargau, 5034, Schweiz/Suisse/Svizzera/Svizra\",\"address\":{\"leisure\":\"Brügglifeld\",\"road\":\"Bachstrasse\",\"neighbourhood\":\"Hübeliacker\",\"town\":\"Suhr\",\"county\":\"Bezirk Aarau\",\"state\":\"Aargau\",\"ISO3166-2-lvl4\":\"CH-AG\",\"postcode\":\"5034\",\"country\":\"Schweiz/Suisse/Svizzera/Svizra\",\"country_code\":\"ch\"},\"boundingbox\":[\"47.3827583\",\"47.3839099\",\"8.0589605\",\"8.0606538\"]}",
+  "fetchedAt": "2026-10-14T19:13:45.741Z"
+}

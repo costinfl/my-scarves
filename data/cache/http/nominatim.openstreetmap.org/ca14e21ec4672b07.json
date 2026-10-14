@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.282090&lon=-8.075706&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286967263,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":825803066,\"lat\":\"41.2820055\",\"lon\":\"-8.0757051\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.5494773784954874e-05,\"addresstype\":\"leisure\",\"name\":\"Amarante Futebol Clube\",\"display_name\":\"Amarante Futebol Clube, Avenida Teixeira de Pascoaes, Boa Vista, Amarante (São Gonçalo), Madalena, Cepelos e Gatão, Amarante, Porto, 4600-758, Portugal\",\"address\":{\"leisure\":\"Amarante Futebol Clube\",\"road\":\"Avenida Teixeira de Pascoaes\",\"hamlet\":\"Boa Vista\",\"city_district\":\"Amarante (São Gonçalo), Madalena, Cepelos e Gatão\",\"city\":\"Amarante\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4600-758\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.2814576\",\"41.2825534\",\"-8.0761690\",\"-8.0752412\"]}",
+  "fetchedAt": "2026-10-14T19:13:41.295Z"
+}

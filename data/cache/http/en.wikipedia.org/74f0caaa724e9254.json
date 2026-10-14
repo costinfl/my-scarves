@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Lviv%20(1992)",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Lviv (1992)\",\"pageid\":53633777,\"redirects\":[],\"wikitext\":\"{{distinguish|FC Lviv}}\\n{{Use dmy dates|date=November 2021}}\\n{{Infobox football club\\n| clubname = Lviv\\n| image = FC Lviv 1993-01.jpg\\n| fullname = Football Club Lviv\\n| nickname = \\n| founded = 1992\\n| dissolved = 2001\\n| stadium = Yunist Stadium<ref>Dorosh, R. ''[https://web.archive.org/web/20180903022116/http://postup.brama.com/000518/86_11_3.html FC Lviv returns to the top-10 (ФК \\\"Львів\\\" повертається в десятку)]''. Postup at Brama. 18 May 2000</ref>\\n| capacity = \\n| chairman = [[Oleksandr Didenko]]\\n| mgrtitle = Head Coach\\n| manager = [[Volodymyr Zhuravchak]]\\n| league = [[Ukrainian First League]]\\n| season = [[2000–01 Ukrainian First League|2000–01]]\\n| position = 5th\\n| pattern_la1 = \\n| pattern_b1 = \\n| pattern_ra1 = \\n| leftarm1 = \\n| body1 = \\n| rightarm1 = \\n| shorts1 = \\n| socks1 = \\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra2 = \\n| leftarm2 = \\n| body2 = \\n| rightarm2 = \\n| shorts2 = \\n| socks2 = \\n}}\\n'''FC Lviv''' ({{langx|uk|ФК «Львів»}}) was a Ukrainian [[association football|football]] club from the city of [[Lviv]]. It was initially founded in 1992.\"}}",
+  "fetchedAt": "2026-10-14T19:13:10.680Z"
+}
