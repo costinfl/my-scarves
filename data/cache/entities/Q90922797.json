@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:13.430Z",
+  "version": 2,
+  "entity": {
+    "id": "Q90922797",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Футбольный клуб Островец.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Ostrovets"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Astraviec"
+      }
+    }
+  }
+}

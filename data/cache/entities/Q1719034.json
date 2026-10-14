@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1719034",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "61586"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Knattspyrnufélag Fjallabyggðar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Knattspyrnufélag Fjallabyggðar"
+      }
+    }
+  }
+}

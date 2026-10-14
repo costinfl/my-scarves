@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.444728&lon=19.264378&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57261157,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":197800225,\"lat\":\"42.4447385\",\"lon\":\"19.2644760\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.068055237654715e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"19. Decembra, Stara varoš, Podgorica, Glavni grad Podgorica, 81110, Crna Gora / Црна Гора\",\"address\":{\"road\":\"19. Decembra\",\"quarter\":\"Stara varoš\",\"city\":\"Podgorica\",\"county\":\"Glavni grad Podgorica\",\"ISO3166-2-lvl6\":\"ME-16\",\"postcode\":\"81110\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.4441577\",\"42.4452969\",\"19.2638186\",\"19.2651455\"]}",
+  "fetchedAt": "2026-10-14T14:26:47.518Z"
+}

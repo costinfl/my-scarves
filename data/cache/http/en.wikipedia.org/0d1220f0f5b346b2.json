@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Vilniaus%20Vytis",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Vilniaus Vytis\",\"pageid\":49950857,\"redirects\":[],\"wikitext\":\"{{Short description|Lithuanian football club}}\\n{{Use dmy dates|date=May 2021}}\\n{{Infobox football club \\n| nickname = ''Vyčiai''\\n| ground   = [[LFF Stadium]] \\n| capacity = 5.067 \\n| clubname = Vilniaus Vytis \\n| image    =\\n| founded  = 2012\\n| dissolved  = 2021 \\n| chairman = Benas Renatas Baltusis \\n| manager  = [[Algimantas Liubinskas]] \\n| league   =\\n| season   = 2020\\n| position = I Lyga, 7th\\n| current  = 2020 I Lyga\\n|\\n| pattern_la2=_black_stripes|pattern_b2=_blackstripes|pattern_ra2=_black_stripes|\\n  leftarm2=000000|body2=FF0000|rightarm2=000000|shorts2=FF0000|socks2=FF0000|\\n  pattern_la1=|pattern_b1=_whitestripes|pattern_ra1=|\\n  leftarm1=ff0000|body1=ff0000|rightarm1=ff0000|shorts1=ff0000|socks1=ff0000|\\n}}\\n\\n'''FC Vilniaus Vytis''' was a Lithuanian [[association football|football]] team from the city of [[Vilnius]].\"}}",
+  "fetchedAt": "2026-10-14T14:22:34.622Z"
+}

@@ -1,0 +1,94 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q1387084 wd:Q2528324 wd:Q5424928 wd:Q16412614 wd:Q12371238 wd:Q5425073 wd:Q105424906 wd:Q619499 wd:Q3016278 wd:Q130770 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:14:46.066Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q130770",
+      "stadium": "http://www.wikidata.org/entity/Q120434709",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.740972222 58.394194444)",
+      "enwiki": "https://en.wikipedia.org/wiki/Tartu_JK_Welco",
+      "clubLabel": "Tartu JK Welco",
+      "stadiumLabel": "Holm Jalgpallipark"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q619499",
+      "stadium": "http://www.wikidata.org/entity/Q1722201",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.764767 59.425828)",
+      "enwiki": "https://en.wikipedia.org/wiki/JK_Tallinna_Kalev",
+      "clubLabel": "JK Tallinna Kalev",
+      "stadiumLabel": "Kalev Central Stadium",
+      "capacity": "12000",
+      "website": "https://jkkalev.ee/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3016278",
+      "stadium": "http://www.wikidata.org/entity/Q2524100",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.82805 59.506592)",
+      "enwiki": "https://en.wikipedia.org/wiki/Viimsi_JK",
+      "clubLabel": "Viimsi JK",
+      "stadiumLabel": "Viimsi Stadium",
+      "capacity": "2000",
+      "website": "https://mrjk.ee/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Viimsi%20JK.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5424928",
+      "stadium": "http://www.wikidata.org/entity/Q278923",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.73205 59.421292)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Flora_U21",
+      "clubLabel": "FC Flora II Tallinn",
+      "stadiumLabel": "A. Le Coq Arena",
+      "capacity": "14336",
+      "website": "http://fcflora.ee/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12371238",
+      "stadium": "http://www.wikidata.org/entity/Q2563925",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.659603 59.385456)",
+      "enwiki": "https://en.wikipedia.org/wiki/N%C3%B5mme_Kalju_FC_U21",
+      "clubLabel": "JK Nõmme Kalju II",
+      "stadiumLabel": "Hiiu Stadium",
+      "capacity": "650",
+      "website": "http://www.jkkalju.ee"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16412614",
+      "stadium": "http://www.wikidata.org/entity/Q25517915",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/Maardu_Linnameeskond",
+      "clubLabel": "Maardu Linnameeskond",
+      "stadiumLabel": "Q25517915",
+      "website": "http://www.fcmaardu.ee/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387084",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Elva",
+      "clubLabel": "FC Elva",
+      "website": "http://www.fcelva.ee"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2528324",
+      "enwiki": "https://en.wikipedia.org/wiki/FCI_Levadia_U21_Tallinn",
+      "clubLabel": "FC Levadia II Tallinn",
+      "website": "http://fclevadia.ee/article/22"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5425073",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_N%C3%B5mme_United",
+      "clubLabel": "FC Nõmme United",
+      "website": "http://www.fcnommu.ee/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q105424906",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Tallinn",
+      "clubLabel": "FC Tallinn",
+      "website": "https://fctallinn.ee/et/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Tallinn%20logo.png"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.363470&lon=28.184650&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":171907525,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":42218047,\"lat\":\"59.3635754\",\"lon\":\"28.1845316\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.388723582813791e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Proletariaadi, Kreenholmi, Narva linn, Ida-Viru maakond, 20707, Eesti\",\"address\":{\"road\":\"Proletariaadi\",\"quarter\":\"Kreenholmi\",\"town\":\"Narva linn\",\"municipality\":\"Narva linn\",\"ISO3166-2-lvl7\":\"EE-511\",\"county\":\"Ida-Viru maakond\",\"ISO3166-2-lvl6\":\"EE-45\",\"postcode\":\"20707\",\"country\":\"Eesti\",\"country_code\":\"ee\"},\"boundingbox\":[\"59.3630679\",\"59.3640933\",\"28.1838340\",\"28.1852293\"]}",
+  "fetchedAt": "2026-10-14T14:25:15.345Z"
+}

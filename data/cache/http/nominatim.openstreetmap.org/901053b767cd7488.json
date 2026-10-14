@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.537500&lon=28.648611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":171357893,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":241892173,\"lat\":\"55.5375197\",\"lon\":\"28.6486331\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.462653543903284e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Паркавая вуліца, Цэнтр, Наваполацк, Віцебская вобласць, 220447, Беларусь\",\"address\":{\"road\":\"Паркавая вуліца\",\"suburb\":\"Цэнтр\",\"town\":\"Наваполацк\",\"state\":\"Віцебская вобласць\",\"ISO3166-2-lvl4\":\"BY-VI\",\"postcode\":\"220447\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"55.5371436\",\"55.5378953\",\"28.6477125\",\"28.6495537\"]}",
+  "fetchedAt": "2026-10-14T14:25:00.721Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:11.306Z",
+  "version": 2,
+  "entity": {
+    "id": "Q3016278",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Viimsi JK.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Viimsi JK"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Viimsi JK"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Alfa",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Alfa\",\"pageid\":15295357,\"redirects\":[],\"wikitext\":\"{{Short description|Latvian football club}}\\n{{One source|date=July 2026}}\\n\\n{{Infobox football club\\n| clubname      = FK Alfa\\n| fullname      = Elektrons Rīga\\n| American      = no\\n| league        = [[Latvian First League|1. līga]]\\n| season        = 1992\\n| position      = \\n}}\\n'''Elektrons Rīga''' (also known as FK Alfa) was a [[Latvia]]n [[football (soccer)|football]] club from [[Riga]] that was one of the leading clubs in the Latvian league in the 1970s and 1980s.\"}}",
+  "fetchedAt": "2026-10-14T14:22:44.724Z"
+}

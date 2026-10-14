@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.030389&lon=19.742417&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57116939,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":228362776,\"lat\":\"43.0304331\",\"lon\":\"19.7424179\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.836041809715446e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion Jedinstvo\",\"display_name\":\"Stadion Jedinstvo, Milana Rakića, Nikoljac, Medanovići, Bijelo Polje, Opština Bijelo Polje, 84000, Crna Gora / Црна Гора\",\"address\":{\"leisure\":\"Stadion Jedinstvo\",\"road\":\"Milana Rakića\",\"neighbourhood\":\"Nikoljac\",\"quarter\":\"Medanovići\",\"city\":\"Bijelo Polje\",\"county\":\"Opština Bijelo Polje\",\"ISO3166-2-lvl6\":\"ME-04\",\"postcode\":\"84000\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"43.0297167\",\"43.0311307\",\"19.7418824\",\"19.7429626\"]}",
+  "fetchedAt": "2026-10-14T14:26:53.165Z"
+}

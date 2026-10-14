@@ -1,0 +1,43 @@
+{
+  "fetchedAt": "2026-10-14T14:19:13.430Z",
+  "version": 2,
+  "entity": {
+    "id": "Q752339",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2600371"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Nõmme Kalju FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Nõmme Kalju FC"
+      }
+    }
+  }
+}

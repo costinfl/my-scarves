@@ -1,0 +1,374 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q210183 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q210183 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T14:13:27.518Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Kategoria_Superiore",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965%E2%80%9366_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1911_Fier_Fair_Tournament",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1940_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966%E2%80%9367_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964%E2%80%9365_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984%E2%80%9385_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985%E2%80%9386_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971%E2%80%9372_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976%E2%80%9377_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979%E2%80%9380_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982%E2%80%9383_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983%E2%80%9384_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Albanian_National_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Kategoria_Superiore",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Kategoria_Superiore",
+      "kind": "season"
+    }
+  ]
+}

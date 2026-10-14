@@ -1,0 +1,154 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q1087541 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q1087541 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T14:14:43.103Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Esiliiga",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Esiliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_Esiliiga",
+      "kind": "season"
+    }
+  ]
+}

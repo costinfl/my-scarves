@@ -1,0 +1,258 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q116909 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q116909 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T14:13:33.043Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Kategoria_e_Par%C3%AB",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Kategoria_e_Par%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985%E2%80%9386_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984%E2%80%9385_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983%E2%80%9384_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982%E2%80%9383_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979%E2%80%9380_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976%E2%80%9377_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Kategoria_e_Dyt%C3%AB",
+      "kind": "season"
+    }
+  ]
+}

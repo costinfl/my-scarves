@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.465100&lon=19.295100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56894174,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28682260,\"lat\":\"42.4651085\",\"lon\":\"19.2951100\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":3.750133516437045e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion FK Kom\",\"display_name\":\"Stadion FK Kom, Mojsija Zečevića, Zlatica, Podgorica, Glavni grad Podgorica, 80001, Crna Gora / Црна Гора\",\"address\":{\"leisure\":\"Stadion FK Kom\",\"road\":\"Mojsija Zečevića\",\"neighbourhood\":\"Zlatica\",\"city\":\"Podgorica\",\"county\":\"Glavni grad Podgorica\",\"ISO3166-2-lvl6\":\"ME-16\",\"postcode\":\"80001\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.4645376\",\"42.4656792\",\"19.2942860\",\"19.2959340\"]}",
+  "fetchedAt": "2026-10-14T14:26:55.486Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:12.375Z",
+  "version": 2,
+  "entity": {
+    "id": "Q619499",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2600097"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "JK Tallinna Kalev"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "JK Tallinna Kalev"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:11.306Z",
+  "version": 2,
+  "entity": {
+    "id": "Q281780",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2613945"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Maxline Vitebsk"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Maxline Viciebsk"
+      }
+    }
+  }
+}

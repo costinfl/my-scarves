@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:11.306Z",
+  "version": 2,
+  "entity": {
+    "id": "Q291716",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52720"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "ÍBV (men's football)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Íþróttabandalag Vestmannaeyja"
+      }
+    }
+  }
+}

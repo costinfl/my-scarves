@@ -1,0 +1,152 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q41634649 wd:Q97516218 wd:Q752278 wd:Q571264 wd:Q835853 wd:Q221702 wd:Q279886 wd:Q597715 wd:Q1140538 wd:Q291691 wd:Q291716 wd:Q74116224 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:16:26.023Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q221702",
+      "stadium": "http://www.wikidata.org/entity/Q2530849",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.967728 64.145683)",
+      "capacity": "2781",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur",
+      "website": "http://www.kr.is",
+      "clubLabel": "KR Reykjavík",
+      "stadiumLabel": "KR-völlur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q221702",
+      "stadium": "http://www.wikidata.org/entity/Q2530849",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.967728 64.145683)",
+      "capacity": "2781",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur",
+      "website": "http://www.kr.is/knattspyrna/",
+      "clubLabel": "KR Reykjavík",
+      "stadiumLabel": "KR-völlur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q279886",
+      "stadium": "http://www.wikidata.org/entity/Q3499565",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.928865 64.087423)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/Stjarnan_(men%27s_football)",
+      "website": "https://www.stjarnan.is/",
+      "clubLabel": "Stjarnan",
+      "stadiumLabel": "Stjörnuvöllur",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Stjarnan%20Logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291691",
+      "stadium": "http://www.wikidata.org/entity/Q2135947",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-22.059753 64.317656)",
+      "capacity": "4850",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%8D%C3%BEr%C3%B3ttabandalag_Akraness",
+      "website": "http://www.kfia.is",
+      "clubLabel": "Íþróttabandalag Akraness",
+      "stadiumLabel": "Akranesvöllur",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Akranes.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291716",
+      "stadium": "http://www.wikidata.org/entity/Q2779785",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-20.28795 63.439414)",
+      "capacity": "3540",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%8DBV_(men%27s_football)",
+      "website": "https://www.ibvsport.is/",
+      "clubLabel": "Íþróttabandalag Vestmannaeyja",
+      "stadiumLabel": "Hásteinsvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291716",
+      "stadium": "http://www.wikidata.org/entity/Q2779785",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-20.28795 63.439414)",
+      "capacity": "3540",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%8DBV_(men%27s_football)",
+      "website": "https://www.ibv.is/",
+      "clubLabel": "Íþróttabandalag Vestmannaeyja",
+      "stadiumLabel": "Hásteinsvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q571264",
+      "stadium": "http://www.wikidata.org/entity/Q2829176",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-18.095211 65.686083)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Akureyrar",
+      "website": "http://www.ka.is",
+      "clubLabel": "Knattspyrnufélag Akureyrar",
+      "stadiumLabel": "Akureyrarvöllur",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ka-logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q597715",
+      "stadium": "http://www.wikidata.org/entity/Q2982533",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.923611 64.132778)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/Valur_(men%27s_football)",
+      "website": "http://www.valur.is/",
+      "clubLabel": "Valur",
+      "stadiumLabel": "Hlíðarendi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q752278",
+      "stadium": "http://www.wikidata.org/entity/Q151212",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.878972222 64.143555555)",
+      "capacity": "15427",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lagi%C3%B0_Fram",
+      "website": "https://fram.is/",
+      "clubLabel": "Knattspyrnufélagið Fram",
+      "stadiumLabel": "Laugardalsvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q835853",
+      "stadium": "http://www.wikidata.org/entity/Q2527041",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-22.559224 63.997997)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnudeild_Keflav%C3%ADk",
+      "website": "http://www.keflavik.is/knattspyrna/forsida/",
+      "clubLabel": "Keflavík Football Club",
+      "stadiumLabel": "Keflavíkurvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1140538",
+      "stadium": "http://www.wikidata.org/entity/Q2333092",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.852778 64.117222)",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%ADkingur_Reykjav%C3%ADk",
+      "website": "http://www.vikingur.is",
+      "clubLabel": "Knattspyrnufélagið Víkingur",
+      "stadiumLabel": "Víkingsvöllur",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vikingur.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q41634649",
+      "stadium": "http://www.wikidata.org/entity/Q2796402",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.896667 64.104167)",
+      "capacity": "5501",
+      "enwiki": "https://en.wikipedia.org/wiki/Brei%C3%B0ablik_(men%27s_football)",
+      "website": "https://breidablik.is/knattspyrna/",
+      "clubLabel": "Breiðablik men's football",
+      "stadiumLabel": "Kópavogsvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q74116224",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%9E%C3%B3r_Akureyri_(men%27s_football)",
+      "website": "https://www.thorsport.is/knattspyrna",
+      "clubLabel": "Þór Akureyri men's football"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q97516218",
+      "enwiki": "https://en.wikipedia.org/wiki/FH_(men%27s_football)",
+      "clubLabel": "FH men's football"
+    }
+  ]
+}

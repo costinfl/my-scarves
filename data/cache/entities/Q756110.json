@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:13.430Z",
+  "version": 2,
+  "entity": {
+    "id": "Q756110",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "62131"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Belshina Bobruisk"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Belshina Bobruisk"
+      }
+    }
+  }
+}

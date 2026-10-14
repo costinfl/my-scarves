@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:09.741Z",
+  "version": 2,
+  "entity": {
+    "id": "Q117206645",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2613214"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK TransINVEST"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Transinvest"
+      }
+    }
+  }
+}

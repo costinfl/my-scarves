@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T14:19:12.375Z",
+  "version": 2,
+  "entity": {
+    "id": "Q5426288",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Otrant-Olympic"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Otrant"
+      }
+    }
+  }
+}

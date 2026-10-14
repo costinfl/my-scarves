@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.160840&lon=42.330640&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207546572,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":233363775,\"lat\":\"42.1608169\",\"lon\":\"42.3306787\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.185702296478244e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"შოთა რუსთაველის ქუჩა, სამტრედია, სამტრედიის მუნიციპალიტეტი, იმერეთი, 3900, საქართველო\",\"address\":{\"road\":\"შოთა რუსთაველის ქუჩა\",\"town\":\"სამტრედია\",\"county\":\"სამტრედიის მუნიციპალიტეტი\",\"state\":\"იმერეთი\",\"ISO3166-2-lvl4\":\"GE-IM\",\"postcode\":\"3900\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"42.1603237\",\"42.1613101\",\"42.3301960\",\"42.3311614\"]}",
+  "fetchedAt": "2026-10-14T14:25:48.445Z"
+}

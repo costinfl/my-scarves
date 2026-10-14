@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20J%C5%ABrnieks",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Jūrnieks\",\"pageid\":15395605,\"redirects\":[],\"wikitext\":\"{{short description|Latvian football club}}\\n{{More citations needed|date=March 2024}}\\n{{Infobox football club\\n| clubname = FK Jūrnieks\\n| image = FK_Jurnieks.png\\n| nickname = Jūrnieks\\n| founded = 1959 (re-founded 2017)\\n| dissolved = 1997\\n| American = no\\n| league = [[Latvian Third League|3. līga]]\\n| season = 2022\\n| website = https://www.facebook.com/fkjurnieks/\\n| stadium = Jūrnieks Stadium, Riga\\n}}\\n'''FK Jūrnieks''' is a [[Latvia]]n [[football (soccer)|football]] club based in [[Riga]]. Founded in 1959, it initially became defunct in 1997. In 2017, the club got reinstated in Latvia's [[Latvian Second League|Second League]]. Since 2023, it has been relegated to the [[Latvian Third League]].\"}}",
+  "fetchedAt": "2026-10-14T14:22:46.017Z"
+}

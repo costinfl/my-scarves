@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:09.741Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1346756",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59885"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Dinamo Batumi"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Dinamo Batumi"
+      }
+    }
+  }
+}

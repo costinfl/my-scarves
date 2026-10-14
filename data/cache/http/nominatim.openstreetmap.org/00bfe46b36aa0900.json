@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.374400&lon=28.819200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":61712873,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":110372781,\"lat\":\"47.3743354\",\"lon\":\"28.8196885\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3626429788867404,\"addresstype\":\"leisure\",\"name\":\"Stadionul Raional Orhei\",\"display_name\":\"Stadionul Raional Orhei, Strada Scrisului Latin, Centru, Orhei, Raionul Orhei, MD-3505, Moldova\",\"address\":{\"leisure\":\"Stadionul Raional Orhei\",\"road\":\"Strada Scrisului Latin\",\"suburb\":\"Centru\",\"city\":\"Orhei\",\"county\":\"Raionul Orhei\",\"ISO3166-2-lvl4\":\"MD-OR\",\"postcode\":\"MD-3505\",\"country\":\"Moldova\",\"country_code\":\"md\"},\"boundingbox\":[\"47.3733890\",\"47.3751963\",\"28.8187604\",\"28.8206247\"]}",
+  "fetchedAt": "2026-10-14T14:26:36.736Z"
+}

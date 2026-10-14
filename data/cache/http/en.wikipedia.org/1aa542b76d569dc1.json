@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Syunik",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Syunik\",\"pageid\":80114221,\"redirects\":[],\"wikitext\":\"{{short description|Armenian football club}}\\n{{Use dmy dates|date=July 2022}}\\n{{Infobox football club\\n| clubname = FC Syunik\\n| image = FC_Syunik_logo.svg\\n| fullname = Football Club Syunik\\n| founded = {{Start date and age|2022}}\\n| ground = [[Gandzasar Stadium]],<br/>[[Kapan]]\\n| capacity = 3,500\\n| chairman = \\n| manager = [[Igor Picușceac]]\\n| league = [[Armenian Premier League]]\\n| season = [[2025–26 Armenian First League|2025–26]]\\n| position = 4th of 13 (Promoted)\\n| website = \\n| pattern_la1 = \\n| pattern_b1 = \\n| pattern_ra1 = \\n| pattern_sh1 = \\n| pattern_so1 = \\n| leftarm1 = 091150\\n| body1 = \\n| rightarm1 = 091150\\n| shorts1 = FFFFFF\\n| socks1 = FFFFFF\\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra2 = \\n| leftarm2 = FFFFFF\\n| body2 = 091150\\n| rightarm2 = FFFFFF\\n| shorts2 = 091150\\n| socks2 = 091150\\n}}\\n\\n'''Football Club Syunik''', commonly known as '''Syunik''', is an [[Armenia|Armenian]] [[association football|football]] club from the [[Syunik Province]].<ref>{{cite web|url=http://www.ffa.am/en/clubs|title=Clubs|website=ffa.am|access-date=20 June 2019}}</ref>\"}}",
+  "fetchedAt": "2026-10-14T14:21:39.646Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.955167&lon=24.158861&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":170621036,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":476926534,\"lat\":\"56.9549123\",\"lon\":\"24.1589231\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.666056305786248e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kroņu iela, Purvciems, Teikas apkaime, Rīga, LV-1009, Latvija\",\"address\":{\"road\":\"Kroņu iela\",\"suburb\":\"Purvciems\",\"city_district\":\"Teikas apkaime\",\"city\":\"Rīga\",\"ISO3166-2-lvl5\":\"LV-RIX\",\"postcode\":\"LV-1009\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"56.9543967\",\"56.9554279\",\"24.1582452\",\"24.1596010\"]}",
+  "fetchedAt": "2026-10-14T14:26:24.929Z"
+}

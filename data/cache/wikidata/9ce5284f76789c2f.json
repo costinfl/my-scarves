@@ -1,0 +1,108 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q806459 wd:Q12654311 wd:Q12654265 wd:Q12654411 wd:Q2869148 wd:Q23894576 wd:Q14657783 wd:Q16478096 wd:Q7579541 wd:Q757104 wd:Q4653968 wd:Q117206645 wd:Q500988 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:18:03.094Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q500988",
+      "stadium": "http://www.wikidata.org/entity/Q965566",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.2947 54.6685)",
+      "capacity": "5067",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%BDalgiris",
+      "website": "https://fkzalgiris.lt/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vmfdzalgiris2.jpg",
+      "clubLabel": "FK Žalgiris",
+      "stadiumLabel": "FK Žalgiris Home Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757104",
+      "stadium": "http://www.wikidata.org/entity/Q3500967",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.3654 54.5745)",
+      "capacity": "6250",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_S%C5%ABduva",
+      "website": "https://fksuduva.lt/",
+      "clubLabel": "FK Sūduva",
+      "stadiumLabel": "ARVI Football Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757104",
+      "stadium": "http://www.wikidata.org/entity/Q3500967",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.3654 54.5745)",
+      "capacity": "6250",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_S%C5%ABduva",
+      "website": "https://fksuduva.lt/",
+      "clubLabel": "FK Sūduva",
+      "stadiumLabel": "ARVI Football Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q806459",
+      "stadium": "http://www.wikidata.org/entity/Q5523214",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.4044 55.7153)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Banga_Garg%C5%BEdai",
+      "website": "http://www.fkbanga.lt/",
+      "clubLabel": "FK Banga Gargždai",
+      "stadiumLabel": "Gargždai Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12654411",
+      "stadium": "http://www.wikidata.org/entity/Q1583616",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.9369 54.8972)",
+      "capacity": "15315",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kauno_%C5%BDalgiris",
+      "website": "http://zalgiris.lt/football/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/BC%20%C5%BDalgiris%202023.png",
+      "clubLabel": "FK Kauno Žalgiris",
+      "stadiumLabel": "Darius and Girėnas Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q14657783",
+      "stadium": "http://www.wikidata.org/entity/Q965566",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.2947 54.6685)",
+      "capacity": "5067",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Riteriai",
+      "website": "http://fkriteriai.lt/",
+      "clubLabel": "FK Riteriai",
+      "stadiumLabel": "FK Žalgiris Home Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q23894576",
+      "stadium": "http://www.wikidata.org/entity/Q2597930",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.3594 55.7392)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Panev%C4%97%C5%BEys",
+      "website": "http://fk-panevezys.lt/",
+      "clubLabel": "FK Panevėžys",
+      "stadiumLabel": "Aukštaitija Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12654265",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Hegelmann",
+      "website": "https://fchegelmann.com/",
+      "clubLabel": "FC Hegelmann"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12654311",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_D%C5%BEiugas_Tel%C5%A1iai",
+      "website": "https://www.fcdziugas.lt/",
+      "clubLabel": "FC Džiugas"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16478096",
+      "enwiki": "https://en.wikipedia.org/wiki/FA_%C5%A0iauliai",
+      "clubLabel": "FA Šiauliai"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q117206645",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_TransINVEST",
+      "website": "https://fktransinvest.lt",
+      "clubLabel": "FK Transinvest"
+    }
+  ]
+}

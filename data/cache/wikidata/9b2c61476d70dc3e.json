@@ -1,0 +1,136 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q209008 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:18:20.784Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q1389147",
+      "stadium": "http://www.wikidata.org/entity/Q8082782",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.4831 55.3367)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%A0ilut%C4%97",
+      "clubLabel": "FK Šilutė",
+      "stadiumLabel": "Šilutė Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1630613",
+      "stadium": "http://www.wikidata.org/entity/Q6454425",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.9873 55.2995)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Nev%C4%97%C5%BEis",
+      "clubLabel": "FK Nevėžis",
+      "stadiumLabel": "Kėdainiai Stadium",
+      "capacity": "3000",
+      "website": "http://www.fknevezis.lt/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2480155",
+      "stadium": "http://www.wikidata.org/entity/Q190786",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.2717 55.078)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jonava",
+      "clubLabel": "FK Jonava",
+      "stadiumLabel": "Jonava City Stadium",
+      "capacity": "1008",
+      "website": "http://fkjonava.lt/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2480155",
+      "stadium": "http://www.wikidata.org/entity/Q190786",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.2717 55.078)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jonava",
+      "clubLabel": "FK Jonava",
+      "stadiumLabel": "Jonava City Stadium",
+      "capacity": "2040",
+      "website": "http://fkjonava.lt/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2480155",
+      "stadium": "http://www.wikidata.org/entity/Q190786",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.2717 55.078)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jonava",
+      "clubLabel": "FK Jonava",
+      "stadiumLabel": "Jonava City Stadium",
+      "capacity": "2580",
+      "website": "http://fkjonava.lt/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q23585983",
+      "stadium": "http://www.wikidata.org/entity/Q965566",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.2947 54.6685)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vilniaus_Vytis",
+      "clubLabel": "FC Vilniaus Vytis",
+      "stadiumLabel": "FK Žalgiris Home Stadium",
+      "capacity": "5067"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q25497856",
+      "stadium": "http://www.wikidata.org/entity/Q15703619",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.8648 55.9825)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Pakruojis",
+      "clubLabel": "FC Pakruojis",
+      "stadiumLabel": "Pakruojis Stadium",
+      "capacity": "2000"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q25497952",
+      "stadium": "http://www.wikidata.org/entity/Q4738800",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.0552 54.392)",
+      "enwiki": "https://en.wikipedia.org/wiki/DFK_Dainava",
+      "clubLabel": "DFK Dainava",
+      "stadiumLabel": "Alytus Stadium",
+      "capacity": "3748",
+      "website": "https://dfkdainava.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q31198746",
+      "stadium": "http://www.wikidata.org/entity/Q965566",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.2947 54.6685)",
+      "clubLabel": "FK Žalgiris B",
+      "stadiumLabel": "FK Žalgiris Home Stadium",
+      "capacity": "5067",
+      "website": "http://www.fkzalgiris.lt"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6865261",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Minija_Kretinga",
+      "clubLabel": "FK Minija"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12654339",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%A0ilas_Kazl%C5%B3_R%C5%ABda",
+      "clubLabel": "FK Šilas",
+      "website": "http://www.fksilas.lt"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12654341",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kra%C5%BEant%C4%97_Kelm%C4%97",
+      "clubLabel": "FK Kražantė"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16450761",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Lokomotyvas_Radvili%C5%A1kis",
+      "clubLabel": "FK Lokomotyvas Radviliškis"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q25496727",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Koralas_Klaip%C4%97da",
+      "clubLabel": "FK Koralas"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q31199140",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_MRU_Vilnius",
+      "clubLabel": "FK Mykolo Riomerio universitetas"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q31199501",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Be1",
+      "clubLabel": "FK Nacionalinė futbolo akademija"
+    }
+  ]
+}

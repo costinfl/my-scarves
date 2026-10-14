@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.420295&lon=18.764979&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57372710,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":177389659,\"lat\":\"42.4201945\",\"lon\":\"18.7649459\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.315022507052747e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ivo Brkanović, Škaljari, Opština Kotor, 85339, Crna Gora / Црна Гора\",\"address\":{\"road\":\"Ivo Brkanović\",\"village\":\"Škaljari\",\"county\":\"Opština Kotor\",\"ISO3166-2-lvl6\":\"ME-10\",\"postcode\":\"85339\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.4199898\",\"42.4205034\",\"18.7643570\",\"18.7655348\"]}",
+  "fetchedAt": "2026-10-14T14:26:45.318Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:09.741Z",
+  "version": 2,
+  "entity": {
+    "id": "Q11624718",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2612812"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Isloch Minsk Raion"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Isloch Minsk Raion"
+      }
+    }
+  }
+}

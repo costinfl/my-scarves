@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Multibanka%20R%C4%ABga",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Multibanka Rīga\",\"pageid\":8115706,\"redirects\":[],\"wikitext\":\"{{Short description|Former Latvian football club}}\\n{{Multiple issues|\\n{{One source|date=December 2019}}\\n{{Missing information|description and tables|date=December 2019}}\\n}}\\n\\n{{Infobox football club |\\n  clubname = Multibanka |\\n  image = |\\n  fullname = Futbola klubs Multibanka|\\n  nickname =  |\\n  founded  =  |\\n  ground   = [[Latvenergo stadions]], [[Riga]], [[Latvia]]|\\n  capacity =  |\\n  chairman = Jurijs Somoņenkovs|\\n  manager  =  |\\n  league   = [[Latvian First League|1. līga]] |\\n  season   = 2006 |\\n  position = 13.|\\n}}\\n\\n'''Futbola klubs Multibanka''' was a [[Latvia]]n football club, playing in the second-highest division of Latvian football. They were from the city of [[Riga]].\"}}",
+  "fetchedAt": "2026-10-14T14:22:47.418Z"
+}

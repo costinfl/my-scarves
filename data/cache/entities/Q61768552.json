@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T14:19:12.375Z",
+  "version": 2,
+  "entity": {
+    "id": "Q61768552",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "ФК Арсенал Дзяржынск.gif"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2610531"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Arsenal Dzerzhinsk"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Arsenal Dzerzhinsk"
+      }
+    }
+  }
+}

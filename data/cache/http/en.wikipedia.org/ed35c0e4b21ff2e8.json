@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Aragats%20Gyumri%20FC",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Aragats Gyumri FC\",\"pageid\":11775884,\"redirects\":[],\"wikitext\":\"{{Infobox football club |\\n  clubname = Aragats Gyumri|\\n  image    = |\\n  fullname = Aragats Gyumri Football Club |\\n  nickname = |\\n  founded  = {{Start date and age|1967}} |\\n  dissolved = {{Start date and age|2002}} |\\n  ground   = [[Gyumri City Stadium]],<br/>[[Gyumri]] |\\n  capacity = 2,844|\\n}}\\n\\n'''Aragats Gyumri FC''' ({{langx|hy|Արագած Գյումրի Ֆուտբոլային Ակումբ}}), is a defunct [[Armenia|Armenian]] [[association football|football]] club from [[Gyumri]], [[Shirak Province]].\\n\\nAragats FC was founded in 1967 as the reserves club of FC Shirak. In 1973, the club was renamed '''Aragats Leninakan FC'''.\\n\\nHowever, the club was dissolved in 2002 due to financial difficulties. Later, many former players of the club moved to Shirak-2 in 2007 to form the reserves team of [[FC Shirak]].\"}}",
+  "fetchedAt": "2026-10-14T14:21:41.440Z"
+}

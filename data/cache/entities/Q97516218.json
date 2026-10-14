@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:13.430Z",
+  "version": 2,
+  "entity": {
+    "id": "Q97516218",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59329"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FH (men's football)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FH men's football"
+      }
+    }
+  }
+}

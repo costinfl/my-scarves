@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.776056&lon=19.644661&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57004470,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1126671187,\"lat\":\"41.7760756\",\"lon\":\"19.6447795\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.1631189440711335e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Pjeter Arbnori, Kodra Marlekaj, Lezhë, Bashkia Lezhë, Qarku i Lezhës, 4501, Shqipëria\",\"address\":{\"road\":\"Pjeter Arbnori\",\"hamlet\":\"Kodra Marlekaj\",\"city_district\":\"Lezhë\",\"town\":\"Bashkia Lezhë\",\"county\":\"Qarku i Lezhës\",\"ISO3166-2-lvl6\":\"AL-08\",\"postcode\":\"4501\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"41.7755849\",\"41.7765663\",\"19.6443324\",\"19.6452266\"]}",
+  "fetchedAt": "2026-10-14T14:24:11.392Z"
+}

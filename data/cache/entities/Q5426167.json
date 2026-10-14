@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:12.375Z",
+  "version": 2,
+  "entity": {
+    "id": "Q5426167",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2602858"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Iskra Danilovgrad"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Iskra Danilovgrad"
+      }
+    }
+  }
+}

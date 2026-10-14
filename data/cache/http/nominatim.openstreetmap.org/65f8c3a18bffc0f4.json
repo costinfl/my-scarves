@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.977222&lon=26.291944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":173325153,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":878853655,\"lat\":\"55.9773973\",\"lon\":\"26.2919777\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.311131456469089e-05,\"addresstype\":\"leisure\",\"name\":\"Vārpa\",\"display_name\":\"Vārpa, Stadiona iela, Ilūkste, Augšdaugavas novads, LV-5447, Latvija\",\"address\":{\"leisure\":\"Vārpa\",\"road\":\"Stadiona iela\",\"town\":\"Ilūkste\",\"municipality\":\"Augšdaugavas novads\",\"ISO3166-2-lvl5\":\"LV-111\",\"postcode\":\"LV-5447\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"55.9769601\",\"55.9777462\",\"26.2910710\",\"26.2929014\"]}",
+  "fetchedAt": "2026-10-14T14:26:21.774Z"
+}

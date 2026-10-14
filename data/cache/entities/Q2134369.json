@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2134369",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Lida"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Lida"
+      }
+    }
+  }
+}

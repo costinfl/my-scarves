@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:11.306Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2788132",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "61616"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Tbilisi"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Tbilisi"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.785833&lon=43.833333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207250695,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":6412392887,\"lat\":\"40.7859665\",\"lon\":\"43.8327849\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":5.552529182874826e-05,\"addresstype\":\"club\",\"name\":\"Գյումրու թեթև աթլետիկայի հավաքական\",\"display_name\":\"Գյումրու թեթև աթլետիկայի հավաքական, Մարտի 8-ի փողոց, Գյումրի, Գյումրի-Ախուրյան սահման, Շիրակի մարզ, 3105, Հայաստան\",\"address\":{\"club\":\"Գյումրու թեթև աթլետիկայի հավաքական\",\"road\":\"Մարտի 8-ի փողոց\",\"city\":\"Գյումրի\",\"state_district\":\"Գյումրի-Ախուրյան սահման\",\"state\":\"Շիրակի մարզ\",\"ISO3166-2-lvl4\":\"AM-SH\",\"postcode\":\"3105\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.7859165\",\"40.7860165\",\"43.8327349\",\"43.8328349\"]}",
+  "fetchedAt": "2026-10-14T14:24:48.707Z"
+}

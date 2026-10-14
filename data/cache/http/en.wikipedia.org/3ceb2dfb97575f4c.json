@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Volna%20Pinsk",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Volna Pinsk\",\"pageid\":14786405,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n  | clubname   = Volna Pinsk\\n  | fullname   = FC Volna Pinsk\\n  | nickname   = \\n  | shortname  = \\n  | image      = FCVolnaPinsk.png\\n  | image_size = 150px\\n  | founded    = 1987\\n  | ground     = [[Volna Stadium]], [[Pinsk]]\\n  | capacity   = 3,100\\n  | chairman   = Kirill Moyseychuk\\n  | coach      = \\n  | mgrtitle   = Head coach\\n  | manager    = Andrey Prokopyuk\\n  | league     = [[Belarusian First League]]\\n  | season     = [[2025 Belarusian First League|2025]]\\n  | position   = 11th of 18\\n  | website    = http://fcvolna-pinsk.by/\\n  | pattern_la1=_sallersetprice1rb|pattern_b1=_sallersetprice1rb|pattern_ra1=_sallersetprice1rb|pattern_so1 = _saller20rbw\\n  | leftarm1=FFFFFF|body1=FFFFFF|rightarm1=FFFFFF|shorts1=0000FF|socks1=0000FF\\n  | pattern_la2=_sallersetprice1r|pattern_b2=_sallersetprice1r|pattern_ra2=_sallersetprice1r|pattern_so2=_saller20rw\\n  | leftarm2=FFFFFF|body2=FFFFFF|rightarm2=FFFFFF|shorts2=FF0000|socks2=FF0000\\n}}\\n\\n'''FC Volna Pinsk''' is a [[Belarus]]ian [[Association football|football]] club based in [[Pinsk]], [[Brest Oblast]]. The club plays in the [[Belarusian First League]].\"}}",
+  "fetchedAt": "2026-10-14T14:21:57.810Z"
+}

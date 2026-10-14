@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:09.741Z",
+  "version": 2,
+  "entity": {
+    "id": "Q105424906",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Tallinn logo.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Tallinn"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Tallinn"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.207787&lon=46.400674&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207846662,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":89531091,\"lat\":\"39.2078200\",\"lon\":\"46.4011273\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.6861982146898874e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Արամ Մանուկյան փողոց, Կապան, Կապան համայնք, Սյունիքի մարզ, 3304, Հայաստան\",\"address\":{\"road\":\"Արամ Մանուկյան փողոց\",\"town\":\"Կապան\",\"state_district\":\"Կապան համայնք\",\"state\":\"Սյունիքի մարզ\",\"ISO3166-2-lvl4\":\"AM-SU\",\"postcode\":\"3304\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"39.2074659\",\"39.2081741\",\"46.4004323\",\"46.4018223\"]}",
+  "fetchedAt": "2026-10-14T14:24:46.398Z"
+}

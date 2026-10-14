@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.847286&lon=44.721492&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206674054,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":58379280,\"lat\":\"41.8472256\",\"lon\":\"44.7215080\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8165102616876743e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"ანტიოქიას ქუჩა, მცხეთა, მცხეთის მუნიციპალიტეტი, მცხეთა-მთიანეთი, 3300, საქართველო\",\"address\":{\"road\":\"ანტიოქიას ქუჩა\",\"town\":\"მცხეთა\",\"county\":\"მცხეთის მუნიციპალიტეტი\",\"state\":\"მცხეთა-მთიანეთი\",\"ISO3166-2-lvl4\":\"GE-MM\",\"postcode\":\"3300\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.8467226\",\"41.8477286\",\"44.7210683\",\"44.7219476\"]}",
+  "fetchedAt": "2026-10-14T14:25:51.730Z"
+}

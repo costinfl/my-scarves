@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=64.145683&lon=-21.967728&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274402928,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":238829252,\"lat\":\"64.1456697\",\"lon\":\"-21.9681429\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":7.186160067135145e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"Kaplaskjólsvegur, Skjól, Vesturbær, Reykjavíkurborg, Höfuðborgarsvæðið, 107, Ísland\",\"address\":{\"road\":\"Kaplaskjólsvegur\",\"neighbourhood\":\"Skjól\",\"suburb\":\"Vesturbær\",\"city\":\"Reykjavíkurborg\",\"ISO3166-2-lvl6\":\"IS-RKV\",\"state_district\":\"Höfuðborgarsvæðið\",\"ISO3166-2-lvl5\":\"IS-1\",\"postcode\":\"107\",\"country\":\"Ísland\",\"country_code\":\"is\"},\"boundingbox\":[\"64.1454474\",\"64.1458556\",\"-21.9686844\",\"-21.9675981\"]}",
+  "fetchedAt": "2026-10-14T14:26:06.414Z"
+}

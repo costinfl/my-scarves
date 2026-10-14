@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:12.375Z",
+  "version": 2,
+  "entity": {
+    "id": "Q537560",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2600104"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "OFK Petrovac"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "OFK Petrovac"
+      }
+    }
+  }
+}

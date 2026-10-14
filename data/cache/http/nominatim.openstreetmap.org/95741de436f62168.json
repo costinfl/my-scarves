@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.365485&lon=19.216810&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57176781,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":924519438,\"lat\":\"42.3654530\",\"lon\":\"19.2167354\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.692683298995983e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"M-2, Ljajkovići, Opština Zeta, 81304, Crna Gora / Црна Гора\",\"address\":{\"road\":\"M-2\",\"village\":\"Ljajkovići\",\"county\":\"Opština Zeta\",\"ISO3166-2-lvl6\":\"ME-25\",\"postcode\":\"81304\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.3649911\",\"42.3659148\",\"19.2160473\",\"19.2174235\"]}",
+  "fetchedAt": "2026-10-14T14:26:46.547Z"
+}

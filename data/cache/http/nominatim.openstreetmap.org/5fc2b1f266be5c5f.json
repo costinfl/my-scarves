@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.780833&lon=44.776111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":217277598,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":787520716,\"lat\":\"41.7807137\",\"lon\":\"44.7762047\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.468604562442996e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"ნოდარ ბოხუას ქუჩა, დიღმის მასივი, დიდუბის რაიონი, თბილისი, 0159, საქართველო\",\"address\":{\"road\":\"ნოდარ ბოხუას ქუჩა\",\"quarter\":\"დიღმის მასივი\",\"suburb\":\"დიდუბის რაიონი\",\"city\":\"თბილისი\",\"ISO3166-2-lvl4\":\"GE-TB\",\"postcode\":\"0159\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.7803978\",\"41.7810297\",\"44.7755364\",\"44.7768730\"]}",
+  "fetchedAt": "2026-10-14T14:25:48.094Z"
+}

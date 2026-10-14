@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=AFA%20Olaine",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"AFA Olaine\",\"pageid\":45436326,\"redirects\":[],\"wikitext\":\"{{Short description|Latvian football club}}\\n\\n{{Infobox football club\\n|  clubname = AFA Olaine\\n|  image    = AFA_Olaine.png\\n|  fullname = Apvienotā Futbola Akadēmija Olaine\\n|  nickname = \\n|  founded  = {{Start date and age|df=yes|2013}}\\n|  ground   = Olaines pilsētas stadions,<br />[[Olaine]], [[Latvia]]\\n|  capacity = \\n|  chairman = Aleksejs Gromovs\\n|  manager  = [[Andrejs Kolidzejs]]\\n|  league   = [[Latvian First League]]\\n|  season   = [[2025 Latvian First League|2025]]\\n|  position = 13th\\n|  website =  http://www.afaolaine.lv/\\n}}\\n'''AFA Olaine''' is a [[Latvia]]n football club. They compete in the second-highest division of Latvian football ([[Latvian First League|1. līga]]) and the [[Latvian Football Cup]].<ref name=\\\"soccerway\\\">{{cite web|url=https://int.soccerway.com/teams/latvia/fk-olaine/15827/|title=Latvia&nbsp;– FK Olaine&nbsp;– Results, fixtures, squad, statistics, photos, videos and news&nbsp;– Soccerway|publisher=uk.soccerway.com|accessdate=2015-02-18}}</ref>\"}}",
+  "fetchedAt": "2026-10-14T14:22:43.191Z"
+}

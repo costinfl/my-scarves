@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=64.138460&lon=-21.788200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273146960,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":128499433,\"lat\":\"64.1384718\",\"lon\":\"-21.7881705\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.2548773901198179,\"addresstype\":\"leisure\",\"name\":\"Extra völlurinn\",\"display_name\":\"Extra völlurinn, Gagnvegur, Hús, Grafarvogur, Reykjavíkurborg, Höfuðborgarsvæðið, 112, Ísland\",\"address\":{\"leisure\":\"Extra völlurinn\",\"road\":\"Gagnvegur\",\"neighbourhood\":\"Hús\",\"suburb\":\"Grafarvogur\",\"city\":\"Reykjavíkurborg\",\"ISO3166-2-lvl6\":\"IS-RKV\",\"state_district\":\"Höfuðborgarsvæðið\",\"ISO3166-2-lvl5\":\"IS-1\",\"postcode\":\"112\",\"country\":\"Ísland\",\"country_code\":\"is\"},\"boundingbox\":[\"64.1379747\",\"64.1389688\",\"-21.7889210\",\"-21.7874201\"]}",
+  "fetchedAt": "2026-10-14T14:26:08.706Z"
+}

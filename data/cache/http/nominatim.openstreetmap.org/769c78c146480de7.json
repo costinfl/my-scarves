@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=64.132778&lon=-21.923611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273014985,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":61738202,\"lat\":\"64.1328004\",\"lon\":\"-21.9234390\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.186160067135145e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Flugvallarvegur, Hlíðarendi, Hlíðar, Reykjavíkurborg, Höfuðborgarsvæðið, 101, Ísland\",\"address\":{\"road\":\"Flugvallarvegur\",\"neighbourhood\":\"Hlíðarendi\",\"suburb\":\"Hlíðar\",\"city\":\"Reykjavíkurborg\",\"ISO3166-2-lvl6\":\"IS-RKV\",\"state_district\":\"Höfuðborgarsvæðið\",\"ISO3166-2-lvl5\":\"IS-1\",\"postcode\":\"101\",\"country\":\"Ísland\",\"country_code\":\"is\"},\"boundingbox\":[\"64.1322526\",\"64.1333481\",\"-21.9244675\",\"-21.9224106\"]}",
+  "fetchedAt": "2026-10-14T14:26:09.537Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.897200&lon=23.936900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":174426221,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":10047130210,\"lat\":\"54.8974333\",\"lon\":\"23.9373332\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.4368720495090153,\"addresstype\":\"leisure\",\"name\":\"S. Dariaus ir S. Girėno stadionas\",\"display_name\":\"S. Dariaus ir S. Girėno stadionas, 5, Perkūno al., Žaliakalnis, Žaliakalnio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44225, Lietuva\",\"address\":{\"leisure\":\"S. Dariaus ir S. Girėno stadionas\",\"house_number\":\"5\",\"road\":\"Perkūno al.\",\"suburb\":\"Žaliakalnis\",\"city\":\"Kaunas\",\"state_district\":\"Kauno miesto savivaldybė\",\"ISO3166-2-lvl5\":\"LT-15\",\"state\":\"Kauno apskritis\",\"ISO3166-2-lvl4\":\"LT-KU\",\"postcode\":\"44225\",\"country\":\"Lietuva\",\"country_code\":\"lt\"},\"boundingbox\":[\"54.8973833\",\"54.8974833\",\"23.9372832\",\"23.9373832\"]}",
+  "fetchedAt": "2026-10-14T14:26:16.339Z"
+}

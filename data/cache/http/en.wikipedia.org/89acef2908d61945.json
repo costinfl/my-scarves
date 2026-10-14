@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=%C3%9E%C3%B3r%20Akureyri%20(men%27s%20football)",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Þór Akureyri (men's football)\",\"pageid\":61564096,\"redirects\":[],\"wikitext\":\"{{Use dmy dates|date=March 2024}}\\n{{Infobox football club\\n| clubname = Þór Akureyri\\n| image    = Þór Akureyri logo.svg\\n| upright  = 0.8\\n| fullname = Íþróttafélagið Þór\\n| nickname = Þórsarar\\n| founded  = {{Start date and age|1915|6|6|df=yes}}\\n| ground   = [[Þórsvöllur]],<br />[[Akureyri]]\\n| capacity = 984\\n| chairman = [[Nói Bjornsson]]\\n| manager  = [[Sigurdur Heidar Hoskuldsson]]\\n| league   = [[Besta deild karla]]\\n| season   = [[2025 1. deild karla|2025]]\\n| position = [[1. deild karla (football)|1. deild karla]], 1st of 12 (champions; promoted)\\n|  pattern_la1=|pattern_b1=|pattern_ra=|\\n  leftarm1=FFFFFF|body1=FFFFFF|rightarm1=FFFFFF|shorts1=FF0000|socks1=FFFFFF|\\n  pattern_la2=|pattern_b2=_blackshoulders|pattern_ra2=|\\n  leftarm2=FF0000|body2=FF0000|rightarm2=FF0000|shorts2=FF0000|socks2=FF0000|\\n|\\n}}\\n\\nThe '''Þór Akureyri men's football''' team, commonly known as '''Þór Akureyri''' ({{IPA|is|ˈθouːr̥ ˈaːkʏrˌeiːrɪ}}), is the men's football department of [[Þór Akureyri]] [[sport club|multi sports club]], based in the town of [[Akureyri]] in Iceland.\"}}",
+  "fetchedAt": "2026-10-14T14:22:32.628Z"
+}

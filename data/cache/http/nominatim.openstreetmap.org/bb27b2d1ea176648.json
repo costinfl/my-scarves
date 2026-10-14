@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.574500&lon=23.365400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":174624446,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":265688263,\"lat\":\"54.5746153\",\"lon\":\"23.3653603\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.37838153675224867,\"addresstype\":\"leisure\",\"name\":\"„Arvi“ arena\",\"display_name\":\"„Arvi“ arena, Kauno g., Pramonė, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68223, Lietuva\",\"address\":{\"leisure\":\"„Arvi“ arena\",\"road\":\"Kauno g.\",\"suburb\":\"Pramonė\",\"town\":\"Marijampolė\",\"state_district\":\"Marijampolės savivaldybė\",\"ISO3166-2-lvl5\":\"LT-25\",\"state\":\"Marijampolės apskritis\",\"ISO3166-2-lvl4\":\"LT-MR\",\"postcode\":\"68223\",\"country\":\"Lietuva\",\"country_code\":\"lt\"},\"boundingbox\":[\"54.5741054\",\"54.5751251\",\"23.3647618\",\"23.3659588\"]}",
+  "fetchedAt": "2026-10-14T14:26:20.702Z"
+}

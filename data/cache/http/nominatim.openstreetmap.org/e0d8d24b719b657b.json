@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.430749&lon=25.920292&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":428296891,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":812815677,\"lat\":\"57.4308689\",\"lon\":\"25.9204848\",\"category\":\"building\",\"type\":\"yes\",\"place_rank\":30,\"importance\":4.5001144426596745e-05,\"addresstype\":\"building\",\"name\":\"Sporta komplekss\",\"display_name\":\"Sporta komplekss, Smiltenes tehnikums - Mēri - Lobērģi, Kalnamuiža, Smiltene, Smiltenes novads, LV-4729, Latvija\",\"address\":{\"building\":\"Sporta komplekss\",\"road\":\"Smiltenes tehnikums - Mēri - Lobērģi\",\"village\":\"Kalnamuiža\",\"town\":\"Smiltene\",\"municipality\":\"Smiltenes novads\",\"ISO3166-2-lvl5\":\"LV-094\",\"postcode\":\"LV-4729\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"57.4306956\",\"57.4310422\",\"25.9202718\",\"25.9206979\"]}",
+  "fetchedAt": "2026-10-14T14:26:29.959Z"
+}

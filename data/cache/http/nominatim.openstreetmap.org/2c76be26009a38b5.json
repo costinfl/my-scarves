@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.447996&lon=44.535185&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208459738,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1617653044,\"lat\":\"41.4481476\",\"lon\":\"44.5351521\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.2961343492019334,\"addresstype\":\"leisure\",\"name\":\"Tamaz Stepania Stadium\",\"display_name\":\"Tamaz Stepania Stadium, 1ა, აკალი წერეთლის ქუჩა, ბოლნისი, ბოლნისის მუნიციპალიტეტი, ქვემო ქართლი, 1100, საქართველო\",\"address\":{\"leisure\":\"Tamaz Stepania Stadium\",\"house_number\":\"1ა\",\"road\":\"აკალი წერეთლის ქუჩა\",\"town\":\"ბოლნისი\",\"county\":\"ბოლნისის მუნიციპალიტეტი\",\"state\":\"ქვემო ქართლი\",\"ISO3166-2-lvl4\":\"GE-KK\",\"postcode\":\"1100\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.4480976\",\"41.4481976\",\"44.5351021\",\"44.5352021\"]}",
+  "fetchedAt": "2026-10-14T14:25:49.563Z"
+}

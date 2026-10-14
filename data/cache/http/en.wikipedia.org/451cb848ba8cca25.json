@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Minija%20Kretinga",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Minija Kretinga\",\"pageid\":6389393,\"redirects\":[],\"wikitext\":\"{{Short description|Lithuanian football club}}\\n{{more citations needed|date=March 2016}}\\n{{Hatnote|This article is about FK Minija est. in 1962. For another club called the same name look at [[FK Minija (2017)]].}}\\n{{Infobox football club\\n| clubname = FK Minija\\n| image    = \\n| image_size = 200px\\n| fullname = Football Club Minija\\n| nickname =\\n| founded  = {{start date and age|1962}}\\n| dissolved   = {{Start date and age|df=yes|2016|}}\\n| ground   = [[Central Stadium of Kretinga]]\\n| capacity = 900\\n| chairman = \\n| manager  = \\n| league   = [[I Lyga]]\\n| season   = [[2016 LFF I Lyga|2016]]\\n| position = 16th\\n| website = http://www.fkminija.lt/\\n| pattern_la1=_whiteshoulders|pattern_b1=_whitestripes4|pattern_ra1=_whiteshoulders|\\n  leftarm1=000099|body1=000099|rightarm1=000099|shorts1=000099|socks1=000099|\\n  pattern_la2=|pattern_b2=_bluecollar|pattern_ra2=|\\n  leftarm2=ffffff|body2=ffffff|rightarm2=ffffff|shorts2=000099|socks2=ffffff|\\n}}\\n\\n'''FK Minija''' was a [[Lithuania]]n [[association football|football]] team from the town [[Kretinga]].\"}}",
+  "fetchedAt": "2026-10-14T14:22:38.248Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:13.430Z",
+  "version": 2,
+  "entity": {
+    "id": "Q74116224",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "79555"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Þór Akureyri (men's football)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Þór Akureyri men's football"
+      }
+    }
+  }
+}

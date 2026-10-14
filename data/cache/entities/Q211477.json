@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q211477",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FK Dinamo Minsk escudo blr.jpg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50161"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Dinamo Minsk"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Dinamo Minsk"
+      }
+    }
+  }
+}

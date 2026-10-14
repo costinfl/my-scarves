@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.874667&lon=26.550619&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":173214126,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":804390369,\"lat\":\"55.8746170\",\"lon\":\"26.5505750\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.577325093456957e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Dobeles iela, Jaunbūve, Daugavpils, LV-5404, Latvija\",\"address\":{\"road\":\"Dobeles iela\",\"suburb\":\"Jaunbūve\",\"city\":\"Daugavpils\",\"ISO3166-2-lvl5\":\"LV-DGV\",\"postcode\":\"LV-5404\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"55.8740400\",\"55.8751785\",\"26.5495675\",\"26.5515609\"]}",
+  "fetchedAt": "2026-10-14T14:26:22.920Z"
+}

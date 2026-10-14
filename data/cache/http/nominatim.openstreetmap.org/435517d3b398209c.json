@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.766213&lon=27.933197&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63204278,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":149521363,\"lat\":\"47.7662483\",\"lon\":\"27.9331916\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.083543144879862e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Ștefan cel Mare și Sfânt, Cartierul 10, Centru, Bălți, Municipiul Bălți, MD-3129, Moldova\",\"address\":{\"road\":\"Strada Ștefan cel Mare și Sfânt\",\"quarter\":\"Cartierul 10\",\"suburb\":\"Centru\",\"city\":\"Bălți\",\"municipality\":\"Municipiul Bălți\",\"ISO3166-2-lvl4\":\"MD-BA\",\"postcode\":\"MD-3129\",\"country\":\"Moldova\",\"country_code\":\"md\"},\"boundingbox\":[\"47.7656830\",\"47.7668188\",\"27.9325650\",\"27.9338176\"]}",
+  "fetchedAt": "2026-10-14T14:26:35.702Z"
+}

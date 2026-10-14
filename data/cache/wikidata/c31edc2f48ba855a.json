@@ -1,0 +1,129 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q163773 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:17:55.713Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q288932",
+      "stadium": "http://www.wikidata.org/entity/Q1133726",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.15886111 56.95516667)",
+      "capacity": "10461",
+      "website": "http://www.fcj.lv/",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jaun%C4%ABba_R%C4%ABga",
+      "clubLabel": "FK Jaunība Rīga",
+      "stadiumLabel": "Daugava Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2704787",
+      "stadium": "http://www.wikidata.org/entity/Q16841150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.291944444 55.977222222)",
+      "enwiki": "https://en.wikipedia.org/wiki/Aug%C5%A1daugavas_NSS",
+      "clubLabel": "Augšdaugavas NSS",
+      "stadiumLabel": "Ilūkstes pilsētas stadions"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4103535",
+      "stadium": "http://www.wikidata.org/entity/Q2981391",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.995424 56.502952)",
+      "capacity": "5008",
+      "website": "http://www.1625.lv/",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_1625_Liep%C4%81ja",
+      "clubLabel": "SFK Varavīksne",
+      "stadiumLabel": "Daugava Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4153485",
+      "stadium": "http://www.wikidata.org/entity/Q7579527",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.3406363 56.509502)",
+      "capacity": "978",
+      "website": "http://www.rezeknesfutbols.lv/lv/",
+      "enwiki": "https://en.wikipedia.org/wiki/R%C4%93zeknes_FA/BJSS",
+      "clubLabel": "Rēzeknes BJSS",
+      "stadiumLabel": "Sporta Aģentūras Stadions"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426036",
+      "stadium": "http://www.wikidata.org/entity/Q66566716",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.9202925 57.430749)",
+      "capacity": "1000",
+      "website": "http://www.fksmiltene.lv/",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Smiltene/BJSS",
+      "clubLabel": "FK Smiltene/BJSS",
+      "stadiumLabel": "Teperis stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1576467",
+      "website": "http://www.fsmetta.lv/",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Metta",
+      "clubLabel": "FK Metta",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Metta%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3737204",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kauguri_J%C5%ABrmala",
+      "clubLabel": "JFC Kauguri Jūrmala"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3755086",
+      "website": "https://www.fkjurnieks.com/",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_J%C5%ABrnieks",
+      "clubLabel": "FK Jūrnieks"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4063648",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Alfa",
+      "clubLabel": "FK Alfa"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4174260",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_J%C4%93kabpils/JSC",
+      "clubLabel": "Jēkabpils SC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426257",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Multibanka_R%C4%ABga",
+      "clubLabel": "FK Multibanka Rīga"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19365063",
+      "website": "http://www.afaolaine.lv/",
+      "enwiki": "https://en.wikipedia.org/wiki/AFA_Olaine",
+      "clubLabel": "AFA Olaine"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19365065",
+      "website": "http://www.kulakova-fac.eu",
+      "enwiki": "https://en.wikipedia.org/wiki/Salaspils_FC",
+      "clubLabel": "Salaspils FC",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FKSALASPILS.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19577091",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Staiceles_Bebri",
+      "clubLabel": "FK Staiceles Bebri"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24175211",
+      "enwiki": "https://en.wikipedia.org/wiki/RTU_FC",
+      "clubLabel": "RTU FC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q30115743",
+      "enwiki": "https://en.wikipedia.org/wiki/RAF_Jelgava",
+      "clubLabel": "RAF Jelgava"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q97221741",
+      "website": "https://leevon.lv/",
+      "clubLabel": "Leevon PPK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q117038735",
+      "clubLabel": "FK Beitar"
+    }
+  ]
+}

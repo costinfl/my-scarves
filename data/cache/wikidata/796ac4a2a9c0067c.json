@@ -1,0 +1,111 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q2035339 wd:Q332702 wd:Q39056364 wd:Q2035312 wd:Q847326 wd:Q34479193 wd:Q244317 wd:Q666827 wd:Q134937660 wd:Q757253 wd:Q74112200 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:13:39.308Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q244317",
+      "stadium": "http://www.wikidata.org/entity/Q15217986",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(44.55527778 40.22111111)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Pyunik",
+      "website": "https://fcpyunik.am/",
+      "clubLabel": "FC Pyunik",
+      "stadiumLabel": "Football Academy Stadium (Yerevan)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q332702",
+      "stadium": "http://www.wikidata.org/entity/Q1459459",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(44.525833 40.171944)",
+      "capacity": "14403",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ararat_Yerevan",
+      "website": "http://www.fcararat.am",
+      "clubLabel": "FC Ararat Yerevan",
+      "stadiumLabel": "Republican Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q666827",
+      "stadium": "http://www.wikidata.org/entity/Q3499859",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(43.833333 40.785833)",
+      "capacity": "2761",
+      "enwiki": "https://en.wikipedia.org/wiki/Shirak_SC",
+      "website": "https://fcshirak.am",
+      "clubLabel": "Shirak FC",
+      "stadiumLabel": "Gyumri City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757253",
+      "stadium": "http://www.wikidata.org/entity/Q806110",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(44.449938 40.171426)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Urartu",
+      "clubLabel": "FC Urartu",
+      "stadiumLabel": "Urartu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q847326",
+      "stadium": "http://www.wikidata.org/entity/Q2503458",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(46.400674 39.207787)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Gandzasar_Kapan",
+      "website": "https://gandzasar-fc.am/",
+      "clubLabel": "Gandzasar-Kapan FC",
+      "stadiumLabel": "Gandzasar Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2035339",
+      "stadium": "http://www.wikidata.org/entity/Q3495794",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(44.475231 40.154605)",
+      "capacity": "6800",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Alashkert",
+      "website": "https://fcalashkert.com/",
+      "clubLabel": "Alashkert FC",
+      "stadiumLabel": "Alashkert Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q34479193",
+      "stadium": "http://www.wikidata.org/entity/Q2499412",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(44.476449 40.149373)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Noah",
+      "website": "https://noah.am",
+      "clubLabel": "FC Noah",
+      "stadiumLabel": "Mika Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Noah%20logo%202024.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q39056364",
+      "stadium": "http://www.wikidata.org/entity/Q15217986",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(44.55527778 40.22111111)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ararat-Armenia",
+      "clubLabel": "FC Ararat-Armenia",
+      "stadiumLabel": "Football Academy Stadium (Yerevan)",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ararat-Armenia.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2035312",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_BKMA_Yerevan",
+      "website": "https://bkma-yerevan-fc.am/",
+      "clubLabel": "BKMA Yerevan"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q74112200",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Van",
+      "website": "https://van-fc.am/",
+      "clubLabel": "FC Van"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q134937660",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Syunik",
+      "clubLabel": "FC Syunik"
+    }
+  ]
+}

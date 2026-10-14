@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:12.375Z",
+  "version": 2,
+  "entity": {
+    "id": "Q605756",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64325"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Locomotive Tbilisi"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Lokomotivi Tbilisi"
+      }
+    }
+  }
+}

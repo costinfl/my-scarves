@@ -1,0 +1,79 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q384531 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:18:31.504Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q203513",
+      "stadium": "http://www.wikidata.org/entity/Q239295",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.866944 46.980278)",
+      "capacity": "10400",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Zimbru_Chi%C8%99in%C4%83u",
+      "website": "https://zimbru.md/",
+      "clubLabel": "FC Zimbru Chișinău",
+      "stadiumLabel": "Zimbru Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q210768",
+      "stadium": "http://www.wikidata.org/entity/Q1509390",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.5575 46.838333)",
+      "capacity": "14300",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Sheriff_Tiraspol",
+      "website": "http://www.fc-sheriff.com/",
+      "clubLabel": "FC Sheriff Tiraspol",
+      "stadiumLabel": "Sheriff Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q423115",
+      "stadium": "http://www.wikidata.org/entity/Q12724484",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.8192 47.3744)",
+      "capacity": "2539",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Milsami_Orhei",
+      "website": "http://www.milsami.md",
+      "clubLabel": "FC Milsami",
+      "stadiumLabel": "CSR Orhei"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q782989",
+      "stadium": "http://www.wikidata.org/entity/Q1635077",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.933197 47.766213)",
+      "capacity": "5953",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_B%C4%83l%C8%9Bi",
+      "clubLabel": "FC Bălți",
+      "stadiumLabel": "Stadionul Orășenesc"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3063100",
+      "stadium": "http://www.wikidata.org/entity/Q25059691",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.586687 46.825284)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Petrocub_H%C3%AEnce%C8%99ti",
+      "website": "https://petrocub.md/",
+      "clubLabel": "FC Petrocub Hîncești",
+      "stadiumLabel": "Stadionul Municipal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3063142",
+      "stadium": "http://www.wikidata.org/entity/Q3543956",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.8191128 47.026665)",
+      "capacity": "2888",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Politehnica_UTM_Chi%C8%99in%C4%83u",
+      "clubLabel": "FC Politehnica Chișinău",
+      "stadiumLabel": "Dinamo Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5424880",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dacia_Buiucani",
+      "website": "https://buiucani.md/",
+      "clubLabel": "FC Dacia Buiucani"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q141167520",
+      "clubLabel": "Real Sireti"
+    }
+  ]
+}

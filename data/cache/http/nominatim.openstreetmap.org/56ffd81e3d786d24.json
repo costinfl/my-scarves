@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.506592&lon=24.828050&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":168674769,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":382899498,\"lat\":\"59.5057207\",\"lon\":\"24.8280974\",\"category\":\"shop\",\"type\":\"supermarket\",\"place_rank\":30,\"importance\":5.033264667730247e-05,\"addresstype\":\"shop\",\"name\":\"Rimi\",\"display_name\":\"Rimi, 9, Randvere tee, Viimsi alevik, Haabneeme alevik, Viimsi vald, Harju maakond, 74001, Eesti\",\"address\":{\"shop\":\"Rimi\",\"house_number\":\"9\",\"road\":\"Randvere tee\",\"city_district\":\"Viimsi alevik\",\"village\":\"Haabneeme alevik\",\"municipality\":\"Viimsi vald\",\"ISO3166-2-lvl7\":\"EE-890\",\"county\":\"Harju maakond\",\"ISO3166-2-lvl6\":\"EE-37\",\"postcode\":\"74001\",\"country\":\"Eesti\",\"country_code\":\"ee\"},\"boundingbox\":[\"59.5053920\",\"59.5061596\",\"24.8272797\",\"24.8288309\"]}",
+  "fetchedAt": "2026-10-14T14:25:23.104Z"
+}

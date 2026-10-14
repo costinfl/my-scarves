@@ -1,0 +1,161 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q27054 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:14:30.965Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q281878",
+      "stadium": "http://www.wikidata.org/entity/Q17399576",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.5461 53.0214)",
+      "capacity": "1896",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Slutsk",
+      "website": "http://sfc-slutsk.by/",
+      "clubLabel": "FC Slutsk-2024",
+      "stadiumLabel": "City Stadium (Slutsk)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q929339",
+      "stadium": "http://www.wikidata.org/entity/Q8061368",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.4044 54.479)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Smorgon",
+      "clubLabel": "FC Smorgon",
+      "stadiumLabel": "Yunost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2134369",
+      "stadium": "http://www.wikidata.org/entity/Q4502967",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.2903 53.8931)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Lida",
+      "website": "http://fclida.by/",
+      "clubLabel": "FC Lida",
+      "stadiumLabel": "Yunost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2498749",
+      "stadium": "http://www.wikidata.org/entity/Q4123576",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.125864 52.123052)",
+      "capacity": "3136",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Volna_Pinsk",
+      "website": "http://fcvolna-pinsk.by/",
+      "clubLabel": "FC Volna Pinsk",
+      "stadiumLabel": "Q4123576"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2574904",
+      "stadium": "http://www.wikidata.org/entity/Q28225326",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.64416667 53.32388889)",
+      "capacity": "1300",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Osipovichi",
+      "clubLabel": "FC Osipovichi",
+      "stadiumLabel": "Yunost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2590293",
+      "stadium": "http://www.wikidata.org/entity/Q16152053",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.4342 54.5128)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Orsha",
+      "clubLabel": "FC Orsha",
+      "stadiumLabel": "City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2590293",
+      "stadium": "http://www.wikidata.org/entity/Q16152053",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.43472222 54.51277778)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Orsha",
+      "clubLabel": "FC Orsha",
+      "stadiumLabel": "City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2590293",
+      "stadium": "http://www.wikidata.org/entity/Q16152053",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.434552 54.512993)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Orsha",
+      "clubLabel": "FC Orsha",
+      "stadiumLabel": "City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2633110",
+      "stadium": "http://www.wikidata.org/entity/Q5653591",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.830416666 54.299861111)",
+      "capacity": "4560",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Molodechno",
+      "clubLabel": "FC Maladziečna",
+      "stadiumLabel": "City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4423940",
+      "stadium": "http://www.wikidata.org/entity/Q4534629",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.3069 53.0975)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Slonim-2017",
+      "clubLabel": "FC Slonim",
+      "stadiumLabel": "Yunost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q136154103",
+      "stadium": "http://www.wikidata.org/entity/Q4444132",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.538194444 52.798611111)",
+      "capacity": "4200",
+      "clubLabel": "FC Salihorsk",
+      "stadiumLabel": "Stroitel Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3091283",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_SKA-1938_Minsk",
+      "website": "https://ska1938.by/",
+      "clubLabel": "FC SKA-1938"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3917413",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Minsk-2",
+      "clubLabel": "FC Minsk-2"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24909001",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dinamo-2_Minsk",
+      "clubLabel": "FC Dinamo-2 Minsk"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q51838185",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Bumprom_Gomel",
+      "clubLabel": "Bumprom Gomel"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q90922797",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ostrovets",
+      "website": "https://fco.by",
+      "clubLabel": "FC Astraviec",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BB%D1%83%D0%B1%20%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B5%D1%86.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q106702741",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Niva_Dolbizno",
+      "website": "https://fcniva.by/",
+      "clubLabel": "FC Niva Doŭbizna"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q111652265",
+      "clubLabel": "FC Unixlabs"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q125360483",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_BATE-2_Borisov",
+      "website": "https://fcbate.by/",
+      "clubLabel": "FC BATE-2 Borisov"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q130382813",
+      "clubLabel": "FC Homieĺ-2"
+    }
+  ]
+}

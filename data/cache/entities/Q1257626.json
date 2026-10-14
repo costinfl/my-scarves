@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:09.741Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1257626",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2600103"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "OFK Titograd"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "OFK Titograd"
+      }
+    }
+  }
+}

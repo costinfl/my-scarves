@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.385456&lon=24.659603&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":169666346,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":975815427,\"lat\":\"59.3854398\",\"lon\":\"24.6591558\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.582894636449253e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Harku, Hiiu, Nõmme linnaosa, Tallinn, Harju maakond, 11612, Eesti\",\"address\":{\"road\":\"Harku\",\"quarter\":\"Hiiu\",\"suburb\":\"Nõmme linnaosa\",\"city\":\"Tallinn\",\"municipality\":\"Tallinn\",\"ISO3166-2-lvl7\":\"EE-784\",\"county\":\"Harju maakond\",\"ISO3166-2-lvl6\":\"EE-37\",\"postcode\":\"11612\",\"country\":\"Eesti\",\"country_code\":\"ee\"},\"boundingbox\":[\"59.3849913\",\"59.3858884\",\"24.6580466\",\"24.6602650\"]}",
+  "fetchedAt": "2026-10-14T14:25:16.437Z"
+}

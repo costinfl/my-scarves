@@ -1,0 +1,126 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q60695 wd:Q1349653 wd:Q1382235 wd:Q511740 wd:Q60495 wd:Q1550394 wd:Q1334445 wd:Q3198892 wd:Q73708 wd:Q16842644 wd:Q2330244 wd:Q2699044 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:13:34.244Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q73708",
+      "stadium": "http://www.wikidata.org/entity/Q8069354",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.420277777 42.078888888)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kuk%C3%ABsi",
+      "website": "https://fk-kukesi.al/",
+      "clubLabel": "FK Kukësi",
+      "stadiumLabel": "Zeqir Ymeri Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q511740",
+      "stadium": "http://www.wikidata.org/entity/Q428704",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.74083333 40.60194444)",
+      "capacity": "5200",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Bylis",
+      "clubLabel": "KS Bylis Ballsh",
+      "stadiumLabel": "Adush Muça Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1334445",
+      "stadium": "http://www.wikidata.org/entity/Q6374836",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.78672778 41.51211111)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/KS_Kastrioti",
+      "clubLabel": "KS Kastrioti",
+      "stadiumLabel": "Kastrioti Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1349653",
+      "stadium": "http://www.wikidata.org/entity/Q4963741",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.64466111 41.77605556)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Bes%C3%ABlidhja_Lezh%C3%AB",
+      "clubLabel": "Besëlidhja Lezhë",
+      "stadiumLabel": "Brian Filipi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1382235",
+      "stadium": "http://www.wikidata.org/entity/Q6557639",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.006975 41.60896111)",
+      "enwiki": "https://en.wikipedia.org/wiki/KS_Burreli",
+      "clubLabel": "KS Burreli",
+      "stadiumLabel": "Liri Ballabani Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1550394",
+      "stadium": "http://www.wikidata.org/entity/Q16632780",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.78666667 41.51202778)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Iliria",
+      "clubLabel": "KS Iliria",
+      "stadiumLabel": "Redi Maloku Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2330244",
+      "stadium": "http://www.wikidata.org/entity/Q9341263",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.66388889 40.9)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/KS_Pogradeci",
+      "clubLabel": "KS Pogradeci",
+      "stadiumLabel": "Gjorgji Kyçyku Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2699044",
+      "stadium": "http://www.wikidata.org/entity/Q18379501",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.313583333 41.18075)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Sopoti",
+      "clubLabel": "Sopoti",
+      "stadiumLabel": "Sopoti Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3198892",
+      "stadium": "http://www.wikidata.org/entity/Q20741125",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.425305555 41.680361111)",
+      "enwiki": "https://en.wikipedia.org/wiki/KS_Korabi",
+      "website": "http://www.kskorabi.com",
+      "clubLabel": "Korabi",
+      "stadiumLabel": "Korabi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16842644",
+      "stadium": "http://www.wikidata.org/entity/Q16632779",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.740472222 40.102944444)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Oriku",
+      "clubLabel": "KF Oriku",
+      "stadiumLabel": "Petro Ruci Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q60495",
+      "stadium": "http://www.wikidata.org/entity/Q60676",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.48898611 40.45592222)",
+      "capacity": "13000",
+      "enwiki": "https://en.wikipedia.org/wiki/Flamurtari_FC",
+      "website": "http://flamurtari.al/",
+      "clubLabel": "Flamurtari Vlorë",
+      "stadiumLabel": "Flamurtari Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q60695",
+      "stadium": "http://www.wikidata.org/entity/Q4896162",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.553247 41.188558)",
+      "capacity": "8500",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Besa_Kavaj%C3%AB",
+      "clubLabel": "KF Besa Kavajë",
+      "stadiumLabel": "Besa Stadium"
+    }
+  ]
+}
