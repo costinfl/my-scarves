@@ -150,6 +150,14 @@ jobs:
             echo "Jobs: import success, enrich $ENRICH, fan shops $FANSHOPS."
             echo "Review the data diff before merging."
             echo
-            cat data/generated/coverage.md
+            # GitHub caps a PR body at 65,536 characters; with all associations the report is longer.
+            # Cut at a line boundary and point to the full file on the branch.
+            if [ "$(wc -c < data/generated/coverage.md)" -gt 60000 ]; then
+              head -c 60000 data/generated/coverage.md | sed '$d'
+              echo
+              echo "_Report cut to fit the PR description; the full report is data/generated/coverage.md on this branch._"
+            else
+              cat data/generated/coverage.md
+            fi
           } > "$RUNNER_TEMP/body.md"
           gh pr create --title "Import $CODES" --body-file "$RUNNER_TEMP/body.md" --base main --head "$BRANCH"
