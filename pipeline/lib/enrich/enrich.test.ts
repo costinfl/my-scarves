@@ -1,3 +1,4 @@
+import { kitColors, parseKit } from './kits.ts';
 import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -162,5 +163,29 @@ describe('colors', () => {
     expect(colours.slice(0, 2)).toEqual(['#7B1E2B', '#FFFFFF']);
     expect(colours).toHaveLength(3);
     expect(colours[2]).toMatch(/^#F[EF]D[67]0[0-9A-F]$/);
+  });
+});
+
+describe('kits', () => {
+  const infobox = `{{Infobox football club
+| clubname = Dinamo București
+| pattern_la1 = _dinamo2526h
+| leftarm1 = FF0000 | body1 = ff0000 | rightarm1 = FF0000
+| shorts1 = #FFF
+| socks1 = FF0000
+| body2 = FFFFFF
+}}`;
+  it('reads the home kit from the infobox, hex only', () => {
+    expect(parseKit(infobox)).toEqual({ body: '#FF0000', shorts: '#FFFFFF', socks: '#FF0000' });
+    expect(parseKit('| body1 = red\n| shorts1 = FFFFFF')).toBeUndefined();
+    expect(parseKit('| body1 = \n| shorts1 = FFFFFF')).toBeUndefined();
+    // All white is usually the base under a kit image (Universitatea Craiova, which plays in blue).
+    expect(parseKit('| pattern_b1 = _craiova2627h\n| body1 = FFFFFF\n| shorts1 = ffffff\n| socks1 = ffffff')).toBeUndefined();
+    expect(parseKit('| body1 = FFFFFF\n| shorts1 = 008000')).toEqual({ body: '#FFFFFF', shorts: '#008000' });
+  });
+  it('uses the shirt first, then the first of shorts and socks that differs', () => {
+    const source = 'https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti';
+    expect(kitColors({ body: '#FF0000', shorts: '#FFFFFF', socks: '#FF0000', source })).toEqual({ primary: '#FF0000', secondary: '#FFFFFF', source: 'kit', sourceUrl: source });
+    expect(kitColors({ body: '#800080', shorts: '#800080', source })).toEqual({ primary: '#800080', source: 'kit', sourceUrl: source });
   });
 });

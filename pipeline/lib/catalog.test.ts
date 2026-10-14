@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildCatalog, type CatalogInput } from './catalog.ts';
+import { buildCatalog, type CatalogInput, noEnrichment } from './catalog.ts';
 
 const input: CatalogInput = {
   associations: [
@@ -63,6 +63,7 @@ describe('buildCatalog', () => {
         uefa: { Q10: { id: '59039' } },
         colors: { Q10: { primary: '#800032', source: 'wikidata' } },
         palettes: { Q10: ['#FDFDFD', '#A4333A'] },
+        kits: { Q10: { body: '#FFFFFF', source: 'https://en.wikipedia.org/wiki/Rapid' } },
         blurbs: { Q10: { text: 'Draft.', source: 'https://en.wikipedia.org/wiki/Rapid', status: 'draft' } },
         addresses: { Q90: { text: 'Strada Giulești 18, București' } },
         fanshops: { Q10: { status: 'none', checkedAt: '2026-10-10' } },
@@ -83,11 +84,22 @@ describe('buildCatalog', () => {
     expect(rapid.venues).toEqual([rapid.stadium]);
   });
 
+  it('uses the Wikipedia home kit only when Wikidata has no official colours', () => {
+    const kit = { body: '#800032', shorts: '#800032', socks: '#FFFFFF', source: 'https://en.wikipedia.org/wiki/Rapid' };
+    const withKit = buildCatalog({ ...input, enrichment: { ...noEnrichment, kits: { Q10: kit } } });
+    expect(withKit.clubs.find((c) => c.qid === 'Q10')!.colors).toEqual({
+      primary: '#800032',
+      secondary: '#FFFFFF',
+      source: 'kit',
+      sourceUrl: 'https://en.wikipedia.org/wiki/Rapid',
+    });
+  });
+
   it('marks clubs playing abroad and lists their home association even without own leagues', () => {
     const withHome = buildCatalog({
       ...input,
       associations: [...input.associations, { code: 'LIE', name: 'Liechtenstein', notes: null }],
-      enrichment: { logos: {}, uefa: {}, colors: {}, palettes: {}, blurbs: {}, addresses: {}, fanshops: {}, homes: { Q10: 'LIE', Q11: ['ALB', 'LIE'] } },
+      enrichment: { ...noEnrichment, homes: { Q10: 'LIE', Q11: ['ALB', 'LIE'] } },
     });
     expect(withHome.clubs.find((c) => c.qid === 'Q10')!.home).toBe('LIE');
     expect(withHome.associations.map((a) => a.code)).toEqual(['ROU', 'LIE']);

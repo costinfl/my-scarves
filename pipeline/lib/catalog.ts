@@ -6,6 +6,7 @@ import type {
   ClubEnrichment,
   ColorInfo,
   FanshopInfo,
+  KitInfo,
   LeagueInfo,
   LogoInfo,
   Overrides,
@@ -13,6 +14,7 @@ import type {
   Stadium,
   UefaInfo,
 } from './types.ts';
+import { kitColors } from './enrich/kits.ts';
 
 /** What the site loads: one JSON file, already merged (generated, then overrides, then collection). */
 export interface Catalog {
@@ -53,6 +55,7 @@ export interface Enrichment {
   uefa: Record<string, UefaInfo>;
   colors: Record<string, ColorInfo>;
   palettes: Record<string, string[]>;
+  kits: Record<string, KitInfo>;
   /** Club QID -> home association code, or a list of candidates when ambiguous (ignored here). */
   homes: Record<string, string | string[]>;
   blurbs: Record<string, BlurbInfo>;
@@ -60,7 +63,7 @@ export interface Enrichment {
   fanshops: Record<string, FanshopInfo>;
 }
 
-export const noEnrichment: Enrichment = { logos: {}, uefa: {}, colors: {}, palettes: {}, blurbs: {}, addresses: {}, fanshops: {}, homes: {} };
+export const noEnrichment: Enrichment = { logos: {}, uefa: {}, colors: {}, palettes: {}, kits: {}, blurbs: {}, addresses: {}, fanshops: {}, homes: {} };
 
 export interface CatalogInput {
   associations: Association[];
@@ -81,7 +84,8 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
         ...c,
         ...(enrichment.logos[c.qid] ? { logo: enrichment.logos[c.qid] } : {}),
         ...(enrichment.uefa[c.qid] ? { uefaId: enrichment.uefa[c.qid]!.id } : {}),
-        ...(enrichment.colors[c.qid] ? { colors: enrichment.colors[c.qid] } : {}),
+        // Wikidata's official colours win; the Wikipedia home kit fills the gap.
+        ...(enrichment.colors[c.qid] ? { colors: enrichment.colors[c.qid] } : enrichment.kits[c.qid] ? { colors: kitColors(enrichment.kits[c.qid]!) } : {}),
         ...(enrichment.palettes[c.qid]?.length ? { palette: enrichment.palettes[c.qid] } : {}),
         ...(typeof enrichment.homes[c.qid] === 'string' ? { home: enrichment.homes[c.qid] as string } : {}),
         ...(enrichment.blurbs[c.qid] ? { blurb: enrichment.blurbs[c.qid] } : {}),

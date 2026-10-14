@@ -4,7 +4,7 @@ name: Import clubs
 # results are pushed as soon as it ends and a slow or failed later job never loses earlier work.
 # Like a Maven multi-module build: each job is a module with its own timeout, run in order.
 #   import    clubs and stadiums from Wikidata (about a minute)
-#   enrich    logos, UEFA ids, colours, palettes, blurbs, addresses, cross-border homes
+#   enrich    logos, UEFA ids, colours, palettes, Wikipedia home kits, blurbs, addresses, cross-border homes
 #   fanshops  visits each club's website; the slowest stage, so it gets its own time budget and
 #             commits whatever it finished even if it runs out of time (the rest is retried next run)
 #   pr        coverage report and the pull request, even if enrich or fanshops failed
@@ -72,7 +72,7 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npm run enrich -- $CODES --stage logos,uefa,colors,palettes,blurbs,addresses,homes $REFRESH
+      - run: npm run enrich -- $CODES --stage logos,uefa,colors,palettes,kits,blurbs,addresses,homes $REFRESH
       - name: Push enrichment
         if: always()
         run: |

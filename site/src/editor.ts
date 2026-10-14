@@ -14,8 +14,8 @@ function resetButton(section: string, label: string): Html {
 
 /** The edit form for one club. Each fieldset is a section; only sections I touch are saved. */
 export function editorView(c: CatalogClub): Html {
-  const official = c.colors?.source === 'wikidata' ? [c.colors.primary, c.colors.secondary].filter((x): x is string => !!x) : [];
-  const suggestions = [...new Set([...official, ...(c.palette ?? [])])];
+  const automatic = c.colors && c.colors.source !== 'manual' ? [c.colors.primary, c.colors.secondary].filter((x): x is string => !!x) : [];
+  const suggestions = [...new Set([...automatic, ...(c.palette ?? [])])];
   const primary = c.colors?.primary ?? suggestions[0] ?? '#ffffff';
   const secondary = c.colors?.secondary ?? suggestions.find((x) => x !== primary) ?? '#ffffff';
   const shop = c.fanshop;
@@ -44,12 +44,18 @@ export function editorView(c: CatalogClub): Html {
 
       <fieldset data-section="colors">
         <legend>Club colours</legend>
-        <p class="muted">${official.length ? `Wikidata: ${c.colors?.names?.join(', ') ?? official.join(', ')}. ` : 'No official colours on Wikidata. '}
-          Chips are the official colours and the colours of the badge.</p>
+        <p class="muted">${c.colors?.source === 'wikidata'
+            ? `Wikidata: ${c.colors.names?.join(', ') ?? automatic.join(', ')}. `
+            : c.colors?.source === 'kit'
+              ? html`No official colours on Wikidata; shown from the home kit in the <a href="${c.colors.sourceUrl ?? '#'}" target="_blank" rel="noopener">Wikipedia</a> infobox. `
+              : c.colors?.source === 'manual'
+                ? 'Chosen by me. '
+                : 'No official colours on Wikidata and no home kit on Wikipedia. '}
+          Chips are those colours and the colours of the badge.</p>
         <label class="row">Primary <input type="color" name="primary" value="${primary}"> ${chips(suggestions, 'primary')}</label>
         <label class="row">Secondary <input type="color" name="secondary" value="${secondary}"> ${chips(suggestions, 'secondary')}</label>
         <label class="row"><input type="checkbox" name="noSecondary" ${c.colors && !c.colors.secondary ? 'checked' : ''}> Single colour</label>
-        ${resetButton('colors', 'Back to Wikidata colours')}
+        ${resetButton('colors', 'Back to automatic colours')}
       </fieldset>
 
       <fieldset data-section="logo">
