@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q6661255",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2604434"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Llandudno F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Llandudno F.C."
+      }
+    }
+  }
+}

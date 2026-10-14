@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.907901&lon=47.618587&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207296862,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":86387596,\"lat\":\"42.9078213\",\"lon\":\"47.6185044\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.555809872582616e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Молодёжная улица, Каспийск, городской округ Каспийск, Дагестан, Северо-Кавказский федеральный округ, 368300, Россия\",\"address\":{\"road\":\"Молодёжная улица\",\"city\":\"Каспийск\",\"county\":\"городской округ Каспийск\",\"state\":\"Дагестан\",\"ISO3166-2-lvl4\":\"RU-DA\",\"region\":\"Северо-Кавказский федеральный округ\",\"postcode\":\"368300\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"42.9071928\",\"42.9084497\",\"47.6177132\",\"47.6192957\"]}",
+  "fetchedAt": "2026-10-14T17:18:25.054Z"
+}

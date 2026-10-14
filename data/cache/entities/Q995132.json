@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T17:14:21.159Z",
+  "version": 2,
+  "entity": {
+    "id": "Q995132",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Skopje"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Skopje"
+      }
+    }
+  }
+}

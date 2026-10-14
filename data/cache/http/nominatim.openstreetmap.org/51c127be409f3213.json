@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.425000&lon=-7.593110&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":281726546,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":274571548,\"lat\":\"54.4243416\",\"lon\":\"-7.5936809\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.5194934004684786e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Main Street, Salloon, Ballinamallard, County Fermanagh, Northern Ireland / Tuaisceart Éireann, BT94 2FY, United Kingdom\",\"address\":{\"road\":\"Main Street\",\"suburb\":\"Salloon\",\"village\":\"Ballinamallard\",\"county\":\"County Fermanagh\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT94 2FY\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.4241377\",\"54.4245456\",\"-7.5940795\",\"-7.5932822\"]}",
+  "fetchedAt": "2026-10-14T17:17:59.524Z"
+}

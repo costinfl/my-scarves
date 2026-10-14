@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.698056&lon=20.533889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":174612767,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":623571034,\"lat\":\"54.6980197\",\"lon\":\"20.5338476\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.115358205534473e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Парадная набережная, Rosenau, Московский район, Калининград, городской округ Калининград, Калининградская область, Северо-Западный федеральный округ, 236004, Россия\",\"address\":{\"road\":\"Парадная набережная\",\"suburb\":\"Rosenau\",\"city_district\":\"Московский район\",\"city\":\"Калининград\",\"county\":\"городской округ Калининград\",\"state\":\"Калининградская область\",\"ISO3166-2-lvl4\":\"RU-KGD\",\"region\":\"Северо-Западный федеральный округ\",\"postcode\":\"236004\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"54.6974190\",\"54.6986258\",\"20.5329903\",\"20.5347281\"]}",
+  "fetchedAt": "2026-10-14T17:18:19.539Z"
+}

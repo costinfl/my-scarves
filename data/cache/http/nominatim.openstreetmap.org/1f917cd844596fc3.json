@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.315800&lon=-3.829600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276936510,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":329586538,\"lat\":\"53.3157966\",\"lon\":\"-3.8296149\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.5098039215640765e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Builder Street West, Craig-y-don, Llandudno, Deganwy, Llandudno, Conwy, Cymru / Wales, LL30 1HH, United Kingdom\",\"address\":{\"road\":\"Builder Street West\",\"suburb\":\"Craig-y-don\",\"village\":\"Deganwy\",\"town\":\"Llandudno\",\"county\":\"Conwy\",\"ISO3166-2-lvl6\":\"GB-CWY\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"LL30 1HH\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.3153791\",\"53.3162252\",\"-3.8305341\",\"-3.8286968\"]}",
+  "fetchedAt": "2026-10-14T17:19:14.211Z"
+}

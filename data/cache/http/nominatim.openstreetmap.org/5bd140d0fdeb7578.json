@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.887300&lon=14.492500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":54395832,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":453958521,\"lat\":\"35.8874032\",\"lon\":\"14.4925347\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.4420538643427446e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Triq Alexander, Il-Ħamrun, Reġjun tan-Nofsinhar, HMR 1541, Malta\",\"address\":{\"road\":\"Triq Alexander\",\"town\":\"Il-Ħamrun\",\"ISO3166-2-lvl8\":\"MT-18\",\"municipality\":\"Reġjun tan-Nofsinhar\",\"postcode\":\"HMR 1541\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.8869505\",\"35.8878492\",\"14.4918554\",\"14.4932130\"]}",
+  "fetchedAt": "2026-10-14T17:17:49.604Z"
+}

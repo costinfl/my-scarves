@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:18.974Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2095484",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2605047"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Orenburg"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Orenburg"
+      }
+    }
+  }
+}

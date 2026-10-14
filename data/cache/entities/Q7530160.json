@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q7530160",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2606175"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Sirens F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Sirens F.C."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q289343",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 10859033,
+                "id": "Q10859033"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64509"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AC Libertas"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "A.C. Libertas"
+      }
+    }
+  }
+}

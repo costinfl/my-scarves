@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:18.974Z",
+  "version": 2,
+  "entity": {
+    "id": "Q208574",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "69601"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Rabotnicki"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Rabotnički"
+      }
+    }
+  }
+}

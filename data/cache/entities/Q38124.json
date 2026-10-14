@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q38124",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FK Pelister (logo).svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64396"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Pelister"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Pelister"
+      }
+    }
+  }
+}

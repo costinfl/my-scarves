@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=SC%20Faetano",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"SC Faetano\",\"pageid\":3100744,\"redirects\":[],\"wikitext\":\"{{short description|Sanmarinese football club}}\\n{{Infobox football club\\n|clubname = Faetano \\n|image    = SC Faetano logo.png\\n|image_size = 170px\\n|fullname = Società Calcio Faetano\\n|nickname = \\n|founded  = [[1962 in association football|1962]]\\n|ground   = Campo Sportivo Guido Della Valle\\n|capacity = 500\\n|chairman = Fabio Gasperoni\\n|manager  = [[Adrian Ricchiuti]]\\n|league   = [[Campionato Sammarinese di Calcio]]\\n|season   = [[2025–26 Campionato Sammarinese di Calcio|2025–26]]\\n|position = [[Campionato Sammarinese di Calcio]], 13th of 16\\n|pattern_la1=|pattern_b1=_jomachampionship6yrb|pattern_ra1=|leftarm1=FFFF00|body1=FFFF00|rightarm1=FFFF00|shorts1=0042ff|socks1=0042ff|pattern_la2=_jomatoletum3bw|pattern_b2=_jomatoletum3bw|pattern_ra2=_jomatoletum3bw|leftarm2=000000|body2=000000|rightarm2=000000|shorts2=000000|socks2=000000\\n}}\\n'''S.C. Faetano''' is a [[San Marino|Sanmarinese]] [[football (soccer)|football]] club, based in [[Faetano]]. The club was founded in [[1962 in association football|1962]]. Faetano currently plays in [[Campionato Sammarinese di Calcio]], the only football league of San Marino. The team's colours are yellow and blue.\"}}",
+  "fetchedAt": "2026-10-14T17:16:48.831Z"
+}

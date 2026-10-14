@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.628729&lon=39.867486&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":197775004,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":599455572,\"lat\":\"57.6286811\",\"lon\":\"39.8675176\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.567711909662038e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Победы, Кировский район, Ярославль, городской округ Ярославль, Ярославская область, Центральный федеральный округ, 150000, Россия\",\"address\":{\"road\":\"улица Победы\",\"city_district\":\"Кировский район\",\"city\":\"Ярославль\",\"county\":\"городской округ Ярославль\",\"state\":\"Ярославская область\",\"ISO3166-2-lvl4\":\"RU-YAR\",\"region\":\"Центральный федеральный округ\",\"postcode\":\"150000\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"57.6281312\",\"57.6292309\",\"39.8667502\",\"39.8682851\"]}",
+  "fetchedAt": "2026-10-14T17:18:41.662Z"
+}

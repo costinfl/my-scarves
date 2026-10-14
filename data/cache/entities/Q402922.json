@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q402922",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64395"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Makedonija G.P."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Makedonija Gjorče Petrov"
+      }
+    }
+  }
+}

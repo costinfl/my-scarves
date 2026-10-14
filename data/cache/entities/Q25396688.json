@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q25396688",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FCChayka2020.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Chayka Peschanokopskoye"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Chayka Peschanokopskoye"
+      }
+    }
+  }
+}

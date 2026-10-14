@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q889348",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2601041"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Ural Yekaterinburg"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Ural Yekaterinburg"
+      }
+    }
+  }
+}

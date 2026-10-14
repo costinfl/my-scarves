@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.511500&lon=-3.322880&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276885004,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":370203179,\"lat\":\"52.5115196\",\"lon\":\"-3.3227879\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3307177672703685,\"addresstype\":\"leisure\",\"name\":\"Latham Park\",\"display_name\":\"Latham Park, Park Lane, Trehafren, Newtown and Llanllwchaiarn, Newtown, Powys, Cymru / Wales, SY16 1DE, United Kingdom\",\"address\":{\"leisure\":\"Latham Park\",\"road\":\"Park Lane\",\"suburb\":\"Trehafren\",\"town\":\"Newtown\",\"county\":\"Powys\",\"ISO3166-2-lvl6\":\"GB-POW\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"SY16 1DE\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"52.5109320\",\"52.5121072\",\"-3.3236436\",\"-3.3219322\"]}",
+  "fetchedAt": "2026-10-14T17:19:15.311Z"
+}

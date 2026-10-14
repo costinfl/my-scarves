@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q746206",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64512"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SS Pennarossa"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "S.S. Pennarossa"
+      }
+    }
+  }
+}

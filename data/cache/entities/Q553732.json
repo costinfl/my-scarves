@@ -1,0 +1,43 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q553732",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 953243,
+                "id": "Q953243"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "88139"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Airbus UK Broughton F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Airbus UK Broughton F.C."
+      }
+    }
+  }
+}

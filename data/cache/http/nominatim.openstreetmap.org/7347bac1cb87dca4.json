@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.908667&lon=12.447944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":79613998,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":255481212,\"lat\":\"43.9086571\",\"lon\":\"12.4479326\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.246890974283997e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Ventun Settembre, Crociale di Fiorentino, Fiorentino, 47897, San Marino\",\"address\":{\"road\":\"Via Ventun Settembre\",\"hamlet\":\"Crociale di Fiorentino\",\"village\":\"Fiorentino\",\"ISO3166-2-lvl8\":\"SM-05\",\"postcode\":\"47897\",\"country\":\"San Marino\",\"country_code\":\"sm\"},\"boundingbox\":[\"43.9082800\",\"43.9090342\",\"12.4472315\",\"12.4486336\"]}",
+  "fetchedAt": "2026-10-14T17:19:03.174Z"
+}

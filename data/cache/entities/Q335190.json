@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q335190",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "53080"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Vardar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Vardar"
+      }
+    }
+  }
+}

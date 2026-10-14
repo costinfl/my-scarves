@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.817800&lon=37.440300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":196274083,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":4235760493,\"lat\":\"55.8180400\",\"lon\":\"37.4395800\",\"category\":\"historic\",\"type\":\"memorial\",\"place_rank\":30,\"importance\":8.908293278396304e-05,\"addresstype\":\"historic\",\"name\":\"братьям Старостиным\",\"display_name\":\"братьям Старостиным, улица Братьев Старостиных, район Покровское-Стрешнево, Москва, Центральный федеральный округ, 123424, Россия\",\"address\":{\"historic\":\"братьям Старостиным\",\"road\":\"улица Братьев Старостиных\",\"suburb\":\"район Покровское-Стрешнево\",\"city\":\"Москва\",\"state\":\"Москва\",\"ISO3166-2-lvl4\":\"RU-MOW\",\"region\":\"Центральный федеральный округ\",\"postcode\":\"123424\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"55.8179900\",\"55.8180900\",\"37.4395300\",\"37.4396300\"]}",
+  "fetchedAt": "2026-10-14T17:18:58.899Z"
+}

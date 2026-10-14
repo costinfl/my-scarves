@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:18.974Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1526049",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64275"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Connah's Quay Nomads F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Gap Connah's Quay F.C."
+      }
+    }
+  }
+}

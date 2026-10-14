@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T17:14:18.974Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1130432",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50087"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Glenavon F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Glenavon F.C."
+      }
+    }
+  }
+}

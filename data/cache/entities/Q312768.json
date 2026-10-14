@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q312768",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52642"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Żurrieq F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Żurrieq F.C."
+      }
+    }
+  }
+}

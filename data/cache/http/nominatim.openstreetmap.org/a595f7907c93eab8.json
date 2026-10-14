@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.923889&lon=14.475278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":54426060,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":24361195,\"lat\":\"35.9241342\",\"lon\":\"14.4754200\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.21822785325192331,\"addresstype\":\"leisure\",\"name\":\"Luxol\",\"display_name\":\"Luxol, Triq Sant' Andrija, Pembroke, Reġjun tal-Lvant, SWQ 2030, Malta\",\"address\":{\"leisure\":\"Luxol\",\"road\":\"Triq Sant' Andrija\",\"town\":\"Pembroke\",\"ISO3166-2-lvl8\":\"MT-40\",\"municipality\":\"Reġjun tal-Lvant\",\"postcode\":\"SWQ 2030\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.9236414\",\"35.9246307\",\"14.4750205\",\"14.4758243\"]}",
+  "fetchedAt": "2026-10-14T17:17:55.022Z"
+}

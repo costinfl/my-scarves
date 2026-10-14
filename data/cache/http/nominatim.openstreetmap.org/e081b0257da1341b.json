@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.023056&lon=44.695000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207712888,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":290005197,\"lat\":\"43.0230062\",\"lon\":\"44.6951401\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.485618371857813e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Шмулевича, Хольцман, Иристонский район, Владикавказ, городской округ Владикавказ, Северная Осетия — Алания, Северо-Кавказский федеральный округ, 362007, Россия\",\"address\":{\"road\":\"улица Шмулевича\",\"suburb\":\"Хольцман\",\"city_district\":\"Иристонский район\",\"city\":\"Владикавказ\",\"county\":\"городской округ Владикавказ\",\"state\":\"Северная Осетия — Алания\",\"ISO3166-2-lvl4\":\"RU-SE\",\"region\":\"Северо-Кавказский федеральный округ\",\"postcode\":\"362007\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"43.0225019\",\"43.0235105\",\"44.6946825\",\"44.6955977\"]}",
+  "fetchedAt": "2026-10-14T17:18:17.360Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.869142&lon=-6.262867&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275461337,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":165516654,\"lat\":\"54.8692205\",\"lon\":\"-6.2625809\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.653009842064572e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"St Patrick’s Link Road, Harryville, Ballymena, Mid and East Antrim District, County Antrim, Northern Ireland / Tuaisceart Éireann, BT43 7DF, United Kingdom\",\"address\":{\"road\":\"St Patrick’s Link Road\",\"suburb\":\"Harryville\",\"town\":\"Ballymena\",\"municipality\":\"Mid and East Antrim District\",\"ISO3166-2-lvl7\":\"GB-MEA\",\"historic\":\"County Antrim\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT43 7DF\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.8686786\",\"54.8697624\",\"-6.2634573\",\"-6.2617044\"]}",
+  "fetchedAt": "2026-10-14T17:18:00.961Z"
+}

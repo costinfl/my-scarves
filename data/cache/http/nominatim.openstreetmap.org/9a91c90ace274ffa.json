@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.446200&lon=22.637708&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58714414,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":33525824,\"lat\":\"41.4460086\",\"lon\":\"22.6379085\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.8696116578881783e-05,\"addresstype\":\"leisure\",\"name\":\"Стадион „Младост“\",\"display_name\":\"Стадион „Младост“, Ѓуро Салај, Струмица, Општина Струмица, 2400, Северна Македонија\",\"address\":{\"leisure\":\"Стадион „Младост“\",\"road\":\"Ѓуро Салај\",\"city\":\"Струмица\",\"municipality\":\"Општина Струмица\",\"ISO3166-2-lvl7\":\"MK-410\",\"postcode\":\"2400\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"41.4453038\",\"41.4467519\",\"22.6368661\",\"22.6389255\"]}",
+  "fetchedAt": "2026-10-14T17:17:33.497Z"
+}

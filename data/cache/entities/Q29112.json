@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:19.618Z",
+  "version": 2,
+  "entity": {
+    "id": "Q29112",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50068"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Spartak Moscow"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Spartak Moscow"
+      }
+    }
+  }
+}

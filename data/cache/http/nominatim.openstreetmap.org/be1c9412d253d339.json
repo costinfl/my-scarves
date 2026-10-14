@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.908356&lon=22.406394&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58980652,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":37910534,\"lat\":\"41.9085883\",\"lon\":\"22.4062102\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.601968413820123e-05,\"addresstype\":\"leisure\",\"name\":\"Градски Стадион Никола Мантов\",\"display_name\":\"Градски Стадион Никола Мантов, Лазар Андонов, Недопирливи, Кочани, Општина Кочани, 2300, Северна Македонија\",\"address\":{\"leisure\":\"Градски Стадион Никола Мантов\",\"road\":\"Лазар Андонов\",\"quarter\":\"Недопирливи\",\"city\":\"Кочани\",\"municipality\":\"Општина Кочани\",\"ISO3166-2-lvl7\":\"MK-206\",\"postcode\":\"2300\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"41.9077363\",\"41.9094402\",\"22.4052603\",\"22.4071600\"]}",
+  "fetchedAt": "2026-10-14T17:17:40.767Z"
+}

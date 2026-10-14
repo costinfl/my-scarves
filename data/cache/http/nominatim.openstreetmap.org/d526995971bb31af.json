@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.786851&lon=44.580862&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":193962220,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35843480,\"lat\":\"48.7868508\",\"lon\":\"44.5808759\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.991760128171233e-05,\"addresstype\":\"leisure\",\"name\":\"МБУ \\\"СК \\\"Зенит\\\"\",\"display_name\":\"МБУ \\\"СК \\\"Зенит\\\", улица Таращанцев, пос. Мирный, Краснооктябрьский район, Волгоград, городской округ Волгоград, Волгоградская область, Южный федеральный округ, 400009, Россия\",\"address\":{\"leisure\":\"МБУ \\\"СК \\\"Зенит\\\"\",\"road\":\"улица Таращанцев\",\"neighbourhood\":\"пос. Мирный\",\"city_district\":\"Краснооктябрьский район\",\"city\":\"Волгоград\",\"county\":\"городской округ Волгоград\",\"state\":\"Волгоградская область\",\"ISO3166-2-lvl4\":\"RU-VGG\",\"region\":\"Южный федеральный округ\",\"postcode\":\"400009\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"48.7862732\",\"48.7874284\",\"44.5800269\",\"44.5817249\"]}",
+  "fetchedAt": "2026-10-14T17:18:40.181Z"
+}

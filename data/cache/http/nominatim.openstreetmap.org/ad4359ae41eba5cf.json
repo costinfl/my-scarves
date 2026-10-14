@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.805000&lon=37.698611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":196348573,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":167162160,\"lat\":\"55.8048453\",\"lon\":\"37.6987275\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.908293278396304e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Малый Олений переулок, район Сокольники, Москва, Центральный федеральный округ, 107014, Россия\",\"address\":{\"road\":\"Малый Олений переулок\",\"suburb\":\"район Сокольники\",\"city\":\"Москва\",\"state\":\"Москва\",\"ISO3166-2-lvl4\":\"RU-MOW\",\"region\":\"Центральный федеральный округ\",\"postcode\":\"107014\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"55.8043344\",\"55.8053436\",\"37.6977044\",\"37.6997502\"]}",
+  "fetchedAt": "2026-10-14T17:18:45.069Z"
+}

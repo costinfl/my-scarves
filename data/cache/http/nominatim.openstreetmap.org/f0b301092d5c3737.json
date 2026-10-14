@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.381944&lon=48.050833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":203082675,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":94839035,\"lat\":\"46.3819438\",\"lon\":\"48.0507803\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.704432745856439e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Латышева, Ленинский район, Астрахань, городской округ Астрахань, Астраханская область, Южный федеральный округ, 414000, Россия\",\"address\":{\"road\":\"улица Латышева\",\"city_district\":\"Ленинский район\",\"city\":\"Астрахань\",\"county\":\"городской округ Астрахань\",\"state\":\"Астраханская область\",\"ISO3166-2-lvl4\":\"RU-AST\",\"region\":\"Южный федеральный округ\",\"postcode\":\"414000\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"46.3814397\",\"46.3824479\",\"48.0502890\",\"48.0512715\"]}",
+  "fetchedAt": "2026-10-14T17:18:51.173Z"
+}

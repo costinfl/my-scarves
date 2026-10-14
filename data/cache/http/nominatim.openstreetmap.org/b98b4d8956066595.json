@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.809200&lon=-4.967470&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":285249738,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":11768726042,\"lat\":\"51.8091387\",\"lon\":\"-4.9674631\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":5.393072404054349e-05,\"addresstype\":\"club\",\"name\":\"Haverfordwest County A.F.C.\",\"display_name\":\"Haverfordwest County A.F.C., Well Lane, Withybush, Haverfordwest, Pembrokeshire, Cymru / Wales, SA61 2PL, United Kingdom\",\"address\":{\"club\":\"Haverfordwest County A.F.C.\",\"road\":\"Well Lane\",\"suburb\":\"Withybush\",\"town\":\"Haverfordwest\",\"county\":\"Pembrokeshire\",\"ISO3166-2-lvl6\":\"GB-PEM\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"SA61 2PL\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.8090887\",\"51.8091887\",\"-4.9675131\",\"-4.9674131\"]}",
+  "fetchedAt": "2026-10-14T17:19:13.567Z"
+}

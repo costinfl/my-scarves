@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T17:14:18.974Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2137561",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Ufa logo.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2606415"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Ufa"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Ufa"
+      }
+    }
+  }
+}

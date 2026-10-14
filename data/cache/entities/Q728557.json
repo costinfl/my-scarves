@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q728557",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50092"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Floriana F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Floriana F.C."
+      }
+    }
+  }
+}

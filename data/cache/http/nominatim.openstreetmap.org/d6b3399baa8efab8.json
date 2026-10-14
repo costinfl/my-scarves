@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.904722&lon=14.434722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":53868280,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":49339891,\"lat\":\"35.9046869\",\"lon\":\"14.4346099\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.558632791633505e-05,\"addresstype\":\"leisure\",\"name\":\"Il-Grawnd ta' Charles Abela\",\"display_name\":\"Il-Grawnd ta' Charles Abela, Triq il-Manwella, Tad-Daqqaq, Ta' Mlit, Il-Mosta, Reġjun tat-Tramuntana, MST 9017, Malta\",\"address\":{\"leisure\":\"Il-Grawnd ta' Charles Abela\",\"road\":\"Triq il-Manwella\",\"neighbourhood\":\"Tad-Daqqaq\",\"quarter\":\"Ta' Mlit\",\"town\":\"Il-Mosta\",\"ISO3166-2-lvl8\":\"MT-32\",\"municipality\":\"Reġjun tat-Tramuntana\",\"postcode\":\"MST 9017\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.9041824\",\"35.9051240\",\"14.4341658\",\"14.4350466\"]}",
+  "fetchedAt": "2026-10-14T17:17:53.254Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.796944&lon=49.098889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":201676851,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":436217094,\"lat\":\"55.7967892\",\"lon\":\"49.0989467\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.395971618214721e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Коротченко, Старо-Татарская слобода, Вахитовский район, Казань, городской округ Казань, Татарстан, Приволжский федеральный округ, 420014, Россия\",\"address\":{\"road\":\"улица Коротченко\",\"suburb\":\"Старо-Татарская слобода\",\"city_district\":\"Вахитовский район\",\"city\":\"Казань\",\"county\":\"городской округ Казань\",\"state\":\"Татарстан\",\"ISO3166-2-lvl4\":\"RU-TA\",\"region\":\"Приволжский федеральный округ\",\"postcode\":\"420014\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"55.7963057\",\"55.7972727\",\"49.0983917\",\"49.0995018\"]}",
+  "fetchedAt": "2026-10-14T17:18:57.696Z"
+}
