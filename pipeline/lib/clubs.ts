@@ -10,13 +10,13 @@ export function seasonFor(date: Date): string {
 
 // Reserve, B and youth teams sometimes carry a league membership of the senior league.
 // Anything matched is left out and listed in the coverage report for review.
-// A trailing " II" alone is not enough (Willem II is a club named after a king); teams whose
+// "Academy" is not a pattern: Puskás Akadémia is a top-flight club. A trailing " II" alone is not
+// enough either (Willem II is a club named after a king). Academy and reserve teams whose
 // parent club (P831) is itself one of the imported clubs are removed by dropChildTeams.
 const RESERVE_PATTERNS = [
   /\sB$/,
   /\bU-?\d{2}\b/i,
   /\breserves?\b/i,
-  /\bacademy\b/i,
   /\byouth\b/i,
   /\bjuvenil\b/i,
   /\bCastilla\b/,

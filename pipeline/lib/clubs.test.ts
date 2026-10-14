@@ -19,7 +19,7 @@ describe('isReserveTeam', () => {
     'flags %s',
     (name) => expect(isReserveTeam(name)).toBe(true),
   );
-  it.each(['FCSB', 'Real Betis', 'CFR Cluj', 'Brighton & Hove Albion', 'Burgos CF', 'Universitatea Craiova', 'Willem II'])(
+  it.each(['FCSB', 'Real Betis', 'CFR Cluj', 'Brighton & Hove Albion', 'Burgos CF', 'Universitatea Craiova', 'Willem II', 'Ferenc Puskás Football Academy'])(
     'keeps %s',
     (name) => expect(isReserveTeam(name)).toBe(false),
   );
