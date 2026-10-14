@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.402000&lon=15.573500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":129137841,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":42835794,\"lat\":\"49.4022689\",\"lon\":\"15.5731859\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.35499373245428756,\"addresstype\":\"leisure\",\"name\":\"FC Vysočina Jihlava\",\"display_name\":\"FC Vysočina Jihlava, Jiráskova, Horní Kosov, Jihlava, okres Jihlava, Kraj Vysočina, 586 04, Česko\",\"address\":{\"leisure\":\"FC Vysočina Jihlava\",\"road\":\"Jiráskova\",\"suburb\":\"Horní Kosov\",\"city\":\"Jihlava\",\"district\":\"okres Jihlava\",\"ISO3166-2-lvl5\":\"CZ-632\",\"state\":\"Kraj Vysočina\",\"ISO3166-2-lvl4\":\"CZ-63\",\"postcode\":\"586 04\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.4014843\",\"49.4029103\",\"15.5722277\",\"15.5742378\"]}",
+  "fetchedAt": "2026-10-14T07:52:00.904Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2617777",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Zirka Kropyvnytskyi Logo.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Zirka Kropyvnytskyi"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Zirka Kropyvnytskyi"
+      }
+    }
+  }
+}

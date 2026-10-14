@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q3180055",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Niki Volos F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Niki Volos F.C."
+      }
+    }
+  }
+}

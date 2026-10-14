@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.153611&lon=8.028611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163360400,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":175321714,\"lat\":\"58.1537113\",\"lon\":\"8.0290661\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.759822995341448e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stadionveien, Marvika, Tangen, Lund, Kristiansand, Agder, 4632, Norge\",\"address\":{\"road\":\"Stadionveien\",\"neighbourhood\":\"Marvika\",\"quarter\":\"Tangen\",\"suburb\":\"Lund\",\"city\":\"Kristiansand\",\"municipality\":\"Kristiansand\",\"county\":\"Agder\",\"ISO3166-2-lvl4\":\"NO-42\",\"postcode\":\"4632\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"58.1533864\",\"58.1540396\",\"8.0281301\",\"8.0300017\"]}",
+  "fetchedAt": "2026-10-14T07:53:52.599Z"
+}

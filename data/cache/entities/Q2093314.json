@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2093314",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60421"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SFC Opava"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SFC Opava"
+      }
+    }
+  }
+}

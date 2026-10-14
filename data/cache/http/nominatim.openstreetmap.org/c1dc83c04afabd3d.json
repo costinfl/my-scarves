@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.917812&lon=10.806688&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":162765131,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":623543184,\"lat\":\"59.9178511\",\"lon\":\"10.8067173\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.1374074921752e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Innspurten, Gullhaug, Helsfyr, Gamle Oslo, Oslo, 0663, Norge\",\"address\":{\"road\":\"Innspurten\",\"neighbourhood\":\"Gullhaug\",\"suburb\":\"Helsfyr\",\"city_district\":\"Oslo\",\"city\":\"Oslo\",\"ISO3166-2-lvl4\":\"NO-03\",\"postcode\":\"0663\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.9172964\",\"59.9184111\",\"10.8057647\",\"10.8076643\"]}",
+  "fetchedAt": "2026-10-14T07:54:13.799Z"
+}

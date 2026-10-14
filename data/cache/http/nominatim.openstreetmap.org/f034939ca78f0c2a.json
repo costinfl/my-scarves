@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=60.195278&lon=11.987222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161175228,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":606833564,\"lat\":\"60.1951201\",\"lon\":\"11.9874081\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"Gjemselund hovedbane\",\"display_name\":\"Gjemselund hovedbane, Brugata, Galgebakken, Langeland, Kongsvinger, Innlandet, 2214, Norge\",\"address\":{\"leisure\":\"Gjemselund hovedbane\",\"road\":\"Brugata\",\"neighbourhood\":\"Galgebakken\",\"suburb\":\"Langeland\",\"town\":\"Kongsvinger\",\"municipality\":\"Kongsvinger\",\"county\":\"Innlandet\",\"ISO3166-2-lvl4\":\"NO-34\",\"postcode\":\"2214\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"60.1945789\",\"60.1956612\",\"11.9862986\",\"11.9885176\"]}",
+  "fetchedAt": "2026-10-14T07:53:55.083Z"
+}

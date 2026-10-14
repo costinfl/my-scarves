@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.690703&lon=16.315233&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":165458348,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1675514944,\"lat\":\"56.6907109\",\"lon\":\"16.3154005\",\"category\":\"amenity\",\"type\":\"fast_food\",\"place_rank\":30,\"importance\":6.367971313034283e-05,\"addresstype\":\"amenity\",\"name\":\"Max i Kalmar, Hansa city/Guldfågeln Arena\",\"display_name\":\"Max i Kalmar, Hansa city/Guldfågeln Arena, 40, Trångsundsvägen, Hansa City, Kalmar, Kalmar kommun, Kalmar län, 393 56, Sverige\",\"address\":{\"amenity\":\"Max i Kalmar, Hansa city/Guldfågeln Arena\",\"house_number\":\"40\",\"road\":\"Trångsundsvägen\",\"suburb\":\"Hansa City\",\"city\":\"Kalmar\",\"municipality\":\"Kalmar kommun\",\"county\":\"Kalmar län\",\"ISO3166-2-lvl4\":\"SE-H\",\"postcode\":\"393 56\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"56.6906609\",\"56.6907609\",\"16.3153505\",\"16.3154505\"]}",
+  "fetchedAt": "2026-10-14T07:55:40.313Z"
+}

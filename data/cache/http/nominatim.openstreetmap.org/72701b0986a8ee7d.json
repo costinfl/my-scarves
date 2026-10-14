@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.291389&lon=18.085278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":166301688,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12140340768,\"lat\":\"59.2917562\",\"lon\":\"18.0854164\",\"category\":\"amenity\",\"type\":\"bicycle_parking\",\"place_rank\":30,\"importance\":8.40184634164495e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"Arenaslingan, Johanneshov, Enskede-Årsta-Vantörs stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 121 36, Sverige\",\"address\":{\"road\":\"Arenaslingan\",\"suburb\":\"Johanneshov\",\"city_district\":\"Enskede-Årsta-Vantörs stadsdelsområde\",\"city\":\"Stockholm\",\"municipality\":\"Stockholms kommun\",\"county\":\"Stockholms län\",\"ISO3166-2-lvl4\":\"SE-AB\",\"postcode\":\"121 36\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"59.2917062\",\"59.2918062\",\"18.0853664\",\"18.0854664\"]}",
+  "fetchedAt": "2026-10-14T07:55:26.046Z"
+}

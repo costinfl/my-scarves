@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.231900&lon=22.557500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":178209797,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":198592662,\"lat\":\"51.2323050\",\"lon\":\"22.5573529\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.41828013814504167,\"addresstype\":\"leisure\",\"name\":\"Arena Lublin\",\"display_name\":\"Arena Lublin, Lubelskiego Lipca '80, Piaski, Za Cukrownią, Lublin, województwo lubelskie, 20-405, Polska\",\"address\":{\"leisure\":\"Arena Lublin\",\"road\":\"Lubelskiego Lipca '80\",\"neighbourhood\":\"Piaski\",\"suburb\":\"Za Cukrownią\",\"city\":\"Lublin\",\"state\":\"województwo lubelskie\",\"ISO3166-2-lvl4\":\"PL-06\",\"postcode\":\"20-405\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"51.2316527\",\"51.2331737\",\"22.5563529\",\"22.5583398\"]}",
+  "fetchedAt": "2026-10-14T07:54:31.591Z"
+}

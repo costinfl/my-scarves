@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.729767&lon=5.649772&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":157503416,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":174700404,\"lat\":\"58.7298858\",\"lon\":\"5.6502944\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.227206836037259e-05,\"addresstype\":\"leisure\",\"name\":\"Bryne stadion\",\"display_name\":\"Bryne stadion, Rektor Undheims veg, Rossaland, Bryne, Time, Rogaland, 4344, Norge\",\"address\":{\"leisure\":\"Bryne stadion\",\"road\":\"Rektor Undheims veg\",\"quarter\":\"Rossaland\",\"town\":\"Bryne\",\"municipality\":\"Time\",\"county\":\"Rogaland\",\"ISO3166-2-lvl4\":\"NO-11\",\"postcode\":\"4344\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"58.7293515\",\"58.7304201\",\"5.6495425\",\"5.6510462\"]}",
+  "fetchedAt": "2026-10-14T07:53:47.048Z"
+}

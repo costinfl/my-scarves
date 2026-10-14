@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q275626",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 303826,
+                "id": "Q303826"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50053"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Athlitiki Enosi Larissa F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Athlitiki Enosi Larissa F.C."
+      }
+    }
+  }
+}

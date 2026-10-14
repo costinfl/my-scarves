@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.401Z",
+  "version": 2,
+  "entity": {
+    "id": "Q911524",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "69169"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Dunaújváros FC (1952)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Dunaújváros FC"
+      }
+    }
+  }
+}

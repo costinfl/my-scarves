@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.648853&lon=12.418358&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":148929286,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":49210059,\"lat\":\"55.6489465\",\"lon\":\"12.4186364\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.19920653085682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Brøndby Stadion, Brøndbyvester, Brøndby Kommune, Glostrup, Region Hovedstaden, 2605, Danmark\",\"address\":{\"road\":\"Brøndby Stadion\",\"suburb\":\"Brøndbyvester\",\"town\":\"Glostrup\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"2605\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.6483896\",\"55.6495033\",\"12.4179464\",\"12.4193262\"]}",
+  "fetchedAt": "2026-10-14T07:52:27.960Z"
+}

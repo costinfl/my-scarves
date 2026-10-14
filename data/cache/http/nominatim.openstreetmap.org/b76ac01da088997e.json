@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.758750&lon=19.426750&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":181227743,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":456381385,\"lat\":\"51.7589501\",\"lon\":\"19.4262925\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.477149614705146e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aleja Unii Lubelskiej, Zdrowie-Mania, Łódź-Polesie, Łódź, województwo łódzkie, 94-021, Polska\",\"address\":{\"road\":\"Aleja Unii Lubelskiej\",\"neighbourhood\":\"Zdrowie-Mania\",\"suburb\":\"Łódź-Polesie\",\"city\":\"Łódź\",\"state\":\"województwo łódzkie\",\"ISO3166-2-lvl4\":\"PL-10\",\"postcode\":\"94-021\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"51.7583970\",\"51.7595060\",\"19.4254243\",\"19.4271600\"]}",
+  "fetchedAt": "2026-10-14T07:54:26.608Z"
+}

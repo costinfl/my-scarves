@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.213049&lon=10.927320&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":162484717,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2796325156,\"lat\":\"59.2130880\",\"lon\":\"10.9272986\",\"category\":\"shop\",\"type\":\"supermarket\",\"place_rank\":30,\"importance\":6.372549019603293e-05,\"addresstype\":\"shop\",\"name\":\"Rema 1000 Stadion\",\"display_name\":\"Rema 1000 Stadion, 108, Stranda, Holmen, Fredrikstad, Østfold, 1610, Norge\",\"address\":{\"shop\":\"Rema 1000 Stadion\",\"road\":\"108\",\"neighbourhood\":\"Stranda\",\"suburb\":\"Holmen\",\"city\":\"Fredrikstad\",\"municipality\":\"Fredrikstad\",\"county\":\"Østfold\",\"ISO3166-2-lvl4\":\"NO-31\",\"postcode\":\"1610\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.2130380\",\"59.2131380\",\"10.9272486\",\"10.9273486\"]}",
+  "fetchedAt": "2026-10-14T07:53:50.337Z"
+}

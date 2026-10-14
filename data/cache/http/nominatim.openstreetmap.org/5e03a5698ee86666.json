@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.949725&lon=17.890092&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185701259,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":52563894,\"lat\":\"49.9497114\",\"lon\":\"17.8900425\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.455558098721321e-05,\"addresstype\":\"leisure\",\"name\":\"Fotbalový stadion\",\"display_name\":\"Fotbalový stadion, Lípová, Předměstí, nečleněná Opava, Opava, okres Opava, Moravskoslezský kraj, 746 01, Česko\",\"address\":{\"leisure\":\"Fotbalový stadion\",\"road\":\"Lípová\",\"suburb\":\"Předměstí\",\"city_district\":\"nečleněná Opava\",\"town\":\"Opava\",\"county\":\"okres Opava\",\"ISO3166-2-lvl5\":\"CZ-805\",\"state\":\"Moravskoslezský kraj\",\"ISO3166-2-lvl4\":\"CZ-80\",\"postcode\":\"746 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.9491021\",\"49.9503204\",\"17.8891418\",\"17.8909430\"]}",
+  "fetchedAt": "2026-10-14T07:52:19.176Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.817419&lon=19.054267&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":184699887,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":488813742,\"lat\":\"49.8174209\",\"lon\":\"19.0543462\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.439078355072888e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Żywiecka, Osiedle Grunwaldzkie, Biała Śródmieście, Bielsko-Biała, województwo śląskie, 43-300, Polska\",\"address\":{\"road\":\"Żywiecka\",\"neighbourhood\":\"Osiedle Grunwaldzkie\",\"suburb\":\"Biała Śródmieście\",\"city\":\"Bielsko-Biała\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"43-300\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"49.8169422\",\"49.8179013\",\"19.0538525\",\"19.0548402\"]}",
+  "fetchedAt": "2026-10-14T07:54:34.792Z"
+}

@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q217233",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 373160,
+                "id": "Q373160"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "61584"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Stabæk Fotball"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Stabæk Fotball"
+      }
+    }
+  }
+}

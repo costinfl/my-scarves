@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.058056&lon=19.919722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":184363680,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":156517713,\"lat\":\"50.0579752\",\"lon\":\"19.9204158\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.936751354233642e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aleja Marszałka Ferdinanda Focha, Błonia, Zwierzyniec, Kraków, województwo małopolskie, 30-111, Polska\",\"address\":{\"road\":\"Aleja Marszałka Ferdinanda Focha\",\"quarter\":\"Błonia\",\"city_district\":\"Zwierzyniec\",\"city\":\"Kraków\",\"state\":\"województwo małopolskie\",\"ISO3166-2-lvl4\":\"PL-12\",\"postcode\":\"30-111\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.0575290\",\"50.0584187\",\"19.9195264\",\"19.9213096\"]}",
+  "fetchedAt": "2026-10-14T07:54:16.690Z"
+}

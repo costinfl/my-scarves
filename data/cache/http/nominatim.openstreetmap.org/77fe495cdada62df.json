@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.185800&lon=27.073500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191326294,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":5395636121,\"lat\":\"50.1853938\",\"lon\":\"27.0732077\",\"category\":\"leisure\",\"type\":\"fitness_station\",\"place_rank\":30,\"importance\":5.511482413972713e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"75а, вулиця Героїв Небесної Сотні, Шепетівка, Шепетівська міська громада, Шепетівський район, Хмельницька область, 30400, Україна\",\"address\":{\"house_number\":\"75а\",\"road\":\"вулиця Героїв Небесної Сотні\",\"town\":\"Шепетівка\",\"municipality\":\"Шепетівська міська громада\",\"county\":\"Шепетівський район\",\"state\":\"Хмельницька область\",\"ISO3166-2-lvl4\":\"UA-68\",\"postcode\":\"30400\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.1853438\",\"50.1854438\",\"27.0731577\",\"27.0732577\"]}",
+  "fetchedAt": "2026-10-14T07:56:15.157Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.880Z",
+  "version": 2,
+  "entity": {
+    "id": "Q995069",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Fk-novi-pazar-logo.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Novi Pazar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Novi Pazar"
+      }
+    }
+  }
+}

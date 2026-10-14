@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q460494",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52955"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Panionios F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Panionios F.C."
+      }
+    }
+  }
+}

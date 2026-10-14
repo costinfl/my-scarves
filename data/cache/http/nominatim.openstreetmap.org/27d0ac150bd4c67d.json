@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.588056&lon=16.574167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56844730,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":105574721,\"lat\":\"43.5880202\",\"lon\":\"16.5740824\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ulica Matice hrvatske, Bosančići, Dugopolje, Općina Dugopolje, Splitsko-dalmatinska županija, 98716, Hrvatska\",\"address\":{\"road\":\"Ulica Matice hrvatske\",\"hamlet\":\"Bosančići\",\"village\":\"Dugopolje\",\"municipality\":\"Općina Dugopolje\",\"county\":\"Splitsko-dalmatinska županija\",\"ISO3166-2-lvl4\":\"HR-17\",\"postcode\":\"98716\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"43.5875160\",\"43.5885244\",\"16.5736062\",\"16.5745587\"]}",
+  "fetchedAt": "2026-10-14T07:51:37.208Z"
+}

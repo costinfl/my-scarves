@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.729700&lon=20.694200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57819745,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":419971424,\"lat\":\"43.7296284\",\"lon\":\"20.6943389\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.241626611729636e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Индустријска, Стара колонија, Ратарско имање, Сијаће Поље, Краљево, Град Краљево, Рашки управни округ, Централна Србија, 36101, Србија\",\"address\":{\"road\":\"Индустријска\",\"neighbourhood\":\"Стара колонија\",\"quarter\":\"Ратарско имање\",\"suburb\":\"Сијаће Поље\",\"city\":\"Краљево\",\"municipality\":\"Град Краљево\",\"county\":\"Рашки управни округ\",\"ISO3166-2-lvl6\":\"RS-18\",\"province\":\"Централна Србија\",\"postcode\":\"36101\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"43.7292572\",\"43.7299995\",\"20.6936430\",\"20.6950348\"]}",
+  "fetchedAt": "2026-10-14T07:55:12.673Z"
+}

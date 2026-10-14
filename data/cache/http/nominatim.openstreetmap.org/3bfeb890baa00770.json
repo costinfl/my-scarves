@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.393611&lon=16.931111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":175865196,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":385124859,\"lat\":\"52.3935263\",\"lon\":\"16.9312338\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.645456626225708e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stadionowa, Łęgi Dębińskie, Wilda, Poznań, województwo wielkopolskie, 61-555, Polska\",\"address\":{\"road\":\"Stadionowa\",\"suburb\":\"Łęgi Dębińskie\",\"city\":\"Poznań\",\"state\":\"województwo wielkopolskie\",\"ISO3166-2-lvl4\":\"PL-30\",\"postcode\":\"61-555\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"52.3929941\",\"52.3940576\",\"16.9305615\",\"16.9319056\"]}",
+  "fetchedAt": "2026-10-14T07:54:48.262Z"
+}

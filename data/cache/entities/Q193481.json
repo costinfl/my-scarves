@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q193481",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "AC-Sparta-LOGO2021.svg"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 25393814,
+                "id": "Q25393814"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50033"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AC Sparta Prague"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "AC Sparta Prague"
+      }
+    }
+  }
+}

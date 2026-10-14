@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1151909",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2604486"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Sarpsborg 08 FF"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Sarpsborg 08 FF"
+      }
+    }
+  }
+}

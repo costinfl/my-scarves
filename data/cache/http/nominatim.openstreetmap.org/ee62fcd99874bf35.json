@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.872056&lon=23.932333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56365609,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":32047483,\"lat\":\"37.8720594\",\"lon\":\"23.9325053\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.6343175402411195e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Μαρκόπουλο - Λαύριο, Μαρκόπουλο, Δήμος Μαρκόπουλου Μεσογαίας, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 190 03, Ελλάς\",\"address\":{\"road\":\"Μαρκόπουλο - Λαύριο\",\"town\":\"Μαρκόπουλο\",\"municipality\":\"Δήμος Μαρκόπουλου Μεσογαίας\",\"county\":\"Περιφερειακή Ενότητα Ανατολικής Αττικής\",\"ISO3166-2-lvl6\":\"GR-A2\",\"state\":\"Περιφέρεια Αττικής\",\"ISO3166-2-lvl5\":\"GR-I\",\"postcode\":\"190 03\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.8715424\",\"37.8725693\",\"23.9319410\",\"23.9330585\"]}",
+  "fetchedAt": "2026-10-14T07:53:01.980Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.864722&lon=15.799722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":79173023,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":58232958,\"lat\":\"45.8648130\",\"lon\":\"15.7996985\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0168612191912985e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ulica Vladimira Novaka, Gradska četvrt Zaprešić Sjever, Zaprešić, Grad Zaprešić, Zagrebačka županija, 10290, Hrvatska\",\"address\":{\"road\":\"Ulica Vladimira Novaka\",\"suburb\":\"Gradska četvrt Zaprešić Sjever\",\"city_district\":\"Zaprešić\",\"town\":\"Grad Zaprešić\",\"county\":\"Zagrebačka županija\",\"ISO3166-2-lvl4\":\"HR-01\",\"postcode\":\"10290\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"45.8643084\",\"45.8653672\",\"15.7991537\",\"15.8002565\"]}",
+  "fetchedAt": "2026-10-14T07:51:41.009Z"
+}

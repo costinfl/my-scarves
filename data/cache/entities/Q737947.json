@@ -1,0 +1,97 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q737947",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Start Kristiansand Logo.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "2183ec65a860fdb8739ffd856445f131e1fc9b72",
+                "datavalue": {
+                  "value": {
+                    "time": "+2017-11-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 10,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "IK Start new logo.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "1457bfb55557c220aaaa44d4e0479b619526c4dd",
+                "datavalue": {
+                  "value": {
+                    "time": "+2022-03-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 10,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "preferred",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Start Kristiansand Logo.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52998"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "IK Start"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "IK Start"
+      }
+    }
+  }
+}

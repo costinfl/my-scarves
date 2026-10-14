@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q207501",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo FK Vojvodina.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52810"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Vojvodina"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Vojvodina"
+      }
+    }
+  }
+}

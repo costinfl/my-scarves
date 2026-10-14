@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=60.366389&lon=5.356944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161093408,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":6137054640,\"lat\":\"60.3663890\",\"lon\":\"5.3572370\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.21255817501643e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"8, Kniksens plass, Årstad, Fridalen, Årstad, Bergen, Vestland, 5063, Norge\",\"address\":{\"house_number\":\"8\",\"road\":\"Kniksens plass\",\"suburb\":\"Årstad\",\"city_district\":\"Årstad\",\"city\":\"Bergen\",\"county\":\"Vestland\",\"ISO3166-2-lvl4\":\"NO-46\",\"postcode\":\"5063\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"60.3663390\",\"60.3664390\",\"5.3571870\",\"5.3572870\"]}",
+  "fetchedAt": "2026-10-14T07:54:06.961Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.515833&lon=32.266667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":189969058,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":307477759,\"lat\":\"48.5158419\",\"lon\":\"32.2664426\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.331349660482212e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Євгена Чикаленка, 5/5, Подільський район, Кропивницький, Кропивницька міська громада, Кропивницький район, Кіровоградська область, 25006, Україна\",\"address\":{\"road\":\"вулиця Євгена Чикаленка\",\"suburb\":\"5/5\",\"city_district\":\"Подільський район\",\"city\":\"Кропивницький\",\"municipality\":\"Кропивницька міська громада\",\"district\":\"Кропивницький район\",\"state\":\"Кіровоградська область\",\"ISO3166-2-lvl4\":\"UA-35\",\"postcode\":\"25006\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.5153057\",\"48.5163782\",\"32.2655637\",\"32.2673214\"]}",
+  "fetchedAt": "2026-10-14T07:56:18.475Z"
+}

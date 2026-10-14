@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2947829",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Bukovyna.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FSC Bukovyna Chernivtsi"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FSC Bukovyna Chernivtsi"
+      }
+    }
+  }
+}

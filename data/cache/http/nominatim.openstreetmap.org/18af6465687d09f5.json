@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.901389&lon=19.668889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":66215366,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":169309069,\"lat\":\"46.9013365\",\"lon\":\"19.6690135\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.562218661779228e-05,\"addresstype\":\"leisure\",\"name\":\"Széktói Stadion\",\"display_name\":\"Széktói Stadion, Olimpia utca, Széktó-lakópark, Széktói szabadidőpark, Máriaváros, Kecskemét, Kecskeméti járás, Bács-Kiskun megye, Alföld és Észak, 6000, Magyarország\",\"address\":{\"leisure\":\"Széktói Stadion\",\"road\":\"Olimpia utca\",\"neighbourhood\":\"Széktó-lakópark\",\"quarter\":\"Széktói szabadidőpark\",\"suburb\":\"Máriaváros\",\"city\":\"Kecskemét\",\"ISO3166-2-lvl8\":\"HU-KM\",\"municipality\":\"Kecskeméti járás\",\"county\":\"Bács-Kiskun megye\",\"ISO3166-2-lvl6\":\"HU-BK\",\"state\":\"Alföld és Észak\",\"postcode\":\"6000\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"46.9007035\",\"46.9019394\",\"19.6681960\",\"19.6698317\"]}",
+  "fetchedAt": "2026-10-14T07:53:29.809Z"
+}

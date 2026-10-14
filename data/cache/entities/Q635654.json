@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q635654",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50020"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Lyngby Boldklub"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Lyngby Boldklub"
+      }
+    }
+  }
+}

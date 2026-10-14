@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.223100&lon=11.766400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":147837849,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1383245763,\"lat\":\"55.2230505\",\"lon\":\"11.7663225\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7656977187716756e-05,\"addresstype\":\"leisure\",\"name\":\"Næstved Stadion\",\"display_name\":\"Næstved Stadion, Peder Bodils Vej, Markkvarteret, Næstved, Næstved Kommune, Region Sjælland, 4700, Danmark\",\"address\":{\"leisure\":\"Næstved Stadion\",\"road\":\"Peder Bodils Vej\",\"quarter\":\"Markkvarteret\",\"town\":\"Næstved\",\"municipality\":\"Næstved Kommune\",\"state\":\"Region Sjælland\",\"ISO3166-2-lvl4\":\"DK-85\",\"postcode\":\"4700\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.2225276\",\"55.2235733\",\"11.7653515\",\"11.7672934\"]}",
+  "fetchedAt": "2026-10-14T07:52:43.421Z"
+}

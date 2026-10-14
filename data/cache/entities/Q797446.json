@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:47:52.333Z",
+  "version": 2,
+  "entity": {
+    "id": "Q797446",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "800020"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Burgundy (color)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "burgundy"
+      }
+    }
+  }
+}

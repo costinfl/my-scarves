@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q213161",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60570"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Čukarički"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Čukarički"
+      }
+    }
+  }
+}

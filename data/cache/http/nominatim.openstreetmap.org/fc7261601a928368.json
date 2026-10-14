@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.045800&lon=12.596800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":164857323,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":95636491,\"lat\":\"56.0458809\",\"lon\":\"12.5968259\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.33711216279521466,\"addresstype\":\"leisure\",\"name\":\"Helsingør Stadion\",\"display_name\":\"Helsingør Stadion, Nordkyststien 47, Tårnhøjshuse, Højstrup, Helsingør, Helsingør Kommune, Region Hovedstaden, 3000, Danmark\",\"address\":{\"leisure\":\"Helsingør Stadion\",\"road\":\"Nordkyststien 47\",\"neighbourhood\":\"Tårnhøjshuse\",\"hamlet\":\"Højstrup\",\"town\":\"Helsingør\",\"municipality\":\"Helsingør Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"3000\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"56.0452690\",\"56.0464873\",\"12.5957796\",\"12.5978704\"]}",
+  "fetchedAt": "2026-10-14T07:52:32.700Z"
+}

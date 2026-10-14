@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.578250&lon=9.728600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":151045754,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1385052953,\"lat\":\"55.5784827\",\"lon\":\"9.7291269\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9330891889784354e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Idrætsvej, Vasedal, Fredericia, Fredericia Kommune, Region Syddanmark, 7000, Danmark\",\"address\":{\"road\":\"Idrætsvej\",\"suburb\":\"Vasedal\",\"town\":\"Fredericia\",\"municipality\":\"Fredericia Kommune\",\"state\":\"Region Syddanmark\",\"ISO3166-2-lvl4\":\"DK-83\",\"postcode\":\"7000\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.5781719\",\"55.5787936\",\"9.7282908\",\"9.7299629\"]}",
+  "fetchedAt": "2026-10-14T07:52:31.514Z"
+}

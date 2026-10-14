@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.914611&lon=5.730442&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":160066151,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":201268608,\"lat\":\"58.9145806\",\"lon\":\"5.7310135\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.009155413133467e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Gamle Jåttåvågen, Jåttåvågen, Gausel, Hinna, Stavanger, Rogaland, 4032, Norge\",\"address\":{\"road\":\"Gamle Jåttåvågen\",\"neighbourhood\":\"Jåttåvågen\",\"quarter\":\"Jåttåvågen\",\"suburb\":\"Gausel\",\"city_district\":\"Hinna\",\"city\":\"Stavanger\",\"county\":\"Rogaland\",\"ISO3166-2-lvl4\":\"NO-11\",\"postcode\":\"4032\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"58.9140172\",\"58.9151440\",\"5.7298819\",\"5.7321452\"]}",
+  "fetchedAt": "2026-10-14T07:54:15.000Z"
+}

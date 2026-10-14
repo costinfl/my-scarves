@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.582500&lon=34.577000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":192534925,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":624372282,\"lat\":\"49.5825508\",\"lon\":\"34.5770000\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.692072938120115e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"провулок Родини Іваненків, Поділ, Подільський район, Полтава, Полтавська міська громада, Полтавський район, Полтавська область, 36022, Україна\",\"address\":{\"road\":\"провулок Родини Іваненків\",\"suburb\":\"Поділ\",\"city_district\":\"Подільський район\",\"city\":\"Полтава\",\"municipality\":\"Полтавська міська громада\",\"county\":\"Полтавський район\",\"state\":\"Полтавська область\",\"ISO3166-2-lvl4\":\"UA-53\",\"postcode\":\"36022\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.5820025\",\"49.5830990\",\"34.5760884\",\"34.5779115\"]}",
+  "fetchedAt": "2026-10-14T07:56:11.849Z"
+}

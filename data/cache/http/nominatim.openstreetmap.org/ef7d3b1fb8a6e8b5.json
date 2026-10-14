@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.987169&lon=23.754194&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56349130,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":113465854,\"lat\":\"37.9871916\",\"lon\":\"23.7542114\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.327382314789071e-05,\"addresstype\":\"leisure\",\"name\":\"Γήπεδο Απόστολος Νικολαΐδης\",\"display_name\":\"Γήπεδο Απόστολος Νικολαΐδης, 160, Αναστάσιου Τσόχα, Κουντουριώτικα, Γκύζη, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 21, Ελλάς\",\"address\":{\"leisure\":\"Γήπεδο Απόστολος Νικολαΐδης\",\"house_number\":\"160\",\"road\":\"Αναστάσιου Τσόχα\",\"neighbourhood\":\"Κουντουριώτικα\",\"quarter\":\"Γκύζη\",\"suburb\":\"Αμπελόκηποι\",\"city_district\":\"7η Κοινότητα Αθηνών\",\"city\":\"Αθήνα\",\"municipality\":\"Δήμος Αθηναίων\",\"county\":\"Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών\",\"state\":\"Περιφέρεια Αττικής\",\"ISO3166-2-lvl5\":\"GR-I\",\"postcode\":\"115 21\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.9867962\",\"37.9875870\",\"23.7535610\",\"23.7548618\"]}",
+  "fetchedAt": "2026-10-14T07:52:52.513Z"
+}

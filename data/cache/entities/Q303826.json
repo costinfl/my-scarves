@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:47:52.333Z",
+  "version": 2,
+  "entity": {
+    "id": "Q303826",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "DC143C"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Crimson"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "crimson"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=63.194722&lon=14.655833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":160007450,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":41728140,\"lat\":\"63.1948614\",\"lon\":\"14.6559233\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.559166857399889e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Arenavägen, Lugnvik, Östersund, Östersunds kommun, Jämtlands län, 831 58, Sverige\",\"address\":{\"road\":\"Arenavägen\",\"suburb\":\"Lugnvik\",\"city\":\"Östersund\",\"municipality\":\"Östersunds kommun\",\"county\":\"Jämtlands län\",\"ISO3166-2-lvl4\":\"SE-Z\",\"postcode\":\"831 58\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"63.1943044\",\"63.1954183\",\"14.6548028\",\"14.6570438\"]}",
+  "fetchedAt": "2026-10-14T07:55:48.142Z"
+}

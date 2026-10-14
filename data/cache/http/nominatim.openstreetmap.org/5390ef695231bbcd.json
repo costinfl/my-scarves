@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.754167&lon=25.337500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191713412,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":590972095,\"lat\":\"50.7540925\",\"lon\":\"25.3376037\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.683833066295898e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"проспект Президента Грушевського, Центр, Луцьк, Луцька міська громада, Луцький район, 43002, Україна\",\"address\":{\"road\":\"проспект Президента Грушевського\",\"suburb\":\"Центр\",\"city\":\"Луцьк\",\"municipality\":\"Луцька міська громада\",\"county\":\"Луцький район\",\"postcode\":\"43002\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.7535982\",\"50.7545869\",\"25.3370666\",\"25.3381409\"]}",
+  "fetchedAt": "2026-10-14T07:56:16.644Z"
+}

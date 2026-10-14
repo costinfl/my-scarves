@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.029661&lon=15.781801&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":133883813,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12225426661,\"lat\":\"50.0296462\",\"lon\":\"15.7815539\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.26922332516764147,\"addresstype\":\"leisure\",\"name\":\"Pod Vinicí\",\"display_name\":\"Pod Vinicí, K Vinici, Na spravedlnosti, Nové Jesenčany, Pardubice V, Pardubice, okres Pardubice, Pardubický kraj, 532 32, Česko\",\"address\":{\"leisure\":\"Pod Vinicí\",\"road\":\"K Vinici\",\"neighbourhood\":\"Na spravedlnosti\",\"suburb\":\"Nové Jesenčany\",\"borough\":\"Pardubice V\",\"city\":\"Pardubice\",\"district\":\"okres Pardubice\",\"ISO3166-2-lvl5\":\"CZ-532\",\"state\":\"Pardubický kraj\",\"ISO3166-2-lvl4\":\"CZ-53\",\"postcode\":\"532 32\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.0295962\",\"50.0296962\",\"15.7815039\",\"15.7816039\"]}",
+  "fetchedAt": "2026-10-14T07:52:09.711Z"
+}

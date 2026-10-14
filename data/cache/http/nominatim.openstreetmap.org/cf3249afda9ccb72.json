@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.889933&lon=12.837611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":149434282,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":239922610,\"lat\":\"55.8899196\",\"lon\":\"12.8376278\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.088120851448871e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Seriegatan, Pilåkern, Karlslund, Landskrona, Landskrona kommun, Skåne län, 261 41, Sverige\",\"address\":{\"road\":\"Seriegatan\",\"neighbourhood\":\"Pilåkern\",\"suburb\":\"Karlslund\",\"town\":\"Landskrona\",\"municipality\":\"Landskrona kommun\",\"county\":\"Skåne län\",\"ISO3166-2-lvl4\":\"SE-M\",\"postcode\":\"261 41\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"55.8894386\",\"55.8904006\",\"12.8366309\",\"12.8386246\"]}",
+  "fetchedAt": "2026-10-14T07:55:41.538Z"
+}

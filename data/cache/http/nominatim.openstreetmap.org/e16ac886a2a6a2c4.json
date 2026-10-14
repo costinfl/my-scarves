@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.433333&lon=30.521667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191937679,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":119390033,\"lat\":\"50.4333970\",\"lon\":\"30.5218554\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.258716716253937e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Госпітальний провулок, Соколиний Ріг, Черепанова гора, Печерський район, Київ, 01023, Україна\",\"address\":{\"road\":\"Госпітальний провулок\",\"neighbourhood\":\"Соколиний Ріг\",\"quarter\":\"Черепанова гора\",\"city_district\":\"Печерський район\",\"city\":\"Київ\",\"ISO3166-2-lvl4\":\"UA-30\",\"postcode\":\"01023\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.4329116\",\"50.4338823\",\"30.5213514\",\"30.5223594\"]}",
+  "fetchedAt": "2026-10-14T07:55:56.713Z"
+}

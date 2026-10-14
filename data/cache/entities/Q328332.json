@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q328332",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FK Mladá Boleslav logo.png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "88134"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Mladá Boleslav"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Mladá Boleslav"
+      }
+    }
+  }
+}

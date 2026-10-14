@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q3292651",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "A.P.S. Zakynthos"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "A.P.S. Zakynthos"
+      }
+    }
+  }
+}

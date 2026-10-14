@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.404444&lon=19.252778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":66919991,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":41822529,\"lat\":\"47.4046054\",\"lon\":\"19.2529154\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":0.1507975276546128,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Szabadkai utca, Halmitelep, Vecsés, Vecsési járás, Pest megye, 2220, Magyarország\",\"address\":{\"road\":\"Szabadkai utca\",\"suburb\":\"Halmitelep\",\"town\":\"Vecsés\",\"municipality\":\"Vecsési járás\",\"county\":\"Pest megye\",\"ISO3166-2-lvl6\":\"HU-PE\",\"postcode\":\"2220\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.4036326\",\"47.4055761\",\"19.2514531\",\"19.2543758\"]}",
+  "fetchedAt": "2026-10-14T07:53:43.834Z"
+}

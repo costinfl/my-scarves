@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.724000&lon=16.073200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65912564,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":296097367,\"lat\":\"45.7239618\",\"lon\":\"16.0731661\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0928511482368466e-05,\"addresstype\":\"leisure\",\"name\":\"Gradski stadion Velika gorica\",\"display_name\":\"Gradski stadion Velika gorica, Hrvatske bratske zajednice, Gradska četvrt Hrvatski velikani, Velika Gorica, Grad Velika Gorica, Zagrebačka županija, 10410, Hrvatska\",\"address\":{\"leisure\":\"Gradski stadion Velika gorica\",\"road\":\"Hrvatske bratske zajednice\",\"suburb\":\"Gradska četvrt Hrvatski velikani\",\"city_district\":\"Velika Gorica\",\"town\":\"Grad Velika Gorica\",\"county\":\"Zagrebačka županija\",\"ISO3166-2-lvl4\":\"HR-01\",\"postcode\":\"10410\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"45.7233985\",\"45.7245252\",\"16.0724672\",\"16.0738651\"]}",
+  "fetchedAt": "2026-10-14T07:51:34.300Z"
+}

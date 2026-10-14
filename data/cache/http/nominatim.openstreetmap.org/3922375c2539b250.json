@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.021500&lon=21.996300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":178845249,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124861850,\"lat\":\"50.0213133\",\"lon\":\"21.9962479\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.799496452272857e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aleja Powstańców Warszawy, Grota-Roweckiego, Rzeszów, województwo podkarpackie, 35-208, Polska\",\"address\":{\"road\":\"Aleja Powstańców Warszawy\",\"suburb\":\"Grota-Roweckiego\",\"city\":\"Rzeszów\",\"state\":\"województwo podkarpackie\",\"ISO3166-2-lvl4\":\"PL-18\",\"postcode\":\"35-208\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.0207845\",\"50.0221296\",\"21.9956979\",\"21.9968051\"]}",
+  "fetchedAt": "2026-10-14T07:54:47.750Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.246100&lon=28.668900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191149075,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":308193564,\"lat\":\"50.2462325\",\"lon\":\"28.6692222\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.650873578999036e-05,\"addresstype\":\"leisure\",\"name\":\"Центральний міський стадіон «Полісся»\",\"display_name\":\"Центральний міський стадіон «Полісся», вулиця Фещенка-Чопівського, Центр, Корольовський район, Житомир, Житомирська міська громада, Житомирський район, Житомирська область, 10014, Україна\",\"address\":{\"leisure\":\"Центральний міський стадіон «Полісся»\",\"road\":\"вулиця Фещенка-Чопівського\",\"suburb\":\"Центр\",\"borough\":\"Корольовський район\",\"city\":\"Житомир\",\"municipality\":\"Житомирська міська громада\",\"county\":\"Житомирський район\",\"state\":\"Житомирська область\",\"ISO3166-2-lvl4\":\"UA-18\",\"postcode\":\"10014\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.2457163\",\"50.2467451\",\"28.6686467\",\"28.6698058\"]}",
+  "fetchedAt": "2026-10-14T07:56:10.772Z"
+}

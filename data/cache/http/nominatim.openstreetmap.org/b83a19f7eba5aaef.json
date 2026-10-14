@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.264219&lon=20.128947&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":63075595,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":96704051,\"lat\":\"46.2642973\",\"lon\":\"20.1289180\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.20813244289121335,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kossuth Lajos sugárút, Rókus, Szeged, Szegedi járás, Csongrád-Csanád megye, Alföld és Észak, 6724, Magyarország\",\"address\":{\"road\":\"Kossuth Lajos sugárút\",\"suburb\":\"Rókus\",\"city\":\"Szeged\",\"ISO3166-2-lvl8\":\"HU-SD\",\"municipality\":\"Szegedi járás\",\"county\":\"Csongrád-Csanád megye\",\"ISO3166-2-lvl6\":\"HU-CS\",\"state\":\"Alföld és Észak\",\"postcode\":\"6724\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"46.2638446\",\"46.2647499\",\"20.1281571\",\"20.1296790\"]}",
+  "fetchedAt": "2026-10-14T07:53:37.598Z"
+}

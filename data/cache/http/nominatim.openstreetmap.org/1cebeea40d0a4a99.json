@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.293333&lon=16.344167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65990330,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":284255009,\"lat\":\"46.2934368\",\"lon\":\"16.3443614\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.462577248793801e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Zagrebačka ulica, Varteks, Zapružje, Varaždin, Grad Varaždin, Varaždinska županija, 42104, Hrvatska\",\"address\":{\"road\":\"Zagrebačka ulica\",\"quarter\":\"Varteks\",\"suburb\":\"Zapružje\",\"city_district\":\"Varaždin\",\"city\":\"Grad Varaždin\",\"county\":\"Varaždinska županija\",\"ISO3166-2-lvl4\":\"HR-05\",\"postcode\":\"42104\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"46.2928069\",\"46.2940666\",\"16.3436130\",\"16.3451097\"]}",
+  "fetchedAt": "2026-10-14T07:51:48.234Z"
+}

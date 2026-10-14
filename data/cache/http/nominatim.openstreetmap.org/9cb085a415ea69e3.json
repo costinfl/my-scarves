@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.966959&lon=14.467544&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":129992628,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":61231054,\"lat\":\"48.9669202\",\"lon\":\"14.4675528\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3905579966299668,\"addresstype\":\"leisure\",\"name\":\"SK Dynamo České Budějovice\",\"display_name\":\"SK Dynamo České Budějovice, Střelecký ostrov, Územní skupina 5, České Budějovice 1, České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, 370 49, Česko\",\"address\":{\"leisure\":\"SK Dynamo České Budějovice\",\"road\":\"Střelecký ostrov\",\"neighbourhood\":\"Územní skupina 5\",\"suburb\":\"České Budějovice 1\",\"city\":\"České Budějovice\",\"county\":\"okres České Budějovice\",\"ISO3166-2-lvl5\":\"CZ-311\",\"state\":\"Jihočeský kraj\",\"ISO3166-2-lvl4\":\"CZ-31\",\"region\":\"Jihozápad\",\"postcode\":\"370 49\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"48.9663043\",\"48.9675360\",\"14.4667333\",\"14.4683722\"]}",
+  "fetchedAt": "2026-10-14T07:52:20.158Z"
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q622430",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Djurgardens IF logo.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52809"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Djurgårdens IF Fotboll"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Djurgårdens IF Fotboll"
+      }
+    }
+  }
+}

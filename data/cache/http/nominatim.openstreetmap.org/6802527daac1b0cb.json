@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.315528&lon=21.908533&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58135499,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":264354830,\"lat\":\"43.3154869\",\"lon\":\"21.9087545\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.813534752417819e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Зетска, Чаир, Ниш (Медијана), Градска општина Медијана, Ниш, Град Ниш, Нишавски управни округ, Централна Србија, 18000, Србија\",\"address\":{\"road\":\"Зетска\",\"quarter\":\"Чаир\",\"neighbourhood\":\"Ниш (Медијана)\",\"suburb\":\"Градска општина Медијана\",\"city\":\"Ниш\",\"municipality\":\"Град Ниш\",\"county\":\"Нишавски управни округ\",\"ISO3166-2-lvl6\":\"RS-20\",\"province\":\"Централна Србија\",\"postcode\":\"18000\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"43.3149182\",\"43.3160557\",\"21.9081291\",\"21.9093799\"]}",
+  "fetchedAt": "2026-10-14T07:55:10.734Z"
+}

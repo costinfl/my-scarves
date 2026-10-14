@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.339202&lon=14.380959&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":79339298,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":48485380,\"lat\":\"45.3391754\",\"lon\":\"14.3809365\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":3.750133516437045e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion Kantrida\",\"display_name\":\"Stadion Kantrida, Portić, Mjesni odbor Kantrida, Rijeka, Grad Rijeka, Primorsko-goranska županija, 51105, Hrvatska\",\"address\":{\"leisure\":\"Stadion Kantrida\",\"road\":\"Portić\",\"suburb\":\"Mjesni odbor Kantrida\",\"city_district\":\"Rijeka\",\"city\":\"Grad Rijeka\",\"county\":\"Primorsko-goranska županija\",\"ISO3166-2-lvl4\":\"HR-08\",\"postcode\":\"51105\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"45.3386766\",\"45.3396741\",\"14.3801449\",\"14.3817282\"]}",
+  "fetchedAt": "2026-10-14T07:51:36.232Z"
+}

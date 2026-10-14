@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.980858&lon=36.261703&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":193630131,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":168059310,\"lat\":\"49.9808326\",\"lon\":\"36.2615564\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.340123598072812e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Георгія Тарасенка, Кінний Ринок, Слобідський район, Харків, Харківська міська громада, Харківський район, Харківська область, 61001, Україна\",\"address\":{\"road\":\"вулиця Георгія Тарасенка\",\"suburb\":\"Кінний Ринок\",\"city_district\":\"Слобідський район\",\"city\":\"Харків\",\"municipality\":\"Харківська міська громада\",\"county\":\"Харківський район\",\"state\":\"Харківська область\",\"ISO3166-2-lvl4\":\"UA-63\",\"postcode\":\"61001\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.9802705\",\"49.9813945\",\"36.2608770\",\"36.2622357\"]}",
+  "fetchedAt": "2026-10-14T07:56:05.746Z"
+}

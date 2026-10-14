@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.027250&lon=22.124167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55717084,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":122352786,\"lat\":\"37.0271060\",\"lon\":\"22.1244682\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.27236747457604304,\"addresstype\":\"leisure\",\"name\":\"Δημοτικό Στάδιο Καλαμάτας\",\"display_name\":\"Δημοτικό Στάδιο Καλαμάτας, Εθνικού Σταδίου, Ανατολικός Συνοικισμός, Καλαμάτα, Δήμος Καλαμάτας, Περιφερειακή Ενότητα Μεσσηνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 241 00, Ελλάς\",\"address\":{\"leisure\":\"Δημοτικό Στάδιο Καλαμάτας\",\"road\":\"Εθνικού Σταδίου\",\"suburb\":\"Ανατολικός Συνοικισμός\",\"city\":\"Καλαμάτα\",\"municipality\":\"Δήμος Καλαμάτας\",\"county\":\"Περιφερειακή Ενότητα Μεσσηνίας\",\"state\":\"Περιφέρεια Πελοποννήσου\",\"ISO3166-2-lvl5\":\"GR-J\",\"postcode\":\"241 00\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.0267821\",\"37.0274301\",\"22.1238668\",\"22.1250695\"]}",
+  "fetchedAt": "2026-10-14T07:53:03.521Z"
+}

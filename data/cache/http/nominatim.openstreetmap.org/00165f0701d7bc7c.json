@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.924722&lon=10.733333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163029347,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":115277340,\"lat\":\"59.9250134\",\"lon\":\"10.7333548\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.1374074921752e-05,\"addresstype\":\"leisure\",\"name\":\"Bislett stadion\",\"display_name\":\"Bislett stadion, Bislettgata, Bolteløkka, Bislett, St. Hanshaugen, Oslo, 0350, Norge\",\"address\":{\"leisure\":\"Bislett stadion\",\"road\":\"Bislettgata\",\"neighbourhood\":\"Bolteløkka\",\"suburb\":\"Bislett\",\"city_district\":\"Oslo\",\"city\":\"Oslo\",\"ISO3166-2-lvl4\":\"NO-03\",\"postcode\":\"0350\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.9244842\",\"59.9255426\",\"10.7324571\",\"10.7342526\"]}",
+  "fetchedAt": "2026-10-14T07:53:56.911Z"
+}

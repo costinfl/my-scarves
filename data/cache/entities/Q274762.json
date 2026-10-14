@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q274762",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Vorskla 2010 Logo Bord-Crimson.png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "62174"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Vorskla Poltava"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Vorskla Poltava"
+      }
+    }
+  }
+}

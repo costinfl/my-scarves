@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.255517&lon=21.001322&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":177089782,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":32791486,\"lat\":\"52.2555248\",\"lon\":\"21.0012878\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.366292820625647e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Konwiktorska, Staromiejskie, Nowe Miasto, Śródmieście, Warszawa, województwo mazowieckie, 00-216, Polska\",\"address\":{\"road\":\"Konwiktorska\",\"city_block\":\"Staromiejskie\",\"quarter\":\"Nowe Miasto\",\"suburb\":\"Śródmieście\",\"city\":\"Warszawa\",\"state\":\"województwo mazowieckie\",\"ISO3166-2-lvl4\":\"PL-14\",\"postcode\":\"00-216\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"52.2549454\",\"52.2561041\",\"21.0004342\",\"21.0021414\"]}",
+  "fetchedAt": "2026-10-14T07:54:38.467Z"
+}

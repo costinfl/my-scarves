@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q205732",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52958"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Debreceni VSC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Debreceni VSC"
+      }
+    }
+  }
+}

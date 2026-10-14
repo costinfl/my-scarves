@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.397222&lon=16.858056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":175377781,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":168055754,\"lat\":\"52.3976762\",\"lon\":\"16.8581571\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.645456626225708e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rumuńska, Kasztelanów, Grunwald Południe, Grunwald, Poznań, województwo wielkopolskie, 60-322, Polska\",\"address\":{\"road\":\"Rumuńska\",\"neighbourhood\":\"Kasztelanów\",\"quarter\":\"Grunwald Południe\",\"suburb\":\"Grunwald\",\"city\":\"Poznań\",\"state\":\"województwo wielkopolskie\",\"ISO3166-2-lvl4\":\"PL-30\",\"postcode\":\"60-322\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"52.3970544\",\"52.3982979\",\"16.8572060\",\"16.8591082\"]}",
+  "fetchedAt": "2026-10-14T07:54:24.883Z"
+}

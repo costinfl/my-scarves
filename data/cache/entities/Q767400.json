@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.401Z",
+  "version": 2,
+  "entity": {
+    "id": "Q767400",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64176"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Diósgyőri VTK"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Diósgyőri VTK"
+      }
+    }
+  }
+}

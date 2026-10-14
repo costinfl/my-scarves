@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q28704136",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Futbolni Klub Metalist 1925 Kharkiv (logo).svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Kharkiv"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Metalist 1925 Kharkiv"
+      }
+    }
+  }
+}

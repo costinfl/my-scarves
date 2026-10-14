@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.714964&lon=15.162225&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":132874308,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":75109805,\"lat\":\"50.7148901\",\"lon\":\"15.1622592\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.104905775535237e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vrkoslavická, Dobrá Voda, Vrkoslavice, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 466 01, Česko\",\"address\":{\"road\":\"Vrkoslavická\",\"hamlet\":\"Dobrá Voda\",\"village\":\"Vrkoslavice\",\"town\":\"Jablonec nad Nisou\",\"district\":\"okres Jablonec nad Nisou\",\"ISO3166-2-lvl5\":\"CZ-512\",\"state\":\"Liberecký kraj\",\"ISO3166-2-lvl4\":\"CZ-51\",\"postcode\":\"466 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.7143006\",\"50.7154599\",\"15.1614491\",\"15.1630872\"]}",
+  "fetchedAt": "2026-10-14T07:52:07.087Z"
+}

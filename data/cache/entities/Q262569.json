@@ -1,0 +1,213 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q262569",
+    "claims": {
+      "P154": [
+        {
+          "rank": "preferred",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Poloniawarszawa1.svg"
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Poloniawarszawa.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "1ab4607250ac7a0c1a2f1b93c25e4bff9e147330",
+                "datavalue": {
+                  "value": {
+                    "time": "+2021-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Poloniawarszawa1.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "fb65ecd8788c724489cde4a02138a267201a825c",
+                "datavalue": {
+                  "value": {
+                    "time": "+2020-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Poloniawarszawa2.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "fb65ecd8788c724489cde4a02138a267201a825c",
+                "datavalue": {
+                  "value": {
+                    "time": "+2020-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Polonia Warsaw.png"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "128a87a6ae1521199eeb1ca22a5eb2738422e5d0",
+                "datavalue": {
+                  "value": {
+                    "time": "+2015-07-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 10,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Poloniawarszawa2.svg"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "396a8a418d2d3af6444e59183215234da844a671",
+                "datavalue": {
+                  "value": {
+                    "time": "+2004-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Polonia Warsaw.png"
+            }
+          },
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "ca463ba5d0edbc4151c7f6d3246ab3b14989b5a0",
+                "datavalue": {
+                  "value": {
+                    "time": "+1933-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "58955"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Polonia Warsaw"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Polonia Warsaw"
+      }
+    }
+  }
+}

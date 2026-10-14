@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.481944&lon=8.439444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":149706643,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":611736423,\"lat\":\"55.4819546\",\"lon\":\"8.4394615\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.245288776984844e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Gammel Vardevej, Vognsbøl, Strandby, Esbjerg, Esbjerg Kommune, Region Syddanmark, 6700, Danmark\",\"address\":{\"road\":\"Gammel Vardevej\",\"neighbourhood\":\"Vognsbøl\",\"suburb\":\"Strandby\",\"city\":\"Esbjerg\",\"municipality\":\"Esbjerg Kommune\",\"state\":\"Region Syddanmark\",\"ISO3166-2-lvl4\":\"DK-83\",\"postcode\":\"6700\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.4814308\",\"55.4824784\",\"8.4387498\",\"8.4401733\"]}",
+  "fetchedAt": "2026-10-14T07:52:29.288Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1389125",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64531"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Voždovac"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Voždovac"
+      }
+    }
+  }
+}

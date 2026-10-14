@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.668600&lon=18.667840&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185336426,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":32901185,\"lat\":\"49.6686408\",\"lon\":\"18.6678056\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.25352702198722055,\"addresstype\":\"leisure\",\"name\":\"Stadion Rudolfa Labaje\",\"display_name\":\"Stadion Rudolfa Labaje, Tyršova, Staré Město, Třinec, okres Frýdek-Místek, Moravskoslezský kraj, 739 64, Česko\",\"address\":{\"leisure\":\"Stadion Rudolfa Labaje\",\"road\":\"Tyršova\",\"suburb\":\"Staré Město\",\"town\":\"Třinec\",\"county\":\"okres Frýdek-Místek\",\"ISO3166-2-lvl5\":\"CZ-802\",\"state\":\"Moravskoslezský kraj\",\"ISO3166-2-lvl4\":\"CZ-80\",\"postcode\":\"739 64\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.6681732\",\"49.6691084\",\"18.6673202\",\"18.6682909\"]}",
+  "fetchedAt": "2026-10-14T07:52:12.449Z"
+}

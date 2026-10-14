@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q19861407",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2605958"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Kisvárda FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Kisvárda FC"
+      }
+    }
+  }
+}

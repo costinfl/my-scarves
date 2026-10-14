@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.765156&lon=20.472153&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64240648,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":34585173,\"lat\":\"44.7651276\",\"lon\":\"20.4721102\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.159685664144377e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Црнотравска, Бањица, Београд (Вождовац), Градска општина Вождовац, Град Београд, Централна Србија, 11040, Србија\",\"address\":{\"road\":\"Црнотравска\",\"quarter\":\"Бањица\",\"suburb\":\"Београд (Вождовац)\",\"city\":\"Градска општина Вождовац\",\"county\":\"Град Београд\",\"ISO3166-2-lvl6\":\"RS-00\",\"province\":\"Централна Србија\",\"postcode\":\"11040\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.7645751\",\"44.7656953\",\"20.4713846\",\"20.4728285\"]}",
+  "fetchedAt": "2026-10-14T07:55:08.534Z"
+}

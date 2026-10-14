@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.468100&lon=12.177800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":150076750,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12180896953,\"lat\":\"55.4681864\",\"lon\":\"12.1783456\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.749217975123243e-05,\"addresstype\":\"leisure\",\"name\":\"Capelli Sport Stadion\",\"display_name\":\"Capelli Sport Stadion, Stensbjergvej, Stenbjerg, Skyttehuse, Køge, Køge Kommune, Region Sjælland, 4600, Danmark\",\"address\":{\"leisure\":\"Capelli Sport Stadion\",\"road\":\"Stensbjergvej\",\"quarter\":\"Stenbjerg\",\"hamlet\":\"Skyttehuse\",\"town\":\"Køge\",\"municipality\":\"Køge Kommune\",\"state\":\"Region Sjælland\",\"ISO3166-2-lvl4\":\"DK-85\",\"postcode\":\"4600\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.4681364\",\"55.4682364\",\"12.1782956\",\"12.1783956\"]}",
+  "fetchedAt": "2026-10-14T07:52:41.503Z"
+}

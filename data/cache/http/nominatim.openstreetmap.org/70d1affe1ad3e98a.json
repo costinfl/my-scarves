@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.248920&lon=19.793708&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64978977,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":673858235,\"lat\":\"45.2489889\",\"lon\":\"19.7941805\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.139772640569189e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Булевар Јована Дучића, Шаренград, МЗ Бистрица, Нови Сад, Град Нови Сад, Јужнобачки управни округ, Војводина, 21137, Србија\",\"address\":{\"road\":\"Булевар Јована Дучића\",\"neighbourhood\":\"Шаренград\",\"suburb\":\"МЗ Бистрица\",\"city\":\"Нови Сад\",\"municipality\":\"Град Нови Сад\",\"county\":\"Јужнобачки управни округ\",\"ISO3166-2-lvl6\":\"RS-06\",\"province\":\"Војводина\",\"ISO3166-2-lvl4\":\"RS-VO\",\"postcode\":\"21137\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"45.2484854\",\"45.2494922\",\"19.7933751\",\"19.7949858\"]}",
+  "fetchedAt": "2026-10-14T07:55:04.254Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.141111&lon=16.943611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":182634018,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":168057166,\"lat\":\"51.1411778\",\"lon\":\"16.9437876\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.647592889291245e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"aleja Śląska, Pilczyce, Pilczyce-Kozanów-Popowice Północne, Wrocław, województwo dolnośląskie, 54-118, Polska\",\"address\":{\"road\":\"aleja Śląska\",\"suburb\":\"Pilczyce\",\"city_district\":\"Pilczyce-Kozanów-Popowice Północne\",\"city\":\"Wrocław\",\"state\":\"województwo dolnośląskie\",\"ISO3166-2-lvl4\":\"PL-02\",\"postcode\":\"54-118\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"51.1406889\",\"51.1416667\",\"16.9432547\",\"16.9443204\"]}",
+  "fetchedAt": "2026-10-14T07:54:45.445Z"
+}

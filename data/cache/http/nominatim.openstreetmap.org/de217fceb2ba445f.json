@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.860014&lon=20.132608&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57484235,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":850082963,\"lat\":\"43.8599589\",\"lon\":\"20.1325743\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.433661402299561e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Доситејева, Лучани (варошица), Општина Лучани, Моравички управни округ, Централна Србија, 32240, Србија\",\"address\":{\"road\":\"Доситејева\",\"town\":\"Лучани (варошица)\",\"city\":\"Општина Лучани\",\"county\":\"Моравички управни округ\",\"ISO3166-2-lvl6\":\"RS-17\",\"province\":\"Централна Србија\",\"postcode\":\"32240\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"43.8594227\",\"43.8604951\",\"20.1320137\",\"20.1331349\"]}",
+  "fetchedAt": "2026-10-14T07:55:03.047Z"
+}

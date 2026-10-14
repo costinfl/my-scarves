@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.401Z",
+  "version": 2,
+  "entity": {
+    "id": "Q757754",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "84641"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Atromitos F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Atromitos F.C."
+      }
+    }
+  }
+}

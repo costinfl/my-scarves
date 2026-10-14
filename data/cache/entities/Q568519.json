@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q568519",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Baktalórántháza VSE.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Baktalórántháza VSE"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Baktalórántháza VSE"
+      }
+    }
+  }
+}

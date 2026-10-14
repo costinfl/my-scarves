@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.275000&lon=25.942000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":190036642,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":190018248,\"lat\":\"48.2748720\",\"lon\":\"25.9420859\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.642175936517918e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Кирила Стеценка, Пентагон, Чернівці, Чернівецька міська громада, Чернівецький район, Чернівецька область, 58022, Україна\",\"address\":{\"road\":\"вулиця Кирила Стеценка\",\"suburb\":\"Пентагон\",\"city\":\"Чернівці\",\"municipality\":\"Чернівецька міська громада\",\"district\":\"Чернівецький район\",\"state\":\"Чернівецька область\",\"ISO3166-2-lvl4\":\"UA-77\",\"postcode\":\"58022\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.2743687\",\"48.2755362\",\"25.9412720\",\"25.9427850\"]}",
+  "fetchedAt": "2026-10-14T07:56:21.042Z"
+}

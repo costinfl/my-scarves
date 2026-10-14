@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.631922&lon=12.482878&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":148955451,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":263632339,\"lat\":\"55.6319245\",\"lon\":\"12.4828701\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.19920653085682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Sollentuna Alle, Hvidovre, Hvidovre Kommune, Region Hovedstaden, 2650, Danmark\",\"address\":{\"road\":\"Sollentuna Alle\",\"suburb\":\"Hvidovre\",\"municipality\":\"Hvidovre Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"2650\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.6314770\",\"55.6323721\",\"12.4819012\",\"12.4838390\"]}",
+  "fetchedAt": "2026-10-14T07:52:39.308Z"
+}

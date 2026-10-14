@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.401Z",
+  "version": 2,
+  "entity": {
+    "id": "Q849221",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52662"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bohemians 1905"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Bohemians 1905"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.804400&lon=18.255800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186249875,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":87105437,\"lat\":\"49.8043122\",\"lon\":\"18.2559566\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.079957274734139e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Závodní, Vítkovice, Ostrava, okres Ostrava-město, Moravskoslezský kraj, 703 00, Česko\",\"address\":{\"road\":\"Závodní\",\"suburb\":\"Vítkovice\",\"city\":\"Ostrava\",\"district\":\"okres Ostrava-město\",\"ISO3166-2-lvl5\":\"CZ-806\",\"state\":\"Moravskoslezský kraj\",\"ISO3166-2-lvl4\":\"CZ-80\",\"postcode\":\"703 00\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.8038220\",\"49.8048023\",\"18.2554376\",\"18.2564756\"]}",
+  "fetchedAt": "2026-10-14T07:51:59.707Z"
+}

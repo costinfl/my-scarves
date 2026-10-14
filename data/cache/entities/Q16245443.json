@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q16245443",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "A.E. Kifisia F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "A.E. Kifisia F.C."
+      }
+    }
+  }
+}

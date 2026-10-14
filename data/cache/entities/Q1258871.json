@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1258871",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "61625"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Hrvatski Dragovoljac"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Hrvatski Dragovoljac"
+      }
+    }
+  }
+}

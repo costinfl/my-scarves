@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q723489",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52912"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Silkeborg IF"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Silkeborg IF"
+      }
+    }
+  }
+}

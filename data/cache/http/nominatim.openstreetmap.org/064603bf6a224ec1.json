@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.611083&lon=21.350444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":62662404,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":235375245,\"lat\":\"47.6110810\",\"lon\":\"21.3504469\",\"category\":\"highway\",\"type\":\"residential\",\"place_rank\":26,\"importance\":0.05338655756466007,\"addresstype\":\"road\",\"name\":\"Sport köz\",\"display_name\":\"Sport köz, Németfalu, Balmazújváros, Balmazújvárosi járás, Hajdú-Bihar megye, Észak-Alföld, Alföld és Észak, 4060, Magyarország\",\"address\":{\"road\":\"Sport köz\",\"suburb\":\"Németfalu\",\"town\":\"Balmazújváros\",\"municipality\":\"Balmazújvárosi járás\",\"county\":\"Hajdú-Bihar megye\",\"ISO3166-2-lvl6\":\"HU-HB\",\"region\":\"Észak-Alföld\",\"state\":\"Alföld és Észak\",\"postcode\":\"4060\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.6098647\",\"47.6118958\",\"21.3496073\",\"21.3510119\"]}",
+  "fetchedAt": "2026-10-14T07:53:18.401Z"
+}

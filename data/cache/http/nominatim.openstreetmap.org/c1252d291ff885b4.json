@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.020833&lon=37.809722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":192755808,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":200258208,\"lat\":\"48.0210793\",\"lon\":\"37.8101454\",\"category\":\"highway\",\"type\":\"pedestrian\",\"place_rank\":26,\"importance\":0.053404847028305454,\"addresstype\":\"road\",\"name\":\"\",\"display_name\":\"Донецьк, Київський район, Донецька міська громада, Донецький район, Донецька область, 83015, Україна\",\"address\":{\"city\":\"Донецьк\",\"borough\":\"Київський район\",\"municipality\":\"Донецька міська громада\",\"district\":\"Донецький район\",\"state\":\"Донецька область\",\"ISO3166-2-lvl4\":\"UA-14\",\"postcode\":\"83015\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.0197558\",\"48.0223764\",\"37.8083630\",\"37.8119188\"]}",
+  "fetchedAt": "2026-10-14T07:56:13.434Z"
+}

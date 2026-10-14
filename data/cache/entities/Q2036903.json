@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2036903",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2613172"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Polissya Zhytomyr"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Polissya Zhytomyr"
+      }
+    }
+  }
+}

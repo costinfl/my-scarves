@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.939661&lon=11.003525&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163079230,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13812182161,\"lat\":\"59.9396484\",\"lon\":\"11.0037319\",\"category\":\"emergency\",\"type\":\"defibrillator\",\"place_rank\":30,\"importance\":5.7321278705989435e-05,\"addresstype\":\"emergency\",\"name\":\"Strømmen Stadion\",\"display_name\":\"Strømmen Stadion, Ringveien, Næbben, Strømmen, Lillestrøm, Akershus, 1467, Norge\",\"address\":{\"emergency\":\"Strømmen Stadion\",\"road\":\"Ringveien\",\"neighbourhood\":\"Næbben\",\"village\":\"Strømmen\",\"municipality\":\"Lillestrøm\",\"county\":\"Akershus\",\"ISO3166-2-lvl4\":\"NO-32\",\"postcode\":\"1467\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.9395984\",\"59.9396984\",\"11.0036819\",\"11.0037819\"]}",
+  "fetchedAt": "2026-10-14T07:54:10.353Z"
+}

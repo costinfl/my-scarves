@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.902222&lon=34.799722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":190566310,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1176149512,\"lat\":\"50.9024779\",\"lon\":\"34.7997165\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.29579613946291e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Стадіонний провулок, Зарічний район, Суми, Сумська міська громада, Сумський район, Сумська область, 40014, Україна\",\"address\":{\"road\":\"Стадіонний провулок\",\"borough\":\"Зарічний район\",\"city\":\"Суми\",\"municipality\":\"Сумська міська громада\",\"county\":\"Сумський район\",\"state\":\"Сумська область\",\"ISO3166-2-lvl4\":\"UA-59\",\"postcode\":\"40014\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.9019752\",\"50.9029806\",\"34.7991345\",\"34.8002985\"]}",
+  "fetchedAt": "2026-10-14T07:56:14.040Z"
+}

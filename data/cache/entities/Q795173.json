@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.401Z",
+  "version": 2,
+  "entity": {
+    "id": "Q795173",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Ny Stor Version B 93 Logo 20080701 Transparent Baggrund.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Boldklubben af 1893"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Boldklubben af 1893"
+      }
+    }
+  }
+}

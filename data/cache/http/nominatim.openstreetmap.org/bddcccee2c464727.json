@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.702603&lon=14.891500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":130652527,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":256144491,\"lat\":\"49.7028362\",\"lon\":\"14.8916183\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.333485923547749e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kollárova, Vlašim, okres Benešov, Středočeský kraj, 258 01, Česko\",\"address\":{\"road\":\"Kollárova\",\"town\":\"Vlašim\",\"district\":\"okres Benešov\",\"ISO3166-2-lvl5\":\"CZ-201\",\"state\":\"Středočeský kraj\",\"ISO3166-2-lvl4\":\"CZ-20\",\"postcode\":\"258 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.7023526\",\"49.7030954\",\"14.8908181\",\"14.8924225\"]}",
+  "fetchedAt": "2026-10-14T07:51:55.328Z"
+}

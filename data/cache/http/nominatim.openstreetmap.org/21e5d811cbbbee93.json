@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.457706&lon=9.998460&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163906377,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":5670763063,\"lat\":\"57.4576730\",\"lon\":\"9.9984180\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":5.678568703741539e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"5D, Femhøje, Bistrup, Hjørring, Hjørring Kommune, Region Nordjylland, 9800, Danmark\",\"address\":{\"house_number\":\"5D\",\"road\":\"Femhøje\",\"suburb\":\"Bistrup\",\"town\":\"Hjørring\",\"municipality\":\"Hjørring Kommune\",\"state\":\"Region Nordjylland\",\"ISO3166-2-lvl4\":\"DK-81\",\"postcode\":\"9800\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"57.4576230\",\"57.4577230\",\"9.9983680\",\"9.9984680\"]}",
+  "fetchedAt": "2026-10-14T07:52:50.308Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:31.405Z",
+  "version": 2,
+  "entity": {
+    "id": "Q208406",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52815"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "MTK Budapest FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "MTK Budapest FC"
+      }
+    }
+  }
+}

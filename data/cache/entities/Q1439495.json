@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1439495",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Frýdek-Místek"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "MFK Frýdek-Místek"
+      }
+    }
+  }
+}

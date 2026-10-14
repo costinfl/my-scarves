@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q512476",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Viktoria Žižkov Mural Picture.jpg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59323"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Viktoria Žižkov"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Viktoria Žižkov"
+      }
+    }
+  }
+}

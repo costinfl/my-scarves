@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.390000&lon=18.640278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":174126292,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":131896334,\"lat\":\"54.3899668\",\"lon\":\"18.6403132\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.58701457236136e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Żaglowa, Narwik, Letnica, Gdańsk, województwo pomorskie, 80-560, Polska\",\"address\":{\"road\":\"Żaglowa\",\"neighbourhood\":\"Narwik\",\"suburb\":\"Letnica\",\"city_district\":\"Gdańsk\",\"city\":\"Gdańsk\",\"state\":\"województwo pomorskie\",\"ISO3166-2-lvl4\":\"PL-22\",\"postcode\":\"80-560\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"54.3894091\",\"54.3905246\",\"18.6395876\",\"18.6410389\"]}",
+  "fetchedAt": "2026-10-14T07:54:23.693Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.137250&lon=10.179690&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161657369,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":101979167,\"lat\":\"59.1371935\",\"lon\":\"10.1795249\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3895399885548953,\"addresstype\":\"leisure\",\"name\":\"Jotun Arena\",\"display_name\":\"Jotun Arena, Ringveien, Pindsle, Krokemoa, Sandefjord, Vestfold, 3223, Norge\",\"address\":{\"leisure\":\"Jotun Arena\",\"road\":\"Ringveien\",\"neighbourhood\":\"Pindsle\",\"suburb\":\"Krokemoa\",\"city\":\"Sandefjord\",\"municipality\":\"Sandefjord\",\"county\":\"Vestfold\",\"ISO3166-2-lvl4\":\"NO-39\",\"postcode\":\"3223\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.1366401\",\"59.1377469\",\"10.1784628\",\"10.1805871\"]}",
+  "fetchedAt": "2026-10-14T07:54:03.990Z"
+}

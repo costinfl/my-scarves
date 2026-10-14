@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.676944&lon=13.976389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":131751520,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":185458489,\"lat\":\"49.6770074\",\"lon\":\"13.9762624\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.28221560997485e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"1189, Lazec, Příbram, okres Příbram, Středočeský kraj, 261 01, Česko\",\"address\":{\"road\":\"1189\",\"village\":\"Lazec\",\"town\":\"Příbram\",\"county\":\"okres Příbram\",\"ISO3166-2-lvl5\":\"CZ-20B\",\"state\":\"Středočeský kraj\",\"ISO3166-2-lvl4\":\"CZ-20\",\"postcode\":\"261 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.6764189\",\"49.6775958\",\"13.9754353\",\"13.9770896\"]}",
+  "fetchedAt": "2026-10-14T07:52:10.466Z"
+}

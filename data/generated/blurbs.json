@@ -599,6 +599,11 @@
     "source": "https://en.wikipedia.org/wiki/Preston_North_End_F.C.",
     "status": "draft"
   },
+  "Q19628": {
+    "text": "Olympiacos Football Club, known simply as Olympiacos or Olympiacos Piraeus, are a Greek professional football club based in Piraeus. Part of the major multi-sport club Olympiacos CFP, their name was inspired by the ancient Olympic Games and along with the club's emblem, the laurel-crowned Olympic athlete, symbolise the Olympic ideals of ancient Greece.",
+    "source": "https://en.wikipedia.org/wiki/Olympiacos_F.C.",
+    "status": "draft"
+  },
   "Q22707": {
     "text": "Turn- und Sportgemeinschaft 1899 Hoffenheim e.V., commonly known as TSG Hoffenheim, are a German professional football club based in Sinsheim.",
     "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
@@ -654,6 +659,11 @@
     "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
     "status": "draft"
   },
+  "Q39183": {
+    "text": "FC Zlín is a professional football club from Zlín, Czech Republic. The club has spent a number of seasons in the top league of the country, both the Czechoslovak First League and later the Czech First League. The club plays in the Czech National Football League in the 2024–25 season, and three rounds before the end of the league, the team secured first place and promotion back to the Czech First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Zl%C3%ADn",
+    "status": "draft"
+  },
   "Q41420": {
     "text": "Ballspielverein Borussia 09 e. V. Dortmund, often known simply as Borussia Dortmund or by its initialism BVB, or just Dortmund by international fans, is a German professional sports club based in Dortmund, North Rhine-Westphalia. It is best known for its men's professional football team, which plays in the Bundesliga, the top tier of the German football league system.",
     "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
@@ -662,6 +672,11 @@
   "Q43710": {
     "text": "Antalyaspor Kulübü, also known as Hesap.com Antalyaspor for sponsorship reasons since 2025, is a Turkish professional multi-sport club based in Antalya, on Turkey's Mediterranean coast. Founded on 2 July 1966 through the merger of three local sides Yenikapı Suspor, İlk Işık and Ferrokromspor. The club's football branch is best known by its nickname “Akrepler” (Scorpions) and currently competes in the TFF 1.",
     "source": "https://en.wikipedia.org/wiki/Antalyaspor",
+    "status": "draft"
+  },
+  "Q44296": {
+    "text": "FC Chornomorets Odesa is a Ukrainian professional football club based in Odesa, Ukraine.",
+    "source": "https://en.wikipedia.org/wiki/FC_Chornomorets_Odesa",
     "status": "draft"
   },
   "Q48911": {
@@ -684,6 +699,11 @@
     "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
     "status": "draft"
   },
+  "Q52942": {
+    "text": "Kolejowy Klub Sportowy Lech Poznań, commonly referred to as KKS Lech Poznań or simply Lech Poznań, is a Polish professional football club based in Poznań and currently competing in the Ekstraklasa, the nation's highest division.",
+    "source": "https://en.wikipedia.org/wiki/Lech_Pozna%C5%84",
+    "status": "draft"
+  },
   "Q75684": {
     "text": "Sporting Clube de Braga, commonly known as Sporting Braga, or simply Braga, is a Portuguese sports club from the city of Braga.",
     "source": "https://en.wikipedia.org/wiki/S.C._Braga",
@@ -697,6 +717,11 @@
   "Q81888": {
     "text": "Amsterdamsche Football Club Ajax, also known as AFC Ajax, Ajax Amsterdam, or simply Ajax, is a Dutch professional football club based in Amsterdam, that plays in the Eredivisie, the top tier in Dutch football. Historically, Ajax is the most successful club in the Netherlands, with 36 Eredivisie titles and 20 KNVB Cups, both records.",
     "source": "https://en.wikipedia.org/wiki/AFC_Ajax",
+    "status": "draft"
+  },
+  "Q94605": {
+    "text": "Fudbalski klub Spartak Subotica is a professional football club from Subotica, Serbia, that plays in the Serbian First League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Spartak_Subotica",
     "status": "draft"
   },
   "Q101859": {
@@ -769,6 +794,11 @@
     "source": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
     "status": "draft"
   },
+  "Q128390": {
+    "text": "Football Club Oleksandriya, commonly known as Oleksandriya, is a Ukrainian professional football club based in the city of Oleksandriya, Kirovohrad Oblast. Founded in 1990, the club plays in the Ukrainian First League in 2026-27 following relegation from the Ukrainian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Oleksandriya",
+    "status": "draft"
+  },
   "Q128446": {
     "text": "Futebol Clube do Porto, MHIH, OM, commonly known as FC Porto, or simply Porto, is a Portuguese professional sports club based in Porto. It is best known for the professional football team playing in the Primeira Liga, the top flight of Portuguese football.",
     "source": "https://en.wikipedia.org/wiki/FC_Porto",
@@ -799,6 +829,11 @@
     "source": "https://en.wikipedia.org/wiki/Feyenoord",
     "status": "draft"
   },
+  "Q134255": {
+    "text": "Górnik Zabrze Spółka Akcyjna, commonly referred to as Górnik Zabrze, is a Polish football club from Zabrze. Górnik is one of the most successful Polish football clubs in history, winning the second-most Polish Championship titles together with Ruch Chorzów. The club was a dominant force in the 1960s and 1980s.",
+    "source": "https://en.wikipedia.org/wiki/G%C3%B3rnik_Zabrze",
+    "status": "draft"
+  },
   "Q138230": {
     "text": "Kasımpaşa Spor Kulübü, commercially registered as Kasımpaşa Sportif Faaliyetler A.Ş. and commonly referred to simply as Kasımpaşa, is a Turkish professional football club based in the Kasımpaşa neighbourhood, Beyoğlu district of Istanbul, Turkey.",
     "source": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
@@ -809,6 +844,21 @@
     "source": "https://en.wikipedia.org/wiki/Sint-Truidense_VV",
     "status": "draft"
   },
+  "Q140487": {
+    "text": "Zagłębie Sosnowiec is a Polish professional football club based in Sosnowiec. They compete in group III of the III liga in the 2026–27 season, following relegation from the 2025–26 II liga.",
+    "source": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Sosnowiec",
+    "status": "draft"
+  },
+  "Q140497": {
+    "text": "Zagłębie Lubin S.A. is a Polish professional football club based in Lubin. Founded in 1945 as OMTUR Lubin, the club competes in the Ekstraklasa.",
+    "source": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin",
+    "status": "draft"
+  },
+  "Q140500": {
+    "text": "Zagłębie Wałbrzych is a Polish multi-sports club in the south-western city of Wałbrzych. The club, based in the Biały Kamień neighbourhood, is the most famous for its football team, which competed in the Polish top division in the past.",
+    "source": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Wa%C5%82brzych",
+    "status": "draft"
+  },
   "Q141931": {
     "text": "Sportgemeinschaft Dynamo Dresden e.V., commonly known as SG Dynamo Dresden or Dynamo Dresden, is a German association football club based in Dresden, Saxony. They were founded on 12 April 1953 as a club affiliated with the East German police and became one of the most popular and successful clubs in East German football, winning eight league titles.",
     "source": "https://en.wikipedia.org/wiki/Dynamo_Dresden",
@@ -817,6 +867,11 @@
   "Q141971": {
     "text": "1. Fußballclub Union Berlin e. V., commonly known as Union Berlin, is a professional German football club based in Berlin.",
     "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+    "status": "draft"
+  },
+  "Q144952": {
+    "text": "Zalaegerszegi Torna Egylet Football Club, commonly known as Zalaegerszegi TE, Zalaegerszeg or ZTE, is a Hungarian professional football club based in Zalaegerszeg. Zalaegerszeg has won one Hungarian League title in 2002 and one Magyar Kupa title in 2023.",
+    "source": "https://en.wikipedia.org/wiki/Zalaegerszegi_TE",
     "status": "draft"
   },
   "Q153539": {
@@ -864,6 +919,21 @@
     "source": "https://en.wikipedia.org/wiki/1._FC_Heidenheim",
     "status": "draft"
   },
+  "Q162472": {
+    "text": "FK Příbram is a Czech professional football club based in Příbram. After the 2024–25 season, the club replaced MFK Vyškov in the Czech National Football League. FK Příbram is the legal successor to Dukla Prague, a club which won 11 national league titles between 1953 and 1982.",
+    "source": "https://en.wikipedia.org/wiki/FK_P%C5%99%C3%ADbram",
+    "status": "draft"
+  },
+  "Q162589": {
+    "text": "1. HFK Olomouc is a football club in the Czech Republic, based in Olomouc. The club is currently playing in the Czech regional championships. The club previously played in the Czech 2.",
+    "source": "https://en.wikipedia.org/wiki/1._HFK_Olomouc",
+    "status": "draft"
+  },
+  "Q163430": {
+    "text": "1. SC Znojmo FK is a football club from Znojmo in the Czech Republic. After the 2024–25 season, the club was relegated into the Czech Fourth Division.",
+    "source": "https://en.wikipedia.org/wiki/1._SC_Znojmo_FK",
+    "status": "draft"
+  },
   "Q166496": {
     "text": "Étoile Carouge FC is a Swiss football team based in Carouge. The club was founded in 1904. As of the 2024–25 season.",
     "source": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC",
@@ -879,9 +949,29 @@
     "source": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
     "status": "draft"
   },
+  "Q172803": {
+    "text": "Građanski nogometni klub Dinamo Zagreb, commonly referred to as Dinamo Zagreb, is a Croatian professional football club based in Zagreb. They compete in the Croatian Football League (HNL), the top tier of Croatian football. They are the most successful club in Croatian football, having won twenty-six league titles, eighteen Croatian Cups, еight Croatian Super Cups, and one Inter-Cities Fairs Cup.",
+    "source": "https://en.wikipedia.org/wiki/GNK_Dinamo_Zagreb",
+    "status": "draft"
+  },
+  "Q172969": {
+    "text": "Football Club Shakhtar Donetsk is a Ukrainian professional football club, currently playing out of Lviv. It was based in the city of Donetsk until 2014, when the War in Donbas forced the club to relocate. It moved from the Donbas Arena to Lviv (2014–2016) and then to Kharkiv (2017–2020), whilst having its headquarters and training facilities in Kyiv.",
+    "source": "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk",
+    "status": "draft"
+  },
+  "Q173009": {
+    "text": "Fudbalski klub Crvena zvezda, commonly referred to as Crvena zvezda and colloquially referred to as Red Star Belgrade in Anglophone media, is a Serbian professional football club based in Belgrade, and a major part of the Red Star multi-sport society.",
+    "source": "https://en.wikipedia.org/wiki/Red_Star_Belgrade",
+    "status": "draft"
+  },
   "Q176099": {
     "text": "Centro Desportivo de Fátima, simply known as Fátima, is a Portuguese football club based in Fátima, in the municipality of Ourém. Founded in 1966, it holds home matches at Estádio Papa Francisco, with a capacity of 1,545 spectators.",
     "source": "https://en.wikipedia.org/wiki/C.D._F%C3%A1tima",
+    "status": "draft"
+  },
+  "Q179075": {
+    "text": "Football Club Dynamo Kyiv, also known as Dynamo Kyiv, Dynamo Kiev, or simply Dynamo, is a Ukrainian professional football club based in Kyiv. Founded in 1927 as a branch of the bigger Soviet Dynamo Sports Society, the club as a separate business entity was officially formed only in 1989 and currently plays in the Ukrainian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Dynamo_Kyiv",
     "status": "draft"
   },
   "Q179658": {
@@ -899,6 +989,11 @@
     "source": "https://en.wikipedia.org/wiki/Ross_County_F.C.",
     "status": "draft"
   },
+  "Q181216": {
+    "text": "Hrvatski Nogometni klub Hajduk Split, commonly referred to as Hajduk Split, is a Croatian professional football club based in Split. They compete in the Croatian Football League (HNL), the top tier of Croatian football. Since 1979, the club's home ground has been the 33,987-seater Stadion Poljud.",
+    "source": "https://en.wikipedia.org/wiki/HNK_Hajduk_Split",
+    "status": "draft"
+  },
   "Q182876": {
     "text": "Association de la Jeunesse Auxerroise, commonly known as AJ Auxerre or by the abbreviation AJA, is a professional football club based in Auxerre, Bourgogne-Franche-Comté, France. The club currently competes in Ligue 1, the top division of French football. Auxerre plays its home matches at the Stade de l'Abbé-Deschamps, on the banks of the Yonne River.",
     "source": "https://en.wikipedia.org/wiki/AJ_Auxerre",
@@ -909,6 +1004,11 @@
     "source": "https://en.wikipedia.org/wiki/OGC_Nice",
     "status": "draft"
   },
+  "Q186785": {
+    "text": "Rosenborg Ballklub, commonly referred to simply as Rosenborg or RBK, is a Norwegian professional football club from Trondheim that plays in Eliteserien. The club has won a record 26 league titles, a shared record 12 Norwegian Football Cup titles and have played more UEFA matches than any other Norwegian team. RBK play their home games at the all-seater Lerkendal Stadion which has a capacity of 21,421.",
+    "source": "https://en.wikipedia.org/wiki/Rosenborg_BK",
+    "status": "draft"
+  },
   "Q187326": {
     "text": "Aberdeen Football Club is a Scottish professional football club based in Aberdeen, Scotland. They compete in the Scottish Premiership and have never been relegated from the top division of the Scottish football league system since they were elected to the top flight in 1905. Aberdeen have won four Scottish league titles, eight Scottish Cups and six Scottish League Cups.",
     "source": "https://en.wikipedia.org/wiki/Aberdeen_F.C.",
@@ -917,6 +1017,21 @@
   "Q187528": {
     "text": "Royal Sporting Club Anderlecht, commonly abbreviated to RSC Anderlecht, is a Belgian professional football club based in Anderlecht, Brussels Capital-Region. Anderlecht plays in the Belgian Pro League and is the most successful Belgian football team in European competitions, with five trophies, as well as in the Belgian domestic league, with 34 championship wins.",
     "source": "https://en.wikipedia.org/wiki/RSC_Anderlecht",
+    "status": "draft"
+  },
+  "Q188430": {
+    "text": "Football Club Copenhagen, commonly known as F.C. København, F.C. Copenhagen, Copenhagen, or simply FCK, is a Danish professional football club based in Østerbro, Copenhagen. FCK was founded in 1992 as a superstructure on top of Kjøbenhavns Boldklub and Boldklubben 1903.",
+    "source": "https://en.wikipedia.org/wiki/F.C._Copenhagen",
+    "status": "draft"
+  },
+  "Q188656": {
+    "text": "Fudbalski klub Partizan , often referred to in English as Partizan Belgrade, is a Serbian professional football club based in Belgrade. It forms a major part of the JSD Partizan multi-sport club. The club plays in the Serbian SuperLiga and has spent its entire history in the top tier of Yugoslav and Serbian football, winning a total of 46 official trophies, finishing in the Yugoslav league all-time table as second.",
+    "source": "https://en.wikipedia.org/wiki/FK_Partizan",
+    "status": "draft"
+  },
+  "Q189170": {
+    "text": "Jagiellonia Białystok is a Polish professional football club based in Białystok that plays in the Ekstraklasa, the top level of Polish football. The club was founded in 1920 by soldiers in the 42nd Infantry Regiment Reserve Battalion in Białystok. Jagiellonia play their home games at the Chorten Arena.",
+    "source": "https://en.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok",
     "status": "draft"
   },
   "Q189671": {
@@ -942,6 +1057,11 @@
   "Q190916": {
     "text": "Club Brugge Koninklijke Voetbalvereniging, known simply as Club Brugge, is a Belgian professional football club based in Bruges, Belgium. It was founded in 1891 and its home ground is the Jan Breydel Stadium, which has a capacity of 29,042. They play in the Belgian Pro League, the top domestic league in Belgian football.",
     "source": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+    "status": "draft"
+  },
+  "Q190943": {
+    "text": "Towarzystwo Sportowe Wisła Kraków Spółka Akcyjna, commonly referred to as Wisła Kraków, is a Polish professional football club based in Kraków. They compete in the Ekstraklasa following promotion from the 2025–26 I liga. It ranks fourth in the number of national titles won (13), behind Górnik Zabrze, Ruch Chorzów, and Legia Warsaw (15), and second in all-time victories.",
+    "source": "https://en.wikipedia.org/wiki/Wis%C5%82a_Krak%C3%B3w",
     "status": "draft"
   },
   "Q191264": {
@@ -974,6 +1094,21 @@
     "source": "https://en.wikipedia.org/wiki/Dundee_United_F.C.",
     "status": "draft"
   },
+  "Q193481": {
+    "text": "Athletic Club Sparta Praha, commonly known as Sparta Prague and Sparta Praha, is a professional football club based in Prague.",
+    "source": "https://en.wikipedia.org/wiki/AC_Sparta_Prague",
+    "status": "draft"
+  },
+  "Q193749": {
+    "text": "Legia Warszawa, commonly referred to as Legia Warsaw or simply Legia, is a professional football club based in Warsaw, Poland. Legia is the most successful Polish football club in history, winning a record 15 Ekstraklasa champions titles, a record 21 Polish Cup and 6 Polish Super Cup trophies. The club's home venue is the Polish Army Stadium.",
+    "source": "https://en.wikipedia.org/wiki/Legia_Warsaw",
+    "status": "draft"
+  },
+  "Q194393": {
+    "text": "Sportovní klub Slavia Praha – fotbal, commonly known as Slavia Praha or Slavia Prague, is a Czech professional football club in Prague. Founded in 1892 as a literary and cycling club, they are the second most successful club in the Czech Republic since its independence in 1993.",
+    "source": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
+    "status": "draft"
+  },
   "Q196160": {
     "text": "Royale Union Saint-Gilloise, also known as Union Saint-Gilloise, Union SG, USG, RUSG or simply Union, is a Belgian professional football club from Brussels based in Forest. Founded in 1897 in the neighbouring Saint-Gilles, the club has played its home matches at the historic Joseph Marien Stadium since the 1920s.",
     "source": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
@@ -987,6 +1122,16 @@
   "Q201360": {
     "text": "Grasshopper Club Zurich (GCZ), commonly referred to as Grasshopper Club or simply just GC, is a professional multisports club based in Zurich, Switzerland. The oldest and best-known department of the club is its football team. With 27 league titles, the Grasshoppers hold the records for winning the most national championships and the Swiss Cups, with 19 trophies in the latter.",
     "source": "https://en.wikipedia.org/wiki/Grasshopper_Club_Zurich",
+    "status": "draft"
+  },
+  "Q201567": {
+    "text": "Idrottsföreningen Kamraterna Göteborg, commonly known as IFK Göteborg, IFK or Blåvitt, is a Swedish professional football club based in Gothenburg. Founded in 1904, it is the only club in the Nordic countries that has won one of the main UEFA competitions, having won the UEFA Cup in both 1982 and 1987. IFK is affiliated with Göteborgs Fotbollförbund and play their home games at Gamla Ullevi.",
+    "source": "https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg",
+    "status": "draft"
+  },
+  "Q201584": {
+    "text": "AEK Football Club, known simply as A.E.K. in Greece and AEK Athens internationally, are a Greek professional football club based in Nea Filadelfeia, Attica, Greece.",
+    "source": "https://en.wikipedia.org/wiki/AEK_Athens_F.C.",
     "status": "draft"
   },
   "Q201969": {
@@ -1004,6 +1149,21 @@
     "source": "https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti",
     "status": "draft"
   },
+  "Q204888": {
+    "text": "PAOK FC is a Greek professional football club based in Thessaloniki, Macedonia, Greece. The club is commonly known internationally as PAOK Thessaloniki or PAOK Salonica, while in Greece it is referred to simply as PAOK. PAOK are one of the top domestic clubs and the most successful and widely supported in Northern Greece.",
+    "source": "https://en.wikipedia.org/wiki/PAOK_FC",
+    "status": "draft"
+  },
+  "Q205685": {
+    "text": "Sportsklubben Brann is a Norwegian professional football club based in Bergen. Founded on 26 September 1908, Brann has played in the first tier of Norwegian football for 67 out of 80 seasons, the second most of any club. They play their home matches at Brann Stadion where they had a record-breaking average attendance of 17,310 in the 2007 season, the season in which they won their first league title since 1963.",
+    "source": "https://en.wikipedia.org/wiki/SK_Brann",
+    "status": "draft"
+  },
+  "Q205732": {
+    "text": "Debreceni Vasutas Sport Club is a Hungarian professional football club based in Debrecen that competes in the Nemzeti Bajnokság I, the first tier of Hungarian football. They are best known internationally for reaching the group stages of the UEFA Champions League in the 2009–10 season. Debrecen have become the second most successful club in Hungary since 2000, winning the Hungarian League seven times.",
+    "source": "https://en.wikipedia.org/wiki/Debreceni_VSC",
+    "status": "draft"
+  },
   "Q205998": {
     "text": "Fotbal Club CFR 1907 Cluj, commonly known as CFR Cluj or simply CFR, is a Romanian professional football club based in the city of Cluj-Napoca, Cluj County, that competes in the Liga I. Founded as Kolozsvári Vasutas Sport Club in 1907, when Transylvania was part of Austria-Hungary, the club's current name is an acronym for Căile Ferate Române.",
     "source": "https://en.wikipedia.org/wiki/CFR_Cluj",
@@ -1014,9 +1174,24 @@
     "source": "https://en.wikipedia.org/wiki/FC_Z%C3%BCrich",
     "status": "draft"
   },
+  "Q206838": {
+    "text": "Football Club Viktoria Plzeň is a Czech professional football club based in Plzeň. It plays in the Czech First League, the top division of football in the country.",
+    "source": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
+    "status": "draft"
+  },
+  "Q207501": {
+    "text": "Fudbalski klub Vojvodina, commonly known as Vojvodina and colloquially as Voša, is a Serbian professional football club based in Novi Sad, Serbia, the second largest city in Serbia, and one of the most popular clubs in the country.",
+    "source": "https://en.wikipedia.org/wiki/FK_Vojvodina",
+    "status": "draft"
+  },
   "Q208228": {
     "text": "Stade de Reims is a French professional football club based in Reims. The club was formed in 1931 and plays in Ligue 2, the second tier of football in France. Reims plays home matches at the Stade Auguste Delaune.",
     "source": "https://en.wikipedia.org/wiki/Stade_de_Reims",
+    "status": "draft"
+  },
+  "Q208396": {
+    "text": "Ferencvárosi Torna Club, commonly known as Ferencváros, Fradi, FTC is a Hungarian professional football club based in Budapest, that competes in the Nemzeti Bajnokság I, the top flight of Hungarian football. Ferencváros was founded in 1899 by Ferenc Springer and a group of local residents of Budapest's ninth district, Ferencváros.",
+    "source": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC",
     "status": "draft"
   },
   "Q208399": {
@@ -1024,14 +1199,34 @@
     "source": "https://en.wikipedia.org/wiki/SC_Bastia",
     "status": "draft"
   },
+  "Q208406": {
+    "text": "Magyar Testgyakorlók Köre Budapest Futball Club, often abbreviated to MTK, is a professional football club based in Budapest, Hungary. The club currently plays in the Nemzeti Bajnokság I. The club's colours are blue and white.",
+    "source": "https://en.wikipedia.org/wiki/MTK_Budapest_FC",
+    "status": "draft"
+  },
+  "Q208552": {
+    "text": "Molde Fotballklubb is a football club based in Molde, Norway, that competes in Eliteserien, the top flight of Norwegian football. Founded on 19 June 1911, the club was originally known as International and changed its name to Molde in 1915. Molde is five-time league champions and six-time Norwegian Cup winner, and has finished second in the league a further eleven times.",
+    "source": "https://en.wikipedia.org/wiki/Molde_FK",
+    "status": "draft"
+  },
   "Q209509": {
     "text": "Grenoble Foot 38, commonly referred to as simply Grenoble or GF38, is a French association football club based in Grenoble. The club plays its home matches at the Stade des Alpes, a sports complex based in the heart of the city, and wears white and blue.",
     "source": "https://en.wikipedia.org/wiki/Grenoble_Foot_38",
     "status": "draft"
   },
+  "Q209619": {
+    "text": "OFK Beograd, also known in English as OFK Belgrade and currently referred to as OFK Beograd Mozzart Bet for sponsorship reasons, is a Serbian professional football club based in Belgrade, more precisely in Karaburma, an urban neighborhood of the municipality of Palilula. It is part of the OSD Beograd sport society.",
+    "source": "https://en.wikipedia.org/wiki/OFK_Beograd",
+    "status": "draft"
+  },
   "Q209895": {
     "text": "Sparta Rotterdam is a Dutch professional football club based in Rotterdam. Established on 1 April 1888, Sparta Rotterdam is the oldest professional football team in the Netherlands.",
     "source": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
+    "status": "draft"
+  },
+  "Q210025": {
+    "text": "Football Club Nordsjælland, commonly known as FC Nordsjælland, Nordsjælland or FCN, is a professional football club from the Danish town of Farum. Founded as Farum Boldklub from the merger of the town's two football clubs Farum IK and Stavnsholt BK in 1991, the club changed its name to FC Nordsjælland in 2003. In international competitions, the club can be transliterated as Nordsjaelland.",
+    "source": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland",
     "status": "draft"
   },
   "Q210864": {
@@ -1044,9 +1239,29 @@
     "source": "https://en.wikipedia.org/wiki/Kilmarnock_F.C.",
     "status": "draft"
   },
+  "Q211177": {
+    "text": "Viking Fotballklubb, commonly known as Viking or Viking Stavanger internationally, is a Norwegian professional football club from the city of Stavanger. The club was founded in 1899. It is one of the most successful clubs in Norwegian football, having won 9 Norwegian top division titles, most recently in 2025, and 6 domestic Norwegian Cup titles, most recently in 2019.",
+    "source": "https://en.wikipedia.org/wiki/Viking_FK",
+    "status": "draft"
+  },
   "Q211401": {
     "text": "União Desportiva de Leiria, commonly known as União de Leiria, is a Portuguese professional football club based in Leiria. Founded on 6 June 1966, it currently plays in the Liga Portugal 2, holding home matches at Estádio Dr. Magalhães Pessoa, with a 23,888-seat capacity.",
     "source": "https://en.wikipedia.org/wiki/U.D._Leiria",
+    "status": "draft"
+  },
+  "Q211753": {
+    "text": "Idrottsföreningen Elfsborg, more commonly known as IF Elfsborg or simply Elfsborg, is a professional football club based in Borås, Sweden, and is affiliated to the Västergötlands Fotbollförbund. They play in the Allsvenskan and have spent most of their history in the top tier of Swedish football. Their homeground is Borås Arena, where they have played since 17 April 2005.",
+    "source": "https://en.wikipedia.org/wiki/IF_Elfsborg",
+    "status": "draft"
+  },
+  "Q211906": {
+    "text": "Brøndbyernes Idrætsforening, usually abbreviated to Brøndby IF, is a Danish professional football club based in Brøndbyvester. Brøndby is the professional football section of Brøndbyernes Idrætsforening, which was founded on 3 December 1964 by a merger of the football clubs Brøndbyøster Idrætsforening and Brøndbyvester Idrætsforening.",
+    "source": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_IF",
+    "status": "draft"
+  },
+  "Q211912": {
+    "text": "Odense Boldklub is a Danish professional football club based in the city of Odense, in southern Denmark. The club has won three Danish championships and five Danish Cup trophies. OB play in the Danish Superliga and their home field is Nature Energy Park.",
+    "source": "https://en.wikipedia.org/wiki/Odense_Boldklub",
     "status": "draft"
   },
   "Q212269": {
@@ -1054,9 +1269,44 @@
     "source": "https://en.wikipedia.org/wiki/Valenciennes_FC",
     "status": "draft"
   },
+  "Q212490": {
+    "text": "Tromsø Idrettslag is a Norwegian professional football club based in Tromsø. They play their home games at the Romssa Arena which has a seating capacity of 6,801. Tromsø play in the Eliteserien.",
+    "source": "https://en.wikipedia.org/wiki/Troms%C3%B8_IL",
+    "status": "draft"
+  },
+  "Q212819": {
+    "text": "Vålerenga Fotball is a Norwegian professional football club from Oslo and a part of the multi-sport club Vålerengens IF. The club currently competes in the Eliteserien after being promoted from the Norwegian First Division in 2024. Founded in 1913, the club is named after the neighborhood of Vålerenga.",
+    "source": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball",
+    "status": "draft"
+  },
+  "Q213161": {
+    "text": "Fudbalski klub Čukarički is a Serbian professional football club from Belgrade, more precisely from the Čukarica municipality, that currently plays in the Serbian SuperLiga, the top tier of Serbian football.",
+    "source": "https://en.wikipedia.org/wiki/FK_%C4%8Cukari%C4%8Dki",
+    "status": "draft"
+  },
+  "Q214374": {
+    "text": "Lillestrøm Sportsklubb is a Norwegian professional football club based in the city of Lillestrøm, just outside of the capital Oslo, currently playing in Eliteserien. The club was founded in 1917, after the merger of two local football clubs. Their home ground is Åråsen Stadion, which has a capacity of 12,250 people, while the principal training ground is Lillestrøm stadion, or the indoor arena, LSK-Hallen.",
+    "source": "https://en.wikipedia.org/wiki/Lillestr%C3%B8m_SK",
+    "status": "draft"
+  },
+  "Q214992": {
+    "text": "Aalesunds Fotballklubb, commonly known as Aalesund or AaFK, is a Norwegian professional football club from the town of Ålesund that competes in the Eliteserien, the top tier of the Norwegian football league system. The club was founded on 25 June 1914. As of 2004, the football club had 835 members and several teams on both professional and amateur levels.",
+    "source": "https://en.wikipedia.org/wiki/Aalesunds_FK",
+    "status": "draft"
+  },
+  "Q215302": {
+    "text": "Odds Ballklubb, commonly known as Odd, is a Norwegian professional football club from Skien. Originally the football section of a multi-sports club, it was founded in 1894, nine years after the club's founding. Most sports other than football and gymnastics were discontinued, and the club became dedicated primarily to football.",
+    "source": "https://en.wikipedia.org/wiki/Odds_BK",
+    "status": "draft"
+  },
   "Q216032": {
     "text": "Koninklijke Racing Club Genk, commonly known as KRC Genk or Racing Genk, is a Belgian professional football club based in the city of Genk in Belgian Limburg. Racing Genk plays in the Belgian Pro League and have won four championship titles; in 1998–99, in 2001–02, in 2010–11 and in 2018–19. They have also won five Belgian Cups, most recently in 2020–21.",
     "source": "https://en.wikipedia.org/wiki/KRC_Genk",
+    "status": "draft"
+  },
+  "Q216131": {
+    "text": "Fredrikstad Fotballklubb is a Norwegian professional football club from the town of Fredrikstad. With nine league championships and twelve Norwegian Cup wins, FFK is one of the most successful clubs in Norwegian football. The club was founded in 1903 and currently play in Eliteserien from 2024 after promotion from Norwegian First Division in 2023.",
+    "source": "https://en.wikipedia.org/wiki/Fredrikstad_FK",
     "status": "draft"
   },
   "Q216459": {
@@ -1089,9 +1339,24 @@
     "source": "https://en.wikipedia.org/wiki/FC_Vaduz",
     "status": "draft"
   },
+  "Q217233": {
+    "text": "Stabæk Fotball is a Norwegian professional football club based in Bærum, a suburb of Oslo. It is part of the multi-sport organization Stabæk IF. Founded in 1912, the club's name is an archaic spelling of the suburban area Stabekk, from which it once originated.",
+    "source": "https://en.wikipedia.org/wiki/Stab%C3%A6k_Fotball",
+    "status": "draft"
+  },
+  "Q217607": {
+    "text": "Åsane Fotball is a Norwegian football club based in Åsane. The club currently competing in 1. divisjon, the second tier of the Norwegian football league system, in which they have been participating since their promotion in 2019 2. divisjon. They were relegated from 1. divisjon in 2018.",
+    "source": "https://en.wikipedia.org/wiki/%C3%85sane_Fotball",
+    "status": "draft"
+  },
   "Q218372": {
     "text": "Stade Brestois 29, commonly known as Stade Brestois or simply Brest, is a Breton professional football club based in Brest. It was founded in 1950 following the merger of five local patronages, including Armoricaine de Brest, founded in 1903. The club has competed in Ligue 1, the top division of French football, ever since being promoted to the top flight during the 2018–19 season.",
     "source": "https://en.wikipedia.org/wiki/Stade_Brestois_29",
+    "status": "draft"
+  },
+  "Q218724": {
+    "text": "FK Javor Ivanjica, known as Javor Matis for sponsorship reasons, is a professional football club based in Ivanjica, Serbia. They compete in the Serbian First League, the second tier of Serbian football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Javor_Ivanjica",
     "status": "draft"
   },
   "Q219233": {
@@ -1109,9 +1374,19 @@
     "source": "https://en.wikipedia.org/wiki/Falkirk_F.C.",
     "status": "draft"
   },
+  "Q219926": {
+    "text": "Aris FC, commonly known as Aris Thessaloniki or simply Aris, is a Greek professional football club from the city of Thessaloniki, Macedonia, Greece. The team competes in the top-tier Super League Greece and their home ground is the Kleanthis Vikelidis Stadium.",
+    "source": "https://en.wikipedia.org/wiki/Aris_Thessaloniki_F.C.",
+    "status": "draft"
+  },
   "Q220863": {
     "text": "Asociația Clubul Sportiv Supporter Club Oțelul Galați, commonly known as Oțelul Galați or simply as Oțelul, is a Romanian football club based in the city of Galați, Galați County, which competes in the Liga I, the top tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
+    "status": "draft"
+  },
+  "Q220928": {
+    "text": "FK Viagem Ústí nad Labem is a Czech football club based in the city of Ústí nad Labem. From the 2025–26 season, the club plays Czech National Football League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Viagem_%C3%9Ast%C3%AD_nad_Labem",
     "status": "draft"
   },
   "Q221525": {
@@ -1119,14 +1394,34 @@
     "source": "https://en.wikipedia.org/wiki/FC_Metz",
     "status": "draft"
   },
+  "Q221602": {
+    "text": "AIK Fotboll, more commonly known simply as AIK, an abbreviation for Allmänna Idrottsklubben, and internationally commonly referred to as AIK Stockholm, is a Swedish professional football club from Stockholm, competing in Allsvenskan, the top flight of Swedish football. The club was founded in 1891 and the football department was established in 1896.",
+    "source": "https://en.wikipedia.org/wiki/AIK_Fotboll",
+    "status": "draft"
+  },
+  "Q221671": {
+    "text": "FC Slovan Liberec, commonly referred to as Slovan Liberec or simply Slovan, is a Czech professional football club based in the city of Liberec. The club is one of the most successful in the Czech Republic, having won three league titles and the domestic cup since 1993. Glass-making company Preciosa a.s. is the current main sponsor of the club.",
+    "source": "https://en.wikipedia.org/wiki/FC_Slovan_Liberec",
+    "status": "draft"
+  },
   "Q221927": {
     "text": "Vereniging Betaald Voetbal De Graafschap, simply known as De Graafschap, is a professional association football club based in Doetinchem, Netherlands. The team competes in the Eerste Divisie, the second level of the Dutch football league system.",
     "source": "https://en.wikipedia.org/wiki/De_Graafschap",
     "status": "draft"
   },
+  "Q222074": {
+    "text": "Strømmen Idrettsforening is a Norwegian sports club from Strømmen. It has sections for football, athletics and gymnastics, and formerly had sections for bandy, orienteering, skiing, speed skating, swimming among other sports.",
+    "source": "https://en.wikipedia.org/wiki/Str%C3%B8mmen_IF",
+    "status": "draft"
+  },
   "Q223262": {
     "text": "Fussball-Club Luzern, commonly abbreviated to FC Luzern or simply FCL, is a Swiss sports club based in Lucerne. They are best known for their men's professional football team, which plays in the Super League, the top tier of the Swiss football league system, and has won the national title once and the national cup three times.",
     "source": "https://en.wikipedia.org/wiki/FC_Luzern",
+    "status": "draft"
+  },
+  "Q223360": {
+    "text": "Football Club Karpaty Lviv is a Ukrainian professional football club based in Lviv.",
+    "source": "https://en.wikipedia.org/wiki/FC_Karpaty_Lviv",
     "status": "draft"
   },
   "Q223450": {
@@ -1144,9 +1439,34 @@
     "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mica_de_Coimbra_(football)",
     "status": "draft"
   },
+  "Q244595": {
+    "text": "Újpest Football Club, also known by its old name Újpesti Dózsa, is a Hungarian professional football club based in Budapest, that competes in Nemzeti Bajnokság I.",
+    "source": "https://en.wikipedia.org/wiki/%C3%9Ajpest_FC",
+    "status": "draft"
+  },
+  "Q244981": {
+    "text": "RTS Widzew Łódź is a Polish football club based in Łódź. Formed in 1922, it later named itself the successor of the TMRF Widzew founded in 1910. Its official colours are red and white, hence their nicknames Czerwona Armia and Czerwono-biało-czerwoni (Red-white-reds).",
+    "source": "https://en.wikipedia.org/wiki/Widzew_%C5%81%C3%B3d%C5%BA",
+    "status": "draft"
+  },
   "Q245162": {
     "text": "Fotbal Club Rapid, commonly known as Rapid București or simply as Rapid, is a Romanian professional football club based in Bucharest, that competes in the Liga I, the top tier of Romanian football. It was founded in 1923 by employees of the Grivița workshops as the Asociația Culturală și Sportivă CFR.",
     "source": "https://en.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti",
+    "status": "draft"
+  },
+  "Q246902": {
+    "text": "Brønshøj Boldklub, commonly referred to as Brønshøj BK, is a Danish football club based in the Brønshøj district of Copenhagen. Founded on 15 May 1919, the club plays its home matches at Tingbjerg Idrætspark and currently competes in the Danish 3rd Division, the fourth tier of Danish football.",
+    "source": "https://en.wikipedia.org/wiki/Br%C3%B8nsh%C3%B8j_Boldklub",
+    "status": "draft"
+  },
+  "Q248345": {
+    "text": "FK Čáslav is a Czech football club from Čáslav. It plays in the Bohemian Football League.",
+    "source": "https://en.wikipedia.org/wiki/FK_%C4%8C%C3%A1slav",
+    "status": "draft"
+  },
+  "Q255296": {
+    "text": "Vasas SC is a Hungarian sports club based in Budapest.",
+    "source": "https://en.wikipedia.org/wiki/Vasas_SC",
     "status": "draft"
   },
   "Q257078": {
@@ -1154,9 +1474,24 @@
     "source": "https://en.wikipedia.org/wiki/Nuovo_Pordenone_2024_FC_ASD",
     "status": "draft"
   },
+  "Q259029": {
+    "text": "Ljungskile SK is a Swedish professional football club located in Ljungskile, a town within Uddevalla Municipality. They currently play in Superettan, the second tier of Swedish football, after promotion from Ettan in 2025.",
+    "source": "https://en.wikipedia.org/wiki/Ljungskile_SK",
+    "status": "draft"
+  },
+  "Q260559": {
+    "text": "Örebro Sportklubb, more commonly known as Örebro SK, Örebro or ÖSK, is a Swedish professional football club based in Örebro. The club are affiliated to Örebro Läns Fotbollförbund and play their home games at Behrn Arena. The club colours are white shirts and black shorts, leading to the nickname Svartvitt (black-whites).",
+    "source": "https://en.wikipedia.org/wiki/%C3%96rebro_SK",
+    "status": "draft"
+  },
   "Q261813": {
     "text": "FC Wacker Innsbruck is an Austrian association football club from Innsbruck. The club was formed in June 2002 as FC Wacker Tirol, and play their home games at Tivoli-Neu. The club regard themselves as the spiritual continuation of the team FC Tirol Innsbruck, which went bankrupt in 2002, and the original FC Wacker Innsbruck, which was founded in 1913.",
     "source": "https://en.wikipedia.org/wiki/FC_Wacker_Innsbruck_(2002)",
+    "status": "draft"
+  },
+  "Q262569": {
+    "text": "Polonia Warsaw, founded on 19 November 1911, is the oldest existing sports club in Warsaw, the capital of Poland, best known for its football and basketball teams. It also has track and field, swimming, chess, mountain biking, and contract bridge sections. Historically it also had sections in ice hockey, fencing, tennis, volleyball, hazena, cycling and boxing.",
+    "source": "https://en.wikipedia.org/wiki/Polonia_Warsaw",
     "status": "draft"
   },
   "Q268776": {
@@ -1184,9 +1519,49 @@
     "source": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
     "status": "draft"
   },
+  "Q274762": {
+    "text": "FC Vorskla Poltava is a Ukrainian professional football club based in Poltava. The team competes in the Ukrainian First League, the second tier of Ukrainian football after relegation from the Ukrainian Premier League in 2024–25.",
+    "source": "https://en.wikipedia.org/wiki/FC_Vorskla_Poltava",
+    "status": "draft"
+  },
+  "Q275612": {
+    "text": "Kispest-Honvéd Football Club, commonly known as Kispest-Honvéd or simply Honvéd, is a Hungarian sports club based in Kispest, Budapest, with the colours of red and black. The club is best known for its football team. Honvéd means the Homeland Defence.",
+    "source": "https://en.wikipedia.org/wiki/Kispest-Honv%C3%A9d_FC",
+    "status": "draft"
+  },
+  "Q275626": {
+    "text": "Athlitiki Enosi Larissa Football Club, often known as AEL or Larissa, and AEL Novibet for sponsorship reasons, is a Greek professional football club based in the city of Larissa, capital of Greece's Thessaly region.",
+    "source": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C.",
+    "status": "draft"
+  },
+  "Q276346": {
+    "text": "Egyetértés Torna Osztály Futball Club, called Győri ETO FC or just ETO, is a Hungarian professional football club from the city of Győr.",
+    "source": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC",
+    "status": "draft"
+  },
+  "Q284077": {
+    "text": "OFK Bačka is a football club based in Bačka Palanka, Serbia, that competes in the Serbian League Vojvodina. In 2016, the club achieved promotion to the Serbian SuperLiga. It is known as one of the most successful football clubs in Serbia at the all-time table of the Yugoslav Second League.",
+    "source": "https://en.wikipedia.org/wiki/OFK_Ba%C4%8Dka",
+    "status": "draft"
+  },
+  "Q287236": {
+    "text": "Robotniczy Klub Sportowy Raków Częstochowa Spółka Akcyjna is a Polish professional football club, based in Częstochowa, that competes in the Ekstraklasa, the top tier of national football league system.",
+    "source": "https://en.wikipedia.org/wiki/Rak%C3%B3w_Cz%C4%99stochowa",
+    "status": "draft"
+  },
   "Q288419": {
     "text": "Pau Football Club, commonly referred to as Pau FC, is a professional football club based in Pau, capital of Béarn, France. Pau FC plays its home matches at the Nouste Camp and competes in Ligue 2, the second tier of French football. Nicknamed Les Maynats, Pau FC traces its origins to the patronage of the Bleuets de Notre-Dame, officially founded in 1920 in the Mayolis district.",
     "source": "https://en.wikipedia.org/wiki/Pau_FC",
+    "status": "draft"
+  },
+  "Q289286": {
+    "text": "Alliance Club Horsens, commonly referred to as AC Horsens or simply Horsens, is a Danish professional football club based in Horsens, Central Denmark Region. Founded in 1994, as a superstructure on Horsens fS, Stensballe IK and FC Horsens, the club competes in the Danish Superliga following promotion in 2025-2026 from the 1st Division, the second tier of the Danish football league system.",
+    "source": "https://en.wikipedia.org/wiki/AC_Horsens",
+    "status": "draft"
+  },
+  "Q289347": {
+    "text": "NK Solin is a Croatian football club based in the town of Solin, near Split, playing in the 2. NL, the Croatian third division.",
+    "source": "https://en.wikipedia.org/wiki/NK_Solin",
     "status": "draft"
   },
   "Q289482": {
@@ -1202,6 +1577,16 @@
   "Q289707": {
     "text": "Associazione Calcio Reggiana 1919, commonly referred to as Reggiana, is a professional football club based in Reggio Emilia, Emilia-Romagna, Italy. The club was formed in 1919, reformed in 2005 and 2018 after going bankrupt twice, and currently plays in the Serie C, the third tier of Italian football. Reggiana is known as i Granata in reference to the club's main colour: maroon.",
     "source": "https://en.wikipedia.org/wiki/AC_Reggiana_1919",
+    "status": "draft"
+  },
+  "Q289720": {
+    "text": "Herfølge Boldklub is a Danish football club founded in 1921. It is based in Herfølge, a southern suburb of Køge in the eastern part of Zealand. In 2009, the club shared its licence, and merged its professional football with Køge BK to form HB Køge.",
+    "source": "https://en.wikipedia.org/wiki/Herf%C3%B8lge_Boldklub",
+    "status": "draft"
+  },
+  "Q291163": {
+    "text": "Moss Fotballklubb is a Norwegian football club, founded on 28 August 1906. They play in the 1. divisjon, the second highest division in the Norwegian football league system. They played in the Norwegian top flight between 1937–1939, 1953–54, 1977–1985, 1987–1990, 1996 and 1998–2002.",
+    "source": "https://en.wikipedia.org/wiki/Moss_FK",
     "status": "draft"
   },
   "Q291297": {
@@ -1234,9 +1619,24 @@
     "source": "https://en.wikipedia.org/wiki/US_Avellino_1912",
     "status": "draft"
   },
+  "Q301431": {
+    "text": "Aarhus Gymnastikforening is a professional sports club based in Aarhus, Jutland, Denmark. Founded in 1880, it is one of the oldest clubs in the country where gymnastics and fencing were featured as its main sports. However, AGF is mostly known for its football department, which was established in 1902.",
+    "source": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening",
+    "status": "draft"
+  },
+  "Q301726": {
+    "text": "Ruch Chorzów is a Polish professional football club based in Chorzów, Upper Silesia. It is one of the most successful football teams in Poland, having won fourteen Polish Championships, and the Polish Cup three times. As of the 2026–27 season, they compete in the I liga.",
+    "source": "https://en.wikipedia.org/wiki/Ruch_Chorz%C3%B3w",
+    "status": "draft"
+  },
   "Q303121": {
     "text": "Yeni Malatyaspor Kulübü is a Turkish professional football club based in Malatya. The club plays in the TFF Second League, which is the third tier of football in the country.",
     "source": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor",
+    "status": "draft"
+  },
+  "Q306797": {
+    "text": "Östersunds Fotbollsklubb, commonly known simply as Östersunds FK, Östersund or ÖFK, is a Swedish professional football club located in Östersund, Sweden, that plays in the Swedish second tier, Superettan. The club was formed in 1996 as a merger of several Östersund clubs. The club is affiliated with the Jämtland-Härjedalens Fotbollförbund and play their home games at Jämtkraft Arena.",
+    "source": "https://en.wikipedia.org/wiki/%C3%96stersunds_FK",
     "status": "draft"
   },
   "Q309059": {
@@ -1264,6 +1664,11 @@
     "source": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
     "status": "draft"
   },
+  "Q318969": {
+    "text": "Hrvatski nogometni klub Rijeka, commonly referred to as HNK Rijeka, is a Croatian professional football club based in Rijeka. The club competes in the Croatian Football League (HNL), the top tier of the Croatian football league system. Rijeka have played their home matches at Stadion Rujevica since August 2015.",
+    "source": "https://en.wikipedia.org/wiki/HNK_Rijeka",
+    "status": "draft"
+  },
   "Q319136": {
     "text": "St Mirren Football Club is a Scottish professional football club based in Paisley, Renfrewshire, that competes in the Scottish Premiership after winning the 2017–18 Scottish Championship. Founded in 1877, the team has two nicknames: The Buddies and The Saints.",
     "source": "https://en.wikipedia.org/wiki/St_Mirren_F.C.",
@@ -1274,9 +1679,29 @@
     "source": "https://en.wikipedia.org/wiki/FC_Sion",
     "status": "draft"
   },
+  "Q326811": {
+    "text": "Videoton Football Club Fehérvár, is a Hungarian professional football club based in Székesfehérvár, which plays in the Nemzeti Bajnokság II from 2025–26, the second level of the Hungarian league system after relegation from Nemzeti Bajnokság I in 2024–25.",
+    "source": "https://en.wikipedia.org/wiki/Videoton_FC_Feh%C3%A9rv%C3%A1r",
+    "status": "draft"
+  },
+  "Q328332": {
+    "text": "FK Mladá Boleslav is a Czech professional football club based in the city of Mladá Boleslav. Since 2004, the club has been participating in the Czech First League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Mlad%C3%A1_Boleslav",
+    "status": "draft"
+  },
+  "Q328655": {
+    "text": "Wrocławski Klub Sportowy Śląsk Wrocław, commonly referred to as Śląsk Wrocław, is a Polish professional football club based in Wrocław that plays in the Ekstraklasa, the top level of the Polish football league system.",
+    "source": "https://en.wikipedia.org/wiki/%C5%9Al%C4%85sk_Wroc%C5%82aw",
+    "status": "draft"
+  },
   "Q328658": {
     "text": "Le Havre Athletic Club is a French professional association football club based in Le Havre, Normandy. The football club was founded in 1894 as a section of the sports club of the same name, founded in 1884. Le Havre plays in Ligue 1, the first tier of French football, after securing promotion from Ligue 2 as winners of the 2022–23 season, and plays its home matches at the Stade Océane.",
     "source": "https://en.wikipedia.org/wiki/Le_Havre_AC",
+    "status": "draft"
+  },
+  "Q329471": {
+    "text": "FC Baník Ostrava is a professional football club from Ostrava in the Czech Republic. The club competes in the Czech First League, the top tier of Czech football.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava",
     "status": "draft"
   },
   "Q332642": {
@@ -1304,6 +1729,11 @@
     "source": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor",
     "status": "draft"
   },
+  "Q345142": {
+    "text": "ŁKS Łódź is a Polish sports club based in Łódź. They are best known for their football club but are represented in many sports such as basketball, volleyball, boxing, and in the past ice hockey, athletics, tennis, table tennis, swimming, cycling, fencing, chess, etc. The club is based at Władysław Król Municipal Stadium, at Aleja Unii Lubelskiej 2 in the West of Łódź.",
+    "source": "https://en.wikipedia.org/wiki/%C5%81KS_%C5%81%C3%B3d%C5%BA",
+    "status": "draft"
+  },
   "Q352251": {
     "text": "Adana Demirspor Kulübü is a multi-sports club based in Adana, Turkey. The football department is the most popular department, which was relegated to TFF 1. Lig on 16 March 2025 after 4 seasons at the Super Lig.",
     "source": "https://en.wikipedia.org/wiki/Adana_Demirspor",
@@ -1322,6 +1752,11 @@
   "Q368675": {
     "text": "FC Locarno is a Swiss football club based in Locarno in the Italian-speaking canton of Ticino in southern Switzerland. The club currently play in 2. Liga Interregional, the fifth tier of Swiss football.",
     "source": "https://en.wikipedia.org/wiki/FC_Locarno",
+    "status": "draft"
+  },
+  "Q368909": {
+    "text": "Nogometni klub Slaven Belupo, often referred to as Slaven Belupo, is a Croatian professional football club based in the city of Koprivnica in the north of Croatia. They play their home matches at Gradski Stadion in Koprivnica. They compete in the Croatian Football League (HNL), the top tier of Croatian football.",
+    "source": "https://en.wikipedia.org/wiki/NK_Slaven_Belupo",
     "status": "draft"
   },
   "Q369349": {
@@ -1349,9 +1784,19 @@
     "source": "https://en.wikipedia.org/wiki/Sivasspor",
     "status": "draft"
   },
+  "Q372665": {
+    "text": "Veszprém FC is a Hungarian association football club, founded in 1912 as Vegyész TC. The club played in the Hungarian First League between 1988 and 1993. In 2005, the club disbanded but was re-organized in 2006.",
+    "source": "https://en.wikipedia.org/wiki/FC_Veszpr%C3%A9m",
+    "status": "draft"
+  },
   "Q376635": {
     "text": "Sportvereniging Zulte Waregem, commonly known as Zulte Waregem or by their nickname Essevee, is a Belgian professional football club based in Waregem, West Flanders. The club set to play in Belgian Pro League from 2025–26 after promotion from Challenger Pro League in 2024–25. Their highest finish at the highest level was second place in 2012–13.",
     "source": "https://en.wikipedia.org/wiki/SV_Zulte_Waregem",
+    "status": "draft"
+  },
+  "Q385518": {
+    "text": "SK Sigma Olomouc is a Czech professional football club based in the city of Olomouc. The club currently competes in the Czech First League, the first tier of Czech football. The club played in the first tier league for 30 years between 1984 and 2014, winning the Czech Cup and Czech Supercup in 2012.",
+    "source": "https://en.wikipedia.org/wiki/SK_Sigma_Olomouc",
     "status": "draft"
   },
   "Q388487": {
@@ -1359,9 +1804,24 @@
     "source": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor",
     "status": "draft"
   },
+  "Q388746": {
+    "text": "Fodbold Club Fredericia af 1991, simply known as FC Fredericia, is a professional association football club based in the town of Fredericia, Denmark, that competes in the Danish 1st Division, the 2nd tier of the Danish football league system. Founded in 1991 as a merger between Fredericia fF and Fredericia KFUM, it is affiliated to DBU Jutland.",
+    "source": "https://en.wikipedia.org/wiki/FC_Fredericia",
+    "status": "draft"
+  },
+  "Q389879": {
+    "text": "Esbjerg forenede Boldklubber is a Danish professional football club based in Esbjerg, West Jylland, that plays in the Danish 1st Division, the second tier of the Danish football league system. Founded in 1924 as a merger between Esbjerg Boldklub af 1898 and Esbjerg Amatørklub af 1911, the first team play their home games at Blue Water Arena which has been the club's home ground since its opening in 1955.",
+    "source": "https://en.wikipedia.org/wiki/Esbjerg_fB",
+    "status": "draft"
+  },
   "Q390256": {
     "text": "Dunfermline Athletic Football Club is a Scottish professional football club based in the city of Dunfermline, Fife. Founded in 1885, the club currently compete in the Scottish Championship after winning the 2022–23 Scottish League One title. Nicknamed The Pars, Dunfermline play at East End Park.",
     "source": "https://en.wikipedia.org/wiki/Dunfermline_Athletic_F.C.",
+    "status": "draft"
+  },
+  "Q391789": {
+    "text": "Göteborgs Atlet- och Idrottssällskap, commonly referred to as GAIS or Gais, is a Swedish football club based in Gothenburg. The club is affiliated to the Göteborgs Fotbollförbund and play their home games at Gamla Ullevi. Fans also refers to the club as Grönsvart (green-black), or Makrillarna because of the traditional green and black striped shirt and white shorts.",
+    "source": "https://en.wikipedia.org/wiki/GAIS",
     "status": "draft"
   },
   "Q392310": {
@@ -1369,9 +1829,24 @@
     "source": "https://en.wikipedia.org/wiki/LASK",
     "status": "draft"
   },
+  "Q404384": {
+    "text": "FC Silon Táborsko is a football club located in Tábor, Czech Republic. It plays in the Czech National Football League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko",
+    "status": "draft"
+  },
   "Q417685": {
     "text": "Akhisarspor Kulübü, commonly known as Akhisarspor, is a Turkish professional football club located in the city of Akhisar. Formed in 1970, Akhisarspor are nicknamed Akigo. The club has a fierce rivalry with Turgutluspor and Manisaspor.",
     "source": "https://en.wikipedia.org/wiki/Akhisarspor",
+    "status": "draft"
+  },
+  "Q421665": {
+    "text": "Fudbalski klub Radnički 1923, historically known as Radnički Kragujevac, is a professional football club from Kragujevac, Serbia making up the major part of the Radnički Kragujevac Sports Society. It competes in the Serbian SuperLiga, top tier of national football league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_1923",
+    "status": "draft"
+  },
+  "Q425599": {
+    "text": "FK Jablonec is a Czech professional football club based in Jablonec nad Nisou. The club has played in the top league of Czech football, Czech First League, since 1994.",
+    "source": "https://en.wikipedia.org/wiki/FK_Jablonec",
     "status": "draft"
   },
   "Q427491": {
@@ -1387,6 +1862,16 @@
   "Q430993": {
     "text": "Mantova 1911, commonly referred to as Mantova, is an Italian professional football club based in Mantua, Lombardy. Mantova had played consecutively in Serie A from the 1961–62 season to 1964–65, and from the 1966–67 season to 1967–68 as Associazione Calcio Mantova, when the team was called \"Little Brazil\", as its playing style recalled Brazilian football.",
     "source": "https://en.wikipedia.org/wiki/Mantova_1911",
+    "status": "draft"
+  },
+  "Q431801": {
+    "text": "NK Lučko, commonly referred to as Lučko, is a Croatian football club named after its neighborhood of Lučko, a settlement on the southwest outskirts of capital Zagreb. Originally established in 1931 as \"Velebit,\" it is one of the oldest clubs in the area. After a series of name changes in the following decades, the club finally settled on NK Lučko in February 1962.",
+    "source": "https://en.wikipedia.org/wiki/NK_Lu%C4%8Dko",
+    "status": "draft"
+  },
+  "Q433230": {
+    "text": "Panthrakikos Football Club is a Greek football club based in Komotini, Thrace in North Eastern Greece founded in 1964. The club competed in Super League Greece during the 2008–09 season for the first time.",
+    "source": "https://en.wikipedia.org/wiki/Panthrakikos_F.C.",
     "status": "draft"
   },
   "Q434929": {
@@ -1414,9 +1899,24 @@
     "source": "https://en.wikipedia.org/wiki/C%C3%A1diz_CF",
     "status": "draft"
   },
+  "Q460494": {
+    "text": "Panionios G.S.S. Football Club, the Pan-Ionian Gymnastics Club of Smyrna, more commonly known as Panionios F.C. or simply Panionios, are a Greek football club based in Nea Smyrni, a suburban town in the Athens agglomeration, Greece. Part of Panionios G.S.S., Panionios F.C. is the oldest football club in Greece.",
+    "source": "https://en.wikipedia.org/wiki/Panionios_F.C.",
+    "status": "draft"
+  },
+  "Q460724": {
+    "text": "Hammarby Fotboll, more commonly known as Hammarby IF or simply Hammarby, is a Swedish professional football club from Stockholm founded in 1915. The club plays at 3 Arena in Johanneshov but was founded in the neighbouring Södermalm district of Stockholm City Centre, an area that is considered the club's heartland.",
+    "source": "https://en.wikipedia.org/wiki/Hammarby_Fotboll",
+    "status": "draft"
+  },
   "Q464775": {
     "text": "Fussballclub Thun 1898 is a Swiss football team from the Bernese Oberland town of Thun. The club plays in the Swiss Super League, the top tier of the Swiss football league system. The club plays at the Stockhorn Arena which accommodates a total of 10,000 supporters, both seated and standing.",
     "source": "https://en.wikipedia.org/wiki/FC_Thun",
+    "status": "draft"
+  },
+  "Q478167": {
+    "text": "Fotballklubben Bodø/Glimt, also referred to as Bodø/Glimt or its former name Glimt (\"Gleam\"), is a Norwegian professional football club from the city of Bodø in Bodø Municipality, Nordland county, Norway. The club currently plays in Eliteserien, the Norwegian top division. The club was founded on 19 September 1916.",
+    "source": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8%2FGlimt",
     "status": "draft"
   },
   "Q479351": {
@@ -1429,9 +1929,19 @@
     "source": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
     "status": "draft"
   },
+  "Q493015": {
+    "text": "NK HAŠK 1903 Zagreb is a Croatian football club from Zagreb that currently competes in the Third Football League – Center. The club plays its home matches at the Donje Svetice ground in the Peščenica district of Zagreb. It was founded on November 23, 1990, as a continuation of the football section of the former HAŠK, which was abolished by decree of the communist authorities on June 4, 1945.",
+    "source": "https://en.wikipedia.org/wiki/NK_HA%C5%A0K",
+    "status": "draft"
+  },
   "Q495299": {
     "text": "Galatasaray Spor Kulübü, usually referred to as Galatasaray, is a Turkish professional football club based in Istanbul. It is the association football branch of the larger Galatasaray Sports Club of the same name, itself a part of the Galatasaray Community Cooperation Committee which includes Galatasaray High School, where the football club was founded in 1905, consisting entirely of students.",
     "source": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
+    "status": "draft"
+  },
+  "Q496190": {
+    "text": "Kristiansund BK is a Norwegian professional football club located in Kristiansund that currently plays in Eliteserien. The team plays its home matches in the 4,444-capacity Kristiansund Stadion.",
+    "source": "https://en.wikipedia.org/wiki/Kristiansund_BK",
     "status": "draft"
   },
   "Q498473": {
@@ -1464,6 +1974,11 @@
     "source": "https://en.wikipedia.org/wiki/SK_Beveren",
     "status": "draft"
   },
+  "Q512476": {
+    "text": "FK Viktoria Žižkov is a Czech professional football club from the district of Žižkov in Prague. The club competes in the Czech National Football League, the second tier of football in the country. It won the Czechoslovak First League title in the 1927–28 season, and has also won two editions of the Czech Cup.",
+    "source": "https://en.wikipedia.org/wiki/FK_Viktoria_%C5%BDi%C5%BEkov",
+    "status": "draft"
+  },
   "Q513237": {
     "text": "Kocaelispor is a professional football club based in İzmit, Kocaeli Province, Turkey. Founded in 1966, the club competes in the Süper Lig, the highest tier of the Turkish football league system, and plays home matches at the 34,829-seat Kocaeli Stadium. The traditional colours of the team are green and black.",
     "source": "https://en.wikipedia.org/wiki/Kocaelispor",
@@ -1479,9 +1994,24 @@
     "source": "https://en.wikipedia.org/wiki/Red_Star_FC",
     "status": "draft"
   },
+  "Q528289": {
+    "text": "NK Mosor, also known as HBDNK \"Mosor – Sveti Jure\", was a Croatian football club from Žrnovnica, settlement which is part of the city of Split on the Croatian coast.",
+    "source": "https://en.wikipedia.org/wiki/NK_Mosor",
+    "status": "draft"
+  },
   "Q536651": {
     "text": "Royal Association Athlétique Louviéroise La Louvière is a Belgian professional football club based in La Louvière, in the province of Hainaut. The club was founded in 2009. It competes in the Belgian Pro League, the top tier of Belgian football, after being promoted from the Challenger Pro League in 2025.",
     "source": "https://en.wikipedia.org/wiki/RAAL_La_Louvi%C3%A8re",
+    "status": "draft"
+  },
+  "Q538793": {
+    "text": "IFK Värnamo is a Swedish professional football club located in Värnamo. The club plays in the Superettan, the second tier of Swedish football. The most famous player from the club is Jonas Thern, who was captain of the Sweden national team when they finished third in the 1994 FIFA World Cup.",
+    "source": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo",
+    "status": "draft"
+  },
+  "Q541289": {
+    "text": "HB Køge is a professional Danish football club based primarily in the town of Køge and secondly in the town of Herfølge, both in the Køge Municipality, part of 'Region of Zealand', in the eastern part of Zealand, south of Copenhagen. It was created through the merger of Herfølge and Køge Boldklub in 2009.",
+    "source": "https://en.wikipedia.org/wiki/HB_K%C3%B8ge",
     "status": "draft"
   },
   "Q543467": {
@@ -1489,9 +2019,29 @@
     "source": "https://en.wikipedia.org/wiki/G.D._Chaves",
     "status": "draft"
   },
+  "Q549650": {
+    "text": "Boldklubben Fremad Amager is a Danish professional football club based in the district of Amager Vest, Copenhagen. The club's senior men's team play in 2nd Division, the third tier in the Danish football league system. The club have primarily played their home games at Sundby Idrætspark since the stadium's inauguration in 1922.",
+    "source": "https://en.wikipedia.org/wiki/Fremad_Amager",
+    "status": "draft"
+  },
+  "Q568519": {
+    "text": "Baktalórántháza VSE is a Hungarian football club located in Baktalórántháza, Hungary. The team's colors are white and blue. It currently plays in Megyei Bajnokság II – Szabolcs-Szatmár-Bereg, the fifth tier of Hungarian football.",
+    "source": "https://en.wikipedia.org/wiki/Baktal%C3%B3r%C3%A1nth%C3%A1za_VSE",
+    "status": "draft"
+  },
+  "Q571158": {
+    "text": "Sogndal Fotball is the football department of Norwegian sports club Sogndal IL from Sogndal Municipality in Vestland. The club was founded in 1926. The men's team currently plays in second tier 1. divisjon of the Norwegian football league system.",
+    "source": "https://en.wikipedia.org/wiki/Sogndal_Fotball",
+    "status": "draft"
+  },
   "Q576285": {
     "text": "Albacete Balompié is a Spanish football team based in Albacete, in the autonomous community of Castile–La Mancha. Founded on 1 June 1939, it currently plays in Segunda División, the second tier of Spanish football, holding home matches at Estadio Carlos Belmonte, with a capacity of 17,524.",
     "source": "https://en.wikipedia.org/wiki/Albacete_Balompi%C3%A9",
+    "status": "draft"
+  },
+  "Q581423": {
+    "text": "FC Hradec Králové is a Czech professional football club based in the city of Hradec Králové. The club, which was founded in 1905, won the Czechoslovak First League in the 1959–60 season. Since 2021, the club has played in the Czech First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Hradec_Kr%C3%A1lov%C3%A9",
     "status": "draft"
   },
   "Q582342": {
@@ -1504,9 +2054,24 @@
     "source": "https://en.wikipedia.org/wiki/FC_Wohlen",
     "status": "draft"
   },
+  "Q591746": {
+    "text": "Fudbalski klub Inđija is a football club based in the city of Inđija, Serbia. They compete in the Serbian Municipal League, the seventh tier of the national league system. FK Inđija officially announced its withdrawal from the Serbian League Vojvodina on 25 July 2026 after large amount of debts they were unable to pay.",
+    "source": "https://en.wikipedia.org/wiki/FK_In%C4%91ija",
+    "status": "draft"
+  },
+  "Q592241": {
+    "text": "Iraklis F.C., also known as Iraklis VENETIS BAKERIES after its title sponsor, is a professional football club based in the city of Thessaloniki, Macedonia, Greece. Created in 1908, it serves as the professional men's football department of the multisports club of G.S. Iraklis Thessalonikis. They play their home matches at Kaftanzoglio Stadium.",
+    "source": "https://en.wikipedia.org/wiki/Iraklis_F.C._(Thessaloniki)",
+    "status": "draft"
+  },
   "Q600232": {
     "text": "Club Deportivo Eldense, S.A.D. is a Spanish football team based in Elda, in the autonomous community of Valencia. Founded in 1921, the club plays in the Segunda División, and holds home matches at Estadio Municipal Nuevo Pepico Amat, which has a capacity of 4,036 spectators.",
     "source": "https://en.wikipedia.org/wiki/CD_Eldense",
+    "status": "draft"
+  },
+  "Q603133": {
+    "text": "Szombathelyi Haladás, is a Hungarian football club based in Szombathely. Haladás is the Hungarian word for progress. The club, which was founded in 1919, plays its home games at the Haladás Sportkomplexum which has a capacity of 8,903.",
+    "source": "https://en.wikipedia.org/wiki/Szombathelyi_Halad%C3%A1s",
     "status": "draft"
   },
   "Q608122": {
@@ -1514,9 +2079,34 @@
     "source": "https://en.wikipedia.org/wiki/Kayserispor",
     "status": "draft"
   },
+  "Q608448": {
+    "text": "FC Ajka is a Hungarian football club located in Ajka, Hungary. It currently plays in Hungarian National Championship II. The team's colors are white and green.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ajka",
+    "status": "draft"
+  },
+  "Q608642": {
+    "text": "Ząbkovia Ząbki is a Polish professional football club, based in Ząbki, Masovian Voivodeship. The club's colors are red, white, and blue. Its biggest successes were achieved when the club was called Dolcan Ząbki, between 1994 and 2018.",
+    "source": "https://en.wikipedia.org/wiki/Z%C4%85bkovia_Z%C4%85bki",
+    "status": "draft"
+  },
+  "Q610881": {
+    "text": "Kozármisleny SE is a football club based in Kozármisleny, Hungary. The team is currently playing in the league NB II, which is the second tier of Hungarian football.",
+    "source": "https://en.wikipedia.org/wiki/Koz%C3%A1rmisleny_SE",
+    "status": "draft"
+  },
   "Q611653": {
     "text": "Fútbol Club Cartagena, S.A.D. is a Spanish football team based in Cartagena, in the Region of Murcia, Spain. Founded in 1995 it currently plays in Primera Federación – Group 2, holding home games at Estadio Cartagonova, with a capacity of 15,105 spectators.",
     "source": "https://en.wikipedia.org/wiki/FC_Cartagena",
+    "status": "draft"
+  },
+  "Q616528": {
+    "text": "FC Olimpik Donetsk is a Ukrainian inactive football team based in Donetsk, Ukraine. The club currently doesn't play in any Ukrainian competition due to the 2022 Russian invasion of Ukraine. Since its promotion to Ukrainian Premier League in 2014, it played its games in Kyiv due to the war in Donbas.",
+    "source": "https://en.wikipedia.org/wiki/FC_Olimpik_Donetsk",
+    "status": "draft"
+  },
+  "Q618520": {
+    "text": "Football Club Midtjylland is a Danish professional football club based in Herning and Ikast in western Jutland. The club is the result of a merger between Ikast FS and Herning Fremad. Midtjylland competes in the Danish Superliga, which they have won four times, most recently in 2024.",
+    "source": "https://en.wikipedia.org/wiki/FC_Midtjylland",
     "status": "draft"
   },
   "Q618620": {
@@ -1524,9 +2114,19 @@
     "source": "https://en.wikipedia.org/wiki/KV_Kortrijk",
     "status": "draft"
   },
+  "Q619215": {
+    "text": "Apollon Kalamarias F.C. is a Greek football club based in Kalamaria, a suburb of Thessaloniki. It was founded in 1926. The club is also known as Apollon Pontou.",
+    "source": "https://en.wikipedia.org/wiki/Apollon_Kalamarias_F.C.",
+    "status": "draft"
+  },
   "Q621120": {
     "text": "Portimonense Sporting Clube is a Portuguese sports club based in Portimão. Founded on 14 August 1914, it is most notable for its professional football team, which currently plays in the Liga Portugal 2, the second division of Portuguese football. It also fields various youth teams and a veterans team in football, as well as teams in basketball.",
     "source": "https://en.wikipedia.org/wiki/Portimonense_S.C.",
+    "status": "draft"
+  },
+  "Q622430": {
+    "text": "Djurgårdens IF Fotbollsförening – commonly known as Djurgårdens IF, Djurgården Fotboll, Djurgården, and Djurgår'n, Dif or DIF – is a Swedish professional men's association football department of its parent association Djurgårdens IF. Founded 1891 on the island of Djurgården, the club's home ground is 3Arena, situated in the Johanneshov district of Stockholm.",
+    "source": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll",
     "status": "draft"
   },
   "Q622432": {
@@ -1559,6 +2159,11 @@
     "source": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia",
     "status": "draft"
   },
+  "Q635654": {
+    "text": "Lyngby Boldklub is a professional football club founded in 1921, based in Lyngby, a suburb of Copenhagen, Denmark. The club plays its home games at Lyngby Stadion. The club will compete in the Danish Superliga from 2026–27 after promotion from Danish 1st Division in 2025–26.",
+    "source": "https://en.wikipedia.org/wiki/Lyngby_Boldklub",
+    "status": "draft"
+  },
   "Q636315": {
     "text": "Helmond Sport is a Dutch professional football club based in Helmond, North Brabant.",
     "source": "https://en.wikipedia.org/wiki/Helmond_Sport",
@@ -1569,14 +2174,39 @@
     "source": "https://en.wikipedia.org/wiki/SV_Sandhausen",
     "status": "draft"
   },
+  "Q639723": {
+    "text": "Bollklubben Häcken, more commonly known as BK Häcken or simply Häcken, is a Swedish professional football club based in Gothenburg (Hisingen). It currently plays in the Allsvenskan, the top tier of Swedish football. Formed on 2 August 1940, Häcken has played 23 seasons in Allsvenskan, debuting in the league in 1983.",
+    "source": "https://en.wikipedia.org/wiki/BK_H%C3%A4cken",
+    "status": "draft"
+  },
   "Q641373": {
     "text": "Gençlerbirliği Spor Kulübü, commonly known as Gençlerbirliği, is a multi-sport organisation from Ankara best known for its men's professional football team, which currently competes in the Süper Lig and hosts matches at the 20,560-seat Eryaman Stadium on the city's western edge.",
     "source": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K.",
     "status": "draft"
   },
+  "Q642801": {
+    "text": "BKV Előre SC is a Hungarian football club located in Budapest, Hungary. It currently plays in the Nemzeti Bajnokság III – Southeast, the third tier of Hungarian football. The team's colors are yellow and blue.",
+    "source": "https://en.wikipedia.org/wiki/BKV_El%C5%91re_SC",
+    "status": "draft"
+  },
   "Q643107": {
     "text": "Denizlispor is a Turkish sports club based in Denizli. It is known by its distinct green and black colors. The club's branches include football, volleyball, basketball, table tennis, and gymnastics.",
     "source": "https://en.wikipedia.org/wiki/Denizlispor",
+    "status": "draft"
+  },
+  "Q644157": {
+    "text": "Kalmar Fotbollförening, more commonly known as Kalmar FF or simply Kalmar, is a Swedish professional football club based in Kalmar, Sweden. The club is affiliated to Smålands Fotbollförbund and play their home games at Guldfågeln Arena. Formed on 15 June 1910, the club have won one national championship title (2008) and three national cup titles.",
+    "source": "https://en.wikipedia.org/wiki/Kalmar_FF",
+    "status": "draft"
+  },
+  "Q645229": {
+    "text": "Sandnes Ulf is a Norwegian association football club from Sandnes, Rogaland, currently playing in the 1. divisjon, the second highest division in the Norwegian football league system. The club play their home matches at Øster Hus Arena. The club was founded on 1 June 1911 as SK Ulf, and today has over 80 registered teams, making it the largest football club in Rogaland.",
+    "source": "https://en.wikipedia.org/wiki/Sandnes_Ulf",
+    "status": "draft"
+  },
+  "Q647948": {
+    "text": "Gyirmót FC Győr is a Hungarian football club based in Gyirmót, a suburb of Győr. The team currently plays in the second division of the Hungarian championship.",
+    "source": "https://en.wikipedia.org/wiki/Gyirm%C3%B3t_FC_Gy%C5%91r",
     "status": "draft"
   },
   "Q650365": {
@@ -1602,6 +2232,16 @@
   "Q659780": {
     "text": "Grazer Athletiksport-Klub, better known simply as Grazer AK, is an Austrian sports club based in the city of Graz in the federal state of Styria. The football section was once among Austria's most popular clubs, enjoying success in the decade between 1995 and 2005. The other sections are basketball, diving and tennis, which however all act as separate legal entities.",
     "source": "https://en.wikipedia.org/wiki/Grazer_AK",
+    "status": "draft"
+  },
+  "Q666969": {
+    "text": "Morski Związkowy Klub Sportowy Arka Gdynia is a professional football club based in Gdynia, Poland The club was founded as Klub Sportowy Gdynia in 1929. They will play in the I liga in the 2026–27 season following relegation in the previous season.",
+    "source": "https://en.wikipedia.org/wiki/Arka_Gdynia",
+    "status": "draft"
+  },
+  "Q668112": {
+    "text": "Gliwicki Klub Sportowy Piast, commonly referred to as Piast Gliwice, is a Polish professional football club based in Gliwice, Silesian Voivodeship. Founded in 1945, the club competes in the Ekstraklasa, the top tier of the Polish football league system.",
+    "source": "https://en.wikipedia.org/wiki/Piast_Gliwice",
     "status": "draft"
   },
   "Q668573": {
@@ -1647,6 +2287,11 @@
   "Q686826": {
     "text": "First Vienna Football Club 1894 is an Austrian football club based in the Döbling district of Vienna. Established on 22 August 1894, it is the country's oldest team and has played a notable role in the history of the game there. It is familiarly known to Austrians by the English name Vienna.",
     "source": "https://en.wikipedia.org/wiki/First_Vienna_FC",
+    "status": "draft"
+  },
+  "Q687178": {
+    "text": "FK Metalac Gornji Milanovac is a professional football club based in Gornji Milanovac, Serbia. They compete in the Serbian League West, the third tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Metalac_Gornji_Milanovac",
     "status": "draft"
   },
   "Q689889": {
@@ -1714,14 +2359,99 @@
     "source": "https://en.wikipedia.org/wiki/RB_Leipzig",
     "status": "draft"
   },
+  "Q722972": {
+    "text": "Barcsi SC was a Hungarian football club located in Barcs, Hungary. It played in Hungarian National Championship II before 2010. The team's colors were white and red.",
+    "source": "https://en.wikipedia.org/wiki/Barcsi_SC",
+    "status": "draft"
+  },
+  "Q723276": {
+    "text": "DAC Nádorváros 1912 is a Hungarian football club based in Győr. The club, known as Integrál-DAC at the time, was declared bankrupt in 2009, but was re-founded as DAC Nádorváros.",
+    "source": "https://en.wikipedia.org/wiki/DAC_N%C3%A1dorv%C3%A1ros",
+    "status": "draft"
+  },
+  "Q723489": {
+    "text": "Silkeborg Idrætsforening, is a professional football club based in Silkeborg, Denmark. The club was founded in 1917, reached the highest level of Danish football in 1987, and afterwards became one of the most successful football clubs in Denmark. They won the 1993–94 Danish Superliga, finished third in 1994–95, 2000–01, and 2021–22, second in 1997–98, and won the Danish Cup in 2001 and 2024.",
+    "source": "https://en.wikipedia.org/wiki/Silkeborg_IF",
+    "status": "draft"
+  },
+  "Q723644": {
+    "text": "Nogometni klub Inter Zaprešić was a Croatian professional football club based in Zaprešić, a town northwest of the capital Zagreb.",
+    "source": "https://en.wikipedia.org/wiki/NK_Inter_Zapre%C5%A1i%C4%87",
+    "status": "draft"
+  },
+  "Q724832": {
+    "text": "FC Zbrojovka Brno is a professional football club based in the city of Brno, South Moravian Region, Czech Republic and named after Zbrojovka Brno, a firearms manufacturer. Founded in 1913 as SK Židenice, the club later became known as Zbrojovka Brno. Brno won the Czechoslovak First League in the 1977–78 season and finished as runners-up in 1979–80.",
+    "source": "https://en.wikipedia.org/wiki/FC_Zbrojovka_Brno",
+    "status": "draft"
+  },
+  "Q725332": {
+    "text": "Gymnastik- och Idrottsföreningen Sundsvall, more commonly known as GIF Sundsvall, Giffarna or simply Sundsvall, is a Swedish professional football club based in Sundsvall. The club is affiliated with Medelpads Fotbollförbund and plays its home games at NP3 Arena with a capacity of roughly 8,000 spectators.",
+    "source": "https://en.wikipedia.org/wiki/GIF_Sundsvall",
+    "status": "draft"
+  },
+  "Q725916": {
+    "text": "Nogometni klub Istra 1961, commonly referred to as Istra 1961, is a Croatian professional football club based in Pula. They compete in the Croatian Football League (HNL), the top tier of Croatian football.",
+    "source": "https://en.wikipedia.org/wiki/NK_Istra_1961",
+    "status": "draft"
+  },
+  "Q727135": {
+    "text": "Kecskeméti Testedző Egyesület, commonly known as Kecskeméti TE or simply Kecskemét, is a sports club based in Kecskemét, Hungary. It is most famous for its football section which competes in the Nemzeti Bajnokság II from 2025–26, the second tier of Hungarian football after relegation from Nemzeti Bajnokság I in 2024–25.",
+    "source": "https://en.wikipedia.org/wiki/Kecskem%C3%A9ti_TE",
+    "status": "draft"
+  },
+  "Q727918": {
+    "text": "Motor Lublin is a Polish professional football club based in Lublin, in the Lublin Voivodeship. Founded in December 1950, the club is historically associated with the Fabryka Samochodów Ciężarowych automotive plant and takes its nickname, Żółto-biało-niebiescy, from its official colours.",
+    "source": "https://en.wikipedia.org/wiki/Motor_Lublin",
+    "status": "draft"
+  },
+  "Q729560": {
+    "text": "Randers FC is a professional football club based in Randers, East Jutland, that plays in the Danish Superliga, the top flight of the Danish football league system. Founded on 1 January 2003, the club builds upon the license of Randers Freja, a former three-time Danish Cup winning team. As of 2022 the club has won the Danish Cup twice in its history.",
+    "source": "https://en.wikipedia.org/wiki/Randers_FC",
+    "status": "draft"
+  },
+  "Q730219": {
+    "text": "Korona Kielce is a Polish professional football club based in Kielce, competing in Ekstraklasa in the 2025–26 season. From 2002 to 2008, the club belonged to a Polish holding company Kolporter Holding and achieved its greatest success – winning promotion to the top tier in 2005. Since then, Korona has spent 17 seasons in the Polish football top level.",
+    "source": "https://en.wikipedia.org/wiki/Korona_Kielce",
+    "status": "draft"
+  },
   "Q732002": {
     "text": "Royal Antwerp Football Club, commonly referred to as Royal Antwerp or simply Antwerp, is a Belgian professional football club based in the city of Antwerp. The team competes in the Belgian Pro League, the top tier of the Belgian football league system. Founded in 1880, it is the oldest football club in Belgium.",
     "source": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC",
     "status": "draft"
   },
+  "Q734785": {
+    "text": "Lechia Gdańsk is a Polish football club based in Gdańsk. As of the 2026–27 season, they compete in the I liga.",
+    "source": "https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk",
+    "status": "draft"
+  },
+  "Q737936": {
+    "text": "Vejle Boldklub is a Danish professional football club based in Vejle, Jutland. Founded in 1891, the club has won the Danish championship five times and the Danish Cup six times, making it one of the historically most successful clubs in Danish football.",
+    "source": "https://en.wikipedia.org/wiki/Vejle_Boldklub",
+    "status": "draft"
+  },
+  "Q737937": {
+    "text": "Lyn 1896 Fotballklubb is a Norwegian football club and a department of the sports club Ski- og Fotballklubben Lyn based in Oslo, whose members also participate in Nordic skiing and orienteering. Until 2010, SFK Lyn had two football departments, one professional section and one amateur section.",
+    "source": "https://en.wikipedia.org/wiki/Lyn_Fotball",
+    "status": "draft"
+  },
+  "Q737947": {
+    "text": "Idrettsklubben Start is a Norwegian football club from the city of Kristiansand that currently plays in the Eliteserien, the top tier of the Norwegian football league system. The club was founded on 19 September 1905. The club's current head coach is Azar Karadas.",
+    "source": "https://en.wikipedia.org/wiki/IK_Start",
+    "status": "draft"
+  },
   "Q738060": {
     "text": "Football Club Volendam is a professional football club based in Volendam, Netherlands. They play in the Eerste Divisie, the second tier of Dutch football, following relegation from the Eredivisie in the 2025–26 season.",
     "source": "https://en.wikipedia.org/wiki/FC_Volendam",
+    "status": "draft"
+  },
+  "Q738876": {
+    "text": "Nogometni klub Osijek, commonly referred to as NK Osijek, is a Croatian professional football club from Osijek. They compete in the Croatian Football League (HNL), the top tier of Croatian football.",
+    "source": "https://en.wikipedia.org/wiki/NK_Osijek",
+    "status": "draft"
+  },
+  "Q738886": {
+    "text": "FK Teplice is a Czech professional football club based in the city of Teplice. The club competes in Czech First League, the top tier of Czech football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Teplice",
     "status": "draft"
   },
   "Q740637": {
@@ -1744,9 +2474,29 @@
     "source": "https://en.wikipedia.org/wiki/S.C._Farense",
     "status": "draft"
   },
+  "Q744758": {
+    "text": "Kazincbarcikai SC is a Hungarian professional football club based in Kazincbarcika. The team plays in the Nemzeti Bajnokság I, the top tier of Hungarian football, after promotion from the Nemzeti Bajnokság II in 2025. Playing in yellow and blue, the team's home is the Kolorcity Aréna.",
+    "source": "https://en.wikipedia.org/wiki/Kazincbarcikai_SC",
+    "status": "draft"
+  },
+  "Q749049": {
+    "text": "OFK Mladenovac is a football club based in Mladenovac, Belgrade, Serbia. They compete in the Belgrade Zone League, the fourth tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/OFK_Mladenovac",
+    "status": "draft"
+  },
+  "Q749138": {
+    "text": "Mjällby Allmänna Idrottsförening, also known simply as Mjällby AIF, Mjällby or Maif or MAIF, is a Swedish professional football club based in Hällevik, Mjällby parish, in Sölvesborg Municipality which currently plays in Sweden's highest football league, Allsvenskan. The club is affiliated to Blekinge Fotbollförbund and plays its home games at Strandvallen.",
+    "source": "https://en.wikipedia.org/wiki/Mj%C3%A4llby_AIF",
+    "status": "draft"
+  },
   "Q749589": {
     "text": "The Go Ahead Eagles are a Dutch professional football club from the city of Deventer in the province of Overijssel. They play in the Eredivisie, the top tier of Dutch football, having achieved promotion from the second tier Eerste Divisie in the 2020–21 season. The club's home stadium since 1920 is De Adelaarshorst.",
     "source": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles",
+    "status": "draft"
+  },
+  "Q750097": {
+    "text": "Fotballklubben Haugesund, usually referred to as FK Haugesund or FKH, is a professional football club from the city of Haugesund that plays in the second tier of the Norwegian football league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Haugesund",
     "status": "draft"
   },
   "Q753462": {
@@ -1754,9 +2504,39 @@
     "source": "https://en.wikipedia.org/wiki/FC_Universitatea_Cluj",
     "status": "draft"
   },
+  "Q754307": {
+    "text": "FC Zorya Luhansk is a Ukrainian football team based in the city of Luhansk. Due to the Russo-Ukrainian War, after 2014 the team was forced to play its games at Slavutych-Arena in Zaporizhzhia.",
+    "source": "https://en.wikipedia.org/wiki/FC_Zorya_Luhansk",
+    "status": "draft"
+  },
+  "Q754310": {
+    "text": "Fudbalski klub Borac 1926, commonly known as Borac Čačak, is a professional football club based in Čačak, Serbia. The home ground is Čačak Stadium, which has seating capacity of 8,000. As of 2024–25 season, the club competes in second tier Serbian First League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Borac_1926",
+    "status": "draft"
+  },
+  "Q754339": {
+    "text": "Idrottsföreningen Brommapojkarna, more commonly known as Brommapojkarna or simply BP, is a Swedish professional football club based in the borough of Bromma, in the western parts of Stockholm municipality. Brommapojkarna is the largest football club in Europe in terms of the number of active youth teams. The men's team plays in the Allsvenskan.",
+    "source": "https://en.wikipedia.org/wiki/IF_Brommapojkarna",
+    "status": "draft"
+  },
+  "Q757098": {
+    "text": "FK Rad is a football club based in Banjica, Belgrade, Serbia. They compete in the Belgrade Zone League, the fourth tier of the national league system. It plays it home games at the King Peter I Stadium.",
+    "source": "https://en.wikipedia.org/wiki/FK_Rad",
+    "status": "draft"
+  },
+  "Q757320": {
+    "text": "Asteras Tripolis Football Club, currently known as Asteras AKTOR for sponsorship reasons, commonly referred to as Asteras, is a Greek professional football club based in the city of Tripoli in Arcadia, Peloponnese, Greece.",
+    "source": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C.",
+    "status": "draft"
+  },
   "Q757422": {
     "text": "Atlético Clube de Portugal is a Portuguese sports club based in the parish of Alcântara, in the west side of Lisbon. The club was established on 18 September 1942 through the merger of two local clubs from Alcântara: Carcavelinhos Football Club and União Foot-Ball Lisboa. In addition to football, the club has sections for futsal and basketball.",
     "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Clube_de_Portugal",
+    "status": "draft"
+  },
+  "Q757754": {
+    "text": "Atromitos Football Club, also simply known as Atromitos lit. 'Fearless'), is a Greek professional football club based in Peristeri, a suburban city in the Athens agglomeration, that competes in the Super League. Founded in 1923, club's home ground is Peristeri Stadium.",
+    "source": "https://en.wikipedia.org/wiki/Atromitos_F.C.",
     "status": "draft"
   },
   "Q759482": {
@@ -1769,9 +2549,39 @@
     "source": "https://en.wikipedia.org/wiki/Stade_Lavallois",
     "status": "draft"
   },
+  "Q767400": {
+    "text": "Diósgyőri Vasgyárak Testgyakorló Köre, more commonly Diósgyőri VTK is a professional football club from Hungary. Located in the Diósgyőr district of Miskolc. Founded in 1910 by the local working class youth, the club plays in the Nemzeti Bajnokság I, the top flight of Hungarian football, and has spent most of its history in the top tier.",
+    "source": "https://en.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_VTK",
+    "status": "draft"
+  },
+  "Q769793": {
+    "text": "Miedź Legnica is a professional football club based in Legnica, Poland, that competes in the I liga, following relegation in 2023. Miedź was founded in 1971.",
+    "source": "https://en.wikipedia.org/wiki/Mied%C5%BA_Legnica",
+    "status": "draft"
+  },
   "Q770740": {
     "text": "Sociedad Deportiva Eibar, S.A.D. is a Spanish professional football club based in Eibar, Gipuzkoa, in the autonomous Basque Country.",
     "source": "https://en.wikipedia.org/wiki/SD_Eibar",
+    "status": "draft"
+  },
+  "Q785203": {
+    "text": "Tatabányai Sport Club is a Hungarian football club based in Tatabánya, Komárom-Esztergom, Hungary. The team set to play in Nemzeti Bajnokság II from 2024 to 2025, the second tier of Hungarian football after promotion from Nemzeti Bajnokság III in 2023–24. They play their home games at Stadion Gyula Grosics.",
+    "source": "https://en.wikipedia.org/wiki/Tatab%C3%A1nyai_SC",
+    "status": "draft"
+  },
+  "Q786146": {
+    "text": "Vecsési FC is a Hungarian football club located in Vecsés, Hungary. It currently plays in Megyei Bajnokság I – Pest. The team's colors are red and white.",
+    "source": "https://en.wikipedia.org/wiki/Vecs%C3%A9si_FC",
+    "status": "draft"
+  },
+  "Q795173": {
+    "text": "Boldklubben af 1893, commonly referred to as B.93, is a football club based in Østerbro, Copenhagen, Denmark. The team competes in the Danish 2nd Division, the third level of the Danish football league system. The club has won nine league titles and one Danish Cup.",
+    "source": "https://en.wikipedia.org/wiki/Boldklubben_af_1893",
+    "status": "draft"
+  },
+  "Q804515": {
+    "text": "Jammerbugt Fodbold Club was a Danish club based in Pandrup, Jammerbugt Municipality, that folded after the court in Hjørring issued a bankruptcy decree on 22 August 2022.",
+    "source": "https://en.wikipedia.org/wiki/Jammerbugt_FC",
     "status": "draft"
   },
   "Q805909": {
@@ -1784,9 +2594,44 @@
     "source": "https://en.wikipedia.org/wiki/Partick_Thistle_F.C.",
     "status": "draft"
   },
+  "Q824450": {
+    "text": "Levadiakos Football Club is a Greek professional football club that plays in the Super League Greece. Based in Livadeia, Greece, the club was promoted to the Alpha Ethniki, forerunner of the Super League, after ten seasons in minor divisions in the 2005–06 season, as runner-up of the Football League in 2004–05. It was then relegated to the Beta Ethniki again in 2006–07 and returned to the top tier in 2007–08.",
+    "source": "https://en.wikipedia.org/wiki/Levadiakos_F.C.",
+    "status": "draft"
+  },
   "Q824850": {
     "text": "Gaziantep Futbol Kulübü is a Turkish professional football club based in Gaziantep. Founded in 1988, the club plays in the Süper Lig, the highest tier of Turkish football.",
     "source": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
+    "status": "draft"
+  },
+  "Q828297": {
+    "text": "FK TSC, commonly known as TSC, is a Serbian professional football club based in Bačka Topola. Its initial founding date in 1913 as Topolyai Sport Club makes it currently the second-oldest football club in the Serbian First League, although the club dissolved in 2003 and was reformed under its current incarnation in 2005.",
+    "source": "https://en.wikipedia.org/wiki/FK_TSC",
+    "status": "draft"
+  },
+  "Q836279": {
+    "text": "TS Podbeskidzie Bielsko-Biała is a football club based in Bielsko-Biała, Poland. They currently compete in the I liga, after winning the II liga promotion play-offs in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/Podbeskidzie_Bielsko-Bia%C5%82a",
+    "status": "draft"
+  },
+  "Q836991": {
+    "text": "Pogoń Szczecin Spółka Akcyjna, commonly referred to as Pogoń Szczecin, is a Polish professional football club based in Szczecin, West Pomeranian Voivodeship, which plays in the Ekstraklasa.",
+    "source": "https://en.wikipedia.org/wiki/Pogo%C5%84_Szczecin",
+    "status": "draft"
+  },
+  "Q837205": {
+    "text": "Kongsvinger IL Toppfotball is a Norwegian professional football club from the town of Kongsvinger in Innlandet, founded in 1892. Its home ground is Gjemselund Stadion. It is part of sporting association, Kongsvinger IL.",
+    "source": "https://en.wikipedia.org/wiki/Kongsvinger_IL_Toppfotball",
+    "status": "draft"
+  },
+  "Q837558": {
+    "text": "FC Volyn Lutsk was a Ukrainian football club based in Lutsk.",
+    "source": "https://en.wikipedia.org/wiki/FC_Volyn_Lutsk",
+    "status": "draft"
+  },
+  "Q837956": {
+    "text": "Viborg Fodsports Forening, also referred to as Viborg FF or simply VFF, is a Danish association football club based in the Central Jutland city of Viborg. The club currently competes in the Danish Superliga, the highest league of the Danish football league system. Nicknamed De Grønne, the club was founded on 1 April 1896.",
+    "source": "https://en.wikipedia.org/wiki/Viborg_FF",
     "status": "draft"
   },
   "Q838134": {
@@ -1794,9 +2639,29 @@
     "source": "https://en.wikipedia.org/wiki/C.F._Estrela_da_Amadora",
     "status": "draft"
   },
+  "Q839313": {
+    "text": "SK Dynamo České Budějovice is a professional football club from České Budějovice, Czech Republic. The club played in the Czech First League for 24 seasons, but was relegated in 2025. From 2026, the club plays in the Bohemian Football League, after it failed to meet the conditions for obtaining a license for professional competition and was administratively relegated from the Czech National Football League.",
+    "source": "https://en.wikipedia.org/wiki/SK_Dynamo_%C4%8Cesk%C3%A9_Bud%C4%9Bjovice",
+    "status": "draft"
+  },
+  "Q841152": {
+    "text": "Hobro Idræts Klub, commonly referred to as Hobro IK or HIK, is a professional football club based in Hobro, Denmark. The club currently competes in the Danish 1st Division, the second tier of the Danish football league system, and plays its home matches at DS Arena, which has served as its primary ground since 1958. Hobro IK is affiliated with the Jutland Football Association.",
+    "source": "https://en.wikipedia.org/wiki/Hobro_IK",
+    "status": "draft"
+  },
   "Q841245": {
     "text": "Asociația Clubul Sportiv Campionii Fotbal Club Argeș, commonly known as FC Argeș Pitești, Argeș Pitești or simply FC Argeș, is a Romanian professional football club based in Pitești, Argeș County, that competes in the Liga I, the top tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti",
+    "status": "draft"
+  },
+  "Q843097": {
+    "text": "Hvidovre Idrætsforening, more commonly known as Hvidovre IF is a Danish association football club from Hvidovre, Capital Region of Denmark. The club competes in the Danish 1st Division, the second tier of Danish football, and plays its home matches at the Hvidovre Stadion.",
+    "source": "https://en.wikipedia.org/wiki/Hvidovre_IF",
+    "status": "draft"
+  },
+  "Q843210": {
+    "text": "Fudbalski klub Napredak Kruševac, commonly known as Napredak Kruševac, is a Serbian professional football club based in the city of Kruševac. They compete in the Serbian First League the second tier of the national league system. The word Napredak means \"progress\" in Serbian.",
+    "source": "https://en.wikipedia.org/wiki/FK_Napredak_Kru%C5%A1evac",
     "status": "draft"
   },
   "Q843396": {
@@ -1817,6 +2682,16 @@
   "Q846008": {
     "text": "Associação Naval 1º de Maio or Naval 1º Maio, commonly known as Naval, was a Portuguese football club based in Figueira da Foz, Coimbra District. Founded on 1 May 1893, it last played in the Division of Honour in the Coimbra Football Association, holding home games at the Estádio Municipal José Bento Pessoa, with a capacity of 9,000 spectators.",
     "source": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Naval_1%C2%BA_de_Maio",
+    "status": "draft"
+  },
+  "Q847499": {
+    "text": "1. FC Slovácko is a Czech football club based in Uherské Hradiště. The team was established in 1927 as SK Staré Město and on 1 July 2000 as 1. FC Synot, which was a merger of the original club with FC Slovácká Slavia Uherské Hradiště.",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Slov%C3%A1cko",
+    "status": "draft"
+  },
+  "Q849221": {
+    "text": "Bohemians Praha 1905, commonly known as Bohemka or Bohemians Prague, is a professional football club based in Vršovice, Prague, Czech Republic. The club competes in the Czech First League, the top division in the Czech Republic football league system. Founded in 1905 as AFK Vršovice, the club won the 1982–83 Czechoslovak First League, its only league championship.",
+    "source": "https://en.wikipedia.org/wiki/Bohemians_1905",
     "status": "draft"
   },
   "Q849544": {
@@ -1844,6 +2719,26 @@
     "source": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
     "status": "draft"
   },
+  "Q859458": {
+    "text": "Polonia Bytom is a Polish football club based in Bytom. Founded in 1920, the team won two championships, in 1954 and 1962. As of the 2026–27 season, they compete in the I liga, the second tier of Polish football.",
+    "source": "https://en.wikipedia.org/wiki/Polonia_Bytom",
+    "status": "draft"
+  },
+  "Q861524": {
+    "text": "Sandefjord Fotball, often referred to simply as Sandefjord, is a Norwegian professional football club founded on 10 September 1998. The team currently competes in Eliteserien, the top division of the Norwegian football league system, and plays its home matches at the Jotun Arena in Sandefjord, Vestfold.",
+    "source": "https://en.wikipedia.org/wiki/Sandefjord_Fotball",
+    "status": "draft"
+  },
+  "Q863273": {
+    "text": "Landskrona Boll och Idrottsällskap is a Swedish professional football club located in Landskrona, Scania, which currently plays in Superettan, the second league tier of football in Sweden. The club was formed on 7 February 1915 through the merger of two Landskrona clubs, IFK Landskrona and Landskrona BK.",
+    "source": "https://en.wikipedia.org/wiki/Landskrona_BoIS",
+    "status": "draft"
+  },
+  "Q867882": {
+    "text": "Thisted Fodbold Club is an association football club based in the town of Thisted, North Jutland, Denmark, that competes in the Danish 2nd Division, the third tier of the Danish football league system. Founded in 1989, it is shortly known as 'TFC' and affiliated to the DBU Jutland, the regional body of football in Jutland.",
+    "source": "https://en.wikipedia.org/wiki/Thisted_FC",
+    "status": "draft"
+  },
   "Q867921": {
     "text": "Livingston Football Club is a Scottish professional football club based in Livingston, West Lothian and currently plays in the Scottish Championship.",
     "source": "https://en.wikipedia.org/wiki/Livingston_F.C.",
@@ -1857,6 +2752,11 @@
   "Q870182": {
     "text": "Clermont Foot 63 is a French professional football club based in Clermont-Ferrand, France. It competes in Ligue 2. The first incarnation of the club was formed in 1911 and the current club was created in 1990 as a result of a merger.",
     "source": "https://en.wikipedia.org/wiki/Clermont_Foot_63",
+    "status": "draft"
+  },
+  "Q875114": {
+    "text": "Aqvital FC Csákvár is a Hungarian football club based in Csákvár, Fejér, that competes in the Nemzeti Bajnokság II, the second tier of Hungarian football league system. The team's colors are yellow and blue.",
+    "source": "https://en.wikipedia.org/wiki/Aqvital_FC_Cs%C3%A1kv%C3%A1r",
     "status": "draft"
   },
   "Q875120": {
@@ -1884,9 +2784,44 @@
     "source": "https://en.wikipedia.org/wiki/Boluspor",
     "status": "draft"
   },
+  "Q898281": {
+    "text": "FC Ihroservice Simferopol was a Ukrainian football team based in Simferopol, Crimea, Ukraine. Uniform colours were white shirts and blue shorts.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ihroservice_Simferopol",
+    "status": "draft"
+  },
+  "Q911385": {
+    "text": "Vác FC is a Hungarian football club based in Vác, north of Budapest. The club of the fourth division of the Hungarian football league was established in June 1899 as Váci Városi SE plays its home matches at the Stadion Városi Vác. Before 2009, the club was known by a variety of other names.",
+    "source": "https://en.wikipedia.org/wiki/V%C3%A1c_FC",
+    "status": "draft"
+  },
+  "Q911524": {
+    "text": "Dunaújváros FC was a Hungarian football team from Dunaújváros. Though they won the Hungarian NB I in 1999–2000, recently they played in the second league, until the team withdrew in March 2009, ceasing its operations.",
+    "source": "https://en.wikipedia.org/wiki/Duna%C3%BAjv%C3%A1ros_FC_(1952)",
+    "status": "draft"
+  },
+  "Q915352": {
+    "text": "Paksi FC is a Hungarian professional football club based in Paks. Since its founding in 1952, it has played at either a county or national level. In 2006, it ascended to the Nemzeti Bajnokság I, the top division in Hungarian football, for the first time.",
+    "source": "https://en.wikipedia.org/wiki/Paksi_FC",
+    "status": "draft"
+  },
   "Q916199": {
     "text": "Oud-Heverlee Leuven, also called OH Leuven or OHL, is a Belgian professional football club from the city of Leuven. It was created in 2002 from the merger of three clubs, F.C. Zwarte Duivels Oud-Heverlee, whose registration number it inherited, Daring Club Leuven, and Stade Leuven.",
     "source": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven",
+    "status": "draft"
+  },
+  "Q918425": {
+    "text": "Hrvatski nogometni klub Gorica, commonly referred to as HNK Gorica, is a Croatian professional football club based in the town of Velika Gorica, located just south of the Croatian capital Zagreb. They compete in the Croatian Football League (HNL), the top tier of Croatian football. They play their home matches at Gradski stadion Velika Gorica, which has a capacity of 8,000.",
+    "source": "https://en.wikipedia.org/wiki/HNK_Gorica",
+    "status": "draft"
+  },
+  "Q924353": {
+    "text": "Næstved Boldklub is a Danish association football team based in Næstved in the South of Zealand. Næstved Boldklub is the professional superstructure of the parent club Næstved Idræts Forening and currently plays in the Danish 2nd Division, the third tier of Danish football league system.",
+    "source": "https://en.wikipedia.org/wiki/N%C3%A6stved_Boldklub",
+    "status": "draft"
+  },
+  "Q925935": {
+    "text": "GKS Katowice is a Polish men's professional football club based in Katowice. They currently compete in the Ekstraklasa after gaining promotion from the I liga in 2024.",
+    "source": "https://en.wikipedia.org/wiki/GKS_Katowice",
     "status": "draft"
   },
   "Q925973": {
@@ -1899,9 +2834,49 @@
     "source": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
     "status": "draft"
   },
+  "Q931704": {
+    "text": "OFI Football Club, commonly known as OFI Crete or simply OFI, is a Greek professional football club based in Heraklion, on the island of Crete.",
+    "source": "https://en.wikipedia.org/wiki/OFI_Crete_F.C.",
+    "status": "draft"
+  },
+  "Q953621": {
+    "text": "FK Bežanija is a football club based in Bežanija, Belgrade, Serbia. They compete in the Belgrade Zone League, the fourth tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Be%C5%BEanija",
+    "status": "draft"
+  },
+  "Q958856": {
+    "text": "OKS Odra Opole Spółka Akcyjna is a professional football club based in Opole, Poland, currently playing in the I liga.",
+    "source": "https://en.wikipedia.org/wiki/Odra_Opole",
+    "status": "draft"
+  },
+  "Q959086": {
+    "text": "Nogometni klub Lokomotiva Zagreb, commonly known as Lokomotiva Zagreb or simply Lokomotiva, is a Croatian professional football club based in Zagreb. They compete in the Croatian Football League (HNL), the top tier of Croatian football. Founded in 1914, the club's first period of success came in the late 1940s and early 1950s, before spending most of the following five decades in lower-level leagues.",
+    "source": "https://en.wikipedia.org/wiki/NK_Lokomotiva_Zagreb",
+    "status": "draft"
+  },
+  "Q975267": {
+    "text": "Szeged-Csanád Grosics Akadémia is a Hungarian football club located in Szeged, Hungary. The team's colors are black and blue and they play their home matches at the Szent Gellért Fórum. The club, owned by the Roman Catholic Diocese of Szeged–Csanád, was named after the legendary Hungarian goalkeeper Gyula Grosics.",
+    "source": "https://en.wikipedia.org/wiki/Szeged-Csan%C3%A1d_Grosics_Akad%C3%A9mia",
+    "status": "draft"
+  },
+  "Q994717": {
+    "text": "FC Felcsút is a Hungarian football team based in the village of Felcsút. They play in the league NB II of the Western Group.",
+    "source": "https://en.wikipedia.org/wiki/FC_Felcs%C3%BAt",
+    "status": "draft"
+  },
   "Q994811": {
     "text": "Fußballclub Red Bull Salzburg, commonly known as simply Red Bull Salzburg, is an Austrian professional football club based in Wals-Siezenheim, that competes in the Austrian Bundesliga, the top flight of Austrian Football. Their home ground is the Red Bull Arena. Due to sponsorship restrictions, the club is known as FC Salzburg and wears a modified crest when playing in FIFA and UEFA competitions.",
     "source": "https://en.wikipedia.org/wiki/FC_Red_Bull_Salzburg",
+    "status": "draft"
+  },
+  "Q995069": {
+    "text": "Fudbalski klub Novi Pazar is a Serbian professional football club based in the city of Novi Pazar, which competes in the Serbian SuperLiga. The team plays their home games at the Novi Pazar City Stadium.",
+    "source": "https://en.wikipedia.org/wiki/FK_Novi_Pazar",
+    "status": "draft"
+  },
+  "Q995313": {
+    "text": "Bryne Fotballklubb is a professional football club located in Bryne, Norway, which competes in the Norwegian First Division, the second tier of Norwegian football. Founded on 10 April 1926 as Bryne Fotball-lag, the club joined the Norwegian Football Federation in 1929 and has played its home matches at Bryne Stadion since 1945.",
+    "source": "https://en.wikipedia.org/wiki/Bryne_FK",
     "status": "draft"
   },
   "Q1023227": {
@@ -1939,6 +2914,11 @@
     "source": "https://en.wikipedia.org/wiki/S.C._Freamunde",
     "status": "draft"
   },
+  "Q1036992": {
+    "text": "Skive Idræts Klub, commonly known as Skive IK, SIK or simply Skive, is a Danish professional football club based in Skive, Central Denmark Region. Founded in 1901, the club is affiliated with the DBU Jutland association and play their home games at Hancock Arena. The club colours are yellow and blue.",
+    "source": "https://en.wikipedia.org/wiki/Skive_IK",
+    "status": "draft"
+  },
   "Q1045811": {
     "text": "Football Club Dordrecht, or simply FC Dordrecht is a professional Dutch association football club based in Dordrecht, a city in the Western Netherlands, located in the province of South Holland. They currently compete in the Eerste Divisie, the second tier of the Dutch football league system.",
     "source": "https://en.wikipedia.org/wiki/FC_Dordrecht",
@@ -1949,9 +2929,24 @@
     "source": "https://en.wikipedia.org/wiki/Casa_Pia_A.C.",
     "status": "draft"
   },
+  "Q1048007": {
+    "text": "Køge Boldklub is a Danish football club from Køge, Zealand.",
+    "source": "https://en.wikipedia.org/wiki/K%C3%B8ge_Boldklub",
+    "status": "draft"
+  },
   "Q1051013": {
     "text": "Paris Football Club, commonly referred to as Paris FC, PFC or Paris, are a French professional football club based in Paris, France, which competes in Ligue 1, the top division of French football.",
     "source": "https://en.wikipedia.org/wiki/Paris_FC",
+    "status": "draft"
+  },
+  "Q1051340": {
+    "text": "Nyíregyháza Spartacus is a professional football club from Nyíregyháza, Hungary. Formed in 1928, it has had brief stints in the Nemzeti Bajnokság III. It set to play in the Nemzeti Bajnokság I from 2024–25 after promotion from Nemzeti Bajnokság II in 2023–24.",
+    "source": "https://en.wikipedia.org/wiki/Ny%C3%ADregyh%C3%A1za_Spartacus_FC",
+    "status": "draft"
+  },
+  "Q1052685": {
+    "text": "Ceglédi Vasutas Sportegyesület, commonly referred to as Ceglédi VSE is a Hungarian sports club based in Cegléd, Pest County. It consists of multiple departments, namely football, athletics and wrestling. The team's colours are yellow and blue.",
+    "source": "https://en.wikipedia.org/wiki/Cegl%C3%A9di_VSE",
     "status": "draft"
   },
   "Q1053917": {
@@ -1974,6 +2969,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Emmen",
     "status": "draft"
   },
+  "Q1062547": {
+    "text": "Szolnoki MÁV FC is a Hungarian football club, from the city of Szolnok. In 2010 it gained promotion to the National Championship.",
+    "source": "https://en.wikipedia.org/wiki/Szolnoki_M%C3%81V_FC",
+    "status": "draft"
+  },
   "Q1065328": {
     "text": "Football Club Verbroedering Dender Eendracht Hekelgem, also simply known as Dender or FCV Dender EH, is a Belgian professional football club based in Denderleeuw. The club will play in the Challenger Pro League following their loss against Lommel SK in the relegation play-offs.",
     "source": "https://en.wikipedia.org/wiki/FCV_Dender_EH",
@@ -1989,9 +2989,19 @@
     "source": "https://en.wikipedia.org/wiki/SC_Telstar",
     "status": "draft"
   },
+  "Q1104331": {
+    "text": "Kaposvölgye VSC is a Hungarian football team in Nagyberki.",
+    "source": "https://en.wikipedia.org/wiki/Kaposv%C3%B6lgye_VSC",
+    "status": "draft"
+  },
   "Q1110567": {
     "text": "Hatayspor Kulübü, known as Atakaş Hatayspor due to sponsorship reasons, is a Turkish professional football club located in Antakya, Hatay Province. Hatayspor, founded in 1967 through a merger of three local clubs, aimed to promote sports and positive habits among youth. The team's colors symbolize nobility, purity, and peace.",
     "source": "https://en.wikipedia.org/wiki/Hatayspor",
+    "status": "draft"
+  },
+  "Q1112784": {
+    "text": "Ranheim Fotball is a Norwegian football club from Ranheim in Trondheim that currently plays in 1. divisjon, the second tier in the Norwegian football league system. Ranheim is the football department of Ranheim IL, founded on 17 February 1901.",
+    "source": "https://en.wikipedia.org/wiki/Ranheim_Fotball",
     "status": "draft"
   },
   "Q1120838": {
@@ -2009,6 +3019,11 @@
     "source": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
     "status": "draft"
   },
+  "Q1130961": {
+    "text": "Hamarkameratene, often abbreviated to HamKam or Ham-Kam, is a Norwegian professional football club based in the town of Hamar. The club was founded in 1918, originally under the name Freidig.",
+    "source": "https://en.wikipedia.org/wiki/Hamarkameratene",
+    "status": "draft"
+  },
   "Q1132418": {
     "text": "Football Club de Martigues, known as FC Martigues or just Martigues, is a French professional football club based in Martigues, Bouches-du-Rhône. As of the 2025–26 season, it competes in the Départemental 3, the eleventh tier of French football.",
     "source": "https://en.wikipedia.org/wiki/FC_Martigues",
@@ -2024,9 +3039,34 @@
     "source": "https://en.wikipedia.org/wiki/Cosenza_Calcio",
     "status": "draft"
   },
+  "Q1137993": {
+    "text": "FK Radnički Niš is a professional football club based in Niš, Serbia. The club competes in the Serbian SuperLiga, the top tier of Serbian football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_Ni%C5%A1",
+    "status": "draft"
+  },
+  "Q1138206": {
+    "text": "FC Sellier & Bellot Vlašim is a professional football club based in Vlašim, Czech Republic. It currently plays in Czech National Football League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Sellier_%26_Bellot_Vla%C5%A1im",
+    "status": "draft"
+  },
+  "Q1140076": {
+    "text": "Idrottsklubben Brage, also known as IK Brage or simply Brage, is a Swedish football club located in Borlänge. The club is affiliated with Dalarnas Fotbollförbund and play their home games at Domnarvsvallen. The club colours, reflected in their crest and kit, are green and white.",
+    "source": "https://en.wikipedia.org/wiki/IK_Brage",
+    "status": "draft"
+  },
   "Q1140695": {
     "text": "Football Club d'Annecy is a French football club based in the town of Annecy, Haute-Savoie. The team plays its home matches at the Parc des Sports, where the club and its predecessor have been based since 1964. It currently competes in the Ligue 2.",
     "source": "https://en.wikipedia.org/wiki/FC_Annecy",
+    "status": "draft"
+  },
+  "Q1140767": {
+    "text": "Degerfors IF is a professional football club located in Degerfors, Sweden. The club was formed on 13 January 1907, and is currently playing in the highest tier in Swedish football, Allsvenskan.",
+    "source": "https://en.wikipedia.org/wiki/Degerfors_IF",
+    "status": "draft"
+  },
+  "Q1142727": {
+    "text": "FK Varnsdorf is a Czech football club located in Varnsdorf, Czech Republic. In 2011 the club changed its name from SK Slovan Varnsdorf to FK Varnsdorf. It currently plays in the Bohemian Football League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Varnsdorf",
     "status": "draft"
   },
   "Q1149034": {
@@ -2034,9 +3074,39 @@
     "source": "https://en.wikipedia.org/wiki/TOP_Oss",
     "status": "draft"
   },
+  "Q1151909": {
+    "text": "Sarpsborg 08 Fotballforening, commonly known as Sarpsborg 08 or simply Sarpsborg, is a Norwegian professional football club based in Sarpsborg, playing in Eliteserien. Sarpsborg 08 and its predecessors played in 1. divisjon from 2005 to 2010. In 2010, the club was promoted to the Tippeligaen, the top league in Norway, but finished last and was relegated back to 1. divisjon in 2011.",
+    "source": "https://en.wikipedia.org/wiki/Sarpsborg_08_FF",
+    "status": "draft"
+  },
   "Q1170018": {
     "text": "Kartalspor is a sports club located in the Kartal district of Istanbul, Turkey. The club's football team plays in the Bank Asya First League after finishing 2nd in the Second League Promotion Group in the 2006–2007 season. Kartal SK started the 2007–2008 season well and was 3rd with half of the games played, but had a disappointing second half of the season and finished 13th.",
     "source": "https://en.wikipedia.org/wiki/Kartal_S.K.",
+    "status": "draft"
+  },
+  "Q1176524": {
+    "text": "Mezőkövesdi Sport Egyesület is a professional football club located in Mezőkövesd, Hungary. The team's colors are yellow and blue. The team name comes from the Zsóry family who founded the thermal baths that brought wealth to the town.",
+    "source": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesdi_SE",
+    "status": "draft"
+  },
+  "Q1193532": {
+    "text": "Vanløse IF is a Danish professional football club based in the Vanløse area of Copenhagen, that competes in the Danish 3rd Division. The club has a rich history with former players like Preben Elkjær and Michael Laudrup and have won the Danish Cup in 1974. It currently has about 1000 members.",
+    "source": "https://en.wikipedia.org/wiki/Vanl%C3%B8se_IF",
+    "status": "draft"
+  },
+  "Q1198772": {
+    "text": "Warta Poznań is a multi-sports club based in Poznań, Poland. The name means the Guard in Polish and also the name of the river Warta on which Poznań is located. As of the 2026–27 season, they compete in the second division, after winning promotion from the 2025–26 II liga.",
+    "source": "https://en.wikipedia.org/wiki/Warta_Pozna%C5%84",
+    "status": "draft"
+  },
+  "Q1198808": {
+    "text": "Bruk-Bet Termalica Nieciecza Klub Sportowy Spółka Akcyjna, commonly referred to as Bruk-Bet Termalica Nieciecza, is a Polish professional football club based in Nieciecza. The team competes in the I liga, the second tier of the Polish football league system, following their 2025–26 Ekstraklasa relegation.",
+    "source": "https://en.wikipedia.org/wiki/Bruk-Bet_Termalica_Nieciecza",
+    "status": "draft"
+  },
+  "Q1199255": {
+    "text": "FC Vysočina Jihlava is a football club from Jihlava, Czech Republic, which plays in the Czech National Football League. The club played in the Czech First League for the first time in its history in the 2005–06 season, and also played in the league for six seasons between 2012 and 2018.",
+    "source": "https://en.wikipedia.org/wiki/FC_Vyso%C4%8Dina_Jihlava",
     "status": "draft"
   },
   "Q1231804": {
@@ -2049,9 +3119,24 @@
     "source": "https://en.wikipedia.org/wiki/Gondomar_S.C.",
     "status": "draft"
   },
+  "Q1258871": {
+    "text": "Nogometni klub Hrvatski dragovoljac, commonly referred to as NK Hrvatski dragovoljac or simply Hrvatski dragovoljac, is a Croatian football club based in the Novi Zagreb neighbourhood of the country's capital city of Zagreb. The team's fans are known as the \"Black Warriors\". The club's home ground is Stadion NŠC Stjepan Spajić, which has a capacity of 5,000.",
+    "source": "https://en.wikipedia.org/wiki/NK_Hrvatski_Dragovoljac",
+    "status": "draft"
+  },
   "Q1262822": {
     "text": "Asociația Fotbal Club Botoșani, commonly known as FC Botoșani or simply Botoșani, is a Romanian professional football club based in the city of Botoșani, Botoșani County, that competes in the Liga I, the top tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/FC_Boto%C8%99ani",
+    "status": "draft"
+  },
+  "Q1290348": {
+    "text": "Soproni VSE is a Hungarian football club based in Sopron, Győr-Moson-Sopron, Hungary, that competes in the Megyei Bajnokság I, the fourth tier of Hungarian football. The club's colours are purple and white. They won the Nemzeti Bajnokság II two times in 1945 and 1946, but they have never played in the first league.",
+    "source": "https://en.wikipedia.org/wiki/Soproni_VSE",
+    "status": "draft"
+  },
+  "Q1290413": {
+    "text": "Soroksár SC is a Hungarian football club located in the Soroksár district of Budapest, Hungary. The team's colors are yellow and black.",
+    "source": "https://en.wikipedia.org/wiki/Soroks%C3%A1r_SC",
     "status": "draft"
   },
   "Q1322550": {
@@ -2119,9 +3204,44 @@
     "source": "https://en.wikipedia.org/wiki/F.C._Vizela",
     "status": "draft"
   },
+  "Q1387864": {
+    "text": "MFK Vítkovice is a football club from Vítkovice, Ostrava, Czech Republic. It was founded in 1919 as FC Vítkovice, announced bankruptcy in 2011 and transformed to MFK Vítkovice. The club won the Czechoslovak First League in the 1985–86 season.",
+    "source": "https://en.wikipedia.org/wiki/MFK_V%C3%ADtkovice",
+    "status": "draft"
+  },
+  "Q1388790": {
+    "text": "FKS Stal Mielec, commonly known as Stal Mielec, is a Polish professional football club based in Mielec. The team competes in the I liga, the second level of the Polish football league system.",
+    "source": "https://en.wikipedia.org/wiki/Stal_Mielec",
+    "status": "draft"
+  },
+  "Q1388806": {
+    "text": "FK Baník Sokolov is a Czech football club based in Sokolov. The club plays in Division B, which is the fourth tier of Czech football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Ban%C3%ADk_Sokolov",
+    "status": "draft"
+  },
+  "Q1388917": {
+    "text": "FK Jedinstvo Ub is a professional football club based in Ub, Serbia. They compete in the Serbian First League, the second tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Ub",
+    "status": "draft"
+  },
+  "Q1389125": {
+    "text": "Fudbalski klub Voždovac is a professional football club based in Voždovac, Belgrade, Serbia, which competes in the Serbian First League, the second tier.",
+    "source": "https://en.wikipedia.org/wiki/FK_Vo%C5%BEdovac",
+    "status": "draft"
+  },
+  "Q1394197": {
+    "text": "Falkenbergs Fotbollsförening, also known simply as Falkenbergs FF, Falkenberg or FFF, is a Swedish football club based in Falkenberg. Formed on 3 January 1928, the club plays in the second highest Swedish league, Superettan. Falkenberg are affiliated with Hallands Fotbollförbund.",
+    "source": "https://en.wikipedia.org/wiki/Falkenbergs_FF",
+    "status": "draft"
+  },
   "Q1398111": {
     "text": "Fatih Karagümrük Spor Kulübü, also known as Mısırlı.com.tr Fatih Karagümrük for sponsorship reasons but commonly known as Karagümrük, is a Turkish professional football club based in the Karagümrük neighbourhood of the Fatih district on the historic peninsula of Istanbul. Founded in 1926, the club play in red and black and are nicknamed Kara Kırmızı (“Black-Reds”). Karagümrük currently compete in the TFF 1.",
     "source": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K.",
+    "status": "draft"
+  },
+  "Q1417287": {
+    "text": "Panserraikos Football Club, the All-Serres Football Club, is a Greek football club based in Serres, Greece. Panserraikos is one of the most important and well-supported clubs in northern Greece and had a near-continuous presence in the First Division in the 1960s and 70s.",
+    "source": "https://en.wikipedia.org/wiki/Panserraikos_F.C.",
     "status": "draft"
   },
   "Q1423118": {
@@ -2139,9 +3259,59 @@
     "source": "https://en.wikipedia.org/wiki/Varzim_S.C.",
     "status": "draft"
   },
+  "Q1439495": {
+    "text": "FK Frýdek-Místek is a football club based in Frýdek-Místek, Czech Republic. It currently plays in the Moravian-Silesian Football League, which is the third tier of Czech football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Fr%C3%BDdek-M%C3%ADstek",
+    "status": "draft"
+  },
+  "Q1439505": {
+    "text": "FK Třinec is a football club based in Třinec, Czech Republic. It plays in the Czech National Football League. It is sponsored by the Třinec Iron and Steel Works; in the past the club bore the name of the company.",
+    "source": "https://en.wikipedia.org/wiki/FK_T%C5%99inec",
+    "status": "draft"
+  },
+  "Q1460053": {
+    "text": "Panetolikos Football Club, or with its full name officially romanized as Panaitolikós Gymnastikós Filekpaideftikós Sýllogos, is a Greek professional football club. It is based in Agrinio, Greece. Panetolikos was founded in 1926 and is considered one of the historical clubs in Greece, currently participating in the Greek First Division.",
+    "source": "https://en.wikipedia.org/wiki/Panetolikos_F.C.",
+    "status": "draft"
+  },
+  "Q1471336": {
+    "text": "Idrottsklubben Sirius, more commonly known as IK Sirius or Sirius, is a Swedish professional football club located in Uppsala. The club is affiliated with Upplands Fotbollförbund and play their home games at Studenternas IP.",
+    "source": "https://en.wikipedia.org/wiki/IK_Sirius_Fotboll",
+    "status": "draft"
+  },
+  "Q1472823": {
+    "text": "Újpest FC II is a Hungarian football club, located in Budapest, Hungary. It currently plays in Nemzeti Bajnokság III – Northeast and acts as a second club to Újpest FC. The team's colors are violet and white.",
+    "source": "https://en.wikipedia.org/wiki/%C3%9Ajpest_FC_II",
+    "status": "draft"
+  },
+  "Q1475269": {
+    "text": "Wisła Płock Spółka Akcyjna, commonly referred to as Wisła Płock, is a Polish professional football club based in Płock, Masovian Voivodeship. They currently compete in the Ekstraklasa, the top tier of the Polish football league system.",
+    "source": "https://en.wikipedia.org/wiki/Wis%C5%82a_P%C5%82ock",
+    "status": "draft"
+  },
+  "Q1483030": {
+    "text": "IK Oddevold is a Swedish football club located in Uddevalla. The club, formed on 3 July 1932, currently plays in Sweden's second-flight league, Superettan. They play most of their home games at Rimnersvallen and they also have a newly built training facility called Thordéngården where they play most of their friendly games.",
+    "source": "https://en.wikipedia.org/wiki/IK_Oddevold",
+    "status": "draft"
+  },
   "Q1543501": {
     "text": "Giresunspor Kulübü is a Turkish professional football club based in Giresun.",
     "source": "https://en.wikipedia.org/wiki/Giresunspor",
+    "status": "draft"
+  },
+  "Q1547133": {
+    "text": "Athens Kallithea Football Club is a Greek professional football club based in Kallithea, a city and a suburb in Athens. The club currently competes in the Super League 2, the second tier of the Greek football league system.",
+    "source": "https://en.wikipedia.org/wiki/Athens_Kallithea_F.C.",
+    "status": "draft"
+  },
+  "Q1558294": {
+    "text": "Norrby IF is a Swedish professional football club based in Borås. Founded on 27 April 1927, the club is currently competing in the Superettan.",
+    "source": "https://en.wikipedia.org/wiki/Norrby_IF",
+    "status": "draft"
+  },
+  "Q1585149": {
+    "text": "Varbergs BoIS FC is a Swedish professional football club located in Varberg, the main town of Varberg Municipality in Halland County.",
+    "source": "https://en.wikipedia.org/wiki/Varbergs_BoIS",
     "status": "draft"
   },
   "Q1628465": {
@@ -2154,9 +3324,19 @@
     "source": "https://en.wikipedia.org/wiki/Alanyaspor",
     "status": "draft"
   },
+  "Q1662983": {
+    "text": "Sandvikens Idrottsförening, commonly known as Sandvikens IF, is a Swedish football club located in Sandviken. Formerly believed to have been founded in 1918 the club announced in 2026 that through historical research it had been discovered that the actual founding year was 1899. Sandvikens IF are affiliated to the Gestriklands Fotbollförbund and play their home games at Jernvallen.",
+    "source": "https://en.wikipedia.org/wiki/Sandvikens_IF",
+    "status": "draft"
+  },
   "Q1668203": {
     "text": "Lommel SK is a Belgian association football club based in the city of Lommel, Limburg. They currently play in the Belgian Pro League, following promotion from the Challenger Pro League in the 2025–26 season.",
     "source": "https://en.wikipedia.org/wiki/Lommel_SK",
+    "status": "draft"
+  },
+  "Q1680249": {
+    "text": "Västerås Sportklubb, commonly known as Västerås SK or VSK, is a Swedish professional football club based in Västerås. The club is affiliated with Västmanlands Fotbollförbund and play their home games at the Hitachi Energy Arena since 2008.",
+    "source": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
     "status": "draft"
   },
   "Q1762119": {
@@ -2174,9 +3354,24 @@
     "source": "https://en.wikipedia.org/wiki/USL_Dunkerque",
     "status": "draft"
   },
+  "Q1819219": {
+    "text": "FC Helios Kharkiv is a Ukrainian football club located in Kharkiv, Ukraine. From 2003 to 2018 the club competed at professional level. In 2018 it was expected to be succeeded by FC Kobra Kharkiv, but unsuccessfully.",
+    "source": "https://en.wikipedia.org/wiki/FC_Helios_Kharkiv",
+    "status": "draft"
+  },
   "Q1853273": {
     "text": "Sport Clube União Torreense is a Portuguese sports club, best known for its association football section. Founded in 1917 in Torres Vedras as Sport União Torreense, the club currently plays in Liga Portugal 2, the second tier of Portuguese football.",
     "source": "https://en.wikipedia.org/wiki/S.C.U._Torreense",
+    "status": "draft"
+  },
+  "Q1875429": {
+    "text": "FC Arsenal-Kyivshchyna Bila Tserkva was a Ukrainian professional team from Bila Tserkva in Kyiv Oblast. Previous name was FC Arsenal Bila Tserkva until June 2013.",
+    "source": "https://en.wikipedia.org/wiki/FC_Arsenal-Kyivshchyna_Bila_Tserkva",
+    "status": "draft"
+  },
+  "Q1881407": {
+    "text": "MFK Karviná is a professional football club located in Karviná, Czech Republic. It plays in the Czech National Football League after it was administratively relegated in 2026. The team's colours are green and white.",
+    "source": "https://en.wikipedia.org/wiki/MFK_Karvin%C3%A1",
     "status": "draft"
   },
   "Q1891367": {
@@ -2184,9 +3379,89 @@
     "source": "https://en.wikipedia.org/wiki/S.C._Covilh%C3%A3",
     "status": "draft"
   },
+  "Q1945740": {
+    "text": "FK Mladost Lučani is a professional football club based in Lučani, Serbia. They compete in the Serbian SuperLiga, the top tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Mladost_Lu%C4%8Dani",
+    "status": "draft"
+  },
+  "Q1956025": {
+    "text": "1. SK Prostějov is a Czech football club from Prostějov, participating in the second-level Czech National Football League. The club is most notable for their participation in the Czechoslovak First League in the 1930s and 1940s, during which time they finished in the top three three times, and also took part in European competition on two occasions.",
+    "source": "https://en.wikipedia.org/wiki/1._SK_Prost%C4%9Bjov",
+    "status": "draft"
+  },
+  "Q1961093": {
+    "text": "NK Imotski is a Croatian professional football club based in the town of Imotski, in the region of Dalmatia. The club currently competes in 3. NL – Jug.",
+    "source": "https://en.wikipedia.org/wiki/NK_Imotski",
+    "status": "draft"
+  },
+  "Q2000763": {
+    "text": "Radomiak Spółka Akcyjna, commonly referred to as Radomiak Radom, is a Polish football club based in Radom, Poland. The club was founded in 1910 and competes in Ekstraklasa, the top level of Polish football. They play their home matches at the Stadion im.",
+    "source": "https://en.wikipedia.org/wiki/Radomiak_Radom",
+    "status": "draft"
+  },
+  "Q2027156": {
+    "text": "FC Poltava was a Ukrainian football club based in Poltava in 2007–2018.",
+    "source": "https://en.wikipedia.org/wiki/FC_Poltava",
+    "status": "draft"
+  },
+  "Q2032872": {
+    "text": "FC Komunalnyk Luhansk was a professional football team based in Luhansk, Ukraine. Komunalnyk Luhansk played in the Ukrainian Second League. It gained professional status in 2007.",
+    "source": "https://en.wikipedia.org/wiki/FC_Komunalnyk_Luhansk",
+    "status": "draft"
+  },
+  "Q2032886": {
+    "text": "FC Knyazha Shchaslyve was a Ukrainian football team based in the village of Shchaslyve, in the Kyiv Oblast of Ukraine.",
+    "source": "https://en.wikipedia.org/wiki/FC_Knyazha_Shchaslyve",
+    "status": "draft"
+  },
+  "Q2036012": {
+    "text": "FC Spartak Sumy was a Ukrainian football club based in Sumy.",
+    "source": "https://en.wikipedia.org/wiki/FC_Spartak_Sumy",
+    "status": "draft"
+  },
+  "Q2036903": {
+    "text": "Football Club Polissya Zhytomyr is a Ukrainian professional football club based in Zhytomyr, Polissya. They play in the Ukrainian Premier League, the top tier of Ukrainian football. The club is a phoenix club that existed from 1959 to 2005.",
+    "source": "https://en.wikipedia.org/wiki/FC_Polissya_Zhytomyr",
+    "status": "draft"
+  },
+  "Q2042771": {
+    "text": "Nyva Bershad is a Ukrainian football club and currently competes in the Vinnytsia Oblast Football League is from Bershad, Vinnytsia Oblast.",
+    "source": "https://en.wikipedia.org/wiki/FC_Nyva_Bershad",
+    "status": "draft"
+  },
   "Q2061414": {
     "text": "União Desportiva Oliveirense (UDO), commonly known as Oliveirense, is a Portuguese sports club from the city of Oliveira de Azeméis, in Aveiro District. The club was founded on 25 October 1922. The main football team currently plays at the Estádio Carlos Osório which holds a seating capacity of 1,750 and plays in Liga Portugal 2.",
     "source": "https://en.wikipedia.org/wiki/U.D._Oliveirense",
+    "status": "draft"
+  },
+  "Q2078847": {
+    "text": "Football Club Kramatorsk is a professional Ukrainian football club from the city of Kramatorsk in Donetsk Oblast.",
+    "source": "https://en.wikipedia.org/wiki/FC_Kramatorsk",
+    "status": "draft"
+  },
+  "Q2091717": {
+    "text": "Wigry Suwałki is a Polish football club based in Suwałki, Podlaskie Voivodeship. In the 2026–27 season, they compete in group I of the III liga. They play their home games at the Municipal Stadium in Suwałki.",
+    "source": "https://en.wikipedia.org/wiki/Wigry_Suwa%C5%82ki",
+    "status": "draft"
+  },
+  "Q2093314": {
+    "text": "Slezský FC Opava is a professional football club based in Opava, Czech Republic. The club plays in the Czech National Football League, the second of Czech football after being relegated from the Czech First League at the end of the 2020–21 season.",
+    "source": "https://en.wikipedia.org/wiki/SFC_Opava",
+    "status": "draft"
+  },
+  "Q2134350": {
+    "text": "FC Temp Shepetivka was a Ukrainian football club from Shepetivka. In the winter of 1996, the club was dissolved and replaced with a random created team based on the Kamianets-Podilskyi sports school to finish the season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Temp_Shepetivka",
+    "status": "draft"
+  },
+  "Q2184917": {
+    "text": "FK Teleoptik is a football club based in Zemun, Belgrade, Serbia. They compete in the Serbian First League, the second tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Teleoptik",
+    "status": "draft"
+  },
+  "Q2223870": {
+    "text": "FC Enerhetyk Burshtyn was a professional Ukrainian football club based in Burshtyn, Ivano-Frankivsk Oblast.",
+    "source": "https://en.wikipedia.org/wiki/FC_Enerhetyk_Burshtyn",
     "status": "draft"
   },
   "Q2268833": {
@@ -2194,9 +3469,29 @@
     "source": "https://en.wikipedia.org/wiki/K_Beerschot_VA",
     "status": "draft"
   },
+  "Q2275503": {
+    "text": "FC Nyva Vinnytsia is a Ukrainian professional football club based in the city of Vinnytsia. The name \"Nyva\" translates to \"grain field\". The club was created in 1958 in the Soviet Union and folded in 2005 and 2012, but was reformed again in 2015 as Nyva-V and renamed back to Nyva in 2018.",
+    "source": "https://en.wikipedia.org/wiki/FC_Nyva_Vinnytsia",
+    "status": "draft"
+  },
   "Q2276413": {
     "text": "Virtus Entella, commonly referred to as Entella, is an Italian professional football club based in Chiavari, Liguria. Founded in 1914, the club currently competes in the Serie B.",
     "source": "https://en.wikipedia.org/wiki/Virtus_Entella",
+    "status": "draft"
+  },
+  "Q2329203": {
+    "text": "Stal Rzeszów, commonly referred to as Stal, is a Polish football club based in Rzeszów in the southeastern Podkarpackie voivodeship, competing in the I liga, the second tier of Polish league football, since their promotion in 2022. Formed in 1944 by aviation factory workers, the club has spent a majority of its history playing in the lower leagues of Polish football.",
+    "source": "https://en.wikipedia.org/wiki/Stal_Rzesz%C3%B3w_(football)",
+    "status": "draft"
+  },
+  "Q2335020": {
+    "text": "Fudbalski klub Sloga Kraljevo was a Serbian football club based in Kraljevo.",
+    "source": "https://en.wikipedia.org/wiki/FK_Sloga_Kraljevo",
+    "status": "draft"
+  },
+  "Q2407113": {
+    "text": "OFK Bečej 1918 is a football club based in Bečej, Vojvodina, Serbia. They compete in the Vojvodina League North, the fourth tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/OFK_Be%C4%8Dej_1918",
     "status": "draft"
   },
   "Q2410944": {
@@ -2209,9 +3504,114 @@
     "source": "https://en.wikipedia.org/wiki/Erzurumspor_F.K.",
     "status": "draft"
   },
+  "Q2464401": {
+    "text": "FC Krymteplytsia Molodizhne was a football club based in an urbanized settlement (town) Molodizhne. The club's name means \"Crimea greenhouse\", as the club was founded by entrepreneur Alexander Vasiliev, general director of the agriculture company of the same name.",
+    "source": "https://en.wikipedia.org/wiki/FC_Krymteplytsia_Molodizhne",
+    "status": "draft"
+  },
+  "Q2505672": {
+    "text": "FK Srem is a football club based in Sremska Mitrovica, Vojvodina, Serbia. They most recently competed in the Sremska Mitrovica City League, the 7th tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Srem",
+    "status": "draft"
+  },
+  "Q2523663": {
+    "text": "RFK Novi Sad 1921 is a professional football club based in Novi Sad, Vojvodina, Serbia. As of the 2025-26 season, the club competes in the Serbian League Vojvodina, the 3rd tier of Serbian football.",
+    "source": "https://en.wikipedia.org/wiki/RFK_Novi_Sad_1921",
+    "status": "draft"
+  },
+  "Q2587695": {
+    "text": "FC Cherkashchyna was a professional Ukrainian football club from the city of Cherkasy. The club's home ground was Central Stadium which was refurbished in 2003 and has a capacity of 10,321.",
+    "source": "https://en.wikipedia.org/wiki/FC_Cherkashchyna",
+    "status": "draft"
+  },
+  "Q2609277": {
+    "text": "Football Club Naftovyk Okhtyrka is a Ukrainian amateur football club based in Okhtyrka, Sumy Oblast, where it was founded in 1980. The name of the club means \"oiler\" in Ukrainian. Ukrnafta company owned the club between 2004 and 2018.",
+    "source": "https://en.wikipedia.org/wiki/FC_Naftovyk_Okhtyrka",
+    "status": "draft"
+  },
+  "Q2614598": {
+    "text": "Fudbalski klub Mačva Šabac is a Serbian professional football club based in Šabac, which competes in the Serbian SuperLiga.",
+    "source": "https://en.wikipedia.org/wiki/FK_Ma%C4%8Dva_%C5%A0abac",
+    "status": "draft"
+  },
+  "Q2617777": {
+    "text": "FC Zirka Kropyvnytskyi is a Ukrainian amateur football club from Kropyvnytskyi, Kirovohrad Oblast, with its team currently playing in the Ukrainian Amateur League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Zirka_Kropyvnytskyi",
+    "status": "draft"
+  },
   "Q2619514": {
     "text": "Avenir Sportif Béziers is a French association football club founded in 2007 by the merger of AS Saint-Chinian, FC Béziers Méditerranée, and the Béziers-Méditerranée Football Cheminots. They are based in the town of Béziers and their home stadium is the Stade de Sauclières.",
     "source": "https://en.wikipedia.org/wiki/AS_B%C3%A9ziers_(2007)",
+    "status": "draft"
+  },
+  "Q2635403": {
+    "text": "Narodnyy Klub Veres Rivne is a Ukrainian professional football club based in Rivne. The club competes in the Ukrainian Premier League, the top tier of Ukrainian football, after winning the 2020–21 Ukrainian First League. Their home stadium until 2017 was Avanhard Stadium in Rivne.",
+    "source": "https://en.wikipedia.org/wiki/NK_Veres_Rivne",
+    "status": "draft"
+  },
+  "Q2662732": {
+    "text": "FK Kolubara is a professional football club based in Lazarevac, Belgrade, Serbia. They compete in the Serbian League Belgrade, the third tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Kolubara",
+    "status": "draft"
+  },
+  "Q2744247": {
+    "text": "Football Club \"Kalamata\" is a Greek professional football club based in Kalamata, Messenia. They compete in the Super League Greece 2, the second tier of the Greek football league system. The club's home ground is the Kalamata Metropolitan Stadium.",
+    "source": "https://en.wikipedia.org/wiki/Kalamata_F.C.",
+    "status": "draft"
+  },
+  "Q2757426": {
+    "text": "FK Dukla Prague is a Czech association football club based in the Dejvice area of Prague. It currently plays in the Czech National Football League, the second tier of Czech club football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Dukla_Prague",
+    "status": "draft"
+  },
+  "Q2947829": {
+    "text": "Football Sports Club Bukovyna Chernivtsi is a Ukrainian professional football club based in Chernivtsi. They currently play in the Ukrainian Premier League, the top tier of Ukrainian football following promotion from Ukrainian First League in the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/FSC_Bukovyna_Chernivtsi",
+    "status": "draft"
+  },
+  "Q2994166": {
+    "text": "MFС Mykolaiv is a Ukrainian football club based in Mykolaiv.",
+    "source": "https://en.wikipedia.org/wiki/MFC_Mykolaiv",
+    "status": "draft"
+  },
+  "Q3038689": {
+    "text": "FK Pardubice is a Czech football club located in the city of Pardubice. Since 2020, the club has played in the Czech First League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Pardubice",
+    "status": "draft"
+  },
+  "Q3180055": {
+    "text": "Niki Volos Football Club is a Greek professional football club based in the city of Volos, in the region of Magnesia, Greece. The club currently competes in the Super League 2, the second tier of Greek football.",
+    "source": "https://en.wikipedia.org/wiki/Niki_Volos_F.C.",
+    "status": "draft"
+  },
+  "Q3292651": {
+    "text": "A.P.S. Zakynthos is a Greek professional football club, based in Zakynthos. It was founded in 1961.",
+    "source": "https://en.wikipedia.org/wiki/A.P.S._Zakynthos",
+    "status": "draft"
+  },
+  "Q3432730": {
+    "text": "KFUM-Kameratene Oslo is the sports branch of the local YMCA in Oslo, Norway. It has departments for association football, futsal, volleyball, and track and field. The football team currently plays in Eliteserien from 2024, the top tier of the Norwegian football league system after promotion from Norwegian First Division in 2023.",
+    "source": "https://en.wikipedia.org/wiki/KFUM-Kameratene_Oslo",
+    "status": "draft"
+  },
+  "Q3510724": {
+    "text": "NK Dugopolje is a Croatian professional football club based in the town of Dugopolje on the outskirts of Split, a city on the Adriatic coast. They were founded in 1952, and they currently play in the Prva nogometna liga, commonly Prva NL or 1. NL, is the second tier of the football league system in Croatia.",
+    "source": "https://en.wikipedia.org/wiki/NK_Dugopolje",
+    "status": "draft"
+  },
+  "Q3511548": {
+    "text": "Sønderjyske Fodbold is a professional football club. The club plays in the Danish Superliga, the top tier of the Danish football league system. Their home is Sydbank Park in Haderslev.",
+    "source": "https://en.wikipedia.org/wiki/S%C3%B8nderjyske_Fodbold",
+    "status": "draft"
+  },
+  "Q3513671": {
+    "text": "Nogometni Klub Primorac 1929, commonly referred to as Primorac Stobreč, is a Croatian football club based in the small coastal town of Stobreč near the city of Split in central Dalmatia. They are members of the 3. HNL South, one of five third level divisions in the Croatian football league system.",
+    "source": "https://en.wikipedia.org/wiki/NK_Primorac_1929",
+    "status": "draft"
+  },
+  "Q3544941": {
+    "text": "FK Timok 1919 is a football club based in Zaječar, Serbia. They compete in the Serbian League East, the third tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Timok",
     "status": "draft"
   },
   "Q3551877": {
@@ -2219,9 +3619,59 @@
     "source": "https://en.wikipedia.org/wiki/U.D._Vilafranquense",
     "status": "draft"
   },
+  "Q3845557": {
+    "text": "Miejski Klub Piłkarski Pogoń Siedlce is a Polish football club based in Siedlce.",
+    "source": "https://en.wikipedia.org/wiki/MKP_Pogo%C5%84_Siedlce",
+    "status": "draft"
+  },
+  "Q4055342": {
+    "text": "FC Avanhard Zhovti Vody is a Ukrainian amateur football club from Zhovti Vody, Dnipropetrovsk Oblast.",
+    "source": "https://en.wikipedia.org/wiki/FC_Avanhard_Zhovti_Vody",
+    "status": "draft"
+  },
+  "Q4122219": {
+    "text": "Panathinaikos Football Club, known as Panathinaikos, or by its full name, and the name of its parent sports club, Panathinaikos A.O. or PAO, is a Greek professional football club based in Athens, Greece.",
+    "source": "https://en.wikipedia.org/wiki/Panathinaikos_F.C.",
+    "status": "draft"
+  },
+  "Q4271000": {
+    "text": "FC Lviv was a Ukrainian football club from the city of Lviv. It was initially founded in 1992.",
+    "source": "https://en.wikipedia.org/wiki/FC_Lviv_(1992)",
+    "status": "draft"
+  },
+  "Q4384885": {
+    "text": "MKS Puszcza Niepołomice is a professional football club located in Niepołomice, Poland. The team competes in the I liga, the second level of the Polish football league system. The team's colors are yellow, white and green.",
+    "source": "https://en.wikipedia.org/wiki/Puszcza_Niepo%C5%82omice",
+    "status": "draft"
+  },
+  "Q4586760": {
+    "text": "Levanger Fotballklubb is a Norwegian football club located in Levanger Municipality. The club currently plays in the 2. divisjon, the third tier of the Norwegian football league system. Founded 20 May 1996, Levanger FK is the result of a merger between SK Nessegutten and IL Sverre.",
+    "source": "https://en.wikipedia.org/wiki/Levanger_FK",
+    "status": "draft"
+  },
   "Q4654417": {
     "text": "Asociația Club Sportiv Știința Poli Timișoara, commonly known as Politehnica Timișoara, Știința Poli Timișoara or simply Poli Timișoara, is a Romanian professional football club based in Timișoara, Timiș County, that competes in the Liga II.",
     "source": "https://en.wikipedia.org/wiki/SSU_Politehnica_Timi%C8%99oara",
+    "status": "draft"
+  },
+  "Q4848814": {
+    "text": "Bajai LSE is a Hungarian football club located in Baja, Hungary. It currently plays in Hungarian National Championship III. The team's colors are yellow and blue.",
+    "source": "https://en.wikipedia.org/wiki/Bajai_LSE",
+    "status": "draft"
+  },
+  "Q4852355": {
+    "text": "Balmazújvárosi FC, also known by the sponsor name Balmaz Kamilla Gyógyfürdő or the company name Balmazújváros Sport, is a Hungarian football club located in Balmazújváros, Hungary. It currently plays in Nemzeti Bajnokság I. The team's colors are orange and black.",
+    "source": "https://en.wikipedia.org/wiki/Balmaz%C3%BAjv%C3%A1rosi_FC",
+    "status": "draft"
+  },
+  "Q4984057": {
+    "text": "Kispest-Honvéd Football Club II is a Hungarian football club located in Budapest, Hungary. It currently plays in the Nemzeti Bajnokság III – Southeast, the third tier of Hungarian football. The team's colors are red and black.",
+    "source": "https://en.wikipedia.org/wiki/Kispest-Honv%C3%A9d_FC_II",
+    "status": "draft"
+  },
+  "Q5113698": {
+    "text": "Chrobry Głogów is a Polish football club based in Głogów, Poland. It was founded in 1946. The team's official colors are blue, orange, black and green. Chrobry currently competes in I liga, the second tier of Polish league football.",
+    "source": "https://en.wikipedia.org/wiki/Chrobry_G%C5%82og%C3%B3w",
     "status": "draft"
   },
   "Q5424871": {
@@ -2229,9 +3679,54 @@
     "source": "https://en.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te",
     "status": "draft"
   },
+  "Q5424959": {
+    "text": "FC Helsingør is a Danish professional football club based in Helsingør. The club plays in the Danish 3rd Division, the fourth tier of the Danish football league system.",
+    "source": "https://en.wikipedia.org/wiki/FC_Helsing%C3%B8r",
+    "status": "draft"
+  },
   "Q5425216": {
     "text": "Asociația Fotbal Club Unirea 04 Slobozia,, commonly known as Unirea Slobozia or simply as Unirea, is a Romanian professional football club based in Slobozia, Ialomița County, which competes in Liga II, the second tier of Romanian football.",
     "source": "https://en.wikipedia.org/wiki/AFC_Unirea_Slobozia",
+    "status": "draft"
+  },
+  "Q5426069": {
+    "text": "FK Bačinci was a football club based in Bačinci, Vojvodina, Serbia. They achieved their best results under the sponsorship name Big Bull, before merging with Radnički Šid in 2010.",
+    "source": "https://en.wikipedia.org/wiki/FK_Ba%C4%8Dinci",
+    "status": "draft"
+  },
+  "Q5426189": {
+    "text": "Fudbalski klub Jedinstvo Putevi is a football club based in Užice, Serbia.",
+    "source": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Putevi",
+    "status": "draft"
+  },
+  "Q5426249": {
+    "text": "FK Mladost Novi Sad is a professional football club based in Novi Sad, Vojvodina, Serbia.",
+    "source": "https://en.wikipedia.org/wiki/FK_Mladost_Novi_Sad",
+    "status": "draft"
+  },
+  "Q5426356": {
+    "text": "FK Radnik Surdulica is a professional football club based in Surdulica, Serbia. They compete in the Serbian SuperLiga, the top tier of Serbian football.",
+    "source": "https://en.wikipedia.org/wiki/FK_Radnik_Surdulica",
+    "status": "draft"
+  },
+  "Q5426363": {
+    "text": "FK Radnički Nova Pazova is a football club based in Nova Pazova, Vojvodina, Serbia. They compete in the Vojvodina League South, the fourth tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_Nova_Pazova",
+    "status": "draft"
+  },
+  "Q5426474": {
+    "text": "FK Zlatibor Čajetina is a football club based in Čajetina, Serbia. They compete in the Serbian League West, the third tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Zlatibor_%C4%8Cajetina",
+    "status": "draft"
+  },
+  "Q5444064": {
+    "text": "Ferencvárosi TC II is a Hungarian football club located in Budapest, Hungary. It currently plays in Nemzeti Bajnokság III. The team's colors are white and green.",
+    "source": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC_II",
+    "status": "draft"
+  },
+  "Q5625686": {
+    "text": "Győri ETO FC II is the second team of Győri ETO FC and this year they play in the Western group of the Hungarian National Championship II.",
+    "source": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC_II",
     "status": "draft"
   },
   "Q5773365": {
@@ -2249,9 +3744,84 @@
     "source": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
     "status": "draft"
   },
+  "Q6954589": {
+    "text": "Nogometni Klub Rudeš, commonly referred to as NK Rudeš, is a Croatian football club founded in 1957 in Zagreb's neighbourhood of Rudeš. The club competes in Croatian Football League, the top tier of Croatian football.",
+    "source": "https://en.wikipedia.org/wiki/NK_Rude%C5%A1",
+    "status": "draft"
+  },
+  "Q7103862": {
+    "text": "Orosháza FC was a football club from Orosháza, Hungary. The club played in the Hungarian second division on several occasions, most recently being relegated in 2013.",
+    "source": "https://en.wikipedia.org/wiki/Orosh%C3%A1za_FC",
+    "status": "draft"
+  },
+  "Q7482049": {
+    "text": "Strømsgodset Toppfotball is a Norwegian professional football club based in Gulskogen, Drammen, competing in the Norwegian First Division. It is part of the multi-sports club Strømsgodset IF, founded on February 10, 1907.",
+    "source": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball",
+    "status": "draft"
+  },
+  "Q9158590": {
+    "text": "Nogometni Klub Zelina is a Croatian football club based in the town of Sveti Ivan Zelina. Zelina competed in the 4. HNL in the 2018–19 season.",
+    "source": "https://en.wikipedia.org/wiki/NK_Zelina",
+    "status": "draft"
+  },
+  "Q9181272": {
+    "text": "Budafoki Munkás Testedző Egyesület is a Hungarian football club from the town of Budafok, Budapest, Hungary. The club currently plays in the Nemzeti Bajnokság III.",
+    "source": "https://en.wikipedia.org/wiki/Budafoki_MTE",
+    "status": "draft"
+  },
+  "Q9186186": {
+    "text": "NK Sesvete is a Croatian football club based in the Sesvete district of the city of Zagreb.",
+    "source": "https://en.wikipedia.org/wiki/NK_Sesvete",
+    "status": "draft"
+  },
+  "Q9257379": {
+    "text": "FK Sloga 33 is a football club based in Petrovac, Serbia. They compete in the Braničevo District League, the fifth tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Sloga_33",
+    "status": "draft"
+  },
+  "Q9257386": {
+    "text": "FK Tekstilac Odžaci is a professional football club based in Odžaci, Vojvodina, Serbia. They compete in the Serbian First League, the second tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_Tekstilac_Od%C5%BEaci",
+    "status": "draft"
+  },
+  "Q11492669": {
+    "text": "AaB, internationally referred to commonly as Aalborg BK, and occasionally referred to as AaB Aalborg, is a professional football club based in Aalborg, Denmark. The club currently competes in the Danish 1st Division, the second tier of Danish football. AaB is one of the oldest and most historically significant clubs in Danish football, having been founded on 13 May 1885.",
+    "source": "https://en.wikipedia.org/wiki/AaB_Fodbold",
+    "status": "draft"
+  },
+  "Q12106319": {
+    "text": "FC Ahrobiznes Volochysk is an association football club from Volochysk, Khmelnytskyi Oblast, competing in the Ukrainian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ahrobiznes_Volochysk",
+    "status": "draft"
+  },
+  "Q12637540": {
+    "text": "NK Bistra is a Croatian football club based in Donja Bistra, village part of Bistra municipality, located just north-west of the Croatian capital Zagreb.",
+    "source": "https://en.wikipedia.org/wiki/NK_Bistra",
+    "status": "draft"
+  },
+  "Q12637744": {
+    "text": "NK Novigrad is a Croatian association football club founded in 1947 and based in the town of Novigrad in Istria County. It currently plays in the Istrian Third Football League.",
+    "source": "https://en.wikipedia.org/wiki/NK_Novigrad",
+    "status": "draft"
+  },
   "Q12723169": {
     "text": "Club Sportiv Afumați, commonly known as CS Afumați or simply as Afumați, is a Romanian football club based in Afumați, Ilfov County, currently playing in the Liga II.",
     "source": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi",
+    "status": "draft"
+  },
+  "Q12760457": {
+    "text": "FK Železničar Pančevo is a professional football club based in Pančevo, Vojvodina, Serbia. They compete in the Serbian SuperLiga, the top tier of the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FK_%C5%BDelezni%C4%8Dar_Pan%C4%8Devo",
+    "status": "draft"
+  },
+  "Q12872753": {
+    "text": "The Athletic Progressive Club Hellas Syros is a Greek football club based in Ermoupolis, Syros. It was founded in 1929 but was officially recognized as a club by the HFF in 1946 under the name \"Progressive Association of Fans Hellas\". Its official colors are blue and white, and its emblem is the Flag of Greece.",
+    "source": "https://en.wikipedia.org/wiki/Hellas_Syros_F.C.",
+    "status": "draft"
+  },
+  "Q13463676": {
+    "text": "FC Obolon Kyiv is a Ukrainian professional football club based in Kyiv. Its home colors are green shirts and white shorts; while its away uniforms are white shirts and green shorts. Its main sponsor was the brewery Obolon in 1999–2013.",
+    "source": "https://en.wikipedia.org/wiki/FC_Obolon_Kyiv",
     "status": "draft"
   },
   "Q13534332": {
@@ -2264,6 +3834,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Twente",
     "status": "draft"
   },
+  "Q14536517": {
+    "text": "Vendsyssel Forenede Fodboldklubber is a professional football club based in Hjørring, Denmark. The team competes in the Danish 1st Division, the second tier of the Danish football league system. The club plays home matches at Nord Energi Arena, which has a capacity of 7,500.",
+    "source": "https://en.wikipedia.org/wiki/Vendsyssel_FF",
+    "status": "draft"
+  },
   "Q14551982": {
     "text": "SSV Ulm 1846 FUSSBALL e.V., commonly known as SSV Ulm 1846 or SSV Ulm, is a German football club based in Ulm, Baden-Württemberg. SSV Ulm 1846 FUSSBALL was formed on 7 March 2009 as new independent club through the separation of the football department from the present-day multi-sports club SSV Ulm 1846 e.V. The team currently plays in Regionalliga Südwest, following back-to-back relegations from both the 2.",
     "source": "https://en.wikipedia.org/wiki/SSV_Ulm_1846",
@@ -2274,9 +3849,24 @@
     "source": "https://en.wikipedia.org/wiki/SV_Lafnitz",
     "status": "draft"
   },
+  "Q15309584": {
+    "text": "Gymnastikos Syllogos Marko Markopoulou is a Greek football club based in Markopoulo Mesogeas. Its official founding year is 1927. Its official colors are green and white.",
+    "source": "https://en.wikipedia.org/wiki/Marko_1927_F.C.",
+    "status": "draft"
+  },
   "Q15966154": {
     "text": "Fundación Albacete is the women's football section of Albacete Balompié. Founded in 2004 they reached the Spanish league's top division in 2014.",
     "source": "https://en.wikipedia.org/wiki/Fundaci%C3%B3n_Albacete",
+    "status": "draft"
+  },
+  "Q16110505": {
+    "text": "NK Kustošija is a Croatian professional football club based in Zagreb, which currently competes in the Prva NL, the second level of Croatian football league system. Kustošija's home ground is the Kustošija Stadium in Zagreb, which has a capacity of 2,550 spectators. It was founded in 1929.",
+    "source": "https://en.wikipedia.org/wiki/NK_Kusto%C5%A1ija",
+    "status": "draft"
+  },
+  "Q16245443": {
+    "text": "A.E. Kifisia Football Club is a Greek professional football club based in Kifissia, a suburban town in the Athens agglomeration, Greece. It was founded in 2012 after the merger of A.O. Kifisia and A.O.K. Elpidoforos.",
+    "source": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C.",
     "status": "draft"
   },
   "Q16838020": {
@@ -2284,9 +3874,19 @@
     "source": "https://en.wikipedia.org/wiki/CS_Universitatea_Craiova",
     "status": "draft"
   },
+  "Q16845757": {
+    "text": "Nestos Chrysoupoli Football Club is a Greek football club based in Chrysoupoli, Kavala, Greece.",
+    "source": "https://en.wikipedia.org/wiki/Nestos_Chrysoupoli_F.C.",
+    "status": "draft"
+  },
   "Q16848949": {
     "text": "Cesena Football Club is an Italian professional football club based in Cesena, Emilia-Romagna. It currently plays in the Serie B, after promotion from the Serie C in 2023–24. It has claimed to be the phoenix club of AC Cesena since 2018, the year that the club folded.",
     "source": "https://en.wikipedia.org/wiki/Cesena_FC",
+    "status": "draft"
+  },
+  "Q16958147": {
+    "text": "Nogometni klub Varaždin, commonly referred to as NK Varaždin, is a Croatian professional football club based in Varaždin. They compete in the Croatian Football League (HNL), the top tier of Croatian football.",
+    "source": "https://en.wikipedia.org/wiki/NK_Vara%C5%BEdin_(2012)",
     "status": "draft"
   },
   "Q17524289": {
@@ -2309,9 +3909,34 @@
     "source": "https://en.wikipedia.org/wiki/%C3%87orum_F.K.",
     "status": "draft"
   },
+  "Q19861407": {
+    "text": "Kisvárda Football Club is a Hungarian football club located in Kisvárda. It currently plays in Nemzeti Bajnokság I. The team's colors are red and white.",
+    "source": "https://en.wikipedia.org/wiki/Kisv%C3%A1rda_FC",
+    "status": "draft"
+  },
+  "Q20073460": {
+    "text": "Football Club Inhulets Petrove is a professional Ukrainian football club from the town of Petrove, Kirovohrad Oblast that competes in the Ukrainian First League. The club colours are yellow and red.",
+    "source": "https://en.wikipedia.org/wiki/FC_Inhulets_Petrove",
+    "status": "draft"
+  },
+  "Q20077871": {
+    "text": "FC Kolos Kovalivka is a Ukrainian professional football club from the village of Kovalivka, Kyiv Oblast which competes in the Ukrainian Premier League, having been promoted from the Ukrainian First League on the 8 June 2019 for the first time in their history. The club colors are white and black. The club has three football teams including women and youth.",
+    "source": "https://en.wikipedia.org/wiki/FC_Kolos_Kovalivka",
+    "status": "draft"
+  },
   "Q20429561": {
     "text": "Asociația Club Sportiv Sepsi OSK Sfântu Gheorghe, commonly known as Sepsi OSK, Sepsi Sfântu Gheorghe, or simply Sepsi, is a Romanian professional football club based in Sfântu Gheorghe, Covasna County, that competes in the Liga I.",
     "source": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe",
+    "status": "draft"
+  },
+  "Q20438735": {
+    "text": "Cigánd SE is a Hungarian football club based in Cigánd, Hungary.They play their home games at the Cigándi Sportpálya.",
+    "source": "https://en.wikipedia.org/wiki/Cig%C3%A1nd_SE",
+    "status": "draft"
+  },
+  "Q20439445": {
+    "text": "Mosonmagyaróvári Torna Egylet are a Hungarian association football club from the town of Mosonmagyaróvár, who play in the Hungarian Nemzeti Bajnokság III.",
+    "source": "https://en.wikipedia.org/wiki/Mosonmagyar%C3%B3v%C3%A1ri_TE",
     "status": "draft"
   },
   "Q20472948": {
@@ -2334,9 +3959,59 @@
     "source": "https://en.wikipedia.org/wiki/Jong_FC_Utrecht",
     "status": "draft"
   },
+  "Q24074158": {
+    "text": "Klub Sportowy Cracovia Spółka Akcyjna, commonly referred to as Cracovia, is a Polish professional football club based in Kraków. The club is five-time Polish champion, besides being the inaugural Polish champion, winner of the Polish Cup and the Polish Super Cup in 2020. Founded in 1906, Cracovia is the oldest Polish club still in existence.",
+    "source": "https://en.wikipedia.org/wiki/KS_Cracovia",
+    "status": "draft"
+  },
+  "Q25436464": {
+    "text": "FC VPK-Ahro was a Ukrainian professional club from Shevchenkivka, Novomoskovsk Raion.",
+    "source": "https://en.wikipedia.org/wiki/FC_VPK-Ahro_Shevchenkivka",
+    "status": "draft"
+  },
+  "Q25446408": {
+    "text": "FC Epitsentr Kamianets-Podilskyi is a professional Ukrainian football club from the city of Kamianets-Podilskyi. The club's name \"Epitsentr\" is after the Ukrainian brand of home improvement wholesale stores Epitsentr K. Besides football, the Dunaivtsi club also fields its professional futsal team Verest.",
+    "source": "https://en.wikipedia.org/wiki/FC_Epitsentr_Kamianets-Podilskyi",
+    "status": "draft"
+  },
+  "Q25535620": {
+    "text": "PAS Pyrgos 1968 is a Greek football club based in Pyrgos. The club operates men's and women's football departments, as well as a futsal section.",
+    "source": "https://en.wikipedia.org/wiki/PAS_Pyrgos_1968",
+    "status": "draft"
+  },
+  "Q28704136": {
+    "text": "Football Club Kharkiv, formerly FC Metalist 1925 Kharkiv is a professional football club from Kharkiv, Ukraine. Founded in 2016, the club plays in the Ukrainian Premier League, the top tier of Ukrainian football after promotion from the Ukrainian First League in 2024–25. Their home stadium is the Metalist State Sports Complex, with 40,003 capacity.",
+    "source": "https://en.wikipedia.org/wiki/FC_Kharkiv",
+    "status": "draft"
+  },
+  "Q30962897": {
+    "text": "Football Club Uzhhorod is a Ukrainian professional football club from Uzhhorod previously competing in the regional competitions of Zakarpattia Oblast and Ukrainian amateur competitions. Reactivated in 2024, FC Uzhhorod was reestablished on FC FCI Uzhhorod.",
+    "source": "https://en.wikipedia.org/wiki/FC_Uzhhorod",
+    "status": "draft"
+  },
+  "Q31198354": {
+    "text": "HNK Vukovar 1991 is a professional Croatian football club based in Vukovar. The club currently plays in the First Football League, the second tier of Croatian football, following relegation from the 2025–26 Croatian Football League.",
+    "source": "https://en.wikipedia.org/wiki/HNK_Vukovar_1991",
+    "status": "draft"
+  },
   "Q37855796": {
     "text": "Asociația Fotbal Club Metalul Buzău, commonly known as Metalul Buzău, is a Romanian professional football club based in the city of Buzău, Buzău County, that competes in the Liga II.",
     "source": "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u",
+    "status": "draft"
+  },
+  "Q43375974": {
+    "text": "New Football Club \"Volos\", also known as Volos Elabet for sponsorship reasons, is a Greek professional football club based in Volos, Magnesia, Greece. The club currently competes in the Super League, the first tier of football in Greece. Volos plays its home matches at the Panthessaliko Stadium.",
+    "source": "https://en.wikipedia.org/wiki/Volos_F.C.",
+    "status": "draft"
+  },
+  "Q54877936": {
+    "text": "FC Mynai is a Ukrainian professional football club from Mynai, a suburb of Uzhhorod in Zakarpattia Oblast. In July 2025 the club announced it had withdrawn from playing professional football for the time being while claiming \"we will do everything in our power to return.\"",
+    "source": "https://en.wikipedia.org/wiki/FC_Mynai",
+    "status": "draft"
+  },
+  "Q55189861": {
+    "text": "Football Club LNZ Cherkasy is a Ukrainian professional football club based in Cherkasy. They currently play in Ukrainian Premier League, the top tier of Ukrainian football. The club is owned by LNZ Group.",
+    "source": "https://en.wikipedia.org/wiki/FC_LNZ_Cherkasy",
     "status": "draft"
   },
   "Q55593565": {
@@ -2364,9 +4039,24 @@
     "source": "https://en.wikipedia.org/wiki/B-SAD",
     "status": "draft"
   },
+  "Q61373501": {
+    "text": "Football Club Alians was a Ukrainian football club based in Lypova Dolyna, Sumy Oblast, in north-eastern Ukraine, founded in 2016. The club last competed in the Ukrainian First League following promotion from the 2019–20 Ukrainian Second League. Alians's home field is Yuvileiny Stadium in Sumy.",
+    "source": "https://en.wikipedia.org/wiki/FC_Alians_Lypova_Dolyna",
+    "status": "draft"
+  },
   "Q66424141": {
     "text": "Club Sportiv Comunal 1599 Șelimbăr, commonly known as 1599 Șelimbăr or simply as Șelimbăr, is a Romanian football club based in Șelimbăr, Sibiu County, currently playing in the Liga II.",
     "source": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r",
+    "status": "draft"
+  },
+  "Q86677609": {
+    "text": "Wieczysta Kraków is a Polish football club, based in Kraków. As of the 2026–27 season, they compete in the Ekstraklasa, after winning the 2025–26 I liga promotion play-offs.",
+    "source": "https://en.wikipedia.org/wiki/Wieczysta_Krak%C3%B3w",
+    "status": "draft"
+  },
+  "Q98656510": {
+    "text": "Football Club Metalist Kharkiv, also known as Football Club Metalist Kharkov or FC Metalist Kharkov, is a Ukrainian professional football club based in Kharkiv that plays in the Ukrainian First League during the 2023–24 season. It was revived five years after the original FC Metalist Kharkiv ceased operations.",
+    "source": "https://en.wikipedia.org/wiki/FC_Metalist_Kharkiv",
     "status": "draft"
   },
   "Q101625593": {
@@ -2374,9 +4064,34 @@
     "source": "https://en.wikipedia.org/wiki/Club_NXT",
     "status": "draft"
   },
+  "Q104841018": {
+    "text": "FC Kryvbas Kryvyi Rih is a Ukrainian professional football club based in Kryvyi Rih.",
+    "source": "https://en.wikipedia.org/wiki/FC_Kryvbas_Kryvyi_Rih",
+    "status": "draft"
+  },
+  "Q107466898": {
+    "text": "Football Club Livyi Bereh Kyiv is a Ukrainian professional football club from Kyiv Oblast. The club is based at the Kyiv's Osokorky neighborhood located at the left-bank of Dnipro. It hosts its games in the Kyiv's suburb of Hnidyn, just outside of the city limits.",
+    "source": "https://en.wikipedia.org/wiki/FC_Livyi_Bereh_Kyiv",
+    "status": "draft"
+  },
+  "Q107653964": {
+    "text": "Sport Club Poltava is a professional Ukrainian football club from the city of Poltava. The club will play in the Ukrainian First League in 2026-27, following relegation from the Ukrainian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/SC_Poltava",
+    "status": "draft"
+  },
   "Q115476719": {
     "text": "Royal Standard de Liège, commonly referred to as Standard Liège, is a Belgian professional football club based in the city of Liège.",
     "source": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
+    "status": "draft"
+  },
+  "Q116950171": {
+    "text": "Nordic United FC is a Swedish professional football club located in Södertälje. They currently play in Superettan, the second tier of Swedish football, after promotion from Ettan in 2025.",
+    "source": "https://en.wikipedia.org/wiki/Nordic_United_FC",
+    "status": "draft"
+  },
+  "Q120458868": {
+    "text": "Football Club Kudrivka is a Ukrainian professional football club based in Kudrivka, Chernihiv Oblast. They currently play in the Ukrainian Premier League, the top tier of Ukrainian football, after promotion from the Ukrainian First League in 2025.",
+    "source": "https://en.wikipedia.org/wiki/FC_Kudrivka",
     "status": "draft"
   },
   "Q120775987": {

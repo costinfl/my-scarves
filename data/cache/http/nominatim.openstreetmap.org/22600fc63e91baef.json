@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.685556&lon=17.873889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":182865569,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1016172593,\"lat\":\"50.6857725\",\"lon\":\"17.8740970\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.624628061336717e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Leonarda Olejnika, Półwieś, Opole, województwo opolskie, 45-835, Polska\",\"address\":{\"road\":\"Leonarda Olejnika\",\"suburb\":\"Półwieś\",\"city\":\"Opole\",\"state\":\"województwo opolskie\",\"ISO3166-2-lvl4\":\"PL-16\",\"postcode\":\"45-835\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.6852314\",\"50.6863090\",\"17.8734326\",\"17.8747628\"]}",
+  "fetchedAt": "2026-10-14T07:54:32.588Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.413333&lon=16.197500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":180839301,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":12128389,\"lat\":\"51.4139253\",\"lon\":\"16.1991031\",\"category\":\"building\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.799420157163375e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"98, Marii Skłodowskiej-Curie, Stary Lubin, Lubin, powiat lubiński, województwo dolnośląskie, 59-300, Polska\",\"address\":{\"house_number\":\"98\",\"road\":\"Marii Skłodowskiej-Curie\",\"suburb\":\"Stary Lubin\",\"town\":\"Lubin\",\"county\":\"powiat lubiński\",\"state\":\"województwo dolnośląskie\",\"ISO3166-2-lvl4\":\"PL-02\",\"postcode\":\"59-300\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"51.4130598\",\"51.4148242\",\"16.1969017\",\"16.1995211\"]}",
+  "fetchedAt": "2026-10-14T07:54:53.134Z"
+}

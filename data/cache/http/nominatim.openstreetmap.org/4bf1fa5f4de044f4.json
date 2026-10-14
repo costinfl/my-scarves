@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.675745&lon=14.016387&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":133811825,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":162656137,\"lat\":\"50.6757736\",\"lon\":\"14.0164062\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.42092011901582e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Masarykova, U stadionů, Klíše, Ústí nad Labem-město, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 400 01, Česko\",\"address\":{\"road\":\"Masarykova\",\"neighbourhood\":\"U stadionů\",\"suburb\":\"Klíše\",\"borough\":\"Ústí nad Labem-město\",\"city\":\"Ústí nad Labem\",\"county\":\"okres Ústí nad Labem\",\"ISO3166-2-lvl5\":\"CZ-427\",\"state\":\"Ústecký kraj\",\"ISO3166-2-lvl4\":\"CZ-42\",\"postcode\":\"400 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.6751906\",\"50.6763459\",\"14.0155074\",\"14.0173085\"]}",
+  "fetchedAt": "2026-10-14T07:52:13.638Z"
+}

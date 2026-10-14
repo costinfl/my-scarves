@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.615610&lon=22.399490&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55186490,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":210114002,\"lat\":\"39.6153970\",\"lon\":\"22.3993543\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.445181963831567e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Περιφερειακή Οδός Λάρισας, Ηπειρώτικα, Λάρισα, Δημοτική Ενότητα Λαρισαίων, Δήμος Λαρισαίων, Περιφερειακή Ενότητα Λάρισας, Περιφέρεια Θεσσαλίας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 411 10, Ελλάς\",\"address\":{\"road\":\"Περιφερειακή Οδός Λάρισας\",\"neighbourhood\":\"Ηπειρώτικα\",\"city\":\"Λάρισα\",\"municipality\":\"Δήμος Λαρισαίων\",\"county\":\"Περιφερειακή Ενότητα Λάρισας\",\"state\":\"Περιφέρεια Θεσσαλίας\",\"ISO3166-2-lvl5\":\"GR-E\",\"postcode\":\"411 10\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"39.6148345\",\"39.6159595\",\"22.3989009\",\"22.3998077\"]}",
+  "fetchedAt": "2026-10-14T07:52:58.991Z"
+}

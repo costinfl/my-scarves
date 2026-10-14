@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.562004&lon=19.684067&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":176414207,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":174324890,\"lat\":\"52.5619809\",\"lon\":\"19.6842443\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.596856641484729e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"7 Czerwca 1991 r., Osiedle Łukasiewicza, Płock, województwo mazowieckie, 09-418, Polska\",\"address\":{\"road\":\"7 Czerwca 1991 r.\",\"neighbourhood\":\"Osiedle Łukasiewicza\",\"city\":\"Płock\",\"state\":\"województwo mazowieckie\",\"ISO3166-2-lvl4\":\"PL-14\",\"postcode\":\"09-418\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"52.5614530\",\"52.5625086\",\"19.6835841\",\"19.6849043\"]}",
+  "fetchedAt": "2026-10-14T07:54:52.050Z"
+}

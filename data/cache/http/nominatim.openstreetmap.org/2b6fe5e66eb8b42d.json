@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.065500&lon=17.471400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185947756,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":53373892,\"lat\":\"49.0655369\",\"lon\":\"17.4714258\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.153124284728798e-05,\"addresstype\":\"leisure\",\"name\":\"Městský fotbalový stadion Miroslava Valenty\",\"display_name\":\"Městský fotbalový stadion Miroslava Valenty, Stonky, Mařatice, Uherské Hradiště, okres Uherské Hradiště, Zlínský kraj, 687 01, Česko\",\"address\":{\"leisure\":\"Městský fotbalový stadion Miroslava Valenty\",\"road\":\"Stonky\",\"suburb\":\"Mařatice\",\"town\":\"Uherské Hradiště\",\"district\":\"okres Uherské Hradiště\",\"ISO3166-2-lvl5\":\"CZ-722\",\"state\":\"Zlínský kraj\",\"ISO3166-2-lvl4\":\"CZ-72\",\"postcode\":\"687 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.0648688\",\"49.0661360\",\"17.4706505\",\"17.4722296\"]}",
+  "fetchedAt": "2026-10-14T07:51:49.824Z"
+}

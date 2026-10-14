@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.679100&lon=21.428200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56071957,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":95034800,\"lat\":\"37.6790304\",\"lon\":\"21.4281806\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.25876906166717667,\"addresstype\":\"leisure\",\"name\":\"Δημοτικό Στάδιο Πύργου\",\"display_name\":\"Δημοτικό Στάδιο Πύργου, Πατρών, Συντριάδα, Τραγανό, Λαστέικα, Δήμος Πύργου, Περιφερειακή Ενότητα Ηλείας, Περιφέρεια Δυτικής Ελλάδας, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 271 00, Ελλάς\",\"address\":{\"leisure\":\"Δημοτικό Στάδιο Πύργου\",\"road\":\"Πατρών\",\"neighbourhood\":\"Συντριάδα\",\"suburb\":\"Τραγανό\",\"village\":\"Λαστέικα\",\"city\":\"Δήμος Πύργου\",\"county\":\"Περιφερειακή Ενότητα Ηλείας\",\"state\":\"Περιφέρεια Δυτικής Ελλάδας\",\"ISO3166-2-lvl5\":\"GR-G\",\"postcode\":\"271 00\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.6784934\",\"37.6795613\",\"21.4275773\",\"21.4287795\"]}",
+  "fetchedAt": "2026-10-14T07:53:15.237Z"
+}

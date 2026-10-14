@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.211111&lon=9.589722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":162687690,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":264311515,\"lat\":\"59.2114504\",\"lon\":\"9.5899759\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"Skagerak Arena\",\"display_name\":\"Skagerak Arena, Hjalmar Johansens gate, Falkum, Gulset, Skien, Telemark, 3722, Norge\",\"address\":{\"leisure\":\"Skagerak Arena\",\"road\":\"Hjalmar Johansens gate\",\"quarter\":\"Falkum\",\"suburb\":\"Gulset\",\"city\":\"Skien\",\"municipality\":\"Skien\",\"county\":\"Telemark\",\"ISO3166-2-lvl4\":\"NO-40\",\"postcode\":\"3722\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.2108775\",\"59.2120232\",\"9.5890744\",\"9.5908773\"]}",
+  "fetchedAt": "2026-10-14T07:54:00.301Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.261359&lon=9.487791&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":150324962,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":149407785,\"lat\":\"55.2613330\",\"lon\":\"9.4877167\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.36315663276805743,\"addresstype\":\"leisure\",\"name\":\"Sydbank Park\",\"display_name\":\"Sydbank Park, Gymnasiestien, Haderslev, Haderslev Kommune, Region Syddanmark, 6100, Danmark\",\"address\":{\"leisure\":\"Sydbank Park\",\"road\":\"Gymnasiestien\",\"town\":\"Haderslev\",\"municipality\":\"Haderslev Kommune\",\"state\":\"Region Syddanmark\",\"ISO3166-2-lvl4\":\"DK-83\",\"postcode\":\"6100\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.2607878\",\"55.2618781\",\"9.4870160\",\"9.4884175\"]}",
+  "fetchedAt": "2026-10-14T07:52:48.012Z"
+}

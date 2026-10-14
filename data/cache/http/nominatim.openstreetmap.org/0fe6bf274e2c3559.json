@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.465833&lon=10.010278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":164115191,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":89929362,\"lat\":\"56.4658987\",\"lon\":\"10.0102970\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.117418173490528e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vester Boulevard, Helsted, Randers, Randers Kommune, Region Midtjylland, 8900, Danmark\",\"address\":{\"road\":\"Vester Boulevard\",\"suburb\":\"Helsted\",\"city\":\"Randers\",\"municipality\":\"Randers Kommune\",\"state\":\"Region Midtjylland\",\"ISO3166-2-lvl4\":\"DK-82\",\"postcode\":\"8900\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"56.4653144\",\"56.4664828\",\"10.0093537\",\"10.0112404\"]}",
+  "fetchedAt": "2026-10-14T07:52:45.820Z"
+}

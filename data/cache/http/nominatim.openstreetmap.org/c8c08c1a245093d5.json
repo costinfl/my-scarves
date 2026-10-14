@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.083611&lon=14.444444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":132408876,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":24730737,\"lat\":\"50.0839079\",\"lon\":\"14.4446037\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.434958419160781e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"U Viktorie, Žižkov, obvod Praha 3, Praha, 120 09, Česko\",\"address\":{\"road\":\"U Viktorie\",\"suburb\":\"Žižkov\",\"city_district\":\"obvod Praha 3\",\"city\":\"Praha\",\"ISO3166-2-lvl4\":\"CZ-10\",\"postcode\":\"120 09\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.0834022\",\"50.0844137\",\"14.4436776\",\"14.4455297\"]}",
+  "fetchedAt": "2026-10-14T07:52:15.750Z"
+}

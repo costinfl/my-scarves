@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.234762&lon=16.607117&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":67259488,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":12181151,\"lat\":\"47.2349342\",\"lon\":\"16.6069321\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":0.3649233439058235,\"addresstype\":\"leisure\",\"name\":\"Haladás Sportkomplexum\",\"display_name\":\"Haladás Sportkomplexum, 3, Rohonci út, Északi városrész, Szombathely, Szombathelyi járás, Vas megye, Dunántúl, 9700, Magyarország\",\"address\":{\"leisure\":\"Haladás Sportkomplexum\",\"house_number\":\"3\",\"road\":\"Rohonci út\",\"suburb\":\"Északi városrész\",\"city\":\"Szombathely\",\"ISO3166-2-lvl8\":\"HU-SH\",\"municipality\":\"Szombathelyi járás\",\"county\":\"Vas megye\",\"ISO3166-2-lvl6\":\"HU-VA\",\"region\":\"Dunántúl\",\"postcode\":\"9700\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.2341523\",\"47.2357110\",\"16.6066162\",\"16.6086474\"]}",
+  "fetchedAt": "2026-10-14T07:53:39.361Z"
+}

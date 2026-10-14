@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.713720&lon=9.556200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":150040703,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":630717477,\"lat\":\"55.7137200\",\"lon\":\"9.5561780\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.153429465166732e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Roms Hule, Lille Grundet, Vejle, Vejle Kommune, Region Syddanmark, 7100, Danmark\",\"address\":{\"road\":\"Roms Hule\",\"suburb\":\"Lille Grundet\",\"city\":\"Vejle\",\"municipality\":\"Vejle Kommune\",\"state\":\"Region Syddanmark\",\"ISO3166-2-lvl4\":\"DK-83\",\"postcode\":\"7100\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.7133590\",\"55.7140810\",\"9.5552739\",\"9.5570821\"]}",
+  "fetchedAt": "2026-10-14T07:52:49.211Z"
+}

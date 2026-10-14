@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.502676&lon=22.388678&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56108205,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":31533149,\"lat\":\"37.5025165\",\"lon\":\"22.3884569\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.031204699774193e-05,\"addresstype\":\"leisure\",\"name\":\"Asteras Tripolis FC\",\"display_name\":\"Asteras Tripolis FC, Σταματίου Βούλγαρη, Συνοικισμός Κολοκοτρώνη, Κοινότητα Τριπόλεως, Δημοτική Ενότητα Τρίπολης, Δήμος Τρίπολης, Περιφερειακή Ενότητα Αρκαδίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 221 32, Ελλάς\",\"address\":{\"leisure\":\"Asteras Tripolis FC\",\"road\":\"Σταματίου Βούλγαρη\",\"quarter\":\"Συνοικισμός Κολοκοτρώνη\",\"city_district\":\"Κοινότητα Τριπόλεως\",\"city\":\"Δημοτική Ενότητα Τρίπολης\",\"municipality\":\"Δήμος Τρίπολης\",\"county\":\"Περιφερειακή Ενότητα Αρκαδίας\",\"state\":\"Περιφέρεια Πελοποννήσου\",\"ISO3166-2-lvl5\":\"GR-J\",\"postcode\":\"221 32\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.5019398\",\"37.5030932\",\"22.3877038\",\"22.3892100\"]}",
+  "fetchedAt": "2026-10-14T07:52:56.409Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.750000&lon=13.385556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":130770664,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":51167490,\"lat\":\"49.7500150\",\"lon\":\"13.3852597\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.940794995036267e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Štruncovy sady, Vnitřní Město, Plzeň 3, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 12, Česko\",\"address\":{\"road\":\"Štruncovy sady\",\"suburb\":\"Vnitřní Město\",\"city_district\":\"Plzeň 3\",\"city\":\"Plzeň\",\"district\":\"okres Plzeň-město\",\"ISO3166-2-lvl5\":\"CZ-323\",\"state\":\"Plzeňský kraj\",\"ISO3166-2-lvl4\":\"CZ-32\",\"region\":\"Jihozápad\",\"postcode\":\"301 12\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.7494584\",\"49.7505715\",\"13.3846317\",\"13.3858877\"]}",
+  "fetchedAt": "2026-10-14T07:51:59.026Z"
+}

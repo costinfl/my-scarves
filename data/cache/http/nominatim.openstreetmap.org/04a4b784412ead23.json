@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.306583&lon=18.695866&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":182150019,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":35043403,\"lat\":\"50.3066771\",\"lon\":\"18.6955257\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.44701304645917e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Leśna, Osiedle Millenium, Zatorze, Gliwice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 44-102, Polska\",\"address\":{\"road\":\"Leśna\",\"neighbourhood\":\"Osiedle Millenium\",\"suburb\":\"Zatorze\",\"city\":\"Gliwice\",\"state_district\":\"Górnośląsko-Zagłębiowska Metropolia\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"44-102\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.3061610\",\"50.3071915\",\"18.6949274\",\"18.6961254\"]}",
+  "fetchedAt": "2026-10-14T07:54:33.799Z"
+}

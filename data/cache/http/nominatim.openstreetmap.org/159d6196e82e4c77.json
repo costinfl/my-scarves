@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.776214&lon=15.049972&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":133859083,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":47625422,\"lat\":\"50.7762045\",\"lon\":\"15.0500139\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.833524071102491e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Luční, Staré Město, Nové Město, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 04, Česko\",\"address\":{\"road\":\"Luční\",\"neighbourhood\":\"Staré Město\",\"suburb\":\"Nové Město\",\"city_district\":\"nečleněný Liberec\",\"city\":\"Liberec\",\"district\":\"okres Liberec\",\"ISO3166-2-lvl5\":\"CZ-513\",\"state\":\"Liberecký kraj\",\"ISO3166-2-lvl4\":\"CZ-51\",\"postcode\":\"460 04\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.7756504\",\"50.7767571\",\"15.0490851\",\"15.0509429\"]}",
+  "fetchedAt": "2026-10-14T07:51:57.092Z"
+}

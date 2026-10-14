@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.288333&lon=18.973056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":183524040,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":19286809,\"lat\":\"50.2882424\",\"lon\":\"18.9735031\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.40230411230185e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aleja Skośna, Park Śląski, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-881, Polska\",\"address\":{\"road\":\"Aleja Skośna\",\"city_district\":\"Park Śląski\",\"city\":\"Chorzów\",\"state_district\":\"Górnośląsko-Zagłębiowska Metropolia\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"40-881\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.2877136\",\"50.2887712\",\"18.9728696\",\"18.9741366\"]}",
+  "fetchedAt": "2026-10-14T07:54:44.343Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.718889&lon=11.930833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":165376476,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":232908327,\"lat\":\"57.7191937\",\"lon\":\"11.9306782\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.775005722128661e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hjalmar Brantingsgatan, Rambergsstaden, Hisingen, Göteborg, Göteborgs Stad, Västra Götalands län, 417 12, Sverige\",\"address\":{\"road\":\"Hjalmar Brantingsgatan\",\"suburb\":\"Rambergsstaden\",\"city_district\":\"Hisingen\",\"city\":\"Göteborg\",\"municipality\":\"Göteborgs Stad\",\"county\":\"Västra Götalands län\",\"ISO3166-2-lvl4\":\"SE-O\",\"postcode\":\"417 12\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"57.7187764\",\"57.7196109\",\"11.9296807\",\"11.9316756\"]}",
+  "fetchedAt": "2026-10-14T07:55:24.039Z"
+}

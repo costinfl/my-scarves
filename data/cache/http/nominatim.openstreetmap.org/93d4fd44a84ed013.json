@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.240278&lon=19.381667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65026907,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":415764888,\"lat\":\"45.2403202\",\"lon\":\"19.3815709\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.839246204313752e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Дунавска обала, МЗ Дунав, Бачка Паланка, Општина Бачка Паланка, Јужнобачки управни округ, Војводина, 21400, Србија\",\"address\":{\"road\":\"Дунавска обала\",\"suburb\":\"МЗ Дунав\",\"town\":\"Бачка Паланка\",\"city\":\"Општина Бачка Паланка\",\"county\":\"Јужнобачки управни округ\",\"ISO3166-2-lvl6\":\"RS-06\",\"province\":\"Војводина\",\"ISO3166-2-lvl4\":\"RS-VO\",\"postcode\":\"21400\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"45.2398306\",\"45.2408099\",\"19.3811451\",\"19.3819966\"]}",
+  "fetchedAt": "2026-10-14T07:55:19.538Z"
+}
