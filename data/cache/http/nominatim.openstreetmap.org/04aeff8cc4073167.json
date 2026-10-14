@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.574892&lon=19.084650&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":66484295,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":237296694,\"lat\":\"47.5748706\",\"lon\":\"19.0846412\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.408560311279495e-05,\"addresstype\":\"leisure\",\"name\":\"Újpest FC\",\"display_name\":\"Újpest FC, Megyeri út, Károlyi Városnegyed, Újpest, IV. kerület, Budapest, 1044, Magyarország\",\"address\":{\"leisure\":\"Újpest FC\",\"road\":\"Megyeri út\",\"quarter\":\"Károlyi Városnegyed\",\"suburb\":\"Újpest\",\"borough\":\"IV. kerület\",\"city\":\"Budapest\",\"ISO3166-2-lvl8\":\"HU-BU\",\"county\":\"Budapest\",\"ISO3166-2-lvl6\":\"HU-BU\",\"postcode\":\"1044\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.5743070\",\"47.5754340\",\"19.0837338\",\"19.0855486\"]}",
+  "fetchedAt": "2026-10-14T07:53:40.439Z"
+}

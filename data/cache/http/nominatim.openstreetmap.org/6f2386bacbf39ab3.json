@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.893972&lon=12.511556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":165738664,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":10213367,\"lat\":\"56.8935122\",\"lon\":\"12.5111156\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.632028686956615e-05,\"addresstype\":\"leisure\",\"name\":\"Falcon alkoholfri Arena\",\"display_name\":\"Falcon alkoholfri Arena, 1, Kristineslättsallén, Kristineslätt, Skrea Strand, Falkenberg, Falkenbergs kommun, Hallands län, 311 46, Sverige\",\"address\":{\"leisure\":\"Falcon alkoholfri Arena\",\"house_number\":\"1\",\"road\":\"Kristineslättsallén\",\"neighbourhood\":\"Kristineslätt\",\"suburb\":\"Skrea Strand\",\"town\":\"Falkenberg\",\"municipality\":\"Falkenbergs kommun\",\"county\":\"Hallands län\",\"ISO3166-2-lvl4\":\"SE-N\",\"postcode\":\"311 46\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"56.8928589\",\"56.8944199\",\"12.5105320\",\"12.5132115\"]}",
+  "fetchedAt": "2026-10-14T07:55:27.120Z"
+}

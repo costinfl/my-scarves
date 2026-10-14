@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.277222&lon=19.103611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":183989618,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":194133217,\"lat\":\"50.2773278\",\"lon\":\"19.1036417\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.31685358968035e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kresowa, Stary Sosnowiec, Sosnowiec, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-209, Polska\",\"address\":{\"road\":\"Kresowa\",\"suburb\":\"Stary Sosnowiec\",\"city\":\"Sosnowiec\",\"state_district\":\"Górnośląsko-Zagłębiowska Metropolia\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"41-209\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.2768272\",\"50.2778283\",\"19.1030898\",\"19.1041935\"]}",
+  "fetchedAt": "2026-10-14T07:54:53.722Z"
+}

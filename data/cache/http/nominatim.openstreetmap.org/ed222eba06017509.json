@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.357558&lon=18.898717&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":183345221,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":130443056,\"lat\":\"50.3576534\",\"lon\":\"18.8991868\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.387350270843088e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Piłkarska, Dymitrow, Śródmieście, Bytom, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-902, Polska\",\"address\":{\"road\":\"Piłkarska\",\"neighbourhood\":\"Dymitrow\",\"city_district\":\"Śródmieście\",\"city\":\"Bytom\",\"state_district\":\"Górnośląsko-Zagłębiowska Metropolia\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"41-902\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.3572468\",\"50.3580600\",\"18.8983563\",\"18.9000173\"]}",
+  "fetchedAt": "2026-10-14T07:54:37.733Z"
+}

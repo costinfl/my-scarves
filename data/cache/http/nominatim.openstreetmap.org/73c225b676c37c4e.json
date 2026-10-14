@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.633300&lon=9.817030&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":162352200,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":966487280,\"lat\":\"56.6333240\",\"lon\":\"9.8170420\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":5.3688105592386016e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"22, Amerikavej, Kirkedal, Blåkildemølle, Vindø, Hobro, Mariagerfjord Kommune, Region Nordjylland, 9500, Danmark\",\"address\":{\"house_number\":\"22\",\"road\":\"Amerikavej\",\"neighbourhood\":\"Kirkedal\",\"quarter\":\"Blåkildemølle\",\"hamlet\":\"Vindø\",\"town\":\"Hobro\",\"municipality\":\"Mariagerfjord Kommune\",\"state\":\"Region Nordjylland\",\"ISO3166-2-lvl4\":\"DK-81\",\"postcode\":\"9500\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"56.6332740\",\"56.6333740\",\"9.8169920\",\"9.8170920\"]}",
+  "fetchedAt": "2026-10-14T07:52:38.209Z"
+}

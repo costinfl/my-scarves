@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.861565&lon=13.851561&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":78550058,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":162722044,\"lat\":\"44.8616062\",\"lon\":\"13.8514648\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.814297703512654e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ulica Marsovog polja, Pragrande, Mjesni odbor Gregovica, Pula, Grad Pula, Istarska županija, 52108, Hrvatska\",\"address\":{\"road\":\"Ulica Marsovog polja\",\"quarter\":\"Pragrande\",\"suburb\":\"Mjesni odbor Gregovica\",\"city_district\":\"Pula\",\"city\":\"Grad Pula\",\"county\":\"Istarska županija\",\"ISO3166-2-lvl4\":\"HR-18\",\"postcode\":\"52108\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"44.8609835\",\"44.8622289\",\"13.8507307\",\"13.8521988\"]}",
+  "fetchedAt": "2026-10-14T07:51:41.795Z"
+}

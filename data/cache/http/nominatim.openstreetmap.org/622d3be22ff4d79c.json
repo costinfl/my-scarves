@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.914902&lon=14.618924&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":133680496,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1197472425,\"lat\":\"50.9149027\",\"lon\":\"14.6189229\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.920424200804177e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Moravská, Varnsdorf, okres Děčín, Ústecký kraj, 470 47, Česko\",\"address\":{\"road\":\"Moravská\",\"town\":\"Varnsdorf\",\"county\":\"okres Děčín\",\"ISO3166-2-lvl5\":\"CZ-421\",\"state\":\"Ústecký kraj\",\"ISO3166-2-lvl4\":\"CZ-42\",\"postcode\":\"470 47\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.9143909\",\"50.9154146\",\"14.6183401\",\"14.6195058\"]}",
+  "fetchedAt": "2026-10-14T07:52:15.120Z"
+}

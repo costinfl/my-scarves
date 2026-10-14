@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.227162&lon=16.586276&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186161904,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":50676047,\"lat\":\"49.2272490\",\"lon\":\"16.5864903\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.446021210035886e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Srbská, Královo Pole, Brno-Královo Pole, Brno, okres Brno-město, Jihomoravský kraj, 612 00, Česko\",\"address\":{\"road\":\"Srbská\",\"suburb\":\"Královo Pole\",\"borough\":\"Brno-Královo Pole\",\"city\":\"Brno\",\"district\":\"okres Brno-město\",\"ISO3166-2-lvl5\":\"CZ-642\",\"state\":\"Jihomoravský kraj\",\"ISO3166-2-lvl4\":\"CZ-64\",\"postcode\":\"612 00\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.2265450\",\"49.2278240\",\"16.5857020\",\"16.5873710\"]}",
+  "fetchedAt": "2026-10-14T07:52:01.482Z"
+}

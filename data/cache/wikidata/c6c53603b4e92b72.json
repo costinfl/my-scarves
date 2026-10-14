@@ -1,0 +1,227 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q163046 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:40:19.470Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q140500",
+      "enwiki": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Wa%C5%82brzych",
+      "clubLabel": "Zagłębie Wałbrzych"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9347125",
+      "clubLabel": "Strzelec Górka Stanisławów"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q140487",
+      "enwiki": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Sosnowiec",
+      "clubLabel": "Zagłębie Sosnowiec",
+      "stadium": "http://www.wikidata.org/entity/Q3496230",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.103611111 50.277222222)",
+      "capacity": "5750",
+      "website": "https://zaglebie.eu/",
+      "stadiumLabel": "Stadion Ludowy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q262569",
+      "enwiki": "https://en.wikipedia.org/wiki/Polonia_Warsaw",
+      "clubLabel": "Polonia Warsaw",
+      "stadium": "http://www.wikidata.org/entity/Q1127808",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.001322 52.255517)",
+      "capacity": "7150",
+      "website": "https://kspolonia.pl",
+      "stadiumLabel": "Stadion Polonii Warszawa",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Poloniawarszawa1.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q301726",
+      "enwiki": "https://en.wikipedia.org/wiki/Ruch_Chorz%C3%B3w",
+      "clubLabel": "Ruch Chorzów",
+      "stadium": "http://www.wikidata.org/entity/Q599592",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(18.973056 50.288333)",
+      "capacity": "54378",
+      "website": "https://www.ksruch.com/",
+      "stadiumLabel": "Silesian Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q345142",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%81KS_%C5%81%C3%B3d%C5%BA",
+      "clubLabel": "ŁKS Łódź",
+      "stadium": "http://www.wikidata.org/entity/Q777501",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.42675 51.75875)",
+      "capacity": "18029",
+      "website": "https://lkslodz.pl/",
+      "stadiumLabel": "Stadion ŁKS",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LKS%20Lodz.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q608642",
+      "enwiki": "https://en.wikipedia.org/wiki/Z%C4%85bkovia_Z%C4%85bki",
+      "clubLabel": "Dolcan Ząbki",
+      "stadium": "http://www.wikidata.org/entity/Q11836158",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.1219 52.2928)",
+      "capacity": "2100",
+      "website": "https://www.zabkovia1927.pl/",
+      "stadiumLabel": "Dozbud Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q666969",
+      "enwiki": "https://en.wikipedia.org/wiki/Arka_Gdynia",
+      "clubLabel": "Arka Gdynia",
+      "stadium": "http://www.wikidata.org/entity/Q1486345",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.531214 54.493136)",
+      "capacity": "15139",
+      "website": "https://www.arka.gdynia.pl/",
+      "stadiumLabel": "Stadion Miejski"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q734785",
+      "enwiki": "https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk",
+      "clubLabel": "KS Lechia Gdańsk",
+      "stadium": "http://www.wikidata.org/entity/Q182385",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.640278 54.39)",
+      "capacity": "41620",
+      "website": "https://lechia.pl/",
+      "stadiumLabel": "Gdańsk Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q769793",
+      "enwiki": "https://en.wikipedia.org/wiki/Mied%C5%BA_Legnica",
+      "clubLabel": "Miedź Legnica",
+      "stadium": "http://www.wikidata.org/entity/Q9341175",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.1699 51.2037)",
+      "capacity": "6200",
+      "website": "https://miedzlegnica.eu/",
+      "stadiumLabel": "Municipal Stadium, Legnica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q836279",
+      "enwiki": "https://en.wikipedia.org/wiki/Podbeskidzie_Bielsko-Bia%C5%82a",
+      "clubLabel": "Podbeskidzie Bielsko-Biała",
+      "stadium": "http://www.wikidata.org/entity/Q3276819",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.054267 49.817419)",
+      "capacity": "15076",
+      "website": "https://tspodbeskidzie.pl/",
+      "stadiumLabel": "Stadion Miejski"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q859458",
+      "enwiki": "https://en.wikipedia.org/wiki/Polonia_Bytom",
+      "clubLabel": "Polonia Bytom",
+      "stadium": "http://www.wikidata.org/entity/Q1291459",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.89871667 50.35755833)",
+      "capacity": "6000",
+      "website": "http://www.poloniabytom.com.pl",
+      "stadiumLabel": "Stadion Edwarda Szymkowiaka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q958856",
+      "enwiki": "https://en.wikipedia.org/wiki/Odra_Opole",
+      "clubLabel": "Odra Opole",
+      "stadium": "http://www.wikidata.org/entity/Q132735136",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.873888888 50.685555555)",
+      "capacity": "11600",
+      "website": "https://odraopole.pl/",
+      "stadiumLabel": "Itaka Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1198772",
+      "enwiki": "https://en.wikipedia.org/wiki/Warta_Pozna%C5%84",
+      "clubLabel": "Warta Poznań",
+      "stadium": "http://www.wikidata.org/entity/Q7971000",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(16.931111 52.393611)",
+      "capacity": "1700",
+      "website": "https://wartapoznan.pl/",
+      "stadiumLabel": "Dębińska Road Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1198808",
+      "enwiki": "https://en.wikipedia.org/wiki/Bruk-Bet_Termalica_Nieciecza",
+      "clubLabel": "LKS Nieciecza",
+      "stadium": "http://www.wikidata.org/entity/Q9341200",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.8492 50.1584)",
+      "capacity": "4666",
+      "website": "http://termalica.brukbet.com/",
+      "stadiumLabel": "Stadion Bruk-Bet Termaliki"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388790",
+      "enwiki": "https://en.wikipedia.org/wiki/Stal_Mielec",
+      "clubLabel": "Stal Mielec",
+      "stadium": "http://www.wikidata.org/entity/Q7596336",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.435833 50.298611)",
+      "capacity": "7000",
+      "website": "https://stalmielec.com/",
+      "stadiumLabel": "Stadion Stali Mielec",
+      "parent": "http://www.wikidata.org/entity/Q9341323"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2091717",
+      "enwiki": "https://en.wikipedia.org/wiki/Wigry_Suwa%C5%82ki",
+      "clubLabel": "Wigry Suwałki",
+      "stadium": "http://www.wikidata.org/entity/Q9341188",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.9157 54.0944)",
+      "capacity": "3060",
+      "website": "http://wigrysuwalki.eu/",
+      "stadiumLabel": "Municipal Stadium, Suwałki"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2329203",
+      "enwiki": "https://en.wikipedia.org/wiki/Stal_Rzesz%C3%B3w_(football)",
+      "clubLabel": "Stal Rzeszów",
+      "stadium": "http://www.wikidata.org/entity/Q9341187",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.9963 50.0215)",
+      "capacity": "12700",
+      "website": "https://stalrzeszow.pl/",
+      "stadiumLabel": "Stal Rzeszów Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3845557",
+      "enwiki": "https://en.wikipedia.org/wiki/MKP_Pogo%C5%84_Siedlce",
+      "clubLabel": "MKP Pogoń Siedlce",
+      "stadium": "http://www.wikidata.org/entity/Q9341212",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.2969 52.1781)",
+      "capacity": "2901",
+      "website": "http://www.mkppogonsiedlce.pl",
+      "stadiumLabel": "ROSRRiT Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4384885",
+      "enwiki": "https://en.wikipedia.org/wiki/Puszcza_Niepo%C5%82omice",
+      "clubLabel": "Puszcza Niepołomice",
+      "stadium": "http://www.wikidata.org/entity/Q86668870",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.221111 50.031944)",
+      "capacity": "2000",
+      "website": "https://www.puszcza-niepolomice.pl/",
+      "stadiumLabel": "City Stadium in Niepołomice"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5113698",
+      "enwiki": "https://en.wikipedia.org/wiki/Chrobry_G%C5%82og%C3%B3w",
+      "clubLabel": "Chrobry Głogów",
+      "stadium": "http://www.wikidata.org/entity/Q18434426",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.096667 51.655833)",
+      "capacity": "2817",
+      "website": "https://www.chrobry-glogow.pl/",
+      "stadiumLabel": "Q18434426"
+    }
+  ]
+}

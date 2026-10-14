@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.114167&lon=25.396667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59246438,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":243528170,\"lat\":\"41.1141452\",\"lon\":\"25.3965788\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.065690089260727e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Πανόρμου, Ήφαιστος, Κομοτηνή, Δήμος Κομοτηνής, Περιφερειακή Ενότητα Ροδόπης, Περιφέρεια Ανατολικής Μακεδονίας και Θράκης, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 691 00, Ελλάς\",\"address\":{\"road\":\"Πανόρμου\",\"suburb\":\"Ήφαιστος\",\"city\":\"Κομοτηνή\",\"municipality\":\"Δήμος Κομοτηνής\",\"county\":\"Περιφερειακή Ενότητα Ροδόπης\",\"state\":\"Περιφέρεια Ανατολικής Μακεδονίας και Θράκης\",\"ISO3166-2-lvl5\":\"GR-A\",\"postcode\":\"691 00\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"41.1137511\",\"41.1145392\",\"25.3959346\",\"25.3972230\"]}",
+  "fetchedAt": "2026-10-14T07:52:53.220Z"
+}

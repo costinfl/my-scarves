@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.436576&lon=14.518658&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":147267578,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":41036322,\"lat\":\"53.4364676\",\"lon\":\"14.5185810\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.326695658803719e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Mieczysława Karłowicza, Pogodno, Zachód, Szczecin, województwo zachodniopomorskie, 71-101, Polska\",\"address\":{\"road\":\"Mieczysława Karłowicza\",\"suburb\":\"Pogodno\",\"borough\":\"Zachód\",\"city\":\"Szczecin\",\"state\":\"województwo zachodniopomorskie\",\"ISO3166-2-lvl4\":\"PL-32\",\"postcode\":\"71-101\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"53.4360895\",\"53.4368457\",\"14.5176690\",\"14.5194929\"]}",
+  "fetchedAt": "2026-10-14T07:54:37.106Z"
+}

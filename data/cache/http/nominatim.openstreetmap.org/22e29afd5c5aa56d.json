@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.063611&lon=19.911944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":184300271,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":131449145,\"lat\":\"50.0637035\",\"lon\":\"19.9117849\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.936751354233642e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"C1,C2,C3,C4,C5, Czarna Wieś, Krowodrza, Kraków, województwo małopolskie, 30-062, Polska\",\"address\":{\"road\":\"C1,C2,C3,C4,C5\",\"quarter\":\"Czarna Wieś\",\"suburb\":\"Krowodrza\",\"city_district\":\"Krowodrza\",\"city\":\"Kraków\",\"state\":\"województwo małopolskie\",\"ISO3166-2-lvl4\":\"PL-12\",\"postcode\":\"30-062\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.0631745\",\"50.0642323\",\"19.9111474\",\"19.9124222\"]}",
+  "fetchedAt": "2026-10-14T07:54:49.834Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.985833&lon=30.008333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191298176,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":427629836,\"lat\":\"49.9859034\",\"lon\":\"30.0084647\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.576104371705223e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Дачна вулиця, Ковалівка, Ковалівська сільська громада, Білоцерківський район, Київська область, 08652, Україна\",\"address\":{\"road\":\"Дачна вулиця\",\"village\":\"Ковалівка\",\"municipality\":\"Ковалівська сільська громада\",\"county\":\"Білоцерківський район\",\"state\":\"Київська область\",\"ISO3166-2-lvl4\":\"UA-32\",\"postcode\":\"08652\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.9854209\",\"49.9863860\",\"30.0075931\",\"30.0093363\"]}",
+  "fetchedAt": "2026-10-14T07:56:03.418Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.067500&lon=14.471500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":132877731,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":310060363,\"lat\":\"50.0674467\",\"lon\":\"14.4715357\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.434958419160781e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vladivostocká, Vršovice, Praha 10, obvod Praha 10, Praha, 100 05, Česko\",\"address\":{\"road\":\"Vladivostocká\",\"suburb\":\"Vršovice\",\"city_district\":\"obvod Praha 10\",\"city\":\"Praha\",\"ISO3166-2-lvl4\":\"CZ-10\",\"postcode\":\"100 05\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.0669547\",\"50.0679388\",\"14.4710104\",\"14.4720611\"]}",
+  "fetchedAt": "2026-10-14T07:52:22.325Z"
+}

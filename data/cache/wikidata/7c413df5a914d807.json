@@ -1,0 +1,200 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q201567 wd:Q211753 wd:Q221602 wd:Q391789 wd:Q460724 wd:Q622430 wd:Q639723 wd:Q644157 wd:Q749138 wd:Q754339 wd:Q1140767 wd:Q1471336 wd:Q1680249 wd:Q113517208 wd:Q113628515 wd:Q113628552 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:42:05.739Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q201567",
+      "stadium": "http://www.wikidata.org/entity/Q165944",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.980555555 57.706111111)",
+      "capacity": "18416",
+      "enwiki": "https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg",
+      "website": "https://ifkgoteborg.se/",
+      "clubLabel": "IFK Göteborg",
+      "stadiumLabel": "Gamla Ullevi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q201567",
+      "stadium": "http://www.wikidata.org/entity/Q165944",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.980555555 57.706111111)",
+      "capacity": "18416",
+      "enwiki": "https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg",
+      "website": "https://ifkgoteborg.se/",
+      "clubLabel": "IFK Göteborg",
+      "stadiumLabel": "Gamla Ullevi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q211753",
+      "stadium": "http://www.wikidata.org/entity/Q627087",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.934334 57.73457)",
+      "capacity": "16200",
+      "enwiki": "https://en.wikipedia.org/wiki/IF_Elfsborg",
+      "website": "https://elfsborg.se/",
+      "clubLabel": "IF Elfsborg",
+      "stadiumLabel": "Borås Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q221602",
+      "stadium": "http://www.wikidata.org/entity/Q1138684",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.0 59.3725)",
+      "capacity": "54329",
+      "enwiki": "https://en.wikipedia.org/wiki/AIK_Fotboll",
+      "website": "https://www.aikfotboll.se/",
+      "clubLabel": "AIK Fotboll",
+      "stadiumLabel": "Strawberry Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q391789",
+      "stadium": "http://www.wikidata.org/entity/Q165944",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.980555555 57.706111111)",
+      "capacity": "18416",
+      "enwiki": "https://en.wikipedia.org/wiki/GAIS",
+      "website": "http://gais.se",
+      "clubLabel": "GAIS",
+      "stadiumLabel": "Gamla Ullevi",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/GAIS-logotyp%20RGB.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q460724",
+      "stadium": "http://www.wikidata.org/entity/Q2701834",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(18.08527778 59.29138889)",
+      "capacity": "30001",
+      "enwiki": "https://en.wikipedia.org/wiki/Hammarby_Fotboll",
+      "website": "https://www.hammarbyfotboll.se/",
+      "clubLabel": "Hammarby Fotboll",
+      "stadiumLabel": "3Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q622430",
+      "stadium": "http://www.wikidata.org/entity/Q2701834",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.08527778 59.29138889)",
+      "capacity": "30001",
+      "enwiki": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll",
+      "website": "https://www.dif.se/",
+      "clubLabel": "Djurgårdens IF Fotboll",
+      "stadiumLabel": "3Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Djurgardens%20IF%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q639723",
+      "stadium": "http://www.wikidata.org/entity/Q1326393",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.930833333 57.718888888)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/BK_H%C3%A4cken",
+      "website": "https://bkhacken.se/",
+      "clubLabel": "BK Häcken",
+      "stadiumLabel": "Rambergsvallen"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q644157",
+      "stadium": "http://www.wikidata.org/entity/Q1421187",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.31523333 56.69070278)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/Kalmar_FF",
+      "website": "https://kalmarff.se/",
+      "clubLabel": "Kalmar FF",
+      "stadiumLabel": "Guldfågeln Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q749138",
+      "stadium": "http://www.wikidata.org/entity/Q1848079",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.71666667 56.0125)",
+      "capacity": "7500",
+      "enwiki": "https://en.wikipedia.org/wiki/Mj%C3%A4llby_AIF",
+      "website": "https://maif.se/",
+      "clubLabel": "Mjällby AIF",
+      "stadiumLabel": "Strandvallen"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q754339",
+      "stadium": "http://www.wikidata.org/entity/Q591583",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.851666666 59.362222222)",
+      "capacity": "4729",
+      "enwiki": "https://en.wikipedia.org/wiki/IF_Brommapojkarna",
+      "website": "http://ifbp.se/",
+      "clubLabel": "IF Brommapojkarna",
+      "stadiumLabel": "Grimsta IP"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1140767",
+      "stadium": "http://www.wikidata.org/entity/Q7619895",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.4431 59.2383)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/Degerfors_IF",
+      "website": "http://www.degerforsif.se",
+      "clubLabel": "Degerfors IF",
+      "stadiumLabel": "Stora Valla"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1471336",
+      "stadium": "http://www.wikidata.org/entity/Q4444527",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.644444 59.85)",
+      "capacity": "6500",
+      "enwiki": "https://en.wikipedia.org/wiki/IK_Sirius_Fotboll",
+      "website": "https://www.siriusfotboll.se/",
+      "clubLabel": "IK Sirius FK",
+      "stadiumLabel": "Studenternas IP"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1680249",
+      "stadium": "http://www.wikidata.org/entity/Q1165409",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.530555555 59.6275)",
+      "capacity": "7044",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
+      "website": "https://www.vskfotboll.nu/",
+      "clubLabel": "Västerås SK Fotboll",
+      "stadiumLabel": "Hitachi Energy Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1680249",
+      "stadium": "http://www.wikidata.org/entity/Q1165409",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.530555555 59.6275)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
+      "website": "https://www.vskfotboll.nu/",
+      "clubLabel": "Västerås SK Fotboll",
+      "stadiumLabel": "Hitachi Energy Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q113517208",
+      "stadium": "http://www.wikidata.org/entity/Q297924",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.866388888 56.684166666)",
+      "capacity": "15500",
+      "clubLabel": "Halmstads BK",
+      "stadiumLabel": "Örjans Vall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q113628515",
+      "stadium": "http://www.wikidata.org/entity/Q165944",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.980555555 57.706111111)",
+      "capacity": "18416",
+      "clubLabel": "Örgryte IS Fotboll",
+      "stadiumLabel": "Gamla Ullevi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q113628552",
+      "stadium": "http://www.wikidata.org/entity/Q867234",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.987777777 55.583611111)",
+      "capacity": "22500",
+      "clubLabel": "Malmö FF Herr",
+      "stadiumLabel": "Eleda Stadion"
+    }
+  ]
+}

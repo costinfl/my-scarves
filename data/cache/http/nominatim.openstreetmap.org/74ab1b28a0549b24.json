@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.594833&lon=34.549444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191897138,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":12799926548,\"lat\":\"49.5948191\",\"lon\":\"34.5492165\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.692072938120115e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"майдан Незалежності, Сінна площа, Київський район, Полтава, Полтавська міська громада, Полтавський район, Полтавська область, 36003, Україна\",\"address\":{\"road\":\"майдан Незалежності\",\"suburb\":\"Сінна площа\",\"city_district\":\"Київський район\",\"city\":\"Полтава\",\"municipality\":\"Полтавська міська громада\",\"county\":\"Полтавський район\",\"state\":\"Полтавська область\",\"ISO3166-2-lvl4\":\"UA-53\",\"postcode\":\"36003\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.5947691\",\"49.5948691\",\"34.5491665\",\"34.5492665\"]}",
+  "fetchedAt": "2026-10-14T07:56:17.740Z"
+}

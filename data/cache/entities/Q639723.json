@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q639723",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "69621"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "BK Häcken"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "BK Häcken"
+      }
+    }
+  }
+}

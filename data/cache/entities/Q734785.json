@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q734785",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52763"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Lechia Gdańsk"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "KS Lechia Gdańsk"
+      }
+    }
+  }
+}

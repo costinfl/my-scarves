@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.971400&lon=31.960400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":61684877,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":828450068,\"lat\":\"46.9713559\",\"lon\":\"31.9607267\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.651941710531804e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Бузника, Заводський район, Миколаїв, Миколаївська міська громада, Миколаївський район, Миколаївська область, 54000, Україна\",\"address\":{\"road\":\"вулиця Бузника\",\"city_district\":\"Заводський район\",\"city\":\"Миколаїв\",\"municipality\":\"Миколаївська міська громада\",\"district\":\"Миколаївський район\",\"state\":\"Миколаївська область\",\"ISO3166-2-lvl4\":\"UA-48\",\"postcode\":\"54000\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"46.9707820\",\"46.9718712\",\"31.9601167\",\"31.9613160\"]}",
+  "fetchedAt": "2026-10-14T07:56:22.122Z"
+}

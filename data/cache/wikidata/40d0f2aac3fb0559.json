@@ -1,0 +1,211 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1261184 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:40:40.277Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q162472",
+      "stadium": "http://www.wikidata.org/entity/Q2326094",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.976389 49.676944)",
+      "capacity": "9100",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_P%C5%99%C3%ADbram",
+      "website": "https://www.fkpribram.cz/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Stadion%20Na%20Litavce2.jpg",
+      "clubLabel": "FK Příbram",
+      "stadiumLabel": "Na Litavce"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q163430",
+      "stadium": "http://www.wikidata.org/entity/Q6950930",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.052019 48.858311)",
+      "capacity": "2599",
+      "enwiki": "https://en.wikipedia.org/wiki/1._SC_Znojmo_FK",
+      "website": "https://www.1scznojmo.cz/",
+      "clubLabel": "1. SC Znojmo",
+      "stadiumLabel": "Městský stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q220928",
+      "stadium": "http://www.wikidata.org/entity/Q6950932",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.016387 50.675745)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Viagem_%C3%9Ast%C3%AD_nad_Labem",
+      "website": "https://www.fkviagemusti.cz/",
+      "clubLabel": "FK Ústí nad Labem",
+      "stadiumLabel": "Městský stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q248345",
+      "stadium": "http://www.wikidata.org/entity/Q7596353",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.3846 49.9098)",
+      "capacity": "2575",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C4%8C%C3%A1slav",
+      "website": "http://www.fkcaslav.cz",
+      "clubLabel": "FK Čáslav",
+      "stadiumLabel": "Stadion pod Hrádkem"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q512476",
+      "stadium": "http://www.wikidata.org/entity/Q1535592",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.444444 50.083611)",
+      "capacity": "5037",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Viktoria_%C5%BDi%C5%BEkov",
+      "website": "https://www.fkvz.cz/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Viktoria%20%C5%BDi%C5%BEkov%20Mural%20Picture.jpg",
+      "clubLabel": "FK Viktoria Žižkov",
+      "stadiumLabel": "FK Viktoria Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q839313",
+      "stadium": "http://www.wikidata.org/entity/Q695142",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.4675442 48.9669589)",
+      "capacity": "6681",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Dynamo_%C4%8Cesk%C3%A9_Bud%C4%9Bjovice",
+      "website": "https://www.dynamocb.cz/",
+      "clubLabel": "SK Dynamo České Budějovice",
+      "stadiumLabel": "Stadion Střelecký ostrov"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1138206",
+      "stadium": "http://www.wikidata.org/entity/Q7596311",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.8915 49.702603)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Sellier_%26_Bellot_Vla%C5%A1im",
+      "website": "http://www.fcgraffinvlasim.cz/",
+      "clubLabel": "FC Graffin Vlašim",
+      "stadiumLabel": "Stadion Kollárova ulice"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1142727",
+      "stadium": "http://www.wikidata.org/entity/Q6950933",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.618924 50.914902)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Varnsdorf",
+      "website": "https://fkvarnsdorf.cz/",
+      "clubLabel": "FK Varnsdorf",
+      "stadiumLabel": "Městský stadion v Kotlině"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1199255",
+      "stadium": "http://www.wikidata.org/entity/Q12055866",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.5735 49.402)",
+      "capacity": "4082",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vyso%C4%8Dina_Jihlava",
+      "website": "https://www.fcvysocina.cz/",
+      "clubLabel": "FC Vysočina Jihlava",
+      "stadiumLabel": "Stadion v Jiráskově ulici"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387864",
+      "stadium": "http://www.wikidata.org/entity/Q3495792",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.2558 49.8044)",
+      "capacity": "15163",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_V%C3%ADtkovice",
+      "website": "https://www.mfkv.cz/",
+      "clubLabel": "MFK Vítkovice",
+      "stadiumLabel": "Městský stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388806",
+      "stadium": "http://www.wikidata.org/entity/Q7596300",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.6567 50.171)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Ban%C3%ADk_Sokolov",
+      "website": "https://www.fksokolov.cz/",
+      "clubLabel": "FK Baník Sokolov",
+      "stadiumLabel": "Stadion FK Baník Sokolov"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1439495",
+      "stadium": "http://www.wikidata.org/entity/Q24639807",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.3429535 49.695697)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Fr%C3%BDdek-M%C3%ADstek",
+      "website": "http://www.mfkfm.cz",
+      "clubLabel": "MFK Frýdek-Místek",
+      "stadiumLabel": "Stovky"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1439505",
+      "stadium": "http://www.wikidata.org/entity/Q7596330",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.66784 49.6686)",
+      "capacity": "2200",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_T%C5%99inec",
+      "website": "https://www.fotbaltrinec.cz/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20T%C5%99inec%20logo.svg",
+      "clubLabel": "FK Třinec",
+      "stadiumLabel": "Stadion Rudolfa Labaje"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1956025",
+      "stadium": "http://www.wikidata.org/entity/Q20755540",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.1141667 49.4797222)",
+      "enwiki": "https://en.wikipedia.org/wiki/1._SK_Prost%C4%9Bjov",
+      "website": "http://www.1skprostejov.cz/",
+      "clubLabel": "1. SK Prostějov",
+      "stadiumLabel": "Q20755540"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2093314",
+      "stadium": "http://www.wikidata.org/entity/Q7596355",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.890092 49.949725)",
+      "capacity": "7758",
+      "enwiki": "https://en.wikipedia.org/wiki/SFC_Opava",
+      "website": "https://www.sfc.cz/",
+      "clubLabel": "SFC Opava",
+      "stadiumLabel": "Stadion v Městských sadech"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2757426",
+      "stadium": "http://www.wikidata.org/entity/Q1780263",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.3875 50.111389)",
+      "capacity": "8150",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Dukla_Prague",
+      "website": "https://www.fkdukla.cz/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Dukla%20Praha%20logo.png",
+      "clubLabel": "FK Dukla Prague",
+      "stadiumLabel": "Stadion Juliska"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11863382",
+      "stadium": "http://www.wikidata.org/entity/Q3495792",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.2558 49.8044)",
+      "capacity": "15163",
+      "website": "https://www.mfkv.cz/",
+      "clubLabel": "FC Vitkovice",
+      "stadiumLabel": "Městský stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q162589",
+      "enwiki": "https://en.wikipedia.org/wiki/1._HFK_Olomouc",
+      "website": "http://www.1hfkolomouc.cz/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/1%20HFK-OLOMOUC.jpg",
+      "clubLabel": "1. HFK Olomouc"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q404384",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko",
+      "website": "https://www.fctaborsko.cz/",
+      "clubLabel": "FC Silon Táborsko"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q125169377",
+      "clubLabel": "SK Sigma Olmütz B"
+    }
+  ]
+}

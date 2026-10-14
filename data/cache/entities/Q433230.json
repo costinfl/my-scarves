@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q433230",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3133,
+                "id": "Q3133"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Panthrakikos F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "A.P.S. Panthrakikos"
+      }
+    }
+  }
+}

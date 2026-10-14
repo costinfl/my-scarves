@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.251250&lon=18.974417&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":181512571,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13031765832,\"lat\":\"50.2514351\",\"lon\":\"18.9741378\",\"category\":\"shop\",\"type\":\"clothes\",\"place_rank\":30,\"importance\":7.09689478903947e-05,\"addresstype\":\"shop\",\"name\":\"Macron Sports Hub\",\"display_name\":\"Macron Sports Hub, 1, Nowa Bukowa, Johanka, Załęska Hałda, Załęska Hałda-Brynów, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-803, Polska\",\"address\":{\"shop\":\"Macron Sports Hub\",\"house_number\":\"1\",\"road\":\"Nowa Bukowa\",\"neighbourhood\":\"Johanka\",\"quarter\":\"Załęska Hałda\",\"suburb\":\"Załęska Hałda-Brynów\",\"city\":\"Katowice\",\"state_district\":\"Górnośląsko-Zagłębiowska Metropolia\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"40-803\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.2513851\",\"50.2514851\",\"18.9740878\",\"18.9741878\"]}",
+  "fetchedAt": "2026-10-14T07:54:18.885Z"
+}

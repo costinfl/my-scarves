@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.586122&lon=20.227239&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57903568,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1009669661,\"lat\":\"43.5861142\",\"lon\":\"20.2271441\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.6298924238910775e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion FK „Javor”\",\"display_name\":\"Stadion FK „Javor”, Крајишких бригада, Кушићан, Ивањица, Општина Ивањица, Моравички управни округ, Централна Србија, 32250, Србија\",\"address\":{\"leisure\":\"Stadion FK „Javor”\",\"road\":\"Крајишких бригада\",\"neighbourhood\":\"Кушићан\",\"town\":\"Ивањица\",\"city\":\"Општина Ивањица\",\"county\":\"Моравички управни округ\",\"ISO3166-2-lvl6\":\"RS-17\",\"province\":\"Централна Србија\",\"postcode\":\"32250\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"43.5855973\",\"43.5866311\",\"20.2266289\",\"20.2276593\"]}",
+  "fetchedAt": "2026-10-14T07:55:00.829Z"
+}

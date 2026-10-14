@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.158400&lon=20.849200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":180198184,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":964052328,\"lat\":\"50.1583540\",\"lon\":\"20.8491481\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.9365224689051916e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"973, Nieciecza, gmina Żabno, powiat tarnowski, województwo małopolskie, 33-273, Polska\",\"address\":{\"road\":\"973\",\"village\":\"Nieciecza\",\"municipality\":\"gmina Żabno\",\"county\":\"powiat tarnowski\",\"state\":\"województwo małopolskie\",\"ISO3166-2-lvl4\":\"PL-12\",\"postcode\":\"33-273\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.1577991\",\"50.1589098\",\"20.8482979\",\"20.8499985\"]}",
+  "fetchedAt": "2026-10-14T07:54:27.689Z"
+}

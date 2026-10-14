@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.105556&lon=23.148889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":180090988,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":60413560,\"lat\":\"53.1059594\",\"lon\":\"23.1492611\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.099183642323976e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Wiosenna, Kawaleryjskie, Białystok, województwo podlaskie, 15-323, Polska\",\"address\":{\"road\":\"Wiosenna\",\"suburb\":\"Kawaleryjskie\",\"city\":\"Białystok\",\"state\":\"województwo podlaskie\",\"ISO3166-2-lvl4\":\"PL-20\",\"postcode\":\"15-323\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"53.1054310\",\"53.1064877\",\"23.1485894\",\"23.1499328\"]}",
+  "fetchedAt": "2026-10-14T07:54:21.193Z"
+}

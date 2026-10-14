@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.286217&lon=11.097608&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":164285839,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":94220992,\"lat\":\"59.2862886\",\"lon\":\"11.0977153\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4562086448809265,\"addresstype\":\"leisure\",\"name\":\"Sarpsborg stadion\",\"display_name\":\"Sarpsborg stadion, Haftor Jonssons gate, Enenda, Valaskjold, Sarpsborg, Østfold, 1723, Norge\",\"address\":{\"leisure\":\"Sarpsborg stadion\",\"road\":\"Haftor Jonssons gate\",\"neighbourhood\":\"Enenda\",\"suburb\":\"Valaskjold\",\"city\":\"Sarpsborg\",\"municipality\":\"Sarpsborg\",\"county\":\"Østfold\",\"ISO3166-2-lvl4\":\"NO-31\",\"postcode\":\"1723\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.2857448\",\"59.2868322\",\"11.0966410\",\"11.0987895\"]}",
+  "fetchedAt": "2026-10-14T07:54:06.195Z"
+}

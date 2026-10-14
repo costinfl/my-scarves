@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.774900&lon=20.490200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64369762,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13666521301,\"lat\":\"44.7750193\",\"lon\":\"20.4900747\",\"category\":\"emergency\",\"type\":\"defibrillator\",\"place_rank\":30,\"importance\":8.159685664144377e-05,\"addresstype\":\"emergency\",\"name\":\"\",\"display_name\":\"Заплањска, Медаковић I, МЗ Милунка Савић, Београд (Вождовац), Градска општина Вождовац, Град Београд, Централна Србија, 11040, Србија\",\"address\":{\"road\":\"Заплањска\",\"neighbourhood\":\"Медаковић I\",\"suburb\":\"Београд (Вождовац)\",\"city\":\"Градска општина Вождовац\",\"county\":\"Град Београд\",\"ISO3166-2-lvl6\":\"RS-00\",\"province\":\"Централна Србија\",\"postcode\":\"11040\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.7749693\",\"44.7750693\",\"20.4900247\",\"20.4901247\"]}",
+  "fetchedAt": "2026-10-14T07:55:18.019Z"
+}

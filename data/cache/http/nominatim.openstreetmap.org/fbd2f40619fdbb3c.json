@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=62.733410&lon=7.148130&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":159620690,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":401866199,\"lat\":\"62.7334167\",\"lon\":\"7.1480759\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.410696574345032e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Julsundvegen, Bekkevoll, Røysan, Molde, Møre og Romsdal, 6414, Norge\",\"address\":{\"road\":\"Julsundvegen\",\"quarter\":\"Bekkevoll\",\"suburb\":\"Røysan\",\"town\":\"Molde\",\"municipality\":\"Molde\",\"county\":\"Møre og Romsdal\",\"ISO3166-2-lvl4\":\"NO-15\",\"postcode\":\"6414\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"62.7330870\",\"62.7337463\",\"7.1470167\",\"7.1491351\"]}",
+  "fetchedAt": "2026-10-14T07:53:58.375Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.776700&lon=19.159200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":183805075,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":270569369,\"lat\":\"50.7767566\",\"lon\":\"19.1593483\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.570305943384477e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Andrzeja Struga, Raków, Częstochowa, województwo śląskie, 42-208, Polska\",\"address\":{\"road\":\"Andrzeja Struga\",\"suburb\":\"Raków\",\"city_district\":\"Raków\",\"city\":\"Częstochowa\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"42-208\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.7762330\",\"50.7772802\",\"19.1587661\",\"19.1599305\"]}",
+  "fetchedAt": "2026-10-14T07:54:41.643Z"
+}

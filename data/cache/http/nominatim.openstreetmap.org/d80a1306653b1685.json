@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.436100&lon=32.054700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191681930,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":243584235,\"lat\":\"49.4359697\",\"lon\":\"32.0546831\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.377889677267135e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Остафія Дашковича, Мікрорайон Центральний, Черкаси, Соснівський район, Черкаська міська громада, Черкаський район, Черкаська область, 18002, Україна\",\"address\":{\"road\":\"вулиця Остафія Дашковича\",\"quarter\":\"Мікрорайон Центральний\",\"city\":\"Черкаси\",\"borough\":\"Соснівський район\",\"municipality\":\"Черкаська міська громада\",\"county\":\"Черкаський район\",\"state\":\"Черкаська область\",\"ISO3166-2-lvl4\":\"UA-71\",\"postcode\":\"18002\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.4354830\",\"49.4364689\",\"32.0541758\",\"32.0551904\"]}",
+  "fetchedAt": "2026-10-14T07:55:54.257Z"
+}

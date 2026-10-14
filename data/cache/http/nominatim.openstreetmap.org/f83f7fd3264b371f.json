@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.171000&lon=12.656700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":131644336,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1228505548,\"lat\":\"50.1709915\",\"lon\":\"12.6566823\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.759746700231964e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Boženy Němcové, Sokolov, okres Sokolov, Karlovarský kraj, 356 01, Česko\",\"address\":{\"road\":\"Boženy Němcové\",\"town\":\"Sokolov\",\"county\":\"okres Sokolov\",\"ISO3166-2-lvl5\":\"CZ-413\",\"state\":\"Karlovarský kraj\",\"ISO3166-2-lvl4\":\"CZ-41\",\"postcode\":\"356 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.1704265\",\"50.1715507\",\"12.6559932\",\"12.6573714\"]}",
+  "fetchedAt": "2026-10-14T07:52:03.633Z"
+}

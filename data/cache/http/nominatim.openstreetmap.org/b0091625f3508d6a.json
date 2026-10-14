@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.184200&lon=9.575100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":164693592,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":3952174390,\"lat\":\"56.1840610\",\"lon\":\"9.5755090\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":5.9137102311696306e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"104, Ansvej, Søholt, Silkeborg, Silkeborg Kommune, Region Midtjylland, 8600, Danmark\",\"address\":{\"house_number\":\"104\",\"road\":\"Ansvej\",\"suburb\":\"Søholt\",\"town\":\"Silkeborg\",\"municipality\":\"Silkeborg Kommune\",\"state\":\"Region Midtjylland\",\"ISO3166-2-lvl4\":\"DK-82\",\"postcode\":\"8600\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"56.1840110\",\"56.1841110\",\"9.5754590\",\"9.5755590\"]}",
+  "fetchedAt": "2026-10-14T07:52:46.506Z"
+}

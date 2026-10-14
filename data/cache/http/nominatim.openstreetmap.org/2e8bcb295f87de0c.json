@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.960947&lon=34.104856&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":205713617,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":400456945,\"lat\":\"44.9609183\",\"lon\":\"34.1048873\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.620355535205642e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Тренёва, Султанский луг, Киевский район, Симферополь, Сімферопольський район, Автономна Республіка Крим, 95034, Україна\",\"address\":{\"road\":\"улица Тренёва\",\"suburb\":\"Султанский луг\",\"city_district\":\"Киевский район\",\"city\":\"Симферополь\",\"county\":\"Сімферопольський район\",\"state\":\"Автономна Республіка Крим\",\"ISO3166-2-lvl4\":\"UA-43\",\"postcode\":\"95034\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"44.9603649\",\"44.9614717\",\"34.1041440\",\"34.1056304\"]}",
+  "fetchedAt": "2026-10-14T07:55:59.746Z"
+}

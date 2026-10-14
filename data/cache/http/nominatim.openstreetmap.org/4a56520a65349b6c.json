@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.815456&lon=20.494047&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64313610,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":407817903,\"lat\":\"44.8153491\",\"lon\":\"20.4940073\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.159685664144377e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Драгослава Срејовића, МЗ Стара Карабурма, Београд (Палилула), Градска општина Палилула, Град Београд, Централна Србија, 11060, Србија\",\"address\":{\"road\":\"Драгослава Срејовића\",\"neighbourhood\":\"МЗ Стара Карабурма\",\"suburb\":\"Београд (Палилула)\",\"city\":\"Градска општина Палилула\",\"county\":\"Град Београд\",\"ISO3166-2-lvl6\":\"RS-00\",\"province\":\"Централна Србија\",\"postcode\":\"11060\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.8148816\",\"44.8158166\",\"20.4932315\",\"20.4947831\"]}",
+  "fetchedAt": "2026-10-14T07:55:20.298Z"
+}

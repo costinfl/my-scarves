@@ -1,0 +1,211 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q201671 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:41:58.105Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q186785",
+      "stadium": "http://www.wikidata.org/entity/Q1132011",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.405 63.4125)",
+      "capacity": "21423",
+      "enwiki": "https://en.wikipedia.org/wiki/Rosenborg_BK",
+      "website": "https://www.rbk.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Rosenborg%20Trondheim%20logo.svg",
+      "clubLabel": "Rosenborg BK",
+      "stadiumLabel": "Lerkendal Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q205685",
+      "stadium": "http://www.wikidata.org/entity/Q898746",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.356944444 60.366388888)",
+      "capacity": "16750",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Brann",
+      "website": "https://www.brann.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Brann%20logo.svg",
+      "clubLabel": "SK Brann",
+      "stadiumLabel": "Brann Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q208552",
+      "stadium": "http://www.wikidata.org/entity/Q417367",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.14813 62.73341)",
+      "capacity": "11800",
+      "enwiki": "https://en.wikipedia.org/wiki/Molde_FK",
+      "website": "https://www.moldefk.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Molde%20Fotball%20Logo.svg",
+      "clubLabel": "Molde FK",
+      "stadiumLabel": "Aker Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q211177",
+      "stadium": "http://www.wikidata.org/entity/Q1417248",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.730442 58.914611)",
+      "capacity": "15400",
+      "enwiki": "https://en.wikipedia.org/wiki/Viking_FK",
+      "website": "https://www.vikingfotball.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Viking%20Logo.png",
+      "clubLabel": "Viking FK",
+      "stadiumLabel": "Lyse Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212490",
+      "stadium": "http://www.wikidata.org/entity/Q1611857",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.935042 69.648872)",
+      "capacity": "6859",
+      "enwiki": "https://en.wikipedia.org/wiki/Troms%C3%B8_IL",
+      "website": "http://www.til.no/",
+      "clubLabel": "Tromsø IL",
+      "stadiumLabel": "Romssa Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212819",
+      "stadium": "http://www.wikidata.org/entity/Q20078531",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.8066875 59.9178125)",
+      "capacity": "16555",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball",
+      "website": "http://www.vif-fotball.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5lerenga%20Oslo%20logo.svg",
+      "clubLabel": "Vålerenga Fotball",
+      "stadiumLabel": "Intility Arena",
+      "parent": "http://www.wikidata.org/entity/Q584426"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212819",
+      "stadium": "http://www.wikidata.org/entity/Q20078531",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.8066875 59.9178125)",
+      "capacity": "17333",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball",
+      "website": "http://www.vif-fotball.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5lerenga%20Oslo%20logo.svg",
+      "clubLabel": "Vålerenga Fotball",
+      "stadiumLabel": "Intility Arena",
+      "parent": "http://www.wikidata.org/entity/Q584426"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q214374",
+      "stadium": "http://www.wikidata.org/entity/Q271212",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.063458 59.962752)",
+      "capacity": "12250",
+      "enwiki": "https://en.wikipedia.org/wiki/Lillestr%C3%B8m_SK",
+      "website": "https://www.lsk.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Lillestrom%20SK%20logo.svg",
+      "clubLabel": "Lillestrøm SK",
+      "stadiumLabel": "Åråsen Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q214992",
+      "stadium": "http://www.wikidata.org/entity/Q777466",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.1875 62.46944444)",
+      "capacity": "10778",
+      "enwiki": "https://en.wikipedia.org/wiki/Aalesunds_FK",
+      "website": "https://www.aafk.no/",
+      "clubLabel": "Aalesunds FK",
+      "stadiumLabel": "Color Line Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q216131",
+      "stadium": "http://www.wikidata.org/entity/Q1116314",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.92732 59.213049)",
+      "capacity": "12560",
+      "enwiki": "https://en.wikipedia.org/wiki/Fredrikstad_FK",
+      "website": "https://www.fredrikstadfk.no/",
+      "clubLabel": "Fredrikstad FK",
+      "stadiumLabel": "Fredrikstad Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q478167",
+      "stadium": "http://www.wikidata.org/entity/Q376674",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.384166666 67.2775)",
+      "capacity": "7354",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8/Glimt",
+      "website": "https://www.glimt.no/",
+      "clubLabel": "FK Bodø/Glimt",
+      "stadiumLabel": "Aspmyra Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q496190",
+      "stadium": "http://www.wikidata.org/entity/Q11976878",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.7219 63.1106)",
+      "enwiki": "https://en.wikipedia.org/wiki/Kristiansund_BK",
+      "website": "https://www.kristiansundbk.no/",
+      "clubLabel": "Kristiansund BK",
+      "stadiumLabel": "Q11976878"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q737947",
+      "stadium": "http://www.wikidata.org/entity/Q732509",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.028611 58.153611)",
+      "capacity": "14563",
+      "enwiki": "https://en.wikipedia.org/wiki/IK_Start",
+      "website": "https://www.ikstart.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Start%20Kristiansand%20Logo.svg",
+      "clubLabel": "IK Start",
+      "stadiumLabel": "Sparebanken Norge Arena Kristiansand"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q861524",
+      "stadium": "http://www.wikidata.org/entity/Q1130652",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.17969 59.13725)",
+      "capacity": "6582",
+      "enwiki": "https://en.wikipedia.org/wiki/Sandefjord_Fotball",
+      "website": "http://www.sandefjordfotball.no/",
+      "clubLabel": "Sandefjord Fotball",
+      "stadiumLabel": "Jotun Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1130961",
+      "stadium": "http://www.wikidata.org/entity/Q4968684",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.092222 60.795556)",
+      "capacity": "7600",
+      "enwiki": "https://en.wikipedia.org/wiki/Hamarkameratene",
+      "website": "https://www.hamkam.no/",
+      "clubLabel": "Hamarkameratene",
+      "stadiumLabel": "Briskeby Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1151909",
+      "stadium": "http://www.wikidata.org/entity/Q1632929",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.097608 59.286217)",
+      "capacity": "4700",
+      "enwiki": "https://en.wikipedia.org/wiki/Sarpsborg_08_FF",
+      "website": "http://www.sarpsborg08.no/",
+      "clubLabel": "Sarpsborg 08 FF",
+      "stadiumLabel": "Sarpsborg Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3432730",
+      "stadium": "http://www.wikidata.org/entity/Q74124387",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.780833333 59.89)",
+      "enwiki": "https://en.wikipedia.org/wiki/KFUM-Kameratene_Oslo",
+      "website": "https://kaaffa.no/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/KFUMKameratenelogo.png",
+      "clubLabel": "KFUM-Kameratene Oslo",
+      "stadiumLabel": "KFUM Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q113517072",
+      "stadium": "http://www.wikidata.org/entity/Q1132011",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.405 63.4125)",
+      "capacity": "21423",
+      "clubLabel": "Rosenborg BK",
+      "stadiumLabel": "Lerkendal Stadion"
+    }
+  ]
+}

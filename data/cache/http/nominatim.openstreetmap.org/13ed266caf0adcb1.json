@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.858311&lon=16.052019&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185120313,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1008943484,\"lat\":\"48.8583103\",\"lon\":\"16.0520128\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.329823758292542e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Sokolská, Znojmo, okres Znojmo, Jihomoravský kraj, 669 02, Česko\",\"address\":{\"road\":\"Sokolská\",\"town\":\"Znojmo\",\"county\":\"okres Znojmo\",\"ISO3166-2-lvl5\":\"CZ-647\",\"state\":\"Jihomoravský kraj\",\"ISO3166-2-lvl4\":\"CZ-64\",\"postcode\":\"669 02\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"48.8577490\",\"48.8588714\",\"16.0512348\",\"16.0527909\"]}",
+  "fetchedAt": "2026-10-14T07:51:50.437Z"
+}

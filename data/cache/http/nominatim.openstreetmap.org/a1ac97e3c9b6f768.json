@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=60.795556&lon=11.092222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":160934882,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":69686843,\"lat\":\"60.7956251\",\"lon\":\"11.0923519\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.411459525439869e-05,\"addresstype\":\"leisure\",\"name\":\"Briskeby stadion\",\"display_name\":\"Briskeby stadion, Arenavegen, Briskebyen, Hamar, Innlandet, 2321, Norge\",\"address\":{\"leisure\":\"Briskeby stadion\",\"road\":\"Arenavegen\",\"suburb\":\"Briskebyen\",\"city\":\"Hamar\",\"municipality\":\"Hamar\",\"county\":\"Innlandet\",\"ISO3166-2-lvl4\":\"NO-34\",\"postcode\":\"2321\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"60.7950813\",\"60.7961689\",\"11.0915596\",\"11.0931441\"]}",
+  "fetchedAt": "2026-10-14T07:53:51.527Z"
+}

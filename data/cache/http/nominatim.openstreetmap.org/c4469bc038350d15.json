@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.468389&lon=30.748444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":61692810,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":438257483,\"lat\":\"46.4683707\",\"lon\":\"30.7484991\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.56244754710768e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Пантелеймонівська вулиця, Відрада, Приморський район, Одеса, Одеська міська громада, Одеський район, Одеська область, 65012, Україна\",\"address\":{\"road\":\"Пантелеймонівська вулиця\",\"suburb\":\"Відрада\",\"city_district\":\"Приморський район\",\"city\":\"Одеса\",\"municipality\":\"Одеська міська громада\",\"district\":\"Одеський район\",\"state\":\"Одеська область\",\"ISO3166-2-lvl4\":\"UA-51\",\"postcode\":\"65012\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"46.4680388\",\"46.4687500\",\"30.7477498\",\"30.7492518\"]}",
+  "fetchedAt": "2026-10-14T07:55:55.720Z"
+}

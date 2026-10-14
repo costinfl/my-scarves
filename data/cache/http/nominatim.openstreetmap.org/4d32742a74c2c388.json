@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.696419&lon=17.664428&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":67266338,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":7477450,\"lat\":\"47.6957645\",\"lon\":\"17.6628672\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.90341039138936e-05,\"addresstype\":\"leisure\",\"name\":\"ETO Park\",\"display_name\":\"ETO Park, Mártírok útja, Kiskút, Győr, Győri járás, Győr-Moson-Sopron megye, Dunántúl, 9027, Magyarország\",\"address\":{\"leisure\":\"ETO Park\",\"road\":\"Mártírok útja\",\"suburb\":\"Kiskút\",\"city\":\"Győr\",\"ISO3166-2-lvl8\":\"HU-GY\",\"municipality\":\"Győri járás\",\"county\":\"Győr-Moson-Sopron megye\",\"ISO3166-2-lvl6\":\"HU-GS\",\"region\":\"Dunántúl\",\"postcode\":\"9027\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.6948542\",\"47.6967782\",\"17.6623259\",\"17.6650612\"]}",
+  "fetchedAt": "2026-10-14T07:53:27.696Z"
+}

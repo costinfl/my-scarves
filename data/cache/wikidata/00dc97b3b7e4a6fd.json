@@ -1,0 +1,194 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q162031 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:41:44.171Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q246902",
+      "enwiki": "https://en.wikipedia.org/wiki/Br%C3%B8nsh%C3%B8j_Boldklub",
+      "website": "http://www.bronshojboldklub.dk/",
+      "clubLabel": "Brønshøj Boldklub"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q867882",
+      "enwiki": "https://en.wikipedia.org/wiki/Thisted_FC",
+      "website": "https://thistedfc.dk/",
+      "clubLabel": "Thisted FC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1036992",
+      "enwiki": "https://en.wikipedia.org/wiki/Skive_IK",
+      "website": "https://sik-elite.dk/",
+      "clubLabel": "Skive IK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1193532",
+      "enwiki": "https://en.wikipedia.org/wiki/Vanl%C3%B8se_IF",
+      "website": "https://www.vanloeseif.dk/",
+      "clubLabel": "Vanløse IF",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vanl%C3%B8se%20IF.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q289720",
+      "enwiki": "https://en.wikipedia.org/wiki/Herf%C3%B8lge_Boldklub",
+      "website": "http://www.hb.dk",
+      "clubLabel": "Herfølge Boldklub",
+      "stadium": "http://www.wikidata.org/entity/Q1653346",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.134153 55.413578)",
+      "capacity": "8000",
+      "stadiumLabel": "Herfølge Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q388746",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Fredericia",
+      "website": "http://www.fcfredericia.dk",
+      "clubLabel": "FC Fredericia",
+      "stadium": "http://www.wikidata.org/entity/Q6900548",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.7286 55.57825)",
+      "capacity": "4000",
+      "stadiumLabel": "Fredericia New Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q389879",
+      "enwiki": "https://en.wikipedia.org/wiki/Esbjerg_fB",
+      "website": "https://www.efb.dk/",
+      "clubLabel": "Esbjerg fB",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Football%20efb%20logo.png",
+      "stadium": "http://www.wikidata.org/entity/Q885933",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.439444 55.481944)",
+      "capacity": "18000",
+      "stadiumLabel": "Blue Water Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q541289",
+      "enwiki": "https://en.wikipedia.org/wiki/HB_K%C3%B8ge",
+      "website": "https://www.hbkoge.dk/",
+      "clubLabel": "HB Køge",
+      "stadium": "http://www.wikidata.org/entity/Q1653346",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.134153 55.413578)",
+      "capacity": "8000",
+      "stadiumLabel": "Herfølge Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q549650",
+      "enwiki": "https://en.wikipedia.org/wiki/Fremad_Amager",
+      "website": "http://www.fremad-amager.dk",
+      "clubLabel": "Fremad Amager",
+      "stadium": "http://www.wikidata.org/entity/Q7639637",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.6016 55.6493)",
+      "stadiumLabel": "Sundby Idrætspark"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q737936",
+      "enwiki": "https://en.wikipedia.org/wiki/Vejle_Boldklub",
+      "website": "https://vejle-boldklub.dk/",
+      "clubLabel": "Vejle Boldklub",
+      "stadium": "http://www.wikidata.org/entity/Q1702619",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.5562 55.71372)",
+      "capacity": "10418",
+      "stadiumLabel": "Vejle Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q795173",
+      "enwiki": "https://en.wikipedia.org/wiki/Boldklubben_af_1893",
+      "website": "https://b93.dk/",
+      "clubLabel": "Boldklubben af 1893",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ny%20Stor%20Version%20B%2093%20Logo%2020080701%20Transparent%20Baggrund.png",
+      "stadium": "http://www.wikidata.org/entity/Q4347737",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.5747 55.704)",
+      "stadiumLabel": "Østerbro Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q804515",
+      "enwiki": "https://en.wikipedia.org/wiki/Jammerbugt_FC",
+      "clubLabel": "Jammerbugt FC",
+      "stadium": "http://www.wikidata.org/entity/Q12319705",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.6732 57.2073)",
+      "stadiumLabel": "Jetsmark Idrætscenter"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q841152",
+      "enwiki": "https://en.wikipedia.org/wiki/Hobro_IK",
+      "website": "http://hikfodbold.dk/",
+      "clubLabel": "Hobro IK",
+      "stadium": "http://www.wikidata.org/entity/Q17264642",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.81703 56.6333)",
+      "stadiumLabel": "DS Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q843097",
+      "enwiki": "https://en.wikipedia.org/wiki/Hvidovre_IF",
+      "website": "https://www.hif.dk/",
+      "clubLabel": "Hvidovre IF",
+      "stadium": "http://www.wikidata.org/entity/Q1164671",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.482878 55.631922)",
+      "capacity": "12000",
+      "stadiumLabel": "Hvidovre Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q924353",
+      "enwiki": "https://en.wikipedia.org/wiki/N%C3%A6stved_Boldklub",
+      "website": "http://www.naestvedboldklub.dk",
+      "clubLabel": "Næstved BK",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A6stved%20BK.png",
+      "stadium": "http://www.wikidata.org/entity/Q800123",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.7664 55.2231)",
+      "capacity": "20000",
+      "stadiumLabel": "Næstved Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1048007",
+      "enwiki": "https://en.wikipedia.org/wiki/K%C3%B8ge_Boldklub",
+      "website": "http://www.koge-boldklub.dk",
+      "clubLabel": "Køge Boldklub",
+      "stadium": "http://www.wikidata.org/entity/Q6454075",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.1778 55.4681)",
+      "stadiumLabel": "Køge Idrætspark"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5424959",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Helsing%C3%B8r",
+      "website": "http://fchelsingor.dk",
+      "clubLabel": "FC Helsingør",
+      "stadium": "http://www.wikidata.org/entity/Q12316175",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.5968 56.0458)",
+      "stadiumLabel": "Helsingør Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11492669",
+      "enwiki": "https://en.wikipedia.org/wiki/AaB_Fodbold",
+      "website": "http://fodbold.aabsport.dk/",
+      "clubLabel": "AaB Fodbold",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Aalborg%20Boldspilklub%20%28logo%29.svg",
+      "stadium": "http://www.wikidata.org/entity/Q781442",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.8991 57.0515)",
+      "capacity": "10500",
+      "stadiumLabel": "Aalborg Portland Park",
+      "parent": "http://www.wikidata.org/entity/Q267574"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q14536517",
+      "enwiki": "https://en.wikipedia.org/wiki/Vendsyssel_FF",
+      "website": "https://www.vendsysselff.dk/",
+      "clubLabel": "Vendsyssel FF",
+      "stadium": "http://www.wikidata.org/entity/Q281180",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.9984598 57.4577062)",
+      "capacity": "7500",
+      "stadiumLabel": "Hjørring Stadium"
+    }
+  ]
+}

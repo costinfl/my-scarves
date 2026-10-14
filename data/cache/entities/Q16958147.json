@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q16958147",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60514"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Varaždin (2012)"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Varaždin ŠN"
+      }
+    }
+  }
+}

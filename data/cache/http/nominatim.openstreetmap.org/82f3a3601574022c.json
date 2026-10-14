@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.207300&lon=9.673200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163495167,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":966826240,\"lat\":\"57.2073140\",\"lon\":\"9.6734210\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":5.334935530627935e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"140, Bredgade, Gravergårde, Sønderby, Pandrup, Jammerbugt Kommune, Region Nordjylland, 9490, Danmark\",\"address\":{\"house_number\":\"140\",\"road\":\"Bredgade\",\"quarter\":\"Gravergårde\",\"hamlet\":\"Sønderby\",\"village\":\"Pandrup\",\"municipality\":\"Jammerbugt Kommune\",\"state\":\"Region Nordjylland\",\"ISO3166-2-lvl4\":\"DK-81\",\"postcode\":\"9490\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"57.2072640\",\"57.2073640\",\"9.6733710\",\"9.6734710\"]}",
+  "fetchedAt": "2026-10-14T07:52:40.291Z"
+}

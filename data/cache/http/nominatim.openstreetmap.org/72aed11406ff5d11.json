@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.081781&lon=19.676958&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":67070199,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1011718221,\"lat\":\"46.0817904\",\"lon\":\"19.6767835\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.54604409856873e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Београдски пут, Кер, МЗ Кер, Суботица, Град Суботица, Севернобачки управни округ, Војводина, 24000, Србија\",\"address\":{\"road\":\"Београдски пут\",\"suburb\":\"Кер\",\"city_district\":\"Суботица\",\"city\":\"Суботица\",\"municipality\":\"Град Суботица\",\"county\":\"Севернобачки управни округ\",\"ISO3166-2-lvl6\":\"RS-01\",\"province\":\"Војводина\",\"ISO3166-2-lvl4\":\"RS-VO\",\"postcode\":\"24000\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"46.0812273\",\"46.0823535\",\"19.6761151\",\"19.6774518\"]}",
+  "fetchedAt": "2026-10-14T07:55:14.139Z"
+}

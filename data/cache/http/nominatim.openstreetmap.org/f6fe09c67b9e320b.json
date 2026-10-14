@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.946000&lon=36.181200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":195265516,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":804382235,\"lat\":\"49.9459336\",\"lon\":\"36.1812196\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.340123598072812e-05,\"addresstype\":\"leisure\",\"name\":\"Стадіон Нова Баварія\",\"display_name\":\"Стадіон Нова Баварія, вулиця Герцена, Липовий Гай, Новобаварський район, Харків, Харківська міська громада, Харківський район, Харківська область, 61039, Україна\",\"address\":{\"leisure\":\"Стадіон Нова Баварія\",\"road\":\"вулиця Герцена\",\"suburb\":\"Липовий Гай\",\"city_district\":\"Новобаварський район\",\"city\":\"Харків\",\"municipality\":\"Харківська міська громада\",\"county\":\"Харківський район\",\"state\":\"Харківська область\",\"ISO3166-2-lvl4\":\"UA-63\",\"postcode\":\"61039\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.9453279\",\"49.9465392\",\"36.1804837\",\"36.1819554\"]}",
+  "fetchedAt": "2026-10-14T07:55:59.145Z"
+}

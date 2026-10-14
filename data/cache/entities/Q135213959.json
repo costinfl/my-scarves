@@ -1,0 +1,41 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q135213959",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {},
+    "labels": {
+      "en": {
+        "value": "Asteras Tripolis"
+      }
+    }
+  }
+}

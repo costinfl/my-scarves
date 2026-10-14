@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.890000&lon=10.780833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":162158999,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":98356658,\"lat\":\"59.8901805\",\"lon\":\"10.7804994\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.1374074921752e-05,\"addresstype\":\"leisure\",\"name\":\"Ekeberg kunstgress 1\",\"display_name\":\"Ekeberg kunstgress 1, Ekebergveien, Ekeberg, Nordstrand, Oslo, 1181, Norge\",\"address\":{\"leisure\":\"Ekeberg kunstgress 1\",\"road\":\"Ekebergveien\",\"suburb\":\"Ekeberg\",\"city_district\":\"Oslo\",\"city\":\"Oslo\",\"ISO3166-2-lvl4\":\"NO-03\",\"postcode\":\"1181\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.8896069\",\"59.8907540\",\"10.7795747\",\"10.7814240\"]}",
+  "fetchedAt": "2026-10-14T07:53:53.975Z"
+}

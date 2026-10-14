@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.536944&lon=19.080556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":66656760,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":26838469,\"lat\":\"47.5366184\",\"lon\":\"19.0804561\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.408560311279495e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Fáy utca, Országbíró utcai lakótelep, Angyalföld, XIII. kerület, Budapest, 1139, Magyarország\",\"address\":{\"road\":\"Fáy utca\",\"neighbourhood\":\"Országbíró utcai lakótelep\",\"suburb\":\"Angyalföld\",\"borough\":\"XIII. kerület\",\"city\":\"Budapest\",\"ISO3166-2-lvl8\":\"HU-BU\",\"county\":\"Budapest\",\"ISO3166-2-lvl6\":\"HU-BU\",\"postcode\":\"1139\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.5360490\",\"47.5371877\",\"19.0797801\",\"19.0811320\"]}",
+  "fetchedAt": "2026-10-14T07:53:42.619Z"
+}

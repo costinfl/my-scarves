@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.409444&lon=21.171389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":179674820,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":620498375,\"lat\":\"51.4090392\",\"lon\":\"21.1714255\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":6.535667963678977e-05,\"addresstype\":\"leisure\",\"name\":\"Enea Radomskie Centrum Sportu - Hala Widowiskowo-Sportowa\",\"display_name\":\"Enea Radomskie Centrum Sportu - Hala Widowiskowo-Sportowa, Andrzeja Struga, Śródmieście, Radom, województwo mazowieckie, 26-615, Polska\",\"address\":{\"leisure\":\"Enea Radomskie Centrum Sportu - Hala Widowiskowo-Sportowa\",\"road\":\"Andrzeja Struga\",\"suburb\":\"Śródmieście\",\"city\":\"Radom\",\"state\":\"województwo mazowieckie\",\"ISO3166-2-lvl4\":\"PL-14\",\"postcode\":\"26-615\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"51.4086329\",\"51.4094402\",\"21.1707767\",\"21.1720743\"]}",
+  "fetchedAt": "2026-10-14T07:54:41.241Z"
+}

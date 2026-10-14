@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.788611&lon=20.459167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64250500,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":31804665,\"lat\":\"44.7887574\",\"lon\":\"20.4590872\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.159685664144377e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Хумска, МЗ Војвода Мишић (Савски венац), Градска општина Савски венац, Београд, Град Београд, Централна Србија, 11000, Србија\",\"address\":{\"road\":\"Хумска\",\"neighbourhood\":\"МЗ Војвода Мишић (Савски венац)\",\"suburb\":\"Градска општина Савски венац\",\"city\":\"Београд\",\"county\":\"Град Београд\",\"ISO3166-2-lvl6\":\"RS-00\",\"province\":\"Централна Србија\",\"postcode\":\"11000\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.7881970\",\"44.7893178\",\"20.4583422\",\"20.4598321\"]}",
+  "fetchedAt": "2026-10-14T07:55:07.630Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.527056&lon=30.507500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191854015,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":4325428,\"lat\":\"50.5270560\",\"lon\":\"30.5075015\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.258716716253937e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Північна вулиця, Оболонь, Оболонський район, Київ, 04214, Україна\",\"address\":{\"road\":\"Північна вулиця\",\"suburb\":\"Оболонь\",\"city_district\":\"Оболонський район\",\"city\":\"Київ\",\"ISO3166-2-lvl4\":\"UA-30\",\"postcode\":\"04214\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.5267034\",\"50.5273961\",\"30.5066988\",\"30.5082972\"]}",
+  "fetchedAt": "2026-10-14T07:56:07.716Z"
+}

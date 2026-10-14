@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.943033&lon=23.709225&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56233892,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":23200148,\"lat\":\"37.9431056\",\"lon\":\"23.7092847\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.327382314789071e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ιωάννου Χρυσοστόμου, Νέα Σμύρνη, Δήμος Νέας Σμύρνης, Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 171 22, Ελλάς\",\"address\":{\"road\":\"Ιωάννου Χρυσοστόμου\",\"suburb\":\"Νέα Σμύρνη\",\"municipality\":\"Δήμος Νέας Σμύρνης\",\"county\":\"Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών\",\"state\":\"Περιφέρεια Αττικής\",\"ISO3166-2-lvl5\":\"GR-I\",\"postcode\":\"171 22\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.9425353\",\"37.9436758\",\"23.7085954\",\"23.7099740\"]}",
+  "fetchedAt": "2026-10-14T07:53:12.409Z"
+}

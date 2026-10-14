@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q3432730",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "KFUMKameratenelogo.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "KFUM-Kameratene Oslo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "KFUM-Kameratene Oslo"
+      }
+    }
+  }
+}

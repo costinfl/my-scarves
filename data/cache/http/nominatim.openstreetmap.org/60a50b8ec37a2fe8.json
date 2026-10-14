@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.640075&lon=13.817936&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":132355546,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":119178145,\"lat\":\"50.6400240\",\"lon\":\"13.8179096\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.277332722967907e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Na Stínadlech, Řetenice, Teplice, okres Teplice, Ústecký kraj, 415 03, Česko\",\"address\":{\"road\":\"Na Stínadlech\",\"suburb\":\"Řetenice\",\"town\":\"Teplice\",\"district\":\"okres Teplice\",\"ISO3166-2-lvl5\":\"CZ-426\",\"state\":\"Ústecký kraj\",\"ISO3166-2-lvl4\":\"CZ-42\",\"postcode\":\"415 03\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.6395436\",\"50.6405042\",\"13.8174134\",\"13.8184059\"]}",
+  "fetchedAt": "2026-10-14T07:52:11.816Z"
+}

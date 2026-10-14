@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.718900&lon=37.549300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":193287130,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":242917236,\"lat\":\"48.7188856\",\"lon\":\"37.5493012\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.027695124737953e-05,\"addresstype\":\"leisure\",\"name\":\"Стадіон «Прапор»\",\"display_name\":\"Стадіон «Прапор», Набережна вулиця, Поштовий (Старопоштовий), Партизанський, Краматорськ, Краматорська міська громада, Краматорський район, Донецька область, 84303, Україна\",\"address\":{\"leisure\":\"Стадіон «Прапор»\",\"road\":\"Набережна вулиця\",\"neighbourhood\":\"Поштовий (Старопоштовий)\",\"suburb\":\"Партизанський\",\"city\":\"Краматорськ\",\"municipality\":\"Краматорська міська громада\",\"county\":\"Краматорський район\",\"state\":\"Донецька область\",\"ISO3166-2-lvl4\":\"UA-14\",\"postcode\":\"84303\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.7180200\",\"48.7198176\",\"37.5484444\",\"37.5502356\"]}",
+  "fetchedAt": "2026-10-14T07:55:53.532Z"
+}

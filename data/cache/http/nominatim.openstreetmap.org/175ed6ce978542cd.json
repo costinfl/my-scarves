@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.413068&lon=5.279379&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":159825950,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":38358564,\"lat\":\"59.4130886\",\"lon\":\"5.2795151\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4480610519695675,\"addresstype\":\"leisure\",\"name\":\"Haugesund stadion\",\"display_name\":\"Haugesund stadion, Hollendersvingen, Hollenderhaugen, Rossabø, Haugesund, Rogaland, 5528, Norge\",\"address\":{\"leisure\":\"Haugesund stadion\",\"road\":\"Hollendersvingen\",\"neighbourhood\":\"Hollenderhaugen\",\"suburb\":\"Rossabø\",\"city\":\"Haugesund\",\"municipality\":\"Haugesund\",\"county\":\"Rogaland\",\"ISO3166-2-lvl4\":\"NO-11\",\"postcode\":\"5528\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.4125012\",\"59.4136759\",\"5.2783903\",\"5.2806398\"]}",
+  "fetchedAt": "2026-10-14T07:53:49.703Z"
+}

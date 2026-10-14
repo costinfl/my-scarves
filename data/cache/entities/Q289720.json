@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q289720",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52911"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Herfølge Boldklub"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Herfølge Boldklub"
+      }
+    }
+  }
+}

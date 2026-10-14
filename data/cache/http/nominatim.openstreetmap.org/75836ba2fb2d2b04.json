@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.341000&lon=33.265200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191554286,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":217981347,\"lat\":\"48.3410405\",\"lon\":\"33.2652074\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Злагоди, Сонячний, Петрове, Петрівська селищна громада, Олександрійський район, Кіровоградська область, 28300, Україна\",\"address\":{\"road\":\"вулиця Злагоди\",\"quarter\":\"Сонячний\",\"town\":\"Петрове\",\"municipality\":\"Петрівська селищна громада\",\"county\":\"Олександрійський район\",\"state\":\"Кіровоградська область\",\"ISO3166-2-lvl4\":\"UA-35\",\"postcode\":\"28300\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.3404716\",\"48.3416094\",\"33.2644415\",\"33.2659732\"]}",
+  "fetchedAt": "2026-10-14T07:56:00.921Z"
+}

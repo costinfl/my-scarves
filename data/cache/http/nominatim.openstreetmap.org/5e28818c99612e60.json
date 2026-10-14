@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.627500&lon=16.530556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":168394423,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":172455934,\"lat\":\"59.6275419\",\"lon\":\"16.5306876\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.349558219859191,\"addresstype\":\"leisure\",\"name\":\"Hitachi Energy Arena\",\"display_name\":\"Hitachi Energy Arena, Pontus Widèns väg, Vega, Västerås, Västerås kommun, Västmanlands län, 722 18, Sverige\",\"address\":{\"leisure\":\"Hitachi Energy Arena\",\"road\":\"Pontus Widèns väg\",\"suburb\":\"Vega\",\"city\":\"Västerås\",\"municipality\":\"Västerås kommun\",\"county\":\"Västmanlands län\",\"ISO3166-2-lvl4\":\"SE-U\",\"postcode\":\"722 18\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"59.6269950\",\"59.6280887\",\"16.5298159\",\"16.5315594\"]}",
+  "fetchedAt": "2026-10-14T07:55:51.338Z"
+}

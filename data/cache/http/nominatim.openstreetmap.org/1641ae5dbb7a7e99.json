@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.559444&lon=39.321111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":193458476,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":31278770,\"lat\":\"48.5595948\",\"lon\":\"39.3209506\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.656366826881846e-05,\"addresstype\":\"leisure\",\"name\":\"Авангард\",\"display_name\":\"Авангард, 4в, Оборонна вулиця, Гусинівка, Луганськ, Ленінський район, Луганська міська громада, Луганський район, Луганська область, 91031, Україна\",\"address\":{\"leisure\":\"Авангард\",\"house_number\":\"4в\",\"road\":\"Оборонна вулиця\",\"suburb\":\"Гусинівка\",\"city\":\"Луганськ\",\"borough\":\"Ленінський район\",\"municipality\":\"Луганська міська громада\",\"county\":\"Луганський район\",\"state\":\"Луганська область\",\"ISO3166-2-lvl4\":\"UA-09\",\"postcode\":\"91031\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.5585240\",\"48.5605917\",\"39.3199052\",\"39.3219782\"]}",
+  "fetchedAt": "2026-10-14T07:56:19.535Z"
+}

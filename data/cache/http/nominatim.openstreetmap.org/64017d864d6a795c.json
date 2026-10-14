@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.702469&lon=12.572203&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":149145824,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":171015425,\"lat\":\"55.7026717\",\"lon\":\"12.5723522\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.19920653085682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Øster Allé, Indre Østerbro, Østervold, Østerbro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark\",\"address\":{\"road\":\"Øster Allé\",\"neighbourhood\":\"Indre Østerbro\",\"quarter\":\"Østervold\",\"suburb\":\"Østerbro\",\"city\":\"København\",\"municipality\":\"Københavns Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"2100\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.7020737\",\"55.7032696\",\"12.5712859\",\"12.5734185\"]}",
+  "fetchedAt": "2026-10-14T07:52:30.180Z"
+}

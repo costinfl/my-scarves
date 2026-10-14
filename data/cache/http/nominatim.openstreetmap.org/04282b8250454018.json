@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.206400&lon=15.845400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":133469381,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":736752589,\"lat\":\"50.2064190\",\"lon\":\"15.8454221\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.654993514911143e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Malšovická, U Orlice, Střed města, Malšovice, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 12, Česko\",\"address\":{\"road\":\"Malšovická\",\"neighbourhood\":\"U Orlice\",\"suburb\":\"Malšovice\",\"city\":\"Hradec Králové\",\"district\":\"okres Hradec Králové\",\"ISO3166-2-lvl5\":\"CZ-521\",\"state\":\"Královéhradecký kraj\",\"ISO3166-2-lvl4\":\"CZ-52\",\"postcode\":\"500 12\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.2058398\",\"50.2069981\",\"15.8446921\",\"15.8461521\"]}",
+  "fetchedAt": "2026-10-14T07:51:56.416Z"
+}

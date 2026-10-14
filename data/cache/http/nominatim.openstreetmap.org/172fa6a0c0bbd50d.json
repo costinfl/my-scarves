@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.298611&lon=34.889722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":192571156,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":849937344,\"lat\":\"50.2984295\",\"lon\":\"34.8897913\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.707103074688361e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Грабовського, Охтирка, Охтирська міська громада, Охтирський район, Сумська область, 42700, Україна\",\"address\":{\"road\":\"вулиця Грабовського\",\"town\":\"Охтирка\",\"municipality\":\"Охтирська міська громада\",\"county\":\"Охтирський район\",\"state\":\"Сумська область\",\"ISO3166-2-lvl4\":\"UA-59\",\"postcode\":\"42700\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.2978423\",\"50.2990167\",\"34.8890153\",\"34.8905673\"]}",
+  "fetchedAt": "2026-10-14T07:56:06.382Z"
+}

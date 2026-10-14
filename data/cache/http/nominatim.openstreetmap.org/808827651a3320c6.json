@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.216667&lon=11.943889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163480687,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":447882709,\"lat\":\"58.2168904\",\"lon\":\"11.9437292\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7135118638849735e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Skarsjövägen, Ljungskile, Ljungs distrikt, Uddevalla kommun, Västra Götalands län, 459 32, Sverige\",\"address\":{\"road\":\"Skarsjövägen\",\"village\":\"Ljungskile\",\"city\":\"Ljungs distrikt\",\"municipality\":\"Uddevalla kommun\",\"county\":\"Västra Götalands län\",\"ISO3166-2-lvl4\":\"SE-O\",\"postcode\":\"459 32\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"58.2163408\",\"58.2174399\",\"11.9425630\",\"11.9448953\"]}",
+  "fetchedAt": "2026-10-14T07:55:42.497Z"
+}

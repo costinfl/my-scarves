@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.845300&lon=18.561300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185856712,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":851604937,\"lat\":\"49.8453583\",\"lon\":\"18.5611985\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.998855573353197e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"U Hřiště, Ráj, Karviná, okres Karviná, Moravskoslezský kraj, 734 01, Česko\",\"address\":{\"road\":\"U Hřiště\",\"suburb\":\"Ráj\",\"town\":\"Karviná\",\"district\":\"okres Karviná\",\"ISO3166-2-lvl5\":\"CZ-803\",\"state\":\"Moravskoslezský kraj\",\"ISO3166-2-lvl4\":\"CZ-80\",\"postcode\":\"734 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.8447831\",\"49.8459335\",\"18.5604818\",\"18.5619151\"]}",
+  "fetchedAt": "2026-10-14T07:52:18.404Z"
+}

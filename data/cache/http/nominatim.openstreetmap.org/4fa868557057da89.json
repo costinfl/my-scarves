@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.704000&lon=12.574700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":148674301,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":715097104,\"lat\":\"55.7041106\",\"lon\":\"12.5748738\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.19920653085682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Gunnar Nu Hansens Plads, Indre Østerbro, Lyngbyvejskvarteret, Østerbro, København, Københavns Kommune, Region Hovedstaden, 2100, Danmark\",\"address\":{\"road\":\"Gunnar Nu Hansens Plads\",\"neighbourhood\":\"Indre Østerbro\",\"quarter\":\"Lyngbyvejskvarteret\",\"suburb\":\"Østerbro\",\"city\":\"København\",\"municipality\":\"Københavns Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"2100\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.7037822\",\"55.7044389\",\"12.5740142\",\"12.5757334\"]}",
+  "fetchedAt": "2026-10-14T07:52:26.729Z"
+}

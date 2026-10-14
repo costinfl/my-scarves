@@ -1,0 +1,283 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1561244 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:45:49.770Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q128390",
+      "stadium": "http://www.wikidata.org/entity/Q2347283",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(33.103611 48.674722)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Oleksandriya",
+      "website": "https://fco.com.ua/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Oleksandriya%20Logo.png",
+      "clubLabel": "FC Oleksandriya",
+      "stadiumLabel": "CSC Nika Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q274762",
+      "stadium": "http://www.wikidata.org/entity/Q1970138",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.549444 49.594833)",
+      "capacity": "24795",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vorskla_Poltava",
+      "website": "https://vorskla.com.ua/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vorskla%202010%20Logo%20Bord-Crimson.png",
+      "clubLabel": "FC Vorskla Poltava",
+      "stadiumLabel": "Oleksiy Butovskyi Vorskla Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q616528",
+      "stadium": "http://www.wikidata.org/entity/Q12135865",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(37.808 47.9614)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Olimpik_Donetsk",
+      "clubLabel": "FC Olimpik Donetsk",
+      "stadiumLabel": "Olimpik Sports Complex"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q837558",
+      "stadium": "http://www.wikidata.org/entity/Q2390029",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.3375 50.754167)",
+      "capacity": "12080",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Volyn_Lutsk",
+      "website": "http://fcvolyn.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20of%20FC%20Volyn%20Lutsk.png",
+      "clubLabel": "FC Volyn Lutsk",
+      "stadiumLabel": "Avanhard Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q898281",
+      "stadium": "http://www.wikidata.org/entity/Q2034376",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.104856 44.960947)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ihroservice_Simferopol",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%A4%D0%9A%20%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE-%D0%86%D0%B3%D1%80%D0%BE%D0%A1%D0%B5%D1%80%D0%B2%D1%96%D1%81.svg",
+      "clubLabel": "FC Ihroservice Simferopol",
+      "stadiumLabel": "Fiolent Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1819219",
+      "stadium": "http://www.wikidata.org/entity/Q4135023",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(36.1812 49.946)",
+      "capacity": "2057",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Helios_Kharkiv",
+      "website": "http://www.gelios.ua/ua",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Crest%20of%20FC%20Helios%20Kharkiv.png",
+      "clubLabel": "FC Helios Kharkiv",
+      "stadiumLabel": "Nova Bavaria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1875429",
+      "stadium": "http://www.wikidata.org/entity/Q4464395",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.123583333 49.793416666)",
+      "capacity": "13500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Arsenal-Kyivshchyna_Bila_Tserkva",
+      "website": "http://arsenalbc.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%A4%D0%9A%20%C2%AB%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB-%D0%9A%D0%B8%D1%97%D0%B2%D1%89%D0%B8%D0%BD%D0%B0%C2%BB.jpg",
+      "clubLabel": "FC Arsenal-Kyivshchyna Bila Tserkva",
+      "stadiumLabel": "Trudovi Reservy Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2027156",
+      "stadium": "http://www.wikidata.org/entity/Q12118361",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.577 49.5825)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Poltava",
+      "website": "http://fcpoltava.com/",
+      "clubLabel": "FC Poltava",
+      "stadiumLabel": "Lokomotiv Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2036012",
+      "stadium": "http://www.wikidata.org/entity/Q2507146",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.799722 50.902222)",
+      "capacity": "30000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Spartak_Sumy",
+      "clubLabel": "FC Spartak Sumy",
+      "stadiumLabel": "Yuvileiny Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2078847",
+      "stadium": "http://www.wikidata.org/entity/Q12075801",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(37.5493 48.7189)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kramatorsk",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Avangard%20Kramatorsk%20Logo.svg",
+      "clubLabel": "FC Avanhard Kramatorsk",
+      "stadiumLabel": "Prapor Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2134350",
+      "stadium": "http://www.wikidata.org/entity/Q19401450",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.0735 50.1858)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Temp_Shepetivka",
+      "clubLabel": "FC Temp Shepetivka",
+      "stadiumLabel": "Lokomotyv Stadium, Shepetivka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2275503",
+      "stadium": "http://www.wikidata.org/entity/Q4265832",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.489722 49.243333)",
+      "capacity": "14000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Nyva_Vinnytsia",
+      "website": "https://www.niva-v.com.ua/",
+      "clubLabel": "PFC Nyva Vinnytsia",
+      "stadiumLabel": "Central City Stadium, Vynnytsia"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2464401",
+      "stadium": "http://www.wikidata.org/entity/Q4206440",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.0608 45.0136)",
+      "capacity": "3250",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Krymteplytsia_Molodizhne",
+      "clubLabel": "FC Krymteplytsia Molodizhne",
+      "stadiumLabel": "KT Sport Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2587695",
+      "stadium": "http://www.wikidata.org/entity/Q2507017",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(32.0547 49.4361)",
+      "capacity": "10321",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Cherkashchyna",
+      "website": "http://ckdnipro.com.ua/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Cherkashchyna%20logo.png",
+      "clubLabel": "FC Cherkashchyna",
+      "stadiumLabel": "Cherkasy Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2609277",
+      "stadium": "http://www.wikidata.org/entity/Q2069150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.889722 50.298611)",
+      "capacity": "5256",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Naftovyk_Okhtyrka",
+      "website": "https://fcnaftovyk.com.ua/",
+      "clubLabel": "FC Naftovyk-Ukrnafta Okhtyrka",
+      "stadiumLabel": "Naftovyk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2617777",
+      "stadium": "http://www.wikidata.org/entity/Q2040668",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(32.266666666 48.515833333)",
+      "capacity": "14628",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Zirka_Kropyvnytskyi",
+      "website": "http://www.fczirka.com.ua/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Zirka%20Kropyvnytskyi%20Logo.png",
+      "clubLabel": "FC Zirka Kropyvnytskyi",
+      "stadiumLabel": "Zirka Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2994166",
+      "stadium": "http://www.wikidata.org/entity/Q1984498",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(31.9604 46.9714)",
+      "capacity": "15640",
+      "enwiki": "https://en.wikipedia.org/wiki/MFC_Mykolaiv",
+      "website": "https://mfc.mk.ua",
+      "clubLabel": "MFC Mykolaiv",
+      "stadiumLabel": "Mykolaiv Central City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20073460",
+      "stadium": "http://www.wikidata.org/entity/Q25445334",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(33.2652 48.341)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Inhulets_Petrove",
+      "clubLabel": "FC Inhulets Petrove",
+      "stadiumLabel": "Inhulets Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2032872",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Komunalnyk_Luhansk",
+      "clubLabel": "FC Komunalnyk Luhansk"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2032886",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Knyazha_Shchaslyve",
+      "clubLabel": "FC Knyazha Shchaslyve"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2042771",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Nyva_Bershad",
+      "clubLabel": "FC Nyva Bershad"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2223870",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Enerhetyk_Burshtyn",
+      "website": "http://energetyk.com.ua/",
+      "clubLabel": "FC Enerhetyk Burshtyn"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4055342",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Avanhard_Zhovti_Vody",
+      "clubLabel": "FC Sirius Zhovti Vody"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4271000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Lviv_(1992)",
+      "clubLabel": "FC Lviv"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12106319",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ahrobiznes_Volochysk",
+      "website": "http://fcab.com.ua/",
+      "clubLabel": "FC Ahrobiznes Volochysk"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12160468",
+      "clubLabel": "Q12160468"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q25436464",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_VPK-Ahro_Shevchenkivka",
+      "website": "https://www.fc-vpkagro.com.ua",
+      "clubLabel": "FC VPK-Ahro Shevchenkivka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q30962897",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Uzhhorod",
+      "website": "https://fcuzhhorod.com",
+      "clubLabel": "FC Uzhhorod"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q54877936",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Mynai",
+      "website": "https://fcminaj.com/",
+      "clubLabel": "FC Minaj"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q61373501",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Alians_Lypova_Dolyna",
+      "website": "https://fc-alliance.com.ua/",
+      "clubLabel": "FC Alians Lypova Dolyna"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q97379842",
+      "clubLabel": "Q97379842"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q98656510",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Metal_Kharkiv",
+      "website": "https://www.fcmetal.com.ua/",
+      "clubLabel": "FC Metal Kharkiv"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q107466898",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Livyi_Bereh_Kyiv",
+      "website": "https://fclb.kiev.ua",
+      "clubLabel": "FC Livyi Bereh Kyiv"
+    }
+  ]
+}

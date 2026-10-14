@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.616111&lon=26.240833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191238626,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":260299479,\"lat\":\"50.6162254\",\"lon\":\"26.2408780\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.448996719305741e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Шкільна вулиця, Басів Кут, Рівне, Рівненська міська громада, Рівненський район, Рівненська область, 33013, Україна\",\"address\":{\"road\":\"Шкільна вулиця\",\"suburb\":\"Басів Кут\",\"city\":\"Рівне\",\"municipality\":\"Рівненська міська громада\",\"district\":\"Рівненський район\",\"state\":\"Рівненська область\",\"ISO3166-2-lvl4\":\"UA-56\",\"postcode\":\"33013\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"50.6156695\",\"50.6167898\",\"26.2401433\",\"26.2415915\"]}",
+  "fetchedAt": "2026-10-14T07:56:22.856Z"
+}

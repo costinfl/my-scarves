@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.962752&lon=11.063458&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":162381315,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":13333689399,\"lat\":\"59.9627403\",\"lon\":\"11.0635660\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.47912111845331606,\"addresstype\":\"leisure\",\"name\":\"Åråsen Stadion\",\"display_name\":\"Åråsen Stadion, C.J. Hansens vei, Vigernes, Lillestrøm, Akershus, 2000, Norge\",\"address\":{\"leisure\":\"Åråsen Stadion\",\"road\":\"C.J. Hansens vei\",\"suburb\":\"Vigernes\",\"town\":\"Lillestrøm\",\"municipality\":\"Lillestrøm\",\"county\":\"Akershus\",\"ISO3166-2-lvl4\":\"NO-32\",\"postcode\":\"2000\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.9626903\",\"59.9627903\",\"11.0635160\",\"11.0636160\"]}",
+  "fetchedAt": "2026-10-14T07:53:55.804Z"
+}

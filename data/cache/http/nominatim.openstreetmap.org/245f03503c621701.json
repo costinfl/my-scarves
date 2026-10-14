@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=63.428376&lon=10.524010&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161458512,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":84078486,\"lat\":\"63.4283560\",\"lon\":\"10.5240648\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.302738994425906e-05,\"addresstype\":\"leisure\",\"name\":\"Extra Arena\",\"display_name\":\"Extra Arena, Ranheimsfjæra, Olderdalen, Ranheim, Østbyen, Trondheim, Trøndelag, 7056, Norge\",\"address\":{\"leisure\":\"Extra Arena\",\"road\":\"Ranheimsfjæra\",\"quarter\":\"Olderdalen\",\"suburb\":\"Ranheim\",\"city_district\":\"Østbyen\",\"city\":\"Trondheim\",\"county\":\"Trøndelag\",\"ISO3166-2-lvl4\":\"NO-50\",\"postcode\":\"7056\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"63.4278005\",\"63.4289115\",\"10.5231121\",\"10.5250175\"]}",
+  "fetchedAt": "2026-10-14T07:54:01.653Z"
+}

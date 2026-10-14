@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q368909",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64321"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Slaven Belupo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Slaven Belupo"
+      }
+    }
+  }
+}

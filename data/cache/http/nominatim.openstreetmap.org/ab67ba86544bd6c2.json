@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.397771&lon=10.350055&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":149273244,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":67254572,\"lat\":\"55.3977828\",\"lon\":\"10.3500939\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.776302738989879e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Højstrupvej, Højstrup, Odense, Odense Kommune, Region Syddanmark, 5200, Danmark\",\"address\":{\"road\":\"Højstrupvej\",\"suburb\":\"Højstrup\",\"city\":\"Odense\",\"municipality\":\"Odense Kommune\",\"state\":\"Region Syddanmark\",\"ISO3166-2-lvl4\":\"DK-83\",\"postcode\":\"5200\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.3972263\",\"55.3983393\",\"10.3491432\",\"10.3510447\"]}",
+  "fetchedAt": "2026-10-14T07:52:44.344Z"
+}

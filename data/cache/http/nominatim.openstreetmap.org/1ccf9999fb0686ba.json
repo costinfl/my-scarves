@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.613839&lon=22.972422&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59195899,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":117889581,\"lat\":\"40.6138444\",\"lon\":\"22.9723212\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.405279621571706e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Βασιλείου Αδαμίδου, Άνω Τούμπα, 4η Κοινότητα Θεσσαλονίκης, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 543 51, Ελλάς\",\"address\":{\"road\":\"Βασιλείου Αδαμίδου\",\"suburb\":\"Άνω Τούμπα\",\"city_district\":\"4η Κοινότητα Θεσσαλονίκης\",\"city\":\"Δημοτική Ενότητα Θεσαλονίκης\",\"municipality\":\"Δήμος Θεσσαλονίκης\",\"county\":\"Μητροπολιτική Ενότητα Θεσσαλονίκης\",\"state\":\"Περιφέρεια Κεντρικής Μακεδονίας\",\"ISO3166-2-lvl5\":\"GR-B\",\"postcode\":\"543 51\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"40.6132921\",\"40.6143966\",\"22.9717106\",\"22.9729317\"]}",
+  "fetchedAt": "2026-10-14T07:53:14.061Z"
+}

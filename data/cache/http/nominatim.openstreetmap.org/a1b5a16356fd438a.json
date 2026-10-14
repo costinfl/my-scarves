@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.243333&lon=28.489722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":191732850,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":365689732,\"lat\":\"49.2434123\",\"lon\":\"28.4900391\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.643396658269654e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Винниченка, Казарми, Можайка, Замостя, Вінниця, Вінницька міська громада, Вінницький район, Вінницька область, 21009, Україна\",\"address\":{\"road\":\"вулиця Винниченка\",\"neighbourhood\":\"Казарми\",\"quarter\":\"Можайка\",\"suburb\":\"Замостя\",\"city\":\"Вінниця\",\"municipality\":\"Вінницька міська громада\",\"county\":\"Вінницький район\",\"state\":\"Вінницька область\",\"ISO3166-2-lvl4\":\"UA-05\",\"postcode\":\"21009\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.2428942\",\"49.2439303\",\"28.4894844\",\"28.4905939\"]}",
+  "fetchedAt": "2026-10-14T07:56:23.958Z"
+}

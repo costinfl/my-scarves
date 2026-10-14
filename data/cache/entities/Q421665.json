@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q421665",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64289"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Radnički 1923"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Radnički 1923"
+      }
+    }
+  }
+}

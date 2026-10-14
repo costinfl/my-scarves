@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.013600&lon=34.060800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":205487982,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":94359442,\"lat\":\"45.0137414\",\"lon\":\"34.0607734\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":6.620355535205642e-05,\"addresstype\":\"leisure\",\"name\":\"ФК Крымтеплица\",\"display_name\":\"ФК Крымтеплица, Спортивная улица, Аграрное, Сімферопольський район, Республика Крым, 95492, Україна\",\"address\":{\"leisure\":\"ФК Крымтеплица\",\"road\":\"Спортивная улица\",\"town\":\"Аграрное\",\"county\":\"Сімферопольський район\",\"state\":\"Республика Крым\",\"postcode\":\"95492\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"45.0129520\",\"45.0144434\",\"34.0600241\",\"34.0614931\"]}",
+  "fetchedAt": "2026-10-14T07:56:04.140Z"
+}

@@ -28,6 +28,48 @@
     "participants": 16
   },
   {
+    "qid": "Q162604",
+    "association": "CRO",
+    "tier": 1,
+    "label": "Croatian Football League",
+    "participants": 10
+  },
+  {
+    "qid": "Q209967",
+    "association": "CRO",
+    "tier": 2,
+    "label": "Prva nogometna liga",
+    "participants": 16
+  },
+  {
+    "qid": "Q217016",
+    "association": "CZE",
+    "tier": 1,
+    "label": "Czech First League",
+    "participants": 16
+  },
+  {
+    "qid": "Q1261184",
+    "association": "CZE",
+    "tier": 2,
+    "label": "Czech FNL",
+    "participants": 16
+  },
+  {
+    "qid": "Q204752",
+    "association": "DEN",
+    "tier": 1,
+    "label": "Danish Superliga",
+    "participants": 12
+  },
+  {
+    "qid": "Q162031",
+    "association": "DEN",
+    "tier": 2,
+    "label": "Danish 1st Division",
+    "participants": 12
+  },
+  {
     "qid": "Q9448",
     "association": "ENG",
     "tier": 1,
@@ -84,6 +126,34 @@
     "participants": 18
   },
   {
+    "qid": "Q235114",
+    "association": "GRE",
+    "tier": 1,
+    "label": "Super League Greece",
+    "participants": 14
+  },
+  {
+    "qid": "Q63980269",
+    "association": "GRE",
+    "tier": 2,
+    "label": "Super League Greece 2",
+    "participants": 16
+  },
+  {
+    "qid": "Q276085",
+    "association": "HUN",
+    "tier": 1,
+    "label": "Nemzeti Bajnokság I",
+    "participants": 12
+  },
+  {
+    "qid": "Q732721",
+    "association": "HUN",
+    "tier": 2,
+    "label": "Nemzeti Bajnokság II",
+    "participants": 32
+  },
+  {
     "qid": "Q15804",
     "association": "ITA",
     "tier": 1,
@@ -110,6 +180,34 @@
     "tier": 2,
     "label": "Eerste Divisie",
     "participants": 20
+  },
+  {
+    "qid": "Q201671",
+    "association": "NOR",
+    "tier": 1,
+    "label": "Eliteserien",
+    "participants": 16
+  },
+  {
+    "qid": "Q353508",
+    "association": "NOR",
+    "tier": 2,
+    "label": "1. divisjon football",
+    "participants": 16
+  },
+  {
+    "qid": "Q44763",
+    "association": "POL",
+    "tier": 1,
+    "label": "Ekstraklasa",
+    "participants": 18
+  },
+  {
+    "qid": "Q163046",
+    "association": "POL",
+    "tier": 2,
+    "label": "I liga",
+    "participants": 18
   },
   {
     "qid": "Q182994",
@@ -154,6 +252,20 @@
     "participants": 10
   },
   {
+    "qid": "Q235307",
+    "association": "SRB",
+    "tier": 1,
+    "label": "Serbian SuperLiga",
+    "participants": 16
+  },
+  {
+    "qid": "Q1813595",
+    "association": "SRB",
+    "tier": 2,
+    "label": "Serbian First League",
+    "participants": 18
+  },
+  {
     "qid": "Q202699",
     "association": "SUI",
     "tier": 1,
@@ -168,6 +280,20 @@
     "participants": 10
   },
   {
+    "qid": "Q202243",
+    "association": "SWE",
+    "tier": 1,
+    "label": "Allsvenskan",
+    "participants": 16
+  },
+  {
+    "qid": "Q692009",
+    "association": "SWE",
+    "tier": 2,
+    "label": "Superettan",
+    "participants": 16
+  },
+  {
     "qid": "Q485568",
     "association": "TUR",
     "tier": 1,
@@ -179,6 +305,20 @@
     "association": "TUR",
     "tier": 2,
     "label": "TFF First League",
+    "participants": 18
+  },
+  {
+    "qid": "Q206073",
+    "association": "UKR",
+    "tier": 1,
+    "label": "Premier League",
+    "participants": 16
+  },
+  {
+    "qid": "Q1561244",
+    "association": "UKR",
+    "tier": 2,
+    "label": "Ukrainian First League",
     "participants": 18
   }
 ]

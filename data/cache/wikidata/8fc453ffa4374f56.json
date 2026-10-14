@@ -1,0 +1,220 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q134255 wd:Q140497 wd:Q189170 wd:Q190943 wd:Q193749 wd:Q244981 wd:Q287236 wd:Q328655 wd:Q668112 wd:Q727918 wd:Q730219 wd:Q836991 wd:Q925935 wd:Q1475269 wd:Q2000763 wd:Q24074158 wd:Q86677609 wd:Q52942 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:40:13.733Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q134255",
+      "stadium": "http://www.wikidata.org/entity/Q606059",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.768564 50.296317)",
+      "capacity": "28499",
+      "enwiki": "https://en.wikipedia.org/wiki/G%C3%B3rnik_Zabrze",
+      "website": "https://www.gornikzabrze.pl/",
+      "clubLabel": "Górnik Zabrze",
+      "stadiumLabel": "Ernest Pohl Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q140497",
+      "stadium": "http://www.wikidata.org/entity/Q1147191",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.1975 51.413333)",
+      "capacity": "16068",
+      "enwiki": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin",
+      "website": "https://www.zaglebie.com/",
+      "clubLabel": "Zagłębie Lubin",
+      "stadiumLabel": "Stadion Zagłębia Lubin"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q189170",
+      "stadium": "http://www.wikidata.org/entity/Q2470765",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.148889 53.105556)",
+      "capacity": "22372",
+      "enwiki": "https://en.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok",
+      "website": "http://www.jagiellonia.pl/",
+      "clubLabel": "Jagiellonia Białystok",
+      "stadiumLabel": "Białystok City Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Jagiellonia%20Bia%C5%82ystok%20Logo%201.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q190943",
+      "stadium": "http://www.wikidata.org/entity/Q727590",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.911944 50.063611)",
+      "capacity": "33130",
+      "enwiki": "https://en.wikipedia.org/wiki/Wis%C5%82a_Krak%C3%B3w",
+      "website": "http://www.wisla.krakow.pl/",
+      "clubLabel": "Wisła Kraków",
+      "stadiumLabel": "Henryk Reyman Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q193749",
+      "stadium": "http://www.wikidata.org/entity/Q928642",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.040628 52.220461)",
+      "capacity": "31106",
+      "enwiki": "https://en.wikipedia.org/wiki/Legia_Warsaw",
+      "website": "https://legia.com/",
+      "clubLabel": "Legia Warsaw",
+      "stadiumLabel": "Polish Army Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q244981",
+      "stadium": "http://www.wikidata.org/entity/Q1565485",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.511667 51.765)",
+      "capacity": "18018",
+      "enwiki": "https://en.wikipedia.org/wiki/Widzew_%C5%81%C3%B3d%C5%BA",
+      "website": "https://widzew.com/",
+      "clubLabel": "RTS Widzew Łódź",
+      "stadiumLabel": "Stadion Widzewa",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Mural%20to%20Widzew%20%C5%81%C3%B3d%C5%BA%20football%20club%2C%20%C5%81%C3%B3d%C5%BA%209%20Kazimierza%20Street%20%28new%20logo%20cropped%29.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q287236",
+      "stadium": "http://www.wikidata.org/entity/Q11780237",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.1592 50.7767)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/Rak%C3%B3w_Cz%C4%99stochowa",
+      "website": "https://rakow.com/",
+      "clubLabel": "Raków Częstochowa",
+      "stadiumLabel": "Stadion Miejski",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Rks%20rakow%20crest%20ai.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q328655",
+      "stadium": "http://www.wikidata.org/entity/Q188706",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.943611111 51.141111111)",
+      "capacity": "42771",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%9Al%C4%85sk_Wroc%C5%82aw",
+      "website": "http://www.wks-slask.pop.pl",
+      "clubLabel": "Śląsk Wrocław",
+      "stadiumLabel": "Tarczyński Arena Wrocław"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q328655",
+      "stadium": "http://www.wikidata.org/entity/Q188706",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.943611111 51.141111111)",
+      "capacity": "42771",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%9Al%C4%85sk_Wroc%C5%82aw",
+      "website": "http://www.slaskwroclaw.pl",
+      "clubLabel": "Śląsk Wrocław",
+      "stadiumLabel": "Tarczyński Arena Wrocław"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q668112",
+      "stadium": "http://www.wikidata.org/entity/Q2017390",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.695866 50.306583)",
+      "capacity": "10037",
+      "enwiki": "https://en.wikipedia.org/wiki/Piast_Gliwice",
+      "website": "https://piast.gliwice.pl/",
+      "clubLabel": "Piast Gliwice",
+      "stadiumLabel": "Stadion Piast"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q727918",
+      "stadium": "http://www.wikidata.org/entity/Q9341160",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(22.5575 51.2319)",
+      "capacity": "15247",
+      "enwiki": "https://en.wikipedia.org/wiki/Motor_Lublin",
+      "website": "https://motorlublin.eu/",
+      "clubLabel": "Motor Lublin",
+      "stadiumLabel": "Arena Lublin"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q730219",
+      "stadium": "http://www.wikidata.org/entity/Q2002170",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.624722 50.861389)",
+      "capacity": "15500",
+      "enwiki": "https://en.wikipedia.org/wiki/Korona_Kielce",
+      "website": "https://www.korona-kielce.pl/",
+      "clubLabel": "Korona Kielce",
+      "stadiumLabel": "Kielce City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q836991",
+      "stadium": "http://www.wikidata.org/entity/Q1429583",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.51865806 53.43657611)",
+      "capacity": "21163",
+      "enwiki": "https://en.wikipedia.org/wiki/Pogo%C5%84_Szczecin",
+      "website": "https://www.pogonszczecin.pl/",
+      "clubLabel": "Pogoń Szczecin",
+      "stadiumLabel": "Stadion Florian Kryger"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q925935",
+      "stadium": "http://www.wikidata.org/entity/Q123246078",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(18.974417 50.25125)",
+      "capacity": "15048",
+      "enwiki": "https://en.wikipedia.org/wiki/GKS_Katowice",
+      "website": "https://www.gkskatowice.eu/",
+      "clubLabel": "GKS Katowice",
+      "stadiumLabel": "Arena Katowice"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1475269",
+      "stadium": "http://www.wikidata.org/entity/Q2018124",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.684067 52.562004)",
+      "capacity": "15004",
+      "enwiki": "https://en.wikipedia.org/wiki/Wis%C5%82a_P%C5%82ock",
+      "website": "https://www.wisla-plock.pl/",
+      "clubLabel": "Wisła Płock",
+      "stadiumLabel": "Kazimierz Górski Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Wisla%20P%C5%82ock.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2000763",
+      "stadium": "http://www.wikidata.org/entity/Q9341241",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(21.171389 51.409444)",
+      "capacity": "13982",
+      "enwiki": "https://en.wikipedia.org/wiki/Radomiak_Radom",
+      "website": "http://www.radomiak.com.pl/",
+      "clubLabel": "Radomiak Radom",
+      "stadiumLabel": "Stadion RKS Radomiak",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Herb%20radomiaka%20300dpi.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24074158",
+      "stadium": "http://www.wikidata.org/entity/Q738643",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.919722 50.058056)",
+      "capacity": "15016",
+      "enwiki": "https://en.wikipedia.org/wiki/KS_Cracovia",
+      "website": "https://cracovia.pl/",
+      "clubLabel": "Cracovia",
+      "stadiumLabel": "Marshal Józef Piłsudski Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q86677609",
+      "stadium": "http://www.wikidata.org/entity/Q727590",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.911944 50.063611)",
+      "capacity": "33130",
+      "enwiki": "https://en.wikipedia.org/wiki/Wieczysta_Krak%C3%B3w",
+      "clubLabel": "Wieczysta Kraków",
+      "stadiumLabel": "Henryk Reyman Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q52942",
+      "stadium": "http://www.wikidata.org/entity/Q188699",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(16.858056 52.397222)",
+      "capacity": "42873",
+      "enwiki": "https://en.wikipedia.org/wiki/Lech_Pozna%C5%84",
+      "website": "https://www.lechpoznan.pl",
+      "clubLabel": "Lech Poznań",
+      "stadiumLabel": "Enea Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Lech%20Pozna%C5%84%20100%201922-2022.jpg"
+    }
+  ]
+}

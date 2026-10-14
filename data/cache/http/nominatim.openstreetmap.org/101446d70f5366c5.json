@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.909800&lon=15.384600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":130862388,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":227486906,\"lat\":\"49.9097983\",\"lon\":\"15.3846381\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.228046082241577e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vodranty, Staré Město, Čáslav, okres Kutná Hora, Středočeský kraj, 286 01, Česko\",\"address\":{\"road\":\"Vodranty\",\"suburb\":\"Staré Město\",\"town\":\"Čáslav\",\"district\":\"okres Kutná Hora\",\"ISO3166-2-lvl5\":\"CZ-205\",\"state\":\"Středočeský kraj\",\"ISO3166-2-lvl4\":\"CZ-20\",\"postcode\":\"286 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.9093700\",\"49.9102281\",\"15.3837967\",\"15.3854744\"]}",
+  "fetchedAt": "2026-10-14T07:52:05.090Z"
+}

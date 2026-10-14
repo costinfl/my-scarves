@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.584167&lon=16.173056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":166893877,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":100955051,\"lat\":\"58.5842546\",\"lon\":\"16.1729705\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.624780651555683e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Matchgatan, Såpkullen, Norrköping, Norrköpings kommun, Östergötlands län, 601 86, Sverige\",\"address\":{\"road\":\"Matchgatan\",\"suburb\":\"Såpkullen\",\"city\":\"Norrköping\",\"municipality\":\"Norrköpings kommun\",\"county\":\"Östergötlands län\",\"ISO3166-2-lvl4\":\"SE-E\",\"postcode\":\"601 86\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"58.5836522\",\"58.5848531\",\"16.1721588\",\"16.1737771\"]}",
+  "fetchedAt": "2026-10-14T07:55:34.940Z"
+}

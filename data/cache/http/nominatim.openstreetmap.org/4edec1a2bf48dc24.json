@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.583114&lon=21.338122&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58029691,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":618510069,\"lat\":\"43.5830884\",\"lon\":\"21.3380533\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.208209353775871e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Таковска, Колонија, Крушевац, Град Крушевац, Расински управни округ, Централна Србија, 37000, Србија\",\"address\":{\"road\":\"Таковска\",\"quarter\":\"Колонија\",\"city\":\"Крушевац\",\"municipality\":\"Град Крушевац\",\"county\":\"Расински управни округ\",\"ISO3166-2-lvl6\":\"RS-19\",\"province\":\"Централна Србија\",\"postcode\":\"37000\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"43.5825457\",\"43.5836309\",\"21.3374609\",\"21.3386459\"]}",
+  "fetchedAt": "2026-10-14T07:55:04.819Z"
+}

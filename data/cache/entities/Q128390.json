@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q128390",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Oleksandriya Logo.png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "77928"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Oleksandriya"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Oleksandriya"
+      }
+    }
+  }
+}

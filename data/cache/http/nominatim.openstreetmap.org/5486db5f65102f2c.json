@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.220461&lon=21.040628&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":177646505,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":166864119,\"lat\":\"52.2204447\",\"lon\":\"21.0406939\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.366292820625647e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Janusza Kusocińskiego, Powiśle-Solec, Ujazdów, Śródmieście, Warszawa, województwo mazowieckie, 00-449, Polska\",\"address\":{\"road\":\"Janusza Kusocińskiego\",\"city_block\":\"Powiśle-Solec\",\"quarter\":\"Ujazdów\",\"suburb\":\"Śródmieście\",\"city\":\"Warszawa\",\"state\":\"województwo mazowieckie\",\"ISO3166-2-lvl4\":\"PL-14\",\"postcode\":\"00-449\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"52.2199246\",\"52.2209647\",\"21.0400988\",\"21.0412891\"]}",
+  "fetchedAt": "2026-10-14T07:54:25.501Z"
+}

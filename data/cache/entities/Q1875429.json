@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:30.336Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1875429",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Емблема ФК «Арсенал-Київщина».jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Arsenal-Kyivshchyna Bila Tserkva"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Arsenal-Kyivshchyna Bila Tserkva"
+      }
+    }
+  }
+}

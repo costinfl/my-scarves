@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.111389&lon=14.387500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":133568141,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":457871923,\"lat\":\"50.1116992\",\"lon\":\"14.3875334\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.434958419160781e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Na Julisce, Baba, Praha 6, obvod Praha 6, Praha, 166 29, Česko\",\"address\":{\"road\":\"Na Julisce\",\"quarter\":\"Baba\",\"suburb\":\"Praha 6\",\"district\":\"obvod Praha 6\",\"city\":\"Praha\",\"ISO3166-2-lvl4\":\"CZ-10\",\"postcode\":\"166 29\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.1111804\",\"50.1122207\",\"14.3869315\",\"14.3881343\"]}",
+  "fetchedAt": "2026-10-14T07:52:06.306Z"
+}

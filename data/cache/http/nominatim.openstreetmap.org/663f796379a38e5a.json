@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.734392&lon=10.201333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163151467,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":24367003,\"lat\":\"59.7343245\",\"lon\":\"10.2014588\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.65163653009387e-05,\"addresstype\":\"leisure\",\"name\":\"Marienlyst stadion\",\"display_name\":\"Marienlyst stadion, Schwartz gate, Marienlyst, Strømsø, Drammen, Buskerud, 3044, Norge\",\"address\":{\"leisure\":\"Marienlyst stadion\",\"road\":\"Schwartz gate\",\"neighbourhood\":\"Marienlyst\",\"suburb\":\"Strømsø\",\"city_district\":\"Strømsø\",\"city\":\"Drammen\",\"municipality\":\"Drammen\",\"county\":\"Buskerud\",\"ISO3166-2-lvl4\":\"NO-33\",\"postcode\":\"3044\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.7337572\",\"59.7348919\",\"10.2002987\",\"10.2026189\"]}",
+  "fetchedAt": "2026-10-14T07:54:11.291Z"
+}

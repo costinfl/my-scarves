@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.066667&lon=14.454167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":132902956,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":45830293,\"lat\":\"50.0670058\",\"lon\":\"14.4541666\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.434958419160781e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Sportovní, Vinohrady, Praha 10, obvod Praha 10, Praha, 101 00, Česko\",\"address\":{\"road\":\"Sportovní\",\"suburb\":\"Vinohrady\",\"city_district\":\"obvod Praha 10\",\"city\":\"Praha\",\"ISO3166-2-lvl4\":\"CZ-10\",\"postcode\":\"101 00\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"50.0663920\",\"50.0675962\",\"14.4534011\",\"14.4549348\"]}",
+  "fetchedAt": "2026-10-14T07:51:53.120Z"
+}

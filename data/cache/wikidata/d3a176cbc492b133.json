@@ -1,0 +1,149 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q276085 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:45:59.830Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q144952",
+      "stadium": "http://www.wikidata.org/entity/Q1415013",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.848611 46.848611)",
+      "capacity": "14000",
+      "enwiki": "https://en.wikipedia.org/wiki/Zalaegerszegi_TE",
+      "website": "https://www.ztefc.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Zalaegerszegi%20TE%20%28Logo%29.svg",
+      "clubLabel": "Zalaegerszegi TE",
+      "stadiumLabel": "ZTE Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q205732",
+      "stadium": "http://www.wikidata.org/entity/Q736187",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.638882 47.549573)",
+      "capacity": "10200",
+      "enwiki": "https://en.wikipedia.org/wiki/Debreceni_VSC",
+      "website": "https://www.dvsc.hu/",
+      "clubLabel": "Debreceni VSC",
+      "stadiumLabel": "Stadion Oláh Gábor Út"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q208396",
+      "stadium": "http://www.wikidata.org/entity/Q17394000",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.096111111 47.475277777)",
+      "enwiki": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC",
+      "website": "https://www.fradi.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ftclogo2020.png",
+      "clubLabel": "Ferencvárosi TC",
+      "stadiumLabel": "Groupama Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q208406",
+      "stadium": "http://www.wikidata.org/entity/Q259307",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.106725 47.490919444)",
+      "capacity": "5322",
+      "enwiki": "https://en.wikipedia.org/wiki/MTK_Budapest_FC",
+      "website": "https://mtkbudapest.hu/",
+      "clubLabel": "MTK Budapest FC",
+      "stadiumLabel": "Hidegkuti Nándor Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q244595",
+      "stadium": "http://www.wikidata.org/entity/Q518855",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.08465 47.574892)",
+      "capacity": "13501",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%9Ajpest_FC",
+      "website": "http://ujpestfc.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%9Ajpest%20FC%20log%C3%B3%202017%20-%20.jpg",
+      "clubLabel": "Újpest FC",
+      "stadiumLabel": "Ferenc Szusza Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q255296",
+      "stadium": "http://www.wikidata.org/entity/Q1096418",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.080555555 47.536944444)",
+      "enwiki": "https://en.wikipedia.org/wiki/Vasas_SC",
+      "website": "http://www.vasasfc.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vasas%20SC%20%28Logo%29.svg",
+      "clubLabel": "Vasas FC",
+      "stadiumLabel": "Illovszky Rudolf Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q275612",
+      "stadium": "http://www.wikidata.org/entity/Q784258",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.155103 47.4425)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/Kispest-Honv%C3%A9d_FC",
+      "website": "https://honvedfc.hu/",
+      "clubLabel": "Kispest-Honvéd FC",
+      "stadiumLabel": "Bozsik Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q276346",
+      "stadium": "http://www.wikidata.org/entity/Q522693",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.663827 47.695769)",
+      "capacity": "16000",
+      "enwiki": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC",
+      "website": "https://www.eto.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Etofclogo2025.png",
+      "clubLabel": "Győri ETO FC",
+      "stadiumLabel": "ETO Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q744758",
+      "stadium": "http://www.wikidata.org/entity/Q7171826",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.610278 48.243889)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/Kazincbarcikai_SC",
+      "website": "http://www.kbsc.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Kazincbarcikai%20MTK%20c%C3%ADmere.jpg",
+      "clubLabel": "Kazincbarcikai SC",
+      "stadiumLabel": "Pete András Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q915352",
+      "stadium": "http://www.wikidata.org/entity/Q997761",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.852552777 46.633708333)",
+      "enwiki": "https://en.wikipedia.org/wiki/Paksi_FC",
+      "website": "https://paksifc.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Paksi%20FC%20%28Logo%29.svg",
+      "clubLabel": "Paksi FC",
+      "stadiumLabel": "Fehérvári úti Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1051340",
+      "stadium": "http://www.wikidata.org/entity/Q129980668",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.712777777 47.970277777)",
+      "capacity": "8150",
+      "enwiki": "https://en.wikipedia.org/wiki/Ny%C3%ADregyh%C3%A1za_Spartacus_FC",
+      "website": "http://nyiregyhazaspartacus.hu/",
+      "clubLabel": "Nyíregyháza Spartacus FC",
+      "stadiumLabel": "Városi Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1241654",
+      "stadium": "http://www.wikidata.org/entity/Q15910573",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.5868 47.464)",
+      "capacity": "3865",
+      "enwiki": "https://en.wikipedia.org/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC",
+      "website": "https://www.pfla.hu/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Pusk%C3%A1s%20Ferenc%20Labdar%C3%BAg%C3%B3%20Akad%C3%A9mia.svg",
+      "clubLabel": "Ferenc Puskás Football Academy",
+      "stadiumLabel": "Pancho Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19861407",
+      "enwiki": "https://en.wikipedia.org/wiki/Kisv%C3%A1rda_FC",
+      "website": "http://kisvardafc.hu/",
+      "clubLabel": "Kisvárda FC"
+    }
+  ]
+}

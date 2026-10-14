@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:35.401Z",
+  "version": 2,
+  "entity": {
+    "id": "Q898281",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Емблема ФК Динамо-ІгроСервіс.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Ihroservice Simferopol"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Ihroservice Simferopol"
+      }
+    }
+  }
+}

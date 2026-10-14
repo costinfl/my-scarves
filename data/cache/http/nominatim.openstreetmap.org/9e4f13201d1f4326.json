@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.292800&lon=21.121900&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":177062303,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2584080925,\"lat\":\"52.2927321\",\"lon\":\"21.1220300\",\"category\":\"emergency\",\"type\":\"landing_site\",\"place_rank\":30,\"importance\":5.35584039062641e-05,\"addresstype\":\"emergency\",\"name\":\"WWL 03\",\"display_name\":\"WWL 03, Topolowa, Ząbki, powiat wołomiński, województwo mazowieckie, 05-091, Polska\",\"address\":{\"emergency\":\"WWL 03\",\"road\":\"Topolowa\",\"town\":\"Ząbki\",\"county\":\"powiat wołomiński\",\"state\":\"województwo mazowieckie\",\"ISO3166-2-lvl4\":\"PL-14\",\"postcode\":\"05-091\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"52.2926821\",\"52.2927821\",\"21.1219800\",\"21.1220800\"]}",
+  "fetchedAt": "2026-10-14T07:54:18.301Z"
+}

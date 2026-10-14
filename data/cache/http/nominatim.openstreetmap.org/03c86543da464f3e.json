@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.695697&lon=18.342954&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185671219,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":1759382150,\"lat\":\"49.6956975\",\"lon\":\"18.3429438\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":6.094834821083417e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"3276, Horní, Nová Osada, Frýdek, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, 738 01, Česko\",\"address\":{\"house_number\":\"3276\",\"road\":\"Horní\",\"neighbourhood\":\"Nová Osada\",\"suburb\":\"Frýdek\",\"town\":\"Frýdek-Místek\",\"county\":\"okres Frýdek-Místek\",\"ISO3166-2-lvl5\":\"CZ-802\",\"state\":\"Moravskoslezský kraj\",\"ISO3166-2-lvl4\":\"CZ-80\",\"postcode\":\"738 01\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.6956475\",\"49.6957475\",\"18.3428938\",\"18.3429938\"]}",
+  "fetchedAt": "2026-10-14T07:52:17.321Z"
+}

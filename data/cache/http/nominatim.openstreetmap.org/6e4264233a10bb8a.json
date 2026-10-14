@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.238300&lon=14.443100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161880384,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":208235126,\"lat\":\"59.2382535\",\"lon\":\"14.4431870\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4039139493366902,\"addresstype\":\"leisure\",\"name\":\"Stora Valla\",\"display_name\":\"Stora Valla, Idrottsvägen, Stora Valla, Degerfors, Degerfors kommun, Örebro län, 693 31, Sverige\",\"address\":{\"leisure\":\"Stora Valla\",\"road\":\"Idrottsvägen\",\"neighbourhood\":\"Stora Valla\",\"town\":\"Degerfors\",\"municipality\":\"Degerfors kommun\",\"county\":\"Örebro län\",\"ISO3166-2-lvl4\":\"SE-T\",\"postcode\":\"693 31\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"59.2376643\",\"59.2388427\",\"14.4421019\",\"14.4442721\"]}",
+  "fetchedAt": "2026-10-14T07:55:24.551Z"
+}

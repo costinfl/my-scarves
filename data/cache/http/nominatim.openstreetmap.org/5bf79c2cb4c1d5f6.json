@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.298611&lon=21.435833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":180094080,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":819072409,\"lat\":\"50.2987004\",\"lon\":\"21.4358062\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.848706797889704e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ludwika Solskiego, Kusocińskiego, Osiedle, Mielec, powiat mielecki, województwo podkarpackie, 39-314, Polska\",\"address\":{\"road\":\"Ludwika Solskiego\",\"quarter\":\"Kusocińskiego\",\"suburb\":\"Osiedle\",\"town\":\"Mielec\",\"county\":\"powiat mielecki\",\"state\":\"województwo podkarpackie\",\"ISO3166-2-lvl4\":\"PL-18\",\"postcode\":\"39-314\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.2981403\",\"50.2992589\",\"21.4349893\",\"21.4366215\"]}",
+  "fetchedAt": "2026-10-14T07:54:46.100Z"
+}

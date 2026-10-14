@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:33.294Z",
+  "version": 2,
+  "entity": {
+    "id": "Q391789",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "GAIS-logotyp RGB.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "GAIS"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "GAIS"
+      }
+    }
+  }
+}

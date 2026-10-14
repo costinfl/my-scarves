@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1137993",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52734"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Radnički Niš"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Radnički Niš"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.004858&lon=23.689756&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56227910,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":45078078,\"lat\":\"38.0050027\",\"lon\":\"23.6898799\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.327382314789071e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Κρέσνας, Περιστέρι, 4η Κοινότητα Περιστερίου, Δήμος Περιστερίου, Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 121 31, Ελλάς\",\"address\":{\"road\":\"Κρέσνας\",\"suburb\":\"Περιστέρι\",\"city_district\":\"4η Κοινότητα Περιστερίου\",\"municipality\":\"Δήμος Περιστερίου\",\"county\":\"Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών\",\"state\":\"Περιφέρεια Αττικής\",\"ISO3166-2-lvl5\":\"GR-I\",\"postcode\":\"121 31\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"38.0044640\",\"38.0055412\",\"23.6893294\",\"23.6904305\"]}",
+  "fetchedAt": "2026-10-14T07:53:00.211Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.296317&lon=18.768564&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":182964149,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":150911108,\"lat\":\"50.2962957\",\"lon\":\"18.7683491\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.224078736548436e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Olimpijska, Osiedle Dewog, Centrum Południe, Zabrze, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-800, Polska\",\"address\":{\"road\":\"Olimpijska\",\"neighbourhood\":\"Osiedle Dewog\",\"suburb\":\"Centrum Południe\",\"city\":\"Zabrze\",\"state_district\":\"Górnośląsko-Zagłębiowska Metropolia\",\"state\":\"województwo śląskie\",\"ISO3166-2-lvl4\":\"PL-24\",\"postcode\":\"41-800\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"50.2957574\",\"50.2968341\",\"18.7676848\",\"18.7690134\"]}",
+  "fetchedAt": "2026-10-14T07:54:20.501Z"
+}

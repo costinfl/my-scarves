@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.094400&lon=22.915700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":174219945,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":163696800,\"lat\":\"54.0941519\",\"lon\":\"22.9157759\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.230640115964016e-05,\"addresstype\":\"leisure\",\"name\":\"Płyta główna\",\"display_name\":\"Płyta główna, Grunwaldzka, Osiedle Piastowskie, Suwałki, województwo podlaskie, 16-400, Polska\",\"address\":{\"leisure\":\"Płyta główna\",\"road\":\"Grunwaldzka\",\"neighbourhood\":\"Osiedle Piastowskie\",\"city\":\"Suwałki\",\"state\":\"województwo podlaskie\",\"ISO3166-2-lvl4\":\"PL-20\",\"postcode\":\"16-400\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"54.0935429\",\"54.0946904\",\"22.9150913\",\"22.9164720\"]}",
+  "fetchedAt": "2026-10-14T07:54:50.807Z"
+}

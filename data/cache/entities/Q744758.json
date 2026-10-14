@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:34.307Z",
+  "version": 2,
+  "entity": {
+    "id": "Q744758",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Kazincbarcikai MTK címere.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Kazincbarcikai SC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Kazincbarcikai SC"
+      }
+    }
+  }
+}

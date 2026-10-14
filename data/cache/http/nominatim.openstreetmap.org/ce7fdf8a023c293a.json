@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.231983&lon=7.085238&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":159776363,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":3140784896,\"lat\":\"61.2319240\",\"lon\":\"7.0850240\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":5.620737010753059e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"2, Lunnamyri, Stedje, Sogndal, Vestland, 6856, Norge\",\"address\":{\"house_number\":\"2\",\"road\":\"Lunnamyri\",\"quarter\":\"Stedje\",\"town\":\"Sogndal\",\"municipality\":\"Sogndal\",\"county\":\"Vestland\",\"ISO3166-2-lvl4\":\"NO-46\",\"postcode\":\"6856\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"61.2318740\",\"61.2319740\",\"7.0849740\",\"7.0850740\"]}",
+  "fetchedAt": "2026-10-14T07:54:08.263Z"
+}

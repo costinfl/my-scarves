@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.051500&lon=9.899100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":164401565,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":8191180002,\"lat\":\"57.0514791\",\"lon\":\"9.8990935\",\"category\":\"amenity\",\"type\":\"bar\",\"place_rank\":30,\"importance\":6.652399481188704e-05,\"addresstype\":\"amenity\",\"name\":\"AaB BAR 5\",\"display_name\":\"AaB BAR 5, Harald Jensens Vej, Søheltekvarteret, Vestbyen, Aalborg, Aalborg Kommune, Region Nordjylland, 9000, Danmark\",\"address\":{\"amenity\":\"AaB BAR 5\",\"road\":\"Harald Jensens Vej\",\"quarter\":\"Søheltekvarteret\",\"suburb\":\"Vestbyen\",\"city\":\"Aalborg\",\"municipality\":\"Aalborg Kommune\",\"state\":\"Region Nordjylland\",\"ISO3166-2-lvl4\":\"DK-81\",\"postcode\":\"9000\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"57.0514291\",\"57.0515291\",\"9.8990435\",\"9.8991435\"]}",
+  "fetchedAt": "2026-10-14T07:52:23.601Z"
+}

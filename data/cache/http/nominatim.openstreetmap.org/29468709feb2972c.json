@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.600000&lon=17.248333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186073527,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":6168197,\"lat\":\"49.6001225\",\"lon\":\"17.2482150\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4616594648784339,\"addresstype\":\"leisure\",\"name\":\"Andrův stadion\",\"display_name\":\"Andrův stadion, Legionářská, Olomouc-střed, Lazce, Olomouc, okres Olomouc, Olomoucký kraj, 771 00, Česko\",\"address\":{\"leisure\":\"Andrův stadion\",\"road\":\"Legionářská\",\"quarter\":\"Olomouc-střed\",\"suburb\":\"Lazce\",\"city\":\"Olomouc\",\"district\":\"okres Olomouc\",\"ISO3166-2-lvl5\":\"CZ-712\",\"state\":\"Olomoucký kraj\",\"ISO3166-2-lvl4\":\"CZ-71\",\"postcode\":\"771 00\",\"country\":\"Česko\",\"country_code\":\"cz\"},\"boundingbox\":[\"49.5995450\",\"49.6007146\",\"17.2474834\",\"17.2489514\"]}",
+  "fetchedAt": "2026-10-14T07:52:21.396Z"
+}

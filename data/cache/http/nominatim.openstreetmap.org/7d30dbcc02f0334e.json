@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.455897&lon=9.402064&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163709658,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":94231402,\"lat\":\"56.4559039\",\"lon\":\"9.4020203\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.399806169635952,\"addresstype\":\"leisure\",\"name\":\"Viborg Stadion\",\"display_name\":\"Viborg Stadion, Stadion Alle, Nørremarken, Viborg, Viborg Kommune, Region Midtjylland, 8800, Danmark\",\"address\":{\"leisure\":\"Viborg Stadion\",\"road\":\"Stadion Alle\",\"suburb\":\"Nørremarken\",\"town\":\"Viborg\",\"municipality\":\"Viborg Kommune\",\"state\":\"Region Midtjylland\",\"ISO3166-2-lvl4\":\"DK-82\",\"postcode\":\"8800\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"56.4553813\",\"56.4564265\",\"9.4013108\",\"9.4027299\"]}",
+  "fetchedAt": "2026-10-14T07:52:51.413Z"
+}

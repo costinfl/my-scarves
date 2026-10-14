@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=38.629967&lon=21.411747&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":55566904,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":104555906,\"lat\":\"38.6300570\",\"lon\":\"21.4118592\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.78355077439081e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Προυσιωτίσσης, Καραπανέικα, Κοινότητα Αγρινίου, Δημοτική Ενότητα Αγρινίου, Δήμος Αγρινίου, Περιφερειακή Ενότητα Αιτωλοακαρνανίας, Περιφέρεια Δυτικής Ελλάδας, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 301 32, Ελλάς\",\"address\":{\"road\":\"Προυσιωτίσσης\",\"neighbourhood\":\"Καραπανέικα\",\"city_district\":\"Κοινότητα Αγρινίου\",\"city\":\"Δημοτική Ενότητα Αγρινίου\",\"municipality\":\"Δήμος Αγρινίου\",\"county\":\"Περιφερειακή Ενότητα Αιτωλοακαρνανίας\",\"state\":\"Περιφέρεια Δυτικής Ελλάδας\",\"ISO3166-2-lvl5\":\"GR-G\",\"postcode\":\"301 32\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"38.6295021\",\"38.6306087\",\"21.4112104\",\"21.4125066\"]}",
+  "fetchedAt": "2026-10-14T07:53:11.204Z"
+}

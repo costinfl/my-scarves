@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.734570&lon=12.934334&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":165391717,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":37997780,\"lat\":\"57.7344111\",\"lon\":\"12.9347459\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.365529869530812e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ålgårdsvägen, Knalleland, Alideberg, Borås, Borås kommun, Västra Götalands län, 506 30, Sverige\",\"address\":{\"road\":\"Ålgårdsvägen\",\"commercial\":\"Knalleland\",\"suburb\":\"Alideberg\",\"city\":\"Borås\",\"municipality\":\"Borås kommun\",\"county\":\"Västra Götalands län\",\"ISO3166-2-lvl4\":\"SE-O\",\"postcode\":\"506 30\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"57.7340892\",\"57.7347329\",\"12.9338340\",\"12.9356578\"]}",
+  "fetchedAt": "2026-10-14T07:55:33.461Z"
+}

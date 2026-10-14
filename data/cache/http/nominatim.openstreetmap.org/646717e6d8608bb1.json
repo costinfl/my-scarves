@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.819234&lon=24.048193&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":190935929,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":42100207,\"lat\":\"49.8192227\",\"lon\":\"24.0480224\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.732585641255845e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вулиця Липова Алея, Дністерська, Галицький район, Львів, Львівська міська громада, Львівський район, Львівська область, 79035, Україна\",\"address\":{\"road\":\"вулиця Липова Алея\",\"suburb\":\"Дністерська\",\"city_district\":\"Галицький район\",\"city\":\"Львів\",\"municipality\":\"Львівська міська громада\",\"county\":\"Львівський район\",\"state\":\"Львівська область\",\"ISO3166-2-lvl4\":\"UA-46\",\"postcode\":\"79035\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"49.8187075\",\"49.8197379\",\"24.0474949\",\"24.0485499\"]}",
+  "fetchedAt": "2026-10-14T07:56:01.964Z"
+}

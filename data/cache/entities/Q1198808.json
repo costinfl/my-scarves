@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1198808",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2603952"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bruk-Bet Termalica Nieciecza"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "LKS Nieciecza"
+      }
+    }
+  }
+}

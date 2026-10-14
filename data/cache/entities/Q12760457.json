@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T07:46:29.276Z",
+  "version": 2,
+  "entity": {
+    "id": "Q12760457",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Železničar Pančevo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Železničar Pančevo"
+      }
+    }
+  }
+}

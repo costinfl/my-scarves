@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T07:46:32.209Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2407113",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "OFK Bečej 1918"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Bečej"
+      }
+    }
+  }
+}

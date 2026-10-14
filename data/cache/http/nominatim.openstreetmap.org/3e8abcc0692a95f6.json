@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.921111&lon=10.581111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163686376,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":523974565,\"lat\":\"59.9212784\",\"lon\":\"10.5812178\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.418631265731315e-05,\"addresstype\":\"leisure\",\"name\":\"Nadderud stadion\",\"display_name\":\"Nadderud stadion, Øygardveien, Ringstabekk, Hosle, Bekkestua, Bærum, Akershus, 1356, Norge\",\"address\":{\"leisure\":\"Nadderud stadion\",\"road\":\"Øygardveien\",\"quarter\":\"Ringstabekk\",\"suburb\":\"Hosle\",\"village\":\"Bekkestua\",\"municipality\":\"Bærum\",\"county\":\"Akershus\",\"ISO3166-2-lvl4\":\"NO-32\",\"postcode\":\"1356\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"59.9207437\",\"59.9218129\",\"10.5803029\",\"10.5821327\"]}",
+  "fetchedAt": "2026-10-14T07:54:09.485Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.815847&lon=12.353289&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":146964771,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":623541826,\"lat\":\"55.8160740\",\"lon\":\"12.3530569\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.4505989166048944e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ryttergårdsvej, Farum Overdrev, Farum, Furesø Kommune, Region Hovedstaden, 3520, Danmark\",\"address\":{\"road\":\"Ryttergårdsvej\",\"suburb\":\"Farum Overdrev\",\"town\":\"Farum\",\"municipality\":\"Furesø Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"3520\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.8156679\",\"55.8164800\",\"12.3520684\",\"12.3540455\"]}",
+  "fetchedAt": "2026-10-14T07:52:34.471Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=67.277500&lon=14.384167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273413136,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":3123894703,\"lat\":\"67.2778183\",\"lon\":\"14.3833253\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":6.446097505145368e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"35, Hålogalandsgata, Rensmoen, Reinsletta, Vestbyen, Hernes - Hierggenjárgga - Härrgenjárrga, Bodø, Nordland, 8003, Norge\",\"address\":{\"house_number\":\"35\",\"road\":\"Hålogalandsgata\",\"neighbourhood\":\"Rensmoen\",\"quarter\":\"Reinsletta\",\"suburb\":\"Vestbyen\",\"village\":\"Hernes - Hierggenjárgga - Härrgenjárrga\",\"city\":\"Bodø\",\"county\":\"Nordland\",\"ISO3166-2-lvl4\":\"NO-18\",\"postcode\":\"8003\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"67.2777683\",\"67.2778683\",\"14.3832753\",\"14.3833753\"]}",
+  "fetchedAt": "2026-10-14T07:53:48.150Z"
+}

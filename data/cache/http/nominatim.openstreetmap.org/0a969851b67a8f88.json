@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.131944&lon=10.196389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":165842316,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":342070522,\"lat\":\"56.1328020\",\"lon\":\"10.1964470\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":6.953307392991559e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"76, Stadion Allé, Rosenvænget, Frederiksbjerg, Aarhus, Aarhus Kommune, Region Midtjylland, 8000, Danmark\",\"address\":{\"house_number\":\"76\",\"road\":\"Stadion Allé\",\"quarter\":\"Rosenvænget\",\"suburb\":\"Frederiksbjerg\",\"city\":\"Aarhus\",\"municipality\":\"Aarhus Kommune\",\"state\":\"Region Midtjylland\",\"ISO3166-2-lvl4\":\"DK-82\",\"postcode\":\"8000\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"56.1327520\",\"56.1328520\",\"10.1963970\",\"10.1964970\"]}",
+  "fetchedAt": "2026-10-14T07:52:24.618Z"
+}

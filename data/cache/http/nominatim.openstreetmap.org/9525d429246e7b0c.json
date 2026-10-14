@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.493136&lon=18.531214&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":175010978,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":168611017,\"lat\":\"54.4931372\",\"lon\":\"18.5311098\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.823910887307572e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stryjska, Psia Górka, Mały Kack, Gdynia, województwo pomorskie, 81-506, Polska\",\"address\":{\"road\":\"Stryjska\",\"neighbourhood\":\"Psia Górka\",\"suburb\":\"Mały Kack\",\"city\":\"Gdynia\",\"county\":\"Gdynia\",\"state\":\"województwo pomorskie\",\"ISO3166-2-lvl4\":\"PL-22\",\"postcode\":\"81-506\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"54.4926199\",\"54.4936540\",\"18.5304510\",\"18.5317656\"]}",
+  "fetchedAt": "2026-10-14T07:54:15.987Z"
+}

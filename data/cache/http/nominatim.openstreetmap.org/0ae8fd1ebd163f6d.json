@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.781100&lon=12.505800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":148573470,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":715070187,\"lat\":\"55.7813213\",\"lon\":\"12.5057460\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.19920653085682e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Lundtoftevej, Fuglevad, Brede, Kongens Lyngby, Lyngby-Taarbæk Kommune, Region Hovedstaden, 2800, Danmark\",\"address\":{\"road\":\"Lundtoftevej\",\"quarter\":\"Fuglevad\",\"suburb\":\"Brede\",\"town\":\"Kongens Lyngby\",\"municipality\":\"Lyngby-Taarbæk Kommune\",\"state\":\"Region Hovedstaden\",\"ISO3166-2-lvl4\":\"DK-84\",\"postcode\":\"2800\",\"country\":\"Danmark\",\"country_code\":\"dk\"},\"boundingbox\":[\"55.7808414\",\"55.7818012\",\"12.5051815\",\"12.5063105\"]}",
+  "fetchedAt": "2026-10-14T07:52:42.136Z"
+}

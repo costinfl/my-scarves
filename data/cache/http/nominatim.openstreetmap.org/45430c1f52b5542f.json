@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.706111&lon=11.980556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":163384768,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":104112634,\"lat\":\"57.7062633\",\"lon\":\"11.9801250\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.775005722128661e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ullevigatan, Heden, Centrum, Göteborg, Göteborgs Stad, Västra Götalands län, 411 11, Sverige\",\"address\":{\"road\":\"Ullevigatan\",\"suburb\":\"Heden\",\"city_district\":\"Centrum\",\"city\":\"Göteborg\",\"municipality\":\"Göteborgs Stad\",\"county\":\"Västra Götalands län\",\"ISO3166-2-lvl4\":\"SE-O\",\"postcode\":\"411 11\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"57.7057862\",\"57.7067403\",\"11.9795477\",\"11.9807023\"]}",
+  "fetchedAt": "2026-10-14T07:55:27.962Z"
+}

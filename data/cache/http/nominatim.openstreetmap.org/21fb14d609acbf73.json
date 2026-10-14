@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=63.412500&lon=10.405000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161487794,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":87312114,\"lat\":\"63.4123227\",\"lon\":\"10.4044678\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.302738994425906e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Odd Iversens veg, Nardoskrenten, Tempe, Lerkendal, Trondheim, Trøndelag, 7034, Norge\",\"address\":{\"road\":\"Odd Iversens veg\",\"neighbourhood\":\"Nardoskrenten\",\"quarter\":\"Tempe\",\"suburb\":\"Lerkendal\",\"city_district\":\"Lerkendal\",\"city\":\"Trondheim\",\"county\":\"Trøndelag\",\"ISO3166-2-lvl4\":\"NO-50\",\"postcode\":\"7034\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"63.4119050\",\"63.4127404\",\"10.4032058\",\"10.4057298\"]}",
+  "fetchedAt": "2026-10-14T07:54:02.473Z"
+}

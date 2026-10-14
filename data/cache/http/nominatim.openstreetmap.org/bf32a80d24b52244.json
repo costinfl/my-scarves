@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.859444&lon=5.725833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":161492257,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1040474569,\"lat\":\"58.8594291\",\"lon\":\"5.7259178\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.044632639043286e-05,\"addresstype\":\"leisure\",\"name\":\"Sandnes stadion\",\"display_name\":\"Sandnes stadion, Tronesgeilen, Giske, Smeaheia, Trones, Sandnes, Rogaland, 4316, Norge\",\"address\":{\"leisure\":\"Sandnes stadion\",\"road\":\"Tronesgeilen\",\"neighbourhood\":\"Giske\",\"quarter\":\"Smeaheia\",\"suburb\":\"Trones\",\"city\":\"Sandnes\",\"municipality\":\"Sandnes\",\"county\":\"Rogaland\",\"ISO3166-2-lvl4\":\"NO-11\",\"postcode\":\"4316\",\"country\":\"Norge\",\"country_code\":\"no\"},\"boundingbox\":[\"58.8589020\",\"58.8599561\",\"5.7248445\",\"5.7269912\"]}",
+  "fetchedAt": "2026-10-14T07:54:05.102Z"
+}

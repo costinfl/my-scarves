@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.676071&lon=26.594103&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":425541225,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1549864189,\"lat\":\"48.6760321\",\"lon\":\"26.5940669\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.449759670400576e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"проспект Грушевського, Черьомушки, Кам'янець-Подільський, Кам'янець-Подільська міська громада, Кам’янець-Подільський район, Хмельницька область, 32307, Україна\",\"address\":{\"road\":\"проспект Грушевського\",\"suburb\":\"Черьомушки\",\"city\":\"Кам'янець-Подільський\",\"municipality\":\"Кам'янець-Подільська міська громада\",\"district\":\"Кам’янець-Подільський район\",\"state\":\"Хмельницька область\",\"ISO3166-2-lvl4\":\"UA-68\",\"postcode\":\"32307\",\"country\":\"Україна\",\"country_code\":\"ua\"},\"boundingbox\":[\"48.6755386\",\"48.6765208\",\"26.5935635\",\"26.5945856\"]}",
+  "fetchedAt": "2026-10-14T07:55:57.644Z"
+}
