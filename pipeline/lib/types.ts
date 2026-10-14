@@ -56,8 +56,13 @@ export interface LeagueImportResult {
   clubs: number;
   stadiums: number;
   excluded: string[];
-  /** Where membership came from: the season's participant list (exact) or open P118 memberships. */
-  source?: 'season' | 'memberships';
+  /**
+   * Where membership came from: the season's participant list on Wikidata (exact), the team table of the
+   * season's Wikipedia article, or open P118 memberships (can be stale).
+   */
+  source?: 'season' | 'wikipedia' | 'memberships';
+  /** The Wikipedia season article, when that was the source. */
+  sourceUrl?: string;
 }
 
 export interface Scarf {
