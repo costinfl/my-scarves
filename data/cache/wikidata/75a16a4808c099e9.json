@@ -1,0 +1,126 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q162604 wd:Q209967 wd:Q217016 wd:Q1261184 wd:Q204752 wd:Q162031 wd:Q235114 wd:Q63980269 wd:Q276085 wd:Q732721 wd:Q201671 wd:Q353508 wd:Q44763 wd:Q163046 wd:Q235307 wd:Q1813595 wd:Q202243 wd:Q692009 wd:Q206073 wd:Q1561244 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T07:40:10.666Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q162604",
+      "label": "Croatian Football League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q202243",
+      "label": "Allsvenskan",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q44763",
+      "label": "Ekstraklasa",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162031",
+      "label": "Danish 1st Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q163046",
+      "label": "I liga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q201671",
+      "label": "Eliteserien",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q204752",
+      "label": "Danish Superliga",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q206073",
+      "label": "Premier League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q209967",
+      "label": "Prva nogometna liga",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q217016",
+      "label": "Czech First League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q235114",
+      "label": "Super League Greece",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q235307",
+      "label": "Serbian SuperLiga",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q276085",
+      "label": "Nemzeti Bajnokság I",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q353508",
+      "label": "1. divisjon football",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q692009",
+      "label": "Superettan",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q732721",
+      "label": "Nemzeti Bajnokság II",
+      "isFootballLeague": "true",
+      "participants": "32"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1261184",
+      "label": "Czech FNL",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1561244",
+      "label": "Ukrainian First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1813595",
+      "label": "Serbian First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q63980269",
+      "label": "Super League Greece 2",
+      "isFootballLeague": "true",
+      "participants": "16"
+    }
+  ]
+}

@@ -39,6 +39,68 @@
       "source": "memberships"
     }
   ],
+  "CRO": [
+    {
+      "league": "Q162604",
+      "name": "Croatian Football League",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 8,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q209967",
+      "name": "Prva nogometna liga",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 8,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "CZE": [
+    {
+      "league": "Q217016",
+      "name": "Czech First League",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 16,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1261184",
+      "name": "Czech FNL",
+      "status": "ok",
+      "clubs": 19,
+      "stadiums": 15,
+      "excluded": [
+        "SK Sigma Olmütz B (Q125169377)"
+      ],
+      "source": "memberships"
+    }
+  ],
+  "DEN": [
+    {
+      "league": "Q204752",
+      "name": "Danish Superliga",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 12,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q162031",
+      "name": "Danish 1st Division",
+      "status": "ok",
+      "clubs": 19,
+      "stadiums": 14,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "ENG": [
     {
       "league": "Q9448",
@@ -122,6 +184,53 @@
       "source": "memberships"
     }
   ],
+  "GRE": [
+    {
+      "league": "Q235114",
+      "name": "Super League Greece",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 14,
+      "excluded": [
+        "Asteras Tripolis (Q135213959), part of club Q757320 (P831)"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q63980269",
+      "name": "Super League Greece 2",
+      "status": "ok",
+      "clubs": 13,
+      "stadiums": 10,
+      "excluded": [
+        "Olympiacos B (Q107410262)",
+        "P.A.O.K. F.C. B (Q107849577)"
+      ],
+      "source": "memberships"
+    }
+  ],
+  "HUN": [
+    {
+      "league": "Q276085",
+      "name": "Nemzeti Bajnokság I",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 11,
+      "excluded": [
+        "Ferenc Puskás Football Academy (Q1241654)"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q732721",
+      "name": "Nemzeti Bajnokság II",
+      "status": "ok",
+      "clubs": 37,
+      "stadiums": 19,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "ITA": [
     {
       "league": "Q15804",
@@ -158,6 +267,48 @@
       "status": "ok",
       "clubs": 20,
       "stadiums": 20,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "NOR": [
+    {
+      "league": "Q201671",
+      "name": "Eliteserien",
+      "status": "ok",
+      "clubs": 17,
+      "stadiums": 15,
+      "excluded": [
+        "Rosenborg BK (Q113517072), duplicate item of Q186785"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q353508",
+      "name": "1. divisjon football",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 12,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "POL": [
+    {
+      "league": "Q44763",
+      "name": "Ekstraklasa",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 17,
+      "excluded": [],
+      "source": "season"
+    },
+    {
+      "league": "Q163046",
+      "name": "I liga",
+      "status": "ok",
+      "clubs": 21,
+      "stadiums": 18,
       "excluded": [],
       "source": "memberships"
     }
@@ -227,6 +378,26 @@
       "source": "memberships"
     }
   ],
+  "SRB": [
+    {
+      "league": "Q235307",
+      "name": "Serbian SuperLiga",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 13,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1813595",
+      "name": "Serbian First League",
+      "status": "ok",
+      "clubs": 25,
+      "stadiums": 13,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "SUI": [
     {
       "league": "Q202699",
@@ -247,6 +418,26 @@
       "source": "memberships"
     }
   ],
+  "SWE": [
+    {
+      "league": "Q202243",
+      "name": "Allsvenskan",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 13,
+      "excluded": [],
+      "source": "season"
+    },
+    {
+      "league": "Q692009",
+      "name": "Superettan",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 15,
+      "excluded": [],
+      "source": "season"
+    }
+  ],
   "TUR": [
     {
       "league": "Q485568",
@@ -264,6 +455,31 @@
       "clubs": 28,
       "stadiums": 23,
       "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "UKR": [
+    {
+      "league": "Q206073",
+      "name": "Premier League",
+      "status": "ok",
+      "clubs": 17,
+      "stadiums": 12,
+      "excluded": [
+        "FC Karpaty Lviv (Q108197622), duplicate item of Q223360"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1561244",
+      "name": "Ukrainian First League",
+      "status": "ok",
+      "clubs": 31,
+      "stadiums": 18,
+      "excluded": [
+        "Q12160468 (no label)",
+        "Q97379842 (no label)"
+      ],
       "source": "memberships"
     }
   ]

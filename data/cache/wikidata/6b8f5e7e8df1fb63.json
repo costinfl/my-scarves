@@ -1,0 +1,236 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1813595 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:45:23.264Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q284077",
+      "stadium": "http://www.wikidata.org/entity/Q348848",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.381667 45.240278)",
+      "capacity": "5500",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Ba%C4%8Dka",
+      "website": "https://ofkbacka.com",
+      "clubLabel": "OFK Bačka",
+      "stadiumLabel": "Stadion Slavko Maletin Vava"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q591746",
+      "stadium": "http://www.wikidata.org/entity/Q4457040",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.09 45.05)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_In%C4%91ija",
+      "website": "https://fk-indjija.com",
+      "clubLabel": "FK Inđija",
+      "stadiumLabel": "Inđija Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q687178",
+      "stadium": "http://www.wikidata.org/entity/Q5249969",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.45 44.03333333)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Metalac_Gornji_Milanovac",
+      "website": "http://www.fkmetalac.rs",
+      "clubLabel": "FK Metalac Gornji Milanovac",
+      "stadiumLabel": "Metalac Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q749049",
+      "stadium": "http://www.wikidata.org/entity/Q7596333",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.68714 44.43134)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Mladenovac",
+      "clubLabel": "OFK Mladenovac",
+      "stadiumLabel": "Stadion Selters"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q754310",
+      "stadium": "http://www.wikidata.org/entity/Q3440635",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.341406 43.897819)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Borac_1926",
+      "website": "http://www.boracfk.com",
+      "clubLabel": "FK Borac Čačak",
+      "stadiumLabel": "Čačak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757098",
+      "stadium": "http://www.wikidata.org/entity/Q3441751",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.472153 44.765156)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Rad",
+      "website": "http://www.fcrad.co.rs/",
+      "clubLabel": "FK Rad",
+      "stadiumLabel": "Stadion Kralj Petar I"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q953621",
+      "stadium": "http://www.wikidata.org/entity/Q7596301",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.373892 44.808144)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Be%C5%BEanija",
+      "website": "http://www.fcbezanija.com/",
+      "clubLabel": "FK Bežanija",
+      "stadiumLabel": "Stadion FK Bežanija"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389125",
+      "stadium": "http://www.wikidata.org/entity/Q7942542",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.4902 44.7749)",
+      "capacity": "5200",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Vo%C5%BEdovac",
+      "website": "https://fkvozdovac.rs/",
+      "clubLabel": "FK Voždovac",
+      "stadiumLabel": "Voždovac Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2184917",
+      "stadium": "http://www.wikidata.org/entity/Q7389386",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.3824536 44.8524527)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Teleoptik",
+      "website": "https://fcteleoptik.rs",
+      "clubLabel": "FK Teleoptik",
+      "stadiumLabel": "SC Partizan-Teleoptik"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2184917",
+      "stadium": "http://www.wikidata.org/entity/Q7389386",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.3824536 44.8524527)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Teleoptik",
+      "website": "http://www.teleoptikfc.rs/",
+      "clubLabel": "FK Teleoptik",
+      "stadiumLabel": "SC Partizan-Teleoptik"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2335020",
+      "stadium": "http://www.wikidata.org/entity/Q6435987",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.6942 43.7297)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sloga_Kraljevo",
+      "website": "http://www.fksloga.com/",
+      "clubLabel": "FK Sloga Kraljevo",
+      "stadiumLabel": "Kraljevo City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2335020",
+      "stadium": "http://www.wikidata.org/entity/Q6435987",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.6942 43.7297)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sloga_Kraljevo",
+      "website": "http://www.fksloga.com/",
+      "clubLabel": "FK Sloga Kraljevo",
+      "stadiumLabel": "Kraljevo City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2523663",
+      "stadium": "http://www.wikidata.org/entity/Q5265659",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.472153 44.765156)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/RFK_Novi_Sad_1921",
+      "website": "http://rfknovisad.com/",
+      "clubLabel": "RFK Novi Sad 1921",
+      "stadiumLabel": "Detelinara Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3544941",
+      "stadium": "http://www.wikidata.org/entity/Q8064920",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.27347 43.89501)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Timok",
+      "clubLabel": "FK Timok 1919",
+      "stadiumLabel": "Zaječar City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426249",
+      "stadium": "http://www.wikidata.org/entity/Q113164580",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.793708 45.24892)",
+      "capacity": "1400",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Mladost_Novi_Sad",
+      "clubLabel": "FK Mladost Novi Sad",
+      "stadiumLabel": "GAT Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q828297",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_TSC",
+      "website": "https://www.fktsc.com/",
+      "clubLabel": "FK TSC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388917",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Ub",
+      "clubLabel": "FK Jedinstvo Ub"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2407113",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Be%C4%8Dej_1918",
+      "clubLabel": "FK Bečej"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2505672",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Srem",
+      "clubLabel": "FK Srem"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2614598",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Ma%C4%8Dva_%C5%A0abac",
+      "website": "http://www.fkmacva.com/",
+      "clubLabel": "FK Mačva Šabac",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Macva-logo.gif"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2662732",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kolubara",
+      "website": "https://fkkolubara1919.com",
+      "clubLabel": "FK Kolubara",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20FK%20Kolubara.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426069",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Ba%C4%8Dinci",
+      "clubLabel": "FK Big Bull Radnički"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426189",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Putevi",
+      "clubLabel": "FK Jedinstvo Užice"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426363",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_Nova_Pazova",
+      "website": "http://www.fkradnicki-np.com",
+      "clubLabel": "FK Radnički Nova Pazova"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426474",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Zlatibor_%C4%8Cajetina",
+      "clubLabel": "FK Zlatibor Čajetina"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9257379",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sloga_33",
+      "website": "http://www.fkslogapetrovac.com/",
+      "clubLabel": "FK Sloga Petrovac na Mlavi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9257386",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Tekstilac_Od%C5%BEaci",
+      "website": "https://fktekstilac1919.com",
+      "clubLabel": "FK Tekstilac Odžaci"
+    }
+  ]
+}

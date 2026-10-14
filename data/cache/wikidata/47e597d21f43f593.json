@@ -1,0 +1,133 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q209967 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:44:51.976Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q431801",
+      "stadium": "http://www.wikidata.org/entity/Q7596318",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.868777777 45.763027777)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Lu%C4%8Dko",
+      "website": "http://www.nk-lucko.hr",
+      "clubLabel": "NK Lučko",
+      "stadiumLabel": "Stadion Lučko"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q723644",
+      "stadium": "http://www.wikidata.org/entity/Q3442505",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.799722 45.864722)",
+      "capacity": "5528",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Inter_Zapre%C5%A1i%C4%87",
+      "website": "https://www.inter.hr/",
+      "clubLabel": "NK Inter Zaprešić",
+      "stadiumLabel": "Stadion ŠRC Zaprešić"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1258871",
+      "stadium": "http://www.wikidata.org/entity/Q2326106",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.97159445 45.77120129)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Hrvatski_Dragovoljac",
+      "website": "https://nk-hrvatskidragovoljac.hr/",
+      "clubLabel": "NK Hrvatski Dragovoljac",
+      "stadiumLabel": "Stadion NŠC Stjepan Spajić"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1961093",
+      "stadium": "http://www.wikidata.org/entity/Q3504802",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.2149 43.449367)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Imotski",
+      "website": "http://www.nk-imotski.hr/",
+      "clubLabel": "NK Imotski",
+      "stadiumLabel": "Stadion Gospin dolac"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3510724",
+      "stadium": "http://www.wikidata.org/entity/Q3499835",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.574167 43.588056)",
+      "capacity": "5200",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Dugopolje",
+      "clubLabel": "NK Dugopolje",
+      "stadiumLabel": "Stadion Hrvatski vitezovi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3513671",
+      "stadium": "http://www.wikidata.org/entity/Q841384",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.431667 43.519444)",
+      "capacity": "35000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Primorac_1929",
+      "clubLabel": "NK Primorac 1929",
+      "stadiumLabel": "Stadion Poljud"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954589",
+      "stadium": "http://www.wikidata.org/entity/Q3443105",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.960833 45.804722)",
+      "capacity": "8850",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Rude%C5%A1",
+      "website": "https://nk-rudes.hr/",
+      "clubLabel": "NK Rudeš",
+      "stadiumLabel": "Stadion Kranjčevićeva",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/NK%20Rude%C5%A1%20logo%20%282019%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9186186",
+      "stadium": "http://www.wikidata.org/entity/Q12642650",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.1075 45.8364)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Sesvete",
+      "website": "http://nksesvete.hr/",
+      "clubLabel": "NK Radnik Sesvete",
+      "stadiumLabel": "Stadion ŠRC Sesvete"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q289347",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Solin",
+      "website": "http://www.nksolin.hr",
+      "clubLabel": "NK Solin"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q493015",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_HA%C5%A0K",
+      "clubLabel": "NK HAŠK 1903"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q528289",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Mosor",
+      "clubLabel": "NK Mosor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9158590",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Zelina",
+      "website": "http://www.nk-zelina.hr/",
+      "clubLabel": "NK Zelina"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12637540",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Bistra",
+      "website": "http://www.nk-bistra.hr",
+      "clubLabel": "NK Bistra"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12637744",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Novigrad",
+      "website": "https://m.facebook.com/NK-Novigrad-306167302871776/",
+      "clubLabel": "NK Novigrad"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16110505",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Kusto%C5%A1ija",
+      "website": "http://nk-kustosija.hr/",
+      "clubLabel": "NK Kustošija Zagreb"
+    }
+  ]
+}

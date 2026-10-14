@@ -1,0 +1,300 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q732721 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T07:46:12.780Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q326811",
+      "stadium": "http://www.wikidata.org/entity/Q903542",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.41536111 47.17369444)",
+      "capacity": "14300",
+      "enwiki": "https://en.wikipedia.org/wiki/Videoton_FC_Feh%C3%A9rv%C3%A1r",
+      "website": "https://www.fehervarfc.hu",
+      "clubLabel": "Fehérvár FC",
+      "stadiumLabel": "Sóstói Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q603133",
+      "stadium": "http://www.wikidata.org/entity/Q30622113",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.607117 47.234762)",
+      "enwiki": "https://en.wikipedia.org/wiki/Szombathelyi_Halad%C3%A1s",
+      "website": "https://www.haladas.hu/",
+      "clubLabel": "Szombathelyi Haladás",
+      "stadiumLabel": "Haladás Sportkomplexum",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Szombathelyi%20Haladas%20FC.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q647948",
+      "stadium": "http://www.wikidata.org/entity/Q25460410",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.5926924 47.6328867)",
+      "enwiki": "https://en.wikipedia.org/wiki/Gyirm%C3%B3t_FC_Gy%C5%91r",
+      "website": "https://gyirmotfc.hu/",
+      "clubLabel": "Gyirmót FC Győr",
+      "stadiumLabel": "Ménfői úti Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q727135",
+      "stadium": "http://www.wikidata.org/entity/Q637344",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.668889 46.901389)",
+      "capacity": "6300",
+      "enwiki": "https://en.wikipedia.org/wiki/Kecskem%C3%A9ti_TE",
+      "website": "https://kecskemetite.hu/",
+      "clubLabel": "Kecskeméti TE",
+      "stadiumLabel": "Széktói Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/KTE.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q767400",
+      "stadium": "http://www.wikidata.org/entity/Q901017",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.717222 48.099444)",
+      "capacity": "14655",
+      "enwiki": "https://en.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_VTK",
+      "website": "http://www.dvtk.eu",
+      "clubLabel": "Diósgyőri VTK",
+      "stadiumLabel": "DVTK Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q786146",
+      "stadium": "http://www.wikidata.org/entity/Q7596295",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.252778 47.404444)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/Vecs%C3%A9si_FC",
+      "website": "http://www.hajravecses.hu/",
+      "clubLabel": "Vecsési FC",
+      "stadiumLabel": "Stadion Dózsa György út"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q875114",
+      "stadium": "http://www.wikidata.org/entity/Q136384638",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.468333333 47.401111111)",
+      "enwiki": "https://en.wikipedia.org/wiki/Aqvital_FC_Cs%C3%A1kv%C3%A1r",
+      "website": "http://aqvitalfc.hu/",
+      "clubLabel": "Aqvital FC Csakvar",
+      "stadiumLabel": "Tersztyánszky Ödön Sportközpont"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q911385",
+      "stadium": "http://www.wikidata.org/entity/Q1130039",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.1382 47.7676)",
+      "capacity": "9000",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%A1c_FC",
+      "clubLabel": "Vác FC",
+      "stadiumLabel": "Ligeti Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q911524",
+      "stadium": "http://www.wikidata.org/entity/Q5314044",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.947222222 46.955555555)",
+      "enwiki": "https://en.wikipedia.org/wiki/Duna%C3%BAjv%C3%A1ros_FC_(1952)",
+      "clubLabel": "Dunaújváros FC",
+      "stadiumLabel": "Dunaferr Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q975267",
+      "stadium": "http://www.wikidata.org/entity/Q7664532",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.128947222 46.264219444)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Szeged-Csan%C3%A1d_Grosics_Akad%C3%A9mia",
+      "website": "http://www.szeged2011.hu/",
+      "clubLabel": "Szeged-Csanád Grosics Akadémia",
+      "stadiumLabel": "Szegedi VSE Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1062547",
+      "stadium": "http://www.wikidata.org/entity/Q1321567",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.199722 47.168056)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/Szolnoki_M%C3%81V_FC",
+      "website": "https://szolnokimavfc.hu/",
+      "clubLabel": "Szolnoki MÁV FC",
+      "stadiumLabel": "Tiszaligeti Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1176524",
+      "stadium": "http://www.wikidata.org/entity/Q6826732",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.5673 47.8023)",
+      "capacity": "2571",
+      "enwiki": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesdi_SE",
+      "website": "https://mezokovesdzsory.hu/",
+      "clubLabel": "Mezőkövesd-Zsóry SE",
+      "stadiumLabel": "Mezőkövesdi Városi Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1290348",
+      "stadium": "http://www.wikidata.org/entity/Q263035",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.583691 47.69171)",
+      "enwiki": "https://en.wikipedia.org/wiki/Soproni_VSE",
+      "website": "http://www.svse.hu/labdarugas/",
+      "clubLabel": "Soproni VSE",
+      "stadiumLabel": "Káposztás Street Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1472823",
+      "stadium": "http://www.wikidata.org/entity/Q518855",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.08465 47.574892)",
+      "capacity": "13501",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%9Ajpest_FC_II",
+      "clubLabel": "Újpest FC II",
+      "stadiumLabel": "Ferenc Szusza Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4852355",
+      "stadium": "http://www.wikidata.org/entity/Q16523771",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.350444444 47.611083333)",
+      "enwiki": "https://en.wikipedia.org/wiki/Balmaz%C3%BAjv%C3%A1rosi_FC",
+      "website": "https://balmazfoci.hu/",
+      "clubLabel": "Balmazújvárosi FC",
+      "stadiumLabel": "Batthyány utcai Sportpálya"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4984057",
+      "stadium": "http://www.wikidata.org/entity/Q784258",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.155103 47.4425)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/Kispest-Honv%C3%A9d_FC_II",
+      "website": "http://www.magyarfutballakademia.hu/",
+      "clubLabel": "Kispest-Honvéd FC II",
+      "stadiumLabel": "Bozsik Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5444064",
+      "stadium": "http://www.wikidata.org/entity/Q17394000",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.096111111 47.475277777)",
+      "enwiki": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC_II",
+      "clubLabel": "Ferencvárosi TC II",
+      "stadiumLabel": "Groupama Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5625686",
+      "stadium": "http://www.wikidata.org/entity/Q978472",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.664428 47.696419)",
+      "capacity": "28000",
+      "enwiki": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC_II",
+      "clubLabel": "Győri ETO FC II",
+      "stadiumLabel": "Stadion ETO"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7103862",
+      "stadium": "http://www.wikidata.org/entity/Q6949832",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/Orosh%C3%A1za_FC",
+      "clubLabel": "Orosháza FC",
+      "stadiumLabel": "Mátrai- Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q281076",
+      "website": "http://www.tiszakecskefoci.hu/",
+      "clubLabel": "Tiszakécske FC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q372665",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Veszpr%C3%A9m",
+      "clubLabel": "FC Veszprém"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q568519",
+      "enwiki": "https://en.wikipedia.org/wiki/Baktal%C3%B3r%C3%A1nth%C3%A1za_VSE",
+      "clubLabel": "Baktalórántháza VSE",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Baktal%C3%B3r%C3%A1nth%C3%A1za%20VSE.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q608448",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ajka",
+      "website": "http://www.fcajka.hu/",
+      "clubLabel": "FC Ajka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q610881",
+      "enwiki": "https://en.wikipedia.org/wiki/Koz%C3%A1rmisleny_SE",
+      "website": "http://www.kozarmislenyse.hu/",
+      "clubLabel": "Kozármisleny SE"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q642801",
+      "enwiki": "https://en.wikipedia.org/wiki/BKV_El%C5%91re_SC",
+      "clubLabel": "BKV Előre SC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q722972",
+      "enwiki": "https://en.wikipedia.org/wiki/Barcsi_SC",
+      "clubLabel": "Barcsi SC",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Barcsi%20SC.gif"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q723276",
+      "enwiki": "https://en.wikipedia.org/wiki/DAC_N%C3%A1dorv%C3%A1ros",
+      "clubLabel": "Integrál-DAC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q785203",
+      "enwiki": "https://en.wikipedia.org/wiki/Tatab%C3%A1nyai_SC",
+      "website": "https://www.tatabanyaisc.hu/",
+      "clubLabel": "Tatabányai SC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q994717",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Felcs%C3%BAt",
+      "clubLabel": "FC Felcsút"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1052685",
+      "enwiki": "https://en.wikipedia.org/wiki/Cegl%C3%A9di_VSE",
+      "website": "http://www.cegledfoci.hu/",
+      "clubLabel": "Ceglédi VSE"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1104331",
+      "enwiki": "https://en.wikipedia.org/wiki/Kaposv%C3%B6lgye_VSC",
+      "clubLabel": "Kaposvölgye VSC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1290413",
+      "enwiki": "https://en.wikipedia.org/wiki/Soroks%C3%A1r_SC",
+      "clubLabel": "Soroksár SC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1461967",
+      "clubLabel": "Várda SE",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/VSEmodern%20c%C3%ADmer.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4848814",
+      "enwiki": "https://en.wikipedia.org/wiki/Bajai_LSE",
+      "clubLabel": "Bajai LSE"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9181272",
+      "enwiki": "https://en.wikipedia.org/wiki/Budafoki_MTE",
+      "website": "https://budafok1912.hu/",
+      "clubLabel": "Budafoki MTE"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20438735",
+      "enwiki": "https://en.wikipedia.org/wiki/Cig%C3%A1nd_SE",
+      "clubLabel": "Cigánd SE"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20439445",
+      "enwiki": "https://en.wikipedia.org/wiki/Mosonmagyar%C3%B3v%C3%A1ri_TE",
+      "website": "https://mte1904.hu/",
+      "clubLabel": "Mosonmagyaróvári TE"
+    }
+  ]
+}
