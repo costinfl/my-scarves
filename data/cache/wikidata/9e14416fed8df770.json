@@ -1,0 +1,272 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q246175 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:30:48.729Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q336939",
+      "stadium": "http://www.wikidata.org/entity/Q1335102",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.674722 40.601389)",
+      "capacity": "15350",
+      "enwiki": "https://en.wikipedia.org/wiki/Absheron_FK",
+      "clubLabel": "FC Absheron",
+      "stadiumLabel": "Mehdi Huseynzade Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q385177",
+      "stadium": "http://www.wikidata.org/entity/Q390733",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.897711 40.410986)",
+      "capacity": "8125",
+      "enwiki": "https://en.wikipedia.org/wiki/MOIK_Baku",
+      "clubLabel": "MOIK Baku",
+      "stadiumLabel": "ASK Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/MO%C4%B0K%20%28Bak%C4%B1%29.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q603407",
+      "stadium": "http://www.wikidata.org/entity/Q15285180",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(46.036222222 40.854527777)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/Shamkir_FC",
+      "clubLabel": "FK Shamkir",
+      "stadiumLabel": "Shamkir Olympic Sport Complex Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C9%99mkir%20FK.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q804556",
+      "stadium": "http://www.wikidata.org/entity/Q390733",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.897711 40.410986)",
+      "capacity": "8125",
+      "enwiki": "https://en.wikipedia.org/wiki/Bak%C4%B1l%C4%B1_PFK",
+      "clubLabel": "Bakili Baku",
+      "stadiumLabel": "ASK Arena",
+      "website": "http://www.bakili-fclub.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389136",
+      "stadium": "http://www.wikidata.org/entity/Q4816249",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(48.42057109 41.419382996)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/Shahdag_Qusar_FK",
+      "clubLabel": "FC Shahdag Qusar",
+      "stadiumLabel": "Shovkat Ordukhanov Stadium",
+      "website": "https://shahdagqusar-fc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1640459",
+      "stadium": "http://www.wikidata.org/entity/Q5749546",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(48.06 39.86972222)",
+      "capacity": "8500",
+      "enwiki": "https://en.wikipedia.org/wiki/MKT_Araz_FK",
+      "clubLabel": "FK MKT Araz",
+      "stadiumLabel": "Imishli City Stadium",
+      "website": "http://www.mktaraz.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1858383",
+      "stadium": "http://www.wikidata.org/entity/Q8049714",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(47.0425 40.763056)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Energetik_FK",
+      "clubLabel": "Energetik FC",
+      "stadiumLabel": "Yashar Mammadzade Stadium",
+      "website": "https://mingachevir-fc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2356446",
+      "stadium": "http://www.wikidata.org/entity/Q15917734",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(45.36611111 41.09333333)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/G%C3%B6yazan_Qazakh_FK",
+      "clubLabel": "FK Göyazan Qazax",
+      "stadiumLabel": "Qazakh City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q13403935",
+      "stadium": "http://www.wikidata.org/entity/Q15917736",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(48.381389 40.576667)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/A%C4%9Fsu_FK",
+      "clubLabel": "Ağsu FK",
+      "stadiumLabel": "Agsu City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q13403935",
+      "stadium": "http://www.wikidata.org/entity/Q15917736",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(48.381506191 40.576917739)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/A%C4%9Fsu_FK",
+      "clubLabel": "Ağsu FK",
+      "stadiumLabel": "Agsu City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q23777392",
+      "stadium": "http://www.wikidata.org/entity/Q4874537",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.817664 40.332217)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%9E%C9%99rurspor",
+      "clubLabel": "FK Şərurspor",
+      "stadiumLabel": "Bayil Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q23777444",
+      "stadium": "http://www.wikidata.org/entity/Q2042133",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(46.652805555 41.639361111)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/Zagatala_PFK",
+      "clubLabel": "Zagatala PFK",
+      "stadiumLabel": "Zaqatala City Stadium",
+      "website": "https://zaqatala-pfc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24069958",
+      "stadium": "http://www.wikidata.org/entity/Q4874537",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.817664 40.332217)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Sharurspor_PFK",
+      "clubLabel": "Sharurspor PFK",
+      "stadiumLabel": "Bayil Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q30309373",
+      "stadium": "http://www.wikidata.org/entity/Q4874537",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.817664 40.332217)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Sabail_FK",
+      "clubLabel": "Səbail FK",
+      "stadiumLabel": "Bayil Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C9%99bail%20Futbol%20Klubu%20%28logo%29.svg",
+      "website": "https://sabailfc.az/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56071263",
+      "stadium": "http://www.wikidata.org/entity/Q4874537",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.817664 40.332217)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Sabail-2_FK",
+      "clubLabel": "FK Sabail-2",
+      "stadiumLabel": "Bayil Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56071292",
+      "stadium": "http://www.wikidata.org/entity/Q23808283",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(50.29311 40.35892)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/Zira-2_FK",
+      "clubLabel": "FK Zira-2",
+      "stadiumLabel": "Zira Olympic Sport Complex Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56071324",
+      "stadium": "http://www.wikidata.org/entity/Q390733",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.897711 40.410986)",
+      "capacity": "8125",
+      "enwiki": "https://en.wikipedia.org/wiki/Ke%C5%9Fla-2_FK",
+      "clubLabel": "FK Keşla-2",
+      "stadiumLabel": "ASK Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56071505",
+      "stadium": "http://www.wikidata.org/entity/Q390733",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(49.897711 40.410986)",
+      "capacity": "8125",
+      "enwiki": "https://en.wikipedia.org/wiki/Neft%C3%A7i-2",
+      "clubLabel": "PFK Neftçi-2",
+      "stadiumLabel": "ASK Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q122863858",
+      "stadium": "http://www.wikidata.org/entity/Q5521343",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(46.361944444 40.706111111)",
+      "capacity": "25000",
+      "enwiki": "https://en.wikipedia.org/wiki/Ganjabasar_FK",
+      "clubLabel": "Ganjabasar FC",
+      "stadiumLabel": "Ganja City Stadium",
+      "website": "https://jabrayil-fc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q124377966",
+      "stadium": "http://www.wikidata.org/entity/Q109453861",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(48.6355 40.6406)",
+      "capacity": "2200",
+      "clubLabel": "Difai FK",
+      "stadiumLabel": "Shamakhi City Stadium",
+      "website": "https://difai-fc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1962465",
+      "enwiki": "https://en.wikipedia.org/wiki/Qarada%C4%9F_L%C3%B6kbatan_FK",
+      "clubLabel": "FK Qaradağ"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11040264",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%87%C4%B1raqqala_Siy%C9%99z%C9%99n_FK",
+      "clubLabel": "Çıraqqala Siyəzən FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11040472",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%9Eirvan_%C5%9Eamax%C4%B1_FK",
+      "clubLabel": "Şirvan Şamaxı FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11043297",
+      "enwiki": "https://en.wikipedia.org/wiki/Azeri_Baku_FK",
+      "clubLabel": "Azeri Baku FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11170061",
+      "enwiki": "https://en.wikipedia.org/wiki/Energetik_%C6%8Fli-Bayraml%C4%B1_FK",
+      "clubLabel": "Shirvan FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12649820",
+      "enwiki": "https://en.wikipedia.org/wiki/Avtomobil%C3%A7i_Yevlax_FK",
+      "clubLabel": "Avtomobilçi Yevlax FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12669635",
+      "enwiki": "https://en.wikipedia.org/wiki/Plastik_Salyan_FK",
+      "clubLabel": "Plastik Salyan FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q42295701",
+      "enwiki": "https://en.wikipedia.org/wiki/Bine_FK",
+      "clubLabel": "Bine FK",
+      "website": "https://www.binefk.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56071303",
+      "enwiki": "https://en.wikipedia.org/wiki/Sabah-2_FK",
+      "clubLabel": "FK Sabah-2"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q129315609",
+      "clubLabel": "Araz Saatli"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q132159662",
+      "enwiki": "https://en.wikipedia.org/wiki/Baku_Sporting",
+      "clubLabel": "Baku Sporting",
+      "website": "http://www.bakusporting.com"
+    }
+  ]
+}

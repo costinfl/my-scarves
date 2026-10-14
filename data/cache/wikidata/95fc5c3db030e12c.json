@@ -1,0 +1,146 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q209946 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:29:45.119Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q8082682",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%A0K_Odeva_Lipany",
+      "website": "https://www.skodeva.sk/",
+      "clubLabel": "ŠK Odeva Lipany"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q21685523",
+      "website": "http://fcpa.sk/",
+      "clubLabel": "FC Petržalka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q664127",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_ViOn_Zlat%C3%A9_Moravce",
+      "website": "http://fcvion.sk/",
+      "clubLabel": "FC Zlaté Moravce",
+      "stadium": "http://www.wikidata.org/entity/Q392309",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.403889 48.399167)",
+      "capacity": "4000",
+      "stadiumLabel": "Štadión FC ViOn"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1356582",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Spartak_Dubnica_nad_V%C3%A1hom",
+      "website": "https://www.fkdubnica.sk/",
+      "clubLabel": "MFK Dubnica",
+      "stadium": "http://www.wikidata.org/entity/Q6822156",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.163333333 48.963611111)",
+      "stadiumLabel": "Mestský štadión"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389025",
+      "enwiki": "https://en.wikipedia.org/wiki/M%C5%A0K_P%C3%BAchov",
+      "website": "http://www.fkmatadorpuchov.sk/",
+      "clubLabel": "FK Púchov",
+      "stadium": "http://www.wikidata.org/entity/Q6822157",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.32 49.1175)",
+      "capacity": "6080",
+      "stadiumLabel": "Mestský štadión (Púchov)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389087",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Slovan_Duslo_%C5%A0a%C4%BEa",
+      "website": "http://www.fkduslosala.sk",
+      "clubLabel": "FK Slovan Duslo Šaľa",
+      "stadium": "http://www.wikidata.org/entity/Q8082737",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.88095278 48.16459722)",
+      "stadiumLabel": "Šaľa Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1959567",
+      "enwiki": "https://en.wikipedia.org/wiki/M%C5%A0K_Rimavsk%C3%A1_Sobota",
+      "website": "http://www.mfk.rimava.sk/",
+      "clubLabel": "MŠK Rimavská Sobota",
+      "stadium": "http://www.wikidata.org/entity/Q6956460",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.0076 48.3831)",
+      "stadiumLabel": "Na Zahradkach Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2877479",
+      "enwiki": "https://en.wikipedia.org/wiki/Partiz%C3%A1n_Bardejov",
+      "website": "http://www.partizanbj.sk/",
+      "clubLabel": "Partizán Bardejov",
+      "stadium": "http://www.wikidata.org/entity/Q6822158",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.2637392 49.2971133)",
+      "capacity": "3040",
+      "stadiumLabel": "Mestský štadión Bardejov"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3489919",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Tatran_Liptovsk%C3%BD_Mikul%C3%A1%C5%A1",
+      "website": "http://www.mfktatran.sk",
+      "clubLabel": "MFK Tatran Liptovský Mikuláš",
+      "stadium": "http://www.wikidata.org/entity/Q7596487",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.6133 48.0883)",
+      "capacity": "1950",
+      "stadiumLabel": "Stadium Liptovský Mikuláš"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4188846",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_%C5%A0TK_1914_%C5%A0amor%C3%ADn",
+      "website": "http://www.stksamorin.sk/",
+      "clubLabel": "FC ŠTK 1914 Šamorín",
+      "stadium": "http://www.wikidata.org/entity/Q7227337",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.320833333 48.040277777)",
+      "capacity": "1950",
+      "stadiumLabel": "Pomlé Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426322",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Pohronie",
+      "website": "https://www.fkpohronie.sk/",
+      "clubLabel": "FK Pohronie",
+      "stadium": "http://www.wikidata.org/entity/Q30626313",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.86333333 48.58733333)",
+      "capacity": "2309",
+      "stadiumLabel": "Mestský štadión Žiar nad Hronom"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q8215152",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Doln%C3%BD_Kub%C3%ADn",
+      "website": "http://www.mfk.dolnykubin.net/",
+      "clubLabel": "MFK Dolný Kubín",
+      "stadium": "http://www.wikidata.org/entity/Q7596489",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.2918 49.2063)",
+      "capacity": "1950",
+      "stadiumLabel": "Stadium MUDr. Ivan Chodák"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q39877",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Petr%C5%BEalka",
+      "website": "http://www.fcpetrzalka1898.sk/",
+      "clubLabel": "FC Petržalka",
+      "stadium": "http://www.wikidata.org/entity/Q7596480",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.133333333 48.119722222)",
+      "capacity": "1500",
+      "stadiumLabel": "Stadium FC Petržalka 1898"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q39877",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Petr%C5%BEalka",
+      "website": "http://www.fcpetrzalka1898.sk/",
+      "clubLabel": "FC Petržalka",
+      "stadium": "http://www.wikidata.org/entity/Q7596480",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.133374 48.119765)",
+      "capacity": "1500",
+      "stadiumLabel": "Stadium FC Petržalka 1898"
+    }
+  ]
+}

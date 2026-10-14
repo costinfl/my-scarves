@@ -1,0 +1,137 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q384536 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:31:33.224Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q254658",
+      "stadium": "http://www.wikidata.org/entity/Q7278440",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.465805555 65.019694444)",
+      "capacity": "4392",
+      "enwiki": "https://en.wikipedia.org/wiki/Oulun_Palloseura_(football)",
+      "website": "http://www.ops.fi/",
+      "clubLabel": "Oulun Palloseura",
+      "stadiumLabel": "Raatti Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q275138",
+      "stadium": "http://www.wikidata.org/entity/Q1262656",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.020278 61.268056)",
+      "capacity": "3516",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Haka",
+      "website": "https://fchaka.fi/",
+      "clubLabel": "FC Haka",
+      "stadiumLabel": "Tehtaan kenttä"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q853508",
+      "stadium": "http://www.wikidata.org/entity/Q4412504",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.7217 66.4997)",
+      "capacity": "2500",
+      "enwiki": "https://en.wikipedia.org/wiki/Rovaniemen_Palloseura",
+      "website": "https://www.rops.fi/",
+      "clubLabel": "RoPS",
+      "stadiumLabel": "Rovaniemen keskuskenttä"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1192755",
+      "stadium": "http://www.wikidata.org/entity/Q11902010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.1386 60.2167)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Viikingit",
+      "website": "https://fcviikingit.fi/",
+      "clubLabel": "FC Viikingit",
+      "stadiumLabel": "Vuosaaren urheilukenttä"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1369677",
+      "stadium": "http://www.wikidata.org/entity/Q6849945",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.26666667 61.68694444)",
+      "enwiki": "https://en.wikipedia.org/wiki/Mikkelin_Palloilijat",
+      "website": "https://mikkelinpalloilijat.fi/",
+      "clubLabel": "Mikkelin Palloilijat",
+      "stadiumLabel": "Mikkelin Urheilupuisto"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2467331",
+      "stadium": "http://www.wikidata.org/entity/Q1652779",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.774444 61.476667)",
+      "capacity": "12300",
+      "enwiki": "https://en.wikipedia.org/wiki/Porin_Palloilijat",
+      "clubLabel": "Porin Palloilijat",
+      "stadiumLabel": "Pori Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2705333",
+      "stadium": "http://www.wikidata.org/entity/Q6410244",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.198611 61.062778)",
+      "capacity": "4900",
+      "enwiki": "https://en.wikipedia.org/wiki/Rakuunat",
+      "clubLabel": "Rakuunat",
+      "stadiumLabel": "Kimpinen Sports Centre"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11336634",
+      "stadium": "http://www.wikidata.org/entity/Q1139227",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.9225 60.1875)",
+      "capacity": "10770",
+      "enwiki": "https://en.wikipedia.org/wiki/HIFK_Fotboll",
+      "website": "https://hifkfotboll.fi/",
+      "clubLabel": "HIFK Fotboll",
+      "stadiumLabel": "Bolt Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/HIFK-Jalkapallo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11870986",
+      "stadium": "http://www.wikidata.org/entity/Q13425515",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.8511 62.7819)",
+      "capacity": "2800",
+      "enwiki": "https://en.wikipedia.org/wiki/SJK_Akatemia",
+      "website": "http://www.sjk.fi/w/akatemiau23",
+      "clubLabel": "SJK Akatemia",
+      "stadiumLabel": "Seinäjoen keskuskenttä",
+      "parent": "http://www.wikidata.org/entity/Q2185704"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18658729",
+      "stadium": "http://www.wikidata.org/entity/Q18662238",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.442829 59.973292)",
+      "capacity": "1200",
+      "website": "https://www.ekenasif.fi/fotboll/",
+      "clubLabel": "Ekenäs IF",
+      "stadiumLabel": "Ekenäs centrumplan"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q574997",
+      "enwiki": "https://en.wikipedia.org/wiki/Kokkolan_Palloveikot",
+      "website": "http://www.kpv.fi/",
+      "clubLabel": "Kokkolan Palloveikot"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2273732",
+      "enwiki": "https://en.wikipedia.org/wiki/Tampereen_Peli-Pojat-70",
+      "website": "http://www.pp-70.fi/",
+      "clubLabel": "Tampereen Peli-Pojat-70"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5424919",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Espoo",
+      "clubLabel": "FC Espoo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6320020",
+      "enwiki": "https://en.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura",
+      "website": "https://www.japs.fi/",
+      "clubLabel": "Järvenpään Palloseura"
+    }
+  ]
+}

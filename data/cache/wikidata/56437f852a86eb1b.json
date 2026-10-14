@@ -1,0 +1,171 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q12837728 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:29:31.623Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q136433",
+      "stadium": "http://www.wikidata.org/entity/Q804933",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.339769 42.684258)",
+      "capacity": "22015",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia",
+      "website": "https://cska.bg",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/CSKA%20Sofia%20logo%20for%2070th%20anniversary.png",
+      "clubLabel": "PFC CSKA Sofia",
+      "stadiumLabel": "Balgarska Armia Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q144190",
+      "stadium": "http://www.wikidata.org/entity/Q368232",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.363197 42.705467)",
+      "capacity": "29200",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Levski_Sofia",
+      "website": "https://levski.bg/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Levski%20sofia%201990-1992.JPG",
+      "clubLabel": "PFC Levski Sofia",
+      "stadiumLabel": "Georgi Asparuhov Stadium",
+      "parent": "http://www.wikidata.org/entity/Q3237249"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q290629",
+      "stadium": "http://www.wikidata.org/entity/Q849639",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.931389 43.215833)",
+      "capacity": "8250",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Cherno_More_Varna",
+      "website": "https://chernomorepfc.bg/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Cherno%20More%20%28ancien%20logo%29.svg",
+      "clubLabel": "PFC Cherno More Varna",
+      "stadiumLabel": "Ticha Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q309025",
+      "stadium": "http://www.wikidata.org/entity/Q1572672",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.314806 42.737639)",
+      "capacity": "22000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Sofia",
+      "website": "http://lokomotivsofia.bg",
+      "clubLabel": "FC Lokomotiv 1929 Sofia",
+      "stadiumLabel": "Lokomotiv Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q597250",
+      "stadium": "http://www.wikidata.org/entity/Q849662",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.764444 42.139861)",
+      "capacity": "18000",
+      "enwiki": "https://en.wikipedia.org/wiki/Botev_Plovdiv",
+      "website": "https://botevplovdiv.bg/",
+      "clubLabel": "Botev Plovdiv",
+      "stadiumLabel": "Hristo Botev Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q634701",
+      "stadium": "http://www.wikidata.org/entity/Q2984648",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.5687 43.2009)",
+      "enwiki": "https://en.wikipedia.org/wiki/POFC_Botev_Vratsa",
+      "website": "https://botev-vratsa.com/",
+      "clubLabel": "POFC Botev Vratsa",
+      "stadiumLabel": "Hristo Botev Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q643434",
+      "stadium": "http://www.wikidata.org/entity/Q1859824",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.272028 42.675361)",
+      "capacity": "15992",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Slavia_Sofia",
+      "website": "http://pfcslavia.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Slavia%20Sofia%20logo.svg",
+      "clubLabel": "PFC Slavia Sofia",
+      "stadiumLabel": "Ovcha Kupel Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q762017",
+      "stadium": "http://www.wikidata.org/entity/Q5309428",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.826806 43.556028)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dobrudzha_Dobrich",
+      "clubLabel": "PFC Dobrudzha Dobrich",
+      "stadiumLabel": "Druzhba Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q762017",
+      "stadium": "http://www.wikidata.org/entity/Q27795907",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dobrudzha_Dobrich",
+      "clubLabel": "PFC Dobrudzha Dobrich",
+      "stadiumLabel": "Druzhba Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1124841",
+      "stadium": "http://www.wikidata.org/entity/Q3623331",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.771667 42.133889)",
+      "capacity": "11800",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Lokomotiv_Plovdiv",
+      "website": "https://lokomotivpd.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/PFC%20Lokomotiv%20Plovdiv%20Logo.svg",
+      "clubLabel": "PFC Lokomotiv Plovdiv",
+      "stadiumLabel": "Hristo Bonev Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1339086",
+      "stadium": "http://www.wikidata.org/entity/Q3625171",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.5275 43.53361111)",
+      "capacity": "9000",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad",
+      "website": "http://www.ludogorets.com/",
+      "clubLabel": "PFC Ludogorets 1945",
+      "stadiumLabel": "Huvepharma Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1635778",
+      "stadium": "http://www.wikidata.org/entity/Q5245085",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.9125 43.218611)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Spartak_Varna",
+      "website": "http://www.spartak1918.com/",
+      "clubLabel": "PFC Spartak Varna",
+      "stadiumLabel": "Spartak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1859826",
+      "stadium": "http://www.wikidata.org/entity/Q15276210",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.28777778 42.69222222)",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Septemvri_Sofia",
+      "website": "https://fcseptemvri.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Septemvri%20Sofia.png",
+      "clubLabel": "Septemvri Sofia PFC",
+      "stadiumLabel": "Septemvri Stadium (Sofia)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5424818",
+      "stadium": "http://www.wikidata.org/entity/Q12279167",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.37806 41.64111)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Arda_Kardzhali",
+      "website": "http://fcarda.bg/",
+      "clubLabel": "FC Arda",
+      "stadiumLabel": "Arena Arda"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q26223027",
+      "stadium": "http://www.wikidata.org/entity/Q39046436",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.36341667 42.59125)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_CSKA_1948_Sofia",
+      "website": "https://cska1948.bg/",
+      "clubLabel": "FC CSKA 1948 Sofia",
+      "stadiumLabel": "Bistritsa Stadium"
+    }
+  ]
+}

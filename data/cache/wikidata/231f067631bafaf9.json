@@ -1,0 +1,163 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q477309 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:30:02.860Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q106750915",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Bnei_Reineh_F.C.",
+      "clubLabel": "Maccabi Bnei Reineh F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q206585",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_F.C.",
+      "clubLabel": "Hapoel Tel Aviv F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q130150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.76148 32.05173)",
+      "capacity": "29400",
+      "website": "https://www.htafc.co.il/",
+      "stadiumLabel": "Bloomfield Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q223727",
+      "enwiki": "https://en.wikipedia.org/wiki/Beitar_Jerusalem_F.C.",
+      "clubLabel": "Beitar Jerusalem F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q391331",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.190616666 31.751166666)",
+      "capacity": "31733",
+      "website": "https://www.beitarfc.co.il/",
+      "stadiumLabel": "Teddy Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q223728",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_F.C.",
+      "clubLabel": "Maccabi Tel Aviv F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q130150",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.76148 32.05173)",
+      "capacity": "29400",
+      "website": "https://www.maccabi-tlv.co.il/",
+      "stadiumLabel": "Bloomfield Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q426513",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Netanya_F.C.",
+      "clubLabel": "Maccabi Netanya F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q1849789",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.864433 32.294397)",
+      "capacity": "13610",
+      "website": "http://www.fcmn.co.il",
+      "stadiumLabel": "Netanya Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q455991",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Haifa_F.C.",
+      "clubLabel": "Hapoel Haifa F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q2899864",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.965166666 32.783111111)",
+      "capacity": "30950",
+      "website": "https://hapoelhaifa.co.il/",
+      "stadiumLabel": "Sammy Ofer Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q907321",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Ironi_Kiryat_Shmona_F.C.",
+      "clubLabel": "Ironi Kiryat Shmona F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q6416328",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.575629 33.207894)",
+      "capacity": "5300",
+      "website": "https://iturank8.co.il/",
+      "stadiumLabel": "Kiryat Shmona Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q986529",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Be%27er_Sheva_F.C.",
+      "clubLabel": "Hapoel Be'er Sheva F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q4875423",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.7794 31.2731)",
+      "capacity": "16126",
+      "website": "https://hbsfc.co.il/",
+      "stadiumLabel": "Turner Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1130537",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Petah_Tikva_F.C.",
+      "clubLabel": "Hapoel Petah Tikva F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q1129090",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.865078 32.104197)",
+      "capacity": "11500",
+      "website": "http://www.hapoelpt.com",
+      "stadiumLabel": "HaMoshava Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1130570",
+      "enwiki": "https://en.wikipedia.org/wiki/Bnei_Sakhnin_F.C.",
+      "clubLabel": "Bnei Sakhnin F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q2076694",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.31085 32.866692)",
+      "capacity": "8500",
+      "website": "https://sakhnin.yahlla.com/",
+      "stadiumLabel": "Doha Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1138191",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Ashdod",
+      "clubLabel": "F.C. Ashdod",
+      "stadium": "http://www.wikidata.org/entity/Q2909196",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.6483 31.8103)",
+      "capacity": "7800",
+      "website": "https://www.fcashdod.co.il/",
+      "stadiumLabel": "Yud-Alef Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1344306",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Ramat_Gan_Givatayim_F.C.",
+      "clubLabel": "Hapoel Ramat Gan Giv'atayim F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q261666",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.824167 32.100278)",
+      "capacity": "13370",
+      "website": "https://hapoel-ramatgan.co.il/",
+      "stadiumLabel": "Ramat Gan Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2129100",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.",
+      "clubLabel": "Maccabi Haifa F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q2899864",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(34.965166666 32.783111111)",
+      "capacity": "30950",
+      "website": "http://mhaifafc.com/",
+      "stadiumLabel": "Sammy Ofer Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2259417",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Jerusalem_F.C.",
+      "clubLabel": "Hapoel Jerusalem F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q391331",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.190616666 31.751166666)",
+      "capacity": "31733",
+      "website": "https://www.hapoeljerusalem.co.il/",
+      "stadiumLabel": "Teddy Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2912223",
+      "enwiki": "https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C.",
+      "clubLabel": "Ironi Tiberias F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q48771429",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.52113889 32.79702778)",
+      "stadiumLabel": "Tiberias Municipal Stadium"
+    }
+  ]
+}

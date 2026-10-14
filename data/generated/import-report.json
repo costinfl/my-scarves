@@ -1,4 +1,24 @@
 {
+  "AND": [
+    {
+      "league": "Q257282",
+      "name": "Primera Divisió",
+      "status": "ok",
+      "clubs": 11,
+      "stadiums": 2,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q541065",
+      "name": "Segona Divisió",
+      "status": "ok",
+      "clubs": 7,
+      "stadiums": 1,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "AUT": [
     {
       "league": "Q219592",
@@ -15,6 +35,26 @@
       "status": "ok",
       "clubs": 14,
       "stadiums": 11,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "AZE": [
+    {
+      "league": "Q326859",
+      "name": "Azerbaijan Premier League",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 14,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q246175",
+      "name": "Azerbaijan First Division",
+      "status": "ok",
+      "clubs": 30,
+      "stadiums": 13,
       "excluded": [],
       "source": "memberships"
     }
@@ -39,6 +79,59 @@
       "source": "memberships"
     }
   ],
+  "BIH": [
+    {
+      "league": "Q391006",
+      "name": "Premier League of Bosnia and Herzegovina",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 9,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1361966",
+      "name": "First League of the Federation of Bosnia and Herzegovina",
+      "status": "ok",
+      "clubs": 24,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1361974",
+      "name": "First League of the Republika Srpska",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 5,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "BUL": [
+    {
+      "league": "Q12837728",
+      "name": "First Professional Football League",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 15,
+      "excluded": [
+        "PFC Ludogorets Razgrad II (Q20718281), part of club Q1339086 (P831)"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q797414",
+      "name": "Bulgarian B Professional Football Group",
+      "status": "ok",
+      "clubs": 36,
+      "stadiums": 23,
+      "excluded": [
+        "Q24185173 (no label)"
+      ],
+      "source": "memberships"
+    }
+  ],
   "CRO": [
     {
       "league": "Q162604",
@@ -55,6 +148,26 @@
       "status": "ok",
       "clubs": 15,
       "stadiums": 8,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "CYP": [
+    {
+      "league": "Q155965",
+      "name": "Cypriot First Division",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q2186582",
+      "name": "Cypriot Second Division",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 10,
       "excluded": [],
       "source": "memberships"
     }
@@ -138,6 +251,28 @@
         "FC Barcelona Atlètic (Q10467)",
         "Real Sociedad B (Q1067750)"
       ]
+    }
+  ],
+  "FIN": [
+    {
+      "league": "Q220875",
+      "name": "Veikkausliiga",
+      "status": "ok",
+      "clubs": 13,
+      "stadiums": 13,
+      "excluded": [
+        "SJK Akatemia (Q11870986), part of club Q2185704 (P831)"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q384536",
+      "name": "Ykkösliiga",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "memberships"
     }
   ],
   "FRA": [
@@ -229,6 +364,26 @@
       "source": "memberships"
     }
   ],
+  "ISR": [
+    {
+      "league": "Q477309",
+      "name": "Israeli Premier League",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 11,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1824581",
+      "name": "Liga Leumit",
+      "status": "ok",
+      "clubs": 23,
+      "stadiums": 18,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "ITA": [
     {
       "league": "Q15804",
@@ -245,6 +400,26 @@
       "status": "ok",
       "clubs": 28,
       "stadiums": 26,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "KAZ": [
+    {
+      "league": "Q326422",
+      "name": "Kazakhstan Premier League",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 13,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1361963",
+      "name": "Kazakhstan First League",
+      "status": "ok",
+      "clubs": 22,
+      "stadiums": 7,
       "excluded": [],
       "source": "memberships"
     }
@@ -412,6 +587,48 @@
       "status": "ok",
       "clubs": 11,
       "stadiums": 10,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "SVK": [
+    {
+      "league": "Q238113",
+      "name": "Slovak First Football League",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 11,
+      "excluded": [
+        "FC Petržalka (Q21685523), duplicate item of Q39877"
+      ],
+      "source": "memberships"
+    },
+    {
+      "league": "Q209946",
+      "name": "Slovak Second Football League",
+      "status": "ok",
+      "clubs": 13,
+      "stadiums": 11,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "SVN": [
+    {
+      "league": "Q275005",
+      "name": "Slovenian PrvaLiga",
+      "status": "ok",
+      "clubs": 9,
+      "stadiums": 8,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q2548558",
+      "name": "Slovenian Second League",
+      "status": "ok",
+      "clubs": 20,
+      "stadiums": 13,
       "excluded": [],
       "source": "memberships"
     }

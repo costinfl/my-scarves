@@ -1,0 +1,335 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q797414 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:29:35.983Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q374254",
+      "stadium": "http://www.wikidata.org/entity/Q303387",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.615278 42.432778)",
+      "capacity": "12128",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Beroe_Stara_Zagora",
+      "website": "http://www.beroe.bg/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/BeroeLogo.png",
+      "clubLabel": "PFC Beroe Stara Zagora",
+      "stadiumLabel": "Beroe Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q414625",
+      "stadium": "http://www.wikidata.org/entity/Q4700079",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.368611 42.685278)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Akademik_Sofia",
+      "website": "http://www.akademik-sofia.com",
+      "clubLabel": "Akademik Sofia",
+      "stadiumLabel": "Akademik Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q526794",
+      "stadium": "http://www.wikidata.org/entity/Q3658742",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.35 42.962222)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Sportist_Svoge",
+      "website": "http://sportist-svoge.net/",
+      "clubLabel": "FC Sportist Svoge",
+      "stadiumLabel": "Chavdar Tsvetkov Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q610456",
+      "stadium": "http://www.wikidata.org/entity/Q1058669",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.336667 42.679306)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/OFC_Sliven_2000",
+      "website": "https://www.sliven-fc.com/",
+      "clubLabel": "OFC Sliven 2000",
+      "stadiumLabel": "Hadzhi Dimitar Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1136977",
+      "stadium": "http://www.wikidata.org/entity/Q389625",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.636656 42.565985)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/OFC_Pomorie",
+      "website": "http://www.ofc.pomorie.bg/",
+      "clubLabel": "PFC Chernomorets Pomorie",
+      "stadiumLabel": "Pomorie Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1137240",
+      "stadium": "http://www.wikidata.org/entity/Q6997232",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.705 42.666806)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/OFC_Nesebar",
+      "website": "https://ofcnesebar.com",
+      "clubLabel": "PFC Nesebar",
+      "stadiumLabel": "Nesebar Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1325004",
+      "stadium": "http://www.wikidata.org/entity/Q7415985",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.28361111 41.57361111)",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Vihren_Sandanski",
+      "website": "https://ofkvihren.com",
+      "clubLabel": "FC Vihren Sandanski",
+      "stadiumLabel": "Sandanski Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388695",
+      "stadium": "http://www.wikidata.org/entity/Q5277416",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.5726 43.23572)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Svetkavitsa_Targovishte",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Svetkavitza%20Logo.svg",
+      "clubLabel": "PFC Svetkavitsa",
+      "stadiumLabel": "Dimitar Burkov Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389002",
+      "stadium": "http://www.wikidata.org/entity/Q1806793",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.470278 42.5125)",
+      "capacity": "18037",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Neftochimic_Burgas_(2009%E2%80%932014)",
+      "clubLabel": "Neftochimic Burgas 1986",
+      "stadiumLabel": "Lazur Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1462564",
+      "stadium": "http://www.wikidata.org/entity/Q3622944",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.225278 43.398611)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Montana",
+      "website": "https://pfcmontana.bg/",
+      "clubLabel": "PFC Montana",
+      "stadiumLabel": "Ogosta Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1578815",
+      "stadium": "http://www.wikidata.org/entity/Q15234685",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.33111111 43.42833333)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kaliakra_Kavarna",
+      "clubLabel": "PFC Kaliakra Kavarna",
+      "stadiumLabel": "Kavarna Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1868622",
+      "stadium": "http://www.wikidata.org/entity/Q851679",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.7125 43.138889)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Mezdra",
+      "website": "https://lokomotivmezdra.com",
+      "clubLabel": "PFC Lokomotiv Mezdra",
+      "stadiumLabel": "Lokomotiv Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2096853",
+      "stadium": "http://www.wikidata.org/entity/Q3625090",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.1 42.026389)",
+      "capacity": "7500",
+      "enwiki": "https://en.wikipedia.org/wiki/OFC_Pirin_Blagoevgrad",
+      "website": "https://fcpirin.com/",
+      "clubLabel": "FC Pirin Blagoevgrad",
+      "stadiumLabel": "Hristo Botev Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2684577",
+      "stadium": "http://www.wikidata.org/entity/Q4355613",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.944167 43.276667)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Volov_Shumen",
+      "website": "http://pfk-shumen2010.com",
+      "clubLabel": "PFC Shumen 2010",
+      "stadiumLabel": "Panayot Volov Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3888015",
+      "stadium": "http://www.wikidata.org/entity/Q4882949",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.608056 43.406944)",
+      "capacity": "22000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Belite_Orli_Pleven",
+      "clubLabel": "PFC Belite orli Pleven",
+      "stadiumLabel": "Belite Orli Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4961901",
+      "stadium": "http://www.wikidata.org/entity/Q4892310",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.757789086 42.058228631)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Brestnik_1948",
+      "website": "http://www.pfcbrestnik1948.com",
+      "clubLabel": "PFC Brestnik 1948",
+      "stadiumLabel": "Berkut Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5423724",
+      "stadium": "http://www.wikidata.org/entity/Q20036684",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.696944 42.413611)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Sozopol",
+      "website": "https://fcsozopol.com",
+      "clubLabel": "F.C. Sozopol",
+      "stadiumLabel": "Arena Sozopol"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5423737",
+      "stadium": "http://www.wikidata.org/entity/Q39046436",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.36341667 42.59125)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vitosha_Bistritsa",
+      "website": "http://www.fcvitosha.com",
+      "clubLabel": "F.C. Vitosha Bistritsa",
+      "stadiumLabel": "Bistritsa Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5765870",
+      "stadium": "http://www.wikidata.org/entity/Q4355474",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.3225 42.21083333)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Hebar_Pazardzhik",
+      "website": "http://hebarfc.com/pattern_la1=",
+      "clubLabel": "FC Hebar 1918",
+      "stadiumLabel": "Georgi Benkovski Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12289607",
+      "stadium": "http://www.wikidata.org/entity/Q804933",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.339769 42.684258)",
+      "capacity": "22015",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia_II",
+      "website": "http://www.cska.bg/",
+      "clubLabel": "PFC CSKA Sofia II",
+      "stadiumLabel": "Balgarska Armia Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16837310",
+      "stadium": "http://www.wikidata.org/entity/Q3622953",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.620556 43.077222)",
+      "capacity": "25000",
+      "enwiki": "https://en.wikipedia.org/wiki/SFC_Etar_Veliko_Tarnovo",
+      "website": "http://etarvt.bg/",
+      "clubLabel": "OFC Etar Veliko Tarnovo",
+      "stadiumLabel": "Ivaylo Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20718277",
+      "stadium": "http://www.wikidata.org/entity/Q1541269",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.724861 43.142639)",
+      "capacity": "8100",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Litex_Lovech_II",
+      "website": "http://pfclitex.com/",
+      "clubLabel": "PFC Litex Lovech II",
+      "stadiumLabel": "Lovech Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20718281",
+      "stadium": "http://www.wikidata.org/entity/Q3625171",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.5275 43.53361111)",
+      "capacity": "9000",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad_II",
+      "website": "http://www.ludogorets.com/all_news.php",
+      "clubLabel": "PFC Ludogorets Razgrad II",
+      "stadiumLabel": "Huvepharma Arena",
+      "parent": "http://www.wikidata.org/entity/Q1339086"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24185173",
+      "stadium": "http://www.wikidata.org/entity/Q1572672",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.314806 42.737639)",
+      "capacity": "22000",
+      "website": "http://www.fclokomotiv1929.com/",
+      "clubLabel": "Q24185173",
+      "stadiumLabel": "Lokomotiv Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1136989",
+      "enwiki": "https://en.wikipedia.org/wiki/PFC_Bansko",
+      "website": "https://fcbansko.com",
+      "clubLabel": "FC Bansko"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2238669",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Septemvri_Simitli",
+      "clubLabel": "Septemvri Simitli"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2301724",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Etropole",
+      "clubLabel": "FC Chavdar Etropole"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2741487",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Pirin_Razlog",
+      "clubLabel": "F.C. Pirin Razlog"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3625019",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Rakovski",
+      "website": "https://fkrakovski.com",
+      "clubLabel": "POFC Rakovski"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3658328",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Malesh_Mikrevo",
+      "clubLabel": "FC Malesh Mikrevo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5423722",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Slivnishki_Geroy_(Slivnitsa)",
+      "clubLabel": "FC Slivnishki Geroy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7119066",
+      "website": "http://pfcchavdar.tk/",
+      "clubLabel": "PFC Chavdar Byala Slatina"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7119073",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Minyor_Radnevo",
+      "clubLabel": "PFC Minyor Radnevo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12297389",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Levski_Karlovo",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Levski%20Karlovo%20%28logo%29.svg",
+      "clubLabel": "FC Levski Karlovo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12297401",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Oborishte_Panagyurishte",
+      "website": "http://fcoborishte.com/",
+      "clubLabel": "FC Oborishte"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16827963",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Botev_Galabovo",
+      "website": "http://botev-galabovo.com",
+      "clubLabel": "FC Botev Galabovo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q28405132",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kariana_Erden",
+      "clubLabel": "FC Kariana Erden"
+    }
+  ]
+}

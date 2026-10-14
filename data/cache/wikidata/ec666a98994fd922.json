@@ -1,0 +1,165 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q326422 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:30:54.144Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q194170",
+      "stadium": "http://www.wikidata.org/entity/Q190784",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(57.160278 50.291389)",
+      "capacity": "12800",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Aktobe",
+      "website": "https://fcaktobe.kz/",
+      "clubLabel": "FC Aktobe",
+      "stadiumLabel": "Aktobe Central Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q420594",
+      "stadium": "http://www.wikidata.org/entity/Q190788",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(76.92435 43.238331)",
+      "capacity": "23804",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kairat",
+      "website": "http://www.fckairat.kz/",
+      "clubLabel": "FC Kairat",
+      "stadiumLabel": "Almaty Central Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FCKairat%20logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q477814",
+      "stadium": "http://www.wikidata.org/entity/Q190791",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(63.636578 53.225974)",
+      "capacity": "8323",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Tobol",
+      "website": "https://fctobol.kz/",
+      "clubLabel": "FC Tobol",
+      "stadiumLabel": "Kostanay Central Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q546557",
+      "stadium": "http://www.wikidata.org/entity/Q4179789",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(78.365103 45.019716)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Zhetysu",
+      "website": "http://www.fc-zhetisu.kz",
+      "clubLabel": "FC Zhetysu",
+      "stadiumLabel": "Zhetysu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q630939",
+      "stadium": "http://www.wikidata.org/entity/Q4827654",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(69.152074 54.874085)",
+      "capacity": "11000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kyzylzhar",
+      "website": "https://fkqyzyljar.kz/",
+      "clubLabel": "FC Kyzylzhar",
+      "stadiumLabel": "Karasay Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q723483",
+      "stadium": "http://www.wikidata.org/entity/Q190789",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(76.949712 52.276383)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Irtysh_Pavlodar",
+      "website": "https://ertis-fc.kz/",
+      "clubLabel": "FC Irtysh Pavlodar",
+      "stadiumLabel": "Pavlodar Central Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q733451",
+      "stadium": "http://www.wikidata.org/entity/Q588138",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(51.908324 47.094085)",
+      "capacity": "8660",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Atyrau",
+      "website": "http://www.rfcatyrau.kz/",
+      "clubLabel": "FC Atyrau",
+      "stadiumLabel": "Munayshy Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q740568",
+      "stadium": "http://www.wikidata.org/entity/Q1008046",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(65.503439 44.826029)",
+      "capacity": "7300",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kaisar",
+      "clubLabel": "FC Kaisar",
+      "stadiumLabel": "Gany Muratbayev Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q753004",
+      "stadium": "http://www.wikidata.org/entity/Q2986461",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(71.413312 51.162739)",
+      "capacity": "12350",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Zhenis",
+      "website": "https://jenisfk.kz/",
+      "clubLabel": "FC Zhenis",
+      "stadiumLabel": "Kazhimukan Munaitpasov Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q779698",
+      "stadium": "http://www.wikidata.org/entity/Q746559",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(71.4026 51.1082)",
+      "capacity": "30000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Astana",
+      "website": "https://fcastana.kz/",
+      "clubLabel": "FC Astana",
+      "stadiumLabel": "Astana Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q849889",
+      "stadium": "http://www.wikidata.org/entity/Q798494",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(69.593568 42.335493)",
+      "capacity": "20000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ordabasy",
+      "website": "https://fcordabasy.kz/",
+      "clubLabel": "FC Ordabasy",
+      "stadiumLabel": "Kazhimukan Munaitpasov Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q931971",
+      "stadium": "http://www.wikidata.org/entity/Q606918",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(69.391667 53.285278)",
+      "capacity": "4158",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Okzhetpes",
+      "website": "http://www.okzhetpes.kz/",
+      "clubLabel": "FC Okzhetpes",
+      "stadiumLabel": "Okzhetpes Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1735177",
+      "stadium": "http://www.wikidata.org/entity/Q8070634",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(51.147333 43.664659)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Caspiy",
+      "website": "https://fccaspy.kz/",
+      "clubLabel": "Kaspii Aqtau",
+      "stadiumLabel": "Jas Qanat Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1046326",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ulytau",
+      "clubLabel": "FC Ulytau"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q23057839",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Altai",
+      "website": "https://altai-fc.kz/",
+      "clubLabel": "FC Altai Semey"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q120081555",
+      "website": "https://fcelimai.kz",
+      "clubLabel": "Yelimay"
+    }
+  ]
+}
