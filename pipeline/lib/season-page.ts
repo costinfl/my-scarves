@@ -36,20 +36,20 @@ export function seasonTitles(rows: Row[], startYear: number): string[] {
   return [...new Set([...linked, ...built])];
 }
 
-/** Headings of team lists, and of sections that also link clubs but are not this season's members. */
-const TEAM_SECTION = /team|club|stadium|venue|location|participant/i;
-const OTHER_SECTION = /change|promot|relegat|personnel|kit|manag|coach|foreign|standing|table|result|statistic|scor|award/i;
+/** Headings of sections whose tables link clubs without being the season's team list. */
+const OTHER_SECTION = /personnel|kit|manag|coach|foreign|standing|table|result|statistic|scor|award|attendance|play-?off|cup/i;
 
 /**
- * Club article titles from the season article: the first table under a teams/stadiums heading whose header
+ * Club article titles from the season article: the first table (outside standings, results, personnel…) whose header
  * names both the team and a place (stadium, location, city…), taking the first link of every row.
- * Team-changes tables (promoted/relegated clubs) are skipped by their heading.
+ * A team-changes table (promoted/relegated) has no place column, so it is skipped by the header check; the
+ * stadiums table may sit right under a "Changes" heading (2026 Erovnuli Liga), so that heading is not excluded.
  */
 export function parseSeasonTeams(wikitext: string): string[] {
   const sections = wikitext.split(/^(?==+[^=\n]+=+\s*$)/m);
   for (const section of sections) {
     const heading = section.match(/^=+\s*([^=\n]+?)\s*=+/)?.[1] ?? '';
-    if (!TEAM_SECTION.test(heading) || OTHER_SECTION.test(heading)) continue;
+    if (OTHER_SECTION.test(heading)) continue;
     for (const table of section.match(/^\{\|[\s\S]*?^\|\}/gm) ?? []) {
       const header = table.split(/^\|-/m)[0]! + (table.match(/^!.*$/gm) ?? []).join(' ');
       // Whole words: "Capacity" must not count as "city".

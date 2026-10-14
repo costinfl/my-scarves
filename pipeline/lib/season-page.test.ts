@@ -62,6 +62,10 @@ ${rows(8)}
     expect(parseSeasonTeams(article.replace('!Location\n!Stadium\n', ''))).toEqual([]);
     expect(parseSeasonTeams(article.replace(rows(8), rows(3)))).toEqual([]);
   });
+  it('finds the table under a "Changes" heading, with the header row after the first row separator (2026 Erovnuli Liga)', () => {
+    const georgia = `==Teams and stadiums==\n===Changes===\n[[FC Rustavi|Rustavi]] was promoted.\n{| class="wikitable sortable"\n|-\n! Team !! Location !! Venue !! Capacity\n${Array.from({ length: 6 }, (_, i) => `|-\n| [[FC G${i}|G${i}]] || [[Town${i}]] || [[Arena${i}]] || 1,000`).join('\n')}\n|}\n==Personnel and kits==\n{| class="wikitable"\n! Team !! Location of HQ !! Manager\n|-\n| [[FC Other]] || [[X]] || Y\n|}`;
+    expect(parseSeasonTeams(georgia)).toEqual(['FC G0', 'FC G1', 'FC G2', 'FC G3', 'FC G4', 'FC G5']);
+  });
   it('reads single-line rows', () => {
     const oneLine = `==Clubs==\n{| class="wikitable"\n! Club !! City !! Stadium\n${Array.from({ length: 6 }, (_, i) => `|-\n| [[FK A${i}]] || [[City${i}]] || [[Arena${i}]]`).join('\n')}\n|}`;
     expect(parseSeasonTeams(oneLine)).toEqual(['FK A0', 'FK A1', 'FK A2', 'FK A3', 'FK A4', 'FK A5']);
