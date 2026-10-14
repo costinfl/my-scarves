@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.905417&lon=30.340972&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":170612868,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":586096265,\"lat\":\"53.9054683\",\"lon\":\"30.3409083\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.429007400621069e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вуліца Крыленкі, Лядкова, Завалле, Ленінскі раён, Магілёў, Магілёўская вобласць, 212005, Беларусь\",\"address\":{\"road\":\"вуліца Крыленкі\",\"neighbourhood\":\"Лядкова\",\"suburb\":\"Завалле\",\"city_district\":\"Ленінскі раён\",\"city\":\"Магілёў\",\"state\":\"Магілёўская вобласць\",\"ISO3166-2-lvl4\":\"BY-MA\",\"postcode\":\"212005\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"53.9049370\",\"53.9059995\",\"30.3400372\",\"30.3417793\"]}",
+  "fetchedAt": "2026-10-14T14:24:54.369Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.222361&lon=28.490278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":171081564,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":126783670,\"lat\":\"54.2224532\",\"lon\":\"28.4903605\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3851192463369759,\"addresstype\":\"leisure\",\"name\":\"Гарадскі стадыён\",\"display_name\":\"Гарадскі стадыён, вуліца Максіма Горкага, Барысаў, Барысаўскі раён, Мінская вобласць, 222513, Беларусь\",\"address\":{\"leisure\":\"Гарадскі стадыён\",\"road\":\"вуліца Максіма Горкага\",\"city\":\"Барысаў\",\"county\":\"Барысаўскі раён\",\"state\":\"Мінская вобласць\",\"ISO3166-2-lvl4\":\"BY-MI\",\"postcode\":\"222513\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"54.2218835\",\"54.2230326\",\"28.4895958\",\"28.4911311\"]}",
+  "fetchedAt": "2026-10-14T14:24:49.518Z"
+}

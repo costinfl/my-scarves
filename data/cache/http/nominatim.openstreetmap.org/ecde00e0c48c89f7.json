@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.895139&lon=27.560278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":171490765,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":601000045,\"lat\":\"53.8951327\",\"lon\":\"27.5602971\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.699473563740013e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ульянаўская вуліца, Ляхаўка, Пасёлак Велазавода, Ленінскі раён, Мінск, 220030, Беларусь\",\"address\":{\"road\":\"Ульянаўская вуліца\",\"neighbourhood\":\"Ляхаўка\",\"suburb\":\"Пасёлак Велазавода\",\"city_district\":\"Ленінскі раён\",\"city\":\"Мінск\",\"ISO3166-2-lvl4\":\"BY-HM\",\"postcode\":\"220030\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"53.8946144\",\"53.8956531\",\"27.5596757\",\"27.5609192\"]}",
+  "fetchedAt": "2026-10-14T14:24:53.089Z"
+}

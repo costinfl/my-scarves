@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=65.686083&lon=-18.095211&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":272004172,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":216251195,\"lat\":\"65.6859387\",\"lon\":\"-18.0952924\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9691004806546384e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Glerárgata, Miðbær, Akureyri, Norðurland eystra, 600, Ísland\",\"address\":{\"road\":\"Glerárgata\",\"residential\":\"Miðbær\",\"town\":\"Akureyri\",\"ISO3166-2-lvl15\":\"IS-AKU\",\"state_district\":\"Norðurland eystra\",\"ISO3166-2-lvl5\":\"IS-6\",\"postcode\":\"600\",\"country\":\"Ísland\",\"country_code\":\"is\"},\"boundingbox\":[\"65.6853821\",\"65.6864955\",\"-18.0962252\",\"-18.0943597\"]}",
+  "fetchedAt": "2026-10-14T14:26:03.090Z"
+}

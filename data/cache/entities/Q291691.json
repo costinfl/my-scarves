@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T14:19:11.306Z",
+  "version": 2,
+  "entity": {
+    "id": "Q291691",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Akranes.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50135"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Íþróttabandalag Akraness"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Íþróttabandalag Akraness"
+      }
+    }
+  }
+}

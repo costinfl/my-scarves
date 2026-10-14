@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q203513",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59036"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Zimbru Chișinău"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Zimbru Chișinău"
+      }
+    }
+  }
+}

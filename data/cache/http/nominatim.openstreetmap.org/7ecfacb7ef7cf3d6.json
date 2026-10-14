@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.821111&lon=46.753056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208512840,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":691227106,\"lat\":\"39.8210608\",\"lon\":\"46.7532060\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.232623788810586e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Məhəmməd Əmin Rəsulzadə küçəsi, Kərkicahan, Xankəndi, Azərbaycan\",\"address\":{\"road\":\"Məhəmməd Əmin Rəsulzadə küçəsi\",\"town\":\"Kərkicahan\",\"city\":\"Xankəndi\",\"ISO3166-2-lvl6\":\"AZ-XA\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"39.8204900\",\"39.8216314\",\"46.7525785\",\"46.7538336\"]}",
+  "fetchedAt": "2026-10-14T14:24:47.547Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.149373&lon=44.476449&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":211168087,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":405984685,\"lat\":\"40.1493996\",\"lon\":\"44.4764632\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":7.370336461428272e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Չեխովի փողոց, 3-րդ մաս, Շենգավիթ, Երևան, 0039, Հայաստան\",\"address\":{\"road\":\"Չեխովի փողոց\",\"neighbourhood\":\"3-րդ մաս\",\"suburb\":\"Շենգավիթ\",\"city\":\"Երևան\",\"ISO3166-2-lvl4\":\"AM-ER\",\"postcode\":\"0039\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.1487652\",\"40.1500339\",\"44.4757536\",\"44.4771729\"]}",
+  "fetchedAt": "2026-10-14T14:24:44.020Z"
+}

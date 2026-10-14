@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2035339",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2605268"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Alashkert"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Alashkert FC"
+      }
+    }
+  }
+}

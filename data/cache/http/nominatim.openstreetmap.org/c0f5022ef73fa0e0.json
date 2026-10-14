@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.838333&lon=29.557500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":61562866,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":536613998,\"lat\":\"46.8383378\",\"lon\":\"29.5579331\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.359884031429034e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Мерседес-Центр, Западный, Tiraspolul Nou, Советул орэшенеск Тираспол / Тираспольский городской совет / Тираспольська міська рада, Unitățile administrativ-teritoriale din stînga Nistrului, Нистрения / Приднестровье / Придністров'я, MD-5727, Moldova\",\"address\":{\"road\":\"Мерседес-Центр\",\"suburb\":\"Западный\",\"town\":\"Tiraspolul Nou\",\"state_district\":\"Советул орэшенеск Тираспол / Тираспольский городской совет / Тираспольська міська рада\",\"state\":\"Unitățile administrativ-teritoriale din stînga Nistrului\",\"ISO3166-2-lvl4\":\"MD-SN\",\"postcode\":\"MD-5727\",\"country\":\"Moldova\",\"country_code\":\"md\"},\"boundingbox\":[\"46.8378151\",\"46.8388604\",\"29.5574014\",\"29.5584647\"]}",
+  "fetchedAt": "2026-10-14T14:26:39.909Z"
+}

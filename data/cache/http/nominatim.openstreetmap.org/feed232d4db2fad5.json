@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.739200&lon=24.359400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":173383179,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":6250962108,\"lat\":\"55.7391764\",\"lon\":\"24.3594907\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3629003094109262,\"addresstype\":\"leisure\",\"name\":\"Aukštaitijos stadionas\",\"display_name\":\"Aukštaitijos stadionas, Marijonų g., Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35127, Lietuva\",\"address\":{\"leisure\":\"Aukštaitijos stadionas\",\"road\":\"Marijonų g.\",\"suburb\":\"Senamiestis\",\"city\":\"Panevėžys\",\"state_district\":\"Panevėžio miesto savivaldybė\",\"ISO3166-2-lvl5\":\"LT-32\",\"state\":\"Panevėžio apskritis\",\"ISO3166-2-lvl4\":\"LT-PN\",\"postcode\":\"35127\",\"country\":\"Lietuva\",\"country_code\":\"lt\"},\"boundingbox\":[\"55.7391264\",\"55.7392264\",\"24.3594407\",\"24.3595407\"]}",
+  "fetchedAt": "2026-10-14T14:26:18.478Z"
+}

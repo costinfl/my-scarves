@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q25408708",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FUTBOL111.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Erebuni SC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Erebuni SC"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=58.242286&lon=22.480172&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":166619801,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":237708984,\"lat\":\"58.2421047\",\"lon\":\"22.4799431\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0550087739330397e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Staadioni, Kuressaare linn, Saaremaa vald, Saare maakond, 93813, Eesti\",\"address\":{\"road\":\"Staadioni\",\"town\":\"Kuressaare linn\",\"municipality\":\"Saaremaa vald\",\"ISO3166-2-lvl7\":\"EE-714\",\"county\":\"Saare maakond\",\"ISO3166-2-lvl6\":\"EE-74\",\"postcode\":\"93813\",\"country\":\"Eesti\",\"country_code\":\"ee\"},\"boundingbox\":[\"58.2416139\",\"58.2425954\",\"22.4793011\",\"22.4805850\"]}",
+  "fetchedAt": "2026-10-14T14:25:14.940Z"
+}

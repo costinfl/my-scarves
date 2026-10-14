@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.089722&lon=23.683750&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":178656729,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":323724501,\"lat\":\"52.0898273\",\"lon\":\"23.6837756\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.726863508044583e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Камуністычная вуліца, Цэнтр, Ленінскі раён, Брэст, Брэсцкая вобласць, 224005, Беларусь\",\"address\":{\"road\":\"Камуністычная вуліца\",\"suburb\":\"Цэнтр\",\"city_district\":\"Ленінскі раён\",\"city\":\"Брэст\",\"state\":\"Брэсцкая вобласць\",\"ISO3166-2-lvl4\":\"BY-BR\",\"postcode\":\"224005\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"52.0893434\",\"52.0903111\",\"23.6832454\",\"23.6843058\"]}",
+  "fetchedAt": "2026-10-14T14:24:55.072Z"
+}

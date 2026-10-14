@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T14:19:09.741Z",
+  "version": 2,
+  "entity": {
+    "id": "Q13384986",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "Vora FK"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Vora"
+      }
+    }
+  }
+}

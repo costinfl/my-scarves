@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.280556&lon=43.271944&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207942148,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":16021370,\"lat\":\"42.2808828\",\"lon\":\"43.2729374\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.139620050350221e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"ილია ჭავჭავაძის ქუჩა, ჭიათურა, ჭიათურის მუნიციპალიტეტი, იმერეთი, 5500, საქართველო\",\"address\":{\"road\":\"ილია ჭავჭავაძის ქუჩა\",\"town\":\"ჭიათურა\",\"county\":\"ჭიათურის მუნიციპალიტეტი\",\"state\":\"იმერეთი\",\"ISO3166-2-lvl4\":\"GE-IM\",\"postcode\":\"5500\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"42.2804763\",\"42.2813066\",\"43.2711279\",\"43.2731209\"]}",
+  "fetchedAt": "2026-10-14T14:25:24.130Z"
+}

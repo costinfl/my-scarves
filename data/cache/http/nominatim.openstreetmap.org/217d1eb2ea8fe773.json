@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.142500&lon=41.665556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206526641,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":449008109,\"lat\":\"42.1425979\",\"lon\":\"41.6655944\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8793774319020636e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"ამირან დანელიას ქუჩა, კუნძული, ფოთი, სამეგრელო-ზემო სვანეთი, 4400, საქართველო\",\"address\":{\"road\":\"ამირან დანელიას ქუჩა\",\"suburb\":\"კუნძული\",\"city\":\"ფოთი\",\"state\":\"სამეგრელო-ზემო სვანეთი\",\"ISO3166-2-lvl4\":\"GE-SZ\",\"postcode\":\"4400\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"42.1420209\",\"42.1431749\",\"41.6647359\",\"41.6664530\"]}",
+  "fetchedAt": "2026-10-14T14:25:37.462Z"
+}

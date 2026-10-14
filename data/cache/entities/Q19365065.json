@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q19365065",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FKSALASPILS.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Salaspils FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Salaspils FC"
+      }
+    }
+  }
+}

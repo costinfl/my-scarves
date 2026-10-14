@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.598800&lon=19.940200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57473318,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1235551826,\"lat\":\"42.5987710\",\"lon\":\"19.9402187\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.438849469744438e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Racina, Ribare, Plav, Opština Plav, 84325, Crna Gora / Црна Гора\",\"address\":{\"road\":\"Racina\",\"hamlet\":\"Ribare\",\"town\":\"Plav\",\"county\":\"Opština Plav\",\"ISO3166-2-lvl6\":\"ME-13\",\"postcode\":\"84325\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.5982548\",\"42.5992874\",\"19.9396200\",\"19.9408174\"]}",
+  "fetchedAt": "2026-10-14T14:26:54.290Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.961372&lon=24.116408&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":170191962,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":88325396,\"lat\":\"56.9613780\",\"lon\":\"24.1163734\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.666056305786248e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hanzas iela, Centrs, Skanste, Centra apkaime, Rīga, LV-1010, Latvija\",\"address\":{\"road\":\"Hanzas iela\",\"neighbourhood\":\"Centrs\",\"suburb\":\"Skanste\",\"city_district\":\"Centra apkaime\",\"city\":\"Rīga\",\"ISO3166-2-lvl5\":\"LV-RIX\",\"postcode\":\"LV-1010\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"56.9607873\",\"56.9619654\",\"24.1152943\",\"24.1174521\"]}",
+  "fetchedAt": "2026-10-14T14:26:33.258Z"
+}

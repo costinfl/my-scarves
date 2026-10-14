@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.723000&lon=44.789750&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208265797,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":369227373,\"lat\":\"41.7230187\",\"lon\":\"44.7897790\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.468604562442996e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"გიორგი ცაბაძის ქუჩა, ჩუღურეთი, დიდუბე, დიდუბის რაიონი, თბილისი, 0102, საქართველო\",\"address\":{\"road\":\"გიორგი ცაბაძის ქუჩა\",\"neighbourhood\":\"ჩუღურეთი\",\"quarter\":\"დიდუბე\",\"suburb\":\"დიდუბის რაიონი\",\"city\":\"თბილისი\",\"ISO3166-2-lvl4\":\"GE-TB\",\"postcode\":\"0102\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.7224780\",\"41.7235585\",\"44.7892895\",\"44.7902679\"]}",
+  "fetchedAt": "2026-10-14T14:25:30.143Z"
+}

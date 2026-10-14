@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.021400&lon=27.546100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":172943044,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":914802800,\"lat\":\"53.0213740\",\"lon\":\"27.5463185\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.5935759517769396e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вуліца Леніна, Трайчаны, Слуцк, Слуцкі раён, Мінская вобласць, 223609, Беларусь\",\"address\":{\"road\":\"вуліца Леніна\",\"neighbourhood\":\"Трайчаны\",\"town\":\"Слуцк\",\"county\":\"Слуцкі раён\",\"state\":\"Мінская вобласць\",\"ISO3166-2-lvl4\":\"BY-MI\",\"postcode\":\"223609\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"53.0208857\",\"53.0218709\",\"27.5457663\",\"27.5468418\"]}",
+  "fetchedAt": "2026-10-14T14:25:08.785Z"
+}

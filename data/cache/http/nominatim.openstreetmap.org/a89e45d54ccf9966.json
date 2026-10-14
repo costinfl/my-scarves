@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.982500&lon=23.864800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":172508709,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":224513140,\"lat\":\"55.9824708\",\"lon\":\"23.8648925\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.230640115964015e-05,\"addresstype\":\"leisure\",\"name\":\"Pakruojo miesto stadionas\",\"display_name\":\"Pakruojo miesto stadionas, Bagdoniškio g., Pakruojis, Pakruojo seniūnija, Pakruojo rajono savivaldybė, Šiaulių apskritis, 83128, Lietuva\",\"address\":{\"leisure\":\"Pakruojo miesto stadionas\",\"road\":\"Bagdoniškio g.\",\"village\":\"Pakruojis\",\"county\":\"Pakruojo seniūnija\",\"state_district\":\"Pakruojo rajono savivaldybė\",\"ISO3166-2-lvl5\":\"LT-30\",\"state\":\"Šiaulių apskritis\",\"ISO3166-2-lvl4\":\"LT-SA\",\"postcode\":\"83128\",\"country\":\"Lietuva\",\"country_code\":\"lt\"},\"boundingbox\":[\"55.9818841\",\"55.9830485\",\"23.8640067\",\"23.8657770\"]}",
+  "fetchedAt": "2026-10-14T14:26:11.985Z"
+}

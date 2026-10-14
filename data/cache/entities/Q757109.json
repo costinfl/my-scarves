@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:13.430Z",
+  "version": 2,
+  "entity": {
+    "id": "Q757109",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "79551"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Torpedo-BelAZ Zhodino"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Torpedo-BelAZ Zhodino"
+      }
+    }
+  }
+}

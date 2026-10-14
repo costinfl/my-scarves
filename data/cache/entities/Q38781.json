@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T14:19:11.306Z",
+  "version": 2,
+  "entity": {
+    "id": "Q38781",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Torpedo Kutaisi Old Logo (v.4).png"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64471"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Torpedo Kutaisi"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Torpedo Kutaisi"
+      }
+    }
+  }
+}

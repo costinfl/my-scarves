@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.359900&lon=19.326400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57124967,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":293821182,\"lat\":\"42.3599251\",\"lon\":\"19.3263481\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.29823583006172555,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ulica Tuzi 37, Tuzi, Opština Tuzi, 81206, Crna Gora / Црна Гора\",\"address\":{\"road\":\"Ulica Tuzi 37\",\"town\":\"Tuzi\",\"county\":\"Opština Tuzi\",\"ISO3166-2-lvl6\":\"ME-24\",\"postcode\":\"81206\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.3593665\",\"42.3604836\",\"19.3257876\",\"19.3269085\"]}",
+  "fetchedAt": "2026-10-14T14:26:49.682Z"
+}

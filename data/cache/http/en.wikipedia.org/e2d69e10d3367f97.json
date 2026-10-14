@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Lida",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Lida\",\"pageid\":14781729,\"redirects\":[],\"wikitext\":\"{{Short description|Belarusian football club}}\\n{{Infobox football club\\n  | clubname   = FC Lida\\n  | image      = FK_Lida_Logo.png\\n  | image_size = 210px\\n  | fullname   = Football Club Lida\\n  | nickname   = \\n  | shortname  = \\n  | founded    = {{start date and age|1962}}\\n  | ground     = Yunost Stadium / Start Stadium ([[Lida]])\\n  | capacity   = 2,870 / 3,000\\n  | chairman   = Valentin Burnos\\n  | manager    = Alyaksey Dabravolski\\n  | league     = [[Belarusian First League]]\\n  | season     = [[2025 Belarusian First League|2025]]\\n  | position   = 5th of 18\\n  | website    = http://fclida.by/\\n  | pattern_la1=_lida1819h|pattern_b1=_lida1819h|pattern_ra1=_lida1819h|pattern_sh1=_levanger17h\\n  | leftarm1=FFFFFF|body1=FFFFFF|rightarm1=FFFFFF|shorts1=FF0000|socks1=FFFFFF\\n  | pattern_la2=|pattern_b2=_whitesidesshoulders |pattern_ra2=\\n  | leftarm2=0051C8|body2=0051C8|rightarm2=0051C8|shorts2=FFFFFF|socks2=0051C8\\n}}\\n\\n'''FC Lida''' ({{langx|be|ФК Ліда}}, {{langx|ru|ФК Лида}}) is a [[Belarus|Belarusian]] professional [[association football]] club based in [[Lida]], [[Grodno Oblast]].\"}}",
+  "fetchedAt": "2026-10-14T14:21:49.624Z"
+}

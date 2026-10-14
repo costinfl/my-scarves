@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.893100&lon=25.290300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":172892062,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":54515700,\"lat\":\"53.8928464\",\"lon\":\"25.2900593\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.13618373728802152,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вуліца Кірава, Ліда, Лідскі раён, Гродзенская вобласць, 231300, Беларусь\",\"address\":{\"road\":\"вуліца Кірава\",\"city\":\"Ліда\",\"county\":\"Лідскі раён\",\"state\":\"Гродзенская вобласць\",\"ISO3166-2-lvl4\":\"BY-HR\",\"postcode\":\"231300\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"53.8925094\",\"53.8931834\",\"25.2892268\",\"25.2908917\"]}",
+  "fetchedAt": "2026-10-14T14:24:58.563Z"
+}

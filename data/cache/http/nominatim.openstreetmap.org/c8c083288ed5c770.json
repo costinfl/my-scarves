@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=64.317656&lon=-22.059753&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273006506,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":28986952,\"lat\":\"64.3176390\",\"lon\":\"-22.0598207\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.651712825203353e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Jaðarsbakkar, Grundir, Akraneskaupstaður, Vesturland, 300, Ísland\",\"address\":{\"road\":\"Jaðarsbakkar\",\"neighbourhood\":\"Grundir\",\"town\":\"Akraneskaupstaður\",\"ISO3166-2-lvl6\":\"IS-AKN\",\"state_district\":\"Vesturland\",\"ISO3166-2-lvl5\":\"IS-3\",\"postcode\":\"300\",\"country\":\"Ísland\",\"country_code\":\"is\"},\"boundingbox\":[\"64.3172304\",\"64.3180474\",\"-22.0610616\",\"-22.0585799\"]}",
+  "fetchedAt": "2026-10-14T14:25:56.143Z"
+}

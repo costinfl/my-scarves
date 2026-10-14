@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.778540&lon=44.800470&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207685561,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":583582973,\"lat\":\"41.7785213\",\"lon\":\"44.8004518\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.468604562442996e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"შატილის ქუჩა, ზღვისუბანი, თემქა, ნაძალადევის რაიონი, თბილისი, 0178, საქართველო\",\"address\":{\"road\":\"შატილის ქუჩა\",\"neighbourhood\":\"ზღვისუბანი\",\"quarter\":\"თემქა\",\"suburb\":\"ნაძალადევის რაიონი\",\"city\":\"თბილისი\",\"ISO3166-2-lvl4\":\"GE-TB\",\"postcode\":\"0178\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.7779872\",\"41.7790896\",\"44.7996767\",\"44.8011778\"]}",
+  "fetchedAt": "2026-10-14T14:25:40.267Z"
+}

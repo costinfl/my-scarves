@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Dinamo-2%20Minsk",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Dinamo-2 Minsk\",\"pageid\":22963281,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = Dinamo-2 Minsk\\n| image = Dinamo Minsk logo.svg\\n| image_size = 200px\\n| fullname = FC Dinamo-2 Minsk\\n| nickname = \\n| shortname = \\n| founded = 2000\\n| dissolved = \\n| ground = [[Dinamo-Yuni Stadium]], [[Minsk]]\\n| capacity = 4,500\\n| mgrtitle = \\n| manager = [[Sergey Yaromko]]\\n| league = [[Belarusian First League]]\\n| season = [[2025 Belarusian First League|2025]]\\n| position = Belarusian First League, 13th of 18\\n| pattern_la1 = _dinamominsk24h\\n| pattern_b1 = _dinamominsk24h\\n| pattern_ra1 = _dinamominsk24h\\n| pattern_sh1 = \\n| pattern_so1 = \\n| leftarm1 = FFFFFF\\n| body1 = FFFFFF\\n| rightarm1 = FFFFFF\\n| shorts1 = FFFFFF\\n| socks1 = FFFFFF\\n| pattern_la2 = _pumaglory22eb\\n| pattern_b2 = _pumaultimate23rb\\n| pattern_ra2 = _pumaglory22eb\\n| pattern_sh2 = \\n| pattern_so2 = \\n| leftarm2 = 0142FF\\n| body2 = 0142FF\\n| rightarm2 = 0142FF\\n| shorts2 = 0142FF\\n| socks2 = 0142FF\\n}}\\n\\n'''FC Dinamo-2 Minsk''' ({{langx|be|Дынама-2 Мінск}}, Dynama''-''2 Minsk; {{Langx|ru|Динамо-2 Минск}}'', Dinamo-2 Minsk'') is a [[Belarus]]ian [[association football|football]] club based in [[Minsk]].\"}}",
+  "fetchedAt": "2026-10-14T14:21:46.709Z"
+}

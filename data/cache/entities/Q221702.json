@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T14:19:10.419Z",
+  "version": 2,
+  "entity": {
+    "id": "Q221702",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52307"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Knattspyrnufélag Reykjavíkur"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "KR Reykjavík"
+      }
+    }
+  }
+}

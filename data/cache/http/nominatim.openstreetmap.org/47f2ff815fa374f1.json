@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.364722&lon=18.756111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57032808,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1097943466,\"lat\":\"42.3648848\",\"lon\":\"18.7563526\",\"category\":\"highway\",\"type\":\"primary\",\"place_rank\":26,\"importance\":0.05339648355840387,\"addresstype\":\"road\",\"name\":\"M-1\",\"display_name\":\"M-1, Radanovići, Opština Kotor, Crna Gora / Црна Гора\",\"address\":{\"road\":\"M-1\",\"village\":\"Radanovići\",\"county\":\"Opština Kotor\",\"ISO3166-2-lvl6\":\"ME-10\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.3629124\",\"42.3705047\",\"18.7537563\",\"18.7575696\"]}",
+  "fetchedAt": "2026-10-14T14:27:07.268Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Olimpiki%20Tbilisi",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Olimpiki Tbilisi\",\"pageid\":30339863,\"redirects\":[],\"wikitext\":\"{{Football club infobox |\\n  clubname = FC Olimpiki Tbilisi|\\n  image    = |\\n  fullname = Football Club Olimpiki Tbilisi |\\n  nickname = |\\n  founded  =  |\\n  ground   = Olimpi Stadium<br>[[Tbilisi]], [[Georgia (country)|Georgia]]|\\n  capacity = 3,000|\\n  chairman =|\\n  manager  = |\\n  league   = [[Pirveli Liga]] East|\\n  season   = 2007–08 |\\n  position = 9th|\\n| pattern_la1=_blueshoulders|pattern_b1=_blueshoulders|pattern_ra1=_blueshoulders\\n| leftarm1=65C2EF|body1=65C2EF|rightarm1=65C2EF|shorts1=65C2EF|socks1=65C2EF|\\n}}\\n'''FC Olimpiki Tbilisi''' is a [[Georgia (country)|Georgian]] [[football (soccer)|football]] team, which were playing in the capital, [[Tbilisi]].  The club were playing their home games at Olimpi Stadium.\"}}",
+  "fetchedAt": "2026-10-14T14:22:14.719Z"
+}

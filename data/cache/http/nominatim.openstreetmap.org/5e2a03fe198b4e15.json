@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.070031&lon=19.506558&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57601181,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":173417275,\"lat\":\"42.0700026\",\"lon\":\"19.5065750\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.483024338135374e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rruga Djepaxhijej, Ahmet Haxhia, Lagjja 1, Shkodër, Bashkia Shkodër, Qarku i Shkodrës, 4001, Shqipëria\",\"address\":{\"road\":\"Rruga Djepaxhijej\",\"quarter\":\"Ahmet Haxhia\",\"suburb\":\"Lagjja 1\",\"city\":\"Shkodër\",\"municipality\":\"Bashkia Shkodër\",\"county\":\"Qarku i Shkodrës\",\"ISO3166-2-lvl6\":\"AL-10\",\"postcode\":\"4001\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"42.0695037\",\"42.0705014\",\"19.5061268\",\"19.5070232\"]}",
+  "fetchedAt": "2026-10-14T14:24:38.964Z"
+}

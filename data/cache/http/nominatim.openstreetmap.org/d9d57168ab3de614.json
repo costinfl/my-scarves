@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.983019&lon=44.103828&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208226869,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":206968408,\"lat\":\"41.9830420\",\"lon\":\"44.1039279\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.963912413209762e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"დავით გურამიშვილის ქუჩა, ძველი გორი, გორი, გორის მუნიციპალიტეტი, შიდა ქართლი, 1400, საქართველო\",\"address\":{\"road\":\"დავით გურამიშვილის ქუჩა\",\"suburb\":\"ძველი გორი\",\"quarter\":\"ძველი გორი\",\"city\":\"გორი\",\"county\":\"გორის მუნიციპალიტეტი\",\"state\":\"შიდა ქართლი\",\"ISO3166-2-lvl4\":\"GE-SK\",\"postcode\":\"1400\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.9824825\",\"41.9836017\",\"44.1033536\",\"44.1045023\"]}",
+  "fetchedAt": "2026-10-14T14:25:25.195Z"
+}

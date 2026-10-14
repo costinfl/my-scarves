@@ -279,6 +279,14 @@
     "author": "Hannoverscher Sportverein von 1896",
     "attributionRequired": false
   },
+  "Q38781": {
+    "file": "Q38781.png",
+    "commonsFile": "FC Torpedo Kutaisi Old Logo (v.4).png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Torpedo_Kutaisi_Old_Logo_(v.4).png",
+    "license": "CC BY 4.0",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": true
+  },
   "Q41420": {
     "file": "Q41420.svg",
     "commonsFile": "Borussia Dortmund logo.svg",
@@ -719,6 +727,14 @@
     "author": "www.rusg.brussels/nl",
     "attributionRequired": true
   },
+  "Q201006": {
+    "file": "Q201006.svg",
+    "commonsFile": "FC Dinamo Tbilisi logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Dinamo_Tbilisi_logo.svg",
+    "license": "Public domain",
+    "author": "FC Dinamo Tbilisi",
+    "attributionRequired": false
+  },
   "Q201360": {
     "file": "Q201360.svg",
     "commonsFile": "GC Zürich Logo.svg",
@@ -789,6 +805,22 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_GF38_(cropped).png",
     "license": "CC BY-SA 4.0",
     "author": "Grenoble Foot 38",
+    "attributionRequired": true
+  },
+  "Q210849": {
+    "file": "Q210849.png",
+    "commonsFile": "FC Levadia Tallinnin.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Levadia_Tallinnin.png",
+    "license": "Public domain",
+    "author": "FC Levadia Tallinn",
+    "attributionRequired": false
+  },
+  "Q211477": {
+    "file": "Q211477.png",
+    "commonsFile": "FK Dinamo Minsk escudo blr.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Dinamo_Minsk_escudo_blr.jpg",
+    "license": "CC BY 4.0",
+    "author": "HBdiego13",
     "attributionRequired": true
   },
   "Q211912": {
@@ -951,6 +983,14 @@
     "author": "Világi Oszkár",
     "attributionRequired": false
   },
+  "Q279886": {
+    "file": "Q279886.png",
+    "commonsFile": "Stjarnan Logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stjarnan_Logo.png",
+    "license": "CC BY-SA 3.0",
+    "author": "Nastictarragona",
+    "attributionRequired": true
+  },
   "Q287236": {
     "file": "Q287236.svg",
     "commonsFile": "Rks rakow crest ai.svg",
@@ -1005,6 +1045,22 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:AEL_Limassol_logo.svg",
     "license": "Public domain",
     "author": "AEL Limassol",
+    "attributionRequired": false
+  },
+  "Q291691": {
+    "file": "Q291691.svg",
+    "commonsFile": "Akranes.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akranes.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q291723": {
+    "file": "Q291723.svg",
+    "commonsFile": "Fylkir Reykjavík.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fylkir_Reykjav%C3%ADk.svg",
+    "license": "Public domain",
+    "author": "Fylkir",
     "attributionRequired": false
   },
   "Q292231": {
@@ -1206,6 +1262,14 @@
     "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
+  "Q477830": {
+    "file": "Q477830.png",
+    "commonsFile": "JK Narva Trans.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JK_Narva_Trans.png",
+    "license": "Public domain",
+    "author": "JK Narva Trans",
+    "attributionRequired": false
+  },
   "Q479351": {
     "file": "Q479351.svg",
     "commonsFile": "SV Darmstadt 98 Logo.svg",
@@ -1220,6 +1284,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galatasaray_Sports_Club_Logo.svg",
     "license": "Public domain",
     "author": "Ayet Emin (died on 29 September 1931, Galatasaray Logosunun Doğuşu), Vector drawing: Turkish Wikipedia @SAİT71",
+    "attributionRequired": false
+  },
+  "Q500988": {
+    "file": "Q500988.png",
+    "commonsFile": "Vmfdzalgiris2.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vmfdzalgiris2.jpg",
+    "license": "Public domain",
+    "author": "Stalone500",
     "attributionRequired": false
   },
   "Q501693": {
@@ -1261,6 +1333,22 @@
     "license": "Public domain",
     "author": "Baktalórántháza VSE",
     "attributionRequired": false
+  },
+  "Q571264": {
+    "file": "Q571264.png",
+    "commonsFile": "Ka-logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ka-logo.png",
+    "license": "Public domain",
+    "author": "KA.is",
+    "attributionRequired": false
+  },
+  "Q584440": {
+    "file": "Q584440.png",
+    "commonsFile": "Mika Sport Complex, Yerevan (13).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mika_Sport_Complex,_Yerevan_(13).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Armineaghayan",
+    "attributionRequired": true
   },
   "Q603133": {
     "file": "Q603133.svg",
@@ -1645,6 +1733,14 @@
     "author": "Football Club de Martigues",
     "attributionRequired": false
   },
+  "Q1140538": {
+    "file": "Q1140538.svg",
+    "commonsFile": "Vikingur.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vikingur.svg",
+    "license": "Public domain",
+    "author": "Original: Unknown Vector: Lokomotive74",
+    "attributionRequired": false
+  },
   "Q1140695": {
     "file": "Q1140695.png",
     "commonsFile": "Logo annecy.png",
@@ -1715,6 +1811,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norrby_IF_logo.svg",
     "license": "Public domain",
     "author": "Norrby IF",
+    "attributionRequired": false
+  },
+  "Q1576467": {
+    "file": "Q1576467.svg",
+    "commonsFile": "FK Metta logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Metta_logo.svg",
+    "license": "Public domain",
+    "author": "FK Metta",
     "attributionRequired": false
   },
   "Q1819219": {
@@ -1805,6 +1909,14 @@
     "author": "fczirka.com.ua",
     "attributionRequired": false
   },
+  "Q2627528": {
+    "file": "Q2627528.png",
+    "commonsFile": "FC Norchi Dinamoeli Tbilisi official logo 2012.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Norchi_Dinamoeli_Tbilisi_official_logo_2012.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "FC Norchi Dinamoeli Tbilisi official logo",
+    "attributionRequired": true
+  },
   "Q2662732": {
     "file": "Q2662732.svg",
     "commonsFile": "Logo FK Kolubara.svg",
@@ -1829,12 +1941,28 @@
     "author": "Nonagononagon",
     "attributionRequired": false
   },
+  "Q2870109": {
+    "file": "Q2870109.png",
+    "commonsFile": "FCM Ungheni.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FCM_Ungheni.png",
+    "license": "CC BY-SA 4.0",
+    "author": "FMF",
+    "attributionRequired": true
+  },
   "Q2947829": {
     "file": "Q2947829.png",
     "commonsFile": "FC Bukovyna.png",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Bukovyna.png",
     "license": "CC0",
     "author": "ФК БУКОВИНА",
+    "attributionRequired": false
+  },
+  "Q3016278": {
+    "file": "Q3016278.png",
+    "commonsFile": "Viimsi JK.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viimsi_JK.png",
+    "license": "Public domain",
+    "author": "Viimsi JK",
     "attributionRequired": false
   },
   "Q3432730": {
@@ -1917,6 +2045,14 @@
     "author": "FK Levski Karlovo",
     "attributionRequired": false
   },
+  "Q12654411": {
+    "file": "Q12654411.png",
+    "commonsFile": "BC Žalgiris 2023.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BC_%C5%BDalgiris_2023.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Vasonesiku",
+    "attributionRequired": true
+  },
   "Q14551982": {
     "file": "Q14551982.svg",
     "commonsFile": "SSV Ulm 1846 Fussball.svg",
@@ -1933,6 +2069,14 @@
     "author": "RC Cesena FC ASD",
     "attributionRequired": false
   },
+  "Q19365065": {
+    "file": "Q19365065.png",
+    "commonsFile": "FKSALASPILS.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FKSALASPILS.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "FK Salaspils",
+    "attributionRequired": true
+  },
   "Q20077871": {
     "file": "Q20077871.svg",
     "commonsFile": "FCKolos2018.svg",
@@ -1947,6 +2091,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rwdmolenbeek.svg",
     "license": "Public domain",
     "attributionRequired": false
+  },
+  "Q25408708": {
+    "file": "Q25408708.png",
+    "commonsFile": "FUTBOL111.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FUTBOL111.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Меликян Артак Аркадьевич",
+    "attributionRequired": true
   },
   "Q28704136": {
     "file": "Q28704136.svg",
@@ -1964,6 +2116,30 @@
     "author": "Səbail Futbol Klubu",
     "attributionRequired": false
   },
+  "Q34479193": {
+    "file": "Q34479193.svg",
+    "commonsFile": "FC Noah logo 2024.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Noah_logo_2024.svg",
+    "license": "Public domain",
+    "author": "FC Noah",
+    "attributionRequired": false
+  },
+  "Q39056364": {
+    "file": "Q39056364.png",
+    "commonsFile": "Ararat-Armenia.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ararat-Armenia.png",
+    "license": "CC BY-SA 4.0",
+    "author": "FC Ararat-Armenia",
+    "attributionRequired": true
+  },
+  "Q56275728": {
+    "file": "Q56275728.png",
+    "commonsFile": "Harjujk logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harjujk_logo.png",
+    "license": "CC0",
+    "author": "Harju Jalgpallikool",
+    "attributionRequired": false
+  },
   "Q56542463": {
     "file": "Q56542463.svg",
     "commonsFile": "LR Vicenza Virtus (logo).svg",
@@ -1971,6 +2147,22 @@
     "license": "Public domain",
     "author": "LR Vicenza Virtus",
     "attributionRequired": false
+  },
+  "Q61768552": {
+    "file": "Q61768552.png",
+    "commonsFile": "ФК Арсенал Дзяржынск.gif",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%9A_%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB_%D0%94%D0%B7%D1%8F%D1%80%D0%B6%D1%8B%D0%BD%D1%81%D0%BA.gif",
+    "license": "CC BY-SA 4.0",
+    "author": "Artsiom91",
+    "attributionRequired": true
+  },
+  "Q90922797": {
+    "file": "Q90922797.png",
+    "commonsFile": "Футбольный клуб Островец.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1_%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B5%D1%86.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Артур Осмоловский",
+    "attributionRequired": true
   },
   "Q97905930": {
     "file": "Q97905930.svg",
@@ -1988,6 +2180,14 @@
     "author": "Erik van Leeuwen",
     "attributionRequired": true
   },
+  "Q105424906": {
+    "file": "Q105424906.png",
+    "commonsFile": "FC Tallinn logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Tallinn_logo.png",
+    "license": "Public domain",
+    "author": "FC Tallinn",
+    "attributionRequired": false
+  },
   "Q116950171": {
     "file": "Q116950171.svg",
     "commonsFile": "Nordic United FC logo.svg",
@@ -2000,6 +2200,14 @@
     "file": "Q124007617.svg",
     "commonsFile": "SK Sturm Graz.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:SK_Sturm_Graz.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q139504898": {
+    "file": "Q139504898.svg",
+    "commonsFile": "Logo HK Kopavogur.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_HK_Kopavogur.svg",
     "license": "Public domain",
     "author": "Unknown authorUnknown author",
     "attributionRequired": false

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=CF%20Univer%20Comrat",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"CF Univer Comrat\",\"pageid\":27811977,\"redirects\":[],\"wikitext\":\"{{Short description|Moldovan football club}}\\n{{Infobox football club\\n| clubname = Univer Comrat\\n| image = Univer Comrat.png\\n| fullname = Univer Comrat\\n| nickname = \\n| founded = 1996\\n| dissolved = \\n| ground = [[Stadionul Viktor Mumzhiev]]\\n| capacity = 4,000\\n| chrtitle = President\\n| chairman = \\n| Team Manager = \\n| manager = Alexandru Gheorghiev\\n| league = [[Moldovan Liga 1|Liga 1]]\\n| season = [[2025–26 Moldovan Liga 1|2025–26]]\\n| position = Liga 1, Group 2, 3rd of 8\\n| current = \\n| pattern_la1 = _GALAXY_11t\\n| pattern_b1 = _GALAXY_11t\\n| pattern_ra1 = _GALAXY_11t\\n| pattern_sh1 = _adidasonblack2011\\n| pattern_so1 = _3_stripes_on_black\\n| leftarm1 = FFFFFF\\n| body1 = FFFFFF\\n| rightarm1 = FFFFFF\\n| shorts1 = C0A771\\n| socks1 = C0A771\\n}}\\n\\n'''Univer Comrat''' is a [[Moldova]]n [[football club]] based in [[Comrat]], [[Moldova]]. They play in [[Moldovan Liga 1|Liga 1]], the second tier of [[Football in Moldova|Moldovan football]].\"}}",
+  "fetchedAt": "2026-10-14T14:22:53.780Z"
+}
