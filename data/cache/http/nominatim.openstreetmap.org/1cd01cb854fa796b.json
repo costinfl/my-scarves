@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.624300&lon=6.024800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":119464367,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":33907413,\"lat\":\"49.6242779\",\"lon\":\"6.0248553\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.19938740066310082,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Route de Dippach, Mamer, Canton Capellen, 8225, Lëtzebuerg\",\"address\":{\"road\":\"Route de Dippach\",\"city_district\":\"Mamer\",\"village\":\"Mamer\",\"county\":\"Canton Capellen\",\"ISO3166-2-lvl6\":\"LU-CA\",\"postcode\":\"8225\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.6237246\",\"49.6248089\",\"6.0237170\",\"6.0260091\"]}",
+  "fetchedAt": "2026-10-14T15:12:53.458Z"
+}

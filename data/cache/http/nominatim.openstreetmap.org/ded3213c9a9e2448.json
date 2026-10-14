@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.283500&lon=-6.373740&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276565794,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":38634836,\"lat\":\"53.2835345\",\"lon\":\"-6.3736748\",\"category\":\"club\",\"type\":\"sport\",\"place_rank\":30,\"importance\":8.015945677877496e-05,\"addresstype\":\"club\",\"name\":\"Shamrock Rovers Football Club\",\"display_name\":\"Shamrock Rovers Football Club, Tallaght Bypass, Old Bawn, Tallaght-Oldbawn DED 1986, Tallaght, South Dublin, County Dublin, Leinster, Éire / Ireland\",\"address\":{\"club\":\"Shamrock Rovers Football Club\",\"road\":\"Tallaght Bypass\",\"suburb\":\"Old Bawn\",\"city_district\":\"Tallaght-Oldbawn DED 1986\",\"town\":\"Tallaght\",\"municipality\":\"South Dublin\",\"county\":\"County Dublin\",\"ISO3166-2-lvl6\":\"IE-D\",\"state_district\":\"Leinster\",\"ISO3166-2-lvl5\":\"IE-L\",\"country\":\"Éire / Ireland\",\"country_code\":\"ie\"},\"boundingbox\":[\"53.2830245\",\"53.2840443\",\"-6.3742854\",\"-6.3730641\"]}",
+  "fetchedAt": "2026-10-14T15:12:25.514Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.808500&lon=6.505670&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":120454126,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":93508672,\"lat\":\"49.8084446\",\"lon\":\"6.5054457\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.468757152661963e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue du Camping, Rosport, Rosport-Mompach, Canton Echternach, 6580, Lëtzebuerg\",\"address\":{\"road\":\"Rue du Camping\",\"village\":\"Rosport\",\"city\":\"Rosport-Mompach\",\"county\":\"Canton Echternach\",\"ISO3166-2-lvl6\":\"LU-EC\",\"postcode\":\"6580\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.8078722\",\"49.8090170\",\"6.5046338\",\"6.5062575\"]}",
+  "fetchedAt": "2026-10-14T15:12:59.154Z"
+}

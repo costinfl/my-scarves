@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.284658&lon=-9.056258&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":285665629,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":151672195,\"lat\":\"53.2846057\",\"lon\":\"-9.0563798\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.588006408784645e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Dyke Road, Tír Oileáin, Menlough, Cathair na Gaillimhe, County Galway, Connacht, Éire / Ireland\",\"address\":{\"road\":\"Dyke Road\",\"suburb\":\"Tír Oileáin\",\"city_district\":\"Menlough\",\"city\":\"Cathair na Gaillimhe\",\"county\":\"County Galway\",\"ISO3166-2-lvl6\":\"IE-G\",\"state_district\":\"Connacht\",\"ISO3166-2-lvl5\":\"IE-C\",\"country\":\"Éire / Ireland\",\"country_code\":\"ie\"},\"boundingbox\":[\"53.2841081\",\"53.2851033\",\"-9.0572777\",\"-9.0554820\"]}",
+  "fetchedAt": "2026-10-14T15:12:22.311Z"
+}

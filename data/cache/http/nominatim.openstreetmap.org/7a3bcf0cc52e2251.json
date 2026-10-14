@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.546111&lon=5.903369&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":119579470,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":27557889,\"lat\":\"49.5461120\",\"lon\":\"5.9033726\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.929198138394777e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Zone Artisanale et Commerciale Hahneboesch II, Zone d'Activité et Commerciale Haneboesch II, Niederkorn, Differdange, Canton Esch-sur-Alzette, 4563, Lëtzebuerg\",\"address\":{\"road\":\"Zone Artisanale et Commerciale Hahneboesch II\",\"industrial\":\"Zone d'Activité et Commerciale Haneboesch II\",\"city_district\":\"Niederkorn\",\"city\":\"Differdange\",\"county\":\"Canton Esch-sur-Alzette\",\"ISO3166-2-lvl6\":\"LU-ES\",\"postcode\":\"4563\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.5456066\",\"49.5466174\",\"5.9028373\",\"5.9039079\"]}",
+  "fetchedAt": "2026-10-14T15:12:55.303Z"
+}

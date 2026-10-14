@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.995000&lon=-6.802778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273493780,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":72133201,\"lat\":\"61.9951392\",\"lon\":\"-6.8027856\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.743038071255081e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Reynsgøta, Argir, Kirkjubøur, Tórshavnar kommuna, Streymoyar sýsla, 160, Føroyar\",\"address\":{\"road\":\"Reynsgøta\",\"village\":\"Argir\",\"municipality\":\"Tórshavnar kommuna\",\"region\":\"Streymoyar sýsla\",\"postcode\":\"160\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"61.9947896\",\"61.9954888\",\"-6.8038564\",\"-6.8017147\"]}",
+  "fetchedAt": "2026-10-14T15:11:59.957Z"
+}

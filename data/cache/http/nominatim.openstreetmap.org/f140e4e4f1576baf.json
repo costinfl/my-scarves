@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.662970&lon=21.156880&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57791877,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":47000529,\"lat\":\"42.6628529\",\"lon\":\"21.1570827\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4547087961049275,\"addresstype\":\"leisure\",\"name\":\"Stadiumi Fadil Vokrri\",\"display_name\":\"Stadiumi Fadil Vokrri, Rinia, Lakrishtë, Prishtinë, Komuna e Prishtinës / Opština Priština, Rajoni i Prishtinës / Prištinski okrug, 10000, Kosova / Kosovo\",\"address\":{\"leisure\":\"Stadiumi Fadil Vokrri\",\"road\":\"Rinia\",\"suburb\":\"Lakrishtë\",\"city\":\"Prishtinë\",\"municipality\":\"Komuna e Prishtinës / Opština Priština\",\"district\":\"Rajoni i Prishtinës / Prištinski okrug\",\"postcode\":\"10000\",\"country\":\"Kosova / Kosovo\",\"country_code\":\"xk\"},\"boundingbox\":[\"42.6622893\",\"42.6634165\",\"21.1564985\",\"21.1576668\"]}",
+  "fetchedAt": "2026-10-14T15:12:33.207Z"
+}

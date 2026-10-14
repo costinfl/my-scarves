@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.724167&lon=-7.853611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275612350,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":161920547,\"lat\":\"53.7242443\",\"lon\":\"-7.8536368\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.396429388871622e-05,\"addresstype\":\"leisure\",\"name\":\"Longford Town FC\",\"display_name\":\"Longford Town FC, L50021, Mullolagher, Cloondara ED, Longford Municipal District, County Longford, Leinster, Éire / Ireland\",\"address\":{\"leisure\":\"Longford Town FC\",\"road\":\"L50021\",\"locality\":\"Mullolagher\",\"city_district\":\"Cloondara ED\",\"region\":\"Longford Municipal District\",\"municipality\":\"County Longford\",\"county\":\"County Longford\",\"ISO3166-2-lvl6\":\"IE-LD\",\"state_district\":\"Leinster\",\"ISO3166-2-lvl5\":\"IE-L\",\"country\":\"Éire / Ireland\",\"country_code\":\"ie\"},\"boundingbox\":[\"53.7237267\",\"53.7247619\",\"-7.8543524\",\"-7.8529212\"]}",
+  "fetchedAt": "2026-10-14T15:12:24.411Z"
+}

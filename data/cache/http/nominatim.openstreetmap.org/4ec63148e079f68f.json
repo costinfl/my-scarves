@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.340922&lon=-6.316619&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273045360,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":30408371,\"lat\":\"53.3409161\",\"lon\":\"-6.3166265\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.015945677877496e-05,\"addresstype\":\"leisure\",\"name\":\"St. Patrick's Athletic FC\",\"display_name\":\"St. Patrick's Athletic FC, Kilmainham Bank, Kilmainham C ED, Dublin, County Dublin, Leinster, Éire / Ireland\",\"address\":{\"leisure\":\"St. Patrick's Athletic FC\",\"road\":\"Kilmainham Bank\",\"city_district\":\"Kilmainham C ED\",\"city\":\"Dublin\",\"county\":\"County Dublin\",\"ISO3166-2-lvl6\":\"IE-D\",\"state_district\":\"Leinster\",\"ISO3166-2-lvl5\":\"IE-L\",\"country\":\"Éire / Ireland\",\"country_code\":\"ie\"},\"boundingbox\":[\"53.3404978\",\"53.3413367\",\"-6.3175262\",\"-6.3157230\"]}",
+  "fetchedAt": "2026-10-14T15:12:28.414Z"
+}

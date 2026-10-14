@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=SC%20Bettembourg",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"SC Bettembourg\",\"pageid\":77594909,\"redirects\":[],\"wikitext\":\"{{Short description|Association football club in Luxembourg}}\\n{{About|the men's team|women's team|SC Bettembourg Féminine}}\\n{{Infobox football club\\n| clubname = SC Bettembourg\\n| image = SC_Bettembourg_logo.svg\\n| upright = 0.6\\n| fullname = Sporting Club Bettembourg\\n| founded = {{Start date and age|1927|10|20|df=yes}}\\n| chairman = Patrick Hutmacher\\n| manager = Olivier Baudry\\n| league = {{Luxembourg football updater|BET1}}\\n| season = {{Luxembourg football updater|BET2}}\\n| position = {{Luxembourg football updater|BET3}}\\n| nickname = \\n| ground = [[Stade Municipal (Bettembourg)|Stade Municipal]], [[Bettembourg]]\\n| capacity = 1,500\\n| pattern_la1 = \\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra1 = \\n| pattern_ra2 = \\n| leftarm1 = 0000FF\\n| leftarm2 = FFFFFF\\n| body1 = 0000FF\\n| body2 = FFFFFF\\n| rightarm1 = 0000FF\\n| rightarm2 = FFFFFF\\n| shorts1 = 0000FF\\n| shorts2 = FF0000\\n| socks1 = 0000FF\\n| socks2 = FF0000\\n| website = {{Official URL}}|\\n}}\\n\\n'''SC Bettembourg''' is a [[football club (association football)|football club]] based in [[Bettembourg]], [[Luxembourg]].\"}}",
+  "fetchedAt": "2026-10-14T15:11:33.575Z"
+}

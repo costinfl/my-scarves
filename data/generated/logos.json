@@ -567,6 +567,14 @@
     "author": "SC Paderborn 07 e.V.",
     "attributionRequired": false
   },
+  "Q161217": {
+    "file": "Q161217.svg",
+    "commonsFile": "07-Vestur-Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:07-Vestur-Logo.svg",
+    "license": "Public domain",
+    "author": "07 Vestur",
+    "attributionRequired": false
+  },
   "Q162251": {
     "file": "Q162251.svg",
     "commonsFile": "1. FC Heidenheim 1846.svg",
@@ -910,6 +918,14 @@
     "license": "CC BY-SA 4.0",
     "author": "ÚFC kommunikáció",
     "attributionRequired": true
+  },
+  "Q244874": {
+    "file": "Q244874.png",
+    "commonsFile": "Sligo Rovers3 (logo).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sligo_Rovers3_(logo).jpg",
+    "license": "CC0",
+    "author": "Sheila1988",
+    "attributionRequired": false
   },
   "Q244981": {
     "file": "Q244981.png",
@@ -1286,6 +1302,14 @@
     "author": "Ayet Emin (died on 29 September 1931, Galatasaray Logosunun Doğuşu), Vector drawing: Turkish Wikipedia @SAİT71",
     "attributionRequired": false
   },
+  "Q497835": {
+    "file": "Q497835.png",
+    "commonsFile": "Logo EB-Streymur.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_EB-Streymur.png",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q500988": {
     "file": "Q500988.png",
     "commonsFile": "Vmfdzalgiris2.jpg",
@@ -1316,6 +1340,22 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kocaelispor_AKBALIK.png",
     "license": "CC0",
     "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
+  "Q514959": {
+    "file": "Q514959.svg",
+    "commonsFile": "FC Mondercange (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Mondercange_(logo).svg",
+    "license": "Public domain",
+    "author": "FC Mondercange",
+    "attributionRequired": false
+  },
+  "Q516425": {
+    "file": "Q516425.png",
+    "commonsFile": "B68 toftir.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B68_toftir.png",
+    "license": "Public domain",
+    "author": "Original: B68 Toftir This version: Ultratomio at English Wikipedia (and 718 Bot at English Wikipedia)",
     "attributionRequired": false
   },
   "Q522283": {
@@ -1349,6 +1389,14 @@
     "license": "CC BY-SA 4.0",
     "author": "Armineaghayan",
     "attributionRequired": true
+  },
+  "Q591339": {
+    "file": "Q591339.svg",
+    "commonsFile": "FC Differdange 03 (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Differdange_03_(logo).svg",
+    "license": "Public domain",
+    "author": "FC Differdange 03",
+    "attributionRequired": false
   },
   "Q603133": {
     "file": "Q603133.svg",
@@ -1500,6 +1548,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barcsi_SC.gif",
     "license": "Public domain",
     "author": "Barcsi Sport Club",
+    "attributionRequired": false
+  },
+  "Q723457": {
+    "file": "Q723457.png",
+    "commonsFile": "KÍ Klaksvík.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%8D_Klaksv%C3%ADk.png",
+    "license": "Public domain",
+    "author": "KÍ Klaksvík",
     "attributionRequired": false
   },
   "Q725916": {
@@ -1765,6 +1821,30 @@
     "author": "Ferenc Puskás Football Academy",
     "attributionRequired": false
   },
+  "Q1318769": {
+    "file": "Q1318769.png",
+    "commonsFile": "LOGO KFBesiana.gif",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LOGO_KFBesiana.gif",
+    "license": "Public domain",
+    "author": "KF Besiana",
+    "attributionRequired": false
+  },
+  "Q1387348": {
+    "file": "Q1387348.svg",
+    "commonsFile": "FC Mamer 32 (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Mamer_32_(logo).svg",
+    "license": "Public domain",
+    "author": "FC Mamer 32",
+    "attributionRequired": false
+  },
+  "Q1387565": {
+    "file": "Q1387565.svg",
+    "commonsFile": "FC Rodange 91 (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Rodange_91_(logo).svg",
+    "license": "Public domain",
+    "author": "FC Rodange 91",
+    "attributionRequired": false
+  },
   "Q1388695": {
     "file": "Q1388695.svg",
     "commonsFile": "Svetkavitza Logo.svg",
@@ -1819,6 +1899,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Metta_logo.svg",
     "license": "Public domain",
     "author": "FK Metta",
+    "attributionRequired": false
+  },
+  "Q1751591": {
+    "file": "Q1751591.svg",
+    "commonsFile": "Union Sportive Rumelange (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Sportive_Rumelange_(logo).svg",
+    "license": "Public domain",
+    "author": "Union Sportive Rumelange",
     "attributionRequired": false
   },
   "Q1819219": {
@@ -2069,6 +2157,14 @@
     "author": "RC Cesena FC ASD",
     "attributionRequired": false
   },
+  "Q18411591": {
+    "file": "Q18411591.png",
+    "commonsFile": "Europa point fc logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Europa_point_fc_logo.png",
+    "license": "CC BY-SA 4.0",
+    "author": "J92uk",
+    "attributionRequired": true
+  },
   "Q19365065": {
     "file": "Q19365065.png",
     "commonsFile": "FKSALASPILS.jpg",
@@ -2090,6 +2186,14 @@
     "commonsFile": "Rwdmolenbeek.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rwdmolenbeek.svg",
     "license": "Public domain",
+    "attributionRequired": false
+  },
+  "Q25103764": {
+    "file": "Q25103764.png",
+    "commonsFile": "KF Vitia Logo.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KF_Vitia_Logo.jpg",
+    "license": "Public domain",
+    "author": "Mister Jakub",
     "attributionRequired": false
   },
   "Q25408708": {

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=62.194100&lon=-7.043100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274559960,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":694122905,\"lat\":\"62.1940849\",\"lon\":\"-7.0432296\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.468528267333513e-05,\"addresstype\":\"leisure\",\"name\":\"Vøllurin Við Margáir EB/Streymur\",\"display_name\":\"Vøllurin Við Margáir EB/Streymur, Streymnesvegur, Nesvík, Streymnes, Sunda kommuna, Streymoyar sýsla, 435, Føroyar\",\"address\":{\"leisure\":\"Vøllurin Við Margáir EB/Streymur\",\"road\":\"Streymnesvegur\",\"village\":\"Nesvík\",\"municipality\":\"Sunda kommuna\",\"region\":\"Streymoyar sýsla\",\"postcode\":\"435\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"62.1935975\",\"62.1945708\",\"-7.0445568\",\"-7.0419023\"]}",
+  "fetchedAt": "2026-10-14T15:12:04.198Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.888056&lon=20.861417&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57856088,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":524021384,\"lat\":\"42.8883245\",\"lon\":\"20.8617524\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.001449607075635e-05,\"addresstype\":\"leisure\",\"name\":\"Stadiumi \\\"Riza Lushta\\\"\",\"display_name\":\"Stadiumi \\\"Riza Lushta\\\", Adem Voca, Qendra, Mitrovicë, Komuna e Mitrovicës / Opština Kosovska Mitrovica, Rajoni i Mitrovicës / Kosovskomitrovački okrug, 40000, Kosova / Kosovo\",\"address\":{\"leisure\":\"Stadiumi \\\"Riza Lushta\\\"\",\"road\":\"Adem Voca\",\"suburb\":\"Qendra\",\"city_district\":\"Mitrovicë\",\"city\":\"Mitrovicë\",\"municipality\":\"Komuna e Mitrovicës / Opština Kosovska Mitrovica\",\"county\":\"Rajoni i Mitrovicës / Kosovskomitrovački okrug\",\"postcode\":\"40000\",\"country\":\"Kosova / Kosovo\",\"country_code\":\"xk\"},\"boundingbox\":[\"42.8878593\",\"42.8887895\",\"20.8609965\",\"20.8625083\"]}",
+  "fetchedAt": "2026-10-14T15:12:41.022Z"
+}
