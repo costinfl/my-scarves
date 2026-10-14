@@ -13,7 +13,7 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | FRA France | 36 | 36 | 0 (0%) | 0 (0%) | 18 (50%) | 0 (0%) |
 | GER Germany | 43 | 38 | 0 (0%) | 0 (0%) | 9 (21%) | 0 (0%) |
 | GRE Greece | 26 | 30 | 3 (12%) | 3 (12%) | 23 (88%) | 4 (15%) |
-| HUN Hungary | 49 | 44 | 19 (39%) | 20 (41%) | 37 (76%) | 17 (35%) |
+| HUN Hungary | 50 | 44 | 19 (38%) | 20 (40%) | 37 (74%) | 17 (34%) |
 | ITA Italy | 48 | 40 | 1 (2%) | 1 (2%) | 27 (56%) | 0 (0%) |
 | NED Netherlands | 38 | 38 | 0 (0%) | 0 (0%) | 25 (66%) | 1 (3%) |
 | NOR Norway | 31 | 32 | 4 (13%) | 4 (13%) | 21 (68%) | 0 (0%) |
@@ -45,7 +45,7 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | FRA France | 36 | 27 / 16 | 17 (47%) | 36 (100%) | 36 (100%) | 28 (78%) |
 | GER Germany | 43 | 26 / 34 | 15 (35%) | 43 (100%) | 43 (100%) | 21 (49%) |
 | GRE Greece | 26 | 12 / 3 | 26 (100%) | 26 (100%) | 23 (88%) | 8 (31%) |
-| HUN Hungary | 49 | 17 / 12 | 2 (4%) | 47 (96%) | 29 (59%) | 11 (22%) |
+| HUN Hungary | 50 | 18 / 13 | 2 (4%) | 48 (96%) | 30 (60%) | 11 (22%) |
 | ITA Italy | 48 | 23 / 21 | 27 (56%) | 48 (100%) | 47 (98%) | 37 (77%) |
 | NED Netherlands | 38 | 22 / 13 | 3 (8%) | 38 (100%) | 38 (100%) | 31 (82%) |
 | NOR Norway | 31 | 19 / 9 | 16 (52%) | 30 (97%) | 27 (87%) | 8 (26%) |
@@ -84,7 +84,7 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | GER 2. Bundesliga (Q152665) | 2 | ok | open | 25 | 18 | +7 |
 | GRE Super League Greece (Q235114) | 1 | ok | open | 14 | 14 | 0 |
 | GRE Super League Greece 2 (Q63980269) | 2 | ok | open | 12 | 16 | -4 |
-| HUN Nemzeti Bajnokság I (Q276085) | 1 | ok | open | 12 | 12 | 0 |
+| HUN Nemzeti Bajnokság I (Q276085) | 1 | ok | open | 13 | 12 | +1 |
 | HUN Nemzeti Bajnokság II (Q732721) | 2 | ok | open | 37 | 32 | +5 |
 | ITA Serie A (Q15804) | 1 | ok | open | 20 | 20 | 0 |
 | ITA Serie B (Q194052) | 2 | ok | open | 28 | 20 | +8 |
@@ -164,6 +164,12 @@ AaB Fodbold, Boldklubben af 1893, Brønshøj Boldklub, Esbjerg fB, FC Fredericia
 <details><summary>GRE Super League Greece 2: 12 found, 16 expected</summary>
 
 A.P.S. Panthrakikos, A.P.S. Zakynthos, A.S. Nestos Chrysoupolis, Athens Kallithea F.C., Athlitiki Enosi Larissa F.C., G.S. Marko, Hellas Syros F.C., M.G.S. Apollon Kalamarias (association football), Niki Volos F.C., Panionios F.C., Panserraikos F.C., PAS Pyrgos 1968
+
+</details>
+
+<details><summary>HUN Nemzeti Bajnokság I: 13 found, 12 expected</summary>
+
+Debreceni VSC, Ferenc Puskás Football Academy, Ferencvárosi TC, Győri ETO FC, Kazincbarcikai SC, Kispest-Honvéd FC, Kisvárda FC, MTK Budapest FC, Nyíregyháza Spartacus FC, Paksi FC, Újpest FC, Vasas FC, Zalaegerszegi TE
 
 </details>
 
@@ -325,7 +331,6 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - HUN Kisvárda FC (Q19861407): no home venue (P115)
 - HUN Kozármisleny SE (Q610881): no home venue (P115)
 - HUN Mosonmagyaróvári TE (Q20439445): no home venue (P115)
-- HUN Nemzeti Bajnokság I: excluded Ferenc Puskás Football Academy (Q1241654)
 - HUN Orosháza FC (Q7103862): stadium Mátrai- Stadion has no coordinates
 - HUN Soroksár SC (Q1290413): no home venue (P115)
 - HUN Tatabányai SC (Q785203): no home venue (P115)

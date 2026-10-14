@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T10:42:59.434Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1241654",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Puskás Ferenc Labdarúgó Akadémia.svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2605472"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Puskás Akadémia FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Ferenc Puskás Football Academy"
+      }
+    }
+  }
+}

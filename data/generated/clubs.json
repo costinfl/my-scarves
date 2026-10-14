@@ -5848,6 +5848,23 @@
     "officialWebsite": "https://www.fehervarfc.hu"
   },
   {
+    "qid": "Q1241654",
+    "name": "Ferenc Puskás Football Academy",
+    "association": "HUN",
+    "leagues": [
+      {
+        "league": "Q276085",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q15910573"
+    ],
+    "officialWebsite": "https://www.pfla.hu/",
+    "logoFile": "Puskás Ferenc Labdarúgó Akadémia.svg"
+  },
+  {
     "qid": "Q208396",
     "name": "Ferencvárosi TC",
     "association": "HUN",
