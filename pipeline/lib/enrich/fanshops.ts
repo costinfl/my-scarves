@@ -2,10 +2,12 @@ import { get } from '../http.ts';
 import { USER_AGENT } from '../wikidata.ts';
 import type { FanshopInfo } from '../types.ts';
 
-const KEYWORDS = /(^|[^a-z])(fan-?shop|shop|store|magazin(?!e)|boutique|tienda|negozio|loja|webshop|merch)/i;
+// Bump TERMS_VERSION when the words change, so clubs where nothing was found are checked again once.
+const KEYWORDS = /(^|[^a-z])(fan-?shop|shop|store|magazin(?!e)|boutique|botiga|bottega|tienda|negozio|loja|webshop|merch)/i;
+export const TERMS_VERSION = 2;
 const MARKETPLACES = /(^|\.)(amazon|ebay|emag|aliexpress|etsy|allegro|olx|wish|temu)\.[a-z.]+$/i;
 const SHOP_PAGE =
-  /(add to (cart|basket|bag)|checkout|shopping (cart|bag)|\bbasket\b|\bcart\b|co[sș] de cump|carrito|cesta|carrello|warenkorb|panier|£\s?\d|€\s?\d|\d\s?€|\d[.,]\d{2}\s?(lei|ron|eur)\b)/i;
+  /(add to (cart|basket|bag)|checkout|shopping (cart|bag)|\bbasket\b|\bcart\b|co[sș] de cump|carrito|cesta|cistella|carret[oó]|carrello|warenkorb|panier|£\s?\d|€\s?\d|\d\s?€|\d[.,]\d{2}\s?(lei|ron|eur)\b)/i;
 
 /** Minimal robots.txt check: groups for our agent or "*", longest matching Allow/Disallow prefix wins. */
 export function robotsAllows(robots: string, path: string, agent = 'my-scarves'): boolean {
@@ -89,7 +91,7 @@ async function allowed(url: string, robotsCache: Map<string, string>): Promise<b
 export async function discoverFanshop(website: string, robotsCache: Map<string, string>): Promise<FanshopInfo> {
   const checkedAt = new Date().toISOString().slice(0, 10);
   try {
-    if (!(await allowed(website, robotsCache))) return { status: 'none', checkedAt, note: 'robots.txt disallows the homepage' };
+    if (!(await allowed(website, robotsCache))) return { status: 'none', checkedAt, terms: TERMS_VERSION, note: 'robots.txt disallows the homepage' };
     const home = await get(website, { timeoutMs: 20_000 });
     if (home.status !== 200) return { status: 'unchecked', checkedAt, note: `homepage answered ${home.status}` };
 
@@ -106,8 +108,11 @@ export async function discoverFanshop(website: string, robotsCache: Map<string, 
       }
     }
     const note = links.length === 0 ? 'no shop link on the homepage (or it is built by JavaScript)' : 'shop links found but none looked like a shop';
-    return { status: 'none', checkedAt, note: marketplace ? `${note}; marketplace link not used: ${marketplace.url}` : note };
+    return { status: 'none', checkedAt, terms: TERMS_VERSION, note: marketplace ? `${note}; marketplace link not used: ${marketplace.url}` : note };
   } catch (e) {
     return { status: 'unchecked', checkedAt, note: e instanceof Error ? e.message : String(e) };
   }
 }
+
+/** Run once per club: retry when the site could not be reached, or when nothing was found with older search words. */
+export const shouldRecheck = (f: FanshopInfo) => f.status === 'unchecked' || (f.status === 'none' && (f.terms ?? 1) < TERMS_VERSION);

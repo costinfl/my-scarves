@@ -141,6 +141,8 @@ export interface FanshopInfo {
   url?: string;
   status: 'unchecked' | 'candidate' | 'confirmed' | 'none' | 'manual';
   checkedAt?: string;
+  /** Version of the search words used when nothing was found; older versions are checked again. */
+  terms?: number;
   /** Why nothing was found, or a third-party marketplace link that was seen but not used. */
   note?: string;
 }

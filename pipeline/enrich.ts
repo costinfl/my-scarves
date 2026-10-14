@@ -8,7 +8,7 @@ import { parseArgs } from 'node:util';
 import { fetchAddress } from './lib/enrich/addresses.ts';
 import { fetchBlurb } from './lib/enrich/blurbs.ts';
 import { palette, wikidataColors } from './lib/enrich/colors.ts';
-import { discoverFanshop } from './lib/enrich/fanshops.ts';
+import { discoverFanshop, shouldRecheck } from './lib/enrich/fanshops.ts';
 import { findHomes } from './lib/enrich/homes.ts';
 import { fetchLogo } from './lib/enrich/logos.ts';
 import { uefaBadgeUrl, uefaFromEntity } from './lib/enrich/uefa.ts';
@@ -126,8 +126,7 @@ await stage<FanshopInfo>(
   paths.enriched.fanshops,
   clubIds.filter((q) => websiteOf.get(q)),
   (qid) => discoverFanshop(websiteOf.get(qid)!, robotsCache),
-  // "Run once per club": only retry when the last attempt could not reach the site.
-  (existing) => existing.status === 'unchecked',
+  shouldRecheck,
 );
 
 // Cross-border clubs (Swansea in the English pyramid, Vaduz in the Swiss one). Recomputed for the
