@@ -1,0 +1,18 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q276085 wd:Q732721 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T10:42:39.664Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q276085",
+      "label": "Nemzeti Bajnokság I",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q732721",
+      "label": "Nemzeti Bajnokság II",
+      "isFootballLeague": "true",
+      "participants": "32"
+    }
+  ]
+}

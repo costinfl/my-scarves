@@ -214,11 +214,9 @@
       "league": "Q276085",
       "name": "Nemzeti Bajnokság I",
       "status": "ok",
-      "clubs": 12,
-      "stadiums": 11,
-      "excluded": [
-        "Ferenc Puskás Football Academy (Q1241654)"
-      ],
+      "clubs": 13,
+      "stadiums": 12,
+      "excluded": [],
       "source": "memberships"
     },
     {
