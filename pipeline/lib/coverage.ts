@@ -38,7 +38,7 @@ export function coverageMarkdown({ season, associations, leagues, clubs, stadium
 
   const e = enrichment;
   out.push('## Enrichment', '');
-  out.push('Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: Wikidata official colours.', '');
+  out.push('Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: Wikidata official colours / Wikipedia home kit (used when Wikidata has none).', '');
   out.push('| Association | Clubs | Logo | Colours | Blurb | Stadium address | Fan shop candidate |');
   out.push('|---|---:|---:|---:|---:|---:|---:|');
   for (const a of imported) {
@@ -46,7 +46,7 @@ export function coverageMarkdown({ season, associations, leagues, clubs, stadium
     const has = (f: (c: Club) => boolean) => pct(cs.filter(f).length, cs.length);
     const count = (f: (c: Club) => boolean) => cs.filter(f).length;
     out.push(
-      `| ${a.code} ${a.name} | ${cs.length} | ${count((c) => !!e.uefa[c.qid])} / ${count((c) => !!e.logos[c.qid])} | ${has((c) => !!e.colors[c.qid])} | ` +
+      `| ${a.code} ${a.name} | ${cs.length} | ${count((c) => !!e.uefa[c.qid])} / ${count((c) => !!e.logos[c.qid])} | ${count((c) => !!e.colors[c.qid])} / ${count((c) => !e.colors[c.qid] && !!e.kits[c.qid])} | ` +
         `${has((c) => !!e.blurbs[c.qid])} | ${has((c) => !!(c.stadiumIds[0] && e.addresses[c.stadiumIds[0]]))} | ` +
         `${has((c) => e.fanshops[c.qid]?.status === 'candidate')} |`,
     );

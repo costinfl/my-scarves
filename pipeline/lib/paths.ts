@@ -23,6 +23,7 @@ export const paths = {
     uefa: data('generated', 'uefa.json'),
     colors: data('generated', 'colors.json'),
     palettes: data('generated', 'palettes.json'),
+    kits: data('generated', 'kits.json'),
     blurbs: data('generated', 'blurbs.json'),
     addresses: data('generated', 'addresses.json'),
     fanshops: data('generated', 'fanshops.json'),

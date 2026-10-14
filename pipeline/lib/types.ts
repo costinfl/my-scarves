@@ -113,8 +113,21 @@ export interface ColorInfo {
   secondary?: string;
   /** Colour names from Wikidata, when that is the source. */
   names?: string[];
-  /** wikidata: P6364 official colour; manual: chosen by me (overrides). Logo colours are only suggestions. */
-  source: 'wikidata' | 'manual';
+  /**
+   * wikidata: P6364 official colour; kit: home kit in the Wikipedia infobox, used only when Wikidata has
+   * none; manual: chosen by me (overrides). Logo colours are only suggestions.
+   */
+  source: 'wikidata' | 'kit' | 'manual';
+  /** Wikipedia article the kit colours come from (attribution). */
+  sourceUrl?: string;
+}
+
+/** data/generated/kits.json, keyed by club QID: home kit colours from the English Wikipedia infobox. */
+export interface KitInfo {
+  body: string;
+  shorts?: string;
+  socks?: string;
+  source: string;
 }
 
 /** data/generated/uefa.json, keyed by club QID. */

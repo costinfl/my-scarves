@@ -45,11 +45,18 @@ function logoCredit(c: CatalogClub): Html {
   return html``;
 }
 
+/** Tooltip for the colours, saying where they come from. */
+function colorsTitle(c: CatalogClub): string {
+  if (c.colors?.names?.length) return `Colours: ${c.colors.names.join(', ')}`;
+  if (c.colors?.source === 'kit') return 'Home kit colours (Wikipedia)';
+  return 'Club colours';
+}
+
 /** Two-colour swatch in the club colours; nothing when the colours are unknown. */
 function swatch(c: CatalogClub): Html {
   if (!c.colors) return html``;
   const second = c.colors.secondary ?? c.colors.primary;
-  return html`<span class="swatch" style="--c1:${c.colors.primary};--c2:${second}" title="${c.colors.names?.join(', ') ?? 'club colours'}"></span>`;
+  return html`<span class="swatch" style="--c1:${c.colors.primary};--c2:${second}" title="${colorsTitle(c)}"></span>`;
 }
 const thumbUrl = (path: string) => photoUrl(path.replace(/\.jpg$/, '.thumb.jpg'));
 
@@ -192,7 +199,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
     </header>
     ${c.colors &&
     html`<div class="stripe" style="--c1:${c.colors.primary};--c2:${c.colors.secondary ?? c.colors.primary}"
-      title="${c.colors.names?.length ? `Colours: ${c.colors.names.join(', ')}` : 'Club colours'}"></div>`}
+      title="${colorsTitle(c)}"></div>`}
     ${c.blurb &&
     html`<p class="blurb">${c.blurb.text}
       <small class="muted">From <a href="${c.blurb.source}" rel="noopener" target="_blank">Wikipedia</a>, CC BY-SA 4.0${c.blurb.status === 'draft' && ' · draft'}</small></p>`}
@@ -226,6 +233,9 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
         <li><a href="https://www.wikidata.org/wiki/${c.qid}" rel="noopener" target="_blank">Wikidata ${c.qid}</a></li>
       </ul>
       ${logoCredit(c)}
+      ${c.colors?.source === 'kit' &&
+      c.colors.sourceUrl &&
+      html`<p class="muted credit">Colours: home kit in the <a href="${c.colors.sourceUrl}" rel="noopener" target="_blank">Wikipedia</a> infobox.</p>`}
     </section>
   `;
 }
