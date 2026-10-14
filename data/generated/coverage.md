@@ -36,14 +36,19 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | LIE Liechtenstein | 0 | ? | - | - | - | - |
 | LTU Lithuania | 23 | 21 | 11 (48%) | 11 (48%) | 21 (91%) | 10 (43%) |
 | LUX Luxembourg | 27 | 30 | 9 (33%) | 9 (33%) | 22 (81%) | 0 (0%) |
+| MLT Malta | 28 | 26 | 7 (25%) | 7 (25%) | 27 (96%) | 9 (32%) |
 | MDA Moldova | 15 | 12 | 7 (47%) | 7 (47%) | 14 (93%) | 9 (60%) |
 | MNE Montenegro | 25 | 22 | 3 (12%) | 3 (12%) | 25 (100%) | 17 (68%) |
 | NED Netherlands | 38 | 38 | 0 (0%) | 0 (0%) | 25 (66%) | 1 (3%) |
+| MKD North Macedonia | 22 | 20 | 6 (27%) | 6 (27%) | 19 (86%) | 10 (45%) |
+| NIR Northern Ireland | 27 | 41 | 12 (44%) | 12 (44%) | 27 (100%) | 3 (11%) |
 | NOR Norway | 31 | 32 | 4 (13%) | 4 (13%) | 21 (68%) | 0 (0%) |
 | POL Poland | 39 | 36 | 3 (8%) | 3 (8%) | 31 (79%) | 3 (8%) |
 | POR Portugal | 44 | 36 | 5 (11%) | 5 (11%) | 38 (86%) | 3 (7%) |
 | IRL Republic of Ireland | 20 | 20 | 1 (5%) | 3 (15%) | 19 (95%) | 0 (0%) |
 | ROU Romania | 32 | 37 | 5 (16%) | 5 (16%) | 28 (88%) | 0 (0%) |
+| RUS Russia | 39 | 38 | 3 (8%) | 3 (8%) | 32 (82%) | 0 (0%) |
+| SMR San Marino | 15 | 15 | 0 (0%) | 3 (20%) | 14 (93%) | 4 (27%) |
 | SCO Scotland | 19 | 22 | 0 (0%) | 0 (0%) | 18 (95%) | 0 (0%) |
 | SRB Serbia | 39 | 34 | 13 (33%) | 13 (33%) | 34 (87%) | 9 (23%) |
 | SVK Slovakia | 24 | 24 | 2 (8%) | 2 (8%) | 23 (96%) | 0 (0%) |
@@ -53,8 +58,9 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | SUI Switzerland | 23 | 22 | 1 (4%) | 1 (4%) | 8 (35%) | 0 (0%) |
 | TUR Türkiye | 44 | 37 | 6 (14%) | 6 (14%) | 34 (77%) | 2 (5%) |
 | UKR Ukraine | 47 | 34 | 17 (36%) | 17 (36%) | 34 (72%) | 13 (28%) |
+| WAL Wales | 21 | 29 | 9 (43%) | 9 (43%) | 21 (100%) | 0 (0%) |
 
-Not imported yet: 6 of 55 associations.
+Not imported yet: 0 of 55 associations.
 
 ## Enrichment
 
@@ -94,14 +100,19 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | LIE Liechtenstein | 0 | 0 / 0 | 0 / 0 | - | - | - |
 | LTU Lithuania | 23 | 9 / 2 | 3 / 17 | 23 (100%) | 12 (52%) | 3 (13%) |
 | LUX Luxembourg | 27 | 13 / 5 | 0 / 21 | 27 (100%) | 18 (67%) | 6 (22%) |
+| MLT Malta | 28 | 17 / 1 | 2 / 23 | 28 (100%) | 21 (75%) | 2 (7%) |
 | MDA Moldova | 15 | 5 / 1 | 1 / 10 | 14 (93%) | 8 (53%) | 0 (0%) |
 | MNE Montenegro | 25 | 12 / 0 | 0 / 20 | 25 (100%) | 22 (88%) | 0 (0%) |
 | NED Netherlands | 38 | 22 / 13 | 3 / 0 | 38 (100%) | 38 (100%) | 31 (82%) |
+| MKD North Macedonia | 22 | 12 / 3 | 0 / 18 | 22 (100%) | 16 (73%) | 2 (9%) |
+| NIR Northern Ireland | 27 | 11 / 0 | 9 / 16 | 27 (100%) | 15 (56%) | 12 (44%) |
 | NOR Norway | 31 | 19 / 9 | 16 / 0 | 30 (97%) | 27 (87%) | 8 (26%) |
 | POL Poland | 39 | 21 / 8 | 21 / 0 | 38 (97%) | 36 (92%) | 3 (8%) |
 | POR Portugal | 44 | 24 / 5 | 10 / 0 | 44 (100%) | 39 (89%) | 22 (50%) |
 | IRL Republic of Ireland | 20 | 12 / 1 | 1 / 16 | 20 (100%) | 17 (85%) | 16 (80%) |
 | ROU Romania | 32 | 14 / 2 | 1 / 0 | 32 (100%) | 27 (84%) | 11 (34%) |
+| RUS Russia | 39 | 15 / 7 | 2 / 29 | 39 (100%) | 36 (92%) | 12 (31%) |
+| SMR San Marino | 15 | 13 / 1 | 12 / 3 | 15 (100%) | 12 (80%) | 3 (20%) |
 | SCO Scotland | 19 | 16 / 1 | 1 / 0 | 19 (100%) | 19 (100%) | 14 (74%) |
 | SRB Serbia | 39 | 15 / 5 | 0 / 0 | 39 (100%) | 26 (67%) | 3 (8%) |
 | SVK Slovakia | 24 | 11 / 1 | 1 / 18 | 24 (100%) | 22 (92%) | 8 (33%) |
@@ -111,6 +122,7 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | SUI Switzerland | 23 | 16 / 15 | 6 / 0 | 23 (100%) | 22 (96%) | 15 (65%) |
 | TUR Türkiye | 44 | 27 / 10 | 11 / 0 | 44 (100%) | 38 (86%) | 6 (14%) |
 | UKR Ukraine | 47 | 10 / 13 | 1 / 0 | 47 (100%) | 30 (64%) | 10 (21%) |
+| WAL Wales | 21 | 13 / 0 | 3 / 17 | 21 (100%) | 12 (57%) | 7 (33%) |
 
 ## Leagues
 
@@ -180,12 +192,18 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | LTU First League (Q209008) | 2 | ok | open | 13 | 15 | -2 |
 | LUX Luxembourg National Division (Q245252) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_National_Division) | 16 | 16 | 0 |
 | LUX Luxembourg Division of Honour (Q1300490) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_Division_of_Honour) | 11 | 14 | -3 |
+| MLT Maltese Premier League (Q318480) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Maltese_Premier_League) | 12 | 12 | 0 |
+| MLT Maltese First Division (Q58305) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Maltese_Challenge_League) | 16 | 14 | +2 |
 | MDA Moldovan National Division (Q384531) | 1 | ok | open | 8 | 12 | -4 |
 | MDA Moldovan Liga 1 (Q370184) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Moldovan_Liga_1) | 7 | ? | ? |
 | MNE Montenegrin First League (Q271271) | 1 | ok | open | 10 | 10 | 0 |
 | MNE Montenegrin Second League (Q325597) | 2 | ok | open | 15 | 12 | +3 |
 | NED Eredivisie (Q167541) | 1 | ok | open | 18 | 18 | 0 |
 | NED Eerste Divisie (Q610823) | 2 | ok | open | 20 | 20 | 0 |
+| MKD First Macedonian Football League (Q275189) | 1 | ok | open | 9 | 10 | -1 |
+| MKD Macedonian Second Football League (Q2306229) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Macedonian_Second_Football_League) | 14 | 10 | +4 |
+| NIR NIFL Premiership (Q277945) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Premiership) | 12 | 12 | 0 |
+| NIR NIFL Championship (Q2267464) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Championship) | 15 | 29 | -14 |
 | NOR Eliteserien (Q201671) | 1 | ok | open | 16 | 16 | 0 |
 | NOR 1. divisjon football (Q353508) | 2 | ok | open | 15 | 16 | -1 |
 | POL Ekstraklasa (Q44763) | 1 | ok | season | 18 | 18 | 0 |
@@ -196,6 +214,9 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | IRL League of Ireland First Division (Q2474177) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_League_of_Ireland_First_Division) | 10 | 8 | +2 |
 | ROU Liga I (Q237753) | 1 | ok | open | 15 | 16 | -1 |
 | ROU Liga II (Q386384) | 2 | ok | open | 17 | 21 | -4 |
+| RUS Russian Premier League (Q182165) | 1 | ok | season | 14 | 16 | -2 |
+| RUS Russian First League (Q162533) | 2 | ok | open | 26 | 22 | +4 |
+| SMR Campionato Sammarinese di Calcio (Q387662) | 1 | ok | open | 15 | 15 | 0 |
 | SCO Scottish Premiership (Q14377162) | 1 | ok | open | 13 | 12 | +1 |
 | SCO Scottish Championship (Q14468438) | 2 | ok | open | 6 | 10 | -4 |
 | SRB Serbian SuperLiga (Q235307) | 1 | ok | open | 14 | 16 | -2 |
@@ -214,6 +235,9 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | TUR TFF First League (Q1141692) | 2 | ok | open | 28 | 18 | +10 |
 | UKR Premier League (Q206073) | 1 | ok | open | 16 | 16 | 0 |
 | UKR Ukrainian First League (Q1561244) | 2 | ok | open | 31 | 18 | +13 |
+| WAL Cymru Premier (Q218555) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Cymru_Premier) | 16 | 12 | +4 |
+| WAL Cymru North (Q65065999) | 2 | ok | open | 3 | 17 | -14 |
+| WAL Cymru South (Q65066001) | 2 | ok | open | 3 | ? | ? |
 
 <details><summary>ALB Albanian Superliga: 10 found, 14 expected</summary>
 
@@ -449,6 +473,12 @@ CS Fola Esch, FC Avenir Beggen, FC Jeunesse Canach, FC Koeppchen Wormeldange, FC
 
 </details>
 
+<details><summary>MLT Maltese First Division: 16 found, 14 expected</summary>
+
+Attard F.C., Fgura United F.C., Gudja United F.C., Melita F.C., Mgarr United F.C., Naxxar Lions F.C., Pietà Hotspurs F.C., Sirens F.C., St. Andrews F.C., St. Lucia F.C., Swieqi United F.C., Tarxien Rainbows F.C., Victoria Hotspurs F.C., Vittoriosa Stars F.C., Zebbug Rangers F.C., Żurrieq F.C.
+
+</details>
+
 <details><summary>MDA Moldovan National Division: 8 found, 12 expected</summary>
 
 FC Bălți, FC Dacia Buiucani, FC Milsami, FC Petrocub Hîncești, FC Politehnica Chișinău, FC Sheriff Tiraspol, FC Zimbru Chișinău, Real Sireti
@@ -458,6 +488,24 @@ FC Bălți, FC Dacia Buiucani, FC Milsami, FC Petrocub Hîncești, FC Politehnic
 <details><summary>MNE Montenegrin Second League: 15 found, 12 expected</summary>
 
 FK Berane, FK Bratstvo Cijevna, FK Cetinje, FK Grafičar Podgorica, FK Ibar, FK Igalo 1929, FK Iskra Danilovgrad, FK Kom, FK Otrant, FK Podgorica, FK Radnički Berane, FK Rudar Pljevlja, FK Zeta, OFK Grbalj, OFK Titograd
+
+</details>
+
+<details><summary>MKD First Macedonian Football League: 9 found, 10 expected</summary>
+
+FC Struga, FK Arsimi, FK Bashkimi, FK Shkëndija, FK Shkupi, FK Sileks, FK Skopje, FK Vardar, GFK Tikveš
+
+</details>
+
+<details><summary>MKD Macedonian Second Football League: 14 found, 10 expected</summary>
+
+Akademija Pandev, FK Belasica, FK Gorno Lisiče, FK Kamjan, FK Kožuf, FK Makedonija Gjorče Petrov, FK Novaci, FK Ohrid, FK Osogovo, FK Pelister, FK Plačkovica, FK Rabotnički, FK Shkupi, FK Teteks
+
+</details>
+
+<details><summary>NIR NIFL Championship: 15 found, 29 expected</summary>
+
+Annagh United F.C., Ards F.C., Armagh City F.C., Ballinamallard United F.C., Dundela F.C., Glenavon F.C., Harland & Wolff Welders F.C., Institute F.C., Loughgall F.C., Moyola Park F.C., Newry City A.F.C., Queen's University Belfast A.F.C., Rathfriland Rangers F.C., Strabane Athletic F.C., Warrenpoint Town F.C.
 
 </details>
 
@@ -500,6 +548,18 @@ CFR Cluj, CS Universitatea Craiova, FC Argeș, FC Botoșani, FC Corvinul Hunedoa
 <details><summary>ROU Liga II: 17 found, 21 expected</summary>
 
 AFC Chindia Târgoviște, AFC Metalul Buzău, ASA Târgu Mureș, CS Afumați, CS Concordia Chiajna, CSC 1599 Șelimbăr, CSC Dumbrăvița, CSL Ștefăneștii de Jos, CSM Cetatea Suceava, CSM Politehnica Iași, CSM Reșița, FC Bihor Oradea, FC Unirea Slobozia, Gloria Bistrița, SC Popești-Leordeni, SCM Râmnicu Vâlcea, Știința Poli Timișoara
+
+</details>
+
+<details><summary>RUS Russian Premier League: 14 found, 16 expected</summary>
+
+FC Akhmat Grozny, FC Akron Tolyatti, FC Baltika Kaliningrad, FC Dinamo Moscow, FC Dynamo Makhachkala, FC Fakel Voronezh, FC Krasnodar, FC Krylia Sovetov Samara, FC Orenburg, FC Rodina Moscow, FC Rostov, FC Zenit Saint Petersburg, Rubin Kazan, Spartak Moscow
+
+</details>
+
+<details><summary>RUS Russian First League: 26 found, 22 expected</summary>
+
+FC Alania Vladikavkaz, FC Arsenal Tula, FC Chayka Peschanokopskoye, FC Chelyabinsk, FC Dynamo Bryansk, FC Fakel Voronezh, FC KAMAZ Naberezhnye Chelny, FC Khimik Dzerzhinsk, FC Metallurg-Kuzbass Novokuznetsk, FC Neftekhimik Nizhnekamsk, FC Petrotrest Saint Petersburg, FC Rotor Volgograd, FC Shinnik Yaroslavl, FC SKA-Energiya Khabarovsk, FC Sokol Saratov, FC Spartak-2 Moscow, FC Tom Tomsk, FC Torpedo Moscow, FC Ufa, FC Ural Yekaterinburg, FC Veles Moscow, FC Volgar Astrakhan, FC Yenisey Krasnoyarsk, PFC Kuban Krasnodar, PFC Sochi, PFC Spartak Nalchik
 
 </details>
 
@@ -566,6 +626,18 @@ Alanyaspor, Beşiktaş J.K., Çaykur Rizespor, Çorum FK, Eyüpspor, Fenerbahçe
 <details><summary>UKR Ukrainian First League: 31 found, 18 expected</summary>
 
 FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Tserkva, FC Avanhard Kramatorsk, FC Cherkashchyna, FC Enerhetyk Burshtyn, FC Helios Kharkiv, FC Ihroservice Simferopol, FC Inhulets Petrove, FC Knyazha Shchaslyve, FC Komunalnyk Luhansk, FC Krymteplytsia Molodizhne, FC Livyi Bereh Kyiv, FC Lviv, FC Metal Kharkiv, FC Minaj, FC Naftovyk-Ukrnafta Okhtyrka, FC Nyva Bershad, FC Oleksandriya, FC Olimpik Donetsk, FC Poltava, FC Sirius Zhovti Vody, FC Spartak Sumy, FC Temp Shepetivka, FC Uzhhorod, FC Volyn Lutsk, FC Vorskla Poltava, FC VPK-Ahro Shevchenkivka, FC Zirka Kropyvnytskyi, MFC Mykolaiv, PFC Nyva Vinnytsia
+
+</details>
+
+<details><summary>WAL Cymru Premier: 16 found, 12 expected</summary>
+
+Airbus UK Broughton F.C., Ammanford A.F.C., Barry Town F.C., Briton Ferry Llansawel A.F.C., Caernarfon Town F.C., Cambrian United F.C., Cardiff Metropolitan University F.C., Colwyn Bay F.C., Flint Town United F.C., Gap Connah's Quay F.C., Haverfordwest County A.F.C., Holywell Town F.C., Llandudno F.C., Pen-y-Bont FC, The New Saints F.C., Trefelin BGC
+
+</details>
+
+<details><summary>WAL Cymru North: 3 found, 17 expected</summary>
+
+Airbus UK Broughton F.C., Cefn Druids A.F.C., Newtown A.F.C.
 
 </details>
 
@@ -861,9 +933,37 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - MDA FCM Ungheni (Q2870109): no home venue (P115)
 - MDA Real Sireti (Q141167520): no home venue (P115)
 - MDA Victoria Bardar (Q7926577): no home venue (P115)
+- MKD FK Arsimi (Q17070649): no home venue (P115)
+- MKD FK Gorno Lisiče (Q5426144): several home venues (Cementarnica Stadium, Gorno Lisiče Stadium); first one shown, set stadiumIds in overrides.json to choose
+- MKD FK Kamjan (Q17070682): no home venue (P115)
+- MKD FK Kožuf (Q2507730): no home venue (P115)
+- MKD FK Novaci (Q2580193): no home venue (P115)
+- MKD FK Plačkovica (Q5426314): no home venue (P115)
+- MKD FK Shkupi (Q16839383): current member of both tiers
+- MKD FK Skopje (Q995132): no home venue (P115)
+- MLT Attard F.C. (Q58247): no home venue (P115)
+- MLT Birzebbuga St. Peters F.C. (Q393281): no home venue (P115)
+- MLT Fgura United F.C. (Q239173): no home venue (P115)
+- MLT Gudja United F.C. (Q393286): no home venue (P115)
+- MLT St. Lucia F.C. (Q142581): no home venue (P115)
+- MLT Victoria Hotspurs F.C. (Q5649871): no home venue (P115)
+- MLT Zebbug Rangers F.C. (Q312423): no home venue (P115)
 - MNE FK Grafičar Podgorica (Q5426149): no home venue (P115)
 - MNE FK Ibar (Q5426164): no home venue (P115)
 - MNE OFK Mladost Donja Gorica (Q96397011): no home venue (P115)
+- NIR Annagh United F.C. (Q2212732): no home venue (P115)
+- NIR Armagh City F.C. (Q2448170): no home venue (P115)
+- NIR Bangor F.C. (Q806549): no home venue (P115)
+- NIR Carrick Rangers F.C. (Q2541808): no home venue (P115)
+- NIR Dundela F.C. (Q771539): no home venue (P115)
+- NIR Harland & Wolff Welders F.C. (Q4496023): no home venue (P115)
+- NIR Limavady United F.C. (Q1929359): no home venue (P115)
+- NIR Loughgall F.C. (Q2244751): no home venue (P115)
+- NIR NIFL Championship: excluded Newington Youth F.C. (Q7018275)
+- NIR Queen's University Belfast A.F.C. (Q2427114): no home venue (P115)
+- NIR Rathfriland Rangers F.C. (Q7295636): no home venue (P115)
+- NIR Strabane Athletic F.C. (Q16850885): no home venue (P115)
+- NIR Warrenpoint Town F.C. (Q2252351): no home venue (P115)
 - NOR Eliteserien: excluded Rosenborg BK (Q113517072), duplicate item of Q186785
 - NOR Kristiansund BK (Q496190): no home venue (P115)
 - NOR Levanger FK (Q4586760): no home venue (P115)
@@ -892,6 +992,22 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - ROU Gloria Bistrița (Q56677281): no home venue (P115)
 - ROU SC Popești-Leordeni (Q55593565): no home venue (P115)
 - ROU Știința Poli Timișoara (Q4654417): several home venues (Stadionul Dan Păltinișanu, Stadionul Știința); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Chayka Peschanokopskoye (Q25396688): no home venue (P115)
+- RUS FC Dynamo Makhachkala (Q2494171): several home venues (Dynamo Stadium, Anji Arena); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Fakel Voronezh (Q1388889): current member of both tiers
+- RUS FC Krasnodar (Q220854): several home venues (Kuban Stadium, Krasnodar Stadium); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Krylia Sovetov Samara (Q274778): several home venues (Metallurg Stadium, Samara Arena); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Metallurg-Kuzbass Novokuznetsk (Q2631313): no home venue (P115)
+- RUS FC Rodina Moscow (Q66210522): several home venues (VTB Arena, Spartakovets Stadium); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Rostov (Q182930): several home venues (Olimp-2, Rostov Arena); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Rotor Volgograd (Q1059186): several home venues (Volgograd Arena, Zenit Stadium); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Torpedo Moscow (Q324338): several home venues (Luzhniki Stadium, Eduard Streltsov Stadium); first one shown, set stadiumIds in overrides.json to choose
+- RUS FC Veles Moscow (Q30891083): no home venue (P115)
+- RUS FC Zenit Saint Petersburg (Q29108): several home venues (Gazprom Arena, Petrovsky Stadium); first one shown, set stadiumIds in overrides.json to choose
+- RUS PFC Sochi (Q54834034): several home venues (Fisht Olympic Stadium, Sochi Central Stadium); first one shown, set stadiumIds in overrides.json to choose
+- SMR A.C. Virtus (Q917145): stadium Stadio di Acquaviva has no coordinates
+- SMR S.S. Pennarossa (Q746206): stadium Campo Sportivo di Chiesanuova has no coordinates
+- SMR Tre Fiori Football Club (Q506224): stadium Stadio di Fiorentino has no coordinates
 - SRB FK Bečej (Q2407113): no home venue (P115)
 - SRB FK Big Bull Radnički (Q5426069): no home venue (P115)
 - SRB FK Jedinstvo Ub (Q1388917): no home venue (P115)
@@ -949,3 +1065,13 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - UKR SC Poltava (Q107653964): no home venue (P115)
 - UKR Ukrainian First League: excluded Q12160468 (no label)
 - UKR Ukrainian First League: excluded Q97379842 (no label)
+- WAL Airbus UK Broughton F.C. (Q553732): current member of both tiers
+- WAL Ammanford A.F.C. (Q4747150): no home venue (P115)
+- WAL Briton Ferry Llansawel A.F.C. (Q4971508): no home venue (P115)
+- WAL Cambrian United F.C. (Q2934688): no home venue (P115)
+- WAL Cardiff Metropolitan University F.C. (Q2096167): no home venue (P115)
+- WAL Colwyn Bay F.C. (Q2479641): no home venue (P115)
+- WAL Flint Town United F.C. (Q3073748): no home venue (P115)
+- WAL Holywell Town F.C. (Q5887222): no home venue (P115)
+- WAL Pen-y-Bont FC (Q16847437): no home venue (P115)
+- WAL Trefelin BGC (Q24183338): no home venue (P115)

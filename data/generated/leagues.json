@@ -475,6 +475,34 @@
     "label": "Moldovan Liga 1"
   },
   {
+    "qid": "Q275189",
+    "association": "MKD",
+    "tier": 1,
+    "label": "First Macedonian Football League",
+    "participants": 10
+  },
+  {
+    "qid": "Q2306229",
+    "association": "MKD",
+    "tier": 2,
+    "label": "Macedonian Second Football League",
+    "participants": 10
+  },
+  {
+    "qid": "Q318480",
+    "association": "MLT",
+    "tier": 1,
+    "label": "Maltese Premier League",
+    "participants": 12
+  },
+  {
+    "qid": "Q58305",
+    "association": "MLT",
+    "tier": 2,
+    "label": "Maltese First Division",
+    "participants": 14
+  },
+  {
     "qid": "Q271271",
     "association": "MNE",
     "tier": 1,
@@ -501,6 +529,20 @@
     "tier": 2,
     "label": "Eerste Divisie",
     "participants": 20
+  },
+  {
+    "qid": "Q277945",
+    "association": "NIR",
+    "tier": 1,
+    "label": "NIFL Premiership",
+    "participants": 12
+  },
+  {
+    "qid": "Q2267464",
+    "association": "NIR",
+    "tier": 2,
+    "label": "NIFL Championship",
+    "participants": 29
   },
   {
     "qid": "Q201671",
@@ -559,6 +601,20 @@
     "participants": 21
   },
   {
+    "qid": "Q182165",
+    "association": "RUS",
+    "tier": 1,
+    "label": "Russian Premier League",
+    "participants": 16
+  },
+  {
+    "qid": "Q162533",
+    "association": "RUS",
+    "tier": 2,
+    "label": "Russian First League",
+    "participants": 22
+  },
+  {
     "qid": "Q14377162",
     "association": "SCO",
     "tier": 1,
@@ -571,6 +627,13 @@
     "tier": 2,
     "label": "Scottish Championship",
     "participants": 10
+  },
+  {
+    "qid": "Q387662",
+    "association": "SMR",
+    "tier": 1,
+    "label": "Campionato Sammarinese di Calcio",
+    "participants": 15
   },
   {
     "qid": "Q235307",
@@ -669,5 +732,25 @@
     "tier": 2,
     "label": "Ukrainian First League",
     "participants": 18
+  },
+  {
+    "qid": "Q218555",
+    "association": "WAL",
+    "tier": 1,
+    "label": "Cymru Premier",
+    "participants": 12
+  },
+  {
+    "qid": "Q65065999",
+    "association": "WAL",
+    "tier": 2,
+    "label": "Cymru North",
+    "participants": 17
+  },
+  {
+    "qid": "Q65066001",
+    "association": "WAL",
+    "tier": 2,
+    "label": "Cymru South"
   }
 ]

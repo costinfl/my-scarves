@@ -713,6 +713,49 @@
       "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Moldovan_Liga_1"
     }
   ],
+  "MKD": [
+    {
+      "league": "Q275189",
+      "name": "First Macedonian Football League",
+      "status": "ok",
+      "clubs": 9,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q2306229",
+      "name": "Macedonian Second Football League",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Macedonian_Second_Football_League"
+    }
+  ],
+  "MLT": [
+    {
+      "league": "Q318480",
+      "name": "Maltese Premier League",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 6,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Maltese_Premier_League"
+    },
+    {
+      "league": "Q58305",
+      "name": "Maltese First Division",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 4,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Maltese_Challenge_League"
+    }
+  ],
   "MNE": [
     {
       "league": "Q271271",
@@ -751,6 +794,30 @@
       "stadiums": 20,
       "excluded": [],
       "source": "memberships"
+    }
+  ],
+  "NIR": [
+    {
+      "league": "Q277945",
+      "name": "NIFL Premiership",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 9,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Premiership"
+    },
+    {
+      "league": "Q2267464",
+      "name": "NIFL Championship",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 6,
+      "excluded": [
+        "Newington Youth F.C. (Q7018275)"
+      ],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Championship"
     }
   ],
   "NOR": [
@@ -840,6 +907,26 @@
       "excluded": []
     }
   ],
+  "RUS": [
+    {
+      "league": "Q182165",
+      "name": "Russian Premier League",
+      "status": "ok",
+      "clubs": 14,
+      "stadiums": 18,
+      "excluded": [],
+      "source": "season"
+    },
+    {
+      "league": "Q162533",
+      "name": "Russian First League",
+      "status": "ok",
+      "clubs": 26,
+      "stadiums": 26,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "SCO": [
     {
       "league": "Q14377162",
@@ -856,6 +943,17 @@
       "status": "ok",
       "clubs": 6,
       "stadiums": 6,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "SMR": [
+    {
+      "league": "Q387662",
+      "name": "Campionato Sammarinese di Calcio",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 8,
       "excluded": [],
       "source": "memberships"
     }
@@ -1004,6 +1102,36 @@
         "Q12160468 (no label)",
         "Q97379842 (no label)"
       ],
+      "source": "memberships"
+    }
+  ],
+  "WAL": [
+    {
+      "league": "Q218555",
+      "name": "Cymru Premier",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cymru_Premier"
+    },
+    {
+      "league": "Q65065999",
+      "name": "Cymru North",
+      "status": "ok",
+      "clubs": 3,
+      "stadiums": 3,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q65066001",
+      "name": "Cymru South",
+      "status": "ok",
+      "clubs": 3,
+      "stadiums": 3,
+      "excluded": [],
       "source": "memberships"
     }
   ]

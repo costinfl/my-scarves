@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.473056&lon=-3.210000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":281791371,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":90034011,\"lat\":\"51.4726855\",\"lon\":\"-3.2103748\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.3113151607222326,\"addresstype\":\"leisure\",\"name\":\"Cardiff International Sports Stadium\",\"display_name\":\"Cardiff International Sports Stadium, Leckwith Road, Canton, Cardiff, Cymru / Wales, CF11 8XB, United Kingdom\",\"address\":{\"leisure\":\"Cardiff International Sports Stadium\",\"road\":\"Leckwith Road\",\"suburb\":\"Canton\",\"city\":\"Cardiff\",\"county\":\"Cardiff\",\"ISO3166-2-lvl6\":\"GB-CRF\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"CF11 8XB\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"51.4717284\",\"51.4736358\",\"-3.2120475\",\"-3.2090256\"]}",
+  "fetchedAt": "2026-10-14T17:19:16.867Z"
+}

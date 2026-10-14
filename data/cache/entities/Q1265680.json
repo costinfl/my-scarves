@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:18.974Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1265680",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "85008"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Dungannon Swifts F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Dungannon Swifts F.C."
+      }
+    }
+  }
+}

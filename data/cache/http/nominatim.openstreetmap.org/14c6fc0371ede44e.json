@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.132778&lon=-6.660278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273388972,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":195558637,\"lat\":\"55.1328157\",\"lon\":\"-6.6599955\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.33557113795112237,\"addresstype\":\"leisure\",\"name\":\"Coleraine Football Club\",\"display_name\":\"Coleraine Football Club, Hillman's Fancy, Ballycastle Road Industrial Estate, Millburn, Coleraine, Causeway Coast and Glens District, County Londonderry, Northern Ireland / Tuaisceart Éireann, BT51 1LZ, United Kingdom\",\"address\":{\"leisure\":\"Coleraine Football Club\",\"road\":\"Hillman's Fancy\",\"industrial\":\"Ballycastle Road Industrial Estate\",\"suburb\":\"Millburn\",\"town\":\"Coleraine\",\"municipality\":\"Causeway Coast and Glens District\",\"ISO3166-2-lvl7\":\"GB-CCG\",\"historic\":\"County Londonderry\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT51 1LZ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"55.1325075\",\"55.1331240\",\"-6.6608040\",\"-6.6591869\"]}",
+  "fetchedAt": "2026-10-14T17:18:03.262Z"
+}

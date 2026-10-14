@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Strabane%20Athletic%20F.C.",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Strabane Athletic F.C.\",\"pageid\":40298194,\"redirects\":[],\"wikitext\":\"{{short description|Association football club in Northern Ireland}}\\n{{Use dmy dates|date=September 2020}}\\n{{Use Irish English|date=September 2020}}\\n{{Infobox football club \\n|clubname = Strabane Athletic\\n|image    =  \\n|fullname = Strabane Athletic Football Club\\n|nickname = SAFC\\n|founded  = 2010\\n|ground = Melvin Sports Complex, Strabane, County Tyrone\\n|chairman = Seamus McElroy\\n|manager  = Mo Mahon\\n|league   = [[NIFL Championship]]\\n|season   = [[2025–26 NIFL Premier Intermediate League|2025–26]]\\n|position = [[NIFL Premier Intermediate League]], 2nd of 14 (promoted)\\n|\\n}}\\n'''Strabane Athletic Football Club''' is a Northern Irish, semi-professional football club based in [[Strabane]], [[County Tyrone]], playing in the [[NIFL Championship]].\"}}",
+  "fetchedAt": "2026-10-14T17:16:27.320Z"
+}

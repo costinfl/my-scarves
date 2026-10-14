@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Vittoriosa%20Stars%20F.C.",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Vittoriosa Stars F.C.\",\"pageid\":12974610,\"redirects\":[],\"wikitext\":\"{{short description|Maltese football club}}\\n{{Infobox football club\\n|clubname    = Vittoriosa Stars\\n|image       = VittoriosaStarsFC.png\\n|image_size  = 260px\\n|fullname    = Vittoriosa Stars Football Club\\n|nickname    = The Reds, The Stars\\n|founded     = {{start date and age|df=yes|1906}}\\n|ground      = De La Salle Ground, [[Vittoriosa]], Malta\\n|rival       = \\n|mgrtitle    = \\n|chairman    = Erskine Vella\\n|manager     = Dennis Apap\\n| league           = [[Maltese Challenge League]]\\n| season           = [[2024–25 Maltese National Amateur League|2024–25]]\\n| position         = [[Maltese National Amateur League]], 1st of 16 (promoted)\\n|pattern_la1 =\\n|pattern_b1  =\\n|pattern_ra1 =\\n|leftarm1    =FF0000\\n|body1       =FF0000\\n|rightarm1   =FF0000\\n|shorts1     =FF0000\\n|socks1      =FF0000\\n}}\\n'''Vittoriosa Stars Football Club''' are a Maltese [[Association football|football]] club from the seaside town of [[Birgu]], which currently plays in the [[Maltese Challenge League]]. They were founded in 1906.\"}}",
+  "fetchedAt": "2026-10-14T17:16:15.213Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.624294&lon=-5.921925&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274236358,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":134680130,\"lat\":\"54.6242857\",\"lon\":\"-5.9219201\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.500343327988125e-05,\"addresstype\":\"leisure\",\"name\":\"Crusaders F.C.\",\"display_name\":\"Crusaders F.C., Shore Road, Northwood, Fortwilliam, Belfast City District, County Antrim, Northern Ireland / Tuaisceart Éireann, BT15 3PG, United Kingdom\",\"address\":{\"leisure\":\"Crusaders F.C.\",\"road\":\"Shore Road\",\"neighbourhood\":\"Northwood\",\"suburb\":\"Fortwilliam\",\"city\":\"Belfast City District\",\"ISO3166-2-lvl7\":\"GB-BFS\",\"historic\":\"County Antrim\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT15 3PG\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.6239281\",\"54.6246433\",\"-5.9227661\",\"-5.9210740\"]}",
+  "fetchedAt": "2026-10-14T17:18:04.455Z"
+}

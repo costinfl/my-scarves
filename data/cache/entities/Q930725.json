@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T17:14:20.568Z",
+  "version": 2,
+  "entity": {
+    "id": "Q930725",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2604959"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Tarxien Rainbows F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Tarxien Rainbows F.C."
+      }
+    }
+  }
+}

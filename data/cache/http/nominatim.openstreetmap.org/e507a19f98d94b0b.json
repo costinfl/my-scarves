@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.894864&lon=14.415372&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":54419793,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":138152393,\"lat\":\"35.8948189\",\"lon\":\"14.4152160\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7409781032990275e-05,\"addresstype\":\"leisure\",\"name\":\"Grawnd Nazzjonali Ta' Qali\",\"display_name\":\"Grawnd Nazzjonali Ta' Qali, Triq ta' Vnezja, Ta' Qali, Ħ'Attard, Reġjun tat-Tramuntana, ATD 4000, Malta\",\"address\":{\"leisure\":\"Grawnd Nazzjonali Ta' Qali\",\"road\":\"Triq ta' Vnezja\",\"hamlet\":\"Ta' Qali\",\"town\":\"Ħ'Attard\",\"ISO3166-2-lvl8\":\"MT-01\",\"municipality\":\"Reġjun tat-Tramuntana\",\"postcode\":\"ATD 4000\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.8942042\",\"35.8954257\",\"14.4146446\",\"14.4157895\"]}",
+  "fetchedAt": "2026-10-14T17:17:48.856Z"
+}

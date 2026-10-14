@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.474167&lon=84.956667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":216324371,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":174079613,\"lat\":\"56.4741003\",\"lon\":\"84.9566946\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.274280918588567e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Белинского, Юрточная гора, Советский район, Томск, городской округ Томск, Томская область, Сибирский федеральный округ, 634000, Россия\",\"address\":{\"road\":\"улица Белинского\",\"quarter\":\"Юрточная гора\",\"city_district\":\"Советский район\",\"city\":\"Томск\",\"county\":\"городской округ Томск\",\"state\":\"Томская область\",\"ISO3166-2-lvl4\":\"RU-TOM\",\"region\":\"Сибирский федеральный округ\",\"postcode\":\"634000\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"56.4735082\",\"56.4746924\",\"84.9560218\",\"84.9573673\"]}",
+  "fetchedAt": "2026-10-14T17:18:46.062Z"
+}

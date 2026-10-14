@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.015500&lon=21.444300&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56896213,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":476397812,\"lat\":\"42.0155510\",\"lon\":\"21.4445999\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.452429999232497e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Кемал Сејфула, Дижонска, Серава, Чаир, Општина Чаир, Скопје, Град Скопје, 1009, Северна Македонија\",\"address\":{\"road\":\"Кемал Сејфула\",\"neighbourhood\":\"Дижонска\",\"suburb\":\"Серава\",\"city_district\":\"Општина Чаир\",\"ISO3166-2-lvl7\":\"MK-815\",\"city\":\"Скопје\",\"county\":\"Град Скопје\",\"postcode\":\"1009\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"42.0150491\",\"42.0160528\",\"21.4441946\",\"21.4450051\"]}",
+  "fetchedAt": "2026-10-14T17:17:45.184Z"
+}

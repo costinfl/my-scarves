@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&redirects=1&page=2026%20Campionato%20Sammarinese",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"error\":{\"code\":\"missingtitle\",\"info\":\"The page you specified doesn't exist.\",\"docref\":\"See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.\"},\"servedby\":\"mw-api-ext.eqiad.main-9959bb595-r7n6f\"}",
+  "fetchedAt": "2026-10-14T17:13:26.265Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.998333&lon=92.884722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":217443736,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":26521817,\"lat\":\"55.9984373\",\"lon\":\"92.8848609\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.828946364533482e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"остров Отдыха, Центральный район, Красноярск, городской округ Красноярск, Красноярский край, Сибирский федеральный округ, 660000, Россия\",\"address\":{\"road\":\"остров Отдыха\",\"neighbourhood\":\"остров Отдыха\",\"suburb\":\"Центральный район\",\"city_district\":\"Центральный район\",\"city\":\"Красноярск\",\"county\":\"городской округ Красноярск\",\"state\":\"Красноярский край\",\"ISO3166-2-lvl4\":\"RU-KYA\",\"region\":\"Сибирский федеральный округ\",\"postcode\":\"660000\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"55.9979525\",\"55.9989220\",\"92.8843151\",\"92.8854066\"]}",
+  "fetchedAt": "2026-10-14T17:18:52.254Z"
+}

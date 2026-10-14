@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.979822&lon=47.507206&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207138060,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":152715562,\"lat\":\"42.9797953\",\"lon\":\"47.5073045\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.555809872582616e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Малыгина, Советский район, Махачкала, городской округ Махачкала, Дагестан, Северо-Кавказский федеральный округ, 367000, Россия\",\"address\":{\"road\":\"улица Малыгина\",\"city_district\":\"Советский район\",\"city\":\"Махачкала\",\"county\":\"городской округ Махачкала\",\"state\":\"Дагестан\",\"ISO3166-2-lvl4\":\"RU-DA\",\"region\":\"Северо-Кавказский федеральный округ\",\"postcode\":\"367000\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"42.9792016\",\"42.9803770\",\"47.5064781\",\"47.5081885\"]}",
+  "fetchedAt": "2026-10-14T17:18:24.058Z"
+}

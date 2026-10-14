@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.968120&lon=21.452619&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58937892,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1455203314,\"lat\":\"41.9681377\",\"lon\":\"21.4525335\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.452429999232497e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Христо Татарчев 13, Цементара, Кисела Вода, Скопје, Општина Кисела Вода, Град Скопје, 1054, Северна Македонија\",\"address\":{\"road\":\"Христо Татарчев 13\",\"suburb\":\"Цементара\",\"city\":\"Скопје\",\"municipality\":\"Општина Кисела Вода\",\"ISO3166-2-lvl7\":\"MK-809\",\"county\":\"Град Скопје\",\"postcode\":\"1054\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"41.9676171\",\"41.9686583\",\"21.4518229\",\"21.4532441\"]}",
+  "fetchedAt": "2026-10-14T17:17:36.306Z"
+}

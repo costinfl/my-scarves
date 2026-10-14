@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.044167&lon=39.029444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206736856,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":429394720,\"lat\":\"45.0444155\",\"lon\":\"39.0293121\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.974517433427967e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Восточно-Кругликовская улица, Прикубанский округ, Краснодар, городской округ Краснодар, Краснодарский край, Южный федеральный округ, 350059, Россия\",\"address\":{\"road\":\"Восточно-Кругликовская улица\",\"city_district\":\"Прикубанский округ\",\"city\":\"Краснодар\",\"county\":\"городской округ Краснодар\",\"state\":\"Краснодарский край\",\"ISO3166-2-lvl4\":\"RU-KDA\",\"region\":\"Южный федеральный округ\",\"postcode\":\"350059\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"45.0439597\",\"45.0448713\",\"39.0289039\",\"39.0297202\"]}",
+  "fetchedAt": "2026-10-14T17:18:30.661Z"
+}

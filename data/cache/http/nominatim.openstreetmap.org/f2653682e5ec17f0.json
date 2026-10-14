@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.413056&lon=-6.457778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275132330,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":365439338,\"lat\":\"54.4130271\",\"lon\":\"-6.4577365\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.509498741126142e-05,\"addresstype\":\"leisure\",\"name\":\"Shamrock Park\",\"display_name\":\"Shamrock Park, Old Rectory Park, Mahon, Portadown, Armagh City, Banbridge and Craigavon District, County Armagh, Northern Ireland / Tuaisceart Éireann, BT62 3PZ, United Kingdom\",\"address\":{\"leisure\":\"Shamrock Park\",\"road\":\"Old Rectory Park\",\"suburb\":\"Mahon\",\"town\":\"Portadown\",\"municipality\":\"Armagh City, Banbridge and Craigavon District\",\"ISO3166-2-lvl7\":\"GB-ABC\",\"county\":\"County Armagh\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT62 3PZ\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.4125302\",\"54.4135240\",\"-6.4582916\",\"-6.4571816\"]}",
+  "fetchedAt": "2026-10-14T17:18:13.801Z"
+}

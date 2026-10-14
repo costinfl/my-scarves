@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.478889&lon=135.046389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":271427298,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":188014390,\"lat\":\"48.4789027\",\"lon\":\"135.0465531\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.444571602955699e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Серышева, Казачка, Кировский район, Хабаровск, городской округ Хабаровск, Хабаровский край, Дальневосточный федеральный округ, 680028, Россия\",\"address\":{\"road\":\"улица Серышева\",\"suburb\":\"Казачка\",\"city_district\":\"Кировский район\",\"city\":\"Хабаровск\",\"county\":\"городской округ Хабаровск\",\"state\":\"Хабаровский край\",\"ISO3166-2-lvl4\":\"RU-KHA\",\"region\":\"Дальневосточный федеральный округ\",\"postcode\":\"680028\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"48.4784302\",\"48.4793751\",\"135.0460948\",\"135.0470113\"]}",
+  "fetchedAt": "2026-10-14T17:18:42.649Z"
+}

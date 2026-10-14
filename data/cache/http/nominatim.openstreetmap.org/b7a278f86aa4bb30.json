@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.171492&lon=-2.981519&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277250628,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":190846619,\"lat\":\"53.1715866\",\"lon\":\"-2.9819779\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.561150530246459e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Chester Road, Broughton and Bretton, Broughton, Flintshire, Cymru / Wales, CH4 0TH, United Kingdom\",\"address\":{\"road\":\"Chester Road\",\"suburb\":\"Broughton and Bretton\",\"village\":\"Broughton\",\"county\":\"Flintshire\",\"ISO3166-2-lvl6\":\"GB-FLN\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"CH4 0TH\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.1710212\",\"53.1721518\",\"-2.9828908\",\"-2.9810649\"]}",
+  "fetchedAt": "2026-10-14T17:19:06.599Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.879167&lon=14.529833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":54664745,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":92242102,\"lat\":\"35.8792022\",\"lon\":\"14.5298333\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.5256733043366406e-05,\"addresstype\":\"leisure\",\"name\":\"Saint Patrick's Football Ground\",\"display_name\":\"Saint Patrick's Football Ground, Triq l-Għaxra ta' Settembru, 1797, Qasam tad-Djar ta' Bulebel, Ħaż-Żabbar, Reġjun tal-Port, ZBR 9033, Malta\",\"address\":{\"leisure\":\"Saint Patrick's Football Ground\",\"road\":\"Triq l-Għaxra ta' Settembru, 1797\",\"suburb\":\"Qasam tad-Djar ta' Bulebel\",\"town\":\"Ħaż-Żabbar\",\"ISO3166-2-lvl8\":\"MT-64\",\"municipality\":\"Reġjun tal-Port\",\"postcode\":\"ZBR 9033\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.8786536\",\"35.8796853\",\"14.5294362\",\"14.5302516\"]}",
+  "fetchedAt": "2026-10-14T17:17:56.556Z"
+}

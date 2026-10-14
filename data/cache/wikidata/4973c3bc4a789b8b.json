@@ -1,0 +1,163 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q387662 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:13:49.084Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q289343",
+      "stadium": "http://www.wikidata.org/entity/Q3654708",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.4518 43.9351)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Libertas",
+      "website": "http://www.polisportivalibertas.com/",
+      "clubLabel": "A.C. Libertas",
+      "stadiumLabel": "Campo sportivo di Borgo Maggiore"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q387224",
+      "stadium": "http://www.wikidata.org/entity/Q3654715",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.447944 43.908667)",
+      "capacity": "700",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Fiorentino",
+      "website": "https://www.fcfiorentinocalcio.com/",
+      "clubLabel": "F.C. Fiorentino",
+      "stadiumLabel": "Campo Sportivo di Fiorentino"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q430931",
+      "stadium": "http://www.wikidata.org/entity/Q728131",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.476972 43.97125)",
+      "capacity": "6664",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Juvenes/Dogana",
+      "website": "http://www.acjuvenesdogana.sm/",
+      "clubLabel": "A.C. Juvenes/Dogana",
+      "stadiumLabel": "San Marino Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q506224",
+      "stadium": "http://www.wikidata.org/entity/Q28064234",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/Tre_Fiori_FC",
+      "website": "https://www.trefiori.sm/",
+      "clubLabel": "Tre Fiori Football Club",
+      "stadiumLabel": "Stadio di Fiorentino"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q525573",
+      "stadium": "http://www.wikidata.org/entity/Q9341095",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.4427 43.9296)",
+      "capacity": "500",
+      "enwiki": "https://en.wikipedia.org/wiki/SS_Murata",
+      "website": "http://www.muratacalcio.com/",
+      "clubLabel": "S.S. Murata",
+      "stadiumLabel": "Stadio Fonte dell'Ovo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q542103",
+      "stadium": "http://www.wikidata.org/entity/Q728131",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.476972 43.97125)",
+      "capacity": "6664",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Faetano",
+      "website": "http://www.faetanocalcio.sm/",
+      "clubLabel": "S.C. Faetano",
+      "stadiumLabel": "San Marino Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q690787",
+      "stadium": "http://www.wikidata.org/entity/Q728131",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.476972 43.97125)",
+      "capacity": "6664",
+      "enwiki": "https://en.wikipedia.org/wiki/SS_Folgore_Falciano_Calcio",
+      "website": "http://www.folgorecalcio.com/",
+      "clubLabel": "S.S. Folgore Falciano Calcio",
+      "stadiumLabel": "San Marino Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q704857",
+      "stadium": "http://www.wikidata.org/entity/Q9341095",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.4427 43.9296)",
+      "capacity": "500",
+      "enwiki": "https://en.wikipedia.org/wiki/SP_Tre_Penne",
+      "website": "http://www.trepenne.com/",
+      "clubLabel": "gil paja",
+      "stadiumLabel": "Stadio Fonte dell'Ovo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q746206",
+      "stadium": "http://www.wikidata.org/entity/Q3654709",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "300",
+      "enwiki": "https://en.wikipedia.org/wiki/SS_Pennarossa",
+      "clubLabel": "S.S. Pennarossa",
+      "stadiumLabel": "Campo Sportivo di Chiesanuova"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q775924",
+      "stadium": "http://www.wikidata.org/entity/Q9341095",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.4427 43.9296)",
+      "capacity": "500",
+      "enwiki": "https://en.wikipedia.org/wiki/SP_Cailungo",
+      "website": "http://www.spcailungo.com/",
+      "clubLabel": "S.P. Cailungo",
+      "stadiumLabel": "Stadio Fonte dell'Ovo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q913906",
+      "stadium": "http://www.wikidata.org/entity/Q3654711",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.4661 43.9453)",
+      "capacity": "500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Domagnano",
+      "clubLabel": "F.C. Domagnano",
+      "stadiumLabel": "Campo sportivo di Domagnano"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q917145",
+      "stadium": "http://www.wikidata.org/entity/Q28063010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Virtus",
+      "website": "https://www.acvirtus.com/",
+      "clubLabel": "A.C. Virtus",
+      "stadiumLabel": "Stadio di Acquaviva",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Virtus%20AC%20San%20Marino%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q918146",
+      "stadium": "http://www.wikidata.org/entity/Q728131",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.476972 43.97125)",
+      "capacity": "6664",
+      "enwiki": "https://en.wikipedia.org/wiki/SP_La_Fiorita",
+      "website": "http://www.lafiorita.sm/",
+      "clubLabel": "S.P. La Fiorita",
+      "stadiumLabel": "San Marino Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q926582",
+      "stadium": "http://www.wikidata.org/entity/Q728131",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.476972 43.97125)",
+      "capacity": "6664",
+      "enwiki": "https://en.wikipedia.org/wiki/S.S._Cosmos",
+      "clubLabel": "S.S. Cosmos",
+      "stadiumLabel": "San Marino Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1077477",
+      "stadium": "http://www.wikidata.org/entity/Q3654708",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.4518 43.9351)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/AS_San_Giovanni",
+      "clubLabel": "S.S. San Giovanni",
+      "stadiumLabel": "Campo sportivo di Borgo Maggiore"
+    }
+  ]
+}

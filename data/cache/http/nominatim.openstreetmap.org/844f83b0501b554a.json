@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.672778&lon=39.204167&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":192369871,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":42858199,\"lat\":\"51.6720600\",\"lon\":\"39.2052548\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":6.864957656209687e-05,\"addresstype\":\"leisure\",\"name\":\"Спорткомплекс «Центральный»\",\"display_name\":\"Спорткомплекс «Центральный», 17/2, Студенческая улица, Центр, Центральный район, Воронеж, городской округ Воронеж, Воронежская область, Центральный федеральный округ, 394036, Россия\",\"address\":{\"leisure\":\"Спорткомплекс «Центральный»\",\"house_number\":\"17/2\",\"road\":\"Студенческая улица\",\"suburb\":\"Центр\",\"city_district\":\"Центральный район\",\"city\":\"Воронеж\",\"county\":\"городской округ Воронеж\",\"state\":\"Воронежская область\",\"ISO3166-2-lvl4\":\"RU-VOR\",\"region\":\"Центральный федеральный округ\",\"postcode\":\"394036\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"51.6716821\",\"51.6723999\",\"39.2047562\",\"39.2057258\"]}",
+  "fetchedAt": "2026-10-14T17:18:26.258Z"
+}

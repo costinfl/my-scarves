@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.935100&lon=12.451800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":78938008,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":110341836,\"lat\":\"43.9350419\",\"lon\":\"12.4519010\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.425726710913279e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Sottomontana, Burricaia, Borgo Maggiore, 47890, San Marino\",\"address\":{\"road\":\"Strada Sottomontana\",\"hamlet\":\"Burricaia\",\"village\":\"Borgo Maggiore\",\"ISO3166-2-lvl8\":\"SM-06\",\"postcode\":\"47890\",\"country\":\"San Marino\",\"country_code\":\"sm\"},\"boundingbox\":[\"43.9345599\",\"43.9355417\",\"12.4513814\",\"12.4524273\"]}",
+  "fetchedAt": "2026-10-14T17:19:01.287Z"
+}

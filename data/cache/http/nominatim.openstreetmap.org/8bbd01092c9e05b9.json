@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.785064&lon=55.221081&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":202958502,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1227884630,\"lat\":\"51.7849957\",\"lon\":\"55.2210618\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.612573434038327e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Цветной бульвар, Микрорайон Ростоши, Ленинский район, Оренбург, городской округ Оренбург, Оренбургская область, Приволжский федеральный округ, 460008, Россия\",\"address\":{\"road\":\"улица Цветной бульвар\",\"suburb\":\"Микрорайон Ростоши\",\"city_district\":\"Ленинский район\",\"city\":\"Оренбург\",\"county\":\"городской округ Оренбург\",\"state\":\"Оренбургская область\",\"ISO3166-2-lvl4\":\"RU-ORE\",\"region\":\"Приволжский федеральный округ\",\"postcode\":\"460008\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"51.7844952\",\"51.7854963\",\"55.2205599\",\"55.2215638\"]}",
+  "fetchedAt": "2026-10-14T17:18:33.963Z"
+}

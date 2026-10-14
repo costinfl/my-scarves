@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.651600&lon=-5.684470&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":276341395,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1315104008,\"lat\":\"54.6516147\",\"lon\":\"-5.6844227\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.690775921258896e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hawthorn Court, Silverstream, Bangor, Ards and North Down District, County Down, Northern Ireland / Tuaisceart Éireann, BT20 3PP, United Kingdom\",\"address\":{\"road\":\"Hawthorn Court\",\"suburb\":\"Silverstream\",\"city\":\"Bangor\",\"municipality\":\"Ards and North Down District\",\"ISO3166-2-lvl7\":\"GB-AND\",\"county\":\"County Down\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT20 3PP\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.6511420\",\"54.6520874\",\"-5.6853310\",\"-5.6835144\"]}",
+  "fetchedAt": "2026-10-14T17:17:58.363Z"
+}

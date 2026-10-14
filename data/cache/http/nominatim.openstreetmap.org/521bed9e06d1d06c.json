@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.209400&lon=39.737800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":202813500,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":361352677,\"lat\":\"47.2094252\",\"lon\":\"39.7378133\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.820859082928233e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Левобережная улица, Кировский район, Ростов-на-Дону, городской округ Ростов-на-Дону, Ростовская область, Южный федеральный округ, 344002, Россия\",\"address\":{\"road\":\"Левобережная улица\",\"city_district\":\"Кировский район\",\"city\":\"Ростов-на-Дону\",\"county\":\"городской округ Ростов-на-Дону\",\"state\":\"Ростовская область\",\"ISO3166-2-lvl4\":\"RU-ROS\",\"region\":\"Южный федеральный округ\",\"postcode\":\"344002\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"47.2088841\",\"47.2099680\",\"39.7371766\",\"39.7384492\"]}",
+  "fetchedAt": "2026-10-14T17:18:37.842Z"
+}

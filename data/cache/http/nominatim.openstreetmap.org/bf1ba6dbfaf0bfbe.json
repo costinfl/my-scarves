@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.716389&lon=37.656389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":426903487,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1557326932,\"lat\":\"55.7164409\",\"lon\":\"37.6564288\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.908293278396304e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Виктора Маслова, Жилой комплекс RiverSky, Даниловский район, Москва, Центральный федеральный округ, 115068, Россия\",\"address\":{\"road\":\"улица Виктора Маслова\",\"neighbourhood\":\"Жилой комплекс RiverSky\",\"suburb\":\"Даниловский район\",\"city\":\"Москва\",\"state\":\"Москва\",\"ISO3166-2-lvl4\":\"RU-MOW\",\"region\":\"Центральный федеральный округ\",\"postcode\":\"115068\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"55.7159105\",\"55.7169713\",\"37.6556395\",\"37.6572181\"]}",
+  "fetchedAt": "2026-10-14T17:18:47.872Z"
+}

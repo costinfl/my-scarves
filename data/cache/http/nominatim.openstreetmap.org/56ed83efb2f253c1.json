@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.235666&lon=43.457760&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":198017097,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":148592521,\"lat\":\"56.2355867\",\"lon\":\"43.4586136\",\"category\":\"leisure\",\"type\":\"track\",\"place_rank\":30,\"importance\":6.015487907220596e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"проспект Циолковского, Северные Ворота, Дзержинск, городской округ Дзержинск, Нижегородская область, Приволжский федеральный округ, 606008, Россия\",\"address\":{\"road\":\"проспект Циолковского\",\"suburb\":\"Северные Ворота\",\"city\":\"Дзержинск\",\"county\":\"городской округ Дзержинск\",\"state\":\"Нижегородская область\",\"ISO3166-2-lvl4\":\"RU-NIZ\",\"region\":\"Приволжский федеральный округ\",\"postcode\":\"606008\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"56.2348614\",\"56.2363674\",\"43.4579629\",\"43.4592678\"]}",
+  "fetchedAt": "2026-10-14T17:18:28.067Z"
+}

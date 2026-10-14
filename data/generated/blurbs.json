@@ -359,6 +359,11 @@
     "source": "https://en.wikipedia.org/wiki/AC_Perugia_Calcio",
     "status": "draft"
   },
+  "Q17497": {
+    "text": "FC Dynamo Moscow is a Russian professional football club based in Moscow. Dynamo returned to the Russian Premier League for the 2017–18 season after one season in the second-tier Russian Football National League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Dynamo_Moscow",
+    "status": "draft"
+  },
   "Q18232": {
     "text": "Koninklijke Atletiek Associatie Gent, often simply known as Gent or by their nickname De Buffalo's, is a Belgian professional sports club, based in the city of Ghent, East Flanders. Their football team is the best known section within the club and has been playing in the Belgian First Division A since the 1989–90 season. They won the national league once, in 2014–15, in addition to four Belgian Cup victories.",
     "source": "https://en.wikipedia.org/wiki/KAA_Gent",
@@ -654,6 +659,16 @@
     "source": "https://en.wikipedia.org/wiki/FK_Radnik_Bijeljina",
     "status": "draft"
   },
+  "Q29108": {
+    "text": "Football Club Zenit, also known as Zenit Saint Petersburg or simply Zenit, is a Russian professional football club based in Saint Petersburg. Founded in 1925, the club plays in the Russian Premier League and are the reigning champions.",
+    "source": "https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg",
+    "status": "draft"
+  },
+  "Q29112": {
+    "text": "FC Spartak Moscow is a Russian professional football club based in Moscow. Having won 12 Soviet championships and 10 Russian championships, it is the country's most successful club. They have also won a record 10 Soviet Cups, 5 Russian Cups and one Russian Super Cup.",
+    "source": "https://en.wikipedia.org/wiki/FC_Spartak_Moscow",
+    "status": "draft"
+  },
   "Q31420": {
     "text": "Nogometni klub Aluminij, commonly referred to as NK Aluminij or simply Aluminij, is a Slovenian football club based in the town of Kidričevo that competes in the Slovenian PrvaLiga, the top tier of Slovenian football. The club was founded in 1946.",
     "source": "https://en.wikipedia.org/wiki/NK_Aluminij",
@@ -684,6 +699,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Dinamo_City",
     "status": "draft"
   },
+  "Q38124": {
+    "text": "FK Pelister is a professional football club based in the city of Bitola, North Macedonia. They are currently competing in the Macedonian Second League and play their games at the Petar Miloševski Stadium.",
+    "source": "https://en.wikipedia.org/wiki/FK_Pelister",
+    "status": "draft"
+  },
   "Q38245": {
     "text": "Eintracht Frankfurt e.V. is a German professional sports club based in Frankfurt, Hesse. It is best known for its football club, which was founded on 8 March 1899. The club currently plays in the Bundesliga, the top tier of the German football league system.",
     "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
@@ -707,6 +727,11 @@
   "Q41420": {
     "text": "Ballspielverein Borussia 09 e. V. Dortmund, often known simply as Borussia Dortmund or by its initialism BVB, or just Dortmund by international fans, is a German professional sports club based in Dortmund, North Rhine-Westphalia. It is best known for its men's professional football team, which plays in the Bundesliga, the top tier of the German football league system.",
     "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+    "status": "draft"
+  },
+  "Q43477": {
+    "text": "FC Shinnik Yaroslavl is a Russian football club, based in Yaroslavl.",
+    "source": "https://en.wikipedia.org/wiki/FC_Shinnik_Yaroslavl",
     "status": "draft"
   },
   "Q43710": {
@@ -762,6 +787,11 @@
   "Q52942": {
     "text": "Kolejowy Klub Sportowy Lech Poznań, commonly referred to as KKS Lech Poznań or simply Lech Poznań, is a Polish professional football club based in Poznań and currently competing in the Ekstraklasa, the nation's highest division.",
     "source": "https://en.wikipedia.org/wiki/Lech_Pozna%C5%84",
+    "status": "draft"
+  },
+  "Q58247": {
+    "text": "Attard Football Club is a Maltese association football club from the village of Attard, Malta. They currently play in the Maltese National Amateur League I. The club was founded in 1974.",
+    "source": "https://en.wikipedia.org/wiki/Attard_F.C.",
     "status": "draft"
   },
   "Q60495": {
@@ -989,6 +1019,16 @@
     "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
     "status": "draft"
   },
+  "Q142570": {
+    "text": "Swieqi United Football Club is a Maltese professional football and futsal club representing the municipality of Swieqi. The club was created by a group of University Students and Swieqi residents. Founded in 2009, the club has a strong local fan-base, especially amongst young people on the island.",
+    "source": "https://en.wikipedia.org/wiki/Swieqi_United_F.C.",
+    "status": "draft"
+  },
+  "Q142581": {
+    "text": "Santa Lucia Football Club is a football club from the urban locality of Santa Luċija in southern Malta.",
+    "source": "https://en.wikipedia.org/wiki/St._Lucia_F.C.",
+    "status": "draft"
+  },
   "Q144190": {
     "text": "Profesionalen futbolen klub Levski, commonly known as Levski Sofia or simply Levski, is a Bulgarian professional association football club based in Sofia, which competes in the First League, the top division of the Bulgarian football league system.",
     "source": "https://en.wikipedia.org/wiki/PFC_Levski_Sofia",
@@ -1022,6 +1062,11 @@
   "Q155730": {
     "text": "1. FC Magdeburg is a German association football club based in Magdeburg. The club was founded in 1965 from the football department of the sports club SC Magdeburg and was one of the top teams in the East German Oberliga, winning three championships and seven cup titles.",
     "source": "https://en.wikipedia.org/wiki/1._FC_Magdeburg",
+    "status": "draft"
+  },
+  "Q156709": {
+    "text": "FC Neftekhimik Nizhnekamsk is an association football club from Nizhnekamsk, Russia, founded in 1991. It played at the second-highest level in the Russian First League in 1993–1998, 2001–2004, 2012 to 2013–14, 2016–17 and from 2019–to present. Neftekhimik has won 5 Second Division titles.",
+    "source": "https://en.wikipedia.org/wiki/FC_Neftekhimik_Nizhnekamsk",
     "status": "draft"
   },
   "Q157352": {
@@ -1074,9 +1119,24 @@
     "source": "https://en.wikipedia.org/wiki/1._SC_Znojmo_FK",
     "status": "draft"
   },
+  "Q163447": {
+    "text": "Vittoriosa Stars Football Club are a Maltese football club from the seaside town of Birgu, which currently plays in the Maltese Challenge League. They were founded in 1906.",
+    "source": "https://en.wikipedia.org/wiki/Vittoriosa_Stars_F.C.",
+    "status": "draft"
+  },
   "Q166496": {
     "text": "Étoile Carouge FC is a Swiss football team based in Carouge. The club was founded in 1904. As of the 2024–25 season.",
     "source": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC",
+    "status": "draft"
+  },
+  "Q168660": {
+    "text": "Portadown Football Club is a semi-professional Northern Irish football club who play in the NIFL Premiership.",
+    "source": "https://en.wikipedia.org/wiki/Portadown_F.C.",
+    "status": "draft"
+  },
+  "Q170040": {
+    "text": "FC Rubin Kazan is a Russian professional football club based in the city of Kazan. They play in the Russian Premier League. Founded in 1958, Rubin played its first-ever top flight season in 2003.",
+    "source": "https://en.wikipedia.org/wiki/FC_Rubin_Kazan",
     "status": "draft"
   },
   "Q170117": {
@@ -1137,6 +1197,11 @@
   "Q182876": {
     "text": "Association de la Jeunesse Auxerroise, commonly known as AJ Auxerre or by the abbreviation AJA, is a professional football club based in Auxerre, Bourgogne-Franche-Comté, France. The club currently competes in Ligue 1, the top division of French football. Auxerre plays its home matches at the Stade de l'Abbé-Deschamps, on the banks of the Yonne River.",
     "source": "https://en.wikipedia.org/wiki/AJ_Auxerre",
+    "status": "draft"
+  },
+  "Q182930": {
+    "text": "FC Rostov is a Russian professional football club based in Rostov-on-Don. The club competes in the Russian Premier League, playing their home matches at the Rostov Arena.",
+    "source": "https://en.wikipedia.org/wiki/FC_Rostov",
     "status": "draft"
   },
   "Q185163": {
@@ -1389,6 +1454,11 @@
     "source": "https://en.wikipedia.org/wiki/Molde_FK",
     "status": "draft"
   },
+  "Q208574": {
+    "text": "FK Rabotnichki, commonly known as Rabotnichki and occasionally by the nickname \"The Romantics\", is a professional football club based in Skopje, North Macedonia. Founded on 4 October 1937, the club plays its home matches at the Toše Proeski Arena, the country's largest stadium, which they share with their city rivals FK Vardar and the North Macedonia national football team.",
+    "source": "https://en.wikipedia.org/wiki/FK_Rabotnicki",
+    "status": "draft"
+  },
   "Q208584": {
     "text": "Helsingin Jalkapalloklubi, commonly known as HJK Helsinki outside of Finland, or simply as HJK, is a Finnish football club based in Helsinki. The club competes in Veikkausliiga, the top division of the Finnish football league system. Founded in 1907, the club has spent most of its history in the top tier of Finnish football.",
     "source": "https://en.wikipedia.org/wiki/Helsingin_Jalkapalloklubi",
@@ -1594,6 +1664,11 @@
     "source": "https://en.wikipedia.org/wiki/FK_Javor_Ivanjica",
     "status": "draft"
   },
+  "Q218789": {
+    "text": "FK Teteks is a professional football club from the city of Tetovo in North Macedonia. They are currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Teteks",
+    "status": "draft"
+  },
   "Q219233": {
     "text": "Stichting Betaald Voetbal Vitesse Arnhem, commonly known as Vitesse or internationally as Vitesse Arnhem, is a Dutch football club based in Arnhem, Gelderland. Founded on 14 May 1892, it is one of the oldest professional clubs in the Netherlands. Vitesse last competed in the Eerste Divisie, the second tier of the Dutch football league system.",
     "source": "https://en.wikipedia.org/wiki/SBV_Vitesse",
@@ -1622,6 +1697,11 @@
   "Q219929": {
     "text": "Fudbalski klub Željezničar Sarajevo, commonly referred to as Željo, is a professional football club, based in Sarajevo, Bosnia and Herzegovina. The name Željezničar means \"railway worker\", originating from their establishment by a group of railway workers in 1921. Throughout its history, the club has cultivated a reputation for producing talented home-grown players through its youth school.",
     "source": "https://en.wikipedia.org/wiki/FK_%C5%BDeljezni%C4%8Dar_Sarajevo",
+    "status": "draft"
+  },
+  "Q220854": {
+    "text": "FC Krasnodar is a Russian professional football club based in Krasnodar that plays in the Russian Premier League. They won the league in the 2024–25 season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Krasnodar",
     "status": "draft"
   },
   "Q220863": {
@@ -1724,9 +1804,24 @@
     "source": "https://en.wikipedia.org/wiki/Turun_Palloseura",
     "status": "draft"
   },
+  "Q239173": {
+    "text": "Fgura United Football Club, commonly known as Fgura United is a Maltese football club based in Fgura, Malta. The club currently plays in the Maltese First Division.",
+    "source": "https://en.wikipedia.org/wiki/Fgura_United_F.C.",
+    "status": "draft"
+  },
   "Q239663": {
     "text": "Fudbalski klub Sarajevo, is a professional football club based in Sarajevo, the capital city of Bosnia and Herzegovina and is one of the most successful clubs in the country.",
     "source": "https://en.wikipedia.org/wiki/FK_Sarajevo",
+    "status": "draft"
+  },
+  "Q240438": {
+    "text": "FC Alania Vladikavkaz is a Russian football team from Vladikavkaz. Founded in 1921, the club played in the Soviet Top League during the communist era, and won its first and only league title in the 1995 Russian Top League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Alania_Vladikavkaz_(2019)",
+    "status": "draft"
+  },
+  "Q240444": {
+    "text": "Republican Football Club Akhmat, commonly known as Akhmat Grozny, and formerly as Terek Grozny from 1958 to 2017, is a Russian professional football club based in Grozny that plays in the Russian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Akhmat_Grozny",
     "status": "draft"
   },
   "Q240783": {
@@ -1742,6 +1837,11 @@
   "Q244317": {
     "text": "Football Club Pyunik, commonly known as Pyunik, is an Armenian professional sports club based in the Kentron neighbourhood of Yerevan. Pyunik is mostly known for its professional football team which, since its creation in 1992, has always played in the Armenian Premier League, becoming the most successful team of Armenia in number of official titles, with 34 won to date.",
     "source": "https://en.wikipedia.org/wiki/FC_Pyunik",
+    "status": "draft"
+  },
+  "Q244472": {
+    "text": "Linfield Football Club is a Northern Irish professional football club, based in south Belfast, which plays in the NIFL Premiership – the highest level of the Northern Ireland Football League. The fourth-oldest club on the island of Ireland, Linfield was founded in 1886 by workers at the Ulster Spinning Company's Linfield Mill.",
+    "source": "https://en.wikipedia.org/wiki/Linfield_F.C.",
     "status": "draft"
   },
   "Q244595": {
@@ -1772,6 +1872,11 @@
   "Q248345": {
     "text": "FK Čáslav is a Czech football club from Čáslav. It plays in the Bohemian Football League.",
     "source": "https://en.wikipedia.org/wiki/FK_%C4%8C%C3%A1slav",
+    "status": "draft"
+  },
+  "Q249533": {
+    "text": "Glentoran is a professional football club based in East Belfast, Northern Ireland, that plays in the NIFL Premiership. The club was founded in 1882 and has since won more than 130 major honours. They are one of three Irish League teams to have never been relegated.",
+    "source": "https://en.wikipedia.org/wiki/Glentoran_F.C.",
     "status": "draft"
   },
   "Q252276": {
@@ -1859,6 +1964,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Vorskla_Poltava",
     "status": "draft"
   },
+  "Q274778": {
+    "text": "PFC Krylia Sovetov Samara is a Russian professional football club based in Samara that plays in the Russian Premier League. In 2004, they finished third in the Russian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/PFC_Krylia_Sovetov_Samara",
+    "status": "draft"
+  },
   "Q275138": {
     "text": "FC Haka, originally Valkeakosken Haka, commonly known as Haka, is a Finnish professional football club based in the industrial town of Valkeakoski. The club was founded in 1934 and competes in Finland's second division the Ykkösliiga. It is one of the most successful clubs in Finland, with nine Finnish championships and 12 Finnish Cup wins.",
     "source": "https://en.wikipedia.org/wiki/FC_Haka",
@@ -1932,6 +2042,11 @@
   "Q289286": {
     "text": "Alliance Club Horsens, commonly referred to as AC Horsens or simply Horsens, is a Danish professional football club based in Horsens, Central Denmark Region. Founded in 1994, as a superstructure on Horsens fS, Stensballe IK and FC Horsens, the club competes in the Danish Superliga following promotion in 2025-2026 from the 1st Division, the second tier of the Danish football league system.",
     "source": "https://en.wikipedia.org/wiki/AC_Horsens",
+    "status": "draft"
+  },
+  "Q289343": {
+    "text": "Associazione Calcio Libertas is a Sanmarinese football club, based in Borgo Maggiore. The club was founded in 1928. Libertas currently plays in Girone B of Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/AC_Libertas",
     "status": "draft"
   },
   "Q289347": {
@@ -2034,6 +2149,11 @@
     "source": "https://en.wikipedia.org/wiki/US_Avellino_1912",
     "status": "draft"
   },
+  "Q300812": {
+    "text": "Żabbar St. Patrick Football Club is a Maltese professional football club from the town of Żabbar, which currently plays in the Maltese Premier League. The club was founded in 1912. They also play in the annual Maltese FA Trophy.",
+    "source": "https://en.wikipedia.org/wiki/%C5%BBabbar_St._Patrick_F.C.",
+    "status": "draft"
+  },
   "Q301431": {
     "text": "Aarhus Gymnastikforening is a professional sports club based in Aarhus, Jutland, Denmark. Founded in 1880, it is one of the oldest clubs in the country where gymnastics and fencing were featured as its main sports. However, AGF is mostly known for its football department, which was established in 1902.",
     "source": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening",
@@ -2074,9 +2194,19 @@
     "source": "https://en.wikipedia.org/wiki/FC_Lausanne-Sport",
     "status": "draft"
   },
+  "Q312423": {
+    "text": "Żebbuġ Rangers Football Club is a semi-professional football club from the town of Żebbuġ in Malta. The club currently competes in the Maltese Challenge League. In the 2022 they won the Maltese Challenge League after a win against Pembroke Athleta.",
+    "source": "https://en.wikipedia.org/wiki/%C5%BBebbu%C4%A1_Rangers_F.C.",
+    "status": "draft"
+  },
   "Q312429": {
     "text": "Athlitikos Omilos Ayia Napa is a Cypriot football club from the town of Ayia Napa. The club was founded in 1990 after the merger of two clubs: APEAN and ENAN.",
     "source": "https://en.wikipedia.org/wiki/Ayia_Napa_FC",
+    "status": "draft"
+  },
+  "Q312768": {
+    "text": "Żurrieq Football Club is a Maltese football club based in Żurrieq, Malta. The club currently plays in the Maltese Challenge League. They also play in the annual Maltese FA Trophy.",
+    "source": "https://en.wikipedia.org/wiki/%C5%BBurrieq_F.C.",
     "status": "draft"
   },
   "Q316865": {
@@ -2099,9 +2229,19 @@
     "source": "https://en.wikipedia.org/wiki/St_Mirren_F.C.",
     "status": "draft"
   },
+  "Q319756": {
+    "text": "Aberystwyth Town Football Club is a Welsh football club, relegated to the Cymru South for the 2025–26 season.",
+    "source": "https://en.wikipedia.org/wiki/Aberystwyth_Town_F.C.",
+    "status": "draft"
+  },
   "Q321061": {
     "text": "FC Sion, also known simply as Sion or formally as Football Club Sion, with the club's first team incorporated as Olympique des Alpes SA, is a Swiss football club from the city of Sion. Playing in the Swiss Super League, the highest tier of Swiss football, it has also won 13 Swiss Cups. The club was founded in 1909 and play their home matches at the Stade de Tourbillon.",
     "source": "https://en.wikipedia.org/wiki/FC_Sion",
+    "status": "draft"
+  },
+  "Q324338": {
+    "text": "Football Club Torpedo Moscow, known as Torpedo Moscow, is a Russian professional football club based in Moscow. The club plays in the Russian First League. Their colours are white and black, with green also commonly being associated with the club.",
+    "source": "https://en.wikipedia.org/wiki/FC_Torpedo_Moscow",
     "status": "draft"
   },
   "Q326811": {
@@ -2129,9 +2269,19 @@
     "source": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava",
     "status": "draft"
   },
+  "Q329510": {
+    "text": "FC Tom Tomsk was a Russian professional football club, based in the Siberian city of Tomsk. The team played in Trud Stadium (Tomsk) before being dissolved in 2022.",
+    "source": "https://en.wikipedia.org/wiki/FC_Tom_Tomsk",
+    "status": "draft"
+  },
   "Q330978": {
     "text": "B36 Tórshavn is a Faroese football club based in the capital of Tórshavn, playing in the Faroe Islands Premier League, the top tier of Faroese football. B36 Tórshavn has always played its home games in Gundadalur.",
     "source": "https://en.wikipedia.org/wiki/B36_T%C3%B3rshavn",
+    "status": "draft"
+  },
+  "Q331589": {
+    "text": "Valletta F.C. is a professional football club based in Valletta, the capital city of Malta. The club currently competes in the Maltese Premier League. The club was founded in 1943 after a merge of Valletta Prestons, Valletta St.",
+    "source": "https://en.wikipedia.org/wiki/Valletta_F.C.",
     "status": "draft"
   },
   "Q332642": {
@@ -2147,6 +2297,11 @@
   "Q332702": {
     "text": "Football Club Ararat Yerevan, commonly known as Ararat Yerevan, is an Armenian professional football club based in Yerevan that plays in the Armenian Premier League.",
     "source": "https://en.wikipedia.org/wiki/FC_Ararat_Yerevan",
+    "status": "draft"
+  },
+  "Q335190": {
+    "text": "FK Vardar is a professional football club based in Skopje, Republic of North Macedonia, which competes in the Macedonian First League. It is the most successful football club in football in North Macedonia, that has won twelve Championship titles, six Macedonian Cups, two Macedonian Super Cups and one Yugoslav Cup. In 2017, it became the first Macedonian club to qualify for the group stage of a European competition.",
+    "source": "https://en.wikipedia.org/wiki/FK_Vardar",
     "status": "draft"
   },
   "Q335195": {
@@ -2169,6 +2324,11 @@
     "source": "https://en.wikipedia.org/wiki/Dundalk_F.C.",
     "status": "draft"
   },
+  "Q343030": {
+    "text": "The Ħamrun Spartans Football Club is a Maltese professional football club based in Ħamrun. Since being founded in 1907, Ħamrun Spartans have won 11 league championships, the latest one being in 2025, while being runners-up eleven times.",
+    "source": "https://en.wikipedia.org/wiki/Hamrun_Spartans_F.C.",
+    "status": "draft"
+  },
   "Q344328": {
     "text": "İstanbulspor Kulübü is a Turkish football and sports club founded by Istanbul High School students in 1926. In 2004–05, they were relegated from the Turkish Süper Lig to the TFF First League. For many decades, it was the fourth most famous and well-developed professional football club in Istanbul, coming after Beşiktaş, Galatasaray, and Fenerbahçe.",
     "source": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor",
@@ -2177,6 +2337,11 @@
   "Q345142": {
     "text": "ŁKS Łódź is a Polish sports club based in Łódź. They are best known for their football club but are represented in many sports such as basketball, volleyball, boxing, and in the past ice hockey, athletics, tennis, table tennis, swimming, cycling, fencing, chess, etc. The club is based at Władysław Król Municipal Stadium, at Aleja Unii Lubelskiej 2 in the West of Łódź.",
     "source": "https://en.wikipedia.org/wiki/%C5%81KS_%C5%81%C3%B3d%C5%BA",
+    "status": "draft"
+  },
+  "Q348902": {
+    "text": "Balzan Football Club is a Maltese professional football club from the village of Balzan that competes in the Maltese Premier League, the top tier of Maltese football. The club was founded as Balzan Youths in 1937 and played in the top division between 2010 and 2025. They were renamed Balzan FC in June 2012.",
+    "source": "https://en.wikipedia.org/wiki/Balzan_F.C.",
     "status": "draft"
   },
   "Q352251": {
@@ -2299,6 +2464,16 @@
     "source": "https://en.wikipedia.org/wiki/NK_Bosna_Visoko",
     "status": "draft"
   },
+  "Q386670": {
+    "text": "Marsaxlokk Football Club is a Maltese professional football club from the town of Marsaxlokk, which currently plays in the BOV Premier League. The club was founded in 1949. Marsaxlokk won the Maltese Premier League title for the first time in their history, when they became league champions for the 2006–07 season.",
+    "source": "https://en.wikipedia.org/wiki/Marsaxlokk_F.C.",
+    "status": "draft"
+  },
+  "Q387224": {
+    "text": "F.C. Fiorentino is a Sanmarinese football club, based in Fiorentino. The club was founded in 1974. Fiorentino currently plays in Girone A of Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/FC_Fiorentino",
+    "status": "draft"
+  },
   "Q388487": {
     "text": "Şanlıurfaspor is a Turkish sports club located in Urfa. The football team currently plays in the TFF 2. Lig.",
     "source": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor",
@@ -2314,6 +2489,11 @@
     "source": "https://en.wikipedia.org/wiki/Esbjerg_fB",
     "status": "draft"
   },
+  "Q390183": {
+    "text": "The New Saints of Oswestry Town & Llansantffraid Football Club, commonly known as The New Saints or TNS FC are a professional football club that play in the Cymru Premier, part of the Welsh football system, but are based completely within England, in Oswestry, Shropshire.",
+    "source": "https://en.wikipedia.org/wiki/The_New_Saints_F.C.",
+    "status": "draft"
+  },
   "Q390256": {
     "text": "Dunfermline Athletic Football Club is a Scottish professional football club based in the city of Dunfermline, Fife. Founded in 1885, the club currently compete in the Scottish Championship after winning the 2022–23 Scottish League One title. Nicknamed The Pars, Dunfermline play at East End Park.",
     "source": "https://en.wikipedia.org/wiki/Dunfermline_Athletic_F.C.",
@@ -2324,9 +2504,29 @@
     "source": "https://en.wikipedia.org/wiki/GAIS",
     "status": "draft"
   },
+  "Q391790": {
+    "text": "Mosta Football Club is a Maltese football club based in the town of Mosta on the island of Malta. They have played in the Maltese Premier League since the 2011–12 season.",
+    "source": "https://en.wikipedia.org/wiki/Mosta_F.C.",
+    "status": "draft"
+  },
   "Q392310": {
     "text": "Linzer Athletik-Sport-Klub, or Linzer ASK, is an Austrian professional football club based in Upper-Austrian state capital Linz. It is the oldest football club in that region, and plays in the Austrian Football Bundesliga, the top tier of Austrian football. The club's colours are black and white.",
     "source": "https://en.wikipedia.org/wiki/LASK",
+    "status": "draft"
+  },
+  "Q393281": {
+    "text": "Birżebbuġa St. Peter's Football Club is a Maltese football club from the southern town of Birżebbuġa, which currently plays in the Maltese Premier League. They are the only football team from the town of Birżebbuġa. They are known for producing young players from their Youth Nursery, which is called Birżebbuġa Windmills Youth Nursery.",
+    "source": "https://en.wikipedia.org/wiki/Bir%C5%BCebbu%C4%A1a_St._Peter's_F.C.",
+    "status": "draft"
+  },
+  "Q393286": {
+    "text": "Gudja United Football Club is a Maltese football club from the south-eastern village of Gudja, that currently plays in the Maltese Premier League.",
+    "source": "https://en.wikipedia.org/wiki/Gudja_United_F.C.",
+    "status": "draft"
+  },
+  "Q393302": {
+    "text": "Gżira United Football Club is a Maltese professional football club from the small harbor town of Gżira in central Malta, which currently plays in the Maltese Premier League.",
+    "source": "https://en.wikipedia.org/wiki/G%C5%BCira_United_F.C.",
     "status": "draft"
   },
   "Q394452": {
@@ -2347,6 +2547,11 @@
   "Q399282": {
     "text": "HŠK Zrinjski Mostar, colloquially referred to as Zrinjski Mostar or simply Zrinjski, is a professional football club, based in Mostar, Bosnia and Herzegovina. The club plays in the Premier League of Bosnia and Herzegovina and with nine Premier League titles, Zrinjski is one of the most decorated football clubs in the country. The club plays its home matches at Stadion pod Bijelim Brijegom in Mostar.",
     "source": "https://en.wikipedia.org/wiki/H%C5%A0K_Zrinjski_Mostar",
+    "status": "draft"
+  },
+  "Q402922": {
+    "text": "FK Makedonija Gjorche Petrov, commonly referred to as Makedonija GP, is a football club based in the municipality of Gjorche Petrov, in Skopje, North Macedonia. They are currently playing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Makedonija_G.P.",
     "status": "draft"
   },
   "Q404384": {
@@ -2407,6 +2612,11 @@
   "Q430107": {
     "text": "Samsunspor Kulübü is a Turkish professional association football club based in the city of Samsun, on the southern coast of the Black Sea. The club competes in the Süper Lig, the top tier of the Turkish football league system.",
     "source": "https://en.wikipedia.org/wiki/Samsunspor",
+    "status": "draft"
+  },
+  "Q430931": {
+    "text": "A.C. Juvenes/Dogana is a Sammarinese football club based in Dogana, in the civil parish of Serravalle. The club was founded in 2000 after the merger of S.S.",
+    "source": "https://en.wikipedia.org/wiki/AC_Juvenes%2FDogana",
     "status": "draft"
   },
   "Q430993": {
@@ -2519,6 +2729,11 @@
     "source": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
     "status": "draft"
   },
+  "Q484990": {
+    "text": "St. Andrews Football Club are a Maltese football club from the town of St. Andrew's, Pembroke, which currently plays in the Maltese Challenge League.",
+    "source": "https://en.wikipedia.org/wiki/St._Andrews_F.C._(Malta)",
+    "status": "draft"
+  },
   "Q493015": {
     "text": "NK HAŠK 1903 Zagreb is a Croatian football club from Zagreb that currently competes in the Third Football League – Center. The club plays its home matches at the Donje Svetice ground in the Peščenica district of Zagreb. It was founded on November 23, 1990, as a continuation of the football section of the former HAŠK, which was abolished by decree of the communist authorities on June 4, 1945.",
     "source": "https://en.wikipedia.org/wiki/NK_HA%C5%A0K",
@@ -2569,6 +2784,11 @@
     "source": "https://en.wikipedia.org/wiki/Dijon_FCO",
     "status": "draft"
   },
+  "Q506224": {
+    "text": "S.P. Tre Fiori Football Club, also known simply as Tre Fiori, is a football section of the multi-sports club S.P. Tre Fiori, based in Fiorentino, San Marino. The club, formed in 1949, has been awarded 9 national championship titles and 8 national cup titles, making them the most successful club in the history of San Marino football.",
+    "source": "https://en.wikipedia.org/wiki/Tre_Fiori_FC",
+    "status": "draft"
+  },
   "Q509170": {
     "text": "Sportkring Beveren is a Belgian professional association football club based in Beveren, East Flanders. The club is affiliated with the founded number 4068 and has yellow and blue as its colours. The team was founded in 1936 in Haasdonk and joined the Belgian Football Association in 1944 as FC Red Star Haasdonk.",
     "source": "https://en.wikipedia.org/wiki/SK_Beveren",
@@ -2614,6 +2834,11 @@
     "source": "https://en.wikipedia.org/wiki/Red_Star_FC",
     "status": "draft"
   },
+  "Q525573": {
+    "text": "S.S. Murata is a Sanmarinese football club, based in Murata, a civil parish of the city of San Marino. The club was founded in 1966. Murata currently plays in Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/SS_Murata",
+    "status": "draft"
+  },
   "Q526794": {
     "text": "FC Sportist is a Bulgarian football club based in Svoge, which currently competes in the Second League, the second tier of Bulgarian football, following promotion from the Third League.",
     "source": "https://en.wikipedia.org/wiki/FC_Sportist_Svoge",
@@ -2622,6 +2847,11 @@
   "Q528289": {
     "text": "NK Mosor, also known as HBDNK \"Mosor – Sveti Jure\", was a Croatian football club from Žrnovnica, settlement which is part of the city of Split on the Croatian coast.",
     "source": "https://en.wikipedia.org/wiki/NK_Mosor",
+    "status": "draft"
+  },
+  "Q528485": {
+    "text": "GFK Ohrid Lychnidos is a football club from the city of Ohrid in North Macedonia. They play in blue and white jerseys at the SRC Biljanini Izvori football complex and its currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Ohrid",
     "status": "draft"
   },
   "Q532767": {
@@ -2654,6 +2884,11 @@
     "source": "https://en.wikipedia.org/wiki/HB_K%C3%B8ge",
     "status": "draft"
   },
+  "Q542103": {
+    "text": "S.C. Faetano is a Sanmarinese football club, based in Faetano. The club was founded in 1962. Faetano currently plays in Campionato Sammarinese di Calcio, the only football league of San Marino.",
+    "source": "https://en.wikipedia.org/wiki/SC_Faetano",
+    "status": "draft"
+  },
   "Q543467": {
     "text": "Grupo Desportivo de Chaves, commonly known as Chaves, is a Portuguese professional football club from Chaves, who are playing in the Liga Portugal 2. They were founded in 1949 and currently play at Estádio Municipal Eng. Manuel Branco Teixeira. Their home kit is red-and-blue striped shirt with blue shorts and socks, and the away kit is all white.",
     "source": "https://en.wikipedia.org/wiki/G.D._Chaves",
@@ -2669,6 +2904,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Neman_Grodno",
     "status": "draft"
   },
+  "Q546034": {
+    "text": "FK Yenisey Krasnoyarsk is a Russian football club based in Krasnoyarsk, in Krasnoyarsk Krai. The club plays in the Russian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Yenisey_Krasnoyarsk",
+    "status": "draft"
+  },
   "Q546557": {
     "text": "Jetisu Taldykorgan is a Kazakh professional football club based at the Zhetysu stadium in Taldykorgan. They are a founding member of the Kazakhstan Premier League, having missed five seasons because of relegations.",
     "source": "https://en.wikipedia.org/wiki/FC_Zhetysu",
@@ -2677,6 +2917,11 @@
   "Q549650": {
     "text": "Boldklubben Fremad Amager is a Danish professional football club based in the district of Amager Vest, Copenhagen. The club's senior men's team play in 2nd Division, the third tier in the Danish football league system. The club have primarily played their home games at Sundby Idrætspark since the stadium's inauguration in 1922.",
     "source": "https://en.wikipedia.org/wiki/Fremad_Amager",
+    "status": "draft"
+  },
+  "Q553732": {
+    "text": "Airbus UK Broughton Football Club is a semi-professional football club based in Broughton, Flintshire, Wales. They had their origins as the works team of the Airbus UK factory in Broughton where the wings of Airbus aircraft are produced, and are consequently nicknamed The Wingmakers or The Planemakers. They play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Airbus_UK_Broughton_F.C.",
     "status": "draft"
   },
   "Q557612": {
@@ -3079,14 +3324,29 @@
     "source": "https://en.wikipedia.org/wiki/SC_Kriens",
     "status": "draft"
   },
+  "Q674454": {
+    "text": "Ballinamallard United Football Club is a semi-professional Northern Irish football club playing in the NIFL Championship. The club, re-formed in 1975 after being dormant since the 1960s, hails from Ballinamallard, near Enniskillen, County Fermanagh, and plays its home matches at Ferney Park. Club colours are all royal blue (home), and all white (away).",
+    "source": "https://en.wikipedia.org/wiki/Ballinamallard_United_F.C.",
+    "status": "draft"
+  },
   "Q674799": {
     "text": "FC Biel-Bienne is a Swiss association football club based in Biel/Bienne. They currently play in the Swiss Promotion League, the third tier of Swiss football.",
     "source": "https://en.wikipedia.org/wiki/FC_Biel-Bienne",
     "status": "draft"
   },
+  "Q674867": {
+    "text": "Moyola Park Association Football Club is a semi-professional, Northern Irish football club playing in the NIFL Championship. The club, founded in 1880, hails from Castledawson, near Magherafelt, County Londonderry, and plays its home matches at Mill Meadow. Club colours are royal blue and yellow.",
+    "source": "https://en.wikipedia.org/wiki/Moyola_Park_F.C.",
+    "status": "draft"
+  },
   "Q679317": {
     "text": "Karvan İdman Klubu is an Azerbaijani professional football club based in Yevlakh that participates in the Azerbaijan Premier League after promotion from the Azerbaijan First Division in 2025. It was the first Azerbaijani club to pass the first qualification stage in the UEFA Cup.",
     "source": "https://en.wikipedia.org/wiki/Karvan_%C4%B0K",
+    "status": "draft"
+  },
+  "Q679572": {
+    "text": "Pietà Hotspurs Football Club is a Maltese football club based in Pietà, founded in 1968. The club currently plays in the Maltese Challenge League.",
+    "source": "https://en.wikipedia.org/wiki/Piet%C3%A0_Hotspurs_F.C.",
     "status": "draft"
   },
   "Q680770": {
@@ -3124,6 +3384,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Gossau",
     "status": "draft"
   },
+  "Q690787": {
+    "text": "SS Folgore Falciano Calcio is a Sanmarinese football club based in Falciano, Serravalle. The club was founded in 1972. Folgore currently plays in Girone A of Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/SS_Folgore_Falciano_Calcio",
+    "status": "draft"
+  },
   "Q692186": {
     "text": "FC Lustenau 07 is a football club based in Lustenau, Vorarlberg. They currently compete in the Austrian Regionalliga, the third tier of Austrian football. Until the 2012–13 they played in the Second League.",
     "source": "https://en.wikipedia.org/wiki/FC_Lustenau_07",
@@ -3142,6 +3407,11 @@
   "Q693092": {
     "text": "Racing Fussball Club Union Luxembourg, usually abbreviated to Racing-Union, is a professional football club based in Luxembourg City, in southern Luxembourg.",
     "source": "https://en.wikipedia.org/wiki/Racing_FC_Union_Luxembourg",
+    "status": "draft"
+  },
+  "Q693951": {
+    "text": "PFC Spartak Nalchik is a Russian association football club based in Nalchik that plays in the fourth-tier Russian Second League Division B. They played in the Russian Premier League between 2006 and 2012.",
+    "source": "https://en.wikipedia.org/wiki/PFC_Spartak_Nalchik",
     "status": "draft"
   },
   "Q694484": {
@@ -3182,6 +3452,11 @@
   "Q702455": {
     "text": "RasenBallsport Leipzig e.V., commonly known as RB Leipzig or informally as Red Bull Leipzig, or simply Leipzig, is a German professional football club based in Leipzig, Saxony. The club was founded in 2009 by the initiative of the company Red Bull GmbH, which purchased the playing rights of fifth-tier side SSV Markranstädt with the intent of advancing the new club to the top-flight Bundesliga within eight years.",
     "source": "https://en.wikipedia.org/wiki/RB_Leipzig",
+    "status": "draft"
+  },
+  "Q704857": {
+    "text": "S.P. Tre Penne is a multi-sports club based in the City of San Marino. It is best known for their football section. Literally meaning the \"Three Feathers\", the club was founded in 1956, and currently plays in Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/SP_Tre_Penne",
     "status": "draft"
   },
   "Q714581": {
@@ -3267,6 +3542,11 @@
   "Q727918": {
     "text": "Motor Lublin is a Polish professional football club based in Lublin, in the Lublin Voivodeship. Founded in December 1950, the club is historically associated with the Fabryka Samochodów Ciężarowych automotive plant and takes its nickname, Żółto-biało-niebiescy, from its official colours.",
     "source": "https://en.wikipedia.org/wiki/Motor_Lublin",
+    "status": "draft"
+  },
+  "Q728557": {
+    "text": "Floriana Football Club is a Maltese professional football club based in the town of Floriana that currently plays in the Maltese Premier League. Considered one of the most supported and successful clubs in Maltese football, Floriana has won 27 national league titles and 21 FA trophies.",
+    "source": "https://en.wikipedia.org/wiki/Floriana_F.C.",
     "status": "draft"
   },
   "Q729512": {
@@ -3377,6 +3657,11 @@
   "Q745364": {
     "text": "Sørvágs Ítróttarfelag, commonly known as SÍ, is a sports association based in Sørvágur, Faroe Islands. It was founded on 17 March 1905.",
     "source": "https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gs_%C3%8Dtr%C3%B3ttarfelag",
+    "status": "draft"
+  },
+  "Q746206": {
+    "text": "Società Sportiva Pennarossa is a Sanmarinese football club, based in Chiesanuova. The club was founded in 1968. Pennarossa currently plays in Girone A of Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/SS_Pennarossa",
     "status": "draft"
   },
   "Q746853": {
@@ -3544,6 +3829,11 @@
     "source": "https://en.wikipedia.org/wiki/UN_K%C3%A4erj%C3%A9ng_97",
     "status": "draft"
   },
+  "Q771539": {
+    "text": "Dundela Football Club, nicknamed \"The Duns\" is a semi-professional, Northern Irish football club from Belfast, currently playing in the NIFL Championship, and plays its home matches at Wilgar Park. The club's colours are green and white. The home kit has green shirts, green shorts and green socks, whilst the away kit is all red.",
+    "source": "https://en.wikipedia.org/wiki/Dundela_F.C.",
+    "status": "draft"
+  },
   "Q771941": {
     "text": "Fudbalski klub Sloboda Tuzla (English: Football Club Sloboda Tuzla) is a Bosnian professional football club based in Tuzla, Bosnia and Herzegovina. The English translation of the team's name is Football Club Freedom Tuzla.",
     "source": "https://en.wikipedia.org/wiki/FK_Sloboda_Tuzla",
@@ -3559,6 +3849,11 @@
     "source": "https://en.wikipedia.org/wiki/US_Hostert",
     "status": "draft"
   },
+  "Q775924": {
+    "text": "S.P. Cailungo is a Sanmarinese football club, based in Cailungo, a civil parish of Borgo Maggiore. The club was founded in 1974. Cailungo currently plays in Girone A of Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/SP_Cailungo",
+    "status": "draft"
+  },
   "Q778858": {
     "text": "Tvøroyrar Bóltfelag is a Faroese professional football club from Tvøroyri, currently playing in the second tier of Faroese football. TB Tvøroyri is the oldest football club in the Faroe Islands, and also one of the oldest in the Danish Realm, in which the Faroe Islands are a self-governing country.",
     "source": "https://en.wikipedia.org/wiki/Tv%C3%B8royrar_B%C3%B3ltfelag",
@@ -3567,6 +3862,11 @@
   "Q779698": {
     "text": "Astana Football Club is a professional football club based in Astana. They compete in the Kazakhstan Premier League, the highest tier of Kazakh football. The club's home ground is the 30,000-seat Astana Arena stadium.",
     "source": "https://en.wikipedia.org/wiki/FC_Astana",
+    "status": "draft"
+  },
+  "Q779835": {
+    "text": "Cliftonville Football & Athletic Club is a professional association football club playing in the NIFL Premiership – the top division of the Northern Ireland Football League. The club was founded on 20 September 1879 by John McAlery in the suburb of Cliftonville in north Belfast and are the founders of football in Ireland.",
+    "source": "https://en.wikipedia.org/wiki/Cliftonville_F.C.",
     "status": "draft"
   },
   "Q782989": {
@@ -3594,9 +3894,19 @@
     "source": "https://en.wikipedia.org/wiki/Boldklubben_af_1893",
     "status": "draft"
   },
+  "Q795978": {
+    "text": "FC Baltika is a professional association football club based in Kaliningrad, Russia which plays in the Russian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Baltika_Kaliningrad",
+    "status": "draft"
+  },
   "Q798143": {
     "text": "FC Gefest is a Kazakhstani football club based in Karagandy.",
     "source": "https://en.wikipedia.org/wiki/FC_Gefest",
+    "status": "draft"
+  },
+  "Q803976": {
+    "text": "Birkirkara Football Club is a professional football club based in the town of Birkirkara, on the island of Malta. The club was formed in 1950, following the amalgamation of Birkirkara United and Birkirkara Celtic. Birkirkara currently play in the Maltese Premier League, which it has won on four occasions, most recently in the 2012–13 season.",
+    "source": "https://en.wikipedia.org/wiki/Birkirkara_F.C.",
     "status": "draft"
   },
   "Q804515": {
@@ -3609,6 +3919,11 @@
     "source": "https://en.wikipedia.org/wiki/Bak%C4%B1l%C4%B1_PFK",
     "status": "draft"
   },
+  "Q805429": {
+    "text": "Ballymena United Football Club is a semi-professional football club from Northern Ireland. Based in Ballymena, County Antrim, the team competes in the NIFL Premiership and plays home matches at the Ballymena Showgrounds.",
+    "source": "https://en.wikipedia.org/wiki/Ballymena_United_F.C.",
+    "status": "draft"
+  },
   "Q805909": {
     "text": "Balıkesirspor is a Turkish club based in Balıkesir. Established in 1966, the football team played in the Süper Lig after achieving promotion having finished as runners-up of the TFF First League in 2013–14. The team's previous promotion was 40 years before that.",
     "source": "https://en.wikipedia.org/wiki/Bal%C4%B1kesirspor",
@@ -3617,6 +3932,16 @@
   "Q806459": {
     "text": "FK Banga Gargždai is a Lithuanian professional football club from the city of Gargždai.",
     "source": "https://en.wikipedia.org/wiki/FK_Banga_Garg%C5%BEdai",
+    "status": "draft"
+  },
+  "Q806549": {
+    "text": "Bangor Football Club is a semi-professional Northern Irish football club playing in the NIFL Premiership. The club, founded in 1918, hails from Bangor and plays its home matches at Clandeboye Park. Club colours are gold and royal blue.",
+    "source": "https://en.wikipedia.org/wiki/Bangor_F.C.",
+    "status": "draft"
+  },
+  "Q809114": {
+    "text": "Barry Town United Football Club is a semi-professional association football team based in Barry, Wales. They currently play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Barry_Town_United_F.C.",
     "status": "draft"
   },
   "Q818698": {
@@ -3687,6 +4012,11 @@
   "Q839313": {
     "text": "SK Dynamo České Budějovice is a professional football club from České Budějovice, Czech Republic. The club played in the Czech First League for 24 seasons, but was relegated in 2025. From 2026, the club plays in the Bohemian Football League, after it failed to meet the conditions for obtaining a license for professional competition and was administratively relegated from the Czech National Football League.",
     "source": "https://en.wikipedia.org/wiki/SK_Dynamo_%C4%8Cesk%C3%A9_Bud%C4%9Bjovice",
+    "status": "draft"
+  },
+  "Q840567": {
+    "text": "Crusaders Football Club is a semi-professional Northern Irish football club playing in the NIFL Premiership. The club, founded in 1898, is based in north Belfast and plays its home matches at Seaview.",
+    "source": "https://en.wikipedia.org/wiki/Crusaders_F.C.",
     "status": "draft"
   },
   "Q840765": {
@@ -3819,6 +4149,16 @@
     "source": "https://en.wikipedia.org/wiki/CD_Legan%C3%A9s",
     "status": "draft"
   },
+  "Q856468": {
+    "text": "Carmarthen Town Association Football Club is a Welsh semi-professional football club based in Carmarthen. The team play their home games at Richmond Park. The club colours, reflected in their crest and kit, are gold and black.",
+    "source": "https://en.wikipedia.org/wiki/Carmarthen_Town_A.F.C.",
+    "status": "draft"
+  },
+  "Q856474": {
+    "text": "Newtown Association Football Club is a Welsh football club based in Newtown, Powys, which plays in the Cymru North",
+    "source": "https://en.wikipedia.org/wiki/Newtown_A.F.C.",
+    "status": "draft"
+  },
   "Q857938": {
     "text": "İstanbul Başakşehir Futbol Kulübü, commonly referred to as Başakşehir or, due to sponsorship reasons, Rams Başakşehir, is a professional football club based in the Başakşehir district of Istanbul, Turkey.",
     "source": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
@@ -3889,6 +4229,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Eindhoven",
     "status": "draft"
   },
+  "Q889348": {
+    "text": "FC Ural Yekaterinburg is a Russian professional association football club based in Yekaterinburg that plays in the Russian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ural_Yekaterinburg",
+    "status": "draft"
+  },
   "Q891262": {
     "text": "FC Shakhter-Bulat is a Kazakhstani football club based in Temirtau. It was previously known as FC Bolat CSKA (2004) and FC Bolat MSK(2005). It currently plays as the farm club of Shakhter Karagandy.",
     "source": "https://en.wikipedia.org/wiki/FC_Shakhter-Bulat",
@@ -3934,6 +4279,11 @@
     "source": "https://en.wikipedia.org/wiki/NK_Bela_Krajina",
     "status": "draft"
   },
+  "Q913906": {
+    "text": "Football Club Domagnano, commonly referred to as FC Domagnano or simply Domagnano, is a Sanmarinese football club, based in Domagnano. The club was founded in 1966. Domagnano currently plays in Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/FC_Domagnano",
+    "status": "draft"
+  },
   "Q915352": {
     "text": "Paksi FC is a Hungarian professional football club based in Paks. Since its founding in 1952, it has played at either a county or national level. In 2006, it ascended to the Nemzeti Bajnokság I, the top division in Hungarian football, for the first time.",
     "source": "https://en.wikipedia.org/wiki/Paksi_FC",
@@ -3944,9 +4294,19 @@
     "source": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven",
     "status": "draft"
   },
+  "Q917145": {
+    "text": "Associazione Calcio Virtus is a Sammarinese football section of the multi-sports club Società Sportiva Virtus, based in Acquaviva. The club was founded in 1964. Virtus currently plays in Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/AC_Virtus",
+    "status": "draft"
+  },
   "Q917613": {
     "text": "Unió Esportiva Engordany is an Andorran multi-sports club based in Escaldes-Engordany. The club football section plays in Primera Divisió.",
     "source": "https://en.wikipedia.org/wiki/UE_Engordany",
+    "status": "draft"
+  },
+  "Q918146": {
+    "text": "Società Polisportiva La Fiorita is a Sammarinese multi-sports club, best known for its football section, based in Montegiardino. The club was founded in 1967. Fiorita currently plays in Girone A of Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/SP_La_Fiorita",
     "status": "draft"
   },
   "Q918425": {
@@ -3989,9 +4349,24 @@
     "source": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
     "status": "draft"
   },
+  "Q926582": {
+    "text": "Società Sportiva Cosmos is a Sammarinese football club, based in Serravalle and founded in 1979. Cosmos currently plays in Girone A of Campionato Sammarinese di Calcio. The team's colors are green and yellow.",
+    "source": "https://en.wikipedia.org/wiki/S.S._Cosmos",
+    "status": "draft"
+  },
+  "Q927084": {
+    "text": "Football Club SKA-Khabarovsk is a Russian professional association football club based in Khabarovsk which plays in the second-tier Russian First League. They played in the Russian Premier League for the first time ever in the 2017–18 season. At more than 6,000 kilometres (3,700 mi) east of Moscow, SKA Khabarovsk are the most Easterly team to have taken part in a UEFA domestic top division.",
+    "source": "https://en.wikipedia.org/wiki/FC_SKA-Khabarovsk",
+    "status": "draft"
+  },
   "Q929339": {
     "text": "FC Smorgon, also known as FK Smarhon or FK Smorgon, is a Belarusian professional football club based in Smarhon. They play in the Belarusian First League, the second level in the Belarusian league system.",
     "source": "https://en.wikipedia.org/wiki/FC_Smorgon",
+    "status": "draft"
+  },
+  "Q930725": {
+    "text": "Tarxien Rainbows Football Club is a professional football club from Tarxien, Malta. They have achieved promotion to the Maltese Premier League in 2025.",
+    "source": "https://en.wikipedia.org/wiki/Tarxien_Rainbows_F.C.",
     "status": "draft"
   },
   "Q931704": {
@@ -4019,14 +4394,34 @@
     "source": "https://en.wikipedia.org/wiki/FC_Yelimay",
     "status": "draft"
   },
+  "Q933213": {
+    "text": "FK Sileks is a professional football club based in Kratovo, North Macedonia, currently playing in the Macedonian First League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Sileks",
+    "status": "draft"
+  },
+  "Q936187": {
+    "text": "Hibernians Football Club is a Maltese professional football club based in the town of Paola. They are the only Malta football club to have never been relegated from the Premier League.",
+    "source": "https://en.wikipedia.org/wiki/Hibernians_F.C.",
+    "status": "draft"
+  },
   "Q937213": {
     "text": "Digenis Akritas Morphou is a Cypriot sports club from Morphou, founded on 23 April 1931. The club takes its name from the medieval Greek hero Digenis Akritas, who is depicted on the club's emblem. It has a football and a basketball team.",
     "source": "https://en.wikipedia.org/wiki/Digenis_Akritas_Morphou_FC",
     "status": "draft"
   },
+  "Q941152": {
+    "text": "Haverfordwest County Association Football Club is a Welsh professional football team based in Haverfordwest, Wales. They currently play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Haverfordwest_County_A.F.C.",
+    "status": "draft"
+  },
   "Q945043": {
     "text": "Galway United Football Club is an Irish professional football club based in Galway. They play in the League of Ireland Premier Division, following a promotion from the First Division in 2023. The team was founded as Galway Rovers F.C. during the 1930s.",
     "source": "https://en.wikipedia.org/wiki/Galway_United_F.C.",
+    "status": "draft"
+  },
+  "Q950480": {
+    "text": "Caernarfon Town Football Club is a professional Welsh football club based in Caernarfon, Gwynedd. They play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Caernarfon_Town_F.C.",
     "status": "draft"
   },
   "Q953621": {
@@ -4097,6 +4492,11 @@
   "Q995093": {
     "text": "FK RFS is a professional Latvian football club based in Riga. The club competes in the Virslīga, the top tier of Latvian football. It has existed in its current form since 2016, with predecessors dating back to 2005.",
     "source": "https://en.wikipedia.org/wiki/FK_RFS",
+    "status": "draft"
+  },
+  "Q995132": {
+    "text": "FK Skopje is a football club from Skopje, the capital of the North Macedonia. They are currently competing in the Macedonian First League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Skopje",
     "status": "draft"
   },
   "Q995313": {
@@ -4199,6 +4599,11 @@
     "source": "https://en.wikipedia.org/wiki/CSM_Cetatea_Suceava",
     "status": "draft"
   },
+  "Q1059186": {
+    "text": "SC Rotor Volgograd is a Russian professional football club from the large city of Volgograd, Volgograd Oblast. The club plays in the second-tier Russian First League, and are the largest and best supported Volgograd club. For most of their existence, they have been the city's only representatives in the national league system.",
+    "source": "https://en.wikipedia.org/wiki/FC_Rotor_Volgograd",
+    "status": "draft"
+  },
   "Q1059399": {
     "text": "Dumbarton Football Club is a semi-professional football club in Dumbarton, Scotland. Founded on 23 December 1872, they are one of the oldest football clubs in Scotland. Since December 2000, the club has played home games at The Rock next to Dumbarton Castle.",
     "source": "https://en.wikipedia.org/wiki/Dumbarton_F.C.",
@@ -4239,6 +4644,16 @@
     "source": "https://en.wikipedia.org/wiki/SC_Telstar",
     "status": "draft"
   },
+  "Q1077477": {
+    "text": "A.S. San Giovanni is a Sanmarinese football club, based in San Giovanni sotto le Penne, a civil parish of Borgo Maggiore. The club was founded in 1948. San Giovanni currently plays in Campionato Sammarinese di Calcio.",
+    "source": "https://en.wikipedia.org/wiki/AS_San_Giovanni",
+    "status": "draft"
+  },
+  "Q1082980": {
+    "text": "Institute Football Club is a Northern Irish semi-professional association football club playing in the NIFL Championship. The club, founded in 1905, currently play their home matches at the Ryan McBride Brandywell Stadium, Derry. Club colours are sky blue and maroon.",
+    "source": "https://en.wikipedia.org/wiki/Institute_F.C.",
+    "status": "draft"
+  },
   "Q1093688": {
     "text": "FC Vostok was a Kazakh football club from Öskemen (Ust-Kamenogorsk), and a founding member of the Kazakhstan Premier League in 1992. The club's best finish in the league was 5th place in 1997 and again in 1998.",
     "source": "https://en.wikipedia.org/wiki/FC_Vostok",
@@ -4257,6 +4672,11 @@
   "Q1105789": {
     "text": "FC Kazakhmys is a defunct Kazakhstani football club. They were based in Satpayev, Karagandy Province. They won the First Division 2007, but were not able to start in the Premier League 2008 due to financial difficulties.",
     "source": "https://en.wikipedia.org/wiki/FC_Kazakhmys",
+    "status": "draft"
+  },
+  "Q1108181": {
+    "text": "Coleraine Football Club is a Northern Irish football club, playing in the NIFL Premiership, the highest level of the Northern Ireland Football League.",
+    "source": "https://en.wikipedia.org/wiki/Coleraine_F.C.",
     "status": "draft"
   },
   "Q1110567": {
@@ -4302,6 +4722,16 @@
   "Q1129039": {
     "text": "NK Krajišnik Velika Kladuša is a football club from Bosnia and Herzegovina based in Velika Kladuša, established in 1938. After the 2020 season, the club stopped competing in any league due to their financial state.",
     "source": "https://en.wikipedia.org/wiki/NK_Kraji%C5%A1nik_Velika_Kladu%C5%A1a",
+    "status": "draft"
+  },
+  "Q1129387": {
+    "text": "Klubi i Futbollit Shkëndija, commonly known as Shkëndija, is a professional football club from Tetovo, North Macedonia. Founded in 1979 by members of the local Albanian community, the club is closely associated with red-and-black colours and the ultras group Ballistët.",
+    "source": "https://en.wikipedia.org/wiki/KF_Shk%C3%ABndija",
+    "status": "draft"
+  },
+  "Q1130432": {
+    "text": "Glenavon Football Club is a Northern Irish semi-professional football club that competes in the NIFL Championship. Founded in 1889, the club hails from Lurgan and plays its home matches at Mourneview Park. Club colours are blue and white.",
+    "source": "https://en.wikipedia.org/wiki/Glenavon_F.C.",
     "status": "draft"
   },
   "Q1130537": {
@@ -4372,6 +4802,11 @@
   "Q1140076": {
     "text": "Idrottsklubben Brage, also known as IK Brage or simply Brage, is a Swedish football club located in Borlänge. The club is affiliated with Dalarnas Fotbollförbund and play their home games at Domnarvsvallen. The club colours, reflected in their crest and kit, are green and white.",
     "source": "https://en.wikipedia.org/wiki/IK_Brage",
+    "status": "draft"
+  },
+  "Q1140106": {
+    "text": "KAMAZ is a Russian football club based in Naberezhnye Chelny, Russia. The club plays in the second-tier Russian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_KAMAZ_Naberezhnye_Chelny",
     "status": "draft"
   },
   "Q1140538": {
@@ -4494,6 +4929,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Boto%C8%99ani",
     "status": "draft"
   },
+  "Q1265680": {
+    "text": "Dungannon Swifts Football Club, referred to as Dungannon Swifts, or simply The Swifts, is a Northern Irish semi-professional football club playing in the NIFL Premiership. The club, founded in 1949, has risen from the Mid-Ulster league to the top tier in Northern Ireland since its election to the Irish League First Division in 1997.",
+    "source": "https://en.wikipedia.org/wiki/Dungannon_Swifts_F.C.",
+    "status": "draft"
+  },
   "Q1269037": {
     "text": "Fudbalski klub Sloboda Novi Grad was a football club from the town of Bosanski Novi, Republika Srpska, Bosnia and Herzegovina, and one of the oldest in the country. The club competes in the First League of the Republika Srpska.",
     "source": "https://en.wikipedia.org/wiki/FK_Sloboda_Novi_Grad",
@@ -4502,6 +4942,16 @@
   "Q1269066": {
     "text": "Fudbalski klub Drina Zvornik is a professional association football club from the city of Zvornik that is situated Bosnia and Herzegovina.",
     "source": "https://en.wikipedia.org/wiki/FK_Drina_Zvornik",
+    "status": "draft"
+  },
+  "Q1269086": {
+    "text": "FC Dynamo-Bryansk is a Russian football club based in Bryansk.",
+    "source": "https://en.wikipedia.org/wiki/FC_Dynamo_Bryansk",
+    "status": "draft"
+  },
+  "Q1289495": {
+    "text": "Sliema Wanderers Football Club, nicknamed \"tax-Xelin\", is a professional Maltese football club. It is based in the seaside town of Sliema. It currently plays in the Maltese Premier League.",
+    "source": "https://en.wikipedia.org/wiki/Sliema_Wanderers_F.C.",
     "status": "draft"
   },
   "Q1290348": {
@@ -4734,6 +5184,11 @@
     "source": "https://en.wikipedia.org/wiki/FK_Gora%C5%BEde",
     "status": "draft"
   },
+  "Q1388889": {
+    "text": "FC Fakel Voronezh is a Russian professional football club based in Voronezh. Founded in 1947, the club has played in the Soviet Top League and the Russian Premier League. The club will return to the Russian Premier League in the 2026–27 season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Fakel_Voronezh",
+    "status": "draft"
+  },
   "Q1388907": {
     "text": "Fudbalski klub Igman Konjic, commonly referred to as simply Igman, is a professional association football club from the city of Konjic that is situated in Bosnia and Herzegovina.",
     "source": "https://en.wikipedia.org/wiki/FK_Igman_Konjic",
@@ -4909,6 +5364,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_KEK-u",
     "status": "draft"
   },
+  "Q1526049": {
+    "text": "Connah's Quay Nomads Football Club is a Welsh professional football club based in Connah's Quay, Flintshire. They play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Connah's_Quay_Nomads_F.C.",
+    "status": "draft"
+  },
   "Q1542781": {
     "text": "Football Club Swift Hesperange is a football club based in Hesperange, in southern Luxembourg.",
     "source": "https://en.wikipedia.org/wiki/FC_Swift_Hesperange",
@@ -4999,6 +5459,11 @@
     "source": "https://en.wikipedia.org/wiki/Maccabi_Herzliya_F.C.",
     "status": "draft"
   },
+  "Q1635367": {
+    "text": "PFC Sokol is a Russian association football club based in Saratov. In 2001 and 2002, Sokol played in the Russian Premier League. The club plays in the third-tier Russian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Sokol_Saratov",
+    "status": "draft"
+  },
   "Q1635778": {
     "text": "FC Spartak Varna is a Bulgarian association football club based in Varna, which currently competes in the First League, the top level of Bulgarian football league system. Spartak plays its home matches at the local Stadion Spartak.",
     "source": "https://en.wikipedia.org/wiki/FC_Spartak_Varna",
@@ -5017,6 +5482,11 @@
   "Q1640459": {
     "text": "Mil-Muğan FK was an Azerbaijani football club based in Imishli. The club was founded in 2004 by МКТ Istehsalat-Kommersiya, a cotton manufacturing company.",
     "source": "https://en.wikipedia.org/wiki/MKT_Araz_FK",
+    "status": "draft"
+  },
+  "Q1642914": {
+    "text": "FK Belasica is a professional football club based in the city of Strumica, North Macedonia. They are currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Belasica",
     "status": "draft"
   },
   "Q1662983": {
@@ -5104,6 +5574,11 @@
     "source": "https://en.wikipedia.org/wiki/Jong_Ajax",
     "status": "draft"
   },
+  "Q1777557": {
+    "text": "Cefn Druids Association Football Club is a football team based in the village of Cefn Mawr, Wrexham.",
+    "source": "https://en.wikipedia.org/wiki/Cefn_Druids_A.F.C.",
+    "status": "draft"
+  },
   "Q1809931": {
     "text": "NK Iskra, commonly known as Iskra Bugojno or just Iskra is a professional association football club from the town of Bugojno that is situated in central Bosnia and Herzegovina. Iskra plays its home matches on the Jaklić Stadium which has a capacity of 12,000 seats.",
     "source": "https://en.wikipedia.org/wiki/NK_Iskra_Bugojno",
@@ -5159,6 +5634,11 @@
     "source": "https://en.wikipedia.org/wiki/S.C._Covilh%C3%A3",
     "status": "draft"
   },
+  "Q1929359": {
+    "text": "Limavady United Football Club is a semi-professional, Northern Irish football club playing in the NIFL Championship, the second tier of Irish football but will play in NIFL Premiership from 2026 to 2027 season after promotion in 2025–26. The club comes from Limavady, County Londonderry, and plays home matches at the Showgrounds. Club colours are royal blue shirts with white trim, blue socks and royal blue shorts.",
+    "source": "https://en.wikipedia.org/wiki/Limavady_United_F.C.",
+    "status": "draft"
+  },
   "Q1945740": {
     "text": "FK Mladost Lučani is a professional football club based in Lučani, Serbia. They compete in the Serbian SuperLiga, the top tier of the national league system.",
     "source": "https://en.wikipedia.org/wiki/FK_Mladost_Lu%C4%8Dani",
@@ -5189,9 +5669,19 @@
     "source": "https://en.wikipedia.org/wiki/Qarada%C4%9F_L%C3%B6kbatan_FK",
     "status": "draft"
   },
+  "Q1974456": {
+    "text": "Football Club Chelyabinsk is a Russian football club from Chelyabinsk that plays in the Russian First League, the second tier of the Russian football league system.",
+    "source": "https://en.wikipedia.org/wiki/FC_Chelyabinsk",
+    "status": "draft"
+  },
   "Q2000763": {
     "text": "Radomiak Spółka Akcyjna, commonly referred to as Radomiak Radom, is a Polish football club based in Radom, Poland. The club was founded in 1910 and competes in Ekstraklasa, the top level of Polish football. They play their home matches at the Stadion im.",
     "source": "https://en.wikipedia.org/wiki/Radomiak_Radom",
+    "status": "draft"
+  },
+  "Q2007987": {
+    "text": "Ards Football Club is a semi-professional, Northern Irish football club playing in NIFL Championship. The club is based in Newtownards, but plays its home matches at Clandeboye Park in Bangor, which it rents from rivals Bangor to play home games. The club colours are red and blue.",
+    "source": "https://en.wikipedia.org/wiki/Ards_F.C.",
     "status": "draft"
   },
   "Q2027156": {
@@ -5269,9 +5759,24 @@
     "source": "https://en.wikipedia.org/wiki/Wigry_Suwa%C5%82ki",
     "status": "draft"
   },
+  "Q2092786": {
+    "text": "Melita Football Club is a Maltese professional football club that represents the town of St. Julian's. Melita was recently promoted to the Maltese top flight for the fifth time in their history, and will once again be playing in the Maltese Premier League from the 2024–25 season. They also play in the annual Maltese FA Trophy.",
+    "source": "https://en.wikipedia.org/wiki/Melita_F.C.",
+    "status": "draft"
+  },
   "Q2093314": {
     "text": "Slezský FC Opava is a professional football club based in Opava, Czech Republic. The club plays in the Czech National Football League, the second of Czech football after being relegated from the Czech First League at the end of the 2020–21 season.",
     "source": "https://en.wikipedia.org/wiki/SFC_Opava",
+    "status": "draft"
+  },
+  "Q2095484": {
+    "text": "FC Orenburg is a Russian professional football club based in Orenburg. Founded in 1976, it plays in the Russian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Orenburg",
+    "status": "draft"
+  },
+  "Q2096167": {
+    "text": "Cardiff Met Football Club, commonly known as Cardiff Met F.C., are a Welsh football club, based in Cyncoed, Cardiff that plays in the Cymru Premier. The club badge features the bowman with the words \"I lwyddo, rhaid chwarae\" which is translated as \"To succeed, [one] must play\".",
+    "source": "https://en.wikipedia.org/wiki/Cardiff_Met_F.C.",
     "status": "draft"
   },
   "Q2096853": {
@@ -5294,6 +5799,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Lida",
     "status": "draft"
   },
+  "Q2137561": {
+    "text": "FC Ufa is a Russian football club based in Ufa that plays in the Russian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Ufa",
+    "status": "draft"
+  },
   "Q2184917": {
     "text": "FK Teleoptik is a football club based in Zemun, Belgrade, Serbia. They compete in the Serbian First League, the second tier of the national league system.",
     "source": "https://en.wikipedia.org/wiki/FK_Teleoptik",
@@ -5302,6 +5812,11 @@
   "Q2185704": {
     "text": "Seinäjoen Jalkapallokerho, commonly referred to as SJK, also internationally SJK Seinäjoki, is a Finnish professional football club from the city of Seinäjoki. The club plays in the Veikkausliiga, the highest tier of the Finnish league system. Their home ground is OmaSP Stadion, which is located near the city center and next to SJK's training facility Wallsport.",
     "source": "https://en.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho",
+    "status": "draft"
+  },
+  "Q2212732": {
+    "text": "Annagh United Football Club, referred to as Annagh United, is a semi-professional, Northern Irish football club playing in the NIFL Championship. The club, founded in 1963, hails from Portadown and plays its home matches at the BMG Arena. The club's home colours are all red at home and all white away.",
+    "source": "https://en.wikipedia.org/wiki/Annagh_United_F.C.",
     "status": "draft"
   },
   "Q2215847": {
@@ -5317,6 +5832,16 @@
   "Q2238669": {
     "text": "FC Septemvri is a Bulgarian football club based in Simitli, which currently plays in the Third League, the third tier of the Bulgarian football league system.",
     "source": "https://en.wikipedia.org/wiki/FC_Septemvri_Simitli",
+    "status": "draft"
+  },
+  "Q2244751": {
+    "text": "Loughgall Football Club, also referred to as simply Loughgall, or The Villagers, is a semi-professional Northern Irish football club currently playing in the NIFL Championship. Loughgall are a part of the Mid-Ulster Football Association. The club plays in the Irish Cup.",
+    "source": "https://en.wikipedia.org/wiki/Loughgall_F.C.",
+    "status": "draft"
+  },
+  "Q2252351": {
+    "text": "Warrenpoint Town Football Club, referred to as Warrenpoint Town, or \"The Point\", is a semi-professional Northern Irish football club that plays in the NIFL Championship. Warrenpoint Town are a part of the Mid-Ulster Football Association. The club competes in the Irish Cup.",
+    "source": "https://en.wikipedia.org/wiki/Warrenpoint_Town_F.C.",
     "status": "draft"
   },
   "Q2259417": {
@@ -5342,6 +5867,11 @@
   "Q2276413": {
     "text": "Virtus Entella, commonly referred to as Entella, is an Italian professional football club based in Chiavari, Liguria. Founded in 1914, the club currently competes in the Serie B.",
     "source": "https://en.wikipedia.org/wiki/Virtus_Entella",
+    "status": "draft"
+  },
+  "Q2299795": {
+    "text": "Volgar FC is an association football club based in Astrakhan, Russia. They play in the Russian Second League Division A.",
+    "source": "https://en.wikipedia.org/wiki/FC_Volgar_Astrakhan",
     "status": "draft"
   },
   "Q2301724": {
@@ -5374,6 +5904,11 @@
     "source": "https://en.wikipedia.org/wiki/G%C3%B6yazan_Qazakh_FK",
     "status": "draft"
   },
+  "Q2373463": {
+    "text": "Larne Football Club is a professional Northern Irish football club based in Larne, County Antrim, that competes in the NIFL Premiership.",
+    "source": "https://en.wikipedia.org/wiki/Larne_F.C.",
+    "status": "draft"
+  },
   "Q2394731": {
     "text": "Anagennisi Deryneia is a Cypriot football team based in Deryneia, Famagusta. The club was founded in 1920 and they joined the Cyprus Football Association in 1972. The team played in the Cypriot First division in 2011 but was relegated at the end of the season.",
     "source": "https://en.wikipedia.org/wiki/Anagennisi_Deryneia_FC",
@@ -5389,14 +5924,29 @@
     "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mico_de_Viseu_F.C.",
     "status": "draft"
   },
+  "Q2412557": {
+    "text": "GFK Tikvesh 1930, commonly referred to as Tikvesh, is a professional football club from Kavadarci that competes in the Macedonian First League. After playing at different home grounds in the early years, the club moved to Gradski Stadion Kavadarci on 19 March 1950 and have remained there since.",
+    "source": "https://en.wikipedia.org/wiki/GFK_Tikvesh",
+    "status": "draft"
+  },
   "Q2426819": {
     "text": "Erzurumspor Futbol Kulübü, is a Turkish professional football club located in Erzurum. The club currently plays in the Süper Lig, the first tier of Turkish football.",
     "source": "https://en.wikipedia.org/wiki/Erzurumspor_F.K.",
     "status": "draft"
   },
+  "Q2427114": {
+    "text": "Queen's University Association Football Club, referred to simply as Queen's is a semi-professional, Northern Irish football club playing in the NIFL Championship. Queen's AFC is associated with Queen's University Belfast.",
+    "source": "https://en.wikipedia.org/wiki/Queen's_University_Belfast_A.F.C.",
+    "status": "draft"
+  },
   "Q2445419": {
     "text": "Univer Comrat is a Moldovan football club based in Comrat, Moldova. They play in Liga 1, the second tier of Moldovan football.",
     "source": "https://en.wikipedia.org/wiki/CF_Univer_Comrat",
+    "status": "draft"
+  },
+  "Q2448170": {
+    "text": "Armagh City Football Club, referred to as Armagh City, is a semi-professional, Northern Irish football club playing in the NIFL Championship. Armagh City are a part of the Mid-Ulster Football Association. The club plays in the Irish Cup.",
+    "source": "https://en.wikipedia.org/wiki/Armagh_City_F.C.",
     "status": "draft"
   },
   "Q2464401": {
@@ -5409,6 +5959,11 @@
     "source": "https://en.wikipedia.org/wiki/Porin_Palloilijat",
     "status": "draft"
   },
+  "Q2479641": {
+    "text": "Colwyn Bay Football Club is a football club based in Old Colwyn in North Wales. They are currently members of the Cymru Premier. Nicknamed the Seagulls, but also known as 'The Bay', their home ground is Llanelian Road in Old Colwyn.",
+    "source": "https://en.wikipedia.org/wiki/Colwyn_Bay_F.C.",
+    "status": "draft"
+  },
   "Q2480155": {
     "text": "Football Club Jonava, previously (1996–2016) known as Football Club Lietava, is a Lithuanian professional football club based in Jonava. The club gained promotion to the A lyga as champions of the I Lyga in 2015, but were relegated from A Lyga in 2018.",
     "source": "https://en.wikipedia.org/wiki/FK_Jonava",
@@ -5417,6 +5972,11 @@
   "Q2484236": {
     "text": "Chalkanoras Idaliou is a Cypriot football team currently playing in the Cypriot Second Division. The team was established in 1948 and is based in the village of Dali in Nicosia district. The club has played two seasons in the first division; in 1976–77 and 1977–78.",
     "source": "https://en.wikipedia.org/wiki/Chalkanoras_Idaliou",
+    "status": "draft"
+  },
+  "Q2494171": {
+    "text": "FC Dynamo Makhachkala is a Russian professional football club based in Makhachkala that plays in the Russian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Dynamo_Makhachkala",
     "status": "draft"
   },
   "Q2496995": {
@@ -5434,14 +5994,29 @@
     "source": "https://en.wikipedia.org/wiki/FK_Srem",
     "status": "draft"
   },
+  "Q2507730": {
+    "text": "FK Kozhuf is a football club from Gevgelija, North Macedonia. They are currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Kozhuf",
+    "status": "draft"
+  },
   "Q2523663": {
     "text": "RFK Novi Sad 1921 is a professional football club based in Novi Sad, Vojvodina, Serbia. As of the 2025-26 season, the club competes in the Serbian League Vojvodina, the 3rd tier of Serbian football.",
     "source": "https://en.wikipedia.org/wiki/RFK_Novi_Sad_1921",
     "status": "draft"
   },
+  "Q2525021": {
+    "text": "FC Dynamo Saint Petersburg is a Russian football club from Saint Petersburg, in Northwest Russia. Founded in 1922, the club was one of the oldest in the city. It plays in the fourth-tier Russian Second League Division B.",
+    "source": "https://en.wikipedia.org/wiki/FC_Dynamo_Saint_Petersburg",
+    "status": "draft"
+  },
   "Q2528324": {
     "text": "FCI Levadia U21 Tallinn, commonly known as FCI Levadia U21, is an Estonian football club based in Tallinn.",
     "source": "https://en.wikipedia.org/wiki/FCI_Levadia_U21_Tallinn",
+    "status": "draft"
+  },
+  "Q2541808": {
+    "text": "Carrick Rangers Football Club is a semi-professional Northern Irish football club playing in NIFL Premiership. The club, founded in 1939, is based in Carrickfergus, County Antrim, and plays its home matches at Taylors Avenue. Carrick Rangers main rivals are Larne, with matches between the sides being known as, \"The East Antrim Derby.\"",
+    "source": "https://en.wikipedia.org/wiki/Carrick_Rangers_F.C.",
     "status": "draft"
   },
   "Q2568398": {
@@ -5457,6 +6032,11 @@
   "Q2574904": {
     "text": "FC Osipovichi or FK Asipovichy is a Belarusian football club based in Asipovichy, Mohilev Oblast.",
     "source": "https://en.wikipedia.org/wiki/FC_Osipovichi",
+    "status": "draft"
+  },
+  "Q2580193": {
+    "text": "FK Novaci is a football club based in the village Novaci near Bitola, North Macedonia. They are currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Novaci",
     "status": "draft"
   },
   "Q2587695": {
@@ -5502,6 +6082,11 @@
   "Q2627528": {
     "text": "FC Norchi Dinamoeli was a Georgian football club based in Tbilisi. They played in Erovnuli Liga 2 before being dissolved in 2018.",
     "source": "https://en.wikipedia.org/wiki/FC_Norchi_Dinamoeli",
+    "status": "draft"
+  },
+  "Q2631313": {
+    "text": "FC Novokuznetsk is a Russian football club from Novokuznetsk.",
+    "source": "https://en.wikipedia.org/wiki/FC_Novokuznetsk",
     "status": "draft"
   },
   "Q2633110": {
@@ -5594,6 +6179,11 @@
     "source": "https://en.wikipedia.org/wiki/SC_Bettembourg",
     "status": "draft"
   },
+  "Q2817362": {
+    "text": "FC Arsenal Tula is a Russian professional football club from Tula playing in the second-tier Russian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Arsenal_Tula",
+    "status": "draft"
+  },
   "Q2835474": {
     "text": "FC Magaroeli is a Georgian football club based from the city Chiatura. Since the 2023 season they have been competing in Regionuli Liga, the fifth tier of Georgian football.",
     "source": "https://en.wikipedia.org/wiki/FC_Chiatura",
@@ -5622,6 +6212,11 @@
   "Q2912223": {
     "text": "Ironi Tiberias is an Israeli professional football club based in Tiberias. The club is not connected to Hapoel Tiberias, a former club which spent several seasons in the top division of Israeli football in the 1960s and the 1980s, making its last appearance in the top flight in 1989.",
     "source": "https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C.",
+    "status": "draft"
+  },
+  "Q2934688": {
+    "text": "Cambrian United F.C. is a Welsh football club based in Clydach Vale in the Rhondda Valley. The club was founded in 1965 as Cambrian United and, after playing their football in the South Wales Amateur League for a number of years, they joined the Welsh Football League in 2005. A merger between Cambrian United and Clydach Vale Boys and Girls Club led to the current club.",
+    "source": "https://en.wikipedia.org/wiki/Cambrian_United_F.C.",
     "status": "draft"
   },
   "Q2947829": {
@@ -5659,6 +6254,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_Politehnica_UTM_Chi%C8%99in%C4%83u",
     "status": "draft"
   },
+  "Q3073748": {
+    "text": "Flint Town United Football Club is a football club based in Flint, Flintshire, Wales who play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Flint_Town_United_F.C.",
+    "status": "draft"
+  },
   "Q3091283": {
     "text": "FC SKA-1938 Minsk is a Belarusian professional football club based in Minsk.",
     "source": "https://en.wikipedia.org/wiki/FC_SKA-1938_Minsk",
@@ -5692,6 +6292,16 @@
   "Q3292651": {
     "text": "A.P.S. Zakynthos is a Greek professional football club, based in Zakynthos. It was founded in 1961.",
     "source": "https://en.wikipedia.org/wiki/A.P.S._Zakynthos",
+    "status": "draft"
+  },
+  "Q3337356": {
+    "text": "Naxxar Lions Football Club is a professional football club from the town of Naxxar in northern Malta.",
+    "source": "https://en.wikipedia.org/wiki/Naxxar_Lions_F.C.",
+    "status": "draft"
+  },
+  "Q3400306": {
+    "text": "GFK Osogovo is a football club from Kočani, Republic of Macedonia. They are currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Osogovo",
     "status": "draft"
   },
   "Q3432730": {
@@ -5924,9 +6534,24 @@
     "source": "https://en.wikipedia.org/wiki/FC_Slonim-2017",
     "status": "draft"
   },
+  "Q4430691": {
+    "text": "FC Spartak-2 Moscow is a Russian football team from Moscow, founded in 1964. It is the reserve club of Russian Premier League team FC Spartak Moscow.",
+    "source": "https://en.wikipedia.org/wiki/FC_Spartak-2_Moscow",
+    "status": "draft"
+  },
   "Q4465069": {
     "text": "FK Tukums 2000 is Latvian professional football club located in Tukums. Since its foundation, the club has been training young boys and girls. In 2007 the club formed a men's team that could play in the second-highest division of Latvian football.",
     "source": "https://en.wikipedia.org/wiki/FK_Tukums_2000",
+    "status": "draft"
+  },
+  "Q4496023": {
+    "text": "Harland & Wolff Welders Football Club is a semi-professional, Northern Irish football club playing in the NIFL Championship. The club originated as a company team of the Harland & Wolff shipyard in Belfast.",
+    "source": "https://en.wikipedia.org/wiki/Harland_%26_Wolff_Welders_F.C.",
+    "status": "draft"
+  },
+  "Q4497682": {
+    "text": "FC Khimik Dzerzhinsk is an association football club from Dzerzhinsk, Russia, founded in 1946. It played in the Soviet First League and the Russian First League from 1947 to 1949, from 1960 to 1962 and from 2013–14 to 2014–15. It was dissolved after the 2015–16 season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Khimik_Dzerzhinsk",
     "status": "draft"
   },
   "Q4502972": {
@@ -5949,6 +6574,11 @@
     "source": "https://en.wikipedia.org/wiki/FC_BGS",
     "status": "draft"
   },
+  "Q4747150": {
+    "text": "Ammanford Association Football Club is a football club from Ammanford, Carmarthenshire in Wales. They play in the Cymru Premier. They are now based at the Recreation Ground in Ammanford.",
+    "source": "https://en.wikipedia.org/wiki/Ammanford_A.F.C.",
+    "status": "draft"
+  },
   "Q4848814": {
     "text": "Bajai LSE is a Hungarian football club located in Baja, Hungary. It currently plays in Hungarian National Championship III. The team's colors are yellow and blue.",
     "source": "https://en.wikipedia.org/wiki/Bajai_LSE",
@@ -5967,6 +6597,11 @@
   "Q4961901": {
     "text": "PFC Brestnik 1948 is a Bulgarian football club from the small neighborhood of Brestnik, located in the Greater Plovdiv area. The club will play its home matches at the Berkut Stadium, which is undergoing construction. The team currently plays in the B PFG - the second division of Bulgarian football.",
     "source": "https://en.wikipedia.org/wiki/PFC_Brestnik_1948",
+    "status": "draft"
+  },
+  "Q4971508": {
+    "text": "Briton Ferry Llansawel A.F.C. is a football club based in Briton Ferry in Wales, currently playing in the Cymru Premier. The club was formed in 2009 after the merger between Briton Ferry Athletic and Llansawel.",
+    "source": "https://en.wikipedia.org/wiki/Briton_Ferry_Llansawel_A.F.C.",
     "status": "draft"
   },
   "Q4984057": {
@@ -6099,6 +6734,11 @@
     "source": "https://en.wikipedia.org/wiki/FK_Cetinje",
     "status": "draft"
   },
+  "Q5426144": {
+    "text": "FK Euromilk Gorno Lisiče is a football club from Gorno Lisiče in Skopje, Republic of North Macedonia. They currently play in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Gorno_Lisi%C4%8De",
+    "status": "draft"
+  },
   "Q5426149": {
     "text": "FK Grafičar is a Montenegrin football club based in Podgorica. The club was founded in 1948 and during the season 2016-17 was relegated from Montenegrin Second League.",
     "source": "https://en.wikipedia.org/wiki/FK_Grafi%C4%8Dar_Podgorica",
@@ -6137,6 +6777,11 @@
   "Q5426288": {
     "text": "FK Otrant-Olympic is a Montenegrin football club based in the coastal town of Ulcinj. They compete in the Montenegrin first league",
     "source": "https://en.wikipedia.org/wiki/FK_Otrant-Olympic",
+    "status": "draft"
+  },
+  "Q5426314": {
+    "text": "FK Detonit Plachkovica is a football club from Radoviš, North Macedonia. They are currently competing in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FK_Detonit_Plachkovica",
     "status": "draft"
   },
   "Q5426320": {
@@ -6179,6 +6824,11 @@
     "source": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC_II",
     "status": "draft"
   },
+  "Q5649871": {
+    "text": "Victoria Hotspurs Football Club is a Maltese semi-professional football club from the town of Victoria, Gozo. From the 2024–25 season it has switched from the Gozo football league system to the Maltese.",
+    "source": "https://en.wikipedia.org/wiki/Victoria_Hotspurs_F.C.",
+    "status": "draft"
+  },
   "Q5765870": {
     "text": "FC Hebar is a Bulgarian professional football club based in Pazardzhik. The club currently competes in the Second League, the second tier of the Bulgarian football league system.",
     "source": "https://en.wikipedia.org/wiki/FC_Hebar_Pazardzhik",
@@ -6187,6 +6837,11 @@
   "Q5773365": {
     "text": "Agrupación Deportiva Ceuta Fútbol Club is a Spanish football club based in the autonomous city of Ceuta. Founded in 1956, it plays in Segunda División, the second tier of Spanish football league system.",
     "source": "https://en.wikipedia.org/wiki/AD_Ceuta_FC",
+    "status": "draft"
+  },
+  "Q5887222": {
+    "text": "Holywell Town Football Club is a Welsh semi-professional association football club based in Holywell, Flintshire. They play in the Cymru Premier, the highest tier in the Welsh football league system, having achieved promotion from the Cymru North in the 2025-26 season.",
+    "source": "https://en.wikipedia.org/wiki/Holywell_Town_F.C.",
     "status": "draft"
   },
   "Q5970899": {
@@ -6227,6 +6882,11 @@
   "Q6601875": {
     "text": "Fenerbahçe Spor Kulübü, simply known as Fenerbahçe or Fener, is the football branch of the Fenerbahçe Sports Club organisation. Based in Istanbul, the team compete in the Süper Lig, the top division of Turkish football.",
     "source": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
+    "status": "draft"
+  },
+  "Q6661255": {
+    "text": "Llandudno Football Club is a Welsh football club that currently play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Llandudno_F.C.",
     "status": "draft"
   },
   "Q6865261": {
@@ -6289,9 +6949,24 @@
     "source": "https://en.wikipedia.org/wiki/FC_Minyor_Radnevo",
     "status": "draft"
   },
+  "Q7228420": {
+    "text": "Pontypridd United FC is a Welsh football club, based in Pontypridd, Rhondda Cynon Taf. The club plays at USW Sports Park on Treforest Industrial Estate. The club plays in the Cymru South.",
+    "source": "https://en.wikipedia.org/wiki/Pontypridd_United_F.C.",
+    "status": "draft"
+  },
+  "Q7295636": {
+    "text": "Rathfriland Rangers Football Club, referred to as Rathfriland Rangers, or \"The Whites\", is a Northern Irish semi-professional football club, playing in the NIFL Championship. Rathfriland Rangers are a part of the Mid-Ulster Football Association. They compete in the Irish Cup.",
+    "source": "https://en.wikipedia.org/wiki/Rathfriland_Rangers_F.C.",
+    "status": "draft"
+  },
   "Q7482049": {
     "text": "Strømsgodset Toppfotball is a Norwegian professional football club based in Gulskogen, Drammen, competing in the Norwegian First Division. It is part of the multi-sports club Strømsgodset IF, founded on February 10, 1907.",
     "source": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball",
+    "status": "draft"
+  },
+  "Q7530160": {
+    "text": "Sirens Football Club is a professional football club from the north-western seaside village of San Pawl il-Baħar, in Malta. Founded in 1968, they currently compete in the Maltese Challenge League.",
+    "source": "https://en.wikipedia.org/wiki/Sirens_F.C.",
     "status": "draft"
   },
   "Q7926577": {
@@ -6327,6 +7002,16 @@
   "Q9186186": {
     "text": "NK Sesvete is a Croatian football club based in the Sesvete district of the city of Zagreb.",
     "source": "https://en.wikipedia.org/wiki/NK_Sesvete",
+    "status": "draft"
+  },
+  "Q9197184": {
+    "text": "Mġarr United F.C. is a Maltese Football Club, based in the small village of Mġarr. The club was founded in 1967 following the dissolution of Mġarr Eagles F.C. The club's first success came in 2006–2007 when they won the BOV Third Division.",
+    "source": "https://en.wikipedia.org/wiki/M%C4%A1arr_United_F.C.",
+    "status": "draft"
+  },
+  "Q9213755": {
+    "text": "Newry City Athletic Football Club, referred to as Newry City, are a semi-professional Northern Irish football club competing in the NIFL Championship, having been promoted from the NIFL Premier Intermediate League in May 2026. They also compete in the Irish Cup. The club is based in Newry, County Down and plays at the Showgrounds on the south eastern outskirts of the city.",
+    "source": "https://en.wikipedia.org/wiki/Newry_City_A.F.C.",
     "status": "draft"
   },
   "Q9257379": {
@@ -6674,6 +7359,11 @@
     "source": "https://en.wikipedia.org/wiki/NK_Brda",
     "status": "draft"
   },
+  "Q16826776": {
+    "text": "KF Bashkimi 1947 is a football club based in Kumanovo, North Macedonia. They currently compete in the Macedonian First League.",
+    "source": "https://en.wikipedia.org/wiki/KF_Bashkimi_1947",
+    "status": "draft"
+  },
   "Q16827963": {
     "text": "Botev is a Bulgarian football club based in Galabovo, Stara Zagora Province. The club last played in the Second League, the second division of Bulgarian football, having been promoted as champions of the South-Eastern V Group in 2012–13. The club was founded in 1945.",
     "source": "https://en.wikipedia.org/wiki/FC_Botev_Galabovo",
@@ -6694,6 +7384,11 @@
     "source": "https://en.wikipedia.org/wiki/CS_Universitatea_Craiova",
     "status": "draft"
   },
+  "Q16839383": {
+    "text": "FC Shkupi is a professional football club based in Čair, Skopje, North Macedonia. The club competes in the Macedonian Second Football League, the second highest tier of football in the country.",
+    "source": "https://en.wikipedia.org/wiki/KF_Shkupi",
+    "status": "draft"
+  },
   "Q16842644": {
     "text": "Klubi i Futbollit Oriku is an Albanian football club based in the town of Orikum. They last competed in Kategoria e Dytë during the 2023–24 season, finishing fourth in Group B.",
     "source": "https://en.wikipedia.org/wiki/KF_Oriku",
@@ -6709,14 +7404,34 @@
     "source": "https://en.wikipedia.org/wiki/Nestos_Chrysoupoli_F.C.",
     "status": "draft"
   },
+  "Q16847437": {
+    "text": "Penybont Football Club is a Welsh football club based in Bridgend, that plays in the Cymru Premier. The club was formed in 2013, following the merger of Bridgend Town and Bryntirion Athletic. Penybont play their home games at Bryntirion Park, currently known as The DragonBet Stadium for sponsorship reasons.",
+    "source": "https://en.wikipedia.org/wiki/Penybont_F.C.",
+    "status": "draft"
+  },
   "Q16848949": {
     "text": "Cesena Football Club is an Italian professional football club based in Cesena, Emilia-Romagna. It currently plays in the Serie B, after promotion from the Serie C in 2023–24. It has claimed to be the phoenix club of AC Cesena since 2018, the year that the club folded.",
     "source": "https://en.wikipedia.org/wiki/Cesena_FC",
     "status": "draft"
   },
+  "Q16850885": {
+    "text": "Strabane Athletic Football Club is a Northern Irish, semi-professional football club based in Strabane, County Tyrone, playing in the NIFL Championship.",
+    "source": "https://en.wikipedia.org/wiki/Strabane_Athletic_F.C.",
+    "status": "draft"
+  },
   "Q16958147": {
     "text": "Nogometni klub Varaždin, commonly referred to as NK Varaždin, is a Croatian professional football club based in Varaždin. They compete in the Croatian Football League (HNL), the top tier of Croatian football.",
     "source": "https://en.wikipedia.org/wiki/NK_Vara%C5%BEdin_(2012)",
+    "status": "draft"
+  },
+  "Q17070649": {
+    "text": "KF Arsimi 1973 is a football club based in the village of Čegrane near Gostivar, North Macedonia. They are currently competing in the Macedonian First League.",
+    "source": "https://en.wikipedia.org/wiki/KF_Arsimi",
+    "status": "draft"
+  },
+  "Q17070682": {
+    "text": "KF Kamjani is a football club based in the village of Kamenjane near Tetovo, North Macedonia. They are currently competing in the Macedonian Third League.",
+    "source": "https://en.wikipedia.org/wiki/KF_Kamjani",
     "status": "draft"
   },
   "Q17317546": {
@@ -6939,9 +7654,19 @@
     "source": "https://en.wikipedia.org/wiki/RTU_FC",
     "status": "draft"
   },
+  "Q24183338": {
+    "text": "Trefelin Boys & Girls Club, often shortened to Trefelin BGC, is an association football club who play their home games at Ynys Park in Port Talbot, Neath Port Talbot, Wales. Their men's team play in the Cymru Premier.",
+    "source": "https://en.wikipedia.org/wiki/Trefelin_B.G.C.",
+    "status": "draft"
+  },
   "Q24909001": {
     "text": "FC Dinamo-2 Minsk is a Belarusian football club based in Minsk.",
     "source": "https://en.wikipedia.org/wiki/FC_Dinamo-2_Minsk",
+    "status": "draft"
+  },
+  "Q24914473": {
+    "text": "Fudbalski Klub Akademija Pandev Brera Strumica, commonly known as AP Brera Strumica, is a Macedonian football club based in Strumica, which competes in the Macedonian Second League.",
+    "source": "https://en.wikipedia.org/wiki/FC_AP_Brera_Strumica",
     "status": "draft"
   },
   "Q25103764": {
@@ -6957,6 +7682,11 @@
   "Q25394925": {
     "text": "Fútbol Club Pas de la Casa is an Andorran professional football club founded in 2012. The team currently plays in the Primera Divisió.",
     "source": "https://en.wikipedia.org/wiki/FC_Pas_de_la_Casa",
+    "status": "draft"
+  },
+  "Q25396688": {
+    "text": "FC Chayka Peschanokopskoye is a Russian football team from Peschanokopskoye.",
+    "source": "https://en.wikipedia.org/wiki/FC_Chayka_Peschanokopskoye",
     "status": "draft"
   },
   "Q25408708": {
@@ -7029,6 +7759,11 @@
     "source": "https://en.wikipedia.org/wiki/RAF_Jelgava",
     "status": "draft"
   },
+  "Q30115933": {
+    "text": "FC Struga Trim & Lum is a professional football club based in Struga, North Macedonia. They are currently competing in the Macedonian First League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Struga",
+    "status": "draft"
+  },
   "Q30115984": {
     "text": "CF Atlètic Amèrica is an Andorran football club. The club currently plays in Primera Divisió.",
     "source": "https://en.wikipedia.org/wiki/CF_Atl%C3%A8tic_Am%C3%A8rica",
@@ -7042,6 +7777,11 @@
   "Q30309373": {
     "text": "Sabail FK is an Azerbaijani football club based in Sabail, Baku. The club participates in the Azerbaijan First League.",
     "source": "https://en.wikipedia.org/wiki/Sabail_FK",
+    "status": "draft"
+  },
+  "Q30891083": {
+    "text": "FC Veles Moscow is a Russian football team based in Moscow. \"Veles\" was founded in 2016 based on the Savelovskaya football school and entered amateur competitions. The club is private, funded by the founders.",
+    "source": "https://en.wikipedia.org/wiki/FC_Veles_Moscow",
     "status": "draft"
   },
   "Q30962897": {
@@ -7104,9 +7844,19 @@
     "source": "https://en.wikipedia.org/wiki/FC_Bumprom_Gomel",
     "status": "draft"
   },
+  "Q54834034": {
+    "text": "Football Club Sochi, is a Russian professional football club based in Sochi. The club is playing its home matches at the 47,000-capacity Fisht Stadium.",
+    "source": "https://en.wikipedia.org/wiki/PFC_Sochi",
+    "status": "draft"
+  },
   "Q54877936": {
     "text": "FC Mynai is a Ukrainian professional football club from Mynai, a suburb of Uzhhorod in Zakarpattia Oblast. In July 2025 the club announced it had withdrawn from playing professional football for the time being while claiming \"we will do everything in our power to return.\"",
     "source": "https://en.wikipedia.org/wiki/FC_Mynai",
+    "status": "draft"
+  },
+  "Q55072718": {
+    "text": "PFC Kuban Krasnodar is a Russian football team based in Krasnodar. It was founded on 4 June 2018.",
+    "source": "https://en.wikipedia.org/wiki/FC_Kuban_Krasnodar_(2018)",
     "status": "draft"
   },
   "Q55189861": {
@@ -7207,6 +7957,16 @@
   "Q64363556": {
     "text": "Nogometni klub Bravo, commonly referred simply as Bravo, is a Slovenian professional football club from Ljubljana, which plays in the Slovenian PrvaLiga, the top level of the football league system in the country. The club was founded in 2006.",
     "source": "https://en.wikipedia.org/wiki/NK_Bravo",
+    "status": "draft"
+  },
+  "Q65124755": {
+    "text": "FC Akron Tolyatti is a Russian professional football club based in Tolyatti founded in 2018 who play in the Russian Premier League.",
+    "source": "https://en.wikipedia.org/wiki/FC_Akron_Tolyatti",
+    "status": "draft"
+  },
+  "Q66210522": {
+    "text": "FC Rodina Moscow is a Russian professional football team based in Moscow. It made its debut in the Russian Premier League in the 2026–27 season.",
+    "source": "https://en.wikipedia.org/wiki/FC_Rodina_Moscow",
     "status": "draft"
   },
   "Q66424141": {

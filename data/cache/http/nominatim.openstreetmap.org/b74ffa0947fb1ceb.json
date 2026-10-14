@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.976122&lon=-7.278392&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277630863,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1183394456,\"lat\":\"54.9757193\",\"lon\":\"-7.2770897\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.541771572437656e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Glenshane Road, Drumahoe, Derry/Londonderry, Derry and Strabane District, County Londonderry, Northern Ireland / Tuaisceart Éireann, BT47 3SF, United Kingdom\",\"address\":{\"road\":\"Glenshane Road\",\"suburb\":\"Drumahoe\",\"city\":\"Derry/Londonderry\",\"municipality\":\"Derry and Strabane District\",\"ISO3166-2-lvl7\":\"GB-DRS\",\"historic\":\"County Londonderry\",\"state\":\"Northern Ireland / Tuaisceart Éireann\",\"ISO3166-2-lvl4\":\"GB-NIR\",\"postcode\":\"BT47 3SF\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"54.9753635\",\"54.9760752\",\"-7.2779177\",\"-7.2762617\"]}",
+  "fetchedAt": "2026-10-14T17:18:08.177Z"
+}

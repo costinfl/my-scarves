@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.945300&lon=14.414800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":54341315,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":24274433,\"lat\":\"35.9452823\",\"lon\":\"14.4147878\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.22898814784265079,\"addresstype\":\"leisure\",\"name\":\"Stadium tas-Sirens\",\"display_name\":\"Stadium tas-Sirens, Triq Kennedy, Burmarrad, Buġibba, San Pawl il-Baħar, Reġjun tat-Tramuntana, SPB 1147, Malta\",\"address\":{\"leisure\":\"Stadium tas-Sirens\",\"road\":\"Triq Kennedy\",\"hamlet\":\"Burmarrad\",\"village\":\"Buġibba\",\"town\":\"San Pawl il-Baħar\",\"ISO3166-2-lvl8\":\"MT-51\",\"municipality\":\"Reġjun tat-Tramuntana\",\"postcode\":\"SPB 1147\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.9448439\",\"35.9457131\",\"14.4141191\",\"14.4154571\"]}",
+  "fetchedAt": "2026-10-14T17:17:54.086Z"
+}

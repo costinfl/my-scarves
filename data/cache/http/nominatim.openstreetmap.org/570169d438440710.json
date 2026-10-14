@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.715833&lon=37.553611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":195141025,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":273655618,\"lat\":\"55.7157388\",\"lon\":\"37.5537595\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.908293278396304e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Лужники, Лужники, квартал 532, район Хамовники, Москва, Центральный федеральный округ, 119048, Россия\",\"address\":{\"road\":\"улица Лужники\",\"neighbourhood\":\"Лужники\",\"quarter\":\"квартал 532\",\"suburb\":\"район Хамовники\",\"city\":\"Москва\",\"state\":\"Москва\",\"ISO3166-2-lvl4\":\"RU-MOW\",\"region\":\"Центральный федеральный округ\",\"postcode\":\"119048\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"55.7151748\",\"55.7163028\",\"37.5527685\",\"37.5547505\"]}",
+  "fetchedAt": "2026-10-14T17:18:46.797Z"
+}

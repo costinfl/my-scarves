@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.002222&lon=21.360000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":57096032,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1372396275,\"lat\":\"42.0024537\",\"lon\":\"21.3600536\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.452429999232497e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Мице Козар, Хром, Ѓорче Петров, Скопје, Општина Ѓорче Петров, Град Скопје, 1060, Северна Македонија\",\"address\":{\"road\":\"Мице Козар\",\"suburb\":\"Хром\",\"city\":\"Скопје\",\"municipality\":\"Општина Ѓорче Петров\",\"ISO3166-2-lvl7\":\"MK-805\",\"county\":\"Град Скопје\",\"postcode\":\"1060\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"42.0018849\",\"42.0030224\",\"21.3594606\",\"21.3606467\"]}",
+  "fetchedAt": "2026-10-14T17:17:38.861Z"
+}

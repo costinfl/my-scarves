@@ -1,0 +1,123 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q805429 wd:Q806549 wd:Q2541808 wd:Q779835 wd:Q1108181 wd:Q840567 wd:Q1265680 wd:Q1929359 wd:Q249533 wd:Q2373463 wd:Q244472 wd:Q168660 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:12:44.007Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q168660",
+      "stadium": "http://www.wikidata.org/entity/Q3481323",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.457778 54.413056)",
+      "capacity": "3940",
+      "enwiki": "https://en.wikipedia.org/wiki/Portadown_F.C.",
+      "website": "https://portadownfc.co.uk/",
+      "clubLabel": "Portadown F.C.",
+      "stadiumLabel": "Shamrock Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q244472",
+      "stadium": "http://www.wikidata.org/entity/Q1049601",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.955 54.5825)",
+      "capacity": "18500",
+      "enwiki": "https://en.wikipedia.org/wiki/Linfield_F.C.",
+      "website": "http://www.linfieldfc.com/",
+      "clubLabel": "Linfield F.C.",
+      "stadiumLabel": "Windsor Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q249533",
+      "stadium": "http://www.wikidata.org/entity/Q176401",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.891319 54.602964)",
+      "capacity": "26556",
+      "enwiki": "https://en.wikipedia.org/wiki/Glentoran_F.C.",
+      "website": "https://www.glentoran.com/",
+      "clubLabel": "Glentoran F.C.",
+      "stadiumLabel": "The Oval"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q779835",
+      "stadium": "http://www.wikidata.org/entity/Q1246579",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.947272 54.619517)",
+      "capacity": "2530",
+      "enwiki": "https://en.wikipedia.org/wiki/Cliftonville_F.C.",
+      "website": "https://cliftonvillefc.net/",
+      "clubLabel": "Cliftonville F.C.",
+      "stadiumLabel": "Solitude"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q805429",
+      "stadium": "http://www.wikidata.org/entity/Q805422",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.262867 54.869142)",
+      "capacity": "4100",
+      "enwiki": "https://en.wikipedia.org/wiki/Ballymena_United_F.C.",
+      "website": "http://www.ballymenaunitedfc.com",
+      "clubLabel": "Ballymena United F.C.",
+      "stadiumLabel": "Ballymena Showgrounds"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q840567",
+      "stadium": "http://www.wikidata.org/entity/Q7442251",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.921925 54.624294)",
+      "capacity": "3383",
+      "enwiki": "https://en.wikipedia.org/wiki/Crusaders_F.C.",
+      "website": "https://www.crusadersfc.com/",
+      "clubLabel": "Crusaders F.C.",
+      "stadiumLabel": "Seaview"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1108181",
+      "stadium": "http://www.wikidata.org/entity/Q7764039",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.660278 55.132778)",
+      "capacity": "13132",
+      "enwiki": "https://en.wikipedia.org/wiki/Coleraine_F.C.",
+      "website": "https://colerainefc.com/",
+      "clubLabel": "Coleraine F.C.",
+      "stadiumLabel": "The Showgrounds"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1265680",
+      "stadium": "http://www.wikidata.org/entity/Q2330865",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.714135 54.496307)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Dungannon_Swifts_F.C.",
+      "website": "https://dungannonswiftsfc.com/",
+      "clubLabel": "Dungannon Swifts F.C.",
+      "stadiumLabel": "Stangmore Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2373463",
+      "stadium": "http://www.wikidata.org/entity/Q15228765",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.82625833 54.84980278)",
+      "capacity": "1100",
+      "enwiki": "https://en.wikipedia.org/wiki/Larne_F.C.",
+      "website": "https://www.larnefc.com/",
+      "clubLabel": "Larne F.C.",
+      "stadiumLabel": "Inver Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q806549",
+      "enwiki": "https://en.wikipedia.org/wiki/Bangor_F.C.",
+      "website": "https://bangorfc.com/",
+      "clubLabel": "Bangor F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1929359",
+      "enwiki": "https://en.wikipedia.org/wiki/Limavady_United_F.C.",
+      "website": "https://limavadyunitedfc.co.uk/",
+      "clubLabel": "Limavady United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2541808",
+      "enwiki": "https://en.wikipedia.org/wiki/Carrick_Rangers_F.C.",
+      "website": "https://www.carrickrangers.co.uk/",
+      "clubLabel": "Carrick Rangers F.C."
+    }
+  ]
+}

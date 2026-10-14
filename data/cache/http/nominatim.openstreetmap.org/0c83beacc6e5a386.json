@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.225338&lon=-3.076504&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":277234401,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":224333192,\"lat\":\"53.2253700\",\"lon\":\"-3.0764904\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.98336766612805e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kelsterton Road, Kelsterton, Connah's Quay, Flintshire, Cymru / Wales, CH5 4BH, United Kingdom\",\"address\":{\"road\":\"Kelsterton Road\",\"suburb\":\"Kelsterton\",\"town\":\"Connah's Quay\",\"county\":\"Flintshire\",\"ISO3166-2-lvl6\":\"GB-FLN\",\"state\":\"Cymru / Wales\",\"ISO3166-2-lvl4\":\"GB-WLS\",\"postcode\":\"CH5 4BH\",\"country\":\"United Kingdom\",\"country_code\":\"gb\"},\"boundingbox\":[\"53.2248288\",\"53.2259112\",\"-3.0773120\",\"-3.0756688\"]}",
+  "fetchedAt": "2026-10-14T17:19:12.073Z"
+}
