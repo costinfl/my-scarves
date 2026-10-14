@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:41.527Z",
+  "version": 2,
+  "entity": {
+    "id": "Q19577311",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2608011"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Mons Calpe S.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Mons Calpe S.C."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.456Z",
+  "version": 2,
+  "entity": {
+    "id": "Q693092",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "88135"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Racing FC Union Luxembourg"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Racing FC Union Luxembourg"
+      }
+    }
+  }
+}

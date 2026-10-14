@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.456Z",
+  "version": 2,
+  "entity": {
+    "id": "Q394452",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50133"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "St Patrick's Athletic F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "St Patrick's Athletic F.C."
+      }
+    }
+  }
+}

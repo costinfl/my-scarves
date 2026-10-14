@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.840278&lon=6.095556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":119740900,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1010337734,\"lat\":\"49.8416144\",\"lon\":\"6.0940079\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":4.5001144426596745e-05,\"addresstype\":\"leisure\",\"name\":\"Stade Am Deich\",\"display_name\":\"Stade Am Deich, Rue Grande-Duchesse Joséphine-Charlotte, Ettelbruck, Canton Diekirch, 9013, Lëtzebuerg\",\"address\":{\"leisure\":\"Stade Am Deich\",\"road\":\"Rue Grande-Duchesse Joséphine-Charlotte\",\"town\":\"Ettelbruck\",\"city\":\"Ettelbruck\",\"county\":\"Canton Diekirch\",\"ISO3166-2-lvl6\":\"LU-DI\",\"postcode\":\"9013\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.8396472\",\"49.8438272\",\"6.0919521\",\"6.0968701\"]}",
+  "fetchedAt": "2026-10-14T15:12:50.262Z"
+}

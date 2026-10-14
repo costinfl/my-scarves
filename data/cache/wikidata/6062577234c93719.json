@@ -1,0 +1,150 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q212708 wd:Q2085900 wd:Q459622 wd:Q3312170 wd:Q761498 wd:Q338557 wd:Q945043 wd:Q32390 wd:Q36647 wd:Q203976 wd:Q394474 wd:Q244874 wd:Q394452 wd:Q394466 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:08:32.673Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q203976",
+      "stadium": "http://www.wikidata.org/entity/Q2459367",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.37374 53.2835)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/Shamrock_Rovers_F.C.",
+      "website": "https://shamrockrovers.ie/",
+      "clubLabel": "Shamrock Rovers F.C.",
+      "stadiumLabel": "Tallaght Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212708",
+      "stadium": "http://www.wikidata.org/entity/Q1158113",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.275 53.361667)",
+      "capacity": "4300",
+      "enwiki": "https://en.wikipedia.org/wiki/Bohemian_F.C.",
+      "website": "https://bohemians.ie/",
+      "clubLabel": "Bohemian F.C.",
+      "stadiumLabel": "Dalymount Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212708",
+      "stadium": "http://www.wikidata.org/entity/Q1158113",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.275 53.361667)",
+      "capacity": "7955",
+      "enwiki": "https://en.wikipedia.org/wiki/Bohemian_F.C.",
+      "website": "https://bohemians.ie/",
+      "clubLabel": "Bohemian F.C.",
+      "stadiumLabel": "Dalymount Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q244874",
+      "stadium": "http://www.wikidata.org/entity/Q1771479",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.487233 54.270042)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/Sligo_Rovers_F.C.",
+      "website": "https://www.sligorovers.com/",
+      "clubLabel": "Sligo Rovers F.C.",
+      "stadiumLabel": "The Showgrounds",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Sligo%20Rovers3%20%28logo%29.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q338557",
+      "stadium": "http://www.wikidata.org/entity/Q782088",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.416917 53.998944)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/Dundalk_F.C.",
+      "website": "https://www.dundalkfc.com/",
+      "clubLabel": "Dundalk F.C.",
+      "stadiumLabel": "Oriel Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q338557",
+      "stadium": "http://www.wikidata.org/entity/Q782088",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.416917 53.998944)",
+      "capacity": "9000",
+      "enwiki": "https://en.wikipedia.org/wiki/Dundalk_F.C.",
+      "website": "https://www.dundalkfc.com/",
+      "clubLabel": "Dundalk F.C.",
+      "stadiumLabel": "Oriel Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q394452",
+      "stadium": "http://www.wikidata.org/entity/Q1860189",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.316619 53.340922)",
+      "capacity": "5340",
+      "enwiki": "https://en.wikipedia.org/wiki/St_Patrick%27s_Athletic_F.C.",
+      "website": "https://www.stpatsfc.com/",
+      "clubLabel": "St Patrick's Athletic F.C.",
+      "stadiumLabel": "Richmond Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q394466",
+      "stadium": "http://www.wikidata.org/entity/Q4018529",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.132778 52.244722)",
+      "capacity": "3100",
+      "enwiki": "https://en.wikipedia.org/wiki/Waterford_F.C.",
+      "website": "https://www.waterfordfc.ie/",
+      "clubLabel": "Waterford United F.C.",
+      "stadiumLabel": "Waterford Regional Sports Centre"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q394474",
+      "stadium": "http://www.wikidata.org/entity/Q2421553",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.251983 53.367514)",
+      "capacity": "9680",
+      "enwiki": "https://en.wikipedia.org/wiki/Shelbourne_F.C.",
+      "website": "https://shelbournefc.ie/",
+      "clubLabel": "Shelbourne F.C.",
+      "stadiumLabel": "Tolka Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q459622",
+      "stadium": "http://www.wikidata.org/entity/Q898423",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.336 54.990633)",
+      "capacity": "6300",
+      "enwiki": "https://en.wikipedia.org/wiki/Derry_City_F.C.",
+      "website": "https://www.derrycityfc.net/",
+      "clubLabel": "Derry City F.C.",
+      "stadiumLabel": "Brandywell Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q761498",
+      "stadium": "http://www.wikidata.org/entity/Q1770044",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.357222 53.723336)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/Drogheda_United_F.C.",
+      "website": "https://droghedaunited.ie/",
+      "clubLabel": "Drogheda United F.C.",
+      "stadiumLabel": "United Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q761498",
+      "stadium": "http://www.wikidata.org/entity/Q1770044",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.357222 53.723336)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/Drogheda_United_F.C.",
+      "website": "https://droghedaunited.ie/",
+      "clubLabel": "Drogheda United F.C.",
+      "stadiumLabel": "United Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q945043",
+      "stadium": "http://www.wikidata.org/entity/Q2430753",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-9.056258 53.284658)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Galway_United_F.C.",
+      "website": "https://galwayunitedfc.ie/",
+      "clubLabel": "Galway United F.C.",
+      "stadiumLabel": "Eamonn Deacy Park"
+    }
+  ]
+}

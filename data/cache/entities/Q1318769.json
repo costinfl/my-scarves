@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:41.527Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1318769",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "LOGO KFBesiana.gif"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "KF Besiana"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "KF Besiana"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.456Z",
+  "version": 2,
+  "entity": {
+    "id": "Q330978",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "57476"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "B36 Tórshavn"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "B36 Tórshavn"
+      }
+    }
+  }
+}

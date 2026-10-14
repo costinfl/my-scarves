@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.604722&lon=6.140278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":119506087,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":5459427553,\"lat\":\"49.6049731\",\"lon\":\"6.1408933\",\"category\":\"historic\",\"type\":\"fort\",\"place_rank\":30,\"importance\":7.156710154874522e-05,\"addresstype\":\"historic\",\"name\":\"Fort Neipperg\",\"display_name\":\"Fort Neipperg, Rue Auguste Lumière, Verlorenkost, Luxembourg, Canton Luxembourg, 1950, Lëtzebuerg\",\"address\":{\"historic\":\"Fort Neipperg\",\"road\":\"Rue Auguste Lumière\",\"suburb\":\"Verlorenkost\",\"city\":\"Luxembourg\",\"county\":\"Canton Luxembourg\",\"ISO3166-2-lvl6\":\"LU-LU\",\"postcode\":\"1950\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.6049231\",\"49.6050231\",\"6.1408433\",\"6.1409433\"]}",
+  "fetchedAt": "2026-10-14T15:13:01.030Z"
+}

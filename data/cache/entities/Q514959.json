@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.456Z",
+  "version": 2,
+  "entity": {
+    "id": "Q514959",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Mondercange (logo).svg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "70419"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Mondercange"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Mondercange"
+      }
+    }
+  }
+}

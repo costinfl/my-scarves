@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:41.527Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1062929",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "79553"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Skála ÍF"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Skála ÍF"
+      }
+    }
+  }
+}

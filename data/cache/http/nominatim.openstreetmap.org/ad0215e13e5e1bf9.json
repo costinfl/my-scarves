@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=36.149356&lon=-5.350342&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":296058065,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":120309488,\"lat\":\"36.1492293\",\"lon\":\"-5.3501864\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4790339720211023,\"addresstype\":\"leisure\",\"name\":\"Victoria Stadium\",\"display_name\":\"Victoria Stadium, Bayside Road Cycle Path, Villa Vieja, Catalan Bay, Gibraltar, GX11 1AA, Gibraltar\",\"address\":{\"leisure\":\"Victoria Stadium\",\"road\":\"Bayside Road Cycle Path\",\"neighbourhood\":\"Villa Vieja\",\"hamlet\":\"Catalan Bay\",\"city\":\"Gibraltar\",\"postcode\":\"GX11 1AA\",\"country\":\"Gibraltar\",\"country_code\":\"gi\"},\"boundingbox\":[\"36.1486770\",\"36.1497816\",\"-5.3507498\",\"-5.3496230\"]}",
+  "fetchedAt": "2026-10-14T15:12:12.980Z"
+}

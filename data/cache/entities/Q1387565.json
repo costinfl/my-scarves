@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:41.527Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1387565",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FC Rodange 91 (logo).svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Rodange 91"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Rodange 91"
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1549827 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:09:04.385Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q1228264",
+      "stadium": "http://www.wikidata.org/entity/Q24910606",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.903551 42.616446)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Feronikeli_74",
+      "website": "http://feronikelifc.com",
+      "clubLabel": "KF Feronikeli",
+      "stadiumLabel": "Rexhep Rexhepi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1318769",
+      "stadium": "http://www.wikidata.org/entity/Q5123440",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.19472222 42.905)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Besiana",
+      "clubLabel": "KF Besiana",
+      "stadiumLabel": "City Stadium",
+      "capacity": "2000",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LOGO%20KFBesiana.gif"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1418838",
+      "stadium": "http://www.wikidata.org/entity/Q7461769",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.29388889 42.65277778)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Besa_Peja",
+      "website": "https://fcbesa1923.com/",
+      "clubLabel": "KF Besa",
+      "stadiumLabel": "Shahin Haxhiislami Stadium",
+      "capacity": "8500"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1475458",
+      "stadium": "http://www.wikidata.org/entity/Q24911326",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.729092 42.207037)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Liria_Prizren",
+      "website": "http://www.liriafc.com/",
+      "clubLabel": "KF Liria",
+      "stadiumLabel": "Përparim Thaçi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718614",
+      "stadium": "http://www.wikidata.org/entity/Q5123441",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.974728 42.818631)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vushtrria",
+      "clubLabel": "KF Vushtrria",
+      "stadiumLabel": "Vushtrri City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718620",
+      "stadium": "http://www.wikidata.org/entity/Q24911330",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.86141667 42.88805556)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Trep%C3%A7a_%2789",
+      "clubLabel": "KF Trepça '89",
+      "stadiumLabel": "Riza Lushta Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q85772891",
+      "stadium": "http://www.wikidata.org/entity/Q24910606",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.903551 42.616446)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Drenasi",
+      "clubLabel": "KF Drenasi",
+      "stadiumLabel": "Rexhep Rexhepi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q991727",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Fush%C3%AB_Kosova",
+      "website": "http://www.pampurat.com/",
+      "clubLabel": "KF Fushë Kosova"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1391848",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Flamurtari",
+      "clubLabel": "KF Flamurtari"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1447279",
+      "clubLabel": "KF Ramiz Sadiku"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1519407",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_KEK-u",
+      "clubLabel": "KF KEK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718602",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_2_Korriku",
+      "website": "http://www.2korriku.com",
+      "clubLabel": "KF 2 Korriku"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718612",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Istogu",
+      "clubLabel": "KF Istogu"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718622",
+      "website": "http://www.kfvullnetari-uck.tk/",
+      "clubLabel": "KF Vullnetari"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6329432",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Kosova_VR_Prishtin%C3%AB",
+      "clubLabel": "KF Kosova Prishtinë"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q25103764",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vitia",
+      "clubLabel": "KF Vitia",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/KF%20Vitia%20Logo.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q55432860",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Arb%C3%ABria",
+      "website": "http://www.fcarberia.com",
+      "clubLabel": "KF Arbëria"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q120648246",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Suhareka",
+      "website": "https://fcsuhareka.com/",
+      "clubLabel": "FC Suhareka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q138027798",
+      "clubLabel": "KF Dinamo Ferizaj"
+    }
+  ]
+}

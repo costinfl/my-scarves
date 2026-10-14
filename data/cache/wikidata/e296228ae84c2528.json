@@ -1,0 +1,125 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q739479 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:08:02.761Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q216857",
+      "stadium": "http://www.wikidata.org/entity/Q7379625",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.723333 62.105833)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/NS%C3%8D_Runav%C3%ADk",
+      "website": "http://www.nsi.fo",
+      "clubLabel": "NSÍ Runavík",
+      "stadiumLabel": "Runavík Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q287768",
+      "stadium": "http://www.wikidata.org/entity/Q776949",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.80277778 61.995)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/Argja_B%C3%B3ltfelag",
+      "website": "http://www.ab.fo/",
+      "clubLabel": "Argja Bóltfelag",
+      "stadiumLabel": "Argir Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q330978",
+      "stadium": "http://www.wikidata.org/entity/Q221052",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.7811394 62.0193487)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/B36_T%C3%B3rshavn",
+      "website": "https://www.b36.fo/",
+      "clubLabel": "B36 Tórshavn",
+      "stadiumLabel": "Gundadalur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q369420",
+      "stadium": "http://www.wikidata.org/entity/Q221052",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.7811394 62.0193487)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Havnar_B%C3%B3ltfelag",
+      "website": "https://hb.fo/",
+      "clubLabel": "Havnar Bóltfelag",
+      "stadiumLabel": "Gundadalur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q497835",
+      "stadium": "http://www.wikidata.org/entity/Q4110559",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.0431 62.1941)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/EB/Streymur",
+      "website": "http://ebstreymur.fo/",
+      "clubLabel": "EB/Streymur",
+      "stadiumLabel": "Við Margáir",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20EB-Streymur.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q497835",
+      "stadium": "http://www.wikidata.org/entity/Q4110559",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.0431 62.1941)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/EB/Streymur",
+      "website": "http://ebstreymur.fo/",
+      "clubLabel": "EB/Streymur",
+      "stadiumLabel": "Við Margáir",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20EB-Streymur.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q516425",
+      "stadium": "http://www.wikidata.org/entity/Q1060809",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.736111 62.099722)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/B68_Toftir",
+      "website": "https://b68.fo/",
+      "clubLabel": "B68 Toftir",
+      "stadiumLabel": "Svangaskarð",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/B68%20toftir.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q723457",
+      "stadium": "http://www.wikidata.org/entity/Q10904309",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.579201 62.225246)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/Klaksv%C3%ADkar_%C3%8Dtr%C3%B3ttarfelag",
+      "website": "https://ki.fo/",
+      "clubLabel": "KÍ Klaksvík",
+      "stadiumLabel": "Djúpumýra Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%8D%20Klaksv%C3%ADk.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1062929",
+      "stadium": "http://www.wikidata.org/entity/Q7538165",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.78861111 62.16)",
+      "enwiki": "https://en.wikipedia.org/wiki/Sk%C3%A1la_%C3%8DF",
+      "website": "https://skalaif.fo/",
+      "clubLabel": "Skála ÍF",
+      "stadiumLabel": "Skála Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3543925",
+      "stadium": "http://www.wikidata.org/entity/Q1287265",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.74552 62.199788)",
+      "enwiki": "https://en.wikipedia.org/wiki/V%C3%ADkingur_G%C3%B8ta",
+      "website": "https://www.vikingur.fo/",
+      "clubLabel": "Víkingur Gøta",
+      "stadiumLabel": "Serpugerði Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q161217",
+      "enwiki": "https://en.wikipedia.org/wiki/07_Vestur",
+      "website": "http://www.07vestur.fo/",
+      "clubLabel": "07 Vestur",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/07-Vestur-Logo.svg"
+    }
+  ]
+}

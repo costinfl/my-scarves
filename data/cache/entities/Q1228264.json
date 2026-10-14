@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:41.527Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1228264",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2608281"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Feronikeli 74"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "KF Feronikeli"
+      }
+    }
+  }
+}

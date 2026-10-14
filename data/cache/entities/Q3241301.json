@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.456Z",
+  "version": 2,
+  "entity": {
+    "id": "Q3241301",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2605572"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Lincoln Red Imps F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Lincoln Red Imps F.C."
+      }
+    }
+  }
+}

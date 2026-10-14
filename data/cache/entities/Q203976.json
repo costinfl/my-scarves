@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.456Z",
+  "version": 2,
+  "entity": {
+    "id": "Q203976",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52381"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Shamrock Rovers F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Shamrock Rovers F.C."
+      }
+    }
+  }
+}

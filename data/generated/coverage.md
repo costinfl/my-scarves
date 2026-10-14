@@ -19,24 +19,30 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | DEN Denmark | 31 | 24 | 4 (13%) | 4 (13%) | 24 (77%) | 1 (3%) |
 | ENG England | 44 | 44 | 0 (0%) | 0 (0%) | 41 (93%) | 0 (0%) |
 | EST Estonia | 19 | 20 | 6 (32%) | 6 (32%) | 14 (74%) | 2 (11%) |
+| FRO Faroe Islands | 17 | 20 | 4 (24%) | 4 (24%) | 13 (76%) | 3 (18%) |
 | FIN Finland | 26 | 22 | 4 (15%) | 4 (15%) | 23 (88%) | 3 (12%) |
 | FRA France | 36 | 36 | 0 (0%) | 0 (0%) | 18 (50%) | 0 (0%) |
 | GEO Georgia | 33 | 20 | 17 (52%) | 17 (52%) | 30 (91%) | 16 (48%) |
 | GER Germany | 43 | 38 | 0 (0%) | 0 (0%) | 9 (21%) | 0 (0%) |
+| GIB Gibraltar | 12 | 12 | 0 (0%) | 0 (0%) | 11 (92%) | 4 (33%) |
 | GRE Greece | 26 | 30 | 3 (12%) | 3 (12%) | 23 (88%) | 4 (15%) |
 | HUN Hungary | 50 | 44 | 19 (38%) | 20 (40%) | 37 (74%) | 17 (34%) |
 | ISL Iceland | 22 | 24 | 8 (36%) | 8 (36%) | 16 (73%) | 4 (18%) |
 | ISR Israel | 38 | 30 | 5 (13%) | 5 (13%) | 37 (97%) | 18 (47%) |
 | ITA Italy | 48 | 40 | 1 (2%) | 1 (2%) | 27 (56%) | 0 (0%) |
 | KAZ Kazakhstan | 38 | 21 | 17 (45%) | 17 (45%) | 36 (95%) | 14 (37%) |
+| KOS Kosovo | 27 | 28 | 15 (56%) | 15 (56%) | 25 (93%) | 16 (59%) |
 | LVA Latvia | 28 | 18 | 18 (64%) | 18 (64%) | 26 (93%) | 10 (36%) |
+| LIE Liechtenstein | 0 | ? | - | - | - | - |
 | LTU Lithuania | 23 | 21 | 11 (48%) | 11 (48%) | 21 (91%) | 10 (43%) |
+| LUX Luxembourg | 27 | 30 | 9 (33%) | 9 (33%) | 22 (81%) | 0 (0%) |
 | MDA Moldova | 15 | 12 | 7 (47%) | 7 (47%) | 14 (93%) | 9 (60%) |
 | MNE Montenegro | 25 | 22 | 3 (12%) | 3 (12%) | 25 (100%) | 17 (68%) |
 | NED Netherlands | 38 | 38 | 0 (0%) | 0 (0%) | 25 (66%) | 1 (3%) |
 | NOR Norway | 31 | 32 | 4 (13%) | 4 (13%) | 21 (68%) | 0 (0%) |
 | POL Poland | 39 | 36 | 3 (8%) | 3 (8%) | 31 (79%) | 3 (8%) |
 | POR Portugal | 44 | 36 | 5 (11%) | 5 (11%) | 38 (86%) | 3 (7%) |
+| IRL Republic of Ireland | 20 | 20 | 1 (5%) | 3 (15%) | 19 (95%) | 0 (0%) |
 | ROU Romania | 32 | 37 | 5 (16%) | 5 (16%) | 28 (88%) | 0 (0%) |
 | SCO Scotland | 19 | 22 | 0 (0%) | 0 (0%) | 18 (95%) | 0 (0%) |
 | SRB Serbia | 39 | 34 | 13 (33%) | 13 (33%) | 34 (87%) | 9 (23%) |
@@ -48,7 +54,7 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | TUR Türkiye | 44 | 37 | 6 (14%) | 6 (14%) | 34 (77%) | 2 (5%) |
 | UKR Ukraine | 47 | 34 | 17 (36%) | 17 (36%) | 34 (72%) | 13 (28%) |
 
-Not imported yet: 12 of 55 associations.
+Not imported yet: 6 of 55 associations.
 
 ## Enrichment
 
@@ -71,24 +77,30 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | DEN Denmark | 31 | 18 / 7 | 5 / 0 | 31 (100%) | 27 (87%) | 16 (52%) |
 | ENG England | 44 | 35 / 3 | 43 / 0 | 44 (100%) | 44 (100%) | 17 (39%) |
 | EST Estonia | 19 | 7 / 5 | 4 / 15 | 19 (100%) | 13 (68%) | 0 (0%) |
+| FRO Faroe Islands | 17 | 10 / 4 | 0 / 16 | 17 (100%) | 13 (76%) | 2 (12%) |
 | FIN Finland | 26 | 13 / 3 | 10 / 13 | 25 (96%) | 22 (85%) | 9 (35%) |
 | FRA France | 36 | 27 / 16 | 17 / 11 | 36 (100%) | 36 (100%) | 28 (78%) |
 | GEO Georgia | 33 | 11 / 3 | 0 / 20 | 33 (100%) | 16 (48%) | 2 (6%) |
 | GER Germany | 43 | 26 / 34 | 15 / 0 | 43 (100%) | 43 (100%) | 21 (49%) |
+| GIB Gibraltar | 12 | 7 / 1 | 0 / 10 | 12 (100%) | 12 (100%) | 2 (17%) |
 | GRE Greece | 26 | 12 / 3 | 26 / 0 | 26 (100%) | 23 (88%) | 8 (31%) |
 | HUN Hungary | 50 | 18 / 13 | 2 / 0 | 48 (96%) | 30 (60%) | 11 (22%) |
 | ISL Iceland | 22 | 15 / 6 | 1 / 18 | 21 (95%) | 14 (64%) | 5 (23%) |
 | ISR Israel | 38 | 14 / 1 | 0 / 33 | 37 (97%) | 33 (87%) | 8 (21%) |
 | ITA Italy | 48 | 23 / 21 | 27 / 0 | 48 (100%) | 47 (98%) | 37 (77%) |
 | KAZ Kazakhstan | 38 | 14 / 2 | 1 / 18 | 37 (97%) | 21 (55%) | 0 (0%) |
+| KOS Kosovo | 27 | 9 / 2 | 1 / 19 | 24 (89%) | 12 (44%) | 0 (0%) |
 | LVA Latvia | 28 | 7 / 2 | 0 / 15 | 26 (93%) | 10 (36%) | 1 (4%) |
+| LIE Liechtenstein | 0 | 0 / 0 | 0 / 0 | - | - | - |
 | LTU Lithuania | 23 | 9 / 2 | 3 / 17 | 23 (100%) | 12 (52%) | 3 (13%) |
+| LUX Luxembourg | 27 | 13 / 5 | 0 / 21 | 27 (100%) | 18 (67%) | 6 (22%) |
 | MDA Moldova | 15 | 5 / 1 | 1 / 10 | 14 (93%) | 8 (53%) | 0 (0%) |
 | MNE Montenegro | 25 | 12 / 0 | 0 / 20 | 25 (100%) | 22 (88%) | 0 (0%) |
 | NED Netherlands | 38 | 22 / 13 | 3 / 0 | 38 (100%) | 38 (100%) | 31 (82%) |
 | NOR Norway | 31 | 19 / 9 | 16 / 0 | 30 (97%) | 27 (87%) | 8 (26%) |
 | POL Poland | 39 | 21 / 8 | 21 / 0 | 38 (97%) | 36 (92%) | 3 (8%) |
 | POR Portugal | 44 | 24 / 5 | 10 / 0 | 44 (100%) | 39 (89%) | 22 (50%) |
+| IRL Republic of Ireland | 20 | 12 / 1 | 1 / 16 | 20 (100%) | 17 (85%) | 16 (80%) |
 | ROU Romania | 32 | 14 / 2 | 1 / 0 | 32 (100%) | 27 (84%) | 11 (34%) |
 | SCO Scotland | 19 | 16 / 1 | 1 / 0 | 19 (100%) | 19 (100%) | 14 (74%) |
 | SRB Serbia | 39 | 15 / 5 | 0 / 0 | 39 (100%) | 26 (67%) | 3 (8%) |
@@ -137,6 +149,8 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | ENG EFL Championship (Q19510) | 2 | ok | open | 24 | 24 | 0 |
 | EST Meistriliiga (Q239738) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Meistriliiga) | 10 | 10 | 0 |
 | EST Esiliiga (Q1087541) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Esiliiga) | 10 | 10 | 0 |
+| FRO Faroe Islands Premier League (Q739479) | 1 | ok | open | 10 | 10 | 0 |
+| FRO 1. deild (Q1000903) | 2 | ok | open | 7 | 10 | -3 |
 | FIN Veikkausliiga (Q220875) | 1 | ok | open | 13 | 12 | +1 |
 | FIN Ykkösliiga (Q384536) | 2 | ok | open | 13 | 10 | +3 |
 | FRA Ligue 1 (Q13394) | 1 | ok | season | 18 | 18 | 0 |
@@ -145,6 +159,7 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | GEO Erovnuli Liga 2 (Q2270893) | 2 | ok | open | 23 | 10 | +13 |
 | GER Bundesliga (Q82595) | 1 | ok | open | 18 | 20 | -2 |
 | GER 2. Bundesliga (Q152665) | 2 | ok | open | 25 | 18 | +7 |
+| GIB Gibraltar National League (Q1522963) | 1 | ok | open | 12 | 12 | 0 |
 | GRE Super League Greece (Q235114) | 1 | ok | open | 14 | 14 | 0 |
 | GRE Super League Greece 2 (Q63980269) | 2 | ok | open | 12 | 16 | -4 |
 | HUN Nemzeti Bajnokság I (Q276085) | 1 | ok | open | 13 | 12 | +1 |
@@ -157,10 +172,14 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | ITA Serie B (Q194052) | 2 | ok | open | 28 | 20 | +8 |
 | KAZ Kazakhstan Premier League (Q326422) | 1 | ok | open | 16 | 12 | +4 |
 | KAZ Kazakhstan First League (Q1361963) | 2 | ok | open | 22 | 9 | +13 |
+| KOS Football Superleague of Kosovo (Q978160) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Football_Superleague_of_Kosovo) | 10 | 12 | -2 |
+| KOS First Football League of Kosovo (Q1549827) | 2 | ok | open | 19 | 16 | +3 |
 | LVA Latvian Higher League (Q308798) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Latvian_Higher_League) | 10 | 8 | +2 |
 | LVA Latvian First League (Q163773) | 2 | ok | open | 18 | 10 | +8 |
 | LTU TOPLYGA (Q275665) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Toplyga) | 10 | 6 | +4 |
 | LTU First League (Q209008) | 2 | ok | open | 13 | 15 | -2 |
+| LUX Luxembourg National Division (Q245252) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_National_Division) | 16 | 16 | 0 |
+| LUX Luxembourg Division of Honour (Q1300490) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_Division_of_Honour) | 11 | 14 | -3 |
 | MDA Moldovan National Division (Q384531) | 1 | ok | open | 8 | 12 | -4 |
 | MDA Moldovan Liga 1 (Q370184) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Moldovan_Liga_1) | 7 | ? | ? |
 | MNE Montenegrin First League (Q271271) | 1 | ok | open | 10 | 10 | 0 |
@@ -173,6 +192,8 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | POL I liga (Q163046) | 2 | ok | open | 21 | 18 | +3 |
 | POR Primeira Liga (Q182994) | 1 | ok | open | 18 | 18 | 0 |
 | POR Liga Portugal 2 (Q754488) | 2 | ok | open | 26 | 18 | +8 |
+| IRL League of Ireland Premier Division (Q831202) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_League_of_Ireland_Premier_Division) | 10 | 12 | -2 |
+| IRL League of Ireland First Division (Q2474177) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_League_of_Ireland_First_Division) | 10 | 8 | +2 |
 | ROU Liga I (Q237753) | 1 | ok | open | 15 | 16 | -1 |
 | ROU Liga II (Q386384) | 2 | ok | open | 17 | 21 | -4 |
 | SCO Scottish Premiership (Q14377162) | 1 | ok | open | 13 | 12 | +1 |
@@ -302,6 +323,12 @@ AaB Fodbold, Boldklubben af 1893, Brønshøj Boldklub, Esbjerg fB, FC Fredericia
 
 </details>
 
+<details><summary>FRO 1. deild: 7 found, 10 expected</summary>
+
+B71 Sandoy, FC Hoyvík, FC Suðuroy, ÍF Fuglafjørður, MB Miðvágur, SÍ Sørvágur, TB Tvøroyri
+
+</details>
+
 <details><summary>FIN Veikkausliiga: 13 found, 12 expected</summary>
 
 AC Oulu, FC Ilves, FC Inter Turku, FC Lahti, FF Jaro, Helsingin Jalkapalloklubi, IF Gnistan, IFK Mariehamn, Kotkan Työväen Palloilijat, Kuopion Palloseura, Seinäjoen Jalkapallokerho, TPS Turku, Vaasan Palloseura
@@ -380,6 +407,18 @@ FC Akzhayik, FC Alma-Ata, FC Avangard, FC Baikonur, FC Bayterek, FC BGS, FC Bola
 
 </details>
 
+<details><summary>KOS Football Superleague of Kosovo: 10 found, 12 expected</summary>
+
+FC Prishtina, KF Ballkani, KF Drenica, KF Drita, KF Dukagjini, KF Feronikeli, KF Gjilani, KF Llapi, KF Malisheva, KF Vushtrria
+
+</details>
+
+<details><summary>KOS First Football League of Kosovo: 19 found, 16 expected</summary>
+
+FC Suhareka, KF 2 Korriku, KF Arbëria, KF Besa, KF Besiana, KF Dinamo Ferizaj, KF Drenasi, KF Feronikeli, KF Flamurtari, KF Fushë Kosova, KF Istogu, KF KEK, KF Kosova Prishtinë, KF Liria, KF Ramiz Sadiku, KF Trepça '89, KF Vitia, KF Vullnetari, KF Vushtrria
+
+</details>
+
 <details><summary>LVA Latvian Higher League: 10 found, 8 expected</summary>
 
 BFC Daugavpils, FC RFS, FK Auda, FK Grobiņa, FK Liepāja, FS Jelgava, Ogre United, Riga FC, SK Super Nova, Tukums 2000
@@ -401,6 +440,12 @@ FA Šiauliai, FC Džiugas, FC Hegelmann, FK Banga Gargždai, FK Kauno Žalgiris,
 <details><summary>LTU First League: 13 found, 15 expected</summary>
 
 DFK Dainava, FC Pakruojis, FC Vilniaus Vytis, FK Jonava, FK Koralas, FK Kražantė, FK Lokomotyvas Radviliškis, FK Minija, FK Mykolo Riomerio universitetas, FK Nacionalinė futbolo akademija, FK Nevėžis, FK Šilas, FK Šilutė
+
+</details>
+
+<details><summary>LUX Luxembourg Division of Honour: 11 found, 14 expected</summary>
+
+CS Fola Esch, FC Avenir Beggen, FC Jeunesse Canach, FC Koeppchen Wormeldange, FC Luxembourg City, FC Mamer 32, FC Marisca Mersch, FC Mondercange, FC Rodange 91, SC Bettembourg, Union Titus Pétange
 
 </details>
 
@@ -431,6 +476,18 @@ Arka Gdynia, Chrobry Głogów, Dolcan Ząbki, KS Lechia Gdańsk, ŁKS Łódź, L
 <details><summary>POR Liga Portugal 2: 26 found, 18 expected</summary>
 
 Académico de Viseu FC, Associação Académica de Coimbra – O.A.F., Associação Naval 1º de Maio, Atlético Clube de Portugal, AVS Futebol SAD, B-SAD, C.D. Cova da Piedade, C.D. Fátima, C.D. Feirense, C.D. Trofense, C.F. Os Belenenses, C.F. União, F.C. Paços de Ferreira, F.C. Vizela, G.D. Chaves, Gondomar S.C., Leixões S.C., Portimonense S.C., S.C. Covilhã, S.C. Farense, S.C. Freamunde, S.C.U. Torreense, U.D. Leiria, U.D. Oliveirense, UD Vilafranquense, Varzim S.C.
+
+</details>
+
+<details><summary>IRL League of Ireland Premier Division: 10 found, 12 expected</summary>
+
+Bohemian F.C., Derry City F.C., Drogheda United F.C., Dundalk F.C., Galway United F.C., Shamrock Rovers F.C., Shelbourne F.C., Sligo Rovers F.C., St Patrick's Athletic F.C., Waterford United F.C.
+
+</details>
+
+<details><summary>IRL League of Ireland First Division: 10 found, 8 expected</summary>
+
+Athlone Town F.C., Bray Wanderers A.F.C., Cobh Ramblers F.C., Cork City F.C., Finn Harps F.C., Kerry FC, Longford Town F.C., Treaty United F.C., University College Dublin A.F.C., Wexford Youths F.C.
 
 </details>
 
@@ -652,6 +709,10 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - FIN Kokkolan Palloveikot (Q574997): no home venue (P115)
 - FIN Tampereen Peli-Pojat-70 (Q2273732): no home venue (P115)
 - FIN Veikkausliiga: excluded SJK Akatemia (Q11870986), part of club Q2185704 (P831)
+- FRO 07 Vestur (Q161217): no home venue (P115)
+- FRO FC Hoyvík (Q59152070): no home venue (P115)
+- FRO MB Miðvágur (Q670304): no home venue (P115)
+- FRO SÍ Sørvágur (Q745364): no home venue (P115)
 - GEO Chkherimela FC (Q3646666): no home venue (P115)
 - GEO FC Adeli Batumi (Q10401064): no home venue (P115)
 - GEO FC Aeti Sokhumi (Q5424799): no home venue (P115)
@@ -699,6 +760,9 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - HUN Tatabányai SC (Q785203): no home venue (P115)
 - HUN Tiszakécske FC (Q281076): no home venue (P115)
 - HUN Várda SE (Q1461967): no home venue (P115)
+- IRL Athlone Town F.C. (Q755656): stadium Athlone Town Stadium has no coordinates
+- IRL Cobh Ramblers F.C. (Q1104682): stadium St Colman's Park has no coordinates
+- IRL Treaty United F.C. (Q105628356): no home venue (P115)
 - ISL FH men's football (Q97516218): no home venue (P115)
 - ISL HK Kópavogur (Q139504898): several home venues (Kópavogsvöllur, Kórinn fjölnota knatthús); first one shown, set stadiumIds in overrides.json to choose
 - ISL Haukar (Q1151908): no home venue (P115)
@@ -734,6 +798,23 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - KAZ FC Ulytau (Q1046326): no home venue (P115)
 - KAZ FC Yelimay (Q933068): no home venue (P115)
 - KAZ Yelimay (Q120081555): no home venue (P115)
+- KOS FC Suhareka (Q120648246): no home venue (P115)
+- KOS KF 2 Korriku (Q1718602): no home venue (P115)
+- KOS KF Arbëria (Q55432860): no home venue (P115)
+- KOS KF Ballkani (Q1718604): no home venue (P115)
+- KOS KF Dinamo Ferizaj (Q138027798): no home venue (P115)
+- KOS KF Dukagjini (Q26861262): no home venue (P115)
+- KOS KF Feronikeli (Q1228264): current member of both tiers
+- KOS KF Flamurtari (Q1391848): no home venue (P115)
+- KOS KF Fushë Kosova (Q991727): no home venue (P115)
+- KOS KF Istogu (Q1718612): no home venue (P115)
+- KOS KF KEK (Q1519407): no home venue (P115)
+- KOS KF Kosova Prishtinë (Q6329432): no home venue (P115)
+- KOS KF Malisheva (Q85772919): no home venue (P115)
+- KOS KF Ramiz Sadiku (Q1447279): no home venue (P115)
+- KOS KF Vitia (Q25103764): no home venue (P115)
+- KOS KF Vullnetari (Q1718622): no home venue (P115)
+- KOS KF Vushtrria (Q1718614): current member of both tiers
 - LTU FA Šiauliai (Q16478096): no home venue (P115)
 - LTU FC Džiugas (Q12654311): no home venue (P115)
 - LTU FC Hegelmann (Q12654265): no home venue (P115)
@@ -746,6 +827,15 @@ FC Ahrobiznes Volochysk, FC Alians Lypova Dolyna, FC Arsenal-Kyivshchyna Bila Ts
 - LTU FK Transinvest (Q117206645): no home venue (P115)
 - LTU FK Šilas (Q12654339): no home venue (P115)
 - LTU First League: excluded FK Žalgiris B (Q31198746)
+- LUX FC Atert Bissen (Q3063068): no home venue (P115)
+- LUX FC Koeppchen Wormeldange (Q655591): no home venue (P115)
+- LUX FC Marisca Mersch (Q102418055): no home venue (P115)
+- LUX FC Rodange 91 (Q1387565): no home venue (P115)
+- LUX FC Résidence Walferdange (Q141254292): no home venue (P115)
+- LUX FC UNA Strassen (Q1387792): no home venue (P115)
+- LUX SC Bettembourg (Q2801418): no home venue (P115)
+- LUX US Hostert (Q773360): no home venue (P115)
+- LUX US Mondorf-les-Bains (Q1119349): no home venue (P115)
 - LVA AFA Olaine (Q19365063): no home venue (P115)
 - LVA FK Alfa (Q4063648): no home venue (P115)
 - LVA FK Auda (Q1388798): no home venue (P115)

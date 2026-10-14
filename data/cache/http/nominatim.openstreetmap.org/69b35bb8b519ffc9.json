@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.574200&lon=5.916820&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":118974720,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":967736517,\"lat\":\"49.5742703\",\"lon\":\"5.9167635\",\"category\":\"building\",\"type\":\"house\",\"place_rank\":30,\"importance\":4.929198138394777e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"18, Cité Jean Christophe, Hautcharage, Käerjeng, Canton Capellen, 4957, Lëtzebuerg\",\"address\":{\"house_number\":\"18\",\"road\":\"Cité Jean Christophe\",\"city_district\":\"Hautcharage\",\"city\":\"Käerjeng\",\"county\":\"Canton Capellen\",\"ISO3166-2-lvl6\":\"LU-CA\",\"postcode\":\"4957\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.5742247\",\"49.5743162\",\"5.9166925\",\"5.9168349\"]}",
+  "fetchedAt": "2026-10-14T15:13:02.360Z"
+}

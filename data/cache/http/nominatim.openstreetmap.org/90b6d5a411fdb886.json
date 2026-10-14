@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=62.099722&lon=-6.736111&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273644181,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":43036760,\"lat\":\"62.0995566\",\"lon\":\"-6.7362532\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.04539457909600718,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Svangaskarð, Á Rætt, Saltnes, Toftir, Nes kommuna, Eysturoyar sýsla, 650, Føroyar\",\"address\":{\"road\":\"Svangaskarð\",\"neighbourhood\":\"Á Rætt\",\"village\":\"Saltnes\",\"municipality\":\"Nes kommuna\",\"region\":\"Eysturoyar sýsla\",\"postcode\":\"650\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"62.0989973\",\"62.1001088\",\"-6.7372324\",\"-6.7352710\"]}",
+  "fetchedAt": "2026-10-14T15:12:01.939Z"
+}

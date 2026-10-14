@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=62.160000&lon=-6.788611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273896128,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":733387949,\"lat\":\"62.1598145\",\"lon\":\"-6.7885275\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.2836220396951343,\"addresstype\":\"leisure\",\"name\":\"Skála ÍF\",\"display_name\":\"Skála ÍF, Kumláarbrekka, Skála, Runavíkar kommuna, Eysturoyar sýsla, 480, Føroyar\",\"address\":{\"leisure\":\"Skála ÍF\",\"road\":\"Kumláarbrekka\",\"village\":\"Skála\",\"municipality\":\"Runavíkar kommuna\",\"region\":\"Eysturoyar sýsla\",\"postcode\":\"480\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"62.1592252\",\"62.1604039\",\"-6.7896925\",\"-6.7873625\"]}",
+  "fetchedAt": "2026-10-14T15:12:09.637Z"
+}

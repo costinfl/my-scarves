@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T15:09:42.903Z",
+  "version": 2,
+  "entity": {
+    "id": "Q933046",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52311"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Progrès Niederkorn"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Progrès Niederkorn"
+      }
+    }
+  }
+}

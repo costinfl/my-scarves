@@ -700,6 +700,13 @@
     "capacity": 33000
   },
   {
+    "qid": "Q221052",
+    "name": "Gundadalur",
+    "lat": 62.0193487,
+    "lon": -6.7811394,
+    "capacity": 5000
+  },
+  {
     "qid": "Q221122",
     "name": "Atatürk Olympic Stadium",
     "lat": 41.074472222,
@@ -1952,6 +1959,13 @@
     "capacity": 14563
   },
   {
+    "qid": "Q732609",
+    "name": "Finn Park",
+    "lat": 54.798087698,
+    "lon": -7.779730672,
+    "capacity": 6000
+  },
+  {
     "qid": "Q733194",
     "name": "Complexo Desportivo do Sport Clube de Freamunde",
     "lat": 41.27638889,
@@ -2049,6 +2063,13 @@
     "lon": -21.79277778
   },
   {
+    "qid": "Q776949",
+    "name": "Argir Stadium",
+    "lat": 61.995,
+    "lon": -6.80277778,
+    "capacity": 2000
+  },
+  {
     "qid": "Q777466",
     "name": "Color Line Stadion",
     "lat": 62.46944444,
@@ -2089,6 +2110,13 @@
     "lat": 57.0515,
     "lon": 9.8991,
     "capacity": 10500
+  },
+  {
+    "qid": "Q782088",
+    "name": "Oriel Park",
+    "lat": 53.998944,
+    "lon": -6.416917,
+    "capacity": 9000
   },
   {
     "qid": "Q784258",
@@ -2327,6 +2355,13 @@
     "lat": 53.370277777,
     "lon": -1.470833333,
     "capacity": 32702
+  },
+  {
+    "qid": "Q898423",
+    "name": "Brandywell Stadium",
+    "lat": 54.990633,
+    "lon": -7.336,
+    "capacity": 6300
   },
   {
     "qid": "Q898746",
@@ -2608,6 +2643,13 @@
     "capacity": 2000
   },
   {
+    "qid": "Q1040373",
+    "name": "Stade Jos Nosbaum",
+    "lat": 49.472222222,
+    "lon": 6.084722222,
+    "capacity": 4650
+  },
+  {
     "qid": "Q1053455",
     "name": "Stade de la Beaujoire",
     "lat": 47.2561,
@@ -2648,6 +2690,13 @@
     "lat": 38.919722,
     "lon": 16.587778,
     "capacity": 14650
+  },
+  {
+    "qid": "Q1060809",
+    "name": "Svangaskarð",
+    "lat": 62.099722,
+    "lon": -6.736111,
+    "capacity": 6000
   },
   {
     "qid": "Q1061636",
@@ -2908,6 +2957,13 @@
     "capacity": 14891
   },
   {
+    "qid": "Q1158113",
+    "name": "Dalymount Park",
+    "lat": 53.361667,
+    "lon": -6.275,
+    "capacity": 7955
+  },
+  {
     "qid": "Q1158963",
     "name": "Stadionul Dan Păltinișanu",
     "lat": 45.740556,
@@ -3039,6 +3095,12 @@
     "lat": 55.961666666,
     "lon": -3.165555555,
     "capacity": 20421
+  },
+  {
+    "qid": "Q1287265",
+    "name": "Serpugerði Stadium",
+    "lat": 62.199788,
+    "lon": -6.74552
   },
   {
     "qid": "Q1291459",
@@ -3335,6 +3397,13 @@
     "capacity": 14000
   },
   {
+    "qid": "Q1416579",
+    "name": "Vesturi á Eiðinum Stadium",
+    "lat": 61.4659,
+    "lon": -6.83651,
+    "capacity": 3000
+  },
+  {
     "qid": "Q1417248",
     "name": "Lyse Arena",
     "lat": 58.914611,
@@ -3368,6 +3437,13 @@
     "lat": 50.640075,
     "lon": 13.817936,
     "capacity": 17087
+  },
+  {
+    "qid": "Q1427047",
+    "name": "Flancare Park",
+    "lat": 53.72416667,
+    "lon": -7.85361111,
+    "capacity": 6850
   },
   {
     "qid": "Q1429583",
@@ -3517,6 +3593,13 @@
     "capacity": 14863
   },
   {
+    "qid": "Q1550984",
+    "name": "Fadil Vokrri Stadium",
+    "lat": 42.66297,
+    "lon": 21.15688,
+    "capacity": 16200
+  },
+  {
     "qid": "Q1554251",
     "name": "Guldensporen Stadion",
     "lat": 50.830278,
@@ -3557,6 +3640,13 @@
     "lat": 42.737639,
     "lon": 23.314806,
     "capacity": 22000
+  },
+  {
+    "qid": "Q1579655",
+    "name": "Victoria Stadium",
+    "lat": 36.149356,
+    "lon": -5.350342,
+    "capacity": 5000
   },
   {
     "qid": "Q1583034",
@@ -3720,11 +3810,25 @@
     "capacity": 5000
   },
   {
+    "qid": "Q1770044",
+    "name": "United Park",
+    "lat": 53.723336,
+    "lon": -6.357222,
+    "capacity": 2000
+  },
+  {
     "qid": "Q1770357",
     "name": "Recep Tayyip Erdoğan Stadium",
     "lat": 41.032777777,
     "lon": 28.972222222,
     "capacity": 14234
+  },
+  {
+    "qid": "Q1771479",
+    "name": "The Showgrounds",
+    "lat": 54.270042,
+    "lon": -8.487233,
+    "capacity": 4500
   },
   {
     "qid": "Q1776570",
@@ -3872,6 +3976,13 @@
     "lat": 42.675361,
     "lon": 23.272028,
     "capacity": 15992
+  },
+  {
+    "qid": "Q1860189",
+    "name": "Richmond Park",
+    "lat": 53.340922,
+    "lon": -6.316619,
+    "capacity": 5340
   },
   {
     "qid": "Q1862372",
@@ -4195,6 +4306,13 @@
     "capacity": 11390
   },
   {
+    "qid": "Q2263835",
+    "name": "Stade Achille Hammerel",
+    "lat": 49.604722222,
+    "lon": 6.140277777,
+    "capacity": 5814
+  },
+  {
     "qid": "Q2296961",
     "name": "Ukraina Stadium",
     "lat": 49.819234,
@@ -4242,6 +4360,13 @@
     "lat": 47.4104,
     "lon": 9.2543,
     "capacity": 3500
+  },
+  {
+    "qid": "Q2325813",
+    "name": "Stade Alphonse Theis",
+    "lat": 49.575353,
+    "lon": 6.158297,
+    "capacity": 4100
   },
   {
     "qid": "Q2325881",
@@ -4318,6 +4443,34 @@
     "lat": 60.102222,
     "lon": 19.935278,
     "capacity": 4000
+  },
+  {
+    "qid": "Q2421553",
+    "name": "Tolka Park",
+    "lat": 53.367514,
+    "lon": -6.251983,
+    "capacity": 9680
+  },
+  {
+    "qid": "Q2430753",
+    "name": "Eamonn Deacy Park",
+    "lat": 53.284658,
+    "lon": -9.056258,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q2430809",
+    "name": "Turners Cross",
+    "lat": 51.885528,
+    "lon": -8.46775,
+    "capacity": 7485
+  },
+  {
+    "qid": "Q2459367",
+    "name": "Tallaght Stadium",
+    "lat": 53.2835,
+    "lon": -6.37374,
+    "capacity": 6000
   },
   {
     "qid": "Q2470765",
@@ -4506,6 +4659,13 @@
     "capacity": 4532
   },
   {
+    "qid": "Q2939135",
+    "name": "Carlisle Grounds",
+    "lat": 53.205714,
+    "lon": -6.102889,
+    "capacity": 3185
+  },
+  {
     "qid": "Q2981391",
     "name": "Daugava Stadium",
     "lat": 56.502952,
@@ -4559,6 +4719,13 @@
     "lat": 45.430236,
     "lon": 28.022378,
     "capacity": 13500
+  },
+  {
+    "qid": "Q3133033",
+    "name": "Stade de la Frontière",
+    "lat": 49.485833333,
+    "lon": 5.976944444,
+    "capacity": 4000
   },
   {
     "qid": "Q3229439",
@@ -4764,6 +4931,20 @@
     "capacity": 5017
   },
   {
+    "qid": "Q3495624",
+    "name": "Stade rue Henri Dunant",
+    "lat": 49.646388888,
+    "lon": 6.135277777,
+    "capacity": 4830
+  },
+  {
+    "qid": "Q3495660",
+    "name": "Stade Jos Haupert",
+    "lat": 49.546111111,
+    "lon": 5.903369444,
+    "capacity": 4830
+  },
+  {
     "qid": "Q3495665",
     "name": "Joseph Marien Stadium",
     "lat": 50.8178,
@@ -4818,6 +4999,13 @@
     "lat": 50.277222222,
     "lon": 19.103611111,
     "capacity": 5750
+  },
+  {
+    "qid": "Q3496262",
+    "name": "Stade Émile Mayrisch",
+    "lat": 49.492222222,
+    "lon": 5.989722222,
+    "capacity": 4000
   },
   {
     "qid": "Q3496280",
@@ -4987,6 +5175,11 @@
     "capacity": 9000
   },
   {
+    "qid": "Q3628074",
+    "name": "Athlone Town Stadium",
+    "capacity": 2024
+  },
+  {
     "qid": "Q3650758",
     "name": "Olimpi Stadium",
     "lat": 41.78083333,
@@ -5006,6 +5199,11 @@
     "lat": 42.962222,
     "lon": 23.35,
     "capacity": 3500
+  },
+  {
+    "qid": "Q3967506",
+    "name": "St Colman's Park",
+    "capacity": 5980
   },
   {
     "qid": "Q3967768",
@@ -5029,6 +5227,20 @@
     "capacity": 20987
   },
   {
+    "qid": "Q4001819",
+    "name": "UCD Bowl",
+    "lat": 53.310277777,
+    "lon": -6.228055555,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q4018529",
+    "name": "Waterford Regional Sports Centre",
+    "lat": 52.244722,
+    "lon": -7.132778,
+    "capacity": 3100
+  },
+  {
     "qid": "Q4032454",
     "name": "Bakcell Arena",
     "lat": 40.400163,
@@ -5041,6 +5253,13 @@
     "lat": 50.616111,
     "lon": 26.240833,
     "capacity": 20000
+  },
+  {
+    "qid": "Q4110559",
+    "name": "Við Margáir",
+    "lat": 62.1941,
+    "lon": -7.0431,
+    "capacity": 1500
   },
   {
     "qid": "Q4126424",
@@ -5325,6 +5544,26 @@
     "capacity": 2431
   },
   {
+    "qid": "Q5123439",
+    "name": "City Stadium",
+    "lat": 42.466667,
+    "lon": 21.464444,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q5123440",
+    "name": "City Stadium",
+    "lat": 42.905,
+    "lon": 21.19472222,
+    "capacity": 2000
+  },
+  {
+    "qid": "Q5123441",
+    "name": "Vushtrri City Stadium",
+    "lat": 42.818631,
+    "lon": 20.974728
+  },
+  {
     "qid": "Q5205780",
     "name": "EXTRA Arena",
     "lat": 63.428376,
@@ -5394,6 +5633,13 @@
     "capacity": 7280
   },
   {
+    "qid": "Q5445530",
+    "name": "Ferrycarrig Park",
+    "lat": 52.3656,
+    "lon": -6.51555,
+    "capacity": 2500
+  },
+  {
     "qid": "Q5450905",
     "name": "Finnvedsvallen",
     "lat": 57.19591667,
@@ -5406,6 +5652,13 @@
     "lat": 61.500278,
     "lon": 23.785278,
     "capacity": 3100
+  },
+  {
+    "qid": "Q5507283",
+    "name": "Fuglafjørdur Stadium",
+    "lat": 62.245018,
+    "lon": -6.814399,
+    "capacity": 3000
   },
   {
     "qid": "Q5521343",
@@ -5496,6 +5749,13 @@
     "lat": 39.86972222,
     "lon": 48.06,
     "capacity": 8500
+  },
+  {
+    "qid": "Q6035773",
+    "name": "Inni í Dal",
+    "lat": 61.8586415,
+    "lon": -6.8268279,
+    "capacity": 300
   },
   {
     "qid": "Q6045919",
@@ -5652,6 +5912,13 @@
     "name": "Loka Stadium",
     "lat": 45.56648333,
     "lon": 15.19025556
+  },
+  {
+    "qid": "Q6706202",
+    "name": "Luxembourg-Cents",
+    "lat": 49.615,
+    "lon": 6.154722222,
+    "capacity": 2800
   },
   {
     "qid": "Q6813229",
@@ -5823,6 +6090,13 @@
     "capacity": 10169
   },
   {
+    "qid": "Q7379625",
+    "name": "Runavík Stadium",
+    "lat": 62.105833,
+    "lon": -6.723333,
+    "capacity": 2000
+  },
+  {
     "qid": "Q7389386",
     "name": "SC Partizan-Teleoptik",
     "lat": 44.8524527,
@@ -5843,6 +6117,19 @@
     "capacity": 9500
   },
   {
+    "qid": "Q7461769",
+    "name": "Shahin Haxhiislami Stadium",
+    "lat": 42.65277778,
+    "lon": 20.29388889,
+    "capacity": 8500
+  },
+  {
+    "qid": "Q7538165",
+    "name": "Skála Stadium",
+    "lat": 62.16,
+    "lon": -6.78861111
+  },
+  {
     "qid": "Q7579289",
     "name": "Sport-kompleksi Shatili",
     "lat": 41.77854,
@@ -5855,6 +6142,45 @@
     "lat": 56.509502,
     "lon": 27.3406363,
     "capacity": 978
+  },
+  {
+    "qid": "Q7596084",
+    "name": "Stade Am Deich",
+    "lat": 49.840277777,
+    "lon": 6.095555555,
+    "capacity": 2020
+  },
+  {
+    "qid": "Q7596098",
+    "name": "Stade Communal, Mondercange",
+    "lat": 49.536816666,
+    "lon": 5.982933333
+  },
+  {
+    "qid": "Q7596110",
+    "name": "Stade François Trausch",
+    "lat": 49.6243,
+    "lon": 6.0248
+  },
+  {
+    "qid": "Q7596118",
+    "name": "Stade Géitz",
+    "lat": 49.9674,
+    "lon": 5.9274,
+    "capacity": 2000
+  },
+  {
+    "qid": "Q7596144",
+    "name": "Stade Municipal, Pétange",
+    "lat": 49.557211111,
+    "lon": 5.856486111,
+    "capacity": 2400
+  },
+  {
+    "qid": "Q7596145",
+    "name": "Stade Municipal, Rumelange",
+    "lat": 49.457347222,
+    "lon": 6.033197222
   },
   {
     "qid": "Q7596242",
@@ -6112,6 +6438,12 @@
     "capacity": 68100
   },
   {
+    "qid": "Q7926495",
+    "name": "VictoriArena",
+    "lat": 49.8085,
+    "lon": 6.50567
+  },
+  {
     "qid": "Q7942542",
     "name": "Voždovac Stadium",
     "lat": 44.7749,
@@ -6262,6 +6594,13 @@
     "lat": 39.603509016,
     "lon": -8.66327242,
     "capacity": 1545
+  },
+  {
+    "qid": "Q10904309",
+    "name": "Djúpumýra Stadium",
+    "lat": 62.225246,
+    "lon": -6.579201,
+    "capacity": 3000
   },
   {
     "qid": "Q11173914",
@@ -6554,11 +6893,25 @@
     "capacity": 1600
   },
   {
+    "qid": "Q16605647",
+    "name": "Stade Rue de Lenningen",
+    "lat": 49.6101,
+    "lon": 6.33467,
+    "capacity": 1000
+  },
+  {
     "qid": "Q16632396",
     "name": "Estádio João Cardoso",
     "lat": 40.512,
     "lon": -8.08282,
     "capacity": 5000
+  },
+  {
+    "qid": "Q16632623",
+    "name": "Stade Municipal de la Ville de Differdange",
+    "lat": 49.513932,
+    "lon": 5.889775,
+    "capacity": 1800
   },
   {
     "qid": "Q16632779",
@@ -6607,6 +6960,12 @@
     "name": "Ilūkstes pilsētas stadions",
     "lat": 55.977222222,
     "lon": 26.291944444
+  },
+  {
+    "qid": "Q16900634",
+    "name": "Stade um Bëchel",
+    "lat": 49.5742,
+    "lon": 5.91682
   },
   {
     "qid": "Q16964481",
@@ -6774,6 +7133,12 @@
     "capacity": 3000
   },
   {
+    "qid": "Q20312106",
+    "name": "Bajram Aliu Stadium",
+    "lat": 42.7467696,
+    "lon": 20.7943764
+  },
+  {
     "qid": "Q20670731",
     "name": "Lod Municipal Stadium",
     "lat": 31.93925,
@@ -6844,6 +7209,24 @@
     "name": "Stovky",
     "lat": 49.695697,
     "lon": 18.3429535
+  },
+  {
+    "qid": "Q24910606",
+    "name": "Rexhep Rexhepi Stadium",
+    "lat": 42.616446,
+    "lon": 20.903551
+  },
+  {
+    "qid": "Q24911326",
+    "name": "Përparim Thaçi Stadium",
+    "lat": 42.207037,
+    "lon": 20.729092
+  },
+  {
+    "qid": "Q24911330",
+    "name": "Riza Lushta Stadium",
+    "lat": 42.88805556,
+    "lon": 20.86141667
   },
   {
     "qid": "Q24911792",
@@ -7068,6 +7451,12 @@
     "capacity": 34700
   },
   {
+    "qid": "Q65119544",
+    "name": "Við Stórá",
+    "lat": 61.5623,
+    "lon": -6.8521
+  },
+  {
     "qid": "Q65165977",
     "name": "Centre de entrenamiento de la FAF"
   },
@@ -7157,6 +7546,12 @@
     "lat": 45.24892,
     "lon": 19.793708,
     "capacity": 1400
+  },
+  {
+    "qid": "Q115245804",
+    "name": "Mounthawk Park",
+    "lat": 52.283399384,
+    "lon": -9.715753287
   },
   {
     "qid": "Q115728674",

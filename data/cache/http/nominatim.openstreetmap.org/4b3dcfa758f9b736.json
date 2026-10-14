@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.998944&lon=-6.416917&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":275340959,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":159924523,\"lat\":\"53.9989285\",\"lon\":\"-6.4165264\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.890516517886652e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Carrickmacross Road, Dundalk No. 3 Urban ED, Dundalk, County Louth, Leinster, Éire / Ireland\",\"address\":{\"road\":\"Carrickmacross Road\",\"city_district\":\"Dundalk No. 3 Urban ED\",\"town\":\"Dundalk\",\"county\":\"County Louth\",\"ISO3166-2-lvl6\":\"IE-LH\",\"state_district\":\"Leinster\",\"ISO3166-2-lvl5\":\"IE-L\",\"country\":\"Éire / Ireland\",\"country_code\":\"ie\"},\"boundingbox\":[\"53.9985580\",\"53.9992989\",\"-6.4173709\",\"-6.4156818\"]}",
+  "fetchedAt": "2026-10-14T15:12:20.016Z"
+}

@@ -2042,6 +2042,15 @@
     ],
     "source": "wikidata"
   },
+  "Q459622": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF0000",
+    "names": [
+      "white",
+      "red"
+    ],
+    "source": "wikidata"
+  },
   "Q460494": {
     "primary": "#FF0000",
     "secondary": "#0000FF",
@@ -2843,6 +2852,15 @@
     "names": [
       "yellow",
       "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q1475458": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white"
     ],
     "source": "wikidata"
   },

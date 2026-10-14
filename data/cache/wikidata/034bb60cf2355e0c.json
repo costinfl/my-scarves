@@ -1,0 +1,342 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q739479 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q739479 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T15:07:59.378Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Faroe_Islands_Premier_League",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1943_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958_Meistaradeildin",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_1._deild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_Faroe_Islands_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Faroe_Islands_Premier_League",
+      "kind": "season"
+    }
+  ]
+}

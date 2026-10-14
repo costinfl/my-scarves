@@ -9097,6 +9097,271 @@
     "officialWebsite": "http://www.va-fc.com"
   },
   {
+    "qid": "Q161217",
+    "name": "07 Vestur",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.07vestur.fo/",
+    "logoFile": "07-Vestur-Logo.svg"
+  },
+  {
+    "qid": "Q287768",
+    "name": "Argja Bóltfelag",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q776949"
+    ],
+    "officialWebsite": "http://www.ab.fo/"
+  },
+  {
+    "qid": "Q330978",
+    "name": "B36 Tórshavn",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q221052"
+    ],
+    "officialWebsite": "https://www.b36.fo/"
+  },
+  {
+    "qid": "Q516425",
+    "name": "B68 Toftir",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1060809"
+    ],
+    "officialWebsite": "https://b68.fo/",
+    "logoFile": "B68 toftir.png"
+  },
+  {
+    "qid": "Q787093",
+    "name": "B71 Sandoy",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6035773"
+    ],
+    "officialWebsite": "http://www.b71-sandoy.com/"
+  },
+  {
+    "qid": "Q497835",
+    "name": "EB/Streymur",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4110559"
+    ],
+    "officialWebsite": "http://ebstreymur.fo/",
+    "logoFile": "Logo EB-Streymur.png"
+  },
+  {
+    "qid": "Q59152070",
+    "name": "FC Hoyvík",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q856036",
+    "name": "FC Suðuroy",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1416579"
+    ]
+  },
+  {
+    "qid": "Q369420",
+    "name": "Havnar Bóltfelag",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q221052"
+    ],
+    "officialWebsite": "https://hb.fo/"
+  },
+  {
+    "qid": "Q291719",
+    "name": "ÍF Fuglafjørður",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5507283"
+    ],
+    "officialWebsite": "http://www.if.fo/"
+  },
+  {
+    "qid": "Q723457",
+    "name": "KÍ Klaksvík",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q10904309"
+    ],
+    "officialWebsite": "https://ki.fo/",
+    "logoFile": "KÍ Klaksvík.png"
+  },
+  {
+    "qid": "Q670304",
+    "name": "MB Miðvágur",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.mb1905.fo/"
+  },
+  {
+    "qid": "Q216857",
+    "name": "NSÍ Runavík",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7379625"
+    ],
+    "officialWebsite": "http://www.nsi.fo"
+  },
+  {
+    "qid": "Q745364",
+    "name": "SÍ Sørvágur",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1062929",
+    "name": "Skála ÍF",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7538165"
+    ],
+    "officialWebsite": "https://skalaif.fo/"
+  },
+  {
+    "qid": "Q778858",
+    "name": "TB Tvøroyri",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q1000903",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q65119544"
+    ],
+    "officialWebsite": "https://www.tb.fo/"
+  },
+  {
+    "qid": "Q3543925",
+    "name": "Víkingur Gøta",
+    "association": "FRO",
+    "leagues": [
+      {
+        "league": "Q739479",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1287265"
+    ],
+    "officialWebsite": "https://www.vikingur.fo/"
+  },
+  {
     "qid": "Q3646666",
     "name": "Chkherimela FC",
     "association": "GEO",
@@ -10320,6 +10585,195 @@
     "logoFile": "VfR Aalen Wappen.svg"
   },
   {
+    "qid": "Q22097750",
+    "name": "College 1975 F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://college1975fc.co.uk/"
+  },
+  {
+    "qid": "Q15732501",
+    "name": "Europa FC",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://europafc.gi/"
+  },
+  {
+    "qid": "Q18411591",
+    "name": "Europa Point F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://www.europapointfc.com/",
+    "logoFile": "Europa point fc logo.png"
+  },
+  {
+    "qid": "Q19577056",
+    "name": "F.C. Hound Dogs",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "http://fchounddogs.com"
+  },
+  {
+    "qid": "Q19577058",
+    "name": "F.C. Magpies",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ]
+  },
+  {
+    "qid": "Q3108385",
+    "name": "Glacis United F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ]
+  },
+  {
+    "qid": "Q3241301",
+    "name": "Lincoln Red Imps F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://lincolnredimpsfc.co.uk/"
+  },
+  {
+    "qid": "Q15926443",
+    "name": "Lions Gibraltar F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://www.lionsgibraltarfc.com/"
+  },
+  {
+    "qid": "Q13423234",
+    "name": "Lynx F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ]
+  },
+  {
+    "qid": "Q17317546",
+    "name": "Manchester 62 F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ]
+  },
+  {
+    "qid": "Q19577311",
+    "name": "Mons Calpe S.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://www.vamons.com/"
+  },
+  {
+    "qid": "Q3463910",
+    "name": "St Joseph's F.C.",
+    "association": "GIB",
+    "leagues": [
+      {
+        "league": "Q1522963",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1579655"
+    ],
+    "officialWebsite": "https://www.stjosephsfcgib.co.uk/"
+  },
+  {
     "qid": "Q16245443",
     "name": "A.E. Kifisia F.C.",
     "association": "GRE",
@@ -11496,6 +11950,325 @@
     ],
     "officialWebsite": "https://www.ztefc.hu/",
     "logoFile": "Zalaegerszegi TE (Logo).svg"
+  },
+  {
+    "qid": "Q755656",
+    "name": "Athlone Town F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3628074"
+    ],
+    "officialWebsite": "https://www.athlonetownafc.ie/"
+  },
+  {
+    "qid": "Q212708",
+    "name": "Bohemian F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1158113"
+    ],
+    "officialWebsite": "https://bohemians.ie/"
+  },
+  {
+    "qid": "Q902962",
+    "name": "Bray Wanderers A.F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2939135"
+    ],
+    "officialWebsite": "https://braywanderersfc.ie/"
+  },
+  {
+    "qid": "Q1104682",
+    "name": "Cobh Ramblers F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3967506"
+    ],
+    "officialWebsite": "https://cobhramblers.ie/"
+  },
+  {
+    "qid": "Q932284",
+    "name": "Cork City F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2430809"
+    ],
+    "officialWebsite": "https://www.corkcityfc.ie/"
+  },
+  {
+    "qid": "Q459622",
+    "name": "Derry City F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q898423"
+    ],
+    "officialWebsite": "https://www.derrycityfc.net/"
+  },
+  {
+    "qid": "Q761498",
+    "name": "Drogheda United F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1770044"
+    ],
+    "officialWebsite": "https://droghedaunited.ie/"
+  },
+  {
+    "qid": "Q338557",
+    "name": "Dundalk F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q782088"
+    ],
+    "officialWebsite": "https://www.dundalkfc.com/"
+  },
+  {
+    "qid": "Q1352136",
+    "name": "Finn Harps F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q732609"
+    ],
+    "officialWebsite": "https://www.finnharps.ie/"
+  },
+  {
+    "qid": "Q945043",
+    "name": "Galway United F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2430753"
+    ],
+    "officialWebsite": "https://galwayunitedfc.ie/"
+  },
+  {
+    "qid": "Q115245702",
+    "name": "Kerry FC",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q115245804"
+    ],
+    "officialWebsite": "https://kerryfc.com/"
+  },
+  {
+    "qid": "Q1478917",
+    "name": "Longford Town F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1427047"
+    ],
+    "officialWebsite": "https://ltfc.ie/"
+  },
+  {
+    "qid": "Q203976",
+    "name": "Shamrock Rovers F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2459367"
+    ],
+    "officialWebsite": "https://shamrockrovers.ie/"
+  },
+  {
+    "qid": "Q394474",
+    "name": "Shelbourne F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2421553"
+    ],
+    "officialWebsite": "https://shelbournefc.ie/"
+  },
+  {
+    "qid": "Q244874",
+    "name": "Sligo Rovers F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1771479"
+    ],
+    "officialWebsite": "https://www.sligorovers.com/",
+    "logoFile": "Sligo Rovers3 (logo).jpg"
+  },
+  {
+    "qid": "Q394452",
+    "name": "St Patrick's Athletic F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1860189"
+    ],
+    "officialWebsite": "https://www.stpatsfc.com/"
+  },
+  {
+    "qid": "Q105628356",
+    "name": "Treaty United F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://treatyunitedfc.com/"
+  },
+  {
+    "qid": "Q1341104",
+    "name": "University College Dublin A.F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4001819"
+    ],
+    "officialWebsite": "https://www.ucdfc.ie/"
+  },
+  {
+    "qid": "Q394466",
+    "name": "Waterford United F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q831202",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4018529"
+    ],
+    "officialWebsite": "https://www.waterfordfc.ie/"
+  },
+  {
+    "qid": "Q1617811",
+    "name": "Wexford Youths F.C.",
+    "association": "IRL",
+    "leagues": [
+      {
+        "league": "Q2474177",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5445530"
+    ],
+    "officialWebsite": "https://wexfordfc.ie/"
   },
   {
     "qid": "Q41634649",
@@ -13778,6 +14551,404 @@
     "officialWebsite": "https://fcelimai.kz"
   },
   {
+    "qid": "Q1111374",
+    "name": "FC Prishtina",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1550984"
+    ],
+    "officialWebsite": "https://www.prishtinafc.com/"
+  },
+  {
+    "qid": "Q120648246",
+    "name": "FC Suhareka",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcsuhareka.com/"
+  },
+  {
+    "qid": "Q1718602",
+    "name": "KF 2 Korriku",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.2korriku.com"
+  },
+  {
+    "qid": "Q55432860",
+    "name": "KF Arbëria",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fcarberia.com"
+  },
+  {
+    "qid": "Q1718604",
+    "name": "KF Ballkani",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://fcballkani.com/"
+  },
+  {
+    "qid": "Q1418838",
+    "name": "KF Besa",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7461769"
+    ],
+    "officialWebsite": "https://fcbesa1923.com/"
+  },
+  {
+    "qid": "Q1318769",
+    "name": "KF Besiana",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5123440"
+    ],
+    "logoFile": "LOGO KFBesiana.gif"
+  },
+  {
+    "qid": "Q138027798",
+    "name": "KF Dinamo Ferizaj",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q85772891",
+    "name": "KF Drenasi",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q24910606"
+    ]
+  },
+  {
+    "qid": "Q1666636",
+    "name": "KF Drenica",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q20312106"
+    ]
+  },
+  {
+    "qid": "Q1718607",
+    "name": "KF Drita",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5123439"
+    ]
+  },
+  {
+    "qid": "Q26861262",
+    "name": "KF Dukagjini",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1228264",
+    "name": "KF Feronikeli",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      },
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q24910606"
+    ],
+    "officialWebsite": "http://feronikelifc.com"
+  },
+  {
+    "qid": "Q1391848",
+    "name": "KF Flamurtari",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q991727",
+    "name": "KF Fushë Kosova",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.pampurat.com/"
+  },
+  {
+    "qid": "Q569932",
+    "name": "KF Gjilani",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5123439"
+    ]
+  },
+  {
+    "qid": "Q1718612",
+    "name": "KF Istogu",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1519407",
+    "name": "KF KEK",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q6329432",
+    "name": "KF Kosova Prishtinë",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1475458",
+    "name": "KF Liria",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q24911326"
+    ],
+    "officialWebsite": "http://www.liriafc.com/"
+  },
+  {
+    "qid": "Q1718617",
+    "name": "KF Llapi",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5123440"
+    ],
+    "officialWebsite": "http://llapifc.com/wp/"
+  },
+  {
+    "qid": "Q85772919",
+    "name": "KF Malisheva",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1447279",
+    "name": "KF Ramiz Sadiku",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1718620",
+    "name": "KF Trepça '89",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q24911330"
+    ]
+  },
+  {
+    "qid": "Q25103764",
+    "name": "KF Vitia",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "logoFile": "KF Vitia Logo.jpg"
+  },
+  {
+    "qid": "Q1718622",
+    "name": "KF Vullnetari",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.kfvullnetari-uck.tk/"
+  },
+  {
+    "qid": "Q1718614",
+    "name": "KF Vushtrria",
+    "association": "KOS",
+    "leagues": [
+      {
+        "league": "Q978160",
+        "tier": 1,
+        "season": "2026-27"
+      },
+      {
+        "league": "Q1549827",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5123441"
+    ]
+  },
+  {
     "qid": "Q25497952",
     "name": "DFK Dainava",
     "association": "LTU",
@@ -14114,6 +15285,425 @@
     ],
     "officialWebsite": "https://fkzalgiris.lt/",
     "logoFile": "Vmfdzalgiris2.jpg"
+  },
+  {
+    "qid": "Q1024468",
+    "name": "CS Fola Esch",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3496262"
+    ],
+    "officialWebsite": "https://csfola.lu"
+  },
+  {
+    "qid": "Q221752",
+    "name": "F91 Dudelange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1040373"
+    ],
+    "officialWebsite": "https://www.f91.lu/"
+  },
+  {
+    "qid": "Q3063068",
+    "name": "FC Atert Bissen",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fcbissen.lu/"
+  },
+  {
+    "qid": "Q1333583",
+    "name": "FC Avenir Beggen",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3495624"
+    ],
+    "officialWebsite": "http://www.wichtelweb.net/"
+  },
+  {
+    "qid": "Q591339",
+    "name": "FC Differdange 03",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16632623"
+    ],
+    "officialWebsite": "https://www.fcd03.lu/",
+    "logoFile": "FC Differdange 03 (logo).svg"
+  },
+  {
+    "qid": "Q922140",
+    "name": "FC Etzella Ettelbruck",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596084"
+    ],
+    "officialWebsite": "https://www.fcetzella.lu/"
+  },
+  {
+    "qid": "Q1387210",
+    "name": "FC Jeunesse Canach",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16605647"
+    ],
+    "officialWebsite": "http://www.fccanach.lu"
+  },
+  {
+    "qid": "Q655591",
+    "name": "FC Koeppchen Wormeldange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fckoeppchen.lu"
+  },
+  {
+    "qid": "Q1387538",
+    "name": "FC Luxembourg City",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6706202"
+    ],
+    "officialWebsite": "https://www.fclcity.lu/"
+  },
+  {
+    "qid": "Q1387348",
+    "name": "FC Mamer 32",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596110"
+    ],
+    "officialWebsite": "http://www.fcmamer32.lu/",
+    "logoFile": "FC Mamer 32 (logo).svg"
+  },
+  {
+    "qid": "Q102418055",
+    "name": "FC Marisca Mersch",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcmarisca.lu/"
+  },
+  {
+    "qid": "Q514959",
+    "name": "FC Mondercange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596098"
+    ],
+    "officialWebsite": "https://www.fcmondercange.lu/",
+    "logoFile": "FC Mondercange (logo).svg"
+  },
+  {
+    "qid": "Q933046",
+    "name": "FC Progrès Niederkorn",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3495660"
+    ],
+    "officialWebsite": "https://progres.lu/"
+  },
+  {
+    "qid": "Q141254292",
+    "name": "FC Résidence Walferdange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fcresidence.lu/"
+  },
+  {
+    "qid": "Q1387565",
+    "name": "FC Rodange 91",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fcr91.lu/",
+    "logoFile": "FC Rodange 91 (logo).svg"
+  },
+  {
+    "qid": "Q1542781",
+    "name": "FC Swift Hesperange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2325813"
+    ],
+    "officialWebsite": "http://www.swifthesper.lu/"
+  },
+  {
+    "qid": "Q1387792",
+    "name": "FC UNA Strassen",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fcuna-strassen.lu/"
+  },
+  {
+    "qid": "Q1387887",
+    "name": "FC Wiltz 71",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596118"
+    ],
+    "officialWebsite": "https://www.fcwiltz.com/"
+  },
+  {
+    "qid": "Q1756279",
+    "name": "Football Club Victoria Rosport",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7926495"
+    ],
+    "officialWebsite": "https://racing-fc.lu/"
+  },
+  {
+    "qid": "Q433541",
+    "name": "Jeunesse Esch",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3133033"
+    ],
+    "officialWebsite": "http://www.jeunesse-esch.lu/"
+  },
+  {
+    "qid": "Q693092",
+    "name": "Racing FC Union Luxembourg",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2263835"
+    ],
+    "officialWebsite": "http://www.racing-union.lu/"
+  },
+  {
+    "qid": "Q2801418",
+    "name": "SC Bettembourg",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://sc-bettembourg.com"
+  },
+  {
+    "qid": "Q770936",
+    "name": "U.N. Käerjeng '97",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16900634"
+    ],
+    "officialWebsite": "https://www.un-kaerjeng.lu"
+  },
+  {
+    "qid": "Q20054860",
+    "name": "Union Titus Pétange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q1300490",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596144"
+    ],
+    "officialWebsite": "https://www.utp.lu/"
+  },
+  {
+    "qid": "Q773360",
+    "name": "US Hostert",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.ushostert.lu/"
+  },
+  {
+    "qid": "Q1119349",
+    "name": "US Mondorf-les-Bains",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.usmondorf.lu/"
+  },
+  {
+    "qid": "Q1751591",
+    "name": "US Rumelange",
+    "association": "LUX",
+    "leagues": [
+      {
+        "league": "Q245252",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596145"
+    ],
+    "officialWebsite": "https://www.usrumelange.lu/",
+    "logoFile": "Union Sportive Rumelange (logo).svg"
   },
   {
     "qid": "Q19365063",

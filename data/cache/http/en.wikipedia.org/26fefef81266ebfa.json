@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Lynx%20F.C.",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Lynx F.C.\",\"pageid\":39493794,\"redirects\":[],\"wikitext\":\"{{Mcn|date=June 2025}}{{short description|Association football club in Gibraltar}}\\n{{Use dmy dates|date=April 2022}}\\n{{Infobox football club|\\n| image = Lynx_football_club.png\\n| upright = 0.95\\n| clubname = Lynx\\n| fullname = Lynx Football Club\\n| nickname = The Yellows\\n| founded = 2007\\n| ground = [[Victoria Stadium (Gibraltar)|Victoria Stadium]]|\\n| capacity = 2,000\\n| chrtitle = President\\n| chairman = Jack Noble\\n| manager = [[Rafael Berges]]\\n| league = [[Gibraltar Football League]]\\n| season = [[2025–26 Gibraltar Football League|2025–26]]\\n| position = 6th\\n| pattern_la1 = _thinblackborder\\n| pattern_b1 = \\n| pattern_ra1 = _thinblackborder\\n| pattern_sh1 = \\n| pattern_so1 = \\n| leftarm1 = FFD700\\n| body1 = FFD700\\n| rightarm1 = FFD700\\n| shorts1 = 000000\\n| socks1 = 000000\\n| website = {{URL|https://www.lynxfc.net/}}\\n}}\\n\\n'''Lynx FC''' is a [[association football|football]] club from the [[British Overseas Territories|British Overseas Territory]] of [[Gibraltar]]. They play in the [[Gibraltar Football League]]. The club colours are yellow and black.\"}}",
+  "fetchedAt": "2026-10-14T15:11:00.004Z"
+}

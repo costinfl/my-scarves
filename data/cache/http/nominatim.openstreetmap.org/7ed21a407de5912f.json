@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.562300&lon=-6.852100&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":274074607,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":4227817891,\"lat\":\"61.5623770\",\"lon\":\"-6.8519684\",\"category\":\"tourism\",\"type\":\"attraction\",\"place_rank\":30,\"importance\":0.26244239079806453,\"addresstype\":\"tourism\",\"name\":\"Stadion TB Tvøroyri\",\"display_name\":\"Stadion TB Tvøroyri, Smærugøta, Á Húsgarði, Trongisvágur, Tvøroyrar kommuna, Suðuroyar sýsla, 826, Føroyar\",\"address\":{\"tourism\":\"Stadion TB Tvøroyri\",\"road\":\"Smærugøta\",\"neighbourhood\":\"Á Húsgarði\",\"village\":\"Trongisvágur\",\"municipality\":\"Tvøroyrar kommuna\",\"county\":\"Suðuroyar sýsla\",\"postcode\":\"826\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"61.5623270\",\"61.5624270\",\"-6.8520184\",\"-6.8519184\"]}",
+  "fetchedAt": "2026-10-14T15:12:10.782Z"
+}

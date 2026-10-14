@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Mi%C3%B0v%C3%A1gs%20B%C3%B3ltfelag",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Miðvágs Bóltfelag\",\"pageid\":13828200,\"redirects\":[],\"wikitext\":\"{{short description|Faroese football club}}\\n{{Infobox football club\\n| clubname = MB Miðvágur\\n| image    = MB Midvagur logo.svg\\n| upright  = 0.75\\n| fullname = Miðvágs Bóltfelag\\n| nickname = MB 1905\\n| founded  = 21 January 1905\\n| ground   = [[MB Arena]]\\n| capacity = 1,000\\n| chairman = [[Elisabeth Haraldsen]]\\n| manager  =  [[Ethan Wallbank]]\\n| league   = [[2. deild]]\\n| season   = \\n| position = \\n| website  = http://www.mb1905.fo/\\n| pattern_la1=|pattern_b1=_whitestripes|pattern_ra1=|\\nleftarm1=0000CC|body1=0000CC|rightarm1=0000CC|shorts1=0000CC|socks1=White|\\npattern_la2=|pattern_b2=_redstripes|pattern_ra2=|\\nleftarm2=FF0000|body2=_Redstripes|rightarm2=FF0000|shorts2=FF0000|socks2=White|\\n}}\\n\\n'''Miðvágs Bóltfelag''', commonly known as '''MB''', is a [[Faroe Islands|Faroese]]  [[association football|football]] club based in [[Miðvágur]].<ref>{{cite web|url=https://www.faroesoccer.com/team.php?teamID=6428|title=Kappingar — Miðvágs Bóltfelag|access-date=25 May 2023|website=faroesoccer.com|archive-url=https://web.archive.org/web/20230527073238/https://www.faroesoccer.com/team.php?teamID=6428|archive-date=27 May 2023}}</ref>\"}}",
+  "fetchedAt": "2026-10-14T15:10:53.983Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Marisca%20Mersch",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Marisca Mersch\",\"pageid\":75436183,\"redirects\":[],\"wikitext\":\"{{Short description|Association football club in Luxembourg}}\\n{{Football club infobox\\n| clubname = FC Marisca Mersch\\n| image = Marisca_Mersch_logo.png\\n| fullname = FC Marisca Mersch\\n| founded = {{Start date and age|1908}}\\n| stadium = Terrain Schintgespesch\\n| capacity = {{nts|1000}}\\n| league = {{Luxembourg football updater|MER1}}\\n| season = {{Luxembourg football updater|MER2}}\\n| position = {{Luxembourg football updater|MER3}}\\n| website = {{Official URL}}\\n| chairman = Frédéric Wiseler\\n| manager = [[Mikhail Zaritskiy]]\\n}}\\n\\nFC '''Marisca Mersch''' is an association football club based in [[Mersch]], in central Luxembourg. They currently compete in the [[Luxembourg Division of Honour]], the second tier of Luxembourgish football.\"}}",
+  "fetchedAt": "2026-10-14T15:11:28.007Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=62.245018&lon=-6.814399&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":273153684,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":37531211,\"lat\":\"62.2448270\",\"lon\":\"-6.8141988\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.29892160108322774,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kelkurin, Við Garð, Fuglafjørður, Fuglafjarðar kommuna, Eysturoyar sýsla, 530, Føroyar\",\"address\":{\"road\":\"Kelkurin\",\"neighbourhood\":\"Við Garð\",\"town\":\"Fuglafjørður\",\"municipality\":\"Fuglafjarðar kommuna\",\"region\":\"Eysturoyar sýsla\",\"postcode\":\"530\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"62.2444698\",\"62.2451841\",\"-6.8152832\",\"-6.8131144\"]}",
+  "fetchedAt": "2026-10-14T15:12:06.701Z"
+}

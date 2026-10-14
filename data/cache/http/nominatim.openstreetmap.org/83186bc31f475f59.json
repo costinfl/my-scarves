@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.492222&lon=5.989722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":119006411,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1054665115,\"lat\":\"49.4920216\",\"lon\":\"5.9897494\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.126726176847514e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue du Stade, Park, Esch-sur-Alzette, Canton Esch-sur-Alzette, 4045, Lëtzebuerg\",\"address\":{\"road\":\"Rue du Stade\",\"suburb\":\"Park\",\"town\":\"Esch-sur-Alzette\",\"county\":\"Canton Esch-sur-Alzette\",\"ISO3166-2-lvl6\":\"LU-ES\",\"postcode\":\"4045\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.4914828\",\"49.4925656\",\"5.9890032\",\"5.9904959\"]}",
+  "fetchedAt": "2026-10-14T15:12:45.401Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.885528&lon=-8.467750&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":285068108,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":31326917,\"lat\":\"51.8855421\",\"lon\":\"-8.4679244\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.924620431825769e-05,\"addresstype\":\"leisure\",\"name\":\"Cork City F.C.\",\"display_name\":\"Cork City F.C., Beaufort Park, Turner's Cross C, Cork, County Cork, Munster, Éire / Ireland\",\"address\":{\"leisure\":\"Cork City F.C.\",\"road\":\"Beaufort Park\",\"city_district\":\"Turner's Cross C\",\"city\":\"Cork\",\"county\":\"County Cork\",\"ISO3166-2-lvl6\":\"IE-CO\",\"state_district\":\"Munster\",\"ISO3166-2-lvl5\":\"IE-M\",\"country\":\"Éire / Ireland\",\"country_code\":\"ie\"},\"boundingbox\":[\"51.8851471\",\"51.8859369\",\"-8.4687681\",\"-8.4670808\"]}",
+  "fetchedAt": "2026-10-14T15:12:16.712Z"
+}

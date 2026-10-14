@@ -1,0 +1,92 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q1718604 wd:Q1666636 wd:Q1718607 wd:Q26861262 wd:Q1228264 wd:Q569932 wd:Q1718617 wd:Q85772919 wd:Q1111374 wd:Q1718614 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:08:43.100Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q569932",
+      "stadium": "http://www.wikidata.org/entity/Q5123439",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.464444 42.466667)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Gjilani",
+      "clubLabel": "KF Gjilani",
+      "stadiumLabel": "City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1111374",
+      "stadium": "http://www.wikidata.org/entity/Q1550984",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.15688 42.66297)",
+      "capacity": "16200",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Prishtina",
+      "clubLabel": "FC Prishtina",
+      "stadiumLabel": "Fadil Vokrri Stadium",
+      "website": "https://www.prishtinafc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1228264",
+      "stadium": "http://www.wikidata.org/entity/Q24910606",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.903551 42.616446)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Feronikeli_74",
+      "clubLabel": "KF Feronikeli",
+      "stadiumLabel": "Rexhep Rexhepi Stadium",
+      "website": "http://feronikelifc.com"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1666636",
+      "stadium": "http://www.wikidata.org/entity/Q20312106",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.7943764 42.7467696)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Drenica",
+      "clubLabel": "KF Drenica",
+      "stadiumLabel": "Bajram Aliu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718607",
+      "stadium": "http://www.wikidata.org/entity/Q5123439",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.464444 42.466667)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Drita",
+      "clubLabel": "KF Drita",
+      "stadiumLabel": "City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718614",
+      "stadium": "http://www.wikidata.org/entity/Q5123441",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.974728 42.818631)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vushtrria",
+      "clubLabel": "KF Vushtrria",
+      "stadiumLabel": "Vushtrri City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718617",
+      "stadium": "http://www.wikidata.org/entity/Q5123440",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.19472222 42.905)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Llapi",
+      "clubLabel": "KF Llapi",
+      "stadiumLabel": "City Stadium",
+      "website": "http://llapifc.com/wp/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1718604",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ballkani",
+      "clubLabel": "KF Ballkani",
+      "website": "http://fcballkani.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q26861262",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Dukagjini",
+      "clubLabel": "KF Dukagjini"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q85772919",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Malisheva",
+      "clubLabel": "KF Malisheva"
+    }
+  ]
+}

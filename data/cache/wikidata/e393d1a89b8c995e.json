@@ -1,0 +1,156 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q3063068 wd:Q591339 wd:Q221752 wd:Q922140 wd:Q773360 wd:Q433541 wd:Q770936 wd:Q1119349 wd:Q933046 wd:Q693092 wd:Q141254292 wd:Q1542781 wd:Q1387792 wd:Q1751591 wd:Q1756279 wd:Q1387887 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:09:08.876Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q221752",
+      "stadium": "http://www.wikidata.org/entity/Q1040373",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.084722222 49.472222222)",
+      "capacity": "4650",
+      "enwiki": "https://en.wikipedia.org/wiki/F91_Dudelange",
+      "website": "https://www.f91.lu/",
+      "clubLabel": "F91 Dudelange",
+      "stadiumLabel": "Stade Jos Nosbaum"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q433541",
+      "stadium": "http://www.wikidata.org/entity/Q3133033",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.976944444 49.485833333)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/Jeunesse_Esch",
+      "website": "http://www.jeunesse-esch.lu/",
+      "clubLabel": "Jeunesse Esch",
+      "stadiumLabel": "Stade de la Frontière"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q591339",
+      "stadium": "http://www.wikidata.org/entity/Q16632623",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.889775 49.513932)",
+      "capacity": "1800",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Differdange_03",
+      "website": "https://www.fcd03.lu/",
+      "clubLabel": "FC Differdange 03",
+      "stadiumLabel": "Stade Municipal de la Ville de Differdange",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Differdange%2003%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q693092",
+      "stadium": "http://www.wikidata.org/entity/Q2263835",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.140277777 49.604722222)",
+      "capacity": "5814",
+      "enwiki": "https://en.wikipedia.org/wiki/Racing_FC_Union_Luxembourg",
+      "website": "http://www.racing-union.lu/",
+      "clubLabel": "Racing FC Union Luxembourg",
+      "stadiumLabel": "Stade Achille Hammerel"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q770936",
+      "stadium": "http://www.wikidata.org/entity/Q16900634",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.91682 49.5742)",
+      "enwiki": "https://en.wikipedia.org/wiki/UN_K%C3%A4erj%C3%A9ng_97",
+      "website": "https://www.un-kaerjeng.lu",
+      "clubLabel": "U.N. Käerjeng '97",
+      "stadiumLabel": "Stade um Bëchel"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q922140",
+      "stadium": "http://www.wikidata.org/entity/Q7596084",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.095555555 49.840277777)",
+      "capacity": "2020",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Etzella_Ettelbruck",
+      "website": "https://www.fcetzella.lu/",
+      "clubLabel": "FC Etzella Ettelbruck",
+      "stadiumLabel": "Stade Am Deich"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q933046",
+      "stadium": "http://www.wikidata.org/entity/Q3495660",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.903369444 49.546111111)",
+      "capacity": "4830",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Progr%C3%A8s_Niederkorn",
+      "website": "https://progres.lu/",
+      "clubLabel": "FC Progrès Niederkorn",
+      "stadiumLabel": "Stade Jos Haupert"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387887",
+      "stadium": "http://www.wikidata.org/entity/Q7596118",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.9274 49.9674)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Wiltz_71",
+      "website": "https://www.fcwiltz.com/",
+      "clubLabel": "FC Wiltz 71",
+      "stadiumLabel": "Stade Géitz"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1542781",
+      "stadium": "http://www.wikidata.org/entity/Q2325813",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.158297 49.575353)",
+      "capacity": "4100",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Swift_Hesperange",
+      "website": "http://www.swifthesper.lu/",
+      "clubLabel": "FC Swift Hesperange",
+      "stadiumLabel": "Stade Alphonse Theis"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1751591",
+      "stadium": "http://www.wikidata.org/entity/Q7596145",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.033197222 49.457347222)",
+      "enwiki": "https://en.wikipedia.org/wiki/US_Rumelange",
+      "website": "https://www.usrumelange.lu/",
+      "clubLabel": "US Rumelange",
+      "stadiumLabel": "Stade Municipal, Rumelange",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Union%20Sportive%20Rumelange%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1756279",
+      "stadium": "http://www.wikidata.org/entity/Q7926495",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.50567 49.8085)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Victoria_Rosport",
+      "website": "https://racing-fc.lu/",
+      "clubLabel": "Football Club Victoria Rosport",
+      "stadiumLabel": "VictoriArena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q773360",
+      "enwiki": "https://en.wikipedia.org/wiki/US_Hostert",
+      "website": "http://www.ushostert.lu/",
+      "clubLabel": "US Hostert"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1119349",
+      "enwiki": "https://en.wikipedia.org/wiki/US_Mondorf-les-Bains",
+      "website": "https://www.usmondorf.lu/",
+      "clubLabel": "US Mondorf-les-Bains"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387792",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_UNA_Strassen",
+      "website": "https://www.fcuna-strassen.lu/",
+      "clubLabel": "FC UNA Strassen"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3063068",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Atert_Bissen",
+      "website": "https://www.fcbissen.lu/",
+      "clubLabel": "FC Atert Bissen"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q141254292",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_R%C3%A9sidence_Walferdange",
+      "website": "https://www.fcresidence.lu/",
+      "clubLabel": "FC Résidence Walferdange"
+    }
+  ]
+}
