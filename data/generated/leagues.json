@@ -259,6 +259,20 @@
     "participants": 18
   },
   {
+    "qid": "Q739479",
+    "association": "FRO",
+    "tier": 1,
+    "label": "Faroe Islands Premier League",
+    "participants": 10
+  },
+  {
+    "qid": "Q1000903",
+    "association": "FRO",
+    "tier": 2,
+    "label": "1. deild",
+    "participants": 10
+  },
+  {
     "qid": "Q219007",
     "association": "GEO",
     "tier": 1,
@@ -287,6 +301,13 @@
     "participants": 18
   },
   {
+    "qid": "Q1522963",
+    "association": "GIB",
+    "tier": 1,
+    "label": "Gibraltar National League",
+    "participants": 12
+  },
+  {
     "qid": "Q235114",
     "association": "GRE",
     "tier": 1,
@@ -313,6 +334,20 @@
     "tier": 2,
     "label": "Nemzeti Bajnokság II",
     "participants": 32
+  },
+  {
+    "qid": "Q831202",
+    "association": "IRL",
+    "tier": 1,
+    "label": "League of Ireland Premier Division",
+    "participants": 12
+  },
+  {
+    "qid": "Q2474177",
+    "association": "IRL",
+    "tier": 2,
+    "label": "League of Ireland First Division",
+    "participants": 8
   },
   {
     "qid": "Q210836",
@@ -371,6 +406,20 @@
     "participants": 9
   },
   {
+    "qid": "Q978160",
+    "association": "KOS",
+    "tier": 1,
+    "label": "Football Superleague of Kosovo",
+    "participants": 12
+  },
+  {
+    "qid": "Q1549827",
+    "association": "KOS",
+    "tier": 2,
+    "label": "First Football League of Kosovo",
+    "participants": 16
+  },
+  {
     "qid": "Q275665",
     "association": "LTU",
     "tier": 1,
@@ -383,6 +432,20 @@
     "tier": 2,
     "label": "First League",
     "participants": 15
+  },
+  {
+    "qid": "Q245252",
+    "association": "LUX",
+    "tier": 1,
+    "label": "Luxembourg National Division",
+    "participants": 16
+  },
+  {
+    "qid": "Q1300490",
+    "association": "LUX",
+    "tier": 2,
+    "label": "Luxembourg Division of Honour",
+    "participants": 14
   },
   {
     "qid": "Q308798",

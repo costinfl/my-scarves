@@ -1,0 +1,135 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1522963 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:08:29.369Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q3108385",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Glacis_United_F.C.",
+      "clubLabel": "Glacis United F.C.",
+      "stadiumLabel": "Victoria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3241301",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Lincoln_Red_Imps_F.C.",
+      "clubLabel": "Lincoln Red Imps F.C.",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://lincolnredimpsfc.co.uk/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3463910",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/St_Joseph%27s_F.C.",
+      "clubLabel": "St Joseph's F.C.",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://www.stjosephsfcgib.co.uk/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q13423234",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Lynx_F.C.",
+      "clubLabel": "Lynx F.C.",
+      "stadiumLabel": "Victoria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15732501",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Europa_F.C.",
+      "clubLabel": "Europa FC",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://europafc.gi/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15926443",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Lions_Gibraltar_F.C.",
+      "clubLabel": "Lions Gibraltar F.C.",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://www.lionsgibraltarfc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q17317546",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Manchester_62_F.C.",
+      "clubLabel": "Manchester 62 F.C.",
+      "stadiumLabel": "Victoria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18411591",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Europa_Point_F.C.",
+      "clubLabel": "Europa Point F.C.",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://www.europapointfc.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Europa%20point%20fc%20logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19577058",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Magpies",
+      "clubLabel": "F.C. Magpies",
+      "stadiumLabel": "Victoria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19577056",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Hound_Dogs",
+      "clubLabel": "F.C. Hound Dogs",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "http://fchounddogs.com"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19577311",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Mons_Calpe_S.C.",
+      "clubLabel": "Mons Calpe S.C.",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://www.vamons.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q22097750",
+      "stadium": "http://www.wikidata.org/entity/Q1579655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.350342 36.149356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/College_1975_F.C.",
+      "clubLabel": "College 1975 F.C.",
+      "stadiumLabel": "Victoria Stadium",
+      "website": "https://college1975fc.co.uk/"
+    }
+  ]
+}

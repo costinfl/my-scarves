@@ -1,0 +1,60 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q739479 wd:Q1000903 wd:Q1522963 wd:Q978160 wd:Q1549827 wd:Q245252 wd:Q1300490 wd:Q831202 wd:Q2474177 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T15:07:56.658Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q245252",
+      "label": "Luxembourg National Division",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q739479",
+      "label": "Faroe Islands Premier League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q831202",
+      "label": "League of Ireland Premier Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q978160",
+      "label": "Football Superleague of Kosovo",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1000903",
+      "label": "1. deild",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1300490",
+      "label": "Luxembourg Division of Honour",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1522963",
+      "label": "Gibraltar National League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1549827",
+      "label": "First Football League of Kosovo",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2474177",
+      "label": "League of Ireland First Division",
+      "isFootballLeague": "true",
+      "participants": "8"
+    }
+  ]
+}

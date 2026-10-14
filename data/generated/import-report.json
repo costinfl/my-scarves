@@ -381,6 +381,26 @@
       "source": "season"
     }
   ],
+  "FRO": [
+    {
+      "league": "Q739479",
+      "name": "Faroe Islands Premier League",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 8,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q1000903",
+      "name": "1. deild",
+      "status": "ok",
+      "clubs": 7,
+      "stadiums": 4,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "GEO": [
     {
       "league": "Q219007",
@@ -422,6 +442,17 @@
       "excluded": [
         "Hamburger SV (Q97905930), part of club Q51974 (P831)"
       ],
+      "source": "memberships"
+    }
+  ],
+  "GIB": [
+    {
+      "league": "Q1522963",
+      "name": "Gibraltar National League",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 1,
+      "excluded": [],
       "source": "memberships"
     }
   ],
@@ -468,6 +499,28 @@
       "stadiums": 19,
       "excluded": [],
       "source": "memberships"
+    }
+  ],
+  "IRL": [
+    {
+      "league": "Q831202",
+      "name": "League of Ireland Premier Division",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_League_of_Ireland_Premier_Division"
+    },
+    {
+      "league": "Q2474177",
+      "name": "League of Ireland First Division",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 9,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_League_of_Ireland_First_Division"
     }
   ],
   "ISL": [
@@ -551,6 +604,28 @@
       "source": "memberships"
     }
   ],
+  "KOS": [
+    {
+      "league": "Q978160",
+      "name": "Football Superleague of Kosovo",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 6,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Football_Superleague_of_Kosovo"
+    },
+    {
+      "league": "Q1549827",
+      "name": "First Football League of Kosovo",
+      "status": "ok",
+      "clubs": 19,
+      "stadiums": 6,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "LIE": [],
   "LTU": [
     {
       "league": "Q275665",
@@ -572,6 +647,28 @@
         "FK Žalgiris B (Q31198746)"
       ],
       "source": "memberships"
+    }
+  ],
+  "LUX": [
+    {
+      "league": "Q245252",
+      "name": "Luxembourg National Division",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 11,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_National_Division"
+    },
+    {
+      "league": "Q1300490",
+      "name": "Luxembourg Division of Honour",
+      "status": "ok",
+      "clubs": 11,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_Division_of_Honour"
     }
   ],
   "LVA": [

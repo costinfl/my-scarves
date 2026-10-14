@@ -1,0 +1,64 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q1000903 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T15:08:07.786Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q291719",
+      "stadium": "http://www.wikidata.org/entity/Q5507283",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.814399 62.245018)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%8Dtr%C3%B3ttarfelag_Fuglafjar%C3%B0ar",
+      "website": "http://www.if.fo/",
+      "clubLabel": "ÍF Fuglafjørður",
+      "stadiumLabel": "Fuglafjørdur Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q778858",
+      "stadium": "http://www.wikidata.org/entity/Q65119544",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.8521 61.5623)",
+      "enwiki": "https://en.wikipedia.org/wiki/Tv%C3%B8royrar_B%C3%B3ltfelag",
+      "website": "https://www.tb.fo/",
+      "clubLabel": "TB Tvøroyri",
+      "stadiumLabel": "Við Stórá"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q787093",
+      "stadium": "http://www.wikidata.org/entity/Q6035773",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.8268279 61.8586415)",
+      "capacity": "300",
+      "enwiki": "https://en.wikipedia.org/wiki/B71_Sandoy",
+      "website": "http://www.b71-sandoy.com/",
+      "clubLabel": "B71 Sandoy",
+      "stadiumLabel": "Inni í Dal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q856036",
+      "stadium": "http://www.wikidata.org/entity/Q1416579",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.83651 61.4659)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Su%C3%B0uroy",
+      "clubLabel": "FC Suðuroy",
+      "stadiumLabel": "Vesturi á Eiðinum Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q670304",
+      "enwiki": "https://en.wikipedia.org/wiki/Mi%C3%B0v%C3%A1gs_B%C3%B3ltfelag",
+      "website": "http://www.mb1905.fo/",
+      "clubLabel": "MB Miðvágur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q745364",
+      "enwiki": "https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gs_%C3%8Dtr%C3%B3ttarfelag",
+      "clubLabel": "SÍ Sørvágur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q59152070",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Hoyv%C3%ADk_(2019)",
+      "clubLabel": "FC Hoyvík"
+    }
+  ]
+}
