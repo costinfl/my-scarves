@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.476667&lon=21.774444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":166295120,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":42209205,\"lat\":\"61.4767173\",\"lon\":\"21.7745448\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.569542992289644e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stadioninaukio, Isomäki, Pori, Porin seutukunta, Satakunta, Manner-Suomi, 28500, Suomi / Finland\",\"address\":{\"road\":\"Stadioninaukio\",\"suburb\":\"Isomäki\",\"city\":\"Pori\",\"municipality\":\"Porin seutukunta\",\"state\":\"Satakunta\",\"ISO3166-2-lvl4\":\"FI-17\",\"region\":\"Manner-Suomi\",\"postcode\":\"28500\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"61.4762069\",\"61.4772258\",\"21.7737301\",\"21.7753617\"]}",
+  "fetchedAt": "2026-10-14T11:41:07.819Z"
+}

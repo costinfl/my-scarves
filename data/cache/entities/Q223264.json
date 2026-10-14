@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q223264",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64315"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AS Trenčín"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK AS Trenčín"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.285278&lon=69.391667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":215609035,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":475265895,\"lat\":\"53.2853285\",\"lon\":\"69.3922425\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.32592895108882386,\"addresstype\":\"leisure\",\"name\":\"Оқжетпес\",\"display_name\":\"Оқжетпес, улица Садвакасова, Көкшетау, Көкшетау Қ.Ә., Ақмола облысы, 020000, Қазақстан\",\"address\":{\"leisure\":\"Оқжетпес\",\"road\":\"улица Садвакасова\",\"city_district\":\"Көкшетау\",\"city\":\"Көкшетау Қ.Ә.\",\"state\":\"Ақмола облысы\",\"ISO3166-2-lvl4\":\"KZ-11\",\"postcode\":\"020000\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"53.2849531\",\"53.2857039\",\"69.3913453\",\"69.3931396\"]}",
+  "fetchedAt": "2026-10-14T11:41:51.833Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.069658&lon=14.499624&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68409460,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":305375614,\"lat\":\"46.0696572\",\"lon\":\"14.4999679\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.541695277328172e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ob kamniški progi, Spodnja Šiška, Četrtna skupnost Šiška, Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija\",\"address\":{\"road\":\"Ob kamniški progi\",\"neighbourhood\":\"Spodnja Šiška\",\"quarter\":\"Spodnja Šiška\",\"suburb\":\"Četrtna skupnost Šiška\",\"city\":\"Ljubljana\",\"municipality\":\"Ljubljana\",\"ISO3166-2-lvl8\":\"SI-061\",\"postcode\":\"1000\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.0691475\",\"46.0701667\",\"14.4994148\",\"14.5005219\"]}",
+  "fetchedAt": "2026-10-14T11:42:36.152Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.658621&lon=17.949823&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56628387,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":43374356,\"lat\":\"43.6586657\",\"lon\":\"17.9498225\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.975967040508152e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Donje selo, Radava, Gredina, Konjic, Grad Konjic, Hercegovačko-neretvanska županija (kanton), Federacija Bosne i Hercegovine, 88400, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Donje selo\",\"neighbourhood\":\"Radava\",\"hamlet\":\"Gredina\",\"town\":\"Konjic\",\"county\":\"Grad Konjic\",\"state_district\":\"Hercegovačko-neretvanska županija (kanton)\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"88400\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"43.6581038\",\"43.6592273\",\"17.9492129\",\"17.9504321\"]}",
+  "fetchedAt": "2026-10-14T11:39:30.450Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:00.154Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1138191",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64186"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "F.C. Ashdod"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "F.C. Ashdod"
+      }
+    }
+  }
+}

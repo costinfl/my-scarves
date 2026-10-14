@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q162408",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3133,
+                "id": "Q3133"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2609511"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "1. FC Tatran Prešov"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "1. FC Tatran Prešov"
+      }
+    }
+  }
+}

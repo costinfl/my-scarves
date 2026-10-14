@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.690556&lon=18.997778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65589464,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":208704950,\"lat\":\"44.6905743\",\"lon\":\"18.9979655\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.525978484774575e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vojvode Kerovića, Centar, Угљевик, Opština Ugljevik, Република Српска / Republika Srpska, 76330, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Vojvode Kerovića\",\"quarter\":\"Centar\",\"town\":\"Угљевик\",\"municipality\":\"Opština Ugljevik\",\"state\":\"Република Српска / Republika Srpska\",\"ISO3166-2-lvl4\":\"BA-SRP\",\"postcode\":\"76330\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.6899837\",\"44.6911647\",\"18.9972556\",\"18.9986755\"]}",
+  "fetchedAt": "2026-10-14T11:39:42.889Z"
+}

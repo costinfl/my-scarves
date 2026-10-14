@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:06.235Z",
+  "version": 2,
+  "entity": {
+    "id": "Q9171502",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Nov grb NK Krško julij 2015.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Krško Posavje"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Krško"
+      }
+    }
+  }
+}

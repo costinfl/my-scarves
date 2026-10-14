@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1416960",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "62175"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Primorje"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Primorje"
+      }
+    }
+  }
+}

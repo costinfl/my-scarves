@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.383100&lon=20.007600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":189030446,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1118057178,\"lat\":\"48.3831344\",\"lon\":\"20.0075782\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0460059510139886e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Štadion, Sobôtka, Rimavská Sobota, okres Rimavská Sobota, Banskobystrický kraj, 979 01, Slovensko\",\"address\":{\"road\":\"Štadion\",\"suburb\":\"Sobôtka\",\"town\":\"Rimavská Sobota\",\"county\":\"okres Rimavská Sobota\",\"state\":\"Banskobystrický kraj\",\"ISO3166-2-lvl4\":\"SK-BC\",\"postcode\":\"979 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.3826455\",\"48.3836232\",\"20.0067338\",\"20.0084225\"]}",
+  "fetchedAt": "2026-10-14T11:42:21.644Z"
+}

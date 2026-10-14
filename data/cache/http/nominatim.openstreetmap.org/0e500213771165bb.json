@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.040278&lon=17.320833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":186666121,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":123433977,\"lat\":\"48.0403191\",\"lon\":\"17.3209061\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.716563668264313e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kúpeľná, Bučuháza, Šamorín, okres Dunajská Streda, Trnavský kraj, 931 01, Slovensko\",\"address\":{\"road\":\"Kúpeľná\",\"suburb\":\"Bučuháza\",\"town\":\"Šamorín\",\"county\":\"okres Dunajská Streda\",\"state\":\"Trnavský kraj\",\"ISO3166-2-lvl4\":\"SK-TA\",\"postcode\":\"931 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.0397120\",\"48.0409250\",\"17.3199746\",\"17.3218361\"]}",
+  "fetchedAt": "2026-10-14T11:42:08.457Z"
+}

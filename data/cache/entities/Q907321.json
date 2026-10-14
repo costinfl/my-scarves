@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:06.235Z",
+  "version": 2,
+  "entity": {
+    "id": "Q907321",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2600291"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Hapoel Ironi Kiryat Shmona F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Ironi Kiryat Shmona F.C."
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T11:32:06.235Z",
+  "version": 2,
+  "entity": {
+    "id": "Q746853",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FF Jaro"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FF Jaro"
+      }
+    }
+  }
+}

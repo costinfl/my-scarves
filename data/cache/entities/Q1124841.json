@@ -1,0 +1,65 @@
+{
+  "fetchedAt": "2026-10-14T11:32:00.154Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1124841",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "PFC Lokomotiv Plovdiv Logo.svg"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52369"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "PFC Lokomotiv Plovdiv"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "PFC Lokomotiv Plovdiv"
+      }
+    }
+  }
+}

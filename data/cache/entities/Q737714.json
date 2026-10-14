@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:06.235Z",
+  "version": 2,
+  "entity": {
+    "id": "Q737714",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64189"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bnei Yehuda Tel Aviv F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Bnei Yehuda Tel Aviv F.C."
+      }
+    }
+  }
+}

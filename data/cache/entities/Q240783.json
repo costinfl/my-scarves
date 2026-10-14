@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q240783",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3133,
+                "id": "Q3133"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50077"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AC Omonia"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "AC Omonia"
+      }
+    }
+  }
+}

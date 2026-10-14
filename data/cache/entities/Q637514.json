@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:05.021Z",
+  "version": 2,
+  "entity": {
+    "id": "Q637514",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60403"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "ND Gorica"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "ND Gorica"
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q2548558 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:29:59.151Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q637514",
+      "stadium": "http://www.wikidata.org/entity/Q3496280",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.641563 45.955931)",
+      "capacity": "3066",
+      "enwiki": "https://en.wikipedia.org/wiki/ND_Gorica",
+      "website": "https://www.nd-gorica.com/",
+      "clubLabel": "ND Gorica",
+      "stadiumLabel": "Nova Gorica Sports Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q845146",
+      "stadium": "http://www.wikidata.org/entity/Q394535",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.499624 46.069658)",
+      "capacity": "3986",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_IB_1975_Ljubljana",
+      "website": "https://nkib1975-lj.si/",
+      "clubLabel": "NK Interblock",
+      "stadiumLabel": "ŽAK Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q912438",
+      "stadium": "http://www.wikidata.org/entity/Q6668576",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.19025556 45.56648333)",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Bela_Krajina",
+      "website": "http://www.nk-bk.com",
+      "clubLabel": "NK Bela Krajina",
+      "stadiumLabel": "Loka Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1416960",
+      "stadium": "http://www.wikidata.org/entity/Q581622",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.8944436 45.8881692)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Primorje",
+      "website": "http://www.ndprimorje.si/",
+      "clubLabel": "NK Primorje",
+      "stadiumLabel": "Ajdovščina Football Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6592551",
+      "stadium": "http://www.wikidata.org/entity/Q16632802",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.8717 45.7058)",
+      "capacity": "1200",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Tabor_Se%C5%BEana",
+      "website": "https://www.nktabor.si/",
+      "clubLabel": "NK Tabor Sežana",
+      "stadiumLabel": "Rajko Štolfa Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954500",
+      "stadium": "http://www.wikidata.org/entity/Q12807307",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.6317 46.1561)",
+      "capacity": "400",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Dob",
+      "website": "http://www.nkdob.si/",
+      "clubLabel": "NK Dob",
+      "stadiumLabel": "Dob Sports Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954532",
+      "stadium": "http://www.wikidata.org/entity/Q13561181",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.1585 45.8035)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Krka",
+      "website": "http://nkkrka.com",
+      "clubLabel": "NK Krka",
+      "stadiumLabel": "Portoval Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9171502",
+      "stadium": "http://www.wikidata.org/entity/Q15251379",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.48831944 45.94890833)",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Kr%C5%A1ko_Posavje",
+      "website": "https://nkkrskoposavje.si/",
+      "clubLabel": "NK Krško",
+      "stadiumLabel": "Matija Gubec Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Nov%20grb%20NK%20Kr%C5%A1ko%20julij%202015.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q13403112",
+      "stadium": "http://www.wikidata.org/entity/Q16632809",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.0364 46.3303)",
+      "capacity": "717",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_%C5%A0martno_ob_Paki",
+      "clubLabel": "NK Šmartno ob Paki",
+      "stadiumLabel": "Šmartno Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16249523",
+      "stadium": "http://www.wikidata.org/entity/Q3967844",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.87558611 46.416825)",
+      "capacity": "2200",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Drava_Ptuj",
+      "website": "http://www.ns-drava.com/",
+      "clubLabel": "NŠ Drava Ptuj",
+      "stadiumLabel": "Ptuj City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16843233",
+      "stadium": "http://www.wikidata.org/entity/Q3229439",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.4508 46.559528)",
+      "capacity": "2020",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Nafta_1903",
+      "website": "http://nafta1903.si/",
+      "clubLabel": "ND Lendava 1903",
+      "stadiumLabel": "Lendava Sports Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q44300",
+      "stadium": "http://www.wikidata.org/entity/Q7074533",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.104184 46.372931)",
+      "capacity": "2341",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Rudar_Velenje",
+      "website": "http://nkrudarvelenje.com/",
+      "clubLabel": "NK Rudar Velenje",
+      "stadiumLabel": "Ob Jezeru City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q44308",
+      "stadium": "http://www.wikidata.org/entity/Q7599369",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.364914 46.251731)",
+      "capacity": "2029",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Triglav_Kranj",
+      "website": "https://www.nktriglav.si/",
+      "clubLabel": "NK Triglav Kranj",
+      "stadiumLabel": "Stanko Mlakar Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6953364",
+      "enwiki": "https://en.wikipedia.org/wiki/ND_Dravinja",
+      "website": "http://www.nd-dravinja.si",
+      "clubLabel": "ND Dravinja"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954593",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Slavija_Vev%C4%8De",
+      "clubLabel": "NK Slavija Vevče"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954621",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_%C5%A0en%C4%8Dur",
+      "website": "http://www.sportnodrustvo-sencur.si/",
+      "clubLabel": "NK Šenčur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12797183",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Bre%C5%BEice_1919",
+      "website": "http://www.nkbrezice1919.com",
+      "clubLabel": "NK Brežice"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16250481",
+      "enwiki": "https://en.wikipedia.org/wiki/ND_Bilje",
+      "website": "http://www.ndbilje.si",
+      "clubLabel": "ND Bilje"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16736174",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Brda",
+      "website": "http://www.nkbrda.si/",
+      "clubLabel": "NK Brda"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16828238",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Brinje_Grosuplje",
+      "website": "http://www.nogometniklub-brinje.si",
+      "clubLabel": "NK Brinje-Grosuplje"
+    }
+  ]
+}

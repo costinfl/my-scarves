@@ -1,0 +1,75 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q541065 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T11:31:43.321Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q611146",
+      "stadium": "http://www.wikidata.org/entity/Q857795",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.487667 42.476389)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Encamp",
+      "website": "http://www.fcencamp.org/",
+      "clubLabel": "FC Encamp",
+      "stadiumLabel": "Estadi Comunal d'Aixovall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q917613",
+      "stadium": "http://www.wikidata.org/entity/Q857795",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.487667 42.476389)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/UE_Engordany",
+      "website": "http://ueengordany.blogspot.com/",
+      "clubLabel": "UE Engordany",
+      "stadiumLabel": "Estadi Comunal d'Aixovall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q917613",
+      "stadium": "http://www.wikidata.org/entity/Q857795",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.487667 42.476389)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/UE_Engordany",
+      "website": "http://ue-engordany.com/",
+      "clubLabel": "UE Engordany",
+      "stadiumLabel": "Estadi Comunal d'Aixovall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2030793",
+      "stadium": "http://www.wikidata.org/entity/Q857795",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.487667 42.476389)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/UE_Extremenya",
+      "clubLabel": "UE Extremenya",
+      "stadiumLabel": "Estadi Comunal d'Aixovall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5010401",
+      "stadium": "http://www.wikidata.org/entity/Q857795",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(1.487667 42.476389)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/CE_Jenlai",
+      "clubLabel": "GALAXY FCI JENLAI",
+      "stadiumLabel": "Estadi Comunal d'Aixovall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q635670",
+      "enwiki": "https://en.wikipedia.org/wiki/UE_Sant_Juli%C3%A0",
+      "website": "http://uesantjuliadeloria.com/",
+      "clubLabel": "UE Sant Julià"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2882419",
+      "enwiki": "https://en.wikipedia.org/wiki/FS_La_Massana",
+      "clubLabel": "FS La Massana"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q30115984",
+      "enwiki": "https://en.wikipedia.org/wiki/CF_Atl%C3%A8tic_Am%C3%A8rica",
+      "clubLabel": "CF Atlètic Amèrica"
+    }
+  ]
+}

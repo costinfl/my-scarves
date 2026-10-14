@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Ihud%20Bnei%20Shefa-%27Amr%20F.C.",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Ihud Bnei Shefa-'Amr F.C.\",\"pageid\":74267820,\"redirects\":[],\"wikitext\":\"{{One source|date=August 2021}}\\n{{Infobox Football club\\n| clubname  = Ihud Bnei Shef-'Amr\\n| image     =\\n| upright   =\\n| fullname  = Ihud Bnei Shefa-'Amr Football Club\\n| nickname  = \\n| shortname = \\n| founded   = 2019\\n| dissolved = \\n| ground    = Municipal Stadium, [[Shefa-'Amr]]\\n| capacity  = 2,500\\n| owntitle  = \\n| owner     = \\n| chrtitle  = \\n| chairman  = Rami Abu Harb\\n| ceo       = \\n| mgrtitle  = \\n| manager   = [[Shlomi Dora]]\\n| league    = {{Israeli football updater|IBShefamr}}\\n| season    = {{Israeli football updater|IBShefamr2}}\\n| position  = {{Israeli football updater|IBShefamr3}}\\n| pattern_la1 = \\n| pattern_b1 = \\n| pattern_ra1 = \\n| leftarm1 = \\n| body1 = \\n| rightarm1 = \\n| shorts1 = \\n| socks1 = \\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra2 = \\n| leftarm2 = \\n| body2 = \\n| rightarm2 = \\n| shorts2 = \\n| socks2 = \\n| website =\\n}}\\n'''Ihud Bnei Shefa-'Amr''' ({{langx|ar|اتحاد بني شفاعمرو}}, {{langx|he|איחוד בני שפרעם}}) is an Israeli football club based in [[Shefa-'Amr]]. The club played its home matches at the Municipal Stadium.\"}}",
+  "fetchedAt": "2026-10-14T11:36:46.163Z"
+}

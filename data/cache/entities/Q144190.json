@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q144190",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Levski sofia 1990-1992.JPG"
+            }
+          }
+        }
+      ],
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50044"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "PFC Levski Sofia"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "PFC Levski Sofia"
+      }
+    }
+  }
+}

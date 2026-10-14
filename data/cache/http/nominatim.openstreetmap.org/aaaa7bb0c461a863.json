@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.181115&lon=34.927071&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210918340,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":439972079,\"lat\":\"32.1810642\",\"lon\":\"34.9269328\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.048294804298493e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"הפועל, כפר סבא, נפת פתח תקווה, מחוז המרכז, 4445810, ישראל\",\"address\":{\"road\":\"הפועל\",\"town\":\"כפר סבא\",\"state_district\":\"נפת פתח תקווה\",\"state\":\"מחוז המרכז\",\"ISO3166-2-lvl4\":\"IL-M\",\"postcode\":\"4445810\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.1805894\",\"32.1815390\",\"34.9265708\",\"34.9272948\"]}",
+  "fetchedAt": "2026-10-14T11:41:26.510Z"
+}

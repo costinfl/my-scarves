@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:00.154Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1130570",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "84319"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Bnei Sakhnin F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Bnei Sakhnin F.C."
+      }
+    }
+  }
+}

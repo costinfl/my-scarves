@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2882419",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FS La Massana"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FS La Massana"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:06.235Z",
+  "version": 2,
+  "entity": {
+    "id": "Q729512",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "63401"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Inter Club d'Escaldes"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Inter Club d'Escaldes"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.639361&lon=46.652806&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208091588,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":281433124,\"lat\":\"41.6394037\",\"lon\":\"46.6528617\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.1931792172076256e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion\",\"display_name\":\"Stadion, Hacıbəyov küç., Zaqatala, Zaqatala rayonu, 6204, Azərbaycan\",\"address\":{\"leisure\":\"Stadion\",\"road\":\"Hacıbəyov küç.\",\"town\":\"Zaqatala\",\"county\":\"Zaqatala rayonu\",\"ISO3166-2-lvl6\":\"AZ-ZAQ\",\"postcode\":\"6204\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"41.6388028\",\"41.6400045\",\"46.6521809\",\"46.6535425\"]}",
+  "fetchedAt": "2026-10-14T11:39:27.146Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q18129467",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2607480"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Zira FK"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Zira FK"
+      }
+    }
+  }
+}

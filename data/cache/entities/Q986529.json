@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:06.235Z",
+  "version": 2,
+  "entity": {
+    "id": "Q986529",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59340"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Hapoel Be'er Sheva F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Hapoel Be'er Sheva F.C."
+      }
+    }
+  }
+}

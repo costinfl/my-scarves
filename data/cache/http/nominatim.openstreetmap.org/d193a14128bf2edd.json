@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.776100&lon=17.199600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65575012,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":122716927,\"lat\":\"44.7760128\",\"lon\":\"17.1995153\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.678950179288956e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Gundulićeva, Naselje Park, Aleja-centar, Banja Luka, Grad Banja Luka, Република Српска / Republika Srpska, 78109, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Gundulićeva\",\"neighbourhood\":\"Naselje Park\",\"quarter\":\"Aleja-centar\",\"city\":\"Banja Luka\",\"county\":\"Grad Banja Luka\",\"state\":\"Република Српска / Republika Srpska\",\"ISO3166-2-lvl4\":\"BA-SRP\",\"postcode\":\"78109\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.7754441\",\"44.7765956\",\"17.1987770\",\"17.2002627\"]}",
+  "fetchedAt": "2026-10-14T11:39:28.316Z"
+}

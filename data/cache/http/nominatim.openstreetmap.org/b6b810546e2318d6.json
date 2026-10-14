@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.030833&lon=33.987222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210006764,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1070287079,\"lat\":\"35.0309146\",\"lon\":\"33.9874467\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.4586861982101435e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aiolias, Παραλίμνι, Δήμος Παραλιμνίου - Δερύνειας, Επαρχία Αμμοχώστου, Κύπρος, 5402, Κύπρος - Kıbrıs\",\"address\":{\"road\":\"Aiolias\",\"town\":\"Παραλίμνι\",\"county\":\"Δήμος Παραλιμνίου - Δερύνειας\",\"state_district\":\"Επαρχία Αμμοχώστου\",\"ISO3166-2-lvl5\":\"CY-04\",\"region\":\"Κύπρος\",\"postcode\":\"5402\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"35.0303158\",\"35.0315409\",\"33.9868835\",\"33.9879779\"]}",
+  "fetchedAt": "2026-10-14T11:40:40.964Z"
+}

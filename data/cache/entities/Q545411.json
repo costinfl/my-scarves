@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:05.021Z",
+  "version": 2,
+  "entity": {
+    "id": "Q545411",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "77877"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Leotar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Leotar"
+      }
+    }
+  }
+}

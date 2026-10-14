@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T11:32:04.005Z",
+  "version": 2,
+  "entity": {
+    "id": "Q5205823",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "ND Primorje"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "DNŠ Primorje"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20BGS",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC BGS\",\"pageid\":27618201,\"redirects\":[],\"wikitext\":\"{{short description|Kazakhstani football club}}\\n{{Infobox football club |\\n  clubname = FC BGS|\\n  image = |\\n  fullname = FC BGS|\\n  nickname =  |\\n  founded  =  1992|\\n  ground   =  |\\n  capacity =  |\\n  chairman =  |\\n  manager  =  |\\n  league   = [[Kazakhstan First Division]]|\\n  season   = 2002|\\n position = 6 (West)|\\n\\n}}\\n'''FC BGS''' БГС ({{langx|kk|Ақсай футбол клубы}}, ''Aqsaı fýtbol klýby'') were a [[Kazakhstan]]i [[Football (soccer)|football]] team based in [[Aksay, West Kazakhstan|Aqsay]], [[Kazakhstan]]. The club played in the [[Kazakhstan Super League]] in the 1993 season. They were members of the [[Kazakhstan First Division]] in 1994, but were not able to finish that season due to financial reasons. In 2002 they played in the [[Kazakhstan Second Division]].<ref>[http://www.lyakhov.kz/football/02/stand02-1.shtml Lyakhov.kz: Season 2002] {{Webarchive|url=https://web.archive.org/web/20071113151808/http://www.lyakhov.kz/football/02/stand02-1.shtml |date=2007-11-13 }} {{in lang|ru}}</ref>\"}}",
+  "fetchedAt": "2026-10-14T11:36:57.563Z"
+}

@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2069980",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23444,
+                "id": "Q23444"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "MEAP Nisou"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "MEAP Nisou"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q31932",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "53081"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Olimpija Ljubljana"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Olimpija Ljubljana"
+      }
+    }
+  }
+}

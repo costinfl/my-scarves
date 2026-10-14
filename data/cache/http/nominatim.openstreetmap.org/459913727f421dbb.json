@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.854528&lon=46.036222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208637511,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":544369254,\"lat\":\"40.8545560\",\"lon\":\"46.0365126\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.162355992976299e-05,\"addresstype\":\"leisure\",\"name\":\"Şəmkir Stadionu\",\"display_name\":\"Şəmkir Stadionu, İpək Yolu, Şəmkir, Şəmkir rayonu, Azərbaycan\",\"address\":{\"leisure\":\"Şəmkir Stadionu\",\"road\":\"İpək Yolu\",\"city\":\"Şəmkir\",\"county\":\"Şəmkir rayonu\",\"ISO3166-2-lvl6\":\"AZ-SKR\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.8539681\",\"40.8551439\",\"46.0357791\",\"46.0372460\"]}",
+  "fetchedAt": "2026-10-14T11:39:16.444Z"
+}

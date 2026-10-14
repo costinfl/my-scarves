@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.139861&lon=24.764444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60060418,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1138357045,\"lat\":\"42.1399177\",\"lon\":\"24.7645080\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Варшава, Каменица 2, Източен, Пловдив, 4017, България\",\"address\":{\"road\":\"Варшава\",\"suburb\":\"Каменица 2\",\"borough\":\"Източен\",\"city\":\"Пловдив\",\"state_district\":\"Пловдив\",\"state\":\"Пловдив\",\"ISO3166-2-lvl4\":\"BG-16\",\"postcode\":\"4017\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.1393965\",\"42.1405251\",\"24.7639763\",\"24.7650300\"]}",
+  "fetchedAt": "2026-10-14T11:39:52.766Z"
+}

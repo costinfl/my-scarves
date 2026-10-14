@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.033889&lon=33.765000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209472916,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":258918146,\"lat\":\"35.0341005\",\"lon\":\"33.7649154\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":2.4778362706904976e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"E303, Δασάκι Άχνας, Dhekelia, 5510, Κύπρος - Kıbrıs\",\"address\":{\"road\":\"E303\",\"village\":\"Δασάκι Άχνας\",\"county\":\"Dhekelia\",\"postcode\":\"5510\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"35.0335125\",\"35.0346886\",\"33.7643865\",\"33.7654445\"]}",
+  "fetchedAt": "2026-10-14T11:40:43.522Z"
+}

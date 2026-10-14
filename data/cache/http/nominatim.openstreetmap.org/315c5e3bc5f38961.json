@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.686944&lon=27.266667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":168460374,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":145473408,\"lat\":\"61.6870601\",\"lon\":\"27.2665931\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.248798352021084e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Raatihuoneenkatu, Kaukola, Mikkeli, Mikkelin seutukunta, Etelä-Savo, Manner-Suomi, 50100, Suomi / Finland\",\"address\":{\"road\":\"Raatihuoneenkatu\",\"suburb\":\"Kaukola\",\"city_district\":\"Mikkeli\",\"city\":\"Mikkeli\",\"municipality\":\"Mikkelin seutukunta\",\"state\":\"Etelä-Savo\",\"ISO3166-2-lvl4\":\"FI-04\",\"region\":\"Manner-Suomi\",\"postcode\":\"50100\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"61.6863968\",\"61.6877287\",\"27.2656551\",\"27.2675053\"]}",
+  "fetchedAt": "2026-10-14T11:41:05.452Z"
+}

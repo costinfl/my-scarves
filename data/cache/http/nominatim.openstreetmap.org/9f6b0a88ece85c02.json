@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=34.850278&lon=33.575278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208348189,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":146537753,\"lat\":\"34.8502790\",\"lon\":\"33.5754088\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.5944151979812584e-05,\"addresstype\":\"leisure\",\"name\":\"Kiti Community Stadium\",\"display_name\":\"Kiti Community Stadium, Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ΄, Κίτι, Δήμος Δρομολαξιάς - Μενεού, Επαρχία Λάρνακας, Κύπρος, 7550, Κύπρος - Kıbrıs\",\"address\":{\"leisure\":\"Kiti Community Stadium\",\"road\":\"Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ΄\",\"town\":\"Κίτι\",\"county\":\"Δήμος Δρομολαξιάς - Μενεού\",\"state_district\":\"Επαρχία Λάρνακας\",\"ISO3166-2-lvl5\":\"CY-03\",\"region\":\"Κύπρος\",\"postcode\":\"7550\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"34.8496181\",\"34.8509558\",\"33.5746409\",\"33.5761645\"]}",
+  "fetchedAt": "2026-10-14T11:40:48.688Z"
+}

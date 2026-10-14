@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.675361&lon=23.272028&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58686072,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":256094555,\"lat\":\"42.6752154\",\"lon\":\"23.2720031\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.891660944528905e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Коломан, ж.к. Славия, София, Красно село, Столична, София-град, 1618, България\",\"address\":{\"road\":\"Коломан\",\"suburb\":\"ж.к. Славия\",\"city\":\"София\",\"ISO3166-2-lvl8\":\"BG-23\",\"county\":\"Красно село\",\"state_district\":\"Столична\",\"state\":\"София-град\",\"ISO3166-2-lvl4\":\"BG-22\",\"postcode\":\"1618\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.6746406\",\"42.6757901\",\"23.2713443\",\"23.2726617\"]}",
+  "fetchedAt": "2026-10-14T11:40:23.586Z"
+}

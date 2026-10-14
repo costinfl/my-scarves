@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:32.007Z",
+  "version": 2,
+  "entity": {
+    "id": "Q180778",
+    "claims": {
+      "P465": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "00FFFF"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Cyan"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "cyan"
+      }
+    }
+  }
+}

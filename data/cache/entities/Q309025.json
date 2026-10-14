@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q309025",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52891"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Lokomotiv Sofia"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Lokomotiv 1929 Sofia"
+      }
+    }
+  }
+}

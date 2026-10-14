@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.818618&lon=73.075122&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":215543869,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":85203465,\"lat\":\"49.8186696\",\"lon\":\"73.0752347\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.328603036540807e-05,\"addresstype\":\"leisure\",\"name\":\"«Шахтер» стадионы\",\"display_name\":\"«Шахтер» стадионы, Қазақстан көшесі, Қарағанды Қ.Ә., Қарағанды облысы, 100019, Қазақстан\",\"address\":{\"leisure\":\"«Шахтер» стадионы\",\"road\":\"Қазақстан көшесі\",\"city\":\"Қарағанды Қ.Ә.\",\"state\":\"Қарағанды облысы\",\"ISO3166-2-lvl4\":\"KZ-35\",\"postcode\":\"100019\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"49.8181076\",\"49.8192068\",\"73.0745839\",\"73.0758920\"]}",
+  "fetchedAt": "2026-10-14T11:41:53.716Z"
+}

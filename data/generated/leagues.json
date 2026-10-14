@@ -1,5 +1,19 @@
 [
   {
+    "qid": "Q257282",
+    "association": "AND",
+    "tier": 1,
+    "label": "Primera Divisió",
+    "participants": 12
+  },
+  {
+    "qid": "Q541065",
+    "association": "AND",
+    "tier": 2,
+    "label": "Segona Divisió",
+    "participants": 11
+  },
+  {
     "qid": "Q219592",
     "association": "AUT",
     "tier": 1,
@@ -12,6 +26,20 @@
     "tier": 2,
     "label": "Austrian Football Second League",
     "participants": 16
+  },
+  {
+    "qid": "Q326859",
+    "association": "AZE",
+    "tier": 1,
+    "label": "Azerbaijan Premier League",
+    "participants": 12
+  },
+  {
+    "qid": "Q246175",
+    "association": "AZE",
+    "tier": 2,
+    "label": "Azerbaijan First Division",
+    "participants": 13
   },
   {
     "qid": "Q216022",
@@ -28,6 +56,41 @@
     "participants": 16
   },
   {
+    "qid": "Q391006",
+    "association": "BIH",
+    "tier": 1,
+    "label": "Premier League of Bosnia and Herzegovina",
+    "participants": 10
+  },
+  {
+    "qid": "Q1361966",
+    "association": "BIH",
+    "tier": 2,
+    "label": "First League of the Federation of Bosnia and Herzegovina",
+    "participants": 16
+  },
+  {
+    "qid": "Q1361974",
+    "association": "BIH",
+    "tier": 2,
+    "label": "First League of the Republika Srpska",
+    "participants": 14
+  },
+  {
+    "qid": "Q12837728",
+    "association": "BUL",
+    "tier": 1,
+    "label": "First Professional Football League",
+    "participants": 14
+  },
+  {
+    "qid": "Q797414",
+    "association": "BUL",
+    "tier": 2,
+    "label": "Bulgarian B Professional Football Group",
+    "participants": 16
+  },
+  {
     "qid": "Q162604",
     "association": "CRO",
     "tier": 1,
@@ -39,6 +102,20 @@
     "association": "CRO",
     "tier": 2,
     "label": "Prva nogometna liga",
+    "participants": 16
+  },
+  {
+    "qid": "Q155965",
+    "association": "CYP",
+    "tier": 1,
+    "label": "Cypriot First Division",
+    "participants": 12
+  },
+  {
+    "qid": "Q2186582",
+    "association": "CYP",
+    "tier": 2,
+    "label": "Cypriot Second Division",
     "participants": 16
   },
   {
@@ -98,6 +175,20 @@
     "participants": 22
   },
   {
+    "qid": "Q220875",
+    "association": "FIN",
+    "tier": 1,
+    "label": "Veikkausliiga",
+    "participants": 12
+  },
+  {
+    "qid": "Q384536",
+    "association": "FIN",
+    "tier": 2,
+    "label": "Ykkösliiga",
+    "participants": 10
+  },
+  {
     "qid": "Q13394",
     "association": "FRA",
     "tier": 1,
@@ -154,6 +245,20 @@
     "participants": 32
   },
   {
+    "qid": "Q477309",
+    "association": "ISR",
+    "tier": 1,
+    "label": "Israeli Premier League",
+    "participants": 14
+  },
+  {
+    "qid": "Q1824581",
+    "association": "ISR",
+    "tier": 2,
+    "label": "Liga Leumit",
+    "participants": 16
+  },
+  {
     "qid": "Q15804",
     "association": "ITA",
     "tier": 1,
@@ -166,6 +271,20 @@
     "tier": 2,
     "label": "Serie B",
     "participants": 20
+  },
+  {
+    "qid": "Q326422",
+    "association": "KAZ",
+    "tier": 1,
+    "label": "Kazakhstan Premier League",
+    "participants": 12
+  },
+  {
+    "qid": "Q1361963",
+    "association": "KAZ",
+    "tier": 2,
+    "label": "Kazakhstan First League",
+    "participants": 9
   },
   {
     "qid": "Q167541",
@@ -278,6 +397,34 @@
     "tier": 2,
     "label": "Challenge League",
     "participants": 10
+  },
+  {
+    "qid": "Q238113",
+    "association": "SVK",
+    "tier": 1,
+    "label": "Slovak First Football League",
+    "participants": 12
+  },
+  {
+    "qid": "Q209946",
+    "association": "SVK",
+    "tier": 2,
+    "label": "Slovak Second Football League",
+    "participants": 12
+  },
+  {
+    "qid": "Q275005",
+    "association": "SVN",
+    "tier": 1,
+    "label": "Slovenian PrvaLiga",
+    "participants": 10
+  },
+  {
+    "qid": "Q2548558",
+    "association": "SVN",
+    "tier": 2,
+    "label": "Slovenian Second League",
+    "participants": 16
   },
   {
     "qid": "Q202243",

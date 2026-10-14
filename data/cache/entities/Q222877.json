@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q222877",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1088,
+                "id": "Q1088"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64161"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Inter Turku"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Inter Turku"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": "2026-10-14T11:32:05.021Z",
+  "version": 2,
+  "entity": {
+    "id": "Q603407",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Şəmkir FK.jpg"
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64370"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Shamkir FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Shamkir"
+      }
+    }
+  }
+}

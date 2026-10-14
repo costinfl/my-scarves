@@ -259,11 +259,25 @@
     "capacity": 75024
   },
   {
+    "qid": "Q127871",
+    "name": "Barel Stadium",
+    "lat": 32.6898,
+    "lon": 35.311325,
+    "capacity": 5200
+  },
+  {
     "qid": "Q129870",
     "name": "SNP Arena",
     "lat": 49.239,
     "lon": 8.888278,
     "capacity": 30150
+  },
+  {
+    "qid": "Q130150",
+    "name": "Bloomfield Stadium",
+    "lat": 32.05173,
+    "lon": 34.76148,
+    "capacity": 29400
   },
   {
     "qid": "Q133566",
@@ -504,6 +518,34 @@
     "capacity": 38512
   },
   {
+    "qid": "Q190784",
+    "name": "Aktobe Central Stadium",
+    "lat": 50.291389,
+    "lon": 57.160278,
+    "capacity": 12800
+  },
+  {
+    "qid": "Q190788",
+    "name": "Almaty Central Stadium",
+    "lat": 43.238331,
+    "lon": 76.92435,
+    "capacity": 23804
+  },
+  {
+    "qid": "Q190789",
+    "name": "Pavlodar Central Stadium",
+    "lat": 52.276383,
+    "lon": 76.949712,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q190791",
+    "name": "Kostanay Central Stadium",
+    "lat": 53.225974,
+    "lon": 63.636578,
+    "capacity": 8323
+  },
+  {
     "qid": "Q191774",
     "name": "St James’ Park",
     "lat": 54.975555555,
@@ -728,6 +770,13 @@
     "capacity": 70000
   },
   {
+    "qid": "Q261666",
+    "name": "Ramat Gan Stadium",
+    "lat": 32.100278,
+    "lon": 34.824167,
+    "capacity": 13370
+  },
+  {
     "qid": "Q262326",
     "name": "Lotto Park",
     "lat": 50.834167,
@@ -767,6 +816,27 @@
     "lat": 47.3536,
     "lon": 9.6372,
     "capacity": 8500
+  },
+  {
+    "qid": "Q268077",
+    "name": "Antonis Papadopoulos Stadium",
+    "lat": 34.937422,
+    "lon": 33.620922,
+    "capacity": 9781
+  },
+  {
+    "qid": "Q268402",
+    "name": "Petr Atoyan Stadium",
+    "lat": 51.211944,
+    "lon": 51.350833,
+    "capacity": 8320
+  },
+  {
+    "qid": "Q269541",
+    "name": "Arto Tolsa Areena",
+    "lat": 60.4575,
+    "lon": 26.939722,
+    "capacity": 4780
   },
   {
     "qid": "Q270474",
@@ -874,6 +944,13 @@
     "capacity": 9493
   },
   {
+    "qid": "Q303387",
+    "name": "Beroe Stadium",
+    "lat": 42.432778,
+    "lon": 25.615278,
+    "capacity": 12128
+  },
+  {
     "qid": "Q311458",
     "name": "Dreisamstadion",
     "lat": 47.988889,
@@ -951,6 +1028,13 @@
     "capacity": 5500
   },
   {
+    "qid": "Q368232",
+    "name": "Georgi Asparuhov Stadium",
+    "lat": 42.705467,
+    "lon": 23.363197,
+    "capacity": 29200
+  },
+  {
     "qid": "Q373769",
     "name": "Ruhrstadion",
     "lat": 51.489944,
@@ -1000,6 +1084,27 @@
     "capacity": 28965
   },
   {
+    "qid": "Q389625",
+    "name": "Pomorie Stadium",
+    "lat": 42.565985,
+    "lon": 27.636656,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q390733",
+    "name": "ASK Arena",
+    "lat": 40.410986,
+    "lon": 49.897711,
+    "capacity": 8125
+  },
+  {
+    "qid": "Q391331",
+    "name": "Teddy Stadium",
+    "lat": 31.751166666,
+    "lon": 35.190616666,
+    "capacity": 31733
+  },
+  {
     "qid": "Q391473",
     "name": "De Geusselt",
     "lat": 50.8575,
@@ -1007,11 +1112,67 @@
     "capacity": 10000
   },
   {
+    "qid": "Q392291",
+    "name": "Štadión Antona Malatinského",
+    "lat": 48.373333,
+    "lon": 17.591667,
+    "capacity": 19200
+  },
+  {
+    "qid": "Q392295",
+    "name": "Štadión MFK Ružomberok",
+    "lat": 49.0825,
+    "lon": 19.28388889,
+    "capacity": 4817
+  },
+  {
+    "qid": "Q392305",
+    "name": "Štadión Pasienky",
+    "lat": 48.166111,
+    "lon": 17.141111,
+    "capacity": 13000
+  },
+  {
+    "qid": "Q392308",
+    "name": "Štadión 1. FC Tatran Prešov",
+    "lat": 49.006667,
+    "lon": 21.234444,
+    "capacity": 5410
+  },
+  {
+    "qid": "Q392309",
+    "name": "Štadión FC ViOn",
+    "lat": 48.399167,
+    "lon": 18.403889,
+    "capacity": 4000
+  },
+  {
+    "qid": "Q392313",
+    "name": "Štadión na Sihoti",
+    "lat": 48.89861111,
+    "lon": 18.04472222,
+    "capacity": 4300
+  },
+  {
+    "qid": "Q392323",
+    "name": "Štadión MŠK Žilina",
+    "lat": 49.229167,
+    "lon": 18.744722,
+    "capacity": 11258
+  },
+  {
     "qid": "Q392494",
     "name": "Mewa Arena",
     "lat": 49.984167,
     "lon": 8.224167,
     "capacity": 34034
+  },
+  {
+    "qid": "Q394535",
+    "name": "ŽAK Stadium",
+    "lat": 46.069658,
+    "lon": 14.499624,
+    "capacity": 3986
   },
   {
     "qid": "Q417007",
@@ -1161,11 +1322,25 @@
     "capacity": 20000
   },
   {
+    "qid": "Q543404",
+    "name": "Stožice Stadium",
+    "lat": 46.081111,
+    "lon": 14.521389,
+    "capacity": 16038
+  },
+  {
     "qid": "Q544985",
     "name": "Městský fotbalový stadion Srbská",
     "lat": 49.227162,
     "lon": 16.586276,
     "capacity": 12550
+  },
+  {
+    "qid": "Q545321",
+    "name": "Kuopio Football Stadium",
+    "lat": 62.884444,
+    "lon": 27.670833,
+    "capacity": 2700
   },
   {
     "qid": "Q548138",
@@ -1224,6 +1399,27 @@
     "capacity": 20750
   },
   {
+    "qid": "Q581622",
+    "name": "Ajdovščina Football Stadium",
+    "lat": 45.8881692,
+    "lon": 13.8944436,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q582868",
+    "name": "Ammochostos Epistrofi Stadium",
+    "lat": 34.929818,
+    "lon": 33.613207,
+    "capacity": 4161
+  },
+  {
+    "qid": "Q588138",
+    "name": "Munayshy Stadium",
+    "lat": 47.094085,
+    "lon": 51.908324,
+    "capacity": 8660
+  },
+  {
     "qid": "Q588926",
     "name": "Stadio Pierluigi Penzo",
     "lat": 45.427761,
@@ -1243,6 +1439,20 @@
     "lat": 59.362222222,
     "lon": 17.851666666,
     "capacity": 4729
+  },
+  {
+    "qid": "Q592491",
+    "name": "GSP Stadium",
+    "lat": 35.114542,
+    "lon": 33.362864,
+    "capacity": 22709
+  },
+  {
+    "qid": "Q593076",
+    "name": "Rođeni Stadium",
+    "lat": 43.378384,
+    "lon": 17.854382,
+    "capacity": 7000
   },
   {
     "qid": "Q593446",
@@ -1292,6 +1502,13 @@
     "lat": 51.094722,
     "lon": 4.928333,
     "capacity": 7982
+  },
+  {
+    "qid": "Q606918",
+    "name": "Okzhetpes Stadium",
+    "lat": 53.285278,
+    "lon": 69.391667,
+    "capacity": 4158
   },
   {
     "qid": "Q610546",
@@ -1364,6 +1581,13 @@
     "capacity": 16003
   },
   {
+    "qid": "Q621027",
+    "name": "Gradski stadion",
+    "lat": 44.7761,
+    "lon": 17.1996,
+    "capacity": 9730
+  },
+  {
     "qid": "Q627087",
     "name": "Borås Arena",
     "lat": 57.73457,
@@ -1397,6 +1621,20 @@
     "lat": 46.081603,
     "lon": 13.200136,
     "capacity": 25312
+  },
+  {
+    "qid": "Q641455",
+    "name": "Stadion Z'dežele",
+    "lat": 46.246667,
+    "lon": 15.270278,
+    "capacity": 13006
+  },
+  {
+    "qid": "Q641841",
+    "name": "Haberfeld Stadium",
+    "lat": 31.974994,
+    "lon": 34.752839,
+    "capacity": 6000
   },
   {
     "qid": "Q643426",
@@ -1686,6 +1924,13 @@
     "capacity": 24891
   },
   {
+    "qid": "Q746559",
+    "name": "Astana Arena",
+    "lat": 51.1082,
+    "lon": 71.4026,
+    "capacity": 30000
+  },
+  {
     "qid": "Q747467",
     "name": "Stadion Niedermatten",
     "lat": 47.356997,
@@ -1763,11 +2008,25 @@
     "capacity": 10300
   },
   {
+    "qid": "Q798494",
+    "name": "Kazhimukan Munaitpasov Stadium",
+    "lat": 42.335493,
+    "lon": 69.593568,
+    "capacity": 20000
+  },
+  {
     "qid": "Q800123",
     "name": "Næstved Stadion",
     "lat": 55.2231,
     "lon": 11.7664,
     "capacity": 20000
+  },
+  {
+    "qid": "Q804933",
+    "name": "Balgarska Armia Stadium",
+    "lat": 42.684258,
+    "lon": 23.339769,
+    "capacity": 22015
   },
   {
     "qid": "Q814577",
@@ -1826,6 +2085,13 @@
     "capacity": 8121
   },
   {
+    "qid": "Q846879",
+    "name": "Shakhtyor Stadium",
+    "lat": 49.818618,
+    "lon": 73.075122,
+    "capacity": 19000
+  },
+  {
     "qid": "Q849239",
     "name": "Estádio Municipal de Braga",
     "lat": 41.5624,
@@ -1833,11 +2099,46 @@
     "capacity": 30286
   },
   {
+    "qid": "Q849639",
+    "name": "Ticha Stadium",
+    "lat": 43.215833,
+    "lon": 27.931389,
+    "capacity": 8250
+  },
+  {
+    "qid": "Q849662",
+    "name": "Hristo Botev Stadium",
+    "lat": 42.139861,
+    "lon": 24.764444,
+    "capacity": 18000
+  },
+  {
+    "qid": "Q851679",
+    "name": "Lokomotiv Stadium",
+    "lat": 43.138889,
+    "lon": 23.7125,
+    "capacity": 5000
+  },
+  {
     "qid": "Q854122",
     "name": "Stade Bollaert-Delelis",
     "lat": 50.4329,
     "lon": 2.81491,
     "capacity": 38223
+  },
+  {
+    "qid": "Q857795",
+    "name": "Estadi Comunal d'Aixovall",
+    "lat": 42.476389,
+    "lon": 1.487667,
+    "capacity": 1000
+  },
+  {
+    "qid": "Q859905",
+    "name": "Stadion pod Bijelim Brijegom",
+    "lat": 43.345556,
+    "lon": 17.795278,
+    "capacity": 9000
   },
   {
     "qid": "Q861000",
@@ -1938,6 +2239,13 @@
     "capacity": 14300
   },
   {
+    "qid": "Q903860",
+    "name": "Asim Ferhatović Hase Stadium",
+    "lat": 43.873888888,
+    "lon": 18.408611111,
+    "capacity": 30121
+  },
+  {
     "qid": "Q908481",
     "name": "The Den",
     "lat": 51.485833,
@@ -2015,6 +2323,13 @@
     "capacity": 7500
   },
   {
+    "qid": "Q952432",
+    "name": "Lahti Stadium",
+    "lat": 60.983056,
+    "lon": 25.634167,
+    "capacity": 7465
+  },
+  {
     "qid": "Q953600",
     "name": "Estadio Manuel Martínez Valero",
     "lat": 38.266944,
@@ -2048,6 +2363,20 @@
     "lat": 50.609908,
     "lon": 5.543344,
     "capacity": 30023
+  },
+  {
+    "qid": "Q970178",
+    "name": "Bonifika Stadium",
+    "lat": 45.542356,
+    "lon": 13.730453,
+    "capacity": 4047
+  },
+  {
+    "qid": "Q975819",
+    "name": "Ljudski vrt",
+    "lat": 46.5625,
+    "lon": 15.640556,
+    "capacity": 12994
   },
   {
     "qid": "Q978472",
@@ -2103,6 +2432,13 @@
     "name": "Fehérvári úti Stadion",
     "lat": 46.633708333,
     "lon": 18.852552777
+  },
+  {
+    "qid": "Q1008046",
+    "name": "Gany Muratbayev Stadium",
+    "lat": 44.826029,
+    "lon": 65.503439,
+    "capacity": 7300
   },
   {
     "qid": "Q1022855",
@@ -2166,6 +2502,13 @@
     "lat": 41.445833333,
     "lon": -8.300972222,
     "capacity": 30029
+  },
+  {
+    "qid": "Q1058669",
+    "name": "Hadzhi Dimitar Stadium",
+    "lat": 42.679306,
+    "lon": 26.336667,
+    "capacity": 10000
   },
   {
     "qid": "Q1059142",
@@ -2244,6 +2587,13 @@
     "capacity": 32710
   },
   {
+    "qid": "Q1125989",
+    "name": "Taraz Central Stadium",
+    "lat": 42.901751,
+    "lon": 71.382224,
+    "capacity": 12525
+  },
+  {
     "qid": "Q1127808",
     "name": "Stadion Polonii Warszawa",
     "lat": 52.255517,
@@ -2263,6 +2613,13 @@
     "lat": 45.81584,
     "lon": 3.12162,
     "capacity": 11980
+  },
+  {
+    "qid": "Q1129090",
+    "name": "HaMoshava Stadium",
+    "lat": 32.104197,
+    "lon": 34.865078,
+    "capacity": 11500
   },
   {
     "qid": "Q1130039",
@@ -2307,6 +2664,13 @@
     "capacity": 21423
   },
   {
+    "qid": "Q1132478",
+    "name": "Pafiako Stadium",
+    "lat": 34.769186,
+    "lon": 32.440144,
+    "capacity": 8878
+  },
+  {
     "qid": "Q1134861",
     "name": "Stade Ange Casanova",
     "lat": 41.95138,
@@ -2326,6 +2690,20 @@
     "lat": 55.7811,
     "lon": 12.5058,
     "capacity": 10000
+  },
+  {
+    "qid": "Q1138958",
+    "name": "Tofiq Bahramov Stadium",
+    "lat": 40.397333,
+    "lon": 49.852417,
+    "capacity": 31200
+  },
+  {
+    "qid": "Q1139227",
+    "name": "Bolt Arena",
+    "lat": 60.1875,
+    "lon": 24.9225,
+    "capacity": 10770
   },
   {
     "qid": "Q1139863",
@@ -2468,6 +2846,13 @@
     "capacity": 5500
   },
   {
+    "qid": "Q1262656",
+    "name": "Tehtaan kenttä",
+    "lat": 61.268056,
+    "lon": 24.020278,
+    "capacity": 3516
+  },
+  {
     "qid": "Q1272724",
     "name": "Estádio do Marítimo",
     "lat": 32.645561,
@@ -2578,6 +2963,13 @@
     "lat": 38.708806,
     "lon": -9.260833,
     "capacity": 37593
+  },
+  {
+    "qid": "Q1335102",
+    "name": "Mehdi Huseynzade Stadium",
+    "lat": 40.601389,
+    "lon": 49.674722,
+    "capacity": 15350
   },
   {
     "qid": "Q1341220",
@@ -2888,6 +3280,13 @@
     "capacity": 27543
   },
   {
+    "qid": "Q1541269",
+    "name": "Lovech Stadium",
+    "lat": 43.142639,
+    "lon": 24.724861,
+    "capacity": 8100
+  },
+  {
     "qid": "Q1543487",
     "name": "Alsancak Mustafa Denizli Stadium",
     "lat": 38.4373,
@@ -2937,6 +3336,13 @@
     "capacity": 12500
   },
   {
+    "qid": "Q1572672",
+    "name": "Lokomotiv Stadium",
+    "lat": 42.737639,
+    "lon": 23.314806,
+    "capacity": 22000
+  },
+  {
     "qid": "Q1583034",
     "name": "Spiris Arena",
     "lat": 56.879722222,
@@ -2979,6 +3385,13 @@
     "capacity": 18128
   },
   {
+    "qid": "Q1649384",
+    "name": "Stadion Grbavica",
+    "lat": 43.846667,
+    "lon": 18.387222,
+    "capacity": 16100
+  },
+  {
     "qid": "Q1652487",
     "name": "Hüseyin Avni Aker Stadium",
     "lat": 41.003664,
@@ -2986,11 +3399,25 @@
     "capacity": 24169
   },
   {
+    "qid": "Q1652779",
+    "name": "Pori Stadium",
+    "lat": 61.476667,
+    "lon": 21.774444,
+    "capacity": 12300
+  },
+  {
     "qid": "Q1653346",
     "name": "Herfølge Stadion",
     "lat": 55.413578,
     "lon": 12.134153,
     "capacity": 8000
+  },
+  {
+    "qid": "Q1671726",
+    "name": "Tušanj City Stadium",
+    "lat": 44.54172,
+    "lon": 18.661528,
+    "capacity": 15000
   },
   {
     "qid": "Q1671970",
@@ -3021,6 +3448,13 @@
     "capacity": 10418
   },
   {
+    "qid": "Q1711712",
+    "name": "Domžale Sports Park",
+    "lat": 46.136967,
+    "lon": 14.602343,
+    "capacity": 2813
+  },
+  {
     "qid": "Q1711746",
     "name": "Jules Ottenstadion",
     "lat": 51.031389,
@@ -3033,6 +3467,20 @@
     "lat": 50.066667,
     "lon": 14.454167,
     "capacity": 7500
+  },
+  {
+    "qid": "Q1759119",
+    "name": "Hietalahti Stadium",
+    "lat": 63.085278,
+    "lon": 21.627778,
+    "capacity": 6009
+  },
+  {
+    "qid": "Q1759134",
+    "name": "Jakobstads Centralplan",
+    "lat": 63.673611,
+    "lon": 22.695,
+    "capacity": 5000
   },
   {
     "qid": "Q1770357",
@@ -3077,6 +3525,13 @@
     "capacity": 6541
   },
   {
+    "qid": "Q1806793",
+    "name": "Lazur Stadium",
+    "lat": 42.5125,
+    "lon": 27.470278,
+    "capacity": 18037
+  },
+  {
     "qid": "Q1807356",
     "name": "Stade Michel Moretti",
     "lat": 41.93157,
@@ -3110,6 +3565,13 @@
     "lat": 56.409686,
     "lon": -3.476928,
     "capacity": 10696
+  },
+  {
+    "qid": "Q1849789",
+    "name": "Netanya Stadium",
+    "lat": 32.294397,
+    "lon": 34.864433,
+    "capacity": 13610
   },
   {
     "qid": "Q1850335",
@@ -3154,6 +3616,13 @@
     "capacity": 9000
   },
   {
+    "qid": "Q1859824",
+    "name": "Ovcha Kupel Stadium",
+    "lat": 42.675361,
+    "lon": 23.272028,
+    "capacity": 15992
+  },
+  {
     "qid": "Q1862372",
     "name": "stade Marie-Marvingt",
     "lat": 47.95958,
@@ -3194,6 +3663,13 @@
     "lat": 49.845111,
     "lon": 18.299392,
     "capacity": 17372
+  },
+  {
+    "qid": "Q1924593",
+    "name": "MOL Aréna",
+    "lat": 47.99888889,
+    "lon": 17.61833333,
+    "capacity": 16410
   },
   {
     "qid": "Q1928668",
@@ -3266,6 +3742,13 @@
     "capacity": 15500
   },
   {
+    "qid": "Q2004864",
+    "name": "Veritas Stadion",
+    "lat": 60.442778,
+    "lon": 22.291667,
+    "capacity": 9372
+  },
+  {
     "qid": "Q2017390",
     "name": "Stadion Piast",
     "lat": 50.306583,
@@ -3301,11 +3784,25 @@
     "capacity": 14628
   },
   {
+    "qid": "Q2042133",
+    "name": "Zaqatala City Stadium",
+    "lat": 41.639361111,
+    "lon": 46.652805555,
+    "capacity": 3500
+  },
+  {
     "qid": "Q2042146",
     "name": "Obolon Arena",
     "lat": 50.527055555,
     "lon": 30.5075,
     "capacity": 5103
+  },
+  {
+    "qid": "Q2042479",
+    "name": "Gabala City Stadium",
+    "lat": 40.985194444,
+    "lon": 47.8425,
+    "capacity": 4000
   },
   {
     "qid": "Q2067371",
@@ -3320,6 +3817,19 @@
     "lat": 50.298611,
     "lon": 34.889722,
     "capacity": 5256
+  },
+  {
+    "qid": "Q2076694",
+    "name": "Doha Stadium",
+    "lat": 32.866692,
+    "lon": 35.31085,
+    "capacity": 8500
+  },
+  {
+    "qid": "Q2086488",
+    "name": "Imarat Stadium",
+    "lat": 39.99305556,
+    "lon": 46.93055556
   },
   {
     "qid": "Q2093331",
@@ -3497,6 +4007,13 @@
     "capacity": 12080
   },
   {
+    "qid": "Q2414122",
+    "name": "Wiklöf Holding Arena",
+    "lat": 60.102222,
+    "lon": 19.935278,
+    "capacity": 4000
+  },
+  {
     "qid": "Q2470765",
     "name": "Białystok City Stadium",
     "lat": 53.105556,
@@ -3536,6 +4053,13 @@
     "capacity": 30001
   },
   {
+    "qid": "Q2717715",
+    "name": "Dasaki Stadium",
+    "lat": 35.033889,
+    "lon": 33.765,
+    "capacity": 5367
+  },
+  {
     "qid": "Q2744854",
     "name": "Florent Beeckmanstadion",
     "lat": 50.883889,
@@ -3548,6 +4072,54 @@
     "lat": 44.815456,
     "lon": 20.494047,
     "capacity": 19100
+  },
+  {
+    "qid": "Q2760479",
+    "name": "GSZ Stadium",
+    "lat": 34.925556,
+    "lon": 33.599722,
+    "capacity": 13032
+  },
+  {
+    "qid": "Q2899864",
+    "name": "Sammy Ofer Stadium",
+    "lat": 32.783111111,
+    "lon": 34.965166666,
+    "capacity": 30950
+  },
+  {
+    "qid": "Q2907177",
+    "name": "Herzliya Municipal Stadium",
+    "lat": 32.167839,
+    "lon": 34.824793,
+    "capacity": 8300
+  },
+  {
+    "qid": "Q2909196",
+    "name": "Yud-Alef Stadium",
+    "lat": 31.8103,
+    "lon": 34.6483,
+    "capacity": 7800
+  },
+  {
+    "qid": "Q2918693",
+    "name": "Tasos Markou Stadium",
+    "lat": 35.030833,
+    "lon": 33.987222,
+    "capacity": 4532
+  },
+  {
+    "qid": "Q2984648",
+    "name": "Hristo Botev Stadium",
+    "lat": 43.2009,
+    "lon": 23.5687
+  },
+  {
+    "qid": "Q2986461",
+    "name": "Kazhimukan Munaitpasov Stadium",
+    "lat": 51.162739,
+    "lon": 71.413312,
+    "capacity": 12350
   },
   {
     "qid": "Q3059095",
@@ -3569,6 +4141,13 @@
     "lat": 45.430236,
     "lon": 28.022378,
     "capacity": 13500
+  },
+  {
+    "qid": "Q3229439",
+    "name": "Lendava Sports Park",
+    "lat": 46.559528,
+    "lon": 16.4508,
+    "capacity": 2020
   },
   {
     "qid": "Q3245127",
@@ -3634,11 +4213,32 @@
     "capacity": 15100
   },
   {
+    "qid": "Q3434169",
+    "name": "Stadion Pecara",
+    "lat": 43.3787,
+    "lon": 17.598,
+    "capacity": 10000
+  },
+  {
     "qid": "Q3435068",
     "name": "Stadion Mladost",
     "lat": 43.583114,
     "lon": 21.338122,
     "capacity": 10331
+  },
+  {
+    "qid": "Q3435164",
+    "name": "Gradski stadion",
+    "lat": 44.982039237,
+    "lon": 16.707993513,
+    "capacity": 6000
+  },
+  {
+    "qid": "Q3435214",
+    "name": "Stadion Dr. Milan Jelić",
+    "lat": 44.9551,
+    "lon": 18.3081,
+    "capacity": 6000
   },
   {
     "qid": "Q3435821",
@@ -3683,6 +4283,13 @@
     "capacity": 6000
   },
   {
+    "qid": "Q3441989",
+    "name": "Police City Stadium",
+    "lat": 42.708821,
+    "lon": 18.352743,
+    "capacity": 8550
+  },
+  {
     "qid": "Q3442471",
     "name": "Gradski stadion",
     "lat": 46.166111,
@@ -3702,6 +4309,13 @@
     "lat": 45.804722,
     "lon": 15.960833,
     "capacity": 8850
+  },
+  {
+    "qid": "Q3446823",
+    "name": "Mokri Dolac Stadium",
+    "lat": 43.46944444,
+    "lon": 17.32777778,
+    "capacity": 8000
   },
   {
     "qid": "Q3446875",
@@ -3746,6 +4360,13 @@
     "capacity": 5750
   },
   {
+    "qid": "Q3496280",
+    "name": "Nova Gorica Sports Park",
+    "lat": 45.955931,
+    "lon": 13.641563,
+    "capacity": 3066
+  },
+  {
     "qid": "Q3499490",
     "name": "Peristeri Stadium",
     "lat": 38.004858,
@@ -3788,11 +4409,31 @@
     "capacity": 12500
   },
   {
+    "qid": "Q3515221",
+    "name": "Gradski stadion",
+    "lat": 44.426666666,
+    "lon": 18.034444444
+  },
+  {
+    "qid": "Q3525082",
+    "name": "Acre Municipal Stadium",
+    "lat": 32.907897,
+    "lon": 35.086067,
+    "capacity": 5000
+  },
+  {
     "qid": "Q3544798",
     "name": "Levadia Municipal Stadium",
     "lat": 38.43589722,
     "lon": 22.88284444,
     "capacity": 5915
+  },
+  {
+    "qid": "Q3545094",
+    "name": "Fazanerija City Stadium",
+    "lat": 46.668611,
+    "lon": 16.1575,
+    "capacity": 3782
   },
   {
     "qid": "Q3557916",
@@ -3802,11 +4443,67 @@
     "capacity": 17118
   },
   {
+    "qid": "Q3622944",
+    "name": "Ogosta Stadium",
+    "lat": 43.398611,
+    "lon": 23.225278,
+    "capacity": 8000
+  },
+  {
+    "qid": "Q3622953",
+    "name": "Ivaylo Stadium",
+    "lat": 43.077222,
+    "lon": 25.620556,
+    "capacity": 25000
+  },
+  {
+    "qid": "Q3623331",
+    "name": "Hristo Bonev Stadium",
+    "lat": 42.133889,
+    "lon": 24.771667,
+    "capacity": 11800
+  },
+  {
+    "qid": "Q3625090",
+    "name": "Hristo Botev Stadium",
+    "lat": 42.026389,
+    "lon": 23.1,
+    "capacity": 7500
+  },
+  {
+    "qid": "Q3625171",
+    "name": "Huvepharma Arena",
+    "lat": 43.53361111,
+    "lon": 26.5275,
+    "capacity": 9000
+  },
+  {
+    "qid": "Q3655367",
+    "name": "Makario Stadium",
+    "lat": 35.146111,
+    "lon": 33.314444,
+    "capacity": 15590
+  },
+  {
+    "qid": "Q3658742",
+    "name": "Chavdar Tsvetkov Stadium",
+    "lat": 42.962222,
+    "lon": 23.35,
+    "capacity": 3500
+  },
+  {
     "qid": "Q3967768",
     "name": "Stadio Comunale (Chiavari)",
     "lat": 44.3156,
     "lon": 9.33732,
     "capacity": 5587
+  },
+  {
+    "qid": "Q3967844",
+    "name": "Ptuj City Stadium",
+    "lat": 46.416825,
+    "lon": 15.87558611,
+    "capacity": 2200
   },
   {
     "qid": "Q3967882",
@@ -3816,6 +4513,13 @@
     "capacity": 20987
   },
   {
+    "qid": "Q4032454",
+    "name": "Bakcell Arena",
+    "lat": 40.400163,
+    "lon": 49.944019,
+    "capacity": 15000
+  },
+  {
     "qid": "Q4055343",
     "name": "Avanhard Stadium",
     "lat": 50.616111,
@@ -3823,11 +4527,32 @@
     "capacity": 20000
   },
   {
+    "qid": "Q4126424",
+    "name": "Vostok Stadium",
+    "lat": 49.969924,
+    "lon": 82.586921,
+    "capacity": 8500
+  },
+  {
     "qid": "Q4135023",
     "name": "Nova Bavaria Stadium",
     "lat": 49.946,
     "lon": 36.1812,
     "capacity": 2057
+  },
+  {
+    "qid": "Q4172992",
+    "name": "Yevlakh City Stadium",
+    "lat": 40.602777777,
+    "lon": 47.161388888,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q4179789",
+    "name": "Zhetysu Stadium",
+    "lat": 45.019716,
+    "lon": 78.365103,
+    "capacity": 4000
   },
   {
     "qid": "Q4206440",
@@ -3848,6 +4573,26 @@
     "name": "Østerbro Stadium",
     "lat": 55.704,
     "lon": 12.5747
+  },
+  {
+    "qid": "Q4355474",
+    "name": "Georgi Benkovski Stadium",
+    "lat": 42.21083333,
+    "lon": 24.3225
+  },
+  {
+    "qid": "Q4355613",
+    "name": "Panayot Volov Stadium",
+    "lat": 43.276667,
+    "lon": 26.944167,
+    "capacity": 12000
+  },
+  {
+    "qid": "Q4412504",
+    "name": "Rovaniemen keskuskenttä",
+    "lat": 66.4997,
+    "lon": 25.7217,
+    "capacity": 2500
   },
   {
     "qid": "Q4444527",
@@ -3878,11 +4623,39 @@
     "capacity": 12000
   },
   {
+    "qid": "Q4700079",
+    "name": "Akademik Stadium",
+    "lat": 42.685278,
+    "lon": 23.368611,
+    "capacity": 8000
+  },
+  {
     "qid": "Q4810658",
     "name": "Theodoros Kolokotronis Stadium",
     "lat": 37.502676,
     "lon": 22.388678,
     "capacity": 7616
+  },
+  {
+    "qid": "Q4816249",
+    "name": "Shovkat Ordukhanov Stadium",
+    "lat": 41.419382996,
+    "lon": 48.42057109,
+    "capacity": 4000
+  },
+  {
+    "qid": "Q4816625",
+    "name": "Tovuz City Stadium",
+    "lat": 40.992222,
+    "lon": 45.625556,
+    "capacity": 6480
+  },
+  {
+    "qid": "Q4827654",
+    "name": "Karasay Stadium",
+    "lat": 54.874085,
+    "lon": 69.152074,
+    "capacity": 11000
   },
   {
     "qid": "Q4843094",
@@ -3896,6 +4669,41 @@
     "lat": 39.6415,
     "lon": 27.8877,
     "capacity": 15800
+  },
+  {
+    "qid": "Q4868482",
+    "name": "Bat Yam Municipal Stadium",
+    "lat": 32.000833333,
+    "lon": 34.748472222,
+    "capacity": 3100
+  },
+  {
+    "qid": "Q4874537",
+    "name": "Bayil Stadium",
+    "lat": 40.332217,
+    "lon": 49.817664,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q4875423",
+    "name": "Turner Stadium",
+    "lat": 31.2731,
+    "lon": 34.7794,
+    "capacity": 16126
+  },
+  {
+    "qid": "Q4882949",
+    "name": "Belite Orli Stadium",
+    "lat": 43.406944,
+    "lon": 24.608056,
+    "capacity": 22000
+  },
+  {
+    "qid": "Q4892310",
+    "name": "Berkut Stadium",
+    "lat": 42.058228631,
+    "lon": 24.757789086,
+    "capacity": 3000
   },
   {
     "qid": "Q4968684",
@@ -3926,6 +4734,13 @@
     "capacity": 2000
   },
   {
+    "qid": "Q5245085",
+    "name": "Spartak Stadium",
+    "lat": 43.218611,
+    "lon": 27.9125,
+    "capacity": 8000
+  },
+  {
     "qid": "Q5249969",
     "name": "Metalac Stadium",
     "lat": 44.03333333,
@@ -3938,6 +4753,20 @@
     "lat": 44.765156,
     "lon": 20.472153,
     "capacity": 6000
+  },
+  {
+    "qid": "Q5277416",
+    "name": "Dimitar Burkov Stadium",
+    "lat": 43.23572,
+    "lon": 26.5726,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q5309428",
+    "name": "Druzhba Stadium",
+    "lat": 43.556028,
+    "lon": 27.826806,
+    "capacity": 12500
   },
   {
     "qid": "Q5314044",
@@ -3974,11 +4803,80 @@
     "capacity": 5000
   },
   {
+    "qid": "Q5493026",
+    "name": "Tammelan Stadion",
+    "lat": 61.500278,
+    "lon": 23.785278,
+    "capacity": 3100
+  },
+  {
+    "qid": "Q5521343",
+    "name": "Ganja City Stadium",
+    "lat": 40.706111111,
+    "lon": 46.361944444,
+    "capacity": 25000
+  },
+  {
+    "qid": "Q5591984",
+    "name": "Bijeljina City Stadium",
+    "lat": 44.75444444,
+    "lon": 19.225,
+    "capacity": 6000
+  },
+  {
+    "qid": "Q5591985",
+    "name": "Gradski stadion",
+    "lat": 45.142222222,
+    "lon": 17.256388888,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q5591987",
+    "name": "Gradski stadion",
+    "lat": 45.029278,
+    "lon": 18.687333
+  },
+  {
+    "qid": "Q5591989",
+    "name": "Gradski stadion Luke",
+    "lat": 44.411214,
+    "lon": 17.084974,
+    "capacity": 2000
+  },
+  {
     "qid": "Q5609094",
     "name": "Municipal Stadium of Kallithea \"Grigoris Lambrakis\"",
     "lat": 37.9601,
     "lon": 23.7151,
     "capacity": 4200
+  },
+  {
+    "qid": "Q5612096",
+    "name": "Grundman Stadium",
+    "lat": 32.130248,
+    "lon": 34.858986,
+    "capacity": 4300
+  },
+  {
+    "qid": "Q5636400",
+    "name": "HaShalom Stadium",
+    "lat": 32.533180555,
+    "lon": 35.155788888,
+    "capacity": 5800
+  },
+  {
+    "qid": "Q5681617",
+    "name": "Hatikva Neighborhood Stadium",
+    "lat": 32.049986,
+    "lon": 34.786956,
+    "capacity": 2700
+  },
+  {
+    "qid": "Q5749546",
+    "name": "Imishli City Stadium",
+    "lat": 39.86972222,
+    "lon": 48.06,
+    "capacity": 8500
   },
   {
     "qid": "Q6045919",
@@ -4015,11 +4913,39 @@
     "capacity": 4496
   },
   {
+    "qid": "Q6372931",
+    "name": "Karnei Oren Memorial Field",
+    "lat": 32.186536,
+    "lon": 34.872503,
+    "capacity": 2500
+  },
+  {
+    "qid": "Q6379120",
+    "name": "Zemplin Stadium",
+    "lat": 48.7428,
+    "lon": 21.9083,
+    "capacity": 4500
+  },
+  {
     "qid": "Q6381835",
     "name": "Kazım Karabekir Stadium",
     "lat": 39.911,
     "lon": 41.238,
     "capacity": 23700
+  },
+  {
+    "qid": "Q6410244",
+    "name": "Kimpinen Sports Centre",
+    "lat": 61.062778,
+    "lon": 28.198611,
+    "capacity": 4900
+  },
+  {
+    "qid": "Q6416328",
+    "name": "Kiryat Shmona Municipal Stadium",
+    "lat": 33.207894,
+    "lon": 35.575629,
+    "capacity": 5300
   },
   {
     "qid": "Q6428584",
@@ -4042,11 +4968,38 @@
     "lon": 12.1778
   },
   {
+    "qid": "Q6471287",
+    "name": "Stadion FK Budućnost",
+    "lat": 44.4139,
+    "lon": 18.5352,
+    "capacity": 4600
+  },
+  {
+    "qid": "Q6471308",
+    "name": "Stadion pod Borićima",
+    "lat": 44.8067,
+    "lon": 15.864,
+    "capacity": 7500
+  },
+  {
+    "qid": "Q6535697",
+    "name": "Levita Stadium",
+    "lat": 32.181115,
+    "lon": 34.927071,
+    "capacity": 5800
+  },
+  {
     "qid": "Q6593856",
     "name": "Novi Pazar City Stadium",
     "lat": 43.134236,
     "lon": 20.516067,
     "capacity": 12000
+  },
+  {
+    "qid": "Q6668576",
+    "name": "Loka Stadium",
+    "lat": 45.56648333,
+    "lon": 15.19025556
   },
   {
     "qid": "Q6813229",
@@ -4056,11 +5009,37 @@
     "capacity": 9410
   },
   {
+    "qid": "Q6822156",
+    "name": "Mestský štadión",
+    "lat": 48.963611111,
+    "lon": 18.163333333
+  },
+  {
+    "qid": "Q6822157",
+    "name": "Mestský štadión (Púchov)",
+    "lat": 49.1175,
+    "lon": 18.32,
+    "capacity": 6080
+  },
+  {
+    "qid": "Q6822158",
+    "name": "Mestský štadión Bardejov",
+    "lat": 49.2971133,
+    "lon": 21.2637392,
+    "capacity": 3040
+  },
+  {
     "qid": "Q6826732",
     "name": "Mezőkövesdi Városi Stadion",
     "lat": 47.8023,
     "lon": 20.5673,
     "capacity": 2571
+  },
+  {
+    "qid": "Q6849945",
+    "name": "Mikkelin Urheilupuisto",
+    "lat": 61.68694444,
+    "lon": 27.26666667
   },
   {
     "qid": "Q6900548",
@@ -4095,6 +5074,19 @@
     "capacity": 5000
   },
   {
+    "qid": "Q6956460",
+    "name": "Na Zahradkach Stadium",
+    "lat": 48.3831,
+    "lon": 20.0076
+  },
+  {
+    "qid": "Q6997232",
+    "name": "Nesebar Stadium",
+    "lat": 42.666806,
+    "lon": 27.705,
+    "capacity": 7000
+  },
+  {
     "qid": "Q7009690",
     "name": "Konya Büyükşehir Stadium",
     "lat": 37.9462,
@@ -4109,11 +5101,25 @@
     "capacity": 41500
   },
   {
+    "qid": "Q7074533",
+    "name": "Ob Jezeru City Stadium",
+    "lat": 46.372931,
+    "lon": 15.104184,
+    "capacity": 2341
+  },
+  {
     "qid": "Q7130859",
     "name": "Panetolikos Stadium",
     "lat": 38.629967,
     "lon": 21.411747,
     "capacity": 7500
+  },
+  {
+    "qid": "Q7168854",
+    "name": "Peristerona Stadium",
+    "lat": 35.129167,
+    "lon": 33.083889,
+    "capacity": 3500
   },
   {
     "qid": "Q7171826",
@@ -4130,6 +5136,13 @@
     "capacity": 2500
   },
   {
+    "qid": "Q7227337",
+    "name": "Pomlé Stadium",
+    "lat": 48.040277777,
+    "lon": 17.320833333,
+    "capacity": 1950
+  },
+  {
     "qid": "Q7263521",
     "name": "Pyrgos Stadium",
     "lat": 37.6791,
@@ -4144,11 +5157,24 @@
     "capacity": 4500
   },
   {
+    "qid": "Q7278440",
+    "name": "Raatti Stadium",
+    "lat": 65.019694444,
+    "lon": 25.465805555,
+    "capacity": 4392
+  },
+  {
     "qid": "Q7389386",
     "name": "SC Partizan-Teleoptik",
     "lat": 44.8524527,
     "lon": 20.3824536,
     "capacity": 2000
+  },
+  {
+    "qid": "Q7415985",
+    "name": "Sandanski Stadium",
+    "lat": 41.57361111,
+    "lon": 23.28361111
   },
   {
     "qid": "Q7455414",
@@ -4303,6 +5329,41 @@
     "capacity": 15000
   },
   {
+    "qid": "Q7596480",
+    "name": "Stadium FC Petržalka 1898",
+    "lat": 48.119722222,
+    "lon": 17.133333333,
+    "capacity": 1500
+  },
+  {
+    "qid": "Q7596486",
+    "name": "Stadium Kolkáreň",
+    "lat": 48.8167,
+    "lon": 19.535,
+    "capacity": 4500
+  },
+  {
+    "qid": "Q7596487",
+    "name": "Stadium Liptovský Mikuláš",
+    "lat": 48.0883,
+    "lon": 19.6133,
+    "capacity": 1950
+  },
+  {
+    "qid": "Q7596489",
+    "name": "Stadium MUDr. Ivan Chodák",
+    "lat": 49.2063,
+    "lon": 19.2918,
+    "capacity": 1950
+  },
+  {
+    "qid": "Q7599369",
+    "name": "Stanko Mlakar Stadium",
+    "lat": 46.251731,
+    "lon": 14.364914,
+    "capacity": 2029
+  },
+  {
     "qid": "Q7619895",
     "name": "Stora Valla",
     "lat": 59.2383,
@@ -4351,11 +5412,31 @@
     "capacity": 1700
   },
   {
+    "qid": "Q8049714",
+    "name": "Yashar Mammadzade Stadium",
+    "lat": 40.763056,
+    "lon": 47.0425,
+    "capacity": 5000
+  },
+  {
     "qid": "Q8064920",
     "name": "Zaječar City Stadium",
     "lat": 43.89501,
     "lon": 22.27347,
     "capacity": 10000
+  },
+  {
+    "qid": "Q8070634",
+    "name": "Jas Qanat Stadium",
+    "lat": 43.664659,
+    "lon": 51.147333,
+    "capacity": 3500
+  },
+  {
+    "qid": "Q8082737",
+    "name": "Šaľa Stadium",
+    "lat": 48.16459722,
+    "lon": 17.88095278
   },
   {
     "qid": "Q9008639",
@@ -4456,6 +5537,13 @@
     "capacity": 2100
   },
   {
+    "qid": "Q11902010",
+    "name": "Vuosaaren urheilukenttä",
+    "lat": 60.2167,
+    "lon": 25.1386,
+    "capacity": 1500
+  },
+  {
     "qid": "Q11999443",
     "name": "Sandnes stadion",
     "lat": 58.859444444,
@@ -4488,6 +5576,13 @@
     "lon": 37.808
   },
   {
+    "qid": "Q12279167",
+    "name": "Arena Arda",
+    "lat": 41.64111,
+    "lon": 25.37806,
+    "capacity": 10000
+  },
+  {
     "qid": "Q12316175",
     "name": "Helsingør Stadion",
     "lat": 56.0458,
@@ -4500,6 +5595,13 @@
     "lon": 9.6732
   },
   {
+    "qid": "Q12404179",
+    "name": "Ness Ziona Stadium",
+    "lat": 31.915394,
+    "lon": 34.775203,
+    "capacity": 3500
+  },
+  {
     "qid": "Q12642650",
     "name": "Stadion ŠRC Sesvete",
     "lat": 45.8364,
@@ -4507,10 +5609,31 @@
     "capacity": 3500
   },
   {
+    "qid": "Q12807307",
+    "name": "Dob Sports Park",
+    "lat": 46.1561,
+    "lon": 14.6317,
+    "capacity": 400
+  },
+  {
     "qid": "Q12808383",
     "name": "Alanya Oba Stadium",
     "lat": 36.5626,
     "lon": 32.0791
+  },
+  {
+    "qid": "Q13425515",
+    "name": "Seinäjoen keskuskenttä",
+    "lat": 62.7819,
+    "lon": 22.8511,
+    "capacity": 2800
+  },
+  {
+    "qid": "Q13561181",
+    "name": "Portoval Stadium",
+    "lat": 45.8035,
+    "lon": 15.1585,
+    "capacity": 1500
   },
   {
     "qid": "Q13567334",
@@ -4524,6 +5647,13 @@
     "name": "Eugen Popescu Stadium",
     "lat": 44.931558,
     "lon": 25.462294
+  },
+  {
+    "qid": "Q14012891",
+    "name": "Ilut Stadium",
+    "lat": 32.720903,
+    "lon": 35.265769,
+    "capacity": 4932
   },
   {
     "qid": "Q14322671",
@@ -4547,11 +5677,37 @@
     "capacity": 7300
   },
   {
+    "qid": "Q15178279",
+    "name": "Afula Illit Stadium",
+    "lat": 32.627388888,
+    "lon": 35.317111111,
+    "capacity": 3000
+  },
+  {
     "qid": "Q15232877",
     "name": "Kalamaria Stadium",
     "lat": 40.581475,
     "lon": 22.94511389,
     "capacity": 6500
+  },
+  {
+    "qid": "Q15234685",
+    "name": "Kavarna Stadium",
+    "lat": 43.42833333,
+    "lon": 28.33111111,
+    "capacity": 5000
+  },
+  {
+    "qid": "Q15251379",
+    "name": "Matija Gubec Stadium",
+    "lat": 45.94890833,
+    "lon": 15.48831944
+  },
+  {
+    "qid": "Q15276210",
+    "name": "Septemvri Stadium (Sofia)",
+    "lat": 42.69222222,
+    "lon": 23.28777778
   },
   {
     "qid": "Q15284032",
@@ -4561,11 +5717,39 @@
     "capacity": 31100
   },
   {
+    "qid": "Q15285180",
+    "name": "Shamkir Olympic Sport Complex Stadium",
+    "lat": 40.854527777,
+    "lon": 46.036222222,
+    "capacity": 2000
+  },
+  {
+    "qid": "Q15831231",
+    "name": "Nakhchivan City Stadium",
+    "lat": 39.20888889,
+    "lon": 45.41222222,
+    "capacity": 12800
+  },
+  {
     "qid": "Q15910573",
     "name": "Pancho Arena",
     "lat": 47.464,
     "lon": 18.5868,
     "capacity": 3865
+  },
+  {
+    "qid": "Q15917734",
+    "name": "Qazakh City Stadium",
+    "lat": 41.09333333,
+    "lon": 45.36611111,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q15917736",
+    "name": "Agsu City Stadium",
+    "lat": 40.576667,
+    "lon": 48.381389,
+    "capacity": 3000
   },
   {
     "qid": "Q16523771",
@@ -4579,6 +5763,52 @@
     "lat": 40.512,
     "lon": -8.08282,
     "capacity": 5000
+  },
+  {
+    "qid": "Q16632802",
+    "name": "Rajko Štolfa Stadium",
+    "lat": 45.7058,
+    "lon": 13.8717,
+    "capacity": 1200
+  },
+  {
+    "qid": "Q16632809",
+    "name": "Šmartno Stadium",
+    "lat": 46.3303,
+    "lon": 15.0364,
+    "capacity": 717
+  },
+  {
+    "qid": "Q16632819",
+    "name": "Kidričevo Sports Park",
+    "lat": 46.4078,
+    "lon": 15.7897,
+    "capacity": 600
+  },
+  {
+    "qid": "Q16660343",
+    "name": "Chalkanoras Stadium",
+    "lat": 35.01831,
+    "lon": 33.3961,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q16964481",
+    "name": "Theodorio Koinotiko Stadium",
+    "lat": 35.018508,
+    "lon": 33.395959
+  },
+  {
+    "qid": "Q16999210",
+    "name": "Ayia Napa Municipal Stadium",
+    "lat": 34.993482,
+    "lon": 34.011626
+  },
+  {
+    "qid": "Q17078300",
+    "name": "Othellos Athienou Stadium",
+    "lat": 35.062017,
+    "lon": 33.532715
   },
   {
     "qid": "Q17182993",
@@ -4628,11 +5858,39 @@
     "name": "SL16 Football Campus"
   },
   {
+    "qid": "Q18125190",
+    "name": "Aradippou Municipal Stadium",
+    "lat": 34.948617,
+    "lon": 33.587873,
+    "capacity": 2000
+  },
+  {
     "qid": "Q18125598",
     "name": "Estadi Nacional",
     "lat": 42.5046,
     "lon": 1.51746,
     "capacity": 3306
+  },
+  {
+    "qid": "Q18126330",
+    "name": "Azersun Arena",
+    "lat": 40.4212,
+    "lon": 49.9968,
+    "capacity": 5800
+  },
+  {
+    "qid": "Q18126390",
+    "name": "Chloraka Community Stadium",
+    "lat": 34.793215,
+    "lon": 32.411669,
+    "capacity": 3500
+  },
+  {
+    "qid": "Q18662238",
+    "name": "Ekenäs centrumplan",
+    "lat": 59.973292,
+    "lon": 23.442829,
+    "capacity": 1200
   },
   {
     "qid": "Q19401450",
@@ -4647,11 +5905,51 @@
     "lon": 30.0175
   },
   {
+    "qid": "Q19788984",
+    "name": "Anagennisi Football Ground",
+    "lat": 35.05307,
+    "lon": 33.95666,
+    "capacity": 1800
+  },
+  {
+    "qid": "Q19816752",
+    "name": "Kiti Community Stadium",
+    "lat": 34.850277777,
+    "lon": 33.575277777
+  },
+  {
+    "qid": "Q20036684",
+    "name": "Arena Sozopol",
+    "lat": 42.413611,
+    "lon": 27.696944,
+    "capacity": 3500
+  },
+  {
     "qid": "Q20078531",
     "name": "Intility Arena",
     "lat": 59.9178125,
     "lon": 10.8066875,
     "capacity": 17333
+  },
+  {
+    "qid": "Q20670731",
+    "name": "Lod Municipal Stadium",
+    "lat": 31.93925,
+    "lon": 34.893166666,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q20736911",
+    "name": "Oulunkylä Stadium",
+    "lat": 60.234757,
+    "lon": 24.96253,
+    "capacity": 2200
+  },
+  {
+    "qid": "Q20741110",
+    "name": "Mestský štadión Skalica",
+    "lat": 48.83953611,
+    "lon": 17.22668611
   },
   {
     "qid": "Q20988339",
@@ -4660,10 +5958,24 @@
     "lon": 27.2622
   },
   {
+    "qid": "Q21140589",
+    "name": "OmaSp Stadion",
+    "lat": 62.778469444,
+    "lon": 22.815588888,
+    "capacity": 5817
+  },
+  {
     "qid": "Q23051502",
     "name": "Stadionul Municipal",
     "lat": 46.36694444,
     "lon": 25.80291667
+  },
+  {
+    "qid": "Q23797737",
+    "name": "AEK Arena - Georgios Karapatakis",
+    "lat": 34.9263,
+    "lon": 33.597747222,
+    "capacity": 7380
   },
   {
     "qid": "Q23807273",
@@ -4673,10 +5985,24 @@
     "capacity": 5500
   },
   {
+    "qid": "Q23808283",
+    "name": "Zira Olympic Sport Complex Stadium",
+    "lat": 40.35892,
+    "lon": 50.29311,
+    "capacity": 1500
+  },
+  {
     "qid": "Q24639807",
     "name": "Stovky",
     "lat": 49.695697,
     "lon": 18.3429535
+  },
+  {
+    "qid": "Q24911792",
+    "name": "Kfar Qassem Football Stadium",
+    "lat": 32.12583333,
+    "lon": 34.96583333,
+    "capacity": 7000
   },
   {
     "qid": "Q24969855",
@@ -4729,6 +6055,10 @@
     "lon": -0.796031
   },
   {
+    "qid": "Q27795907",
+    "name": "Druzhba Stadium"
+  },
+  {
     "qid": "Q28451127",
     "name": "Eryaman Stadium",
     "lat": 39.98,
@@ -4761,11 +6091,24 @@
     "lon": 16.607117
   },
   {
+    "qid": "Q30626313",
+    "name": "Mestský štadión Žiar nad Hronom",
+    "lat": 48.58733333,
+    "lon": 18.86333333,
+    "capacity": 2309
+  },
+  {
     "qid": "Q30880646",
     "name": "Unipol Domus",
     "lat": 39.199694444,
     "lon": 9.137416666,
     "capacity": 16416
+  },
+  {
+    "qid": "Q39046436",
+    "name": "Bistritsa Stadium",
+    "lat": 42.59125,
+    "lon": 23.36341667
   },
   {
     "qid": "Q39047118",
@@ -4775,6 +6118,19 @@
     "capacity": 3000
   },
   {
+    "qid": "Q48771429",
+    "name": "Tiberias Municipal Stadium",
+    "lat": 32.79702778,
+    "lon": 35.52113889
+  },
+  {
+    "qid": "Q48837444",
+    "name": "Bank Respublika Arena",
+    "lat": 40.486186,
+    "lon": 49.766262,
+    "capacity": 13000
+  },
+  {
     "qid": "Q55074091",
     "name": "Tottenham Hotspur Stadium",
     "lat": 51.604444444,
@@ -4782,11 +6138,25 @@
     "capacity": 62850
   },
   {
+    "qid": "Q55636459",
+    "name": "Ugljevik City Stadium",
+    "lat": 44.690556,
+    "lon": 18.997778,
+    "capacity": 5000
+  },
+  {
     "qid": "Q60195479",
     "name": "Pantelis Magoulas Stadium",
     "lat": 39.376339,
     "lon": 22.936373,
     "capacity": 2500
+  },
+  {
+    "qid": "Q60417957",
+    "name": "Limassol Arena",
+    "lat": 34.693194,
+    "lon": 32.939278,
+    "capacity": 10300
   },
   {
     "qid": "Q63975205",
@@ -4800,6 +6170,10 @@
     "lat": 48.021536,
     "lon": 7.830006,
     "capacity": 34700
+  },
+  {
+    "qid": "Q65165977",
+    "name": "Centre de entrenamiento de la FAF"
   },
   {
     "qid": "Q74124387",
@@ -4841,11 +6215,38 @@
     "lon": 13.09953
   },
   {
+    "qid": "Q105515105",
+    "name": "Košice football arena",
+    "lat": 48.696666666,
+    "lon": 21.245277777,
+    "capacity": 12555
+  },
+  {
+    "qid": "Q105834123",
+    "name": "Turkistan Arena",
+    "lat": 43.264085375,
+    "lon": 68.342428028
+  },
+  {
     "qid": "Q109452443",
     "name": "Çorum City Stadium",
     "lat": 40.53453,
     "lon": 34.92282,
     "capacity": 15000
+  },
+  {
+    "qid": "Q109453861",
+    "name": "Shamakhi City Stadium",
+    "lat": 40.6406,
+    "lon": 48.6355,
+    "capacity": 2200
+  },
+  {
+    "qid": "Q109652601",
+    "name": "City Stadium Konjic",
+    "lat": 43.658620968,
+    "lon": 17.949822885,
+    "capacity": 5000
   },
   {
     "qid": "Q113164580",
@@ -4882,6 +6283,13 @@
     "capacity": 15048
   },
   {
+    "qid": "Q123885906",
+    "name": "Danac Stadium",
+    "lat": 44.129450017,
+    "lon": 18.587310704,
+    "capacity": 1500
+  },
+  {
     "qid": "Q129980668",
     "name": "Városi Stadion",
     "lat": 47.970277777,
@@ -4903,10 +6311,24 @@
     "capacity": 3600
   },
   {
+    "qid": "Q133458659",
+    "name": "Heinäpää football stadium",
+    "lat": 65.001111111,
+    "lon": 25.451388888,
+    "capacity": 9000
+  },
+  {
     "qid": "Q134455177",
     "name": "Municipal Stadium of Markopoulo",
     "lat": 37.872055555,
     "lon": 23.932333333
+  },
+  {
+    "qid": "Q135204837",
+    "name": "Project Liv Arena",
+    "lat": 63.671989023,
+    "lon": 22.693998114,
+    "capacity": 7000
   },
   {
     "qid": "Q135682568",

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=60.457500&lon=26.939722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":168682100,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":87817994,\"lat\":\"60.4575547\",\"lon\":\"26.9396755\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.351491569385851e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kotkansaaren kuntoportaat, Katariina, Kotka, Kotkan–Haminan seutukunta, Kymenlaakso, Manner-Suomi, 48130, Suomi / Finland\",\"address\":{\"road\":\"Kotkansaaren kuntoportaat\",\"suburb\":\"Katariina\",\"city\":\"Kotka\",\"municipality\":\"Kotkan–Haminan seutukunta\",\"state\":\"Kymenlaakso\",\"ISO3166-2-lvl4\":\"FI-09\",\"region\":\"Manner-Suomi\",\"postcode\":\"48130\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"60.4570131\",\"60.4581176\",\"26.9388813\",\"26.9404731\"]}",
+  "fetchedAt": "2026-10-14T11:41:03.428Z"
+}

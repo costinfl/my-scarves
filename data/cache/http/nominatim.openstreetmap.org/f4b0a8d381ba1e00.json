@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.556028&lon=27.826806&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59987192,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":135876581,\"lat\":\"43.5560212\",\"lon\":\"27.8268039\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.120927748526768e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"бул. 25-ти Септември, ж.к. Югоизток, Добрич, 9300, България\",\"address\":{\"road\":\"бул. 25-ти Септември\",\"suburb\":\"ж.к. Югоизток\",\"city\":\"Добрич\",\"state_district\":\"Добрич\",\"state\":\"Добрич\",\"ISO3166-2-lvl4\":\"BG-08\",\"postcode\":\"9300\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"43.5554579\",\"43.5565844\",\"27.8260952\",\"27.8275125\"]}",
+  "fetchedAt": "2026-10-14T11:40:12.268Z"
+}

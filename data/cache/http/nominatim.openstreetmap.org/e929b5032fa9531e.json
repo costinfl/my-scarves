@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.573611&lon=23.283611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58737256,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":216613769,\"lat\":\"41.5736553\",\"lon\":\"23.2837998\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.840924696722389e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Никола Вапцаров, Сандански, Благоевград, 2800, България\",\"address\":{\"road\":\"Никола Вапцаров\",\"town\":\"Сандански\",\"state_district\":\"Сандански\",\"state\":\"Благоевград\",\"ISO3166-2-lvl4\":\"BG-01\",\"postcode\":\"2800\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"41.5731148\",\"41.5741958\",\"23.2831658\",\"23.2844337\"]}",
+  "fetchedAt": "2026-10-14T11:40:01.549Z"
+}

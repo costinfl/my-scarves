@@ -1,0 +1,144 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q257282 wd:Q541065 wd:Q326859 wd:Q246175 wd:Q391006 wd:Q1361966 wd:Q1361974 wd:Q12837728 wd:Q797414 wd:Q155965 wd:Q2186582 wd:Q220875 wd:Q384536 wd:Q13394 wd:Q217374 wd:Q477309 wd:Q1824581 wd:Q326422 wd:Q1361963 wd:Q238113 wd:Q209946 wd:Q275005 wd:Q2548558 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T11:29:18.687Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q13394",
+      "label": "Ligue 1",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q391006",
+      "label": "Premier League of Bosnia and Herzegovina",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q155965",
+      "label": "Cypriot First Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q209946",
+      "label": "Slovak Second Football League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q217374",
+      "label": "Ligue 2",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q220875",
+      "label": "Veikkausliiga",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q238113",
+      "label": "Slovak First Football League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q246175",
+      "label": "Azerbaijan First Division",
+      "isFootballLeague": "true",
+      "participants": "13"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q257282",
+      "label": "Primera Divisió",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q275005",
+      "label": "Slovenian PrvaLiga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q326422",
+      "label": "Kazakhstan Premier League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q326859",
+      "label": "Azerbaijan Premier League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q384536",
+      "label": "Ykkösliiga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q477309",
+      "label": "Israeli Premier League",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q541065",
+      "label": "Segona Divisió",
+      "isFootballLeague": "true",
+      "participants": "11"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q797414",
+      "label": "Bulgarian B Professional Football Group",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1361963",
+      "label": "Kazakhstan First League",
+      "isFootballLeague": "true",
+      "participants": "9"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1361966",
+      "label": "First League of the Federation of Bosnia and Herzegovina",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1361974",
+      "label": "First League of the Republika Srpska",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1824581",
+      "label": "Liga Leumit",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2186582",
+      "label": "Cypriot Second Division",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2548558",
+      "label": "Slovenian Second League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q12837728",
+      "label": "First Professional Football League",
+      "isFootballLeague": "true",
+      "participants": "14"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:05.021Z",
+  "version": 2,
+  "entity": {
+    "id": "Q630939",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "79967"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Kyzylzhar"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Kyzylzhar"
+      }
+    }
+  }
+}

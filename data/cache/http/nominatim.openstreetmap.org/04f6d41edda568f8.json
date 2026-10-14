@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.146111&lon=33.314444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210160224,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":202953085,\"lat\":\"35.1459035\",\"lon\":\"33.3143193\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.090485999842859e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Reas, Αρχάγγελος, Έγκωμη, Λευκωσία - Lefkoşa, Δήμος Λευκωσίας, Επαρχία Λευκωσίας, Κύπρος, 2400, Κύπρος - Kıbrıs\",\"address\":{\"road\":\"Reas\",\"quarter\":\"Αρχάγγελος\",\"suburb\":\"Έγκωμη\",\"city\":\"Λευκωσία - Lefkoşa\",\"county\":\"Δήμος Λευκωσίας\",\"state_district\":\"Επαρχία Λευκωσίας\",\"ISO3166-2-lvl5\":\"CY-01\",\"region\":\"Κύπρος\",\"postcode\":\"2400\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"35.1453302\",\"35.1464860\",\"33.3137217\",\"33.3149175\"]}",
+  "fetchedAt": "2026-10-14T11:40:39.119Z"
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q14428120",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2607561"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NŠ Mura"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "ŠD NŠ Mura 05"
+      }
+    }
+  }
+}

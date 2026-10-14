@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:04.005Z",
+  "version": 2,
+  "entity": {
+    "id": "Q385177",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "MOİK (Bakı).jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "MOIK Baku"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "MOIK Baku"
+      }
+    }
+  }
+}

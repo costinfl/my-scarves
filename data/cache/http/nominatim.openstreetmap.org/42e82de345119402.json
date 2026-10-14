@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.398611&lon=23.225278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58895779,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1304647113,\"lat\":\"43.3984021\",\"lon\":\"23.2254447\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0116731517464216e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ком, кв. Огоста, Монтана, 3400, България\",\"address\":{\"road\":\"Ком\",\"neighbourhood\":\"кв. Огоста\",\"city\":\"Монтана\",\"state_district\":\"Монтана\",\"state\":\"Монтана\",\"ISO3166-2-lvl4\":\"BG-12\",\"postcode\":\"3400\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"43.3978355\",\"43.3989686\",\"23.2246825\",\"23.2262070\"]}",
+  "fetchedAt": "2026-10-14T11:40:20.238Z"
+}

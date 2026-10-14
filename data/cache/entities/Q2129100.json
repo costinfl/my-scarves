@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2129100",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "59045"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Maccabi Haifa F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Maccabi Haifa F.C."
+      }
+    }
+  }
+}

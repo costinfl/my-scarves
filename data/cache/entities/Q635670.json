@@ -1,0 +1,43 @@
+{
+  "fetchedAt": "2026-10-14T11:32:05.021Z",
+  "version": 2,
+  "entity": {
+    "id": "Q635670",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3133,
+                "id": "Q3133"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "63399"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "UE Sant Julià"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "UE Sant Julià"
+      }
+    }
+  }
+}

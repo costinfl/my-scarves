@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q26223027",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2610262"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC CSKA 1948 Sofia"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC CSKA 1948 Sofia"
+      }
+    }
+  }
+}

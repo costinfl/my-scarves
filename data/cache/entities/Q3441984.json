@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q3441984",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Logo FK Radnički Lukavac.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Radnički Lukavac"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Radnički Lukavac"
+      }
+    }
+  }
+}

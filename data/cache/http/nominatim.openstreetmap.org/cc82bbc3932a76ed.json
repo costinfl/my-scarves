@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=62.884444&lon=27.670833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":167788340,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1119414180,\"lat\":\"62.8846496\",\"lon\":\"27.6715566\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.36855591270156857,\"addresstype\":\"leisure\",\"name\":\"Kuopion keskuskenttä\",\"display_name\":\"Kuopion keskuskenttä, 6, Kaartokatu, Mölymäki, Hatsala, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, 70620, Suomi / Finland\",\"address\":{\"leisure\":\"Kuopion keskuskenttä\",\"house_number\":\"6\",\"road\":\"Kaartokatu\",\"neighbourhood\":\"Mölymäki\",\"suburb\":\"Hatsala\",\"city\":\"Kuopio\",\"municipality\":\"Kuopion seutukunta\",\"state\":\"Pohjois-Savo\",\"ISO3166-2-lvl4\":\"FI-15\",\"region\":\"Manner-Suomi\",\"postcode\":\"70620\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"62.8836789\",\"62.8855459\",\"27.6695946\",\"27.6736229\"]}",
+  "fetchedAt": "2026-10-14T11:41:04.083Z"
+}

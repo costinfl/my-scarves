@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:05.021Z",
+  "version": 2,
+  "entity": {
+    "id": "Q546557",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "82828"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Zhetysu"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Zhetysu"
+      }
+    }
+  }
+}

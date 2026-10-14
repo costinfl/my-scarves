@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.640600&lon=48.635500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":201921412,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":833843204,\"lat\":\"40.6405969\",\"lon\":\"48.6355156\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.18554865524912875,\"addresstype\":\"leisure\",\"name\":\"Şamaxı Mərkəzi Stadionu\",\"display_name\":\"Şamaxı Mərkəzi Stadionu, Nazim Hikmət küç., Şamaxı, Şamaxı rayonu, Azərbaycan\",\"address\":{\"leisure\":\"Şamaxı Mərkəzi Stadionu\",\"road\":\"Nazim Hikmət küç.\",\"town\":\"Şamaxı\",\"county\":\"Şamaxı rayonu\",\"ISO3166-2-lvl6\":\"AZ-SMI\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.6399382\",\"40.6414158\",\"48.6349035\",\"48.6360991\"]}",
+  "fetchedAt": "2026-10-14T11:39:07.353Z"
+}

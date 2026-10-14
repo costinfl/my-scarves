@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.955931&lon=13.641563&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":79332451,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":503330912,\"lat\":\"45.9558661\",\"lon\":\"13.6415297\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.571831845574147e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Cankarjeva ulica, Cankarjeva soseska, Nova Gorica, 5000, Slovenija\",\"address\":{\"road\":\"Cankarjeva ulica\",\"neighbourhood\":\"Cankarjeva soseska\",\"town\":\"Nova Gorica\",\"municipality\":\"Nova Gorica\",\"ISO3166-2-lvl8\":\"SI-084\",\"postcode\":\"5000\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"45.9553573\",\"45.9563739\",\"13.6409734\",\"13.6420870\"]}",
+  "fetchedAt": "2026-10-14T11:42:29.349Z"
+}

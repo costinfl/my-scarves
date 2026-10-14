@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q289516",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "AC Oulu logo.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "AC Oulu"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "AC Oulu"
+      }
+    }
+  }
+}

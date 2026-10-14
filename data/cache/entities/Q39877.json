@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:04.005Z",
+  "version": 2,
+  "entity": {
+    "id": "Q39877",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64519"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Petržalka"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Petržalka"
+      }
+    }
+  }
+}

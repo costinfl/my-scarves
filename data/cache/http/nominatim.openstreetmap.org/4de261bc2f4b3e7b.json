@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.407800&lon=15.789700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68577744,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":112580641,\"lat\":\"46.4080493\",\"lon\":\"15.7899532\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.959334706640753e-05,\"addresstype\":\"leisure\",\"name\":\"NK Aluminij\",\"display_name\":\"NK Aluminij, Kajuhova ulica, Kidričevo, 2325, Slovenija\",\"address\":{\"leisure\":\"NK Aluminij\",\"road\":\"Kajuhova ulica\",\"village\":\"Kidričevo\",\"municipality\":\"Kidričevo\",\"ISO3166-2-lvl8\":\"SI-045\",\"postcode\":\"2325\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.4072865\",\"46.4086542\",\"15.7892760\",\"15.7906427\"]}",
+  "fetchedAt": "2026-10-14T11:42:31.447Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.133889&lon=24.771667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60025958,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":10611697569,\"lat\":\"42.1338267\",\"lon\":\"24.7715657\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.38456813059540323,\"addresstype\":\"leisure\",\"name\":\"Стадион „Христо Бонев“\",\"display_name\":\"Стадион „Христо Бонев“, Лев Толостой, Тракия, Пловдив, 4017, България\",\"address\":{\"leisure\":\"Стадион „Христо Бонев“\",\"road\":\"Лев Толостой\",\"borough\":\"Тракия\",\"city\":\"Пловдив\",\"state_district\":\"Пловдив\",\"state\":\"Пловдив\",\"ISO3166-2-lvl4\":\"BG-16\",\"postcode\":\"4017\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.1337767\",\"42.1338767\",\"24.7715157\",\"24.7716157\"]}",
+  "fetchedAt": "2026-10-14T11:40:18.181Z"
+}

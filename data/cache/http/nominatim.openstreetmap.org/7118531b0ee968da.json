@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.664659&lon=51.147333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":203643548,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":326751680,\"lat\":\"43.6645882\",\"lon\":\"51.1474008\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7338063630075796e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"83г, 12 микрорайон, Ақтау, Ақтау қалалық әкімдігі, Маңғыстау облысы, 130000, Қазақстан\",\"address\":{\"house_number\":\"83г\",\"road\":\"12 микрорайон\",\"neighbourhood\":\"12 микрорайон\",\"city\":\"Ақтау\",\"county\":\"Ақтау қалалық әкімдігі\",\"state\":\"Маңғыстау облысы\",\"ISO3166-2-lvl4\":\"KZ-47\",\"postcode\":\"130000\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"43.6640466\",\"43.6651298\",\"51.1468433\",\"51.1479583\"]}",
+  "fetchedAt": "2026-10-14T11:42:01.726Z"
+}

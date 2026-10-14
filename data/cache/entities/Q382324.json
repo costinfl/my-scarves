@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-10-14T11:32:04.005Z",
+  "version": 2,
+  "entity": {
+    "id": "Q382324",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 208045,
+                "id": "Q208045"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        }
+      ],
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52350"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Kuopion Palloseura"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Kuopion Palloseura"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:04.005Z",
+  "version": 2,
+  "entity": {
+    "id": "Q44305",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "69617"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Koper"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Koper"
+      }
+    }
+  }
+}

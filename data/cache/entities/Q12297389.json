@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:00.154Z",
+  "version": 2,
+  "entity": {
+    "id": "Q12297389",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "FK Levski Karlovo (logo).svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Levski Karlovo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Levski Karlovo"
+      }
+    }
+  }
+}

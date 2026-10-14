@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=65.019694&lon=25.465806&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":270939606,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":93258672,\"lat\":\"65.0198067\",\"lon\":\"25.4658192\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.857022964823403e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Raatintie, Koskikeskus, Tuira, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 90100, Suomi / Finland\",\"address\":{\"road\":\"Raatintie\",\"suburb\":\"Koskikeskus\",\"city\":\"Oulu\",\"municipality\":\"Oulun seutukunta\",\"state\":\"Pohjois-Pohjanmaa\",\"ISO3166-2-lvl4\":\"FI-14\",\"region\":\"Manner-Suomi\",\"postcode\":\"90100\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"65.0193208\",\"65.0202924\",\"25.4650409\",\"25.4665959\"]}",
+  "fetchedAt": "2026-10-14T11:41:06.428Z"
+}

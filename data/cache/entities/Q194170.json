@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q194170",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "79973"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Aktobe"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Aktobe"
+      }
+    }
+  }
+}

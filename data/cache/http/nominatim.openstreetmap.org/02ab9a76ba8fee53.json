@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.562500&lon=15.640556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68267930,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":617582658,\"lat\":\"46.5626142\",\"lon\":\"15.6405234\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.929503318832712e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Mladinska ulica, Lent, Center, Maribor, 2000, Slovenija\",\"address\":{\"road\":\"Mladinska ulica\",\"quarter\":\"Lent\",\"suburb\":\"Center\",\"city\":\"Maribor\",\"municipality\":\"Maribor\",\"ISO3166-2-lvl8\":\"SI-070\",\"postcode\":\"2000\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.5620673\",\"46.5631613\",\"15.6398945\",\"15.6411523\"]}",
+  "fetchedAt": "2026-10-14T11:42:39.255Z"
+}

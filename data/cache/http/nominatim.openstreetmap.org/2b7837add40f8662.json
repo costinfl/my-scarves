@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.874085&lon=69.152074&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":216630540,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":10648733223,\"lat\":\"54.8740503\",\"lon\":\"69.1520470\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.324096928576472,\"addresstype\":\"leisure\",\"name\":\"Қарасай стадионы\",\"display_name\":\"Қарасай стадионы, 173, Жамбыл Жабаев көшесі, Петропавл, Петропавл қалалық әкімшілігі, Солтүстік Қазақстан облысы, 150000, Қазақстан\",\"address\":{\"leisure\":\"Қарасай стадионы\",\"house_number\":\"173\",\"road\":\"Жамбыл Жабаев көшесі\",\"city\":\"Петропавл\",\"county\":\"Петропавл қалалық әкімшілігі\",\"state\":\"Солтүстік Қазақстан облысы\",\"ISO3166-2-lvl4\":\"KZ-59\",\"postcode\":\"150000\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"54.8740003\",\"54.8741003\",\"69.1519970\",\"69.1520970\"]}",
+  "fetchedAt": "2026-10-14T11:41:50.747Z"
+}

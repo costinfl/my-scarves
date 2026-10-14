@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1578815",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2601292"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Kaliakra Kavarna"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "PFC Kaliakra Kavarna"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.129450&lon=18.587311&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65880900,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":295491275,\"lat\":\"44.1293121\",\"lon\":\"18.5872854\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.847257190809518e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"M-18, Olovo, Općina Olovo, Zeničko-dobojski kanton, Federacija Bosne i Hercegovine, 71340, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"M-18\",\"town\":\"Olovo\",\"municipality\":\"Općina Olovo\",\"state_district\":\"Zeničko-dobojski kanton\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"71340\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.1289089\",\"44.1297153\",\"18.5865837\",\"18.5879871\"]}",
+  "fetchedAt": "2026-10-14T11:39:49.446Z"
+}

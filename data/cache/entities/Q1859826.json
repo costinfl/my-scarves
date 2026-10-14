@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:02.042Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1859826",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Septemvri Sofia.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "PFC Septemvri Sofia"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Septemvri Sofia PFC"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1587262",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "80400"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Žepče"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Žepče"
+      }
+    }
+  }
+}

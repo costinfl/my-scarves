@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q263258",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "73387"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Široki Brijeg"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Široki Brijeg"
+      }
+    }
+  }
+}

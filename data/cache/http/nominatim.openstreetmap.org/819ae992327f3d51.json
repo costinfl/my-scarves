@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.129167&lon=33.083889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210136136,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":235328408,\"lat\":\"35.1293847\",\"lon\":\"33.0838858\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.9568169680277984e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Γρίβα ∆ιγενή, Περιστερώνα, Peristerona, Σύμπλεγμα Κοινοτήτων Μόρφου, Επαρχία Λευκωσίας, Κύπρος, 2731, Κύπρος - Kıbrıs\",\"address\":{\"road\":\"Γρίβα ∆ιγενή\",\"village\":\"Περιστερώνα\",\"city\":\"Peristerona\",\"county\":\"Σύμπλεγμα Κοινοτήτων Μόρφου\",\"state_district\":\"Επαρχία Λευκωσίας\",\"ISO3166-2-lvl5\":\"CY-01\",\"region\":\"Κύπρος\",\"postcode\":\"2731\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"35.1288315\",\"35.1299379\",\"33.0832907\",\"33.0844809\"]}",
+  "fetchedAt": "2026-10-14T11:40:39.885Z"
+}

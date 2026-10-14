@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:01.089Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1388695",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Svetkavitza Logo.svg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "PFC Svetkavitsa Targovishte"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "PFC Svetkavitsa"
+      }
+    }
+  }
+}

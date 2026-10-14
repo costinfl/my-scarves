@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.512500&lon=27.470278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60411000,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":40820807,\"lat\":\"42.5124230\",\"lon\":\"27.4703994\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.61242084381936e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Васил Петлешков, ж.к. Братя Миладинови, Бургас, 8001, България\",\"address\":{\"road\":\"Васил Петлешков\",\"suburb\":\"ж.к. Братя Миладинови\",\"city\":\"Бургас\",\"state_district\":\"Бургас\",\"state\":\"Бургас\",\"ISO3166-2-lvl4\":\"BG-02\",\"postcode\":\"8001\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.5120046\",\"42.5128414\",\"27.4696355\",\"27.4711633\"]}",
+  "fetchedAt": "2026-10-14T11:40:02.639Z"
+}
