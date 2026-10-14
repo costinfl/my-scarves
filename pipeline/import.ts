@@ -5,6 +5,7 @@ import { CLUBS_IN_LEAGUE, dedupeClubs, dropChildTeams, mergeClubs, mergeStadiums
 import { qid } from './lib/wikidata.ts';
 import { readJson, writeJson } from './lib/json.ts';
 import { checkLeagues } from './lib/leagues.ts';
+import { seasonTeamsFromWikipedia } from './lib/season-page.ts';
 import { paths } from './lib/paths.ts';
 import type { Association, Club, LeagueImportResult, LeagueInfo, SeedLeague, Stadium } from './lib/types.ts';
 import { sparql } from './lib/wikidata.ts';
@@ -45,17 +46,36 @@ for (const code of codes) {
     }
     leagueInfo.set(seed.qid, check.info);
     try {
-      // Prefer the season's participant list (exact) over open-ended P118 memberships (can be stale).
-      const seasonTeams = (await sparql(SEASON_TEAMS(seed.qid, Number(season.slice(0, 4))), { refresh }))
-        .flatMap((r) => qid(r.team) ?? []);
-      const rows = await sparql(CLUBS_IN_LEAGUE(seed.qid, seasonTeams), { refresh });
-      const parsed = parseLeagueRows(rows, seed, season);
+      // Members, best source first: the season's participant list on Wikidata (exact), the team table of
+      // the season's Wikipedia article, then open-ended P118 memberships (can be stale).
+      const startYear = Number(season.slice(0, 4));
+      let source: LeagueImportResult['source'] = 'season';
+      let sourceUrl: string | undefined;
+      const seasonTeams = (await sparql(SEASON_TEAMS(seed.qid, startYear), { refresh })).flatMap((r) => qid(r.team) ?? []);
+      let parsed = seasonTeams.length ? parseLeagueRows(await sparql(CLUBS_IN_LEAGUE(seed.qid, seasonTeams), { refresh }), seed, season) : undefined;
+      if (!parsed) {
+        const page = await seasonTeamsFromWikipedia(seed.qid, startYear, { refresh }).catch((e: unknown) => {
+          console.warn(`${code} ${seed.name}: Wikipedia season page not used, ${e instanceof Error ? e.message : String(e)}`);
+          return undefined;
+        });
+        const fromPage = page && parseLeagueRows(await sparql(CLUBS_IN_LEAGUE(seed.qid, page.teams), { refresh }), seed, season);
+        // Only trust the table when most of its links are football clubs (not a table of towns or stadiums).
+        if (page && fromPage && fromPage.clubs.length + fromPage.excluded.length >= Math.max(6, page.teams.length * 0.6)) {
+          [parsed, source, sourceUrl] = [fromPage, 'wikipedia', page.url];
+        } else if (page) {
+          console.warn(`${code} ${seed.name}: Wikipedia season table not used, only ${fromPage?.clubs.length ?? 0} of ${page.teams.length} links are clubs`);
+        }
+      }
+      if (!parsed) {
+        source = 'memberships';
+        parsed = parseLeagueRows(await sparql(CLUBS_IN_LEAGUE(seed.qid), { refresh }), seed, season);
+      }
       for (const q of parsed.withEnwiki) withEnwiki.add(q);
       for (const [child, parent] of parsed.parents) parents.set(child, parent);
       clubs = mergeClubs(clubs, parsed.clubs, [seed.qid], season);
       stadiums = mergeStadiums(stadiums, parsed.stadiums);
       console.log(
-        `${code} ${seed.name}: ${parsed.clubs.length} clubs (${seasonTeams.length ? 'season participants' : 'open memberships'}), ` +
+        `${code} ${seed.name}: ${parsed.clubs.length} clubs (${source === 'season' ? 'season participants' : source === 'wikipedia' ? `Wikipedia ${sourceUrl}` : 'open memberships'}), ` +
           `${parsed.stadiums.length} stadiums, ${parsed.excluded.length} excluded`,
       );
       results.push({
@@ -65,7 +85,8 @@ for (const code of codes) {
         clubs: parsed.clubs.length,
         stadiums: parsed.stadiums.length,
         excluded: parsed.excluded,
-        source: seasonTeams.length ? 'season' : 'memberships',
+        source,
+        ...(sourceUrl ? { sourceUrl } : {}),
       });
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
