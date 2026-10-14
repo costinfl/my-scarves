@@ -1,0 +1,402 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q182994 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q182994 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T19:05:04.392Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Primeira_Liga",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966%E2%80%9367_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965%E2%80%9366_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967%E2%80%9368_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968%E2%80%9369_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1935%E2%80%9336_Campeonato_da_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936%E2%80%9337_Campeonato_da_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_Campeonato_da_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964%E2%80%9365_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942%E2%80%9343_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_in_Portuguese_football",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1940%E2%80%9341_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1944%E2%80%9345_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1941%E2%80%9342_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976%E2%80%9377_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934%E2%80%9335_Campeonato_da_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1943%E2%80%9344_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_in_Portuguese_football",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945%E2%80%9346_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946%E2%80%9347_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950%E2%80%9351_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952%E2%80%9353_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953%E2%80%9354_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954%E2%80%9355_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957%E2%80%9358_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979%E2%80%9380_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985%E2%80%9386_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984%E2%80%9385_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982%E2%80%9383_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971%E2%80%9372_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983%E2%80%9384_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Primeira_Divis%C3%A3o",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_in_Portuguese_football",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_Primeira_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Primeira_Liga",
+      "kind": "season"
+    }
+  ]
+}

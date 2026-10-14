@@ -1,0 +1,510 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q15804 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q15804 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T19:04:58.473Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/1913%E2%80%9314_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1914%E2%80%9315_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1919%E2%80%9320_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1920%E2%80%9321_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1921%E2%80%9322_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1922%E2%80%9323_Prima_Divisione",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1923%E2%80%9324_Prima_Divisione",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1924%E2%80%9325_Prima_Divisione",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1926%E2%80%9327_Divisione_Nazionale",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1928%E2%80%9329_Divisione_Nazionale",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1921%E2%80%9322_Prima_Divisione",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1909%E2%80%9310_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1900_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/Serie_A",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1903_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934%E2%80%9335_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965%E2%80%9366_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1902_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1908_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1929%E2%80%9330_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952%E2%80%9353_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953%E2%80%9354_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964%E2%80%9365_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957%E2%80%9358_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1912%E2%80%9313_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979%E2%80%9380_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984%E2%80%9385_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931%E2%80%9332_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1935%E2%80%9336_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968%E2%80%9369_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967%E2%80%9368_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982%E2%80%9383_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983%E2%80%9384_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985%E2%80%9386_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1941%E2%80%9342_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942%E2%80%9343_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936%E2%80%9337_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1901_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1940%E2%80%9341_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1909_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1899_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1910%E2%80%9311_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1905_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1906_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1907_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1904_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971%E2%80%9372_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976%E2%80%9377_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1927%E2%80%9328_Divisione_Nazionale",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1911%E2%80%9312_Prima_Categoria",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946%E2%80%9347_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954%E2%80%9355_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1925%E2%80%9326_Prima_Divisione",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933%E2%80%9334_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966%E2%80%9367_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945%E2%80%9346_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1898_Italian_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930%E2%80%9331_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932%E2%80%9333_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950%E2%80%9351_Serie_A",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A",
+      "kind": "season"
+    }
+  ]
+}

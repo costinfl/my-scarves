@@ -1,0 +1,223 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q24904 wd:Q81888 wd:Q191264 wd:Q875120 wd:Q370712 wd:Q134241 wd:Q854167 wd:Q749589 wd:Q24711 wd:Q200321 wd:Q318348 wd:Q269151 wd:Q11938 wd:Q209895 wd:Q1071713 wd:Q19603 wd:Q24680 wd:Q332664 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:05:12.917Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q81888",
+      "stadium": "http://www.wikidata.org/entity/Q207109",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(4.941944444 52.314166666)",
+      "capacity": "54990",
+      "enwiki": "https://en.wikipedia.org/wiki/AFC_Ajax",
+      "website": "https://www.ajax.nl/",
+      "clubLabel": "AFC Ajax",
+      "stadiumLabel": "Johan Cruyff Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q134241",
+      "stadium": "http://www.wikidata.org/entity/Q330298",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.523252777 51.893894444)",
+      "capacity": "51577",
+      "enwiki": "https://en.wikipedia.org/wiki/Feyenoord",
+      "website": "https://www.feyenoord.com/nl",
+      "clubLabel": "Feyenoord Rotterdam",
+      "stadiumLabel": "De Kuip"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q134241",
+      "stadium": "http://www.wikidata.org/entity/Q330298",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.523252777 51.893894444)",
+      "capacity": "51577",
+      "enwiki": "https://en.wikipedia.org/wiki/Feyenoord",
+      "website": "https://www.feyenoord.com/",
+      "clubLabel": "Feyenoord Rotterdam",
+      "stadiumLabel": "De Kuip"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q191264",
+      "stadium": "http://www.wikidata.org/entity/Q291590",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(4.741667 52.6125)",
+      "capacity": "17023",
+      "enwiki": "https://en.wikipedia.org/wiki/AZ_Alkmaar",
+      "website": "https://www.az.nl/",
+      "clubLabel": "AZ Alkmaar",
+      "stadiumLabel": "AFAS Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/AZ%20Alkmaar.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q200321",
+      "stadium": "http://www.wikidata.org/entity/Q318125",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.936111 52.958611)",
+      "capacity": "26100",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Heerenveen",
+      "website": "https://www.sc-heerenveen.nl/",
+      "clubLabel": "SC Heerenveen",
+      "stadiumLabel": "Abe Lenstra Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q209895",
+      "stadium": "http://www.wikidata.org/entity/Q668094",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.433333 51.919444)",
+      "capacity": "11026",
+      "enwiki": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
+      "website": "https://www.sparta-rotterdam.nl/",
+      "clubLabel": "Sparta Rotterdam",
+      "stadiumLabel": "Sparta Stadion Het Kasteel"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q269151",
+      "stadium": "http://www.wikidata.org/entity/Q1141104",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(6.121911 52.517292)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/PEC_Zwolle",
+      "website": "https://peczwolle.nl/",
+      "clubLabel": "PEC Zwolle",
+      "stadiumLabel": "MAC³PARK stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/PEC%20Zwolle%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q318348",
+      "stadium": "http://www.wikidata.org/entity/Q720983",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.836667 51.8225)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
+      "website": "https://www.nec-nijmegen.nl/",
+      "clubLabel": "N.E.C.",
+      "stadiumLabel": "Stadion de Goffert"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q332664",
+      "stadium": "http://www.wikidata.org/entity/Q1408176",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.066944 51.542778)",
+      "capacity": "14637",
+      "enwiki": "https://en.wikipedia.org/wiki/Willem_II_Tilburg",
+      "website": "https://www.willem-ii.nl/",
+      "clubLabel": "Willem II",
+      "stadiumLabel": "Koning Willem II Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q370712",
+      "stadium": "http://www.wikidata.org/entity/Q2298643",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.520556 51.916944)",
+      "capacity": "3531",
+      "enwiki": "https://en.wikipedia.org/wiki/Excelsior_Rotterdam",
+      "website": "https://excelsiorrotterdam.nl/",
+      "clubLabel": "Excelsior Rotterdam",
+      "stadiumLabel": "Stadion Woudestein",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Excelsior%20Rotterdam%20logo%202021.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q749589",
+      "stadium": "http://www.wikidata.org/entity/Q777926",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.1725 52.260278)",
+      "capacity": "6700",
+      "enwiki": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles",
+      "website": "https://www.ga-eagles.nl/",
+      "clubLabel": "Go Ahead Eagles",
+      "stadiumLabel": "De Adelaarshorst",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Go%20Ahead%20Eagles%20logo%202015-heden.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q854167",
+      "stadium": "http://www.wikidata.org/entity/Q1569222",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(5.843611 50.991944)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/Fortuna_Sittard",
+      "website": "https://www.fortunasittard.nl/",
+      "clubLabel": "Fortuna Sittard",
+      "stadiumLabel": "Fortuna Sittard Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q875120",
+      "stadium": "http://www.wikidata.org/entity/Q1028392",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.814722 53.205278)",
+      "capacity": "10500",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Cambuur",
+      "website": "https://cambuur.nl/",
+      "clubLabel": "SC Cambuur",
+      "stadiumLabel": "Cambuur Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20SC%20Cambuur.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1071713",
+      "stadium": "http://www.wikidata.org/entity/Q1851894",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(4.635 52.455)",
+      "capacity": "5200",
+      "enwiki": "https://en.wikipedia.org/wiki/SC_Telstar",
+      "website": "https://sctelstar.nl/",
+      "clubLabel": "SC Telstar",
+      "stadiumLabel": "BUKO Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11938",
+      "stadium": "http://www.wikidata.org/entity/Q500972",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.4674 51.4417)",
+      "capacity": "36500",
+      "enwiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
+      "website": "https://www.psv.nl/",
+      "clubLabel": "PSV Eindhoven",
+      "stadiumLabel": "Philips Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19603",
+      "stadium": "http://www.wikidata.org/entity/Q727389",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(6.8375 52.236666666)",
+      "capacity": "30000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Twente",
+      "website": "https://www.fctwente.nl/",
+      "clubLabel": "FC Twente",
+      "stadiumLabel": "De Grolsch Veste"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24680",
+      "stadium": "http://www.wikidata.org/entity/Q1675996",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.145833333 52.078333333)",
+      "capacity": "23750",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Utrecht",
+      "website": "https://www.fcutrecht.nl/",
+      "clubLabel": "FC Utrecht",
+      "stadiumLabel": "Stadion Galgenwaard",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Utrecht.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24711",
+      "stadium": "http://www.wikidata.org/entity/Q1374804",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(6.591388888 53.206111111)",
+      "capacity": "22550",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Groningen",
+      "website": "https://www.fcgroningen.nl/",
+      "clubLabel": "FC Groningen",
+      "stadiumLabel": "Euroborg",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Groningen%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24904",
+      "stadium": "http://www.wikidata.org/entity/Q720978",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(4.383056 52.062778)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/ADO_Den_Haag",
+      "website": "https://adodenhaag.nl/",
+      "clubLabel": "ADO Den Haag",
+      "stadiumLabel": "WerkTalent Stadion",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20of%20ADO%20Den%20Haag%20on%20a%20poster%20%2817058468161%29.jpg"
+    }
+  ]
+}

@@ -1826,6 +1826,13 @@
     "capacity": 4500
   },
   {
+    "qid": "Q643870",
+    "name": "Casino-Stadion (Bregenz)",
+    "lat": 47.5034,
+    "lon": 9.73478,
+    "capacity": 12000
+  },
+  {
     "qid": "Q646151",
     "name": "Estádio Algarve",
     "lat": 37.088333,
@@ -1847,6 +1854,13 @@
     "capacity": 24406
   },
   {
+    "qid": "Q663758",
+    "name": "Centre sportif de Colovray",
+    "lat": 46.370711,
+    "lon": 6.226201,
+    "capacity": 7200
+  },
+  {
     "qid": "Q663857",
     "name": "Stadio comunale Riva IV",
     "lat": 45.834089,
@@ -1859,6 +1873,20 @@
     "lat": 46.162687,
     "lon": 8.801544,
     "capacity": 11000
+  },
+  {
+    "qid": "Q664763",
+    "name": "Lidl Arena",
+    "lat": 47.458456,
+    "lon": 9.036692,
+    "capacity": 6958
+  },
+  {
+    "qid": "Q667174",
+    "name": "Stadion Brügglifeld",
+    "lat": 47.383333,
+    "lon": 8.06,
+    "capacity": 9249
   },
   {
     "qid": "Q668094",
@@ -2727,6 +2755,13 @@
     "capacity": 7300
   },
   {
+    "qid": "Q1016967",
+    "name": "Bursa Atatürk Stadium",
+    "lat": 40.192222,
+    "lon": 29.048333,
+    "capacity": 25213
+  },
+  {
     "qid": "Q1022855",
     "name": "CASA Arena Horsens",
     "lat": 55.8716,
@@ -3304,6 +3339,13 @@
     "lat": 59.921111,
     "lon": 10.581111,
     "capacity": 7000
+  },
+  {
+    "qid": "Q1313926",
+    "name": "Estadi de la Nova Creu Alta",
+    "lat": 41.554722,
+    "lon": 2.091944,
+    "capacity": 11981
   },
   {
     "qid": "Q1320249",
@@ -4300,6 +4342,13 @@
     "capacity": 15640
   },
   {
+    "qid": "Q1986303",
+    "name": "Gladsaxe Stadium",
+    "lat": 55.7328,
+    "lon": 12.4968,
+    "capacity": 13507
+  },
+  {
     "qid": "Q1988779",
     "name": "NV Arena",
     "lat": 48.2209,
@@ -4620,6 +4669,13 @@
     "capacity": 6761
   },
   {
+    "qid": "Q2326075",
+    "name": "Stadion Františka Kloze",
+    "lat": 50.138336,
+    "lon": 14.090143,
+    "capacity": 4000
+  },
+  {
     "qid": "Q2326094",
     "name": "Na Litavce",
     "lat": 49.676944,
@@ -4708,6 +4764,13 @@
     "lat": 51.885528,
     "lon": -8.46775,
     "capacity": 7485
+  },
+  {
+    "qid": "Q2437251",
+    "name": "Stadionul Farul",
+    "lat": 44.197278,
+    "lon": 28.639333,
+    "capacity": 15500
   },
   {
     "qid": "Q2459367",
@@ -5070,6 +5133,13 @@
     "capacity": 2056
   },
   {
+    "qid": "Q3393440",
+    "name": "Campo Municipal de Barreiro",
+    "lat": 42.22861,
+    "lon": -8.68076,
+    "capacity": 1500
+  },
+  {
     "qid": "Q3396233",
     "name": "Gradski stadion Tetovo",
     "lat": 42.018692,
@@ -5376,6 +5446,13 @@
     "lat": 37.763708,
     "lon": -25.622589,
     "capacity": 12500
+  },
+  {
+    "qid": "Q3514967",
+    "name": "Estádio Municipal 25 de Abril",
+    "lat": 41.2117,
+    "lon": -8.277919,
+    "capacity": 5230
   },
   {
     "qid": "Q3515221",
@@ -6813,6 +6890,13 @@
     "capacity": 2200
   },
   {
+    "qid": "Q7596331",
+    "name": "Stadion Jožky Silného",
+    "lat": 49.289883,
+    "lon": 17.402386,
+    "capacity": 1529
+  },
+  {
     "qid": "Q7596333",
     "name": "Stadion Selters",
     "lat": 44.43134,
@@ -7184,11 +7268,25 @@
     "capacity": 13982
   },
   {
+    "qid": "Q9341242",
+    "name": "Władysław Augustynek Stadium",
+    "lat": 49.6201,
+    "lon": 20.7047,
+    "capacity": 5000
+  },
+  {
     "qid": "Q9341263",
     "name": "Gjorgji Kyçyku Stadium",
     "lat": 40.9,
     "lon": 20.66388889,
     "capacity": 6000
+  },
+  {
+    "qid": "Q10276896",
+    "name": "Estádio Dr. Machado de Matos",
+    "lat": 41.356,
+    "lon": -8.190722222,
+    "capacity": 7540
   },
   {
     "qid": "Q10277320",
@@ -7487,6 +7585,13 @@
     "lat": 40.576667,
     "lon": 48.381389,
     "capacity": 3000
+  },
+  {
+    "qid": "Q15977874",
+    "name": "Yusuf Ziya Öniş Stadium",
+    "lat": 41.1725,
+    "lon": 29.05027778,
+    "capacity": 10000
   },
   {
     "qid": "Q16152053",
@@ -7921,6 +8026,13 @@
     "capacity": 3312
   },
   {
+    "qid": "Q25419598",
+    "name": "Estádio Municipal de Amarante",
+    "lat": 41.282090021,
+    "lon": -8.075706085,
+    "capacity": 5000
+  },
+  {
     "qid": "Q25445334",
     "name": "Inhulets Stadium",
     "lat": 48.341,
@@ -8208,6 +8320,13 @@
     "lat": 43.658620968,
     "lon": 17.949822885,
     "capacity": 5000
+  },
+  {
+    "qid": "Q109652707",
+    "name": "Miejski Stadion Sportowy",
+    "lat": 52.097778,
+    "lon": 20.620417,
+    "capacity": 1000
   },
   {
     "qid": "Q110135553",

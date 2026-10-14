@@ -1,0 +1,164 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q698702 wd:Q2206406 wd:Q22866 wd:Q131209 wd:Q696525 wd:Q699686 wd:Q686826 wd:Q696474 wd:Q741382 wd:Q1387293 wd:Q131215 wd:Q124007617 wd:Q427491 wd:Q297832 wd:Q261813 wd:Q63168427 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:05:36.549Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q131209",
+      "stadium": "http://www.wikidata.org/entity/Q696476",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.386694 48.162306)",
+      "capacity": "17656",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Austria_Wien",
+      "website": "http://www.fk-austria.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Austria%20Wien%20logo.svg",
+      "clubLabel": "FK Austria Wien",
+      "stadiumLabel": "Generali Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q131215",
+      "stadium": "http://www.wikidata.org/entity/Q17310225",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.2653 48.1981)",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Rapid_Wien",
+      "website": "https://www.skrapid.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Rapid%20Wien%20Logo.svg",
+      "clubLabel": "SK Rapid Wien",
+      "stadiumLabel": "Allianz Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q261813",
+      "stadium": "http://www.wikidata.org/entity/Q204484",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.410789 47.255972)",
+      "capacity": "17400",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Wacker_Innsbruck_(2002)",
+      "website": "https://fc-wacker-innsbruck.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Wacker%20Innsbruck%20%28altes%20Logo%29.svg",
+      "clubLabel": "FC Wacker Innsbruck",
+      "stadiumLabel": "Tivoli Stadion Tirol"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q427491",
+      "stadium": "http://www.wikidata.org/entity/Q1988779",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.6531 48.2209)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/SKN_St._P%C3%B6lten",
+      "website": "https://www.skn-stpoelten.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Skn%20logo%20farbe%20web.png",
+      "clubLabel": "SKN St. Pölten",
+      "stadiumLabel": "NV Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q686826",
+      "stadium": "http://www.wikidata.org/entity/Q3245127",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.3597 48.2489)",
+      "capacity": "5500",
+      "enwiki": "https://en.wikipedia.org/wiki/First_Vienna_FC",
+      "website": "http://www.firstviennafc.at/",
+      "clubLabel": "First Vienna FC",
+      "stadiumLabel": "Casino-Stadion Hohe Warte"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q696525",
+      "stadium": "http://www.wikidata.org/entity/Q119291101",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.2983 48.3163)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Blau-Wei%C3%9F_Linz",
+      "website": "https://blauweiss-linz.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Blau-Wei%C3%9F%20Linz.png",
+      "clubLabel": "F.C. Blau-Weiß Linz",
+      "stadiumLabel": "Hofmann Personal Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q698702",
+      "stadium": "http://www.wikidata.org/entity/Q872250",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.3109 48.0976)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/Admira_Wacker",
+      "website": "https://admirawacker.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Admira%20Wacker%20logo%202024.svg",
+      "clubLabel": "Admira Wacker",
+      "stadiumLabel": "Datenpol Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q699686",
+      "stadium": "http://www.wikidata.org/entity/Q643870",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.73478 47.5034)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/Schwarz-Wei%C3%9F_Bregenz",
+      "website": "https://sw-bregenz.at/",
+      "clubLabel": "SC Schwarz-Weiß Bregenz",
+      "stadiumLabel": "Casino-Stadion (Bregenz)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q741382",
+      "stadium": "http://www.wikidata.org/entity/Q671514",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.3006 47.4439)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/Kapfenberger_SV",
+      "website": "https://www.ksv1919.at/",
+      "clubLabel": "Kapfenberger SV",
+      "stadiumLabel": "Alpenstadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387293",
+      "stadium": "http://www.wikidata.org/entity/Q206135",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.998222222 47.81625)",
+      "capacity": "31895",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Liefering",
+      "website": "https://www.fc-liefering.at/",
+      "clubLabel": "FC Liefering",
+      "stadiumLabel": "Red Bull Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q124007617",
+      "stadium": "http://www.wikidata.org/entity/Q696491",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.454444 47.046111)",
+      "capacity": "15400",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Sturm_Graz",
+      "website": "https://www.sksturm.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Sturm%20Graz.svg",
+      "clubLabel": "SK Sturm Graz",
+      "stadiumLabel": "Merkur Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q297832",
+      "enwiki": "https://en.wikipedia.org/wiki/ASK_Voitsberg",
+      "website": "https://vereine.fussballoesterreich.at/AskSparkasseStadtwerkeVoitsberg/News/",
+      "clubLabel": "ASK Voitsberg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q696474",
+      "enwiki": "https://en.wikipedia.org/wiki/Floridsdorfer_AC",
+      "website": "https://fac.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Floridsdorfer%20AC%20%28logo%29.svg",
+      "clubLabel": "Floridsdorfer AC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2206406",
+      "enwiki": "https://en.wikipedia.org/wiki/SKU_Amstetten",
+      "website": "https://www.sku-amstetten.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SKU%20Amstetten%20Logo.png",
+      "clubLabel": "SKU Amstetten"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q63168427",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Hertha_Wels",
+      "clubLabel": "WSC Hertha Wels"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q22866",
+      "enwiki": "https://en.wikipedia.org/wiki/SV_Austria_Salzburg",
+      "website": "https://www.austria-salzburg.at/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SV%20Austria%20Salzburg%20Logo.png",
+      "clubLabel": "SV Austria Salzburg"
+    }
+  ]
+}

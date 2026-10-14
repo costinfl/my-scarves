@@ -1,0 +1,334 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q201671 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q201671 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T19:06:13.044Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Eliteserien",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989_Norwegian_First_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950%E2%80%9351_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952%E2%80%9353_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953%E2%80%9354_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954%E2%80%9355_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_League_of_Norway",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957%E2%80%9358_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Norwegian_Main_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_League_of_Norway",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_League_of_Norway",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_League_of_Norway",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_Tippeligaen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Eliteserien",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_Eliteserien",
+      "kind": "season"
+    }
+  ]
+}

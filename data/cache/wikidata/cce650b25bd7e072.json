@@ -1,0 +1,176 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q43710 wd:Q806415 wd:Q4869413 wd:Q20472948 wd:Q891679 wd:Q203573 wd:Q31192116 wd:Q1398111 wd:Q108368442 wd:Q344328 wd:Q608122 wd:Q1536956 wd:Q18411460 wd:Q97205551 wd:Q989553 wd:Q1347349 wd:Q1933473 wd:Q372599 wd:Q6062228 wd:Q815349 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:05:26.042Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q203573",
+      "stadium": "http://www.wikidata.org/entity/Q1016967",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.048333 40.192222)",
+      "capacity": "25213",
+      "enwiki": "https://en.wikipedia.org/wiki/Bursaspor",
+      "website": "https://www.bursaspor.org.tr/",
+      "clubLabel": "Bursaspor",
+      "stadiumLabel": "Bursa Atatürk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q344328",
+      "stadium": "http://www.wikidata.org/entity/Q4843094",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.83211944 40.99656667)",
+      "enwiki": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor",
+      "website": "https://www.istanbulspor.com.tr/",
+      "clubLabel": "İstanbulspor A.Ş.",
+      "stadiumLabel": "Bahçelievler Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q372599",
+      "stadium": "http://www.wikidata.org/entity/Q597945",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(36.984065 39.728612)",
+      "capacity": "14998",
+      "enwiki": "https://en.wikipedia.org/wiki/Sivasspor",
+      "website": "http://sivasspor.org.tr/",
+      "clubLabel": "Sivasspor",
+      "stadiumLabel": "Sivas 4 Eylül Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Sivasspor-Logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q608122",
+      "stadium": "http://www.wikidata.org/entity/Q1493501",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.423055555 38.736944444)",
+      "capacity": "32864",
+      "enwiki": "https://en.wikipedia.org/wiki/Kayserispor",
+      "website": "http://kayserispor.org.tr/",
+      "clubLabel": "Kayserispor",
+      "stadiumLabel": "Kadir Has Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1398111",
+      "stadium": "http://www.wikidata.org/entity/Q221122",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.765702777 41.074472222)",
+      "capacity": "80597",
+      "enwiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K.",
+      "website": "http://www.karagumruk.com/",
+      "clubLabel": "Fatih Karagümrük S.K.",
+      "stadiumLabel": "Atatürk Olympic Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FatihKarag%C3%BCmr%C3%BCkS.%20K.%20AKBALIK.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1398111",
+      "stadium": "http://www.wikidata.org/entity/Q11173914",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.939 41.0278)",
+      "capacity": "12500",
+      "enwiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K.",
+      "website": "http://www.karagumruk.com/",
+      "clubLabel": "Fatih Karagümrük S.K.",
+      "stadiumLabel": "Vefa Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FatihKarag%C3%BCmr%C3%BCkS.%20K.%20AKBALIK.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1933473",
+      "stadium": "http://www.wikidata.org/entity/Q15977874",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.05027778 41.1725)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/Sar%C4%B1yer_S.K.",
+      "website": "http://www.sariyersporkulubu.com.tr/",
+      "clubLabel": "Sarıyer G.K.",
+      "stadiumLabel": "Yusuf Ziya Öniş Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6062228",
+      "stadium": "http://www.wikidata.org/entity/Q98091637",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.109533282 41.058950253)",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%9Cmraniyespor",
+      "website": "https://www.umraniyespor.org.tr",
+      "clubLabel": "Ümraniyespor",
+      "stadiumLabel": "Ümraniye Belediyesi Şehir Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q43710",
+      "stadium": "http://www.wikidata.org/entity/Q417007",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.646666666 36.893611111)",
+      "capacity": "7100",
+      "enwiki": "https://en.wikipedia.org/wiki/Antalyaspor",
+      "website": "http://www.antalyaspor.com.tr/",
+      "clubLabel": "Antalyaspor",
+      "stadiumLabel": "Akdeniz University Stadium",
+      "parent": "http://www.wikidata.org/entity/Q12808521"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q806415",
+      "enwiki": "https://en.wikipedia.org/wiki/Band%C4%B1rmaspor",
+      "website": "https://bandirmaspor.com.tr/",
+      "clubLabel": "Bandırmaspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q815349",
+      "enwiki": "https://en.wikipedia.org/wiki/Vanspor_F.K.",
+      "clubLabel": "Van Büyükşehir Belediyespor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q891679",
+      "enwiki": "https://en.wikipedia.org/wiki/Boluspor",
+      "website": "http://www.boluspor.org.tr",
+      "clubLabel": "Boluspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q989553",
+      "enwiki": "https://en.wikipedia.org/wiki/Mu%C4%9Flaspor",
+      "website": "http://www.muglaspor.tr",
+      "clubLabel": "Muğlaspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1347349",
+      "enwiki": "https://en.wikipedia.org/wiki/Pendikspor",
+      "website": "http://www.pendikspor.org.tr/",
+      "clubLabel": "Pendikspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1536956",
+      "enwiki": "https://en.wikipedia.org/wiki/Ankara_Ke%C3%A7i%C3%B6reng%C3%BCc%C3%BC_S.K.",
+      "website": "http://www.keciorengucu.org.tr/",
+      "clubLabel": "Ankara Keçiörengücü S.K."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4869413",
+      "enwiki": "https://en.wikipedia.org/wiki/Batman_Petrolspor",
+      "website": "http://www.batmanpetrolsk.org/bb/",
+      "clubLabel": "Batman Petrolspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18411460",
+      "enwiki": "https://en.wikipedia.org/wiki/Manisa_F.K.",
+      "website": "https://manisafk.com/",
+      "clubLabel": "Manisa FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20472948",
+      "enwiki": "https://en.wikipedia.org/wiki/Bodrum_F.K.",
+      "clubLabel": "Bodrum FK"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q31192116",
+      "enwiki": "https://en.wikipedia.org/wiki/Esenler_Erokspor",
+      "clubLabel": "Esenler Erokspor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q97205551",
+      "enwiki": "https://en.wikipedia.org/wiki/Mardin_1969_S.K.",
+      "clubLabel": "Mardin 1969 S.K."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q108368442",
+      "enwiki": "https://en.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_F.K.",
+      "website": "https://igdirspor.com/",
+      "clubLabel": "Iğdır FK",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/I%C4%9Fd%C4%B1r%20FK%20logo.png"
+    }
+  ]
+}

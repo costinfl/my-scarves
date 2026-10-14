@@ -1,0 +1,195 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q243235 wd:Q120775987 wd:Q2841205 wd:Q7387221 wd:Q543467 wd:Q744353 wd:Q671042 wd:Q17505449 wd:Q623730 wd:Q6705180 wd:Q1387471 wd:Q621120 wd:Q5423714 wd:Q3494112 wd:Q1023227 wd:Q1853273 wd:Q211401 wd:Q1387855 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:05:09.345Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q211401",
+      "stadium": "http://www.wikidata.org/entity/Q1056864",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.813055555 39.748611111)",
+      "capacity": "23888",
+      "enwiki": "https://en.wikipedia.org/wiki/U.D._Leiria",
+      "website": "https://www.uniaodeleiria.pt/",
+      "clubLabel": "U.D. Leiria",
+      "stadiumLabel": "Estádio Dr. Magalhães Pessoa"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q243235",
+      "stadium": "http://www.wikidata.org/entity/Q1067308",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.407777777 40.203333333)",
+      "capacity": "29622",
+      "enwiki": "https://en.wikipedia.org/wiki/Acad%C3%A9mica_de_Coimbra_(football)",
+      "website": "http://www.academica-oaf.pt/",
+      "clubLabel": "Associação Académica de Coimbra – O.A.F.",
+      "stadiumLabel": "Estádio Cidade de Coimbra"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q543467",
+      "stadium": "http://www.wikidata.org/entity/Q5402128",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.464985 41.75064)",
+      "capacity": "8400",
+      "enwiki": "https://en.wikipedia.org/wiki/G.D._Chaves",
+      "website": "http://www.gdchaves.pt/",
+      "clubLabel": "G.D. Chaves",
+      "stadiumLabel": "Estádio Municipal Eng. Manuel Branco Teixeira"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q621120",
+      "stadium": "http://www.wikidata.org/entity/Q1308776",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.539833 37.135694)",
+      "capacity": "4961",
+      "enwiki": "https://en.wikipedia.org/wiki/Portimonense_S.C.",
+      "website": "https://www.portimonense.pt/",
+      "clubLabel": "Portimonense S.C.",
+      "stadiumLabel": "Estádio Municipal de Portimão"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q623730",
+      "stadium": "http://www.wikidata.org/entity/Q1370792",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.66694444 41.18388889)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/Leix%C3%B5es_S.C.",
+      "website": "http://www.leixoessc.pt/",
+      "clubLabel": "Leixões S.C.",
+      "stadiumLabel": "Estádio do Mar"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q671042",
+      "stadium": "http://www.wikidata.org/entity/Q1370693",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.545814 40.926689)",
+      "capacity": "5401",
+      "enwiki": "https://en.wikipedia.org/wiki/C.D._Feirense",
+      "website": "http://www.cdfeirense.pt/",
+      "clubLabel": "C.D. Feirense",
+      "stadiumLabel": "Estádio Marcolino de Castro"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q744353",
+      "stadium": "http://www.wikidata.org/entity/Q646151",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.974722 37.088333)",
+      "capacity": "30305",
+      "enwiki": "https://en.wikipedia.org/wiki/S.C._Farense",
+      "website": "https://scfarense.pt/",
+      "clubLabel": "S.C. Farense",
+      "stadiumLabel": "Estádio Algarve"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1023227",
+      "stadium": "http://www.wikidata.org/entity/Q16632396",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.08282 40.512)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/C.D._Tondela",
+      "website": "https://cdtondela.pt/",
+      "clubLabel": "CD Tondela",
+      "stadiumLabel": "Estádio João Cardoso",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/CD%20Tondela%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387471",
+      "stadium": "http://www.wikidata.org/entity/Q3514967",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.277919 41.2117)",
+      "capacity": "5230",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Penafiel",
+      "website": "http://www.fcpenafiel.pt/",
+      "clubLabel": "F.C. Penafiel",
+      "stadiumLabel": "Estádio Municipal 25 de Abril"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387855",
+      "stadium": "http://www.wikidata.org/entity/Q3514314",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.30751111 41.38872222)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Vizela",
+      "website": "https://fcvizela.pt/",
+      "clubLabel": "F.C. Vizela",
+      "stadiumLabel": "Estádio do Futebol Clube de Vizela"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1853273",
+      "stadium": "http://www.wikidata.org/entity/Q5028447",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-9.25659444 39.09487778)",
+      "capacity": "2431",
+      "enwiki": "https://en.wikipedia.org/wiki/S.C.U._Torreense",
+      "website": "https://www.torreense.com/",
+      "clubLabel": "S.C.U. Torreense",
+      "stadiumLabel": "Estádio Manuel Marques"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2841205",
+      "stadium": "http://www.wikidata.org/entity/Q25419598",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.075706085 41.282090021)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Amarante_F.C.",
+      "website": "https://amarantefc.pt/",
+      "clubLabel": "Amarante FC",
+      "stadiumLabel": "Estádio Municipal de Amarante"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3494112",
+      "stadium": "http://www.wikidata.org/entity/Q287359",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-9.160783333 38.761194444)",
+      "capacity": "52095",
+      "enwiki": "https://en.wikipedia.org/wiki/Sporting_CP_B",
+      "website": "http://www.sporting.pt/",
+      "clubLabel": "Sporting CP B",
+      "stadiumLabel": "Estádio José Alvalade"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5423714",
+      "stadium": "http://www.wikidata.org/entity/Q15110461",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.544812 41.067158)",
+      "capacity": "8500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Porto_B",
+      "website": "http://www.fcporto.pt",
+      "clubLabel": "FC Porto B",
+      "stadiumLabel": "Estádio Municipal Jorge Sampaio"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7387221",
+      "stadium": "http://www.wikidata.org/entity/Q7875112",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-9.184722222 38.752777777)",
+      "capacity": "68100",
+      "enwiki": "https://en.wikipedia.org/wiki/S.L._Benfica_B",
+      "website": "https://www.slbenfica.pt/pt-pt/futebol/equipa_b",
+      "clubLabel": "S.L. Benfica B",
+      "stadiumLabel": "Estádio da Luz"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q17505449",
+      "stadium": "http://www.wikidata.org/entity/Q10276896",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-8.190722222 41.356)",
+      "capacity": "7540",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Felgueiras_(2006)",
+      "website": "http://noticiasfcfelgueiras.blogspot.pt",
+      "clubLabel": "F.C. Felgueiras 1932",
+      "stadiumLabel": "Estádio Dr. Machado de Matos"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6705180",
+      "enwiki": "https://en.wikipedia.org/wiki/Lusit%C3%A2nia_F.C.",
+      "website": "http://www.lusitaniafclourosa.com/",
+      "clubLabel": "Lusitânia F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q120775987",
+      "enwiki": "https://en.wikipedia.org/wiki/AVS_Futebol_SAD",
+      "website": "https://afsfut.pt/",
+      "clubLabel": "AVS Futebol SAD"
+    }
+  ]
+}

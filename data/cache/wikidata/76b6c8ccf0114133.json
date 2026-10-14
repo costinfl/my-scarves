@@ -1,0 +1,151 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q995313 wd:Q9164911 wd:Q750097 wd:Q129565 wd:Q837205 wd:Q737937 wd:Q291163 wd:Q215302 wd:Q1112784 wd:Q630890 wd:Q645229 wd:Q571158 wd:Q217233 wd:Q222074 wd:Q7482049 wd:Q217607 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:06:18.033Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q217607",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%85sane_Fotball",
+      "parent": "http://www.wikidata.org/entity/Q12011634",
+      "website": "https://asanefotball.no",
+      "clubLabel": "Åsane Fotball"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q215302",
+      "enwiki": "https://en.wikipedia.org/wiki/Odds_BK",
+      "parent": "http://www.wikidata.org/entity/Q19360307",
+      "website": "https://www.odd.no/",
+      "clubLabel": "Odds BK",
+      "stadium": "http://www.wikidata.org/entity/Q2093517",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.589722 59.211111)",
+      "capacity": "13500",
+      "stadiumLabel": "Skagerak Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q217233",
+      "enwiki": "https://en.wikipedia.org/wiki/Stab%C3%A6k_Fotball",
+      "parent": "http://www.wikidata.org/entity/Q1549800",
+      "website": "https://www.stabak.no/",
+      "clubLabel": "Stabæk Fotball",
+      "stadium": "http://www.wikidata.org/entity/Q1312145",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.581111 59.921111)",
+      "capacity": "7000",
+      "stadiumLabel": "Nadderud Sports Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q222074",
+      "enwiki": "https://en.wikipedia.org/wiki/Str%C3%B8mmen_IF",
+      "website": "https://strommen-if.no/",
+      "clubLabel": "Strømmen IF",
+      "stadium": "http://www.wikidata.org/entity/Q7626073",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.003525 59.939661)",
+      "capacity": "1800",
+      "stadiumLabel": "Strømmen Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291163",
+      "enwiki": "https://en.wikipedia.org/wiki/Moss_FK",
+      "website": "http://www.mossfk.no/",
+      "clubLabel": "Moss FK",
+      "stadium": "http://www.wikidata.org/entity/Q6813229",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.67138889 59.42083333)",
+      "capacity": "9410",
+      "stadiumLabel": "Melløs Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q571158",
+      "enwiki": "https://en.wikipedia.org/wiki/Sogndal_Fotball",
+      "parent": "http://www.wikidata.org/entity/Q7554540",
+      "website": "https://www.sogndalfotball.no/",
+      "clubLabel": "Sogndal Fotball",
+      "stadium": "http://www.wikidata.org/entity/Q1439429",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(7.085238 61.231983)",
+      "capacity": "5523",
+      "stadiumLabel": "Fosshaugane Campus"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q645229",
+      "enwiki": "https://en.wikipedia.org/wiki/Sandnes_Ulf",
+      "website": "http://www.sandnesulf.no/",
+      "clubLabel": "Sandnes Ulf",
+      "stadium": "http://www.wikidata.org/entity/Q11999443",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.725833333 58.859444444)",
+      "stadiumLabel": "Sandnes stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q737937",
+      "enwiki": "https://en.wikipedia.org/wiki/Lyn_Fotball",
+      "parent": "http://www.wikidata.org/entity/Q7389964",
+      "website": "https://www.lyn1896.no/",
+      "clubLabel": "Lyn 1896 FK",
+      "stadium": "http://www.wikidata.org/entity/Q866409",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.733333 59.924722)",
+      "capacity": "15400",
+      "stadiumLabel": "Bislett Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q750097",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Haugesund",
+      "website": "https://www.fkh.no/",
+      "clubLabel": "FK Haugesund",
+      "stadium": "http://www.wikidata.org/entity/Q1589274",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.279379 59.413068)",
+      "capacity": "8800",
+      "stadiumLabel": "Haugesund Sparebank Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q837205",
+      "enwiki": "https://en.wikipedia.org/wiki/Kongsvinger_IL_Toppfotball",
+      "website": "https://www.kil.no/",
+      "clubLabel": "Kongsvinger IL Toppfotball",
+      "stadium": "http://www.wikidata.org/entity/Q1131121",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.987222 60.195278)",
+      "capacity": "5202",
+      "stadiumLabel": "Gjemselund Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q995313",
+      "enwiki": "https://en.wikipedia.org/wiki/Bryne_FK",
+      "website": "https://www.brynefk.no/",
+      "clubLabel": "Bryne FK",
+      "stadium": "http://www.wikidata.org/entity/Q995278",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(5.649772 58.729767)",
+      "capacity": "10000",
+      "stadiumLabel": "Bryne Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1112784",
+      "enwiki": "https://en.wikipedia.org/wiki/Ranheim_Fotball",
+      "parent": "http://www.wikidata.org/entity/Q7292943",
+      "website": "https://www.ranheimfotball.no/",
+      "clubLabel": "Ranheim Fotball",
+      "stadium": "http://www.wikidata.org/entity/Q5205780",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.52401 63.428376)",
+      "capacity": "2000",
+      "stadiumLabel": "EXTRA Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ranheim%20IL%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7482049",
+      "enwiki": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball",
+      "parent": "http://www.wikidata.org/entity/Q638288",
+      "website": "http://www.godset.no/",
+      "clubLabel": "Strømsgodset TF",
+      "stadium": "http://www.wikidata.org/entity/Q1684431",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.201333 59.734392)",
+      "capacity": "7500",
+      "stadiumLabel": "Marienlyst Stadion"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q162031 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q162031 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T19:06:10.027Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Danish_1st_Division",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954%E2%80%9355_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946%E2%80%9347_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950%E2%80%9351_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952%E2%80%9353_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953%E2%80%9354_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1928%E2%80%9329_Danmarksmesterskabsturneringen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932%E2%80%9333_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936%E2%80%9337_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1927%E2%80%9328_Danmarksmesterskabsturneringen",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930%E2%80%9331_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931%E2%80%9332_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933%E2%80%9334_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934%E2%80%9335_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1935%E2%80%9336_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1940%E2%80%9341_Danish_War_Tournament",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1941%E2%80%9342_Danish_War_Tournament",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942%E2%80%9343_Danish_War_Tournament",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1943%E2%80%9344_Danish_War_Tournament",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1944%E2%80%9345_Danish_War_Tournament",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1929%E2%80%9330_Danish_Championship_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945%E2%80%9346_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959_Danish_1st_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985_Danish_1st_Division",
+      "kind": "season"
+    }
+  ]
+}
