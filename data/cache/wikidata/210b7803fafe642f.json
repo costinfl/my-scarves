@@ -1,0 +1,104 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q271271 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:18:45.530Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q219264",
+      "stadium": "http://www.wikidata.org/entity/Q1166175",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.264378 42.444728)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Budu%C4%87nost_Podgorica",
+      "website": "https://www.fk-buducnost.me/",
+      "clubLabel": "FK Budućnost Podgorica",
+      "stadiumLabel": "Podgorica City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q431139",
+      "stadium": "http://www.wikidata.org/entity/Q3120014",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.953731 42.784947)",
+      "capacity": "5214",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sutjeska_Nik%C5%A1i%C4%87",
+      "website": "https://www.fksutjeska.me/",
+      "clubLabel": "FK Sutjeska Nikšić",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q521202",
+      "stadium": "http://www.wikidata.org/entity/Q7596340",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.09 42.104444)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Mornar",
+      "clubLabel": "FK Mornar",
+      "stadiumLabel": "Stadion Topolica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q537560",
+      "stadium": "http://www.wikidata.org/entity/Q508286",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.945928 42.203591)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Petrovac",
+      "clubLabel": "OFK Petrovac",
+      "stadiumLabel": "Stadion Mitar Mićo Goliš"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q685260",
+      "stadium": "http://www.wikidata.org/entity/Q927895",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.9402 42.5988)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jezero",
+      "clubLabel": "FK Jezero",
+      "stadiumLabel": "Stadion Pod Racinom"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q920281",
+      "stadium": "http://www.wikidata.org/entity/Q9079548",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.3264 42.3599)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_De%C4%8Di%C4%87",
+      "website": "https://fcdecic.com/",
+      "clubLabel": "FK Dečić",
+      "stadiumLabel": "Stadion Tuško Polje"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1164490",
+      "stadium": "http://www.wikidata.org/entity/Q5591983",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.742416666 43.030388888)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Bijelo_Polje",
+      "clubLabel": "FK Jedinstvo Bijelo Polje",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1354304",
+      "stadium": "http://www.wikidata.org/entity/Q7596339",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.695344 42.432531)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Arsenal_Tivat",
+      "website": "https://fk-arsenal.me/",
+      "clubLabel": "FK Arsenal Tivat",
+      "stadiumLabel": "Stadion U Parku"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388826",
+      "stadium": "http://www.wikidata.org/entity/Q7596328",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.764979 42.420295)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Bokelj",
+      "clubLabel": "FK Bokelj",
+      "stadiumLabel": "Stadion Pod Vrmcem"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q96397011",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Mladost_Donja_Gorica",
+      "clubLabel": "OFK Mladost Donja Gorica"
+    }
+  ]
+}

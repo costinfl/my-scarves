@@ -1,0 +1,172 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q61768552 wd:Q2496995 wd:Q191101 wd:Q756110 wd:Q772725 wd:Q211477 wd:Q834555 wd:Q726285 wd:Q11624718 wd:Q281780 wd:Q594092 wd:Q840765 wd:Q545869 wd:Q1165833 wd:Q757109 wd:Q846362 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:13:52.996Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q191101",
+      "stadium": "http://www.wikidata.org/entity/Q4439085",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(28.475694444 54.192777777)",
+      "capacity": "13121",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_BATE_Borisov",
+      "website": "http://www.fcbate.by/",
+      "clubLabel": "FC BATE Borisov",
+      "stadiumLabel": "Borisov Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q211477",
+      "stadium": "http://www.wikidata.org/entity/Q1130487",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.560277777 53.895138888)",
+      "capacity": "22000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Minsk",
+      "website": "https://dinamo-minsk.by/",
+      "clubLabel": "FC Dinamo Minsk",
+      "stadiumLabel": "Dinamo Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Dinamo%20Minsk%20escudo%20blr.jpg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q545869",
+      "stadium": "http://www.wikidata.org/entity/Q2662436",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.820833333 53.688888888)",
+      "capacity": "8479",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Neman_Grodno",
+      "website": "http://www.fcneman.by/",
+      "clubLabel": "FC Neman Grodno",
+      "stadiumLabel": "Neman Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q594092",
+      "stadium": "http://www.wikidata.org/entity/Q20165460",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.57861111 53.86166667)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Minsk",
+      "website": "http://www.fcminsk.by",
+      "clubLabel": "FC Minsk",
+      "stadiumLabel": "FC Minsk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q726285",
+      "stadium": "http://www.wikidata.org/entity/Q2661079",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(31.012361111 52.436527777)",
+      "capacity": "14307",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Gomel",
+      "website": "http://www.fcgomel.by",
+      "clubLabel": "FC Gomel",
+      "stadiumLabel": "Central Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q756110",
+      "stadium": "http://www.wikidata.org/entity/Q4430721",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.217222 53.140278)",
+      "capacity": "3700",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Belshina_Bobruisk",
+      "website": "http://www.fcbelshina.by/",
+      "clubLabel": "FC Belshina Bobruisk",
+      "stadiumLabel": "Spartak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757109",
+      "stadium": "http://www.wikidata.org/entity/Q4461289",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.319722222 54.092361111)",
+      "capacity": "6524",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Torpedo-BelAZ_Zhodino",
+      "website": "http://torpedo-belaz.by/",
+      "clubLabel": "FC Torpedo-BelAZ Zhodino",
+      "stadiumLabel": "Torpedo Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q772725",
+      "stadium": "http://www.wikidata.org/entity/Q7309159",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.68375 52.089722222)",
+      "capacity": "10169",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Brest",
+      "website": "https://dynamo-brest.by/",
+      "clubLabel": "FC Dynamo Brest",
+      "stadiumLabel": "Regional Sport Complex Brestsky"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q834555",
+      "stadium": "http://www.wikidata.org/entity/Q4430720",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.340972222 53.905416666)",
+      "capacity": "7350",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dnepr_Mogilev",
+      "website": "http://fc-dnepr.by/",
+      "clubLabel": "FC Dnepr Mogilev",
+      "stadiumLabel": "Spartak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q840765",
+      "stadium": "http://www.wikidata.org/entity/Q2041015",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.648611111 55.5375)",
+      "capacity": "4520",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Naftan_Novopolotsk",
+      "website": "https://fcnaftan-novopolotsk.by/",
+      "clubLabel": "FC Naftan Novopolotsk",
+      "stadiumLabel": "Atlant Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q846362",
+      "stadium": "http://www.wikidata.org/entity/Q2059396",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(30.229305555 55.198472222)",
+      "capacity": "8144",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Vitebsk",
+      "website": "http://www.fc.vitebsk.by/",
+      "clubLabel": "FC Vitebsk",
+      "stadiumLabel": "Vitebsky Central Sport Complex"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1165833",
+      "stadium": "http://www.wikidata.org/entity/Q4534625",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(29.276805555 52.038888888)",
+      "capacity": "5133",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Slavia_Mozyr",
+      "website": "http://www.fcslavia.by",
+      "clubLabel": "FC Slavia-Mozyr",
+      "stadiumLabel": "Yunost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11624718",
+      "stadium": "http://www.wikidata.org/entity/Q20165460",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(27.57861111 53.86166667)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Isloch_Minsk_Raion",
+      "website": "http://fcisloch.by/",
+      "clubLabel": "FC Isloch Minsk Raion",
+      "stadiumLabel": "FC Minsk Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q61768552",
+      "stadium": "http://www.wikidata.org/entity/Q384834",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.490277777 54.222361111)",
+      "capacity": "5402",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Arsenal_Dzerzhinsk",
+      "clubLabel": "FC Arsenal Dzerzhinsk",
+      "stadiumLabel": "Haradski Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A4%D0%9A%20%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB%20%D0%94%D0%B7%D1%8F%D1%80%D0%B6%D1%8B%D0%BD%D1%81%D0%BA.gif"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q281780",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Maxline_Vitebsk",
+      "website": "https://fcml.by/",
+      "clubLabel": "FC Maxline Viciebsk"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2496995",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Baranovichi",
+      "clubLabel": "FC Baranovichi"
+    }
+  ]
+}

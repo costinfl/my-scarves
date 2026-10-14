@@ -1,0 +1,478 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q210836 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q210836 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-14T14:16:24.245Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Besta_deild_karla",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Besta_deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Besta_deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Besta_deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Besta_deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_Besta_deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1935_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1924_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1913_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1916_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1925_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1941_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1912_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1919_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1921_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1943_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1914_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1927_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1918_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1922_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1940_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1944_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1920_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_%C3%9Arvalsdeild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_%C3%9Arvalsdeild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1923_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1926_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1917_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1929_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1928_%C3%9Arvalsdeild",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1915_%C3%9Arvalsdeild",
+      "kind": "season"
+    }
+  ]
+}

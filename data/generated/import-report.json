@@ -1,4 +1,26 @@
 {
+  "ALB": [
+    {
+      "league": "Q210183",
+      "name": "Albanian Superliga",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Kategoria_Superiore"
+    },
+    {
+      "league": "Q116909",
+      "name": "Albanian First Division",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 12,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Kategoria_e_Par%C3%AB"
+    }
+  ],
   "AND": [
     {
       "league": "Q257282",
@@ -15,6 +37,27 @@
       "status": "ok",
       "clubs": 7,
       "stadiums": 1,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "ARM": [
+    {
+      "league": "Q237181",
+      "name": "Armenian Premier League",
+      "status": "ok",
+      "clubs": 11,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Armenian_Premier_League"
+    },
+    {
+      "league": "Q2299810",
+      "name": "Armenian First League",
+      "status": "ok",
+      "clubs": 5,
+      "stadiums": 3,
       "excluded": [],
       "source": "memberships"
     }
@@ -104,6 +147,27 @@
       "status": "ok",
       "clubs": 18,
       "stadiums": 5,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "BLR": [
+    {
+      "league": "Q244464",
+      "name": "Belarusian Premier League",
+      "status": "ok",
+      "clubs": 16,
+      "stadiums": 13,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Belarusian_Premier_League"
+    },
+    {
+      "league": "Q27054",
+      "name": "Belarusian First League",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 8,
       "excluded": [],
       "source": "memberships"
     }
@@ -253,6 +317,28 @@
       ]
     }
   ],
+  "EST": [
+    {
+      "league": "Q239738",
+      "name": "Meistriliiga",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Meistriliiga"
+    },
+    {
+      "league": "Q1087541",
+      "name": "Esiliiga",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 5,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Esiliiga"
+    }
+  ],
   "FIN": [
     {
       "league": "Q220875",
@@ -293,6 +379,26 @@
       "stadiums": 18,
       "excluded": [],
       "source": "season"
+    }
+  ],
+  "GEO": [
+    {
+      "league": "Q219007",
+      "name": "Erovnuli Liga",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 5,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q2270893",
+      "name": "Erovnuli Liga 2",
+      "status": "ok",
+      "clubs": 23,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "memberships"
     }
   ],
   "GER": [
@@ -364,6 +470,27 @@
       "source": "memberships"
     }
   ],
+  "ISL": [
+    {
+      "league": "Q210836",
+      "name": "Besta deild karla",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 10,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Besta_deild_karla"
+    },
+    {
+      "league": "Q2427770",
+      "name": "1. deild karla",
+      "status": "ok",
+      "clubs": 12,
+      "stadiums": 7,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
   "ISR": [
     {
       "league": "Q477309",
@@ -420,6 +547,91 @@
       "status": "ok",
       "clubs": 22,
       "stadiums": 7,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "LTU": [
+    {
+      "league": "Q275665",
+      "name": "TOPLYGA",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 5,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Toplyga"
+    },
+    {
+      "league": "Q209008",
+      "name": "First League",
+      "status": "ok",
+      "clubs": 13,
+      "stadiums": 6,
+      "excluded": [
+        "FK Žalgiris B (Q31198746)"
+      ],
+      "source": "memberships"
+    }
+  ],
+  "LVA": [
+    {
+      "league": "Q308798",
+      "name": "Latvian Higher League",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 5,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Latvian_Higher_League"
+    },
+    {
+      "league": "Q163773",
+      "name": "Latvian First League",
+      "status": "ok",
+      "clubs": 18,
+      "stadiums": 5,
+      "excluded": [],
+      "source": "memberships"
+    }
+  ],
+  "MDA": [
+    {
+      "league": "Q384531",
+      "name": "Moldovan National Division",
+      "status": "ok",
+      "clubs": 8,
+      "stadiums": 6,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q370184",
+      "name": "Moldovan Liga 1",
+      "status": "ok",
+      "clubs": 7,
+      "stadiums": 2,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Moldovan_Liga_1"
+    }
+  ],
+  "MNE": [
+    {
+      "league": "Q271271",
+      "name": "Montenegrin First League",
+      "status": "ok",
+      "clubs": 10,
+      "stadiums": 9,
+      "excluded": [],
+      "source": "memberships"
+    },
+    {
+      "league": "Q325597",
+      "name": "Montenegrin Second League",
+      "status": "ok",
+      "clubs": 15,
+      "stadiums": 12,
       "excluded": [],
       "source": "memberships"
     }

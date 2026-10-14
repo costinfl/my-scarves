@@ -1,0 +1,90 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q1388798 wd:Q4155223 wd:Q28024243 wd:Q108457654 wd:Q15939830 wd:Q995093 wd:Q134883767 wd:Q19963391 wd:Q57652441 wd:Q4465069 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:17:20.105Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q995093",
+      "stadium": "http://www.wikidata.org/entity/Q116025209",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(24.155 56.908)",
+      "capacity": "2300",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_RFS",
+      "website": "https://fkrfs.lv/",
+      "clubLabel": "FC RFS",
+      "stadiumLabel": "LNK Sporta Parks"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4155223",
+      "stadium": "http://www.wikidata.org/entity/Q2349111",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.550619 55.874667)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/BFC_Daugavpils",
+      "website": "http://fcdaugavpils.lv/",
+      "clubLabel": "BFC Daugavpils",
+      "stadiumLabel": "Celtnieks Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15939830",
+      "stadium": "http://www.wikidata.org/entity/Q2981391",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.995424 56.502952)",
+      "capacity": "5008",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Liep%C4%81ja",
+      "website": "https://fkliepaja.lv/",
+      "clubLabel": "FK Liepāja",
+      "stadiumLabel": "Daugava Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q19963391",
+      "stadium": "http://www.wikidata.org/entity/Q1474452",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.116408 56.961372)",
+      "capacity": "8087",
+      "enwiki": "https://en.wikipedia.org/wiki/Riga_FC",
+      "website": "https://rigafc.lv/",
+      "clubLabel": "Riga FC",
+      "stadiumLabel": "Skonto Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q108457654",
+      "stadium": "http://www.wikidata.org/entity/Q4190982",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.7563 56.6617)",
+      "capacity": "1560",
+      "enwiki": "https://en.wikipedia.org/wiki/FS_Jelgava",
+      "website": "https://www.fsjelgava.lv/",
+      "clubLabel": "FS Jelgava",
+      "stadiumLabel": "Olympic Sports Center of Zemgale"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388798",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Auda",
+      "website": "https://fkauda.lv/",
+      "clubLabel": "FK Auda"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4465069",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Tukums_2000",
+      "website": "https://fktukums2000.lv/",
+      "clubLabel": "Tukums 2000"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q28024243",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Grobi%C5%86a",
+      "clubLabel": "FK Grobiņa"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q57652441",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Super_Nova",
+      "website": "http://www.supernova.lv/",
+      "clubLabel": "SK Super Nova"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q134883767",
+      "enwiki": "https://en.wikipedia.org/wiki/Ogre_United",
+      "website": "https://ogreunited.lv/",
+      "clubLabel": "Ogre United"
+    }
+  ]
+}

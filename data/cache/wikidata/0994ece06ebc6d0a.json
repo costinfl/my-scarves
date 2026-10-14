@@ -1,0 +1,131 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q210183 wd:Q116909 wd:Q237181 wd:Q2299810 wd:Q244464 wd:Q27054 wd:Q239738 wd:Q1087541 wd:Q219007 wd:Q2270893 wd:Q210836 wd:Q2427770 wd:Q308798 wd:Q163773 wd:Q275665 wd:Q209008 wd:Q384531 wd:Q370184 wd:Q271271 wd:Q325597 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T14:13:19.013Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q27054",
+      "label": "Belarusian First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q116909",
+      "label": "Albanian First Division",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q163773",
+      "label": "Latvian First League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q209008",
+      "label": "First League",
+      "isFootballLeague": "true",
+      "participants": "15"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q210183",
+      "label": "Albanian Superliga",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q210836",
+      "label": "Besta deild karla",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q219007",
+      "label": "Erovnuli Liga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q237181",
+      "label": "Armenian Premier League",
+      "isFootballLeague": "true",
+      "participants": "8"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q239738",
+      "label": "Meistriliiga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q244464",
+      "label": "Belarusian Premier League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q271271",
+      "label": "Montenegrin First League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q275665",
+      "label": "TOPLYGA",
+      "isFootballLeague": "true",
+      "participants": "6"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q308798",
+      "label": "Latvian Higher League",
+      "isFootballLeague": "true",
+      "participants": "8"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q325597",
+      "label": "Montenegrin Second League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q370184",
+      "label": "Moldovan Liga 1",
+      "isFootballLeague": "true"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q384531",
+      "label": "Moldovan National Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1087541",
+      "label": "Esiliiga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2270893",
+      "label": "Erovnuli Liga 2",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2299810",
+      "label": "Armenian First League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2299810",
+      "label": "Armenian First League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2427770",
+      "label": "1. deild karla",
+      "isFootballLeague": "true",
+      "participants": "12"
+    }
+  ]
+}

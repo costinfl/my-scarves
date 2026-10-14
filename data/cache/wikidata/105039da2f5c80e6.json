@@ -1,0 +1,132 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q2427770 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:17:16.883Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q1151908",
+      "enwiki": "https://en.wikipedia.org/wiki/Haukar",
+      "clubLabel": "Haukar"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1719034",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Fjallabygg%C3%B0ar",
+      "clubLabel": "Knattspyrnufélag Fjallabyggðar",
+      "website": "http://ks-leiftur.blog.is/blog/ks-leiftur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2647768",
+      "enwiki": "https://en.wikipedia.org/wiki/Leiknir_Reykjav%C3%ADk",
+      "clubLabel": "Leiknir Reykjavík",
+      "website": "https://www.leiknir.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q14636641",
+      "enwiki": "https://en.wikipedia.org/wiki/Ungmennaf%C3%A9lagi%C3%B0_Leiknir",
+      "clubLabel": "Ungmennafélagið Leiknir",
+      "website": "http://leiknirfaskrudsfirdi.123.is"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56833019",
+      "enwiki": "https://en.wikipedia.org/wiki/Njar%C3%B0v%C3%ADk_(men%27s_football)",
+      "clubLabel": "Njarðvík FC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q113407279",
+      "enwiki": "https://en.wikipedia.org/wiki/Vestri_(men%27s_football)",
+      "clubLabel": "Vestri",
+      "website": "https://www.vestri.is/knattspyrna/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q291723",
+      "enwiki": "https://en.wikipedia.org/wiki/Fylkir",
+      "clubLabel": "Fylkir",
+      "website": "https://fylkir.is/",
+      "stadium": "http://www.wikidata.org/entity/Q763750",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.79277778 64.11333333)",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Fylkir%20Reykjav%C3%ADk.svg",
+      "stadiumLabel": "Fylkisvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q752278",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lagi%C3%B0_Fram",
+      "clubLabel": "Knattspyrnufélagið Fram",
+      "website": "https://fram.is/",
+      "stadium": "http://www.wikidata.org/entity/Q151212",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.878972222 64.143555555)",
+      "stadiumLabel": "Laugardalsvöllur",
+      "capacity": "15427"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q835853",
+      "enwiki": "https://en.wikipedia.org/wiki/Knattspyrnudeild_Keflav%C3%ADk",
+      "clubLabel": "Keflavík Football Club",
+      "website": "http://www.keflavik.is/knattspyrna/forsida/",
+      "stadium": "http://www.wikidata.org/entity/Q2527041",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-22.559224 63.997997)",
+      "stadiumLabel": "Keflavíkurvöllur",
+      "capacity": "4000"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q846368",
+      "enwiki": "https://en.wikipedia.org/wiki/Grindav%C3%ADk_(men%27s_football)",
+      "clubLabel": "Knattspyrnudeild UMFG",
+      "website": "https://umfg.is/knattspyrna/",
+      "stadium": "http://www.wikidata.org/entity/Q2348517",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-22.429628 63.844636)",
+      "stadiumLabel": "Grindavíkurvöllur",
+      "capacity": "1750"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q971326",
+      "enwiki": "https://en.wikipedia.org/wiki/Ungmennaf%C3%A9lagi%C3%B0_Fj%C3%B6lnir",
+      "clubLabel": "Ungmennafélagið Fjölnir",
+      "website": "http://www.fjolnir.is",
+      "stadium": "http://www.wikidata.org/entity/Q16980971",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.7882 64.13846)",
+      "stadiumLabel": "Fjölnisvöllur"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q139504898",
+      "clubLabel": "HK Kópavogur",
+      "stadium": "http://www.wikidata.org/entity/Q2796402",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.896667 64.104167)",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20HK%20Kopavogur.svg",
+      "stadiumLabel": "Kópavogsvöllur",
+      "capacity": "5501"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q139504898",
+      "clubLabel": "HK Kópavogur",
+      "stadium": "http://www.wikidata.org/entity/Q6453755",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.91277778 64.11222222)",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20HK%20Kopavogur.svg",
+      "stadiumLabel": "Kórinn fjölnota knatthús"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q139504898",
+      "clubLabel": "HK Kópavogur",
+      "stadium": "http://www.wikidata.org/entity/Q2796402",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.896667 64.104167)",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20HK%20Kopavogur.svg",
+      "stadiumLabel": "Kópavogsvöllur",
+      "capacity": "5501"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q139504898",
+      "clubLabel": "HK Kópavogur",
+      "stadium": "http://www.wikidata.org/entity/Q6453755",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-21.91277778 64.11222222)",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20HK%20Kopavogur.svg",
+      "stadiumLabel": "Kórinn fjölnota knatthús"
+    }
+  ]
+}

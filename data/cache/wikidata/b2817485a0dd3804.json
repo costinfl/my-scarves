@@ -1,0 +1,108 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q210849 wd:Q222861 wd:Q56275728 wd:Q620846 wd:Q477830 wd:Q752339 wd:Q5425073 wd:Q568348 wd:Q1483314 wd:Q28340330 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T14:14:36.054Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q210849",
+      "stadium": "http://www.wikidata.org/entity/Q278923",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.73205 59.421292)",
+      "capacity": "14336",
+      "enwiki": "https://en.wikipedia.org/wiki/FCI_Levadia_Tallinn",
+      "website": "https://fcilevadia.ee/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Levadia%20Tallinnin.png",
+      "clubLabel": "FCI Levadia Tallinn",
+      "stadiumLabel": "A. Le Coq Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q222861",
+      "stadium": "http://www.wikidata.org/entity/Q278923",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.73205 59.421292)",
+      "capacity": "14336",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Flora",
+      "website": "https://fcflora.ee/",
+      "clubLabel": "FC Flora Tallinn",
+      "stadiumLabel": "A. Le Coq Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q477830",
+      "stadium": "http://www.wikidata.org/entity/Q618519",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.18465 59.36347)",
+      "capacity": "1065",
+      "enwiki": "https://en.wikipedia.org/wiki/JK_Narva_Trans",
+      "website": "https://www.fctrans.ee/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/JK%20Narva%20Trans.png",
+      "clubLabel": "JK Narva Trans",
+      "stadiumLabel": "Narva Kreenholmi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q568348",
+      "stadium": "http://www.wikidata.org/entity/Q3436099",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.54063 58.87845)",
+      "capacity": "268",
+      "enwiki": "https://en.wikipedia.org/wiki/Paide_Linnameeskond",
+      "website": "https://www.paidelinnameeskond.ee/",
+      "clubLabel": "Paide Linnameeskond",
+      "stadiumLabel": "Paide linnastaadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q620846",
+      "stadium": "http://www.wikidata.org/entity/Q3436075",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.480172 58.242286)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Kuressaare",
+      "website": "https://fckuressaare.ee/",
+      "clubLabel": "FC Kuressaare",
+      "stadiumLabel": "Kuressaare linnastaadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q752339",
+      "stadium": "http://www.wikidata.org/entity/Q2563925",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.659603 59.385456)",
+      "capacity": "650",
+      "enwiki": "https://en.wikipedia.org/wiki/N%C3%B5mme_Kalju_FC",
+      "website": "https://jkkalju.ee/",
+      "clubLabel": "Nõmme Kalju FC",
+      "stadiumLabel": "Hiiu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1483314",
+      "stadium": "http://www.wikidata.org/entity/Q1807497",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.713728 58.366536)",
+      "capacity": "1600",
+      "enwiki": "https://en.wikipedia.org/wiki/Tartu_JK_Tammeka",
+      "website": "https://www.jktammeka.ee/",
+      "clubLabel": "JK Tammeka Tartu",
+      "stadiumLabel": "Tamme Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q28340330",
+      "stadium": "http://www.wikidata.org/entity/Q1518879",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.503461 58.374672)",
+      "capacity": "1501",
+      "enwiki": "https://en.wikipedia.org/wiki/P%C3%A4rnu_JK_Vaprus",
+      "website": "https://vaprus.ee/",
+      "clubLabel": "Pärnu JK Vaprus",
+      "stadiumLabel": "Pärnu Rannastaadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5425073",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_N%C3%B5mme_United",
+      "website": "http://www.fcnommu.ee/",
+      "clubLabel": "FC Nõmme United"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56275728",
+      "enwiki": "https://en.wikipedia.org/wiki/Harju_JK_Laagri",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Harjujk%20logo.png",
+      "clubLabel": "Harju JK Laagri"
+    }
+  ]
+}

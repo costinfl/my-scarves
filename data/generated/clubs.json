@@ -1,5 +1,342 @@
 [
   {
+    "qid": "Q112072621",
+    "name": "AF Elbasani",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1349653",
+    "name": "Besëlidhja Lezhë",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4963741"
+    ]
+  },
+  {
+    "qid": "Q73708",
+    "name": "FK Kukësi",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q8069354"
+    ],
+    "officialWebsite": "https://fk-kukesi.al/"
+  },
+  {
+    "qid": "Q13384986",
+    "name": "FK Vora",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q60495",
+    "name": "Flamurtari Vlorë",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q60676"
+    ],
+    "officialWebsite": "http://flamurtari.al/"
+  },
+  {
+    "qid": "Q210170",
+    "name": "K.F. Tirana",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1783346"
+    ],
+    "officialWebsite": "https://kftirana.al/"
+  },
+  {
+    "qid": "Q60695",
+    "name": "KF Besa Kavajë",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4896162"
+    ]
+  },
+  {
+    "qid": "Q1302027",
+    "name": "KF Egnatia",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q24915950"
+    ],
+    "officialWebsite": "http://fkegnatia.weebly.com/"
+  },
+  {
+    "qid": "Q60701",
+    "name": "KF Laçi",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6506220"
+    ],
+    "officialWebsite": "http://kflaci.com"
+  },
+  {
+    "qid": "Q16842644",
+    "name": "KF Oriku",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16632779"
+    ]
+  },
+  {
+    "qid": "Q73996",
+    "name": "KF Skënderbeu",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1336599"
+    ],
+    "officialWebsite": "https://www.kfskenderbeu.al/"
+  },
+  {
+    "qid": "Q81635",
+    "name": "KF Teuta Durrës",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3300718",
+      "Q28074430"
+    ],
+    "officialWebsite": "http://www.kfteuta.com"
+  },
+  {
+    "qid": "Q3198892",
+    "name": "Korabi",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q20741125"
+    ],
+    "officialWebsite": "http://www.kskorabi.com"
+  },
+  {
+    "qid": "Q1382235",
+    "name": "KS Burreli",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6557639"
+    ]
+  },
+  {
+    "qid": "Q511740",
+    "name": "KS Bylis Ballsh",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q428704"
+    ]
+  },
+  {
+    "qid": "Q34120",
+    "name": "KS Dinamo Tirana",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1783346"
+    ]
+  },
+  {
+    "qid": "Q1550394",
+    "name": "KS Iliria",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16632780"
+    ]
+  },
+  {
+    "qid": "Q1334445",
+    "name": "KS Kastrioti",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6374836"
+    ]
+  },
+  {
+    "qid": "Q2330244",
+    "name": "KS Pogradeci",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q9341263"
+    ]
+  },
+  {
+    "qid": "Q81566",
+    "name": "KS Vllaznia Shkodër",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1870384"
+    ],
+    "officialWebsite": "https://vllaznia.al/"
+  },
+  {
+    "qid": "Q845772",
+    "name": "Partizani Tirana",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q210183",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1783346"
+    ],
+    "officialWebsite": "https://partizani.al"
+  },
+  {
+    "qid": "Q2699044",
+    "name": "Sopoti",
+    "association": "ALB",
+    "leagues": [
+      {
+        "league": "Q116909",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q18379501"
+    ]
+  },
+  {
     "qid": "Q757407",
     "name": "Atlètic Club d'Escaldes",
     "association": "AND",
@@ -263,6 +600,251 @@
       "Q857795"
     ],
     "officialWebsite": "https://www.uesantacoloma.com/"
+  },
+  {
+    "qid": "Q2035339",
+    "name": "Alashkert FC",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3495794"
+    ],
+    "officialWebsite": "https://fcalashkert.com/"
+  },
+  {
+    "qid": "Q2035312",
+    "name": "BKMA Yerevan",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://bkma-yerevan-fc.am/"
+  },
+  {
+    "qid": "Q25408708",
+    "name": "Erebuni SC",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q2299810",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "logoFile": "FUTBOL111.jpg"
+  },
+  {
+    "qid": "Q332702",
+    "name": "FC Ararat Yerevan",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1459459"
+    ],
+    "officialWebsite": "http://www.fcararat.am"
+  },
+  {
+    "qid": "Q39056364",
+    "name": "FC Ararat-Armenia",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q15217986"
+    ],
+    "logoFile": "Ararat-Armenia.png"
+  },
+  {
+    "qid": "Q584440",
+    "name": "FC Mika",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q2299810",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2499412"
+    ],
+    "officialWebsite": "http://www.fcmika.am/",
+    "logoFile": "Mika Sport Complex, Yerevan (13).jpg"
+  },
+  {
+    "qid": "Q34479193",
+    "name": "FC Noah",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2499412"
+    ],
+    "officialWebsite": "https://noah.am",
+    "logoFile": "FC Noah logo 2024.svg"
+  },
+  {
+    "qid": "Q244317",
+    "name": "FC Pyunik",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q15217986"
+    ],
+    "officialWebsite": "https://fcpyunik.am/"
+  },
+  {
+    "qid": "Q134937660",
+    "name": "FC Syunik",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q757253",
+    "name": "FC Urartu",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q806110"
+    ]
+  },
+  {
+    "qid": "Q74112200",
+    "name": "FC Van",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://van-fc.am/"
+  },
+  {
+    "qid": "Q847326",
+    "name": "Gandzasar-Kapan FC",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2503458"
+    ],
+    "officialWebsite": "https://gandzasar-fc.am/"
+  },
+  {
+    "qid": "Q2635663",
+    "name": "Lernayin Artsakh Stepanakert",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q2299810",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q637116"
+    ],
+    "officialWebsite": "http://lafc.do.am/"
+  },
+  {
+    "qid": "Q137212488",
+    "name": "Sardarapat F. C.",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q2299810",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.sardarapatfc.am/fr/accueil/"
+  },
+  {
+    "qid": "Q2035348",
+    "name": "Shirak F.C.-2",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q2299810",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3499859"
+    ]
+  },
+  {
+    "qid": "Q666827",
+    "name": "Shirak FC",
+    "association": "ARM",
+    "leagues": [
+      {
+        "league": "Q237181",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3499859"
+    ],
+    "officialWebsite": "https://fcshirak.am"
   },
   {
     "qid": "Q698702",
@@ -2548,6 +3130,516 @@
       "Q3515221"
     ],
     "officialWebsite": "http://www.nkzepce.com/"
+  },
+  {
+    "qid": "Q51838185",
+    "name": "Bumprom Gomel",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q61768552",
+    "name": "FC Arsenal Dzerzhinsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q384834"
+    ],
+    "logoFile": "ФК Арсенал Дзяржынск.gif"
+  },
+  {
+    "qid": "Q90922797",
+    "name": "FC Astraviec",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fco.by",
+    "logoFile": "Футбольный клуб Островец.jpg"
+  },
+  {
+    "qid": "Q2496995",
+    "name": "FC Baranovichi",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q191101",
+    "name": "FC BATE Borisov",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4439085"
+    ],
+    "officialWebsite": "http://www.fcbate.by/"
+  },
+  {
+    "qid": "Q125360483",
+    "name": "FC BATE-2 Borisov",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcbate.by/"
+  },
+  {
+    "qid": "Q756110",
+    "name": "FC Belshina Bobruisk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4430721"
+    ],
+    "officialWebsite": "http://www.fcbelshina.by/"
+  },
+  {
+    "qid": "Q211477",
+    "name": "FC Dinamo Minsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1130487"
+    ],
+    "officialWebsite": "https://dinamo-minsk.by/",
+    "logoFile": "FK Dinamo Minsk escudo blr.jpg"
+  },
+  {
+    "qid": "Q24909001",
+    "name": "FC Dinamo-2 Minsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q834555",
+    "name": "FC Dnepr Mogilev",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4430720"
+    ],
+    "officialWebsite": "http://fc-dnepr.by/"
+  },
+  {
+    "qid": "Q772725",
+    "name": "FC Dynamo Brest",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7309159"
+    ],
+    "officialWebsite": "https://dynamo-brest.by/"
+  },
+  {
+    "qid": "Q726285",
+    "name": "FC Gomel",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2661079"
+    ],
+    "officialWebsite": "http://www.fcgomel.by"
+  },
+  {
+    "qid": "Q130382813",
+    "name": "FC Homieĺ-2",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q11624718",
+    "name": "FC Isloch Minsk Raion",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q20165460"
+    ],
+    "officialWebsite": "http://fcisloch.by/"
+  },
+  {
+    "qid": "Q2134369",
+    "name": "FC Lida",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4502967"
+    ],
+    "officialWebsite": "http://fclida.by/"
+  },
+  {
+    "qid": "Q2633110",
+    "name": "FC Maladziečna",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5653591"
+    ]
+  },
+  {
+    "qid": "Q281780",
+    "name": "FC Maxline Viciebsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcml.by/"
+  },
+  {
+    "qid": "Q594092",
+    "name": "FC Minsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q20165460"
+    ],
+    "officialWebsite": "http://www.fcminsk.by"
+  },
+  {
+    "qid": "Q3917413",
+    "name": "FC Minsk-2",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q840765",
+    "name": "FC Naftan Novopolotsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2041015"
+    ],
+    "officialWebsite": "https://fcnaftan-novopolotsk.by/"
+  },
+  {
+    "qid": "Q545869",
+    "name": "FC Neman Grodno",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2662436"
+    ],
+    "officialWebsite": "http://www.fcneman.by/"
+  },
+  {
+    "qid": "Q106702741",
+    "name": "FC Niva Doŭbizna",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcniva.by/"
+  },
+  {
+    "qid": "Q2590293",
+    "name": "FC Orsha",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16152053"
+    ]
+  },
+  {
+    "qid": "Q2574904",
+    "name": "FC Osipovichi",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q28225326"
+    ]
+  },
+  {
+    "qid": "Q136154103",
+    "name": "FC Salihorsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4444132"
+    ]
+  },
+  {
+    "qid": "Q3091283",
+    "name": "FC SKA-1938",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://ska1938.by/"
+  },
+  {
+    "qid": "Q1165833",
+    "name": "FC Slavia-Mozyr",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4534625"
+    ],
+    "officialWebsite": "http://www.fcslavia.by"
+  },
+  {
+    "qid": "Q4423940",
+    "name": "FC Slonim",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4534629"
+    ]
+  },
+  {
+    "qid": "Q281878",
+    "name": "FC Slutsk-2024",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q17399576"
+    ],
+    "officialWebsite": "http://sfc-slutsk.by/"
+  },
+  {
+    "qid": "Q929339",
+    "name": "FC Smorgon",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q8061368"
+    ]
+  },
+  {
+    "qid": "Q757109",
+    "name": "FC Torpedo-BelAZ Zhodino",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4461289"
+    ],
+    "officialWebsite": "http://torpedo-belaz.by/"
+  },
+  {
+    "qid": "Q111652265",
+    "name": "FC Unixlabs",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q846362",
+    "name": "FC Vitebsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q244464",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2059396"
+    ],
+    "officialWebsite": "http://www.fc.vitebsk.by/"
+  },
+  {
+    "qid": "Q2498749",
+    "name": "FC Volna Pinsk",
+    "association": "BLR",
+    "leagues": [
+      {
+        "league": "Q27054",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://fcvolna-pinsk.by/"
   },
   {
     "qid": "Q414625",
@@ -6621,6 +7713,306 @@
     "officialWebsite": "https://villarrealcf.es/"
   },
   {
+    "qid": "Q1387084",
+    "name": "FC Elva",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fcelva.ee"
+  },
+  {
+    "qid": "Q5424928",
+    "name": "FC Flora II Tallinn",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q278923"
+    ],
+    "officialWebsite": "http://fcflora.ee/"
+  },
+  {
+    "qid": "Q222861",
+    "name": "FC Flora Tallinn",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q278923"
+    ],
+    "officialWebsite": "https://fcflora.ee/"
+  },
+  {
+    "qid": "Q620846",
+    "name": "FC Kuressaare",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3436075"
+    ],
+    "officialWebsite": "https://fckuressaare.ee/"
+  },
+  {
+    "qid": "Q2528324",
+    "name": "FC Levadia II Tallinn",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://fclevadia.ee/article/22"
+  },
+  {
+    "qid": "Q5425073",
+    "name": "FC Nõmme United",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      },
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fcnommu.ee/"
+  },
+  {
+    "qid": "Q105424906",
+    "name": "FC Tallinn",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fctallinn.ee/et/",
+    "logoFile": "FC Tallinn logo.png"
+  },
+  {
+    "qid": "Q210849",
+    "name": "FCI Levadia Tallinn",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q278923"
+    ],
+    "officialWebsite": "https://fcilevadia.ee/",
+    "logoFile": "FC Levadia Tallinnin.png"
+  },
+  {
+    "qid": "Q56275728",
+    "name": "Harju JK Laagri",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "logoFile": "Harjujk logo.png"
+  },
+  {
+    "qid": "Q477830",
+    "name": "JK Narva Trans",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q618519"
+    ],
+    "officialWebsite": "https://www.fctrans.ee/",
+    "logoFile": "JK Narva Trans.png"
+  },
+  {
+    "qid": "Q12371238",
+    "name": "JK Nõmme Kalju II",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2563925"
+    ],
+    "officialWebsite": "http://www.jkkalju.ee"
+  },
+  {
+    "qid": "Q619499",
+    "name": "JK Tallinna Kalev",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1722201"
+    ],
+    "officialWebsite": "https://jkkalev.ee/"
+  },
+  {
+    "qid": "Q1483314",
+    "name": "JK Tammeka Tartu",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1807497"
+    ],
+    "officialWebsite": "https://www.jktammeka.ee/"
+  },
+  {
+    "qid": "Q16412614",
+    "name": "Maardu Linnameeskond",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fcmaardu.ee/"
+  },
+  {
+    "qid": "Q752339",
+    "name": "Nõmme Kalju FC",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2563925"
+    ],
+    "officialWebsite": "https://jkkalju.ee/"
+  },
+  {
+    "qid": "Q568348",
+    "name": "Paide Linnameeskond",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3436099"
+    ],
+    "officialWebsite": "https://www.paidelinnameeskond.ee/"
+  },
+  {
+    "qid": "Q28340330",
+    "name": "Pärnu JK Vaprus",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q239738",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1518879"
+    ],
+    "officialWebsite": "https://vaprus.ee/"
+  },
+  {
+    "qid": "Q130770",
+    "name": "Tartu JK Welco",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q120434709"
+    ]
+  },
+  {
+    "qid": "Q3016278",
+    "name": "Viimsi JK",
+    "association": "EST",
+    "leagues": [
+      {
+        "league": "Q1087541",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2524100"
+    ],
+    "officialWebsite": "https://mrjk.ee/",
+    "logoFile": "Viimsi JK.png"
+  },
+  {
     "qid": "Q289516",
     "name": "AC Oulu",
     "association": "FIN",
@@ -7703,6 +9095,487 @@
       "Q2299919"
     ],
     "officialWebsite": "http://www.va-fc.com"
+  },
+  {
+    "qid": "Q3646666",
+    "name": "Chkherimela FC",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q10401064",
+    "name": "FC Adeli Batumi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q5424799",
+    "name": "FC Aeti Sokhumi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q5424811",
+    "name": "FC Algeti Marneuli",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q2835474",
+    "name": "FC Chiatura",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7699089"
+    ]
+  },
+  {
+    "qid": "Q643042",
+    "name": "FC Dila Gori",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1519723"
+    ],
+    "officialWebsite": "http://fcdila.ge/"
+  },
+  {
+    "qid": "Q1346756",
+    "name": "FC Dinamo Batumi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q502180"
+    ],
+    "officialWebsite": "http://dinamobatumi.com/"
+  },
+  {
+    "qid": "Q201006",
+    "name": "FC Dinamo Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q290801"
+    ],
+    "officialWebsite": "https://fcdinamo.ge/",
+    "logoFile": "FC Dinamo Tbilisi logo.svg"
+  },
+  {
+    "qid": "Q376846",
+    "name": "FC Gagra",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://gagrafc.ge/en/"
+  },
+  {
+    "qid": "Q104834072",
+    "name": "FC Gareji Sagarejo",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q16374651",
+    "name": "FC Iberia 1999",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1535913"
+    ],
+    "officialWebsite": "https://fciberia1999.ge/en/"
+  },
+  {
+    "qid": "Q260189",
+    "name": "FC Kolkheti-1913 Poti",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3545125"
+    ],
+    "officialWebsite": "https://poti.ge/"
+  },
+  {
+    "qid": "Q605756",
+    "name": "FC Lokomotivi Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1535913"
+    ],
+    "officialWebsite": "http://fcloco.ge/"
+  },
+  {
+    "qid": "Q155105",
+    "name": "FC Merani Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q839989"
+    ]
+  },
+  {
+    "qid": "Q3646660",
+    "name": "FC Mertskhali Ozurgeti",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16372227"
+    ]
+  },
+  {
+    "qid": "Q2627528",
+    "name": "FC Norchi Dinamo Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7579289"
+    ],
+    "logoFile": "FC Norchi Dinamoeli Tbilisi official logo 2012.jpg"
+  },
+  {
+    "qid": "Q5425083",
+    "name": "FC Olimpiki Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3650758"
+    ]
+  },
+  {
+    "qid": "Q107630644",
+    "name": "FC Rustavi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q19921950",
+    "name": "FC Samegrelo Chkorotsku",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q3498493",
+    "name": "FC Samgurali Tskhaltubo",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcsamgurali.ge/"
+  },
+  {
+    "qid": "Q1071313",
+    "name": "FC Samtredia",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2075609"
+    ],
+    "officialWebsite": "http://fcsamtredia.com/"
+  },
+  {
+    "qid": "Q16375173",
+    "name": "FC Sasco Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q3648810",
+    "name": "FC Shevardeni-1906 Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://shevardeni1906.ge/"
+  },
+  {
+    "qid": "Q643278",
+    "name": "FC Sioni Bolnisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q750051"
+    ],
+    "officialWebsite": "http://fcsioni.ge/"
+  },
+  {
+    "qid": "Q109236652",
+    "name": "FC Spaeri",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fcspaeri.ge"
+  },
+  {
+    "qid": "Q5425189",
+    "name": "FC Sulori Vani",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q2788132",
+    "name": "FC Tbilisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3650758"
+    ]
+  },
+  {
+    "qid": "Q60658427",
+    "name": "FC Telavi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fctelavi.ge/"
+  },
+  {
+    "qid": "Q38781",
+    "name": "FC Torpedo Kutaisi",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1528840"
+    ],
+    "officialWebsite": "https://fctorpedokutaisi.com/",
+    "logoFile": "FC Torpedo Kutaisi Old Logo (v.4).png"
+  },
+  {
+    "qid": "Q723548",
+    "name": "FC WIT Georgia",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2645803"
+    ],
+    "officialWebsite": "https://www.witgeorgia.ge/"
+  },
+  {
+    "qid": "Q3544330",
+    "name": "FC Zooveti",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://fczoovetitbilisi.net/team-management.html"
+  },
+  {
+    "qid": "Q5425058",
+    "name": "Meshakhte Tkibuli",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q219007",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://meshakhte-fc.ge/"
+  },
+  {
+    "qid": "Q10670734",
+    "name": "Sakuri Tsalenjikha",
+    "association": "GEO",
+    "leagues": [
+      {
+        "league": "Q2270893",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
   },
   {
     "qid": "Q162251",
@@ -9623,6 +11496,355 @@
     ],
     "officialWebsite": "https://www.ztefc.hu/",
     "logoFile": "Zalaegerszegi TE (Logo).svg"
+  },
+  {
+    "qid": "Q41634649",
+    "name": "Breiðablik men's football",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2796402"
+    ],
+    "officialWebsite": "https://breidablik.is/knattspyrna/"
+  },
+  {
+    "qid": "Q97516218",
+    "name": "FH men's football",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q291723",
+    "name": "Fylkir",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q763750"
+    ],
+    "officialWebsite": "https://fylkir.is/",
+    "logoFile": "Fylkir Reykjavík.svg"
+  },
+  {
+    "qid": "Q1151908",
+    "name": "Haukar",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q139504898",
+    "name": "HK Kópavogur",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2796402",
+      "Q6453755"
+    ],
+    "logoFile": "Logo HK Kopavogur.svg"
+  },
+  {
+    "qid": "Q291691",
+    "name": "Íþróttabandalag Akraness",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2135947"
+    ],
+    "officialWebsite": "http://www.kfia.is",
+    "logoFile": "Akranes.svg"
+  },
+  {
+    "qid": "Q291716",
+    "name": "Íþróttabandalag Vestmannaeyja",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2779785"
+    ],
+    "officialWebsite": "https://www.ibvsport.is/"
+  },
+  {
+    "qid": "Q835853",
+    "name": "Keflavík Football Club",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      },
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2527041"
+    ],
+    "officialWebsite": "http://www.keflavik.is/knattspyrna/forsida/"
+  },
+  {
+    "qid": "Q846368",
+    "name": "Knattspyrnudeild UMFG",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2348517"
+    ],
+    "officialWebsite": "https://umfg.is/knattspyrna/"
+  },
+  {
+    "qid": "Q571264",
+    "name": "Knattspyrnufélag Akureyrar",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2829176"
+    ],
+    "officialWebsite": "http://www.ka.is",
+    "logoFile": "Ka-logo.png"
+  },
+  {
+    "qid": "Q1719034",
+    "name": "Knattspyrnufélag Fjallabyggðar",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://ks-leiftur.blog.is/blog/ks-leiftur"
+  },
+  {
+    "qid": "Q752278",
+    "name": "Knattspyrnufélagið Fram",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      },
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q151212"
+    ],
+    "officialWebsite": "https://fram.is/"
+  },
+  {
+    "qid": "Q1140538",
+    "name": "Knattspyrnufélagið Víkingur",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2333092"
+    ],
+    "officialWebsite": "http://www.vikingur.is",
+    "logoFile": "Vikingur.svg"
+  },
+  {
+    "qid": "Q221702",
+    "name": "KR Reykjavík",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2530849"
+    ],
+    "officialWebsite": "http://www.kr.is"
+  },
+  {
+    "qid": "Q2647768",
+    "name": "Leiknir Reykjavík",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.leiknir.com/"
+  },
+  {
+    "qid": "Q56833019",
+    "name": "Njarðvík FC",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q279886",
+    "name": "Stjarnan",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3499565"
+    ],
+    "officialWebsite": "https://www.stjarnan.is/",
+    "logoFile": "Stjarnan Logo.png"
+  },
+  {
+    "qid": "Q971326",
+    "name": "Ungmennafélagið Fjölnir",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16980971"
+    ],
+    "officialWebsite": "http://www.fjolnir.is"
+  },
+  {
+    "qid": "Q14636641",
+    "name": "Ungmennafélagið Leiknir",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://leiknirfaskrudsfirdi.123.is"
+  },
+  {
+    "qid": "Q597715",
+    "name": "Valur",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2982533"
+    ],
+    "officialWebsite": "http://www.valur.is/"
+  },
+  {
+    "qid": "Q113407279",
+    "name": "Vestri",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q2427770",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.vestri.is/knattspyrna/"
+  },
+  {
+    "qid": "Q74116224",
+    "name": "Þór Akureyri men's football",
+    "association": "ISL",
+    "leagues": [
+      {
+        "league": "Q210836",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.thorsport.is/knattspyrna"
   },
   {
     "qid": "Q223727",
@@ -11554,6 +13776,1343 @@
     ],
     "stadiumIds": [],
     "officialWebsite": "https://fcelimai.kz"
+  },
+  {
+    "qid": "Q25497952",
+    "name": "DFK Dainava",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4738800"
+    ],
+    "officialWebsite": "https://dfkdainava.com/"
+  },
+  {
+    "qid": "Q16478096",
+    "name": "FA Šiauliai",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q12654311",
+    "name": "FC Džiugas",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fcdziugas.lt/"
+  },
+  {
+    "qid": "Q12654265",
+    "name": "FC Hegelmann",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fchegelmann.com/"
+  },
+  {
+    "qid": "Q25497856",
+    "name": "FC Pakruojis",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q15703619"
+    ]
+  },
+  {
+    "qid": "Q23585983",
+    "name": "FC Vilniaus Vytis",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q965566"
+    ]
+  },
+  {
+    "qid": "Q806459",
+    "name": "FK Banga Gargždai",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5523214"
+    ],
+    "officialWebsite": "http://www.fkbanga.lt/"
+  },
+  {
+    "qid": "Q2480155",
+    "name": "FK Jonava",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q190786"
+    ],
+    "officialWebsite": "http://fkjonava.lt/"
+  },
+  {
+    "qid": "Q12654411",
+    "name": "FK Kauno Žalgiris",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1583616"
+    ],
+    "officialWebsite": "http://zalgiris.lt/football/",
+    "logoFile": "BC Žalgiris 2023.png"
+  },
+  {
+    "qid": "Q25496727",
+    "name": "FK Koralas",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q12654341",
+    "name": "FK Kražantė",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q16450761",
+    "name": "FK Lokomotyvas Radviliškis",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q6865261",
+    "name": "FK Minija",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q31199140",
+    "name": "FK Mykolo Riomerio universitetas",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q31199501",
+    "name": "FK Nacionalinė futbolo akademija",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1630613",
+    "name": "FK Nevėžis",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q6454425"
+    ],
+    "officialWebsite": "http://www.fknevezis.lt/"
+  },
+  {
+    "qid": "Q23894576",
+    "name": "FK Panevėžys",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2597930"
+    ],
+    "officialWebsite": "http://fk-panevezys.lt/"
+  },
+  {
+    "qid": "Q14657783",
+    "name": "FK Riteriai",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q965566"
+    ],
+    "officialWebsite": "http://fkriteriai.lt/"
+  },
+  {
+    "qid": "Q12654339",
+    "name": "FK Šilas",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fksilas.lt"
+  },
+  {
+    "qid": "Q1389147",
+    "name": "FK Šilutė",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q209008",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q8082782"
+    ]
+  },
+  {
+    "qid": "Q757104",
+    "name": "FK Sūduva",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3500967"
+    ],
+    "officialWebsite": "https://fksuduva.lt/"
+  },
+  {
+    "qid": "Q117206645",
+    "name": "FK Transinvest",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fktransinvest.lt"
+  },
+  {
+    "qid": "Q500988",
+    "name": "FK Žalgiris",
+    "association": "LTU",
+    "leagues": [
+      {
+        "league": "Q275665",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q965566"
+    ],
+    "officialWebsite": "https://fkzalgiris.lt/",
+    "logoFile": "Vmfdzalgiris2.jpg"
+  },
+  {
+    "qid": "Q19365063",
+    "name": "AFA Olaine",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.afaolaine.lv/"
+  },
+  {
+    "qid": "Q2704787",
+    "name": "Augšdaugavas NSS",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16841150"
+    ]
+  },
+  {
+    "qid": "Q4155223",
+    "name": "BFC Daugavpils",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2349111"
+    ],
+    "officialWebsite": "http://fcdaugavpils.lv/"
+  },
+  {
+    "qid": "Q995093",
+    "name": "FC RFS",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q116025209"
+    ],
+    "officialWebsite": "https://fkrfs.lv/"
+  },
+  {
+    "qid": "Q4063648",
+    "name": "FK Alfa",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1388798",
+    "name": "FK Auda",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fkauda.lv/"
+  },
+  {
+    "qid": "Q117038735",
+    "name": "FK Beitar",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q28024243",
+    "name": "FK Grobiņa",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q288932",
+    "name": "FK Jaunība Rīga",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1133726"
+    ],
+    "officialWebsite": "http://www.fcj.lv/"
+  },
+  {
+    "qid": "Q3755086",
+    "name": "FK Jūrnieks",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://www.fkjurnieks.com/"
+  },
+  {
+    "qid": "Q15939830",
+    "name": "FK Liepāja",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2981391"
+    ],
+    "officialWebsite": "https://fkliepaja.lv/"
+  },
+  {
+    "qid": "Q1576467",
+    "name": "FK Metta",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.fsmetta.lv/",
+    "logoFile": "FK Metta logo.svg"
+  },
+  {
+    "qid": "Q5426257",
+    "name": "FK Multibanka Rīga",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q5426036",
+    "name": "FK Smiltene/BJSS",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q66566716"
+    ],
+    "officialWebsite": "http://www.fksmiltene.lv/"
+  },
+  {
+    "qid": "Q19577091",
+    "name": "FK Staiceles Bebri",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q108457654",
+    "name": "FS Jelgava",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q4190982"
+    ],
+    "officialWebsite": "https://www.fsjelgava.lv/"
+  },
+  {
+    "qid": "Q4174260",
+    "name": "Jēkabpils SC",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q3737204",
+    "name": "JFC Kauguri Jūrmala",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q97221741",
+    "name": "Leevon PPK",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://leevon.lv/"
+  },
+  {
+    "qid": "Q134883767",
+    "name": "Ogre United",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://ogreunited.lv/"
+  },
+  {
+    "qid": "Q30115743",
+    "name": "RAF Jelgava",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q4153485",
+    "name": "Rēzeknes BJSS",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7579527"
+    ],
+    "officialWebsite": "http://www.rezeknesfutbols.lv/lv/"
+  },
+  {
+    "qid": "Q19963391",
+    "name": "Riga FC",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1474452"
+    ],
+    "officialWebsite": "https://rigafc.lv/"
+  },
+  {
+    "qid": "Q24175211",
+    "name": "RTU FC",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q19365065",
+    "name": "Salaspils FC",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.kulakova-fac.eu",
+    "logoFile": "FKSALASPILS.jpg"
+  },
+  {
+    "qid": "Q4103535",
+    "name": "SFK Varavīksne",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q163773",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q2981391"
+    ],
+    "officialWebsite": "http://www.1625.lv/"
+  },
+  {
+    "qid": "Q57652441",
+    "name": "SK Super Nova",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.supernova.lv/"
+  },
+  {
+    "qid": "Q4465069",
+    "name": "Tukums 2000",
+    "association": "LVA",
+    "leagues": [
+      {
+        "league": "Q308798",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://fktukums2000.lv/"
+  },
+  {
+    "qid": "Q2445419",
+    "name": "CF Găgăuzia",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3495883"
+    ]
+  },
+  {
+    "qid": "Q93147456",
+    "name": "CSF Spartanii Selemet",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q782989",
+    "name": "FC Bălți",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1635077"
+    ]
+  },
+  {
+    "qid": "Q5424880",
+    "name": "FC Dacia Buiucani",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "https://buiucani.md/"
+  },
+  {
+    "qid": "Q423115",
+    "name": "FC Milsami",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q12724484"
+    ],
+    "officialWebsite": "http://www.milsami.md"
+  },
+  {
+    "qid": "Q3063100",
+    "name": "FC Petrocub Hîncești",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q25059691"
+    ],
+    "officialWebsite": "https://petrocub.md/"
+  },
+  {
+    "qid": "Q3063142",
+    "name": "FC Politehnica Chișinău",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3543956"
+    ]
+  },
+  {
+    "qid": "Q210768",
+    "name": "FC Sheriff Tiraspol",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1509390"
+    ],
+    "officialWebsite": "http://www.fc-sheriff.com/"
+  },
+  {
+    "qid": "Q127923053",
+    "name": "FC Vulturii Cutezători",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q203513",
+    "name": "FC Zimbru Chișinău",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q239295"
+    ],
+    "officialWebsite": "https://zimbru.md/"
+  },
+  {
+    "qid": "Q12175012",
+    "name": "FC Zimbru-2 Chișinău",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "officialWebsite": "http://www.zimbru.md"
+  },
+  {
+    "qid": "Q2870109",
+    "name": "FCM Ungheni",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [],
+    "logoFile": "FCM Ungheni.png"
+  },
+  {
+    "qid": "Q25394291",
+    "name": "Iskra Rîbnița",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3495802"
+    ]
+  },
+  {
+    "qid": "Q141167520",
+    "name": "Real Sireti",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q384531",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q7926577",
+    "name": "Victoria Bardar",
+    "association": "MDA",
+    "leagues": [
+      {
+        "league": "Q370184",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q1354304",
+    "name": "FK Arsenal Tivat",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596339"
+    ],
+    "officialWebsite": "https://fk-arsenal.me/"
+  },
+  {
+    "qid": "Q963069",
+    "name": "FK Berane",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3543974"
+    ]
+  },
+  {
+    "qid": "Q1388826",
+    "name": "FK Bokelj",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596328"
+    ]
+  },
+  {
+    "qid": "Q5426090",
+    "name": "FK Bratstvo Cijevna",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q28406519"
+    ]
+  },
+  {
+    "qid": "Q219264",
+    "name": "FK Budućnost Podgorica",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1166175"
+    ],
+    "officialWebsite": "https://www.fk-buducnost.me/"
+  },
+  {
+    "qid": "Q5426104",
+    "name": "FK Cetinje",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q950115"
+    ]
+  },
+  {
+    "qid": "Q920281",
+    "name": "FK Dečić",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q9079548"
+    ],
+    "officialWebsite": "https://fcdecic.com/"
+  },
+  {
+    "qid": "Q5426149",
+    "name": "FK Grafičar Podgorica",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q5426164",
+    "name": "FK Ibar",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q7073029",
+    "name": "FK Igalo 1929",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q16592280"
+    ],
+    "officialWebsite": "http://www.ofkigalo.me/"
+  },
+  {
+    "qid": "Q5426167",
+    "name": "FK Iskra Danilovgrad",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q30635315"
+    ]
+  },
+  {
+    "qid": "Q1164490",
+    "name": "FK Jedinstvo Bijelo Polje",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q5591983"
+    ]
+  },
+  {
+    "qid": "Q685260",
+    "name": "FK Jezero",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q927895"
+    ]
+  },
+  {
+    "qid": "Q597537",
+    "name": "FK Kom",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596347"
+    ]
+  },
+  {
+    "qid": "Q521202",
+    "name": "FK Mornar",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596340"
+    ]
+  },
+  {
+    "qid": "Q5426288",
+    "name": "FK Otrant",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q15196980"
+    ]
+  },
+  {
+    "qid": "Q20949669",
+    "name": "FK Podgorica",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q30635032"
+    ],
+    "officialWebsite": "https://www.fkpodgorica.me/"
+  },
+  {
+    "qid": "Q18085507",
+    "name": "FK Radnički Berane",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3543974"
+    ]
+  },
+  {
+    "qid": "Q850258",
+    "name": "FK Rudar Pljevlja",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3499430"
+    ]
+  },
+  {
+    "qid": "Q431139",
+    "name": "FK Sutjeska Nikšić",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q3120014"
+    ],
+    "officialWebsite": "https://www.fksutjeska.me/"
+  },
+  {
+    "qid": "Q382418",
+    "name": "FK Zeta",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q1070494"
+    ],
+    "officialWebsite": "http://www.fkzeta.net/"
+  },
+  {
+    "qid": "Q383787",
+    "name": "OFK Grbalj",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q28224942"
+    ]
+  },
+  {
+    "qid": "Q96397011",
+    "name": "OFK Mladost Donja Gorica",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": []
+  },
+  {
+    "qid": "Q537560",
+    "name": "OFK Petrovac",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q271271",
+        "tier": 1,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q508286"
+    ]
+  },
+  {
+    "qid": "Q1257626",
+    "name": "OFK Titograd",
+    "association": "MNE",
+    "leagues": [
+      {
+        "league": "Q325597",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7596294"
+    ],
+    "officialWebsite": "http://fkmladost.me"
   },
   {
     "qid": "Q24904",

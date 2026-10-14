@@ -1,5 +1,19 @@
 [
   {
+    "qid": "Q210183",
+    "association": "ALB",
+    "tier": 1,
+    "label": "Albanian Superliga",
+    "participants": 14
+  },
+  {
+    "qid": "Q116909",
+    "association": "ALB",
+    "tier": 2,
+    "label": "Albanian First Division",
+    "participants": 20
+  },
+  {
     "qid": "Q257282",
     "association": "AND",
     "tier": 1,
@@ -12,6 +26,20 @@
     "tier": 2,
     "label": "Segona Divisió",
     "participants": 11
+  },
+  {
+    "qid": "Q237181",
+    "association": "ARM",
+    "tier": 1,
+    "label": "Armenian Premier League",
+    "participants": 8
+  },
+  {
+    "qid": "Q2299810",
+    "association": "ARM",
+    "tier": 2,
+    "label": "Armenian First League",
+    "participants": 16
   },
   {
     "qid": "Q219592",
@@ -75,6 +103,20 @@
     "tier": 2,
     "label": "First League of the Republika Srpska",
     "participants": 14
+  },
+  {
+    "qid": "Q244464",
+    "association": "BLR",
+    "tier": 1,
+    "label": "Belarusian Premier League",
+    "participants": 16
+  },
+  {
+    "qid": "Q27054",
+    "association": "BLR",
+    "tier": 2,
+    "label": "Belarusian First League",
+    "participants": 18
   },
   {
     "qid": "Q12837728",
@@ -175,6 +217,20 @@
     "participants": 22
   },
   {
+    "qid": "Q239738",
+    "association": "EST",
+    "tier": 1,
+    "label": "Meistriliiga",
+    "participants": 10
+  },
+  {
+    "qid": "Q1087541",
+    "association": "EST",
+    "tier": 2,
+    "label": "Esiliiga",
+    "participants": 10
+  },
+  {
     "qid": "Q220875",
     "association": "FIN",
     "tier": 1,
@@ -201,6 +257,20 @@
     "tier": 2,
     "label": "Ligue 2",
     "participants": 18
+  },
+  {
+    "qid": "Q219007",
+    "association": "GEO",
+    "tier": 1,
+    "label": "Erovnuli Liga",
+    "participants": 10
+  },
+  {
+    "qid": "Q2270893",
+    "association": "GEO",
+    "tier": 2,
+    "label": "Erovnuli Liga 2",
+    "participants": 10
   },
   {
     "qid": "Q82595",
@@ -245,6 +315,20 @@
     "participants": 32
   },
   {
+    "qid": "Q210836",
+    "association": "ISL",
+    "tier": 1,
+    "label": "Besta deild karla",
+    "participants": 12
+  },
+  {
+    "qid": "Q2427770",
+    "association": "ISL",
+    "tier": 2,
+    "label": "1. deild karla",
+    "participants": 12
+  },
+  {
     "qid": "Q477309",
     "association": "ISR",
     "tier": 1,
@@ -285,6 +369,61 @@
     "tier": 2,
     "label": "Kazakhstan First League",
     "participants": 9
+  },
+  {
+    "qid": "Q275665",
+    "association": "LTU",
+    "tier": 1,
+    "label": "TOPLYGA",
+    "participants": 6
+  },
+  {
+    "qid": "Q209008",
+    "association": "LTU",
+    "tier": 2,
+    "label": "First League",
+    "participants": 15
+  },
+  {
+    "qid": "Q308798",
+    "association": "LVA",
+    "tier": 1,
+    "label": "Latvian Higher League",
+    "participants": 8
+  },
+  {
+    "qid": "Q163773",
+    "association": "LVA",
+    "tier": 2,
+    "label": "Latvian First League",
+    "participants": 10
+  },
+  {
+    "qid": "Q384531",
+    "association": "MDA",
+    "tier": 1,
+    "label": "Moldovan National Division",
+    "participants": 12
+  },
+  {
+    "qid": "Q370184",
+    "association": "MDA",
+    "tier": 2,
+    "label": "Moldovan Liga 1"
+  },
+  {
+    "qid": "Q271271",
+    "association": "MNE",
+    "tier": 1,
+    "label": "Montenegrin First League",
+    "participants": 10
+  },
+  {
+    "qid": "Q325597",
+    "association": "MNE",
+    "tier": 2,
+    "label": "Montenegrin Second League",
+    "participants": 12
   },
   {
     "qid": "Q167541",
