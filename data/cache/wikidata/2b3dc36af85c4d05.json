@@ -1,0 +1,101 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q318480 wd:Q58305 wd:Q275189 wd:Q2306229 wd:Q277945 wd:Q2267464 wd:Q182165 wd:Q162533 wd:Q387662 wd:Q218555 wd:Q65065999 wd:Q65066001 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T17:12:11.582Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q58305",
+      "label": "Maltese First Division",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "17"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "19"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "22"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q182165",
+      "label": "Russian Premier League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q218555",
+      "label": "Cymru Premier",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q275189",
+      "label": "First Macedonian Football League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q277945",
+      "label": "NIFL Premiership",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q318480",
+      "label": "Maltese Premier League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q387662",
+      "label": "Campionato Sammarinese di Calcio",
+      "isFootballLeague": "true",
+      "participants": "15"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2267464",
+      "label": "NIFL Championship",
+      "isFootballLeague": "true",
+      "participants": "29"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2306229",
+      "label": "Macedonian Second Football League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q65065999",
+      "label": "Cymru North",
+      "isFootballLeague": "true",
+      "participants": "17"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q65066001",
+      "label": "Cymru South",
+      "isFootballLeague": "true"
+    }
+  ]
+}

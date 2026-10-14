@@ -1,0 +1,131 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q348902 wd:Q803976 wd:Q393281 wd:Q728557 wd:Q393302 wd:Q343030 wd:Q936187 wd:Q386670 wd:Q391790 wd:Q1289495 wd:Q331589 wd:Q300812 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:12:34.529Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q300812",
+      "stadium": "http://www.wikidata.org/entity/Q277740",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.529833333 35.879166666)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%BBabbar_St._Patrick_F.C.",
+      "clubLabel": "St. Patrick F.C.",
+      "stadiumLabel": "Il-Foss"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q331589",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Valletta_F.C.",
+      "clubLabel": "Valletta F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium",
+      "website": "https://vallettafc.net/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q343030",
+      "stadium": "http://www.wikidata.org/entity/Q312415",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.4925 35.8873)",
+      "capacity": "1962",
+      "enwiki": "https://en.wikipedia.org/wiki/Hamrun_Spartans_F.C.",
+      "clubLabel": "Ħamrun Spartans F.C.",
+      "stadiumLabel": "Victor Tedesco Stadium",
+      "website": "http://www.hamrunspartans.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q348902",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Balzan_F.C.",
+      "clubLabel": "Balzan F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium",
+      "website": "https://balzanfc1937.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q386670",
+      "stadium": "http://www.wikidata.org/entity/Q6773214",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.544722 35.841667)",
+      "capacity": "1000",
+      "enwiki": "https://en.wikipedia.org/wiki/Marsaxlokk_F.C.",
+      "clubLabel": "Marsaxlokk F.C.",
+      "stadiumLabel": "Marsaxlokk Ground"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q391790",
+      "stadium": "http://www.wikidata.org/entity/Q13390049",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.43472222 35.90472222)",
+      "capacity": "600",
+      "enwiki": "https://en.wikipedia.org/wiki/Mosta_F.C.",
+      "clubLabel": "Mosta F.C.",
+      "stadiumLabel": "Mosta Ground",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Mosta.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q393302",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/G%C5%BCira_United_F.C.",
+      "clubLabel": "Gżira United F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium",
+      "website": "https://www.gziraunitedfc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q728557",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Floriana_F.C.",
+      "clubLabel": "Floriana F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium",
+      "website": "http://www.florianafc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q803976",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Birkirkara_F.C.",
+      "clubLabel": "Birkirkara F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium",
+      "website": "https://www.birkirkarafc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q936187",
+      "stadium": "http://www.wikidata.org/entity/Q1127061",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.513027777 35.882861111)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/Hibernians_F.C.",
+      "clubLabel": "Hibernians F.C.",
+      "stadiumLabel": "Tony Bezzina Stadium",
+      "website": "http://www.hiberniansfc.org/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1289495",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Sliema_Wanderers_F.C.",
+      "clubLabel": "Sliema Wanderers F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium",
+      "website": "http://www.eswfc.com/"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q393281",
+      "enwiki": "https://en.wikipedia.org/wiki/Bir%C5%BCebbu%C4%A1a_St._Peter%27s_F.C.",
+      "clubLabel": "Birzebbuga St. Peters F.C.",
+      "website": "https://www.birzebbugastpetersfc.com/"
+    }
+  ]
+}

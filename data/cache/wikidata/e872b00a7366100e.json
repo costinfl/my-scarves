@@ -1,0 +1,134 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q553732 wd:Q4747150 wd:Q809114 wd:Q4971508 wd:Q950480 wd:Q2934688 wd:Q2096167 wd:Q2479641 wd:Q1526049 wd:Q3073748 wd:Q941152 wd:Q5887222 wd:Q6661255 wd:Q16847437 wd:Q390183 wd:Q24183338 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:13:52.949Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q390183",
+      "stadium": "http://www.wikidata.org/entity/Q3365405",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.02631 52.8759)",
+      "capacity": "2056",
+      "enwiki": "https://en.wikipedia.org/wiki/The_New_Saints_F.C.",
+      "website": "https://www.tnsfc.co.uk/",
+      "clubLabel": "The New Saints F.C.",
+      "stadiumLabel": "Park Hall"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q553732",
+      "stadium": "http://www.wikidata.org/entity/Q3519736",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-2.981519 53.171492)",
+      "capacity": "1600",
+      "enwiki": "https://en.wikipedia.org/wiki/Airbus_UK_Broughton_F.C.",
+      "website": "https://airbusfc.com/",
+      "clubLabel": "Airbus UK Broughton F.C.",
+      "stadiumLabel": "The Airfield"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q809114",
+      "stadium": "http://www.wikidata.org/entity/Q6177818",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.265278 51.410833)",
+      "enwiki": "https://en.wikipedia.org/wiki/Barry_Town_United_F.C.",
+      "website": "https://barrytown.co.uk/",
+      "clubLabel": "Barry Town F.C.",
+      "stadiumLabel": "Jenner Park Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q941152",
+      "stadium": "http://www.wikidata.org/entity/Q4966243",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.96747 51.8092)",
+      "enwiki": "https://en.wikipedia.org/wiki/Haverfordwest_County_A.F.C.",
+      "website": "https://haverfordwestcountyafc.com/",
+      "clubLabel": "Haverfordwest County A.F.C.",
+      "stadiumLabel": "Bridge Meadow Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q950480",
+      "stadium": "http://www.wikidata.org/entity/Q7755723",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-4.2675 53.134722)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/Caernarfon_Town_F.C.",
+      "website": "https://www.caernarfontownfc.co.uk/",
+      "clubLabel": "Caernarfon Town F.C.",
+      "stadiumLabel": "The Oval"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1526049",
+      "stadium": "http://www.wikidata.org/entity/Q5251009",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.076504 53.225338)",
+      "capacity": "420",
+      "enwiki": "https://en.wikipedia.org/wiki/Connah%27s_Quay_Nomads_F.C.",
+      "website": "https://www.the-nomads.co.uk/",
+      "clubLabel": "Gap Connah's Quay F.C.",
+      "stadiumLabel": "Deeside Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6661255",
+      "stadium": "http://www.wikidata.org/entity/Q21999692",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-3.8296 53.3158)",
+      "enwiki": "https://en.wikipedia.org/wiki/Llandudno_F.C.",
+      "website": "http://www.pitchero.com/clubs/llandudno/",
+      "clubLabel": "Llandudno F.C.",
+      "stadiumLabel": "Maesdu Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2096167",
+      "enwiki": "https://en.wikipedia.org/wiki/Cardiff_Met_F.C.",
+      "website": "https://cardiffmetfc.wixsite.com/mysite",
+      "clubLabel": "Cardiff Metropolitan University F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2479641",
+      "enwiki": "https://en.wikipedia.org/wiki/Colwyn_Bay_F.C.",
+      "website": "http://www.colwynbayfc.co.uk",
+      "clubLabel": "Colwyn Bay F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2934688",
+      "enwiki": "https://en.wikipedia.org/wiki/Cambrian_United_F.C.",
+      "website": "https://www.cambrianbgc.co.uk/",
+      "clubLabel": "Cambrian United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3073748",
+      "enwiki": "https://en.wikipedia.org/wiki/Flint_Town_United_F.C.",
+      "website": "https://flinttownunited.co.uk/",
+      "clubLabel": "Flint Town United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4747150",
+      "enwiki": "https://en.wikipedia.org/wiki/Ammanford_A.F.C.",
+      "website": "http://www.ammanfordtownafc.co.uk/default.aspx",
+      "clubLabel": "Ammanford A.F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4971508",
+      "enwiki": "https://en.wikipedia.org/wiki/Briton_Ferry_Llansawel_A.F.C.",
+      "website": "http://www.britonferryllansawelafc.com/",
+      "clubLabel": "Briton Ferry Llansawel A.F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5887222",
+      "enwiki": "https://en.wikipedia.org/wiki/Holywell_Town_F.C.",
+      "website": "http://www.holywelltownfc.co.uk/",
+      "clubLabel": "Holywell Town F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16847437",
+      "enwiki": "https://en.wikipedia.org/wiki/Penybont_F.C.",
+      "website": "https://www.penybontfc.co.uk/",
+      "clubLabel": "Pen-y-Bont FC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24183338",
+      "enwiki": "https://en.wikipedia.org/wiki/Trefelin_B.G.C.",
+      "website": "https://trefelinbgc.com/",
+      "clubLabel": "Trefelin BGC"
+    }
+  ]
+}

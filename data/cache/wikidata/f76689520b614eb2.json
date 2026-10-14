@@ -1,0 +1,144 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q1642914 wd:Q24914473 wd:Q5426314 wd:Q5426144 wd:Q17070682 wd:Q2507730 wd:Q402922 wd:Q2580193 wd:Q528485 wd:Q3400306 wd:Q38124 wd:Q208574 wd:Q16839383 wd:Q218789 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:12:30.168Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q208574",
+      "stadium": "http://www.wikidata.org/entity/Q1164804",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.425592 42.005733)",
+      "capacity": "33460",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Rabotnicki",
+      "website": "http://www.fkrabotnicki.com/",
+      "clubLabel": "FK Rabotnički",
+      "stadiumLabel": "Arena ”Philip II. of Macedonia / Toše Proeski / Todor”"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q218789",
+      "stadium": "http://www.wikidata.org/entity/Q3396233",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.978179 42.018692)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Teteks",
+      "website": "http://www.napred-teteks.mk/",
+      "clubLabel": "FK Teteks",
+      "stadiumLabel": "Gradski stadion Tetovo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q402922",
+      "stadium": "http://www.wikidata.org/entity/Q2047802",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.36 42.00222222)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Makedonija_G.P.",
+      "website": "https://fkmakedonija.mk/",
+      "clubLabel": "FK Makedonija Gjorče Petrov",
+      "stadiumLabel": "Ǵorče Petrov Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q528485",
+      "stadium": "http://www.wikidata.org/entity/Q7392799",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.812333 41.105104)",
+      "capacity": "2500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Ohrid",
+      "clubLabel": "FK Ohrid",
+      "stadiumLabel": "SRC Biljanini Izvori"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1642914",
+      "stadium": "http://www.wikidata.org/entity/Q1983063",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.637708 41.4462)",
+      "capacity": "6500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Belasica",
+      "website": "https://fkbelasica.mk/",
+      "clubLabel": "FK Belasica",
+      "stadiumLabel": "Stadion Mladost"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3400306",
+      "stadium": "http://www.wikidata.org/entity/Q7596322",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.406394 41.908356)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Osogovo",
+      "website": "http://www.fkosogovo.com/",
+      "clubLabel": "FK Osogovo",
+      "stadiumLabel": "Nikola Mantov Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Gfk-osogovo-kocani-logo.png"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426144",
+      "stadium": "http://www.wikidata.org/entity/Q741274",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.452619 41.96812)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Gorno_Lisi%C4%8De",
+      "clubLabel": "FK Gorno Lisiče",
+      "stadiumLabel": "Cementarnica Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426144",
+      "stadium": "http://www.wikidata.org/entity/Q110135553",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.490573766 41.968573885)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Gorno_Lisi%C4%8De",
+      "clubLabel": "FK Gorno Lisiče",
+      "stadiumLabel": "Gorno Lisiče Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16839383",
+      "stadium": "http://www.wikidata.org/entity/Q16256063",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.4443 42.0155)",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Shkupi",
+      "website": "https://fcshkupi.com/",
+      "clubLabel": "FK Shkupi",
+      "stadiumLabel": "Čair Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q24914473",
+      "stadium": "http://www.wikidata.org/entity/Q1983063",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.637708 41.4462)",
+      "capacity": "6500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_AP_Brera_Strumica",
+      "website": "http://fkakademijapandev.mk",
+      "clubLabel": "Akademija Pandev",
+      "stadiumLabel": "Stadion Mladost"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q38124",
+      "stadium": "http://www.wikidata.org/entity/Q3405491",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.338889 41.018056)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Pelister",
+      "website": "https://fkpelister.mk/",
+      "clubLabel": "FK Pelister",
+      "stadiumLabel": "Stadion Tumbe Kafe",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Pelister%20%28logo%29.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2507730",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kozhuf",
+      "website": "http://fckozuf.com/",
+      "clubLabel": "FK Kožuf"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2580193",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Novaci",
+      "clubLabel": "FK Novaci"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426314",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Detonit_Plachkovica",
+      "clubLabel": "FK Plačkovica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q17070682",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Kamjani",
+      "clubLabel": "FK Kamjan"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q58247 wd:Q239173 wd:Q393286 wd:Q2092786 wd:Q9197184 wd:Q3337356 wd:Q679572 wd:Q142581 wd:Q7530160 wd:Q484990 wd:Q142570 wd:Q930725 wd:Q5649871 wd:Q163447 wd:Q312423 wd:Q312768 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:12:40.152Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q142570",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Swieqi_United_F.C.",
+      "website": "http://www.swieqiunitedfc.com/en/home.htm",
+      "clubLabel": "Swieqi United F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q163447",
+      "stadium": "http://www.wikidata.org/entity/Q5472661",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.52501 35.88636)",
+      "enwiki": "https://en.wikipedia.org/wiki/Vittoriosa_Stars_F.C.",
+      "website": "http://www.freewebs.com/vittoriosafc",
+      "clubLabel": "Vittoriosa Stars F.C.",
+      "stadiumLabel": "Fortini Ground"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q312768",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%BBurrieq_F.C.",
+      "clubLabel": "Żurrieq F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q484990",
+      "stadium": "http://www.wikidata.org/entity/Q39049589",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.475277777 35.923888888)",
+      "capacity": "800",
+      "enwiki": "https://en.wikipedia.org/wiki/St._Andrews_F.C._(Malta)",
+      "website": "http://www.luxolsportsclub.com/fc.asp",
+      "clubLabel": "St. Andrews F.C.",
+      "stadiumLabel": "Luxol Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q679572",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Piet%C3%A0_Hotspurs_F.C.",
+      "clubLabel": "Pietà Hotspurs F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q930725",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Tarxien_Rainbows_F.C.",
+      "website": "http://www.freewebs.com/tarxienfc/",
+      "clubLabel": "Tarxien Rainbows F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2092786",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Melita_F.C.",
+      "clubLabel": "Melita F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3337356",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/Naxxar_Lions_F.C.",
+      "clubLabel": "Naxxar Lions F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7530160",
+      "stadium": "http://www.wikidata.org/entity/Q16632525",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.4148 35.9453)",
+      "capacity": "600",
+      "enwiki": "https://en.wikipedia.org/wiki/Sirens_F.C.",
+      "clubLabel": "Sirens F.C.",
+      "stadiumLabel": "Sirens Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9197184",
+      "stadium": "http://www.wikidata.org/entity/Q1354010",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.415372222 35.894863888)",
+      "capacity": "17797",
+      "enwiki": "https://en.wikipedia.org/wiki/M%C4%A1arr_United_F.C.",
+      "website": "http://www.mgarrutd.com/",
+      "clubLabel": "Mgarr United F.C.",
+      "stadiumLabel": "Ta' Qali National Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q142581",
+      "enwiki": "https://en.wikipedia.org/wiki/St._Lucia_F.C.",
+      "website": "https://santaluciafc.com/",
+      "clubLabel": "St. Lucia F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q239173",
+      "enwiki": "https://en.wikipedia.org/wiki/Fgura_United_F.C.",
+      "website": "http://www.fguraunitedfc.com/",
+      "clubLabel": "Fgura United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q312423",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%BBebbu%C4%A1_Rangers_F.C.",
+      "clubLabel": "Zebbug Rangers F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q393286",
+      "enwiki": "https://en.wikipedia.org/wiki/Gudja_United_F.C.",
+      "website": "https://www.gudjaunitedfc.com/",
+      "clubLabel": "Gudja United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5649871",
+      "enwiki": "https://en.wikipedia.org/wiki/Victoria_Hotspurs_F.C.",
+      "website": "https://www.victoriahotspursfc.com/",
+      "clubLabel": "Victoria Hotspurs F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q58247",
+      "enwiki": "https://en.wikipedia.org/wiki/Attard_F.C.",
+      "website": "http://attardfootballclub.webs.com/",
+      "clubLabel": "Attard F.C."
+    }
+  ]
+}

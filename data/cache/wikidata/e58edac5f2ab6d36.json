@@ -1,0 +1,132 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q2212732 wd:Q2007987 wd:Q2448170 wd:Q674454 wd:Q771539 wd:Q1130432 wd:Q4496023 wd:Q1082980 wd:Q2244751 wd:Q674867 wd:Q7018275 wd:Q9213755 wd:Q2427114 wd:Q7295636 wd:Q16850885 wd:Q2252351 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T17:12:49.311Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q674454",
+      "stadium": "http://www.wikidata.org/entity/Q5445082",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.59311 54.425)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/Ballinamallard_United_F.C.",
+      "website": "https://www.ballinamallardfc.co.uk/",
+      "clubLabel": "Ballinamallard United F.C.",
+      "stadiumLabel": "Ferney Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q674867",
+      "stadium": "http://www.wikidata.org/entity/Q15253406",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.55643833 54.780155)",
+      "enwiki": "https://en.wikipedia.org/wiki/Moyola_Park_F.C.",
+      "website": "https://www.moyolaparkfc.co.uk/",
+      "clubLabel": "Moyola Park F.C.",
+      "stadiumLabel": "Mill Meadow"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1082980",
+      "stadium": "http://www.wikidata.org/entity/Q8045949",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-7.278392 54.976122)",
+      "capacity": "3110",
+      "enwiki": "https://en.wikipedia.org/wiki/Institute_F.C.",
+      "website": "https://institutefc.co.uk/",
+      "clubLabel": "Institute F.C.",
+      "stadiumLabel": "Riverside Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1130432",
+      "stadium": "http://www.wikidata.org/entity/Q1950993",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.336389 54.453889)",
+      "capacity": "4160",
+      "enwiki": "https://en.wikipedia.org/wiki/Glenavon_F.C.",
+      "website": "https://www.glenavonfc.com/",
+      "clubLabel": "Glenavon F.C.",
+      "stadiumLabel": "Mourneview Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2007987",
+      "stadium": "http://www.wikidata.org/entity/Q5125755",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.68447 54.6516)",
+      "enwiki": "https://en.wikipedia.org/wiki/Ards_F.C.",
+      "website": "https://www.ardsfc.co.uk/",
+      "clubLabel": "Ards F.C.",
+      "stadiumLabel": "Clandeboye Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7018275",
+      "stadium": "http://www.wikidata.org/entity/Q7442251",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-5.921925 54.624294)",
+      "capacity": "3383",
+      "enwiki": "https://en.wikipedia.org/wiki/Newington_F.C.",
+      "website": "http://www.newingtonfc.com/",
+      "clubLabel": "Newington Youth F.C.",
+      "stadiumLabel": "Seaview"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q9213755",
+      "stadium": "http://www.wikidata.org/entity/Q7764041",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(-6.320606 54.150444)",
+      "capacity": "7949",
+      "enwiki": "https://en.wikipedia.org/wiki/Newry_City_A.F.C.",
+      "website": "http://www.newrycityafc.co.uk/",
+      "clubLabel": "Newry City A.F.C.",
+      "stadiumLabel": "The Showgrounds"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q771539",
+      "enwiki": "https://en.wikipedia.org/wiki/Dundela_F.C.",
+      "clubLabel": "Dundela F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2212732",
+      "enwiki": "https://en.wikipedia.org/wiki/Annagh_United_F.C.",
+      "website": "https://www.annaghunited.co.uk/",
+      "clubLabel": "Annagh United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2244751",
+      "enwiki": "https://en.wikipedia.org/wiki/Loughgall_F.C.",
+      "website": "https://loughgallfc.co.uk/",
+      "clubLabel": "Loughgall F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2252351",
+      "enwiki": "https://en.wikipedia.org/wiki/Warrenpoint_Town_F.C.",
+      "website": "https://www.warrenpointtownfc.co.uk/",
+      "clubLabel": "Warrenpoint Town F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2427114",
+      "enwiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast_A.F.C.",
+      "clubLabel": "Queen's University Belfast A.F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2448170",
+      "enwiki": "https://en.wikipedia.org/wiki/Armagh_City_F.C.",
+      "website": "https://www.armaghcityfc.co.uk/",
+      "clubLabel": "Armagh City F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4496023",
+      "enwiki": "https://en.wikipedia.org/wiki/Harland_%26_Wolff_Welders_F.C.",
+      "website": "http://www.weldersfc.com/",
+      "clubLabel": "Harland & Wolff Welders F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7295636",
+      "enwiki": "https://en.wikipedia.org/wiki/Rathfriland_Rangers_F.C.",
+      "clubLabel": "Rathfriland Rangers F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16850885",
+      "enwiki": "https://en.wikipedia.org/wiki/Strabane_Athletic_F.C.",
+      "website": "http://www.strabaneathleticfc.co.uk/",
+      "clubLabel": "Strabane Athletic F.C."
+    }
+  ]
+}

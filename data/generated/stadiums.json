@@ -42,6 +42,13 @@
     "capacity": 32490
   },
   {
+    "qid": "Q27622",
+    "name": "Petrovsky Stadium",
+    "lat": 59.951944,
+    "lon": 30.286389,
+    "capacity": 21504
+  },
+  {
     "qid": "Q28500",
     "name": "Stadio Renzo Barbera",
     "lat": 38.152767,
@@ -483,6 +490,13 @@
     "capacity": 42640
   },
   {
+    "qid": "Q176401",
+    "name": "The Oval",
+    "lat": 54.602964,
+    "lon": -5.891319,
+    "capacity": 26556
+  },
+  {
     "qid": "Q180479",
     "name": "Donbass Arena",
     "lat": 48.020833,
@@ -532,6 +546,20 @@
     "capacity": 38512
   },
   {
+    "qid": "Q190779",
+    "name": "Central Stadium Yekaterinburg",
+    "lat": 56.83244,
+    "lon": 60.57358,
+    "capacity": 42500
+  },
+  {
+    "qid": "Q190781",
+    "name": "Central Stadium",
+    "lat": 55.796944,
+    "lon": 49.098889,
+    "capacity": 27756
+  },
+  {
     "qid": "Q190784",
     "name": "Aktobe Central Stadium",
     "lat": 50.291389,
@@ -565,6 +593,13 @@
     "lat": 53.225974,
     "lon": 63.636578,
     "capacity": 8323
+  },
+  {
+    "qid": "Q190799",
+    "name": "Tsentralnyi Profsoyuz Stadion",
+    "lat": 51.672778,
+    "lon": 39.204167,
+    "capacity": 32750
   },
   {
     "qid": "Q191774",
@@ -607,6 +642,13 @@
     "lat": 43.269241,
     "lon": 5.394907,
     "capacity": 67394
+  },
+  {
+    "qid": "Q202163",
+    "name": "Luzhniki Stadium",
+    "lat": 55.715833333,
+    "lon": 37.553611111,
+    "capacity": 78360
   },
   {
     "qid": "Q202762",
@@ -791,6 +833,13 @@
     "capacity": 6150
   },
   {
+    "qid": "Q256773",
+    "name": "Dynamo Stadium",
+    "lat": 42.97982222,
+    "lon": 47.50720556,
+    "capacity": 15200
+  },
+  {
     "qid": "Q259307",
     "name": "Hidegkuti Nándor Stadion",
     "lat": 47.490919444,
@@ -830,6 +879,13 @@
     "lat": 39.996053,
     "lon": -0.038792,
     "capacity": 16000
+  },
+  {
+    "qid": "Q264906",
+    "name": "Republican Spartak Stadium",
+    "lat": 43.023056,
+    "lon": 44.695,
+    "capacity": 32464
   },
   {
     "qid": "Q265199",
@@ -923,6 +979,13 @@
     "capacity": 13000
   },
   {
+    "qid": "Q277740",
+    "name": "Il-Foss",
+    "lat": 35.879166666,
+    "lon": 14.529833333,
+    "capacity": 1000
+  },
+  {
     "qid": "Q278923",
     "name": "A. Le Coq Arena",
     "lat": 59.421292,
@@ -1007,6 +1070,13 @@
     "capacity": 24000
   },
   {
+    "qid": "Q312415",
+    "name": "Victor Tedesco Stadium",
+    "lat": 35.8873,
+    "lon": 14.4925,
+    "capacity": 1962
+  },
+  {
     "qid": "Q318043",
     "name": "Craven Cottage",
     "lat": 51.475,
@@ -1070,6 +1140,13 @@
     "capacity": 29546
   },
   {
+    "qid": "Q340551",
+    "name": "Akhmat-Arena",
+    "lat": 43.32317778,
+    "lon": 45.74525278,
+    "capacity": 30597
+  },
+  {
     "qid": "Q348848",
     "name": "Stadion Slavko Maletin Vava",
     "lat": 45.240278,
@@ -1117,6 +1194,13 @@
     "lat": 54.222361111,
     "lon": 28.490277777,
     "capacity": 5402
+  },
+  {
+    "qid": "Q384886",
+    "name": "Shinnik Stadium",
+    "lat": 57.628729,
+    "lon": 39.867486,
+    "capacity": 22990
   },
   {
     "qid": "Q385083",
@@ -1539,6 +1623,13 @@
     "capacity": 30404
   },
   {
+    "qid": "Q595887",
+    "name": "Metallurg Stadium",
+    "lat": 53.238333,
+    "lon": 50.271667,
+    "capacity": 35330
+  },
+  {
     "qid": "Q597004",
     "name": "Rheinpark Stadion",
     "lat": 47.140277777,
@@ -1924,6 +2015,13 @@
     "capacity": 12500
   },
   {
+    "qid": "Q722970",
+    "name": "Gazprom Arena",
+    "lat": 59.972953,
+    "lon": 30.220533,
+    "capacity": 80000
+  },
+  {
     "qid": "Q723603",
     "name": "Stadion Maksimir",
     "lat": 45.818858333,
@@ -1950,6 +2048,13 @@
     "lat": 50.063611,
     "lon": 19.911944,
     "capacity": 33130
+  },
+  {
+    "qid": "Q728131",
+    "name": "San Marino Stadium",
+    "lat": 43.97125,
+    "lon": 12.476972,
+    "capacity": 6664
   },
   {
     "qid": "Q732509",
@@ -2020,6 +2125,13 @@
     "lat": 39.944167,
     "lon": -0.103611,
     "capacity": 24891
+  },
+  {
+    "qid": "Q741274",
+    "name": "Cementarnica Stadium",
+    "lat": 41.96812,
+    "lon": 21.452619,
+    "capacity": 2000
   },
   {
     "qid": "Q746559",
@@ -2152,6 +2264,13 @@
     "lat": 42.684258,
     "lon": 23.339769,
     "capacity": 22015
+  },
+  {
+    "qid": "Q805422",
+    "name": "Ballymena Showgrounds",
+    "lat": 54.869142,
+    "lon": -6.262867,
+    "capacity": 4100
   },
   {
     "qid": "Q806110",
@@ -2650,6 +2769,13 @@
     "capacity": 4650
   },
   {
+    "qid": "Q1049601",
+    "name": "Windsor Park",
+    "lat": 54.5825,
+    "lon": -5.955,
+    "capacity": 18500
+  },
+  {
     "qid": "Q1053455",
     "name": "Stade de la Beaujoire",
     "lat": 47.2561,
@@ -2780,6 +2906,13 @@
     "lat": 42.901751,
     "lon": 71.382224,
     "capacity": 12525
+  },
+  {
+    "qid": "Q1127061",
+    "name": "Tony Bezzina Stadium",
+    "lat": 35.882861111,
+    "lon": 14.513027777,
+    "capacity": 2000
   },
   {
     "qid": "Q1127808",
@@ -2957,6 +3090,13 @@
     "capacity": 14891
   },
   {
+    "qid": "Q1149601",
+    "name": "Fisht Olympic Stadium",
+    "lat": 43.401769445,
+    "lon": 39.955858093,
+    "capacity": 25000
+  },
+  {
     "qid": "Q1158113",
     "name": "Dalymount Park",
     "lat": 53.361667,
@@ -2976,6 +3116,13 @@
     "lat": 55.631922,
     "lon": 12.482878,
     "capacity": 12000
+  },
+  {
+    "qid": "Q1164804",
+    "name": "Arena ”Philip II. of Macedonia / Toše Proeski / Todor”",
+    "lat": 42.005733,
+    "lon": 21.425592,
+    "capacity": 33460
   },
   {
     "qid": "Q1165409",
@@ -3004,6 +3151,13 @@
     "lat": 37.7659,
     "lon": 29.0823,
     "capacity": 15427
+  },
+  {
+    "qid": "Q1190634",
+    "name": "Lukoil Arena",
+    "lat": 55.8178,
+    "lon": 37.4403,
+    "capacity": 45360
   },
   {
     "qid": "Q1196095",
@@ -3039,6 +3193,13 @@
     "lat": 60.495,
     "lon": 15.434166666,
     "capacity": 6500
+  },
+  {
+    "qid": "Q1246579",
+    "name": "Solitude",
+    "lat": 54.619517,
+    "lon": -5.947272,
+    "capacity": 2530
   },
   {
     "qid": "Q1253767",
@@ -3101,6 +3262,13 @@
     "name": "Serpugerði Stadium",
     "lat": 62.199788,
     "lon": -6.74552
+  },
+  {
+    "qid": "Q1287840",
+    "name": "Eduard Streltsov Stadium",
+    "lat": 55.716389,
+    "lon": 37.656389,
+    "capacity": 13450
   },
   {
     "qid": "Q1291459",
@@ -3227,6 +3395,13 @@
     "lat": 47.78672,
     "lon": 3.58871,
     "capacity": 18541
+  },
+  {
+    "qid": "Q1354010",
+    "name": "Ta' Qali National Stadium",
+    "lat": 35.894863888,
+    "lon": 14.415372222,
+    "capacity": 17797
   },
   {
     "qid": "Q1369118",
@@ -3495,6 +3670,13 @@
     "capacity": 8087
   },
   {
+    "qid": "Q1475155",
+    "name": "VTB Arena",
+    "lat": 55.7914,
+    "lon": 37.5597,
+    "capacity": 25712
+  },
+  {
     "qid": "Q1483409",
     "name": "Stade Saint-Symphorien",
     "lat": 49.109945,
@@ -3612,6 +3794,13 @@
     "lat": 56.11666667,
     "lon": 8.95166667,
     "capacity": 11809
+  },
+  {
+    "qid": "Q1558939",
+    "name": "Kuban Stadium",
+    "lat": 45.025277777,
+    "lon": 38.999444444,
+    "capacity": 31654
   },
   {
     "qid": "Q1565485",
@@ -3866,6 +4055,13 @@
     "capacity": 12500
   },
   {
+    "qid": "Q1786020",
+    "name": "Olimp-2",
+    "lat": 47.24301111,
+    "lon": 39.76105278,
+    "capacity": 15840
+  },
+  {
     "qid": "Q1786202",
     "name": "Victoria Park",
     "lat": 57.5959,
@@ -4048,6 +4244,13 @@
     "capacity": 26240
   },
   {
+    "qid": "Q1950993",
+    "name": "Mourneview Park",
+    "lat": 54.453889,
+    "lon": -6.336389,
+    "capacity": 4160
+  },
+  {
     "qid": "Q1958120",
     "name": "De Herdgang",
     "lat": 51.4608,
@@ -4062,6 +4265,13 @@
     "capacity": 19433
   },
   {
+    "qid": "Q1964873",
+    "name": "Trud Stadium",
+    "lat": 56.47416667,
+    "lon": 84.95666667,
+    "capacity": 15000
+  },
+  {
     "qid": "Q1970138",
     "name": "Oleksiy Butovskyi Vorskla Stadium",
     "lat": 49.594833,
@@ -4074,6 +4284,13 @@
     "lat": 55.7822,
     "lon": -4.0585,
     "capacity": 6078
+  },
+  {
+    "qid": "Q1983063",
+    "name": "Stadion Mladost",
+    "lat": 41.4462,
+    "lon": 22.637708,
+    "capacity": 6500
   },
   {
     "qid": "Q1984498",
@@ -4132,6 +4349,13 @@
     "capacity": 15004
   },
   {
+    "qid": "Q2026363",
+    "name": "Central Stadium",
+    "lat": 46.38194444,
+    "lon": 48.05083333,
+    "capacity": 17712
+  },
+  {
     "qid": "Q2034376",
     "name": "Fiolent Stadium",
     "lat": 44.960947,
@@ -4181,6 +4405,12 @@
     "capacity": 4000
   },
   {
+    "qid": "Q2047802",
+    "name": "Ǵorče Petrov Stadium",
+    "lat": 42.00222222,
+    "lon": 21.36
+  },
+  {
     "qid": "Q2059396",
     "name": "Vitebsky Central Sport Complex",
     "lat": 55.198472222,
@@ -4200,6 +4430,13 @@
     "lat": 50.298611,
     "lon": 34.889722,
     "capacity": 5256
+  },
+  {
+    "qid": "Q2072698",
+    "name": "Lenin Stadium",
+    "lat": 48.47888889,
+    "lon": 135.04638889,
+    "capacity": 15200
   },
   {
     "qid": "Q2075609",
@@ -4404,6 +4641,13 @@
     "capacity": 18151
   },
   {
+    "qid": "Q2330865",
+    "name": "Stangmore Park",
+    "lat": 54.496307,
+    "lon": -6.714135,
+    "capacity": 5000
+  },
+  {
     "qid": "Q2333092",
     "name": "Víkingsvöllur",
     "lat": 64.117222,
@@ -4561,6 +4805,13 @@
     "capacity": 2000
   },
   {
+    "qid": "Q2660798",
+    "name": "Spartak Stadium",
+    "lat": 43.469537,
+    "lon": 43.590338,
+    "capacity": 14400
+  },
+  {
     "qid": "Q2661079",
     "name": "Central Stadium",
     "lat": 52.436527777,
@@ -4707,6 +4958,13 @@
     "capacity": 2450
   },
   {
+    "qid": "Q3080082",
+    "name": "Krasnodar Stadium",
+    "lat": 45.044166666,
+    "lon": 39.029444444,
+    "capacity": 36260
+  },
+  {
     "qid": "Q3120014",
     "name": "Gradski stadion",
     "lat": 42.784947,
@@ -4803,6 +5061,34 @@
     "lat": 44.020872,
     "lon": 20.899194,
     "capacity": 15100
+  },
+  {
+    "qid": "Q3365405",
+    "name": "Park Hall",
+    "lat": 52.8759,
+    "lon": -3.02631,
+    "capacity": 2056
+  },
+  {
+    "qid": "Q3396233",
+    "name": "Gradski stadion Tetovo",
+    "lat": 42.018692,
+    "lon": 20.978179,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q3405290",
+    "name": "Gradski stadion Kratovo",
+    "lat": 42.0808178,
+    "lon": 22.1610253,
+    "capacity": 1800
+  },
+  {
+    "qid": "Q3405491",
+    "name": "Stadion Tumbe Kafe",
+    "lat": 41.018056,
+    "lon": 21.338889,
+    "capacity": 8000
   },
   {
     "qid": "Q3434169",
@@ -4929,6 +5215,13 @@
     "lat": 41.332833,
     "lon": -8.564367,
     "capacity": 5017
+  },
+  {
+    "qid": "Q3481323",
+    "name": "Shamrock Park",
+    "lat": 54.413056,
+    "lon": -6.457778,
+    "capacity": 3940
   },
   {
     "qid": "Q3495624",
@@ -5091,6 +5384,13 @@
     "lon": 18.034444444
   },
   {
+    "qid": "Q3519736",
+    "name": "The Airfield",
+    "lat": 53.171492,
+    "lon": -2.981519,
+    "capacity": 1600
+  },
+  {
     "qid": "Q3525082",
     "name": "Acre Municipal Stadium",
     "lat": 32.907897,
@@ -5161,6 +5461,13 @@
     "capacity": 11800
   },
   {
+    "qid": "Q3624232",
+    "name": "Bashkimi 1947 Stadium",
+    "lat": 42.1420989,
+    "lon": 21.7099741,
+    "capacity": 3000
+  },
+  {
     "qid": "Q3625090",
     "name": "Hristo Botev Stadium",
     "lat": 42.026389,
@@ -5180,11 +5487,44 @@
     "capacity": 2024
   },
   {
+    "qid": "Q3647691",
+    "name": "Sochi Central Stadium",
+    "lat": 43.56511389,
+    "lon": 39.75264722,
+    "capacity": 10200
+  },
+  {
     "qid": "Q3650758",
     "name": "Olimpi Stadium",
     "lat": 41.78083333,
     "lon": 44.77611111,
     "capacity": 3000
+  },
+  {
+    "qid": "Q3654708",
+    "name": "Campo sportivo di Borgo Maggiore",
+    "lat": 43.9351,
+    "lon": 12.4518,
+    "capacity": 1000
+  },
+  {
+    "qid": "Q3654709",
+    "name": "Campo Sportivo di Chiesanuova",
+    "capacity": 300
+  },
+  {
+    "qid": "Q3654711",
+    "name": "Campo sportivo di Domagnano",
+    "lat": 43.9453,
+    "lon": 12.4661,
+    "capacity": 500
+  },
+  {
+    "qid": "Q3654715",
+    "name": "Campo Sportivo di Fiorentino",
+    "lat": 43.908667,
+    "lon": 12.447944,
+    "capacity": 700
   },
   {
     "qid": "Q3655367",
@@ -5194,11 +5534,25 @@
     "capacity": 15590
   },
   {
+    "qid": "Q3655413",
+    "name": "Arsenal Stadium",
+    "lat": 54.174167,
+    "lon": 37.603056,
+    "capacity": 20048
+  },
+  {
     "qid": "Q3658742",
     "name": "Chavdar Tsvetkov Stadium",
     "lat": 42.962222,
     "lon": 23.35,
     "capacity": 3500
+  },
+  {
+    "qid": "Q3660718",
+    "name": "Anji Arena",
+    "lat": 42.907901,
+    "lon": 47.618587,
+    "capacity": 30000
   },
   {
     "qid": "Q3967506",
@@ -5269,11 +5623,25 @@
     "capacity": 8500
   },
   {
+    "qid": "Q4131718",
+    "name": "Gazovik Stadium",
+    "lat": 51.785063888,
+    "lon": 55.221080555,
+    "capacity": 7500
+  },
+  {
     "qid": "Q4135023",
     "name": "Nova Bavaria Stadium",
     "lat": 49.946,
     "lon": 36.1812,
     "capacity": 2057
+  },
+  {
+    "qid": "Q4161834",
+    "name": "Dynamo Stadium",
+    "lat": 53.244986,
+    "lon": 34.359617,
+    "capacity": 10100
   },
   {
     "qid": "Q4172992",
@@ -5297,6 +5665,13 @@
     "capacity": 1560
   },
   {
+    "qid": "Q4206220",
+    "name": "KAMAZ Stadium",
+    "lat": 55.73207778,
+    "lon": 52.41781944,
+    "capacity": 10000
+  },
+  {
     "qid": "Q4206440",
     "name": "KT Sport Arena",
     "lat": 45.0136,
@@ -5309,6 +5684,27 @@
     "lat": 49.243333,
     "lon": 28.489722,
     "capacity": 14000
+  },
+  {
+    "qid": "Q4265835",
+    "name": "Lokomotiv Stadium",
+    "lat": 51.539215,
+    "lon": 45.998533,
+    "capacity": 15000
+  },
+  {
+    "qid": "Q4318126",
+    "name": "Neftekhimik Stadium",
+    "lat": 55.6334,
+    "lon": 51.8025,
+    "capacity": 3200
+  },
+  {
+    "qid": "Q4318145",
+    "name": "Neftyanik",
+    "lat": 54.8259,
+    "lon": 56.0614,
+    "capacity": 15132
   },
   {
     "qid": "Q4347737",
@@ -5330,11 +5726,32 @@
     "capacity": 12000
   },
   {
+    "qid": "Q4366184",
+    "name": "Volgograd Arena",
+    "lat": 48.7346,
+    "lon": 44.5481,
+    "capacity": 45568
+  },
+  {
+    "qid": "Q4405359",
+    "name": "Central Stadium",
+    "lat": 55.998333333,
+    "lon": 92.884722222,
+    "capacity": 22500
+  },
+  {
     "qid": "Q4412504",
     "name": "Rovaniemen keskuskenttä",
     "lat": 66.4997,
     "lon": 25.7217,
     "capacity": 2500
+  },
+  {
+    "qid": "Q4430719",
+    "name": "Spartakovets Stadium",
+    "lat": 55.8097,
+    "lon": 37.7131,
+    "capacity": 5000
   },
   {
     "qid": "Q4430720",
@@ -5356,6 +5773,27 @@
     "lat": 54.192777777,
     "lon": 28.475694444,
     "capacity": 13121
+  },
+  {
+    "qid": "Q4439098",
+    "name": "Rostec Arena",
+    "lat": 54.698055555,
+    "lon": 20.533888888,
+    "capacity": 45015
+  },
+  {
+    "qid": "Q4439099",
+    "name": "Samara Arena",
+    "lat": 53.277534,
+    "lon": 50.23769,
+    "capacity": 44918
+  },
+  {
+    "qid": "Q4439101",
+    "name": "Rostov Arena",
+    "lat": 47.2094,
+    "lon": 39.7378,
+    "capacity": 45000
   },
   {
     "qid": "Q4444132",
@@ -5397,6 +5835,13 @@
     "name": "Yunost Stadium",
     "lat": 53.8931,
     "lon": 25.2903
+  },
+  {
+    "qid": "Q4504246",
+    "name": "Central Stadium",
+    "lat": 55.1662,
+    "lon": 61.3761,
+    "capacity": 15000
   },
   {
     "qid": "Q4534625",
@@ -5523,6 +5968,12 @@
     "capacity": 5000
   },
   {
+    "qid": "Q4966243",
+    "name": "Bridge Meadow Stadium",
+    "lat": 51.8092,
+    "lon": -4.96747
+  },
+  {
     "qid": "Q4968684",
     "name": "Briskeby Arena",
     "lat": 60.795556,
@@ -5542,6 +5993,13 @@
     "lat": 39.09487778,
     "lon": -9.25659444,
     "capacity": 2431
+  },
+  {
+    "qid": "Q5038434",
+    "name": "Cardiff International Sports Stadium",
+    "lat": 51.473056,
+    "lon": -3.21,
+    "capacity": 4953
   },
   {
     "qid": "Q5123439",
@@ -5564,6 +6022,12 @@
     "lon": 20.974728
   },
   {
+    "qid": "Q5125755",
+    "name": "Clandeboye Park",
+    "lat": 54.6516,
+    "lon": -5.68447
+  },
+  {
     "qid": "Q5205780",
     "name": "EXTRA Arena",
     "lat": 63.428376,
@@ -5583,6 +6047,13 @@
     "lat": 44.03333333,
     "lon": 20.45,
     "capacity": 4500
+  },
+  {
+    "qid": "Q5251009",
+    "name": "Deeside Stadium",
+    "lat": 53.225338,
+    "lon": -3.076504,
+    "capacity": 420
   },
   {
     "qid": "Q5265659",
@@ -5633,6 +6104,13 @@
     "capacity": 7280
   },
   {
+    "qid": "Q5445082",
+    "name": "Ferney Park",
+    "lat": 54.425,
+    "lon": -7.59311,
+    "capacity": 2000
+  },
+  {
     "qid": "Q5445530",
     "name": "Ferrycarrig Park",
     "lat": 52.3656,
@@ -5645,6 +6123,12 @@
     "lat": 57.19591667,
     "lon": 14.04280556,
     "capacity": 5000
+  },
+  {
+    "qid": "Q5472661",
+    "name": "Fortini Ground",
+    "lat": 35.88636,
+    "lon": 14.52501
   },
   {
     "qid": "Q5493026",
@@ -5673,6 +6157,20 @@
     "lat": 55.7153,
     "lon": 21.4044,
     "capacity": 2000
+  },
+  {
+    "qid": "Q5591979",
+    "name": "Gradska Plaža Stadium",
+    "lat": 41.1728,
+    "lon": 20.6842,
+    "capacity": 500
+  },
+  {
+    "qid": "Q5591980",
+    "name": "Gradski Stadion Kavadarci",
+    "lat": 41.43511111,
+    "lon": 22.02336111,
+    "capacity": 7500
   },
   {
     "qid": "Q5591983",
@@ -5778,6 +6276,12 @@
     "capacity": 33919
   },
   {
+    "qid": "Q6177818",
+    "name": "Jenner Park Stadium",
+    "lat": 51.410833,
+    "lon": -3.265278
+  },
+  {
     "qid": "Q6271952",
     "name": "Stadionul Trans-Sil",
     "lat": 46.549722,
@@ -5881,6 +6385,13 @@
     "capacity": 7500
   },
   {
+    "qid": "Q6495866",
+    "name": "Latham Park",
+    "lat": 52.5115,
+    "lon": -3.32288,
+    "capacity": 5000
+  },
+  {
     "qid": "Q6506220",
     "name": "Laçi Stadium",
     "lat": 41.64248,
@@ -5919,6 +6430,13 @@
     "lat": 49.615,
     "lon": 6.154722222,
     "capacity": 2800
+  },
+  {
+    "qid": "Q6773214",
+    "name": "Marsaxlokk Ground",
+    "lat": 35.841667,
+    "lon": 14.544722,
+    "capacity": 1000
   },
   {
     "qid": "Q6813229",
@@ -6034,6 +6552,13 @@
     "capacity": 7500
   },
   {
+    "qid": "Q7137610",
+    "name": "Park Avenue",
+    "lat": 52.4104,
+    "lon": -4.08074,
+    "capacity": 2500
+  },
+  {
     "qid": "Q7168854",
     "name": "Peristerona Stadium",
     "lat": 35.129167,
@@ -6090,6 +6615,13 @@
     "capacity": 10169
   },
   {
+    "qid": "Q7330933",
+    "name": "Richmond Park",
+    "lat": 51.859936,
+    "lon": -4.302218,
+    "capacity": 3000
+  },
+  {
     "qid": "Q7379625",
     "name": "Runavík Stadium",
     "lat": 62.105833,
@@ -6104,10 +6636,24 @@
     "capacity": 2000
   },
   {
+    "qid": "Q7392799",
+    "name": "SRC Biljanini Izvori",
+    "lat": 41.105104,
+    "lon": 20.812333,
+    "capacity": 2500
+  },
+  {
     "qid": "Q7415985",
     "name": "Sandanski Stadium",
     "lat": 41.57361111,
     "lon": 23.28361111
+  },
+  {
+    "qid": "Q7442251",
+    "name": "Seaview",
+    "lat": 54.624294,
+    "lon": -5.921925,
+    "capacity": 3383
   },
   {
     "qid": "Q7455414",
@@ -6237,6 +6783,13 @@
     "lat": 45.763027777,
     "lon": 15.868777777,
     "capacity": 1500
+  },
+  {
+    "qid": "Q7596322",
+    "name": "Nikola Mantov Stadium",
+    "lat": 41.908356,
+    "lon": 22.406394,
+    "capacity": 5000
   },
   {
     "qid": "Q7596328",
@@ -6431,6 +6984,34 @@
     "capacity": 11650
   },
   {
+    "qid": "Q7755723",
+    "name": "The Oval",
+    "lat": 53.134722,
+    "lon": -4.2675,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q7761250",
+    "name": "The Rock",
+    "lat": 52.977212,
+    "lon": -3.069646,
+    "capacity": 3000
+  },
+  {
+    "qid": "Q7764039",
+    "name": "The Showgrounds",
+    "lat": 55.132778,
+    "lon": -6.660278,
+    "capacity": 13132
+  },
+  {
+    "qid": "Q7764041",
+    "name": "The Showgrounds",
+    "lat": 54.150444,
+    "lon": -6.320606,
+    "capacity": 7949
+  },
+  {
     "qid": "Q7875112",
     "name": "Estádio da Luz",
     "lat": 38.752777777,
@@ -6456,6 +7037,13 @@
     "lat": 52.393611,
     "lon": 16.931111,
     "capacity": 1700
+  },
+  {
+    "qid": "Q8045949",
+    "name": "Riverside Stadium",
+    "lat": 54.976122,
+    "lon": -7.278392,
+    "capacity": 3110
   },
   {
     "qid": "Q8049714",
@@ -6519,11 +7107,25 @@
     "capacity": 1000
   },
   {
+    "qid": "Q9341095",
+    "name": "Stadio Fonte dell'Ovo",
+    "lat": 43.9296,
+    "lon": 12.4427,
+    "capacity": 500
+  },
+  {
     "qid": "Q9341111",
     "name": "Central Stadium",
     "lat": 50.2461,
     "lon": 28.6689,
     "capacity": 21928
+  },
+  {
+    "qid": "Q9341112",
+    "name": "Khimik Stadium",
+    "lat": 56.235666,
+    "lon": 43.45776,
+    "capacity": 10000
   },
   {
     "qid": "Q9341160",
@@ -6716,6 +7318,13 @@
     "lon": 32.0791
   },
   {
+    "qid": "Q13390049",
+    "name": "Mosta Ground",
+    "lat": 35.90472222,
+    "lon": 14.43472222,
+    "capacity": 600
+  },
+  {
     "qid": "Q13425515",
     "name": "Seinäjoen keskuskenttä",
     "lat": 62.7819,
@@ -6792,6 +7401,13 @@
     "capacity": 1500
   },
   {
+    "qid": "Q15228765",
+    "name": "Inver Park",
+    "lat": 54.84980278,
+    "lon": -5.82625833,
+    "capacity": 1100
+  },
+  {
     "qid": "Q15232877",
     "name": "Kalamaria Stadium",
     "lat": 40.581475,
@@ -6810,6 +7426,12 @@
     "name": "Matija Gubec Stadium",
     "lat": 45.94890833,
     "lon": 15.48831944
+  },
+  {
+    "qid": "Q15253406",
+    "name": "Mill Meadow",
+    "lat": 54.780155,
+    "lon": -6.55643833
   },
   {
     "qid": "Q15276210",
@@ -6873,6 +7495,12 @@
     "lon": 30.4342
   },
   {
+    "qid": "Q16256063",
+    "name": "Čair Stadium",
+    "lat": 42.0155,
+    "lon": 21.4443
+  },
+  {
     "qid": "Q16372227",
     "name": "Megobroba Stadium",
     "lat": 41.923888888,
@@ -6905,6 +7533,13 @@
     "lat": 40.512,
     "lon": -8.08282,
     "capacity": 5000
+  },
+  {
+    "qid": "Q16632525",
+    "name": "Sirens Stadium",
+    "lat": 35.9453,
+    "lon": 14.4148,
+    "capacity": 600
   },
   {
     "qid": "Q16632623",
@@ -7080,6 +7715,12 @@
     "lon": 20.313583333
   },
   {
+    "qid": "Q18408149",
+    "name": "Zenit Stadium",
+    "lat": 48.786851,
+    "lon": 44.580862
+  },
+  {
     "qid": "Q18662238",
     "name": "Ekenäs centrumplan",
     "lat": 59.973292,
@@ -7176,6 +7817,12 @@
     "lat": 62.778469444,
     "lon": 22.815588888,
     "capacity": 5817
+  },
+  {
+    "qid": "Q21999692",
+    "name": "Maesdu Park",
+    "lat": 53.3158,
+    "lon": -3.8296
   },
   {
     "qid": "Q23051502",
@@ -7302,6 +7949,14 @@
     "name": "Druzhba Stadium"
   },
   {
+    "qid": "Q28063010",
+    "name": "Stadio di Acquaviva"
+  },
+  {
+    "qid": "Q28064234",
+    "name": "Stadio di Fiorentino"
+  },
+  {
     "qid": "Q28074430",
     "name": "Edmond Hasanbelliu"
   },
@@ -7397,6 +8052,13 @@
     "capacity": 3000
   },
   {
+    "qid": "Q39049589",
+    "name": "Luxol Stadium",
+    "lat": 35.923888888,
+    "lon": 14.475277777,
+    "capacity": 800
+  },
+  {
     "qid": "Q48771429",
     "name": "Tiberias Municipal Stadium",
     "lat": 32.79702778,
@@ -7436,6 +8098,13 @@
     "lat": 34.693194,
     "lon": 32.939278,
     "capacity": 10300
+  },
+  {
+    "qid": "Q60851167",
+    "name": "Cherenkov academy stadium",
+    "lat": 55.805,
+    "lon": 37.698611111,
+    "capacity": 3077
   },
   {
     "qid": "Q63975205",
@@ -7539,6 +8208,12 @@
     "lat": 43.658620968,
     "lon": 17.949822885,
     "capacity": 5000
+  },
+  {
+    "qid": "Q110135553",
+    "name": "Gorno Lisiče Stadium",
+    "lat": 41.968573885,
+    "lon": 21.490573766
   },
   {
     "qid": "Q113164580",
