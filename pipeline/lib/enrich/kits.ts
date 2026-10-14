@@ -3,7 +3,7 @@ import { getJson } from '../http.ts';
 import type { ColorInfo, KitInfo } from '../types.ts';
 
 const hexParam = (wikitext: string, name: string): string | undefined => {
-  const m = wikitext.match(new RegExp(`\\|\\s*${name}\\s*=\\s*#?([0-9a-f]{6}|[0-9a-f]{3})\\s*(?=\\||\\n|}})`, 'i'));
+  const m = wikitext.match(new RegExp(`\\|\\s*${name}\\s*=\\s*#?([0-9a-f]{6}|[0-9a-f]{3})\\s*(?=\\||\\n|}}|$)`, 'i'));
   if (!m) return undefined;
   const hex = m[1]!.length === 3 ? [...m[1]!].map((c) => c + c).join('') : m[1]!;
   return `#${hex.toUpperCase()}`;
@@ -11,13 +11,15 @@ const hexParam = (wikitext: string, name: string): string | undefined => {
 
 /**
  * Home kit colours from the club infobox (body1 = shirt, shorts1, socks1), when given as hex.
- * Only the first kit (home); named colours and empty fields count as missing.
+ * Only the first kit (home); named colours and empty fields count as missing. An all-white kit is
+ * skipped: it is usually just the base under a kit image (Universitatea Craiova plays in blue).
  */
 export function parseKit(wikitext: string): Omit<KitInfo, 'source'> | undefined {
   const body = hexParam(wikitext, 'body1');
   if (!body) return undefined;
   const shorts = hexParam(wikitext, 'shorts1');
   const socks = hexParam(wikitext, 'socks1');
+  if ([body, shorts, socks].every((c) => c === undefined || c === '#FFFFFF')) return undefined;
   return { body, ...(shorts ? { shorts } : {}), ...(socks ? { socks } : {}) };
 }
 

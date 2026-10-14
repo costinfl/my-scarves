@@ -179,6 +179,9 @@ describe('kits', () => {
     expect(parseKit(infobox)).toEqual({ body: '#FF0000', shorts: '#FFFFFF', socks: '#FF0000' });
     expect(parseKit('| body1 = red\n| shorts1 = FFFFFF')).toBeUndefined();
     expect(parseKit('| body1 = \n| shorts1 = FFFFFF')).toBeUndefined();
+    // All white is usually the base under a kit image (Universitatea Craiova, which plays in blue).
+    expect(parseKit('| pattern_b1 = _craiova2627h\n| body1 = FFFFFF\n| shorts1 = ffffff\n| socks1 = ffffff')).toBeUndefined();
+    expect(parseKit('| body1 = FFFFFF\n| shorts1 = 008000')).toEqual({ body: '#FFFFFF', shorts: '#008000' });
   });
   it('uses the shirt first, then the first of shorts and socks that differs', () => {
     const source = 'https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti';
