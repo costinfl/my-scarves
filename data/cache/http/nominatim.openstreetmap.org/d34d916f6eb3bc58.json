@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.413900&lon=18.535200&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65695277,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":402741402,\"lat\":\"44.4138564\",\"lon\":\"18.5350995\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"Gradski stadion Banovići\",\"display_name\":\"Gradski stadion Banovići, M-17.1, Banovići, Općina Banovići, Tuzlanski kanton, Federacija Bosne i Hercegovine, 75290, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"leisure\":\"Gradski stadion Banovići\",\"road\":\"M-17.1\",\"town\":\"Banovići\",\"municipality\":\"Općina Banovići\",\"state_district\":\"Tuzlanski kanton\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"75290\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.4133688\",\"44.4143440\",\"18.5346284\",\"18.5355707\"]}",
+  "fetchedAt": "2026-10-14T11:39:29.670Z"
+}

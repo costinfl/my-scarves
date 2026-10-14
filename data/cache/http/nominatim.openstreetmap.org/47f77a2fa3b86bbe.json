@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.565985&lon=27.636656&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60228073,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":26027049,\"lat\":\"42.5659436\",\"lon\":\"27.6366942\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.849011978327638e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Европа, кв. Свобода, Поморие, Бургас, 8200, България\",\"address\":{\"road\":\"Европа\",\"neighbourhood\":\"кв. Свобода\",\"town\":\"Поморие\",\"state_district\":\"Поморие\",\"state\":\"Бургас\",\"ISO3166-2-lvl4\":\"BG-02\",\"postcode\":\"8200\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.5655610\",\"42.5663260\",\"27.6359881\",\"27.6374004\"]}",
+  "fetchedAt": "2026-10-14T11:40:10.196Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.358920&lon=50.293110&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":203483897,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1089916495,\"lat\":\"40.3589100\",\"lon\":\"50.2931397\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":4.19020370793777e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion Zirə\",\"display_name\":\"Stadion Zirə, 120-ci Zirə küç., Xəzər rayonu, 1120, Azərbaycan\",\"address\":{\"leisure\":\"Stadion Zirə\",\"road\":\"120-ci Zirə küç.\",\"city\":\"Xəzər rayonu\",\"postcode\":\"1120\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.3584956\",\"40.3593245\",\"50.2924006\",\"50.2938787\"]}",
+  "fetchedAt": "2026-10-14T11:39:17.550Z"
+}

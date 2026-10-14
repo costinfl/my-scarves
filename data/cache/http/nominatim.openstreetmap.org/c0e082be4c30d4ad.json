@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.164597&lon=17.880953&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":188449455,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":304291076,\"lat\":\"48.1645171\",\"lon\":\"17.8810198\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.9638361181002785e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"75, Šaľa - Veča, Šaľa, okres Šaľa, Nitriansky kraj, 927 02, Slovensko\",\"address\":{\"road\":\"75\",\"suburb\":\"Šaľa - Veča\",\"town\":\"Šaľa\",\"district\":\"okres Šaľa\",\"state\":\"Nitriansky kraj\",\"ISO3166-2-lvl4\":\"SK-NI\",\"postcode\":\"927 02\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.1639882\",\"48.1650531\",\"17.8803947\",\"17.8816371\"]}",
+  "fetchedAt": "2026-10-14T11:42:13.843Z"
+}

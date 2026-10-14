@@ -908,6 +908,15 @@
     ],
     "source": "wikidata"
   },
+  "Q128897": {
+    "primary": "#0000FF",
+    "secondary": "#FF0000",
+    "names": [
+      "blue",
+      "red"
+    ],
+    "source": "wikidata"
+  },
   "Q131209": {
     "primary": "#800080",
     "secondary": "#FFFFFF",
@@ -923,6 +932,15 @@
     "names": [
       "white",
       "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q131378": {
+    "primary": "#0000FF",
+    "secondary": "#FFFF00",
+    "names": [
+      "blue",
+      "yellow"
     ],
     "source": "wikidata"
   },
@@ -964,6 +982,13 @@
     ],
     "source": "wikidata"
   },
+  "Q136433": {
+    "primary": "#FF0000",
+    "names": [
+      "red"
+    ],
+    "source": "wikidata"
+  },
   "Q138248": {
     "primary": "#FFFF00",
     "secondary": "#0000FF",
@@ -983,12 +1008,28 @@
     ],
     "source": "wikidata"
   },
+  "Q141688": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q141971": {
     "primary": "#FF0000",
     "secondary": "#FFFFFF",
     "names": [
       "red",
       "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q144190": {
+    "primary": "#0000FF",
+    "names": [
+      "blue"
     ],
     "source": "wikidata"
   },
@@ -1007,6 +1048,15 @@
     "names": [
       "blue",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q162408": {
+    "primary": "#FFFFFF",
+    "secondary": "#00FF00",
+    "names": [
+      "white",
+      "green"
     ],
     "source": "wikidata"
   },
@@ -1179,6 +1229,15 @@
     ],
     "source": "wikidata"
   },
+  "Q206412": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q208396": {
     "primary": "#00FF00",
     "secondary": "#FFFFFF",
@@ -1197,10 +1256,26 @@
     ],
     "source": "wikidata"
   },
+  "Q208584": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q209509": {
     "primary": "#0000FF",
     "names": [
       "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q210530": {
+    "primary": "#800080",
+    "names": [
+      "purple"
     ],
     "source": "wikidata"
   },
@@ -1219,6 +1294,15 @@
     "source": "wikidata"
   },
   "Q211912": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q212119": {
     "primary": "#0000FF",
     "secondary": "#FFFFFF",
     "names": [
@@ -1305,6 +1389,15 @@
     ],
     "source": "wikidata"
   },
+  "Q218074": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
   "Q219235": {
     "primary": "#B30033",
     "names": [
@@ -1321,12 +1414,30 @@
     ],
     "source": "wikidata"
   },
+  "Q219929": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q221525": {
     "primary": "#800000",
     "secondary": "#FFFFFF",
     "names": [
       "maroon",
       "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q221766": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
     ],
     "source": "wikidata"
   },
@@ -1339,12 +1450,48 @@
     ],
     "source": "wikidata"
   },
+  "Q222877": {
+    "primary": "#000000",
+    "secondary": "#0000FF",
+    "names": [
+      "black",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
   "Q223450": {
     "primary": "#FFFFFF",
     "secondary": "#000000",
     "names": [
       "white",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q223813": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q239663": {
+    "primary": "#B30033",
+    "secondary": "#FFFFFF",
+    "names": [
+      "garnet",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q240783": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
     ],
     "source": "wikidata"
   },
@@ -1364,12 +1511,31 @@
     ],
     "source": "wikidata"
   },
+  "Q252276": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white",
+      "blue"
+    ],
+    "source": "wikidata"
+  },
   "Q257078": {
     "primary": "#00FF00",
     "secondary": "#000000",
     "names": [
       "green",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q260200": {
+    "primary": "#7F00FF",
+    "secondary": "#FF0000",
+    "names": [
+      "violet",
+      "red"
     ],
     "source": "wikidata"
   },
@@ -1405,12 +1571,30 @@
     ],
     "source": "wikidata"
   },
+  "Q275138": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
   "Q275626": {
     "primary": "#DC143C",
     "secondary": "#FFFFFF",
     "names": [
       "crimson",
       "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q280814": {
+    "primary": "#000000",
+    "secondary": "#00FF00",
+    "names": [
+      "black",
+      "green"
     ],
     "source": "wikidata"
   },
@@ -1438,6 +1622,33 @@
     "names": [
       "blue",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q290629": {
+    "primary": "#FFFFFF",
+    "secondary": "#007FFF",
+    "names": [
+      "white",
+      "azure"
+    ],
+    "source": "wikidata"
+  },
+  "Q291447": {
+    "primary": "#FFFF00",
+    "secondary": "#00FF00",
+    "names": [
+      "yellow",
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q291471": {
+    "primary": "#FFFF00",
+    "secondary": "#0000FF",
+    "names": [
+      "yellow",
+      "blue"
     ],
     "source": "wikidata"
   },
@@ -1483,6 +1694,24 @@
     "names": [
       "blue",
       "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q309025": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q312429": {
+    "primary": "#FF7F00",
+    "secondary": "#000000",
+    "names": [
+      "orange",
+      "black"
     ],
     "source": "wikidata"
   },
@@ -1550,6 +1779,15 @@
     ],
     "source": "wikidata"
   },
+  "Q367788": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q368675": {
     "primary": "#FFFFFF",
     "names": [
@@ -1566,12 +1804,39 @@
     ],
     "source": "wikidata"
   },
+  "Q374254": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q376635": {
     "primary": "#FFFFFF",
     "secondary": "#FF0000",
     "names": [
       "white",
       "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q378890": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q382324": {
+    "primary": "#FFD700",
+    "secondary": "#000000",
+    "names": [
+      "gold",
+      "black"
     ],
     "source": "wikidata"
   },
@@ -1593,12 +1858,28 @@
     ],
     "source": "wikidata"
   },
+  "Q399282": {
+    "primary": "#FFFFFF",
+    "names": [
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q427491": {
     "primary": "#FF0000",
     "secondary": "#0000FF",
     "names": [
       "red",
       "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q428047": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
     ],
     "source": "wikidata"
   },
@@ -1643,6 +1924,13 @@
     "names": [
       "red",
       "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q476880": {
+    "primary": "#000000",
+    "names": [
+      "black"
     ],
     "source": "wikidata"
   },
@@ -1728,6 +2016,15 @@
     ],
     "source": "wikidata"
   },
+  "Q597250": {
+    "primary": "#FFFF00",
+    "secondary": "#000000",
+    "names": [
+      "yellow",
+      "black"
+    ],
+    "source": "wikidata"
+  },
   "Q608122": {
     "primary": "#FFFF00",
     "secondary": "#FF0000",
@@ -1766,6 +2063,31 @@
     "primary": "#0000FF",
     "names": [
       "blue"
+    ],
+    "source": "wikidata"
+  },
+  "Q635670": {
+    "primary": "#00FF00",
+    "names": [
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q643434": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q647795": {
+    "primary": "#FFFF00",
+    "secondary": "#000000",
+    "names": [
+      "yellow",
+      "black"
     ],
     "source": "wikidata"
   },
@@ -1851,6 +2173,42 @@
     ],
     "source": "wikidata"
   },
+  "Q714581": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q723471": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q723476": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q726266": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q727918": {
     "primary": "#FFFF00",
     "secondary": "#0000FF",
@@ -1916,12 +2274,44 @@
     ],
     "source": "wikidata"
   },
+  "Q771941": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q779698": {
+    "primary": "#FFFF00",
+    "names": [
+      "yellow"
+    ],
+    "source": "wikidata"
+  },
+  "Q804556": {
+    "primary": "#77B5FE",
+    "names": [
+      "sky blue"
+    ],
+    "source": "wikidata"
+  },
   "Q805909": {
     "primary": "#FFFFFF",
     "secondary": "#FF0000",
     "names": [
       "white",
       "red"
+    ],
+    "source": "wikidata"
+  },
+  "Q818698": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
     ],
     "source": "wikidata"
   },
@@ -1994,10 +2384,28 @@
     ],
     "source": "wikidata"
   },
+  "Q853508": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q857938": {
     "primary": "#FF7F00",
     "names": [
       "orange"
+    ],
+    "source": "wikidata"
+  },
+  "Q862791": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
     ],
     "source": "wikidata"
   },
@@ -2017,6 +2425,15 @@
     ],
     "source": "wikidata"
   },
+  "Q908477": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "names": [
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
   "Q925935": {
     "primary": "#FFFF00",
     "secondary": "#00FF00",
@@ -2033,6 +2450,34 @@
     "names": [
       "white",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q937213": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q959341": {
+    "primary": "#DC143C",
+    "secondary": "#00FFFF",
+    "names": [
+      "crimson",
+      "cyan",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q994804": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
     ],
     "source": "wikidata"
   },
@@ -2063,6 +2508,15 @@
     ],
     "source": "wikidata"
   },
+  "Q1124841": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "names": [
+      "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
   "Q1128631": {
     "primary": "#FFFFFF",
     "secondary": "#FFFF00",
@@ -2083,6 +2537,24 @@
     "source": "wikidata"
   },
   "Q1198772": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q1253472": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q1339086": {
     "primary": "#00FF00",
     "secondary": "#FFFFFF",
     "names": [
@@ -2183,7 +2655,53 @@
     ],
     "source": "wikidata"
   },
+  "Q1635778": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q2000763": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q2064202": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q2069980": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q2185704": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "black",
+      "white",
+      "gold"
+    ],
+    "source": "wikidata"
+  },
+  "Q2215847": {
     "primary": "#00FF00",
     "secondary": "#FFFFFF",
     "names": [
@@ -2198,6 +2716,60 @@
     "names": [
       "sky blue",
       "white",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q2356446": {
+    "primary": "#FFFF00",
+    "secondary": "#00FF00",
+    "names": [
+      "yellow",
+      "green"
+    ],
+    "source": "wikidata"
+  },
+  "Q2394731": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q2484236": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q2569908": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q2684577": {
+    "primary": "#77B5FE",
+    "secondary": "#FFFF00",
+    "names": [
+      "sky blue",
+      "yellow"
+    ],
+    "source": "wikidata"
+  },
+  "Q2697893": {
+    "primary": "#FFFF00",
+    "secondary": "#000000",
+    "names": [
+      "yellow",
       "black"
     ],
     "source": "wikidata"
@@ -2266,12 +2838,28 @@
     ],
     "source": "wikidata"
   },
+  "Q11040351": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q11492669": {
     "primary": "#FF0000",
     "secondary": "#FFFFFF",
     "names": [
       "red",
       "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q12637860": {
+    "primary": "#FFFF00",
+    "names": [
+      "yellow"
     ],
     "source": "wikidata"
   },
@@ -2284,11 +2872,29 @@
     ],
     "source": "wikidata"
   },
+  "Q12878793": {
+    "primary": "#FF7F00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "orange",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q15309584": {
     "primary": "#00FF00",
     "secondary": "#FFFFFF",
     "names": [
       "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q15987233": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "names": [
+      "red",
       "white"
     ],
     "source": "wikidata"
@@ -2320,6 +2926,15 @@
     ],
     "source": "wikidata"
   },
+  "Q17442894": {
+    "primary": "#0000FF",
+    "secondary": "#FFFFFF",
+    "names": [
+      "blue",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q24074158": {
     "primary": "#FFFFFF",
     "secondary": "#FF0000",
@@ -2335,6 +2950,25 @@
     "names": [
       "red",
       "white"
+    ],
+    "source": "wikidata"
+  },
+  "Q30309373": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF0000",
+    "names": [
+      "white",
+      "red",
+      "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q43082535": {
+    "primary": "#000000",
+    "secondary": "#FFC0DB",
+    "names": [
+      "black",
+      "pink"
     ],
     "source": "wikidata"
   },
@@ -2356,12 +2990,30 @@
     ],
     "source": "wikidata"
   },
+  "Q113318729": {
+    "primary": "#00FF00",
+    "secondary": "#FFFFFF",
+    "names": [
+      "green",
+      "white"
+    ],
+    "source": "wikidata"
+  },
   "Q124007617": {
     "primary": "#FFFFFF",
     "secondary": "#000000",
     "names": [
       "white",
       "black"
+    ],
+    "source": "wikidata"
+  },
+  "Q124377966": {
+    "primary": "#000000",
+    "secondary": "#FF0000",
+    "names": [
+      "black",
+      "red"
     ],
     "source": "wikidata"
   },

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Bak%C4%B1l%C4%B1%20PFK",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Bakılı PFK\",\"pageid\":18018840,\"redirects\":[],\"wikitext\":\"{{More citations needed|date=September 2022}}\\n{{Infobox football club \\n| nickname = \\n| ground   = [[Shafa Stadium]] (IV field), [[Baku]], [[Azerbaijan]] \\n| capacity =  \\n| season   = [[2014–15 Azerbaijan First Division|2014–15]] \\n| pattern_la1=_blueshoulders\\n| pattern_la2=_blackshoulders\\n| pattern_b2 = _blackstripes\\n| pattern_ra1 = _blueshoulders\\n| pattern_ra2 = _blackshoulders\\n| leftarm1=00aaff\\n| leftarm2=00aaff\\n| body1 = 00aaff\\n| body2 = 00aaff\\n| rightarm1 = 00aaff\\n| rightarm2 = 00aaff\\n| shorts1 = 00aaff\\n| shorts2 = 000000\\n| socks1 = 00aaff\\n| socks2 = 000000\\n|\\n| clubname = \\n|\\n| image    = Bakili Baku.png\\n|\\n| fullname = Bakılı Peşəkar Futbol Klubu\\n|\\n|\\n| founded  = {{Start date and age|1963}}\\n| dissolved = 2017\\n|\\n| chairman = Misir Abilov\\n| manager  = Ali Huseynov\\n| league   = [[Azerbaijan First Division]] \\n|\\n|\\n| position = 10th \\n|\\n| pattern_b1 = \\n|\\n|\\n|\\n|\\n| website = bakili-footballclub.com\\n}}\\n\\n'''Bakılı PFK''' is an [[Azerbaijan]]i [[football (soccer)|football]] club, based in [[Baku]] that currently plays in the [[Azerbaijan First Division]].\"}}",
+  "fetchedAt": "2026-10-14T11:34:45.704Z"
+}

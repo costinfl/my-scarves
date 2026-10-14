@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.763056&lon=47.042500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":208827252,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1025629210,\"lat\":\"40.7630032\",\"lon\":\"47.0425442\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.72526131074543e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion\",\"display_name\":\"Stadion, Rəsul Rza küç., Mingəçevir İnzibati Ərazisi, 4500, Azərbaycan\",\"address\":{\"leisure\":\"Stadion\",\"road\":\"Rəsul Rza küç.\",\"city\":\"Mingəçevir İnzibati Ərazisi\",\"ISO3166-2-lvl6\":\"AZ-MI\",\"postcode\":\"4500\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.7622212\",\"40.7637428\",\"47.0419778\",\"47.0431191\"]}",
+  "fetchedAt": "2026-10-14T11:39:08.888Z"
+}

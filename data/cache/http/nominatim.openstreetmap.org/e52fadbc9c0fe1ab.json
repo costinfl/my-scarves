@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=31.751167&lon=35.190617&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":47422087,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":36273995,\"lat\":\"31.7511419\",\"lon\":\"35.1908372\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.205462729834467e-05,\"addresstype\":\"leisure\",\"name\":\"אצטדיון טדי\",\"display_name\":\"אצטדיון טדי, דוד איילון, ירושלים, מלחה, ירושלים | القدس, נפת ירושלים, מחוז ירושלים, 9695102, ישראל\",\"address\":{\"leisure\":\"אצטדיון טדי\",\"road\":\"דוד איילון\",\"city_block\":\"ירושלים\",\"suburb\":\"מלחה\",\"city\":\"ירושלים | القدس\",\"state_district\":\"נפת ירושלים\",\"state\":\"מחוז ירושלים\",\"ISO3166-2-lvl4\":\"IL-JM\",\"postcode\":\"9695102\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"31.7505639\",\"31.7517197\",\"35.1903207\",\"35.1913536\"]}",
+  "fetchedAt": "2026-10-14T11:41:14.324Z"
+}

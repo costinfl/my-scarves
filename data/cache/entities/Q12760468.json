@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:00.154Z",
+  "version": 2,
+  "entity": {
+    "id": "Q12760468",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "2609771"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Zvijezda 09"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Zvijezda 09"
+      }
+    }
+  }
+}

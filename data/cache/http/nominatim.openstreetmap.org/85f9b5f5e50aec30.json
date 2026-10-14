@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.006667&lon=21.234444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":187957677,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1383625551,\"lat\":\"49.0067028\",\"lon\":\"21.2346007\",\"category\":\"amenity\",\"type\":\"parking\",\"place_rank\":30,\"importance\":6.616540779731468e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"Björnsonova, Prešov, Prešov 3, Prešov, okres Prešov, Prešovský kraj, 080 01, Slovensko\",\"address\":{\"road\":\"Björnsonova\",\"city\":\"Prešov\",\"quarter\":\"Prešov 3\",\"county\":\"okres Prešov\",\"state\":\"Prešovský kraj\",\"ISO3166-2-lvl4\":\"SK-PV\",\"postcode\":\"080 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"49.0061025\",\"49.0073036\",\"21.2343774\",\"21.2348228\"]}",
+  "fetchedAt": "2026-10-14T11:42:02.632Z"
+}

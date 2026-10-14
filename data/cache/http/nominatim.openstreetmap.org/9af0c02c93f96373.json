@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.330300&lon=15.036400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68634386,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":471973744,\"lat\":\"46.3305635\",\"lon\":\"15.0364488\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.037689784080289e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Šmartno ob Paki, Rečica ob Paki, Šmartno ob Paki, 3327, Slovenija\",\"address\":{\"road\":\"Šmartno ob Paki\",\"village\":\"Rečica ob Paki\",\"ISO3166-2-lvl8\":\"SI-125\",\"postcode\":\"3327\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.3299968\",\"46.3311301\",\"15.0355634\",\"15.0373341\"]}",
+  "fetchedAt": "2026-10-14T11:42:43.245Z"
+}

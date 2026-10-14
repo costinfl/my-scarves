@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.797028&lon=35.521139&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":425046642,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1548205387,\"lat\":\"32.7970039\",\"lon\":\"35.5211408\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.806668192564305e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"בר כוכבא, רמת כנרת, טבריה עילית, טבריה, נפת כנרת, מחוז הצפון, 1427943, ישראל\",\"address\":{\"road\":\"בר כוכבא\",\"neighbourhood\":\"רמת כנרת\",\"suburb\":\"טבריה עילית\",\"town\":\"טבריה\",\"state_district\":\"נפת כנרת\",\"state\":\"מחוז הצפון\",\"ISO3166-2-lvl4\":\"IL-Z\",\"postcode\":\"1427943\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.7965291\",\"32.7974787\",\"35.5207695\",\"35.5215121\"]}",
+  "fetchedAt": "2026-10-14T11:41:36.553Z"
+}

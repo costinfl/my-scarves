@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.705800&lon=13.871700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":83181380,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1429402194,\"lat\":\"45.7057619\",\"lon\":\"13.8713802\",\"category\":\"building\",\"type\":\"yes\",\"place_rank\":30,\"importance\":5.9179827573007055e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"1c, Kosovelova ulica, Novo naselje, Sežana, Upravna enota Sežana, 6210, Slovenija\",\"address\":{\"house_number\":\"1c\",\"road\":\"Kosovelova ulica\",\"quarter\":\"Novo naselje\",\"town\":\"Sežana\",\"city\":\"Sežana\",\"ISO3166-2-lvl8\":\"SI-111\",\"municipality\":\"Upravna enota Sežana\",\"postcode\":\"6210\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"45.7055710\",\"45.7059304\",\"13.8711605\",\"13.8715844\"]}",
+  "fetchedAt": "2026-10-14T11:42:44.353Z"
+}

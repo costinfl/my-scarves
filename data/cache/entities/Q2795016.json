@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:03.299Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2795016",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Hapoel Marmurek Haim Logo.png"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Hapoel Marmorek F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Hapoel Marmorek F.C."
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.432778&lon=25.615278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60955930,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":73043801,\"lat\":\"42.4327385\",\"lon\":\"25.6153331\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.409628442812265e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Бончо Бонев, кв. Македонски, Стара Загора, 6004, България\",\"address\":{\"road\":\"Бончо Бонев\",\"suburb\":\"кв. Македонски\",\"city\":\"Стара Загора\",\"state_district\":\"Стара Загора\",\"state\":\"Стара Загора\",\"ISO3166-2-lvl4\":\"BG-24\",\"postcode\":\"6004\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.4322112\",\"42.4332648\",\"25.6145437\",\"25.6161206\"]}",
+  "fetchedAt": "2026-10-14T11:40:07.189Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.426667&lon=18.034444&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65478648,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":550610914,\"lat\":\"44.4267404\",\"lon\":\"18.0345806\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.5267414358694096e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Srebrenička, Preko, Žepče, Općina Žepče, Zeničko-dobojski kanton, Federacija Bosne i Hercegovine, 72230, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Srebrenička\",\"quarter\":\"Preko\",\"city_district\":\"Žepče\",\"town\":\"Žepče\",\"municipality\":\"Općina Žepče\",\"state_district\":\"Zeničko-dobojski kanton\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"72230\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.4261992\",\"44.4272815\",\"18.0337835\",\"18.0353777\"]}",
+  "fetchedAt": "2026-10-14T11:39:50.258Z"
+}

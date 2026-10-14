@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.469444&lon=17.327778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56931603,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":749934802,\"lat\":\"43.4693202\",\"lon\":\"17.3277904\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.594186312652807e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hrvatske Republike Herceg-Bosne, Posušje, Općina Posušje, Županija Zapadnohercegovačka, Federacija Bosne i Hercegovine, 88240, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Hrvatske Republike Herceg-Bosne\",\"city_district\":\"Posušje\",\"town\":\"Posušje\",\"municipality\":\"Općina Posušje\",\"state_district\":\"Županija Zapadnohercegovačka\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"88240\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"43.4689348\",\"43.4697835\",\"17.3268503\",\"17.3287064\"]}",
+  "fetchedAt": "2026-10-14T11:39:45.048Z"
+}

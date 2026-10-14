@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.500278&lon=23.785278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":165690416,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":11339343953,\"lat\":\"61.4999682\",\"lon\":\"23.7853627\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.226901655599325e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"25, Tammelankatu, Tammela, Tammela B, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 33500, Suomi / Finland\",\"address\":{\"house_number\":\"25\",\"road\":\"Tammelankatu\",\"suburb\":\"Tammela\",\"city_district\":\"Keskustan suuralue\",\"city\":\"Tampere\",\"municipality\":\"Tampereen seutukunta\",\"state\":\"Pirkanmaa\",\"ISO3166-2-lvl4\":\"FI-11\",\"region\":\"Manner-Suomi\",\"postcode\":\"33500\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"61.4999182\",\"61.5000182\",\"23.7853127\",\"23.7854127\"]}",
+  "fetchedAt": "2026-10-14T11:40:53.623Z"
+}

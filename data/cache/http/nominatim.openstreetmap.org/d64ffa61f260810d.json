@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.251731&lon=14.364914&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68909431,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":132149370,\"lat\":\"46.2517091\",\"lon\":\"14.3649573\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.729228656438571e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Cesta Kokrškega odreda, Rupa, Kranj, 4000, Slovenija\",\"address\":{\"road\":\"Cesta Kokrškega odreda\",\"suburb\":\"Rupa\",\"city\":\"Kranj\",\"municipality\":\"Kranj\",\"ISO3166-2-lvl8\":\"SI-052\",\"postcode\":\"4000\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.2511840\",\"46.2522344\",\"14.3643851\",\"14.3655295\"]}",
+  "fetchedAt": "2026-10-14T11:42:45.851Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.235720&lon=26.572600&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59989674,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":177942645,\"lat\":\"43.2356446\",\"lon\":\"26.5725932\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.940718699926783e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Мургаш, кв. Боровец, Разбойна, Търговище, 7703, България\",\"address\":{\"road\":\"Мургаш\",\"neighbourhood\":\"кв. Боровец\",\"village\":\"Разбойна\",\"city\":\"Търговище\",\"state_district\":\"Търговище\",\"state\":\"Търговище\",\"ISO3166-2-lvl4\":\"BG-25\",\"postcode\":\"7703\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"43.2351473\",\"43.2361417\",\"26.5720611\",\"26.5731253\"]}",
+  "fetchedAt": "2026-10-14T11:40:25.789Z"
+}

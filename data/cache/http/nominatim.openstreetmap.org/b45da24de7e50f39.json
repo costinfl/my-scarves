@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.082500&lon=19.283889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":185265564,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":58545010,\"lat\":\"49.0823954\",\"lon\":\"19.2839003\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.97306782634778e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Vajanského, Nemecké domky, Veľký Polík, Ružomberok, okres Ružomberok, Žilinský kraj, 034 01, Slovensko\",\"address\":{\"road\":\"Vajanského\",\"quarter\":\"Nemecké domky\",\"suburb\":\"Veľký Polík\",\"town\":\"Ružomberok\",\"district\":\"okres Ružomberok\",\"state\":\"Žilinský kraj\",\"ISO3166-2-lvl4\":\"SK-ZI\",\"postcode\":\"034 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"49.0818654\",\"49.0829253\",\"19.2832928\",\"19.2845078\"]}",
+  "fetchedAt": "2026-10-14T11:42:17.243Z"
+}

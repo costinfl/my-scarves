@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.049986&lon=34.786956&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210678383,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2079222464,\"lat\":\"32.0500410\",\"lon\":\"34.7870330\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.500038147550191e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"8א, כביר, תל־אביב–יפו, התקוה, העיר הלבנה בתל אביב, תל־אביב–יפו, נפת תל אביב, מחוז תל אביב, 6775393, ישראל\",\"address\":{\"house_number\":\"8א\",\"road\":\"כביר\",\"residential\":\"תל־אביב–יפו\",\"suburb\":\"התקוה\",\"borough\":\"העיר הלבנה בתל אביב\",\"city\":\"תל־אביב–יפו\",\"state_district\":\"נפת תל אביב\",\"state\":\"מחוז תל אביב\",\"ISO3166-2-lvl4\":\"IL-TA\",\"postcode\":\"6775393\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.0499910\",\"32.0500910\",\"34.7869830\",\"34.7870830\"]}",
+  "fetchedAt": "2026-10-14T11:41:18.322Z"
+}

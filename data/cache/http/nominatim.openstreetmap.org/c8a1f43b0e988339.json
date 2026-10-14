@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=60.442778&lon=22.291667&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":167166580,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":533664764,\"lat\":\"60.4427433\",\"lon\":\"22.2918436\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.369115739676535e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hippoksentie, Vasaramäki, Skanssi-Uittamo, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20720, Suomi / Finland\",\"address\":{\"road\":\"Hippoksentie\",\"suburb\":\"Vasaramäki\",\"city_district\":\"Skanssi-Uittamo\",\"city\":\"Turku\",\"municipality\":\"Turun seutukunta\",\"state\":\"Varsinais-Suomi\",\"ISO3166-2-lvl4\":\"FI-19\",\"region\":\"Manner-Suomi\",\"postcode\":\"20720\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"60.4422193\",\"60.4432671\",\"22.2906170\",\"22.2930702\"]}",
+  "fetchedAt": "2026-10-14T11:40:54.521Z"
+}

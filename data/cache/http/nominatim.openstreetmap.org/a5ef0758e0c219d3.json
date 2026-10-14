@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.268056&lon=24.020278&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":174850139,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":160087103,\"lat\":\"61.2678863\",\"lon\":\"24.0204110\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3801813898984569,\"addresstype\":\"leisure\",\"name\":\"Tehtaan kenttä\",\"display_name\":\"Tehtaan kenttä, 9, Tehtaankatu, Tallinmäki, Valkeakoski, Etelä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 37600, Suomi / Finland\",\"address\":{\"leisure\":\"Tehtaan kenttä\",\"house_number\":\"9\",\"road\":\"Tehtaankatu\",\"suburb\":\"Tallinmäki\",\"town\":\"Valkeakoski\",\"municipality\":\"Etelä-Pirkanmaan seutukunta\",\"state\":\"Pirkanmaa\",\"ISO3166-2-lvl4\":\"FI-11\",\"region\":\"Manner-Suomi\",\"postcode\":\"37600\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"61.2672655\",\"61.2685070\",\"24.0192006\",\"24.0216214\"]}",
+  "fetchedAt": "2026-10-14T11:40:52.421Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Gefest",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Gefest\",\"pageid\":29673276,\"redirects\":[],\"wikitext\":\"{{short description|Kazakh football club}}\\n{{refimprove|date=December 2010}}\\n{{Infobox football club |\\n  clubname = FC Gefest|\\n  image = Logo_of_FC_Gefest.png|\\n  fullname = Football Club Gefest<br />Гефест Футбол Клубы|\\n  nickname =  |\\n  founded  =  {{start date and age|2008}}|\\n  ground   =  |\\n  capacity =  |\\n  chairman =  |\\n  manager  = Viktor Rymar|\\n  league   = [[Kazakhstan First Division]] |\\n  season   = [[2010 Kazakhstan First Division|2011]]|\\n position = 16th|\\n}}\\n\\n'''FC Gefest''' ({{langx|kk|Гефест Футбол Клубы}}) is a [[Kazakhstan]]i [[Football (soccer)|football]] club based in [[Karagandy]].\"}}",
+  "fetchedAt": "2026-10-14T11:36:59.218Z"
+}

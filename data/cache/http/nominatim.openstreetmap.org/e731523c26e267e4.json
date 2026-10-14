@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.421200&lon=49.996800&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":202736974,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":218823680,\"lat\":\"40.4215324\",\"lon\":\"49.9963298\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.39620027541832803,\"addresstype\":\"leisure\",\"name\":\"Azərsun Arena\",\"display_name\":\"Azərsun Arena, Z. Taghiyev küç., Suraxanı rayonu, 1049, Azərbaycan\",\"address\":{\"leisure\":\"Azərsun Arena\",\"road\":\"Z. Taghiyev küç.\",\"city\":\"Suraxanı rayonu\",\"postcode\":\"1049\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.4207050\",\"40.4223596\",\"49.9952475\",\"49.9974121\"]}",
+  "fetchedAt": "2026-10-14T11:39:21.964Z"
+}

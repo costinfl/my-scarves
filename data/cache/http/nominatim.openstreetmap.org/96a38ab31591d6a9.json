@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.399167&lon=18.403889&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":188618571,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":171691964,\"lat\":\"48.3992914\",\"lon\":\"18.4040678\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.401922636754433e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Hoňovecká, Zlaté Moravce, okres Zlaté Moravce, Nitriansky kraj, 953 01, Slovensko\",\"address\":{\"road\":\"Hoňovecká\",\"town\":\"Zlaté Moravce\",\"district\":\"okres Zlaté Moravce\",\"state\":\"Nitriansky kraj\",\"ISO3166-2-lvl4\":\"SK-NI\",\"postcode\":\"953 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.3987532\",\"48.3998295\",\"18.4032243\",\"18.4049112\"]}",
+  "fetchedAt": "2026-10-14T11:42:09.443Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.136967&lon=14.602343&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":68640084,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":14971822,\"lat\":\"46.1369004\",\"lon\":\"14.6012728\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9614709697062906e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Cesta talcev, Zgornje Domžale, Podrečje, Domžale, Upravna Enota Domžale, 1230, Slovenija\",\"address\":{\"road\":\"Cesta talcev\",\"quarter\":\"Zgornje Domžale\",\"suburb\":\"Podrečje\",\"town\":\"Domžale\",\"municipality\":\"Domžale\",\"ISO3166-2-lvl8\":\"SI-023\",\"postcode\":\"1230\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.1361327\",\"46.1376821\",\"14.6012026\",\"14.6023671\"]}",
+  "fetchedAt": "2026-10-14T11:42:41.054Z"
+}

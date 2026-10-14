@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=G%C3%B6yazan%20Qazakh%20FK",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Göyazan Qazakh FK\",\"pageid\":14086575,\"redirects\":[],\"wikitext\":\"{{short description|Professional football club in Azerbaijan}}\\n{{No footnotes|date=July 2026}}\\n\\n{{Infobox football club\\n| clubname = FK Göyəzən Qazax\\n| image    = \\n| fullname = Futbol Klubu Göyəzən\\n| nickname = \\n| founded  = {{Start date and age|1978}}\\n| dissolved= {{Start date and age|2017}}\\n| ground   = [[Qazakh City Stadium]], [[Qazakh]], [[Azerbaijan]]\\n| capacity = 15000\\n| chairman = [[Elxan Muradov]]\\n| manager  =  Süleyman Məmmədov \\n| league   = [[Azerbaijan First Division]]\\n| season   = [[2016–17 Azerbaijan First Division|2016–17]]\\n| position =  14th\\n| pattern_la1=|pattern_b1=|pattern_ra1=\\n| leftarm1=FFFFFF|body1=FFFFFF|rightarm1=FFFFFF|shorts1=FFFFFF|socks1=FFFFFF\\n| pattern_la2=|pattern_b2=|pattern_ra2=\\n| leftarm2=387C44|body2=387C44|rightarm2=387C44|shorts2=387C44|socks2=387C44\\n}}\\n'''Göyazan Qazakh FK''' was an [[Azerbaijan]]i [[football (soccer)|football]] club. The club took part in [[Azerbaijan First Division]].\"}}",
+  "fetchedAt": "2026-10-14T11:34:48.109Z"
+}

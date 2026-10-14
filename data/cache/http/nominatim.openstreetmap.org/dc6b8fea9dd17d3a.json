@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=34.793215&lon=32.411669&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209520841,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":18593506,\"lat\":\"34.7931842\",\"lon\":\"32.4116195\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.778896772712318e-05,\"addresstype\":\"leisure\",\"name\":\"Chloraka Stadium\",\"display_name\":\"Chloraka Stadium, Anapauseos, Διπλαρκάτζια, Χλώρακας, Κοινότητα Χλώρακα, Σύμπλεγμα Κοινοτήτων Δυτικής Πάφου, Επαρχία Πάφου, Κύπρος, 8221, Κύπρος - Kıbrıs\",\"address\":{\"leisure\":\"Chloraka Stadium\",\"road\":\"Anapauseos\",\"hamlet\":\"Διπλαρκάτζια\",\"town\":\"Χλώρακας\",\"city\":\"Κοινότητα Χλώρακα\",\"county\":\"Σύμπλεγμα Κοινοτήτων Δυτικής Πάφου\",\"state_district\":\"Επαρχία Πάφου\",\"ISO3166-2-lvl5\":\"CY-05\",\"region\":\"Κύπρος\",\"postcode\":\"8221\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"34.7926174\",\"34.7937848\",\"32.4108490\",\"32.4123985\"]}",
+  "fetchedAt": "2026-10-14T11:40:32.514Z"
+}

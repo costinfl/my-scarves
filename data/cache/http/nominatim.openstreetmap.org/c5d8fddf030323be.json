@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.873889&lon=18.408611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":56435528,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":48389420,\"lat\":\"43.8737413\",\"lon\":\"18.4085901\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.746623941400805e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Jezero, Sarajevo, Mjesna zajednica Koševo II, Općina Centar, Grad Sarajevo, Kanton Sarajevo, Federacija Bosne i Hercegovine, 71107, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Jezero\",\"city\":\"Sarajevo\",\"suburb\":\"Mjesna zajednica Koševo II\",\"city_district\":\"Općina Centar\",\"county\":\"Grad Sarajevo\",\"state_district\":\"Kanton Sarajevo\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"71107\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"43.8732017\",\"43.8742809\",\"18.4079871\",\"18.4091931\"]}",
+  "fetchedAt": "2026-10-14T11:39:37.397Z"
+}

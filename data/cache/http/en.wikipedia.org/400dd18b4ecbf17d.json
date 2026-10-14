@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Namys%20Almaty",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Namys Almaty\",\"pageid\":27618299,\"redirects\":[],\"wikitext\":\"{{one source|date=November 2025}}\\n{{Use dmy dates|date=October 2025}}\\n{{Infobox football club\\n| clubname = FC Namys Almaty\\n| image = \\n| fullname = FC Namys Almaty\\n| nickname = \\n| founded = 1992\\n| ground = \\n| capacity = \\n| chairman = \\n| manager = \\n| league = [[Kazakhstan First Division]]\\n| season = 1995\\n| position = 2 (East)|\\n}}\\n'''FC Namys Almaty''' ({{langx|kk|Намыс футбол клубы}}, ''Namys fýtbol klýby'')  are a [[Kazakhstan]]i [[association football|football]] club based in [[Almaty]], Kazakhstan. The club played in the [[Kazakhstan Super League]] in season 1993. They were members of the [[Kazakhstan First Division]] from 1994.\"}}",
+  "fetchedAt": "2026-10-14T11:37:03.958Z"
+}

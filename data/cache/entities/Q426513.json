@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T11:32:04.005Z",
+  "version": 2,
+  "entity": {
+    "id": "Q426513",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "73561"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Maccabi Netanya F.C."
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Maccabi Netanya F.C."
+      }
+    }
+  }
+}

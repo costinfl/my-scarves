@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.985194&lon=47.842500&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206237284,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":367179637,\"lat\":\"40.9853366\",\"lon\":\"47.8424786\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.0000762951049326e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Araz Cavadov küç., Qəbələ, Qəbələ rayonu, 3600, Azərbaycan\",\"address\":{\"road\":\"Araz Cavadov küç.\",\"town\":\"Qəbələ\",\"county\":\"Qəbələ rayonu\",\"ISO3166-2-lvl6\":\"AZ-QAB\",\"postcode\":\"3600\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.9847408\",\"40.9859323\",\"47.8417463\",\"47.8432079\"]}",
+  "fetchedAt": "2026-10-14T11:39:18.328Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.077222&lon=25.620556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60844937,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":222753123,\"lat\":\"43.0771722\",\"lon\":\"25.6202106\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.454184786750618e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Филип Тотю, Широк Център, Велико Търново, 5000, България\",\"address\":{\"road\":\"Филип Тотю\",\"suburb\":\"Широк Център\",\"city\":\"Велико Търново\",\"state_district\":\"Велико Търново\",\"state\":\"Велико Търново\",\"ISO3166-2-lvl4\":\"BG-04\",\"postcode\":\"5000\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"43.0768237\",\"43.0775209\",\"25.6194966\",\"25.6209246\"]}",
+  "fetchedAt": "2026-10-14T11:40:03.580Z"
+}

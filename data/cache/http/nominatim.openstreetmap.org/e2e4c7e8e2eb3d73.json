@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=34.769186&lon=32.440144&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210112115,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1115941818,\"lat\":\"34.7692209\",\"lon\":\"32.4400857\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.279468986033443e-05,\"addresstype\":\"leisure\",\"name\":\"Stelios Kyriakides (Pafiako) Stadium\",\"display_name\":\"Stelios Kyriakides (Pafiako) Stadium, Dimokratias Avenue, Paphos Industrial area, Agios Theodoros, Δήμος Πάφου, Επαρχία Πάφου, Κύπρος, 8028, Κύπρος - Kıbrıs\",\"address\":{\"leisure\":\"Stelios Kyriakides (Pafiako) Stadium\",\"road\":\"Dimokratias Avenue\",\"hamlet\":\"Paphos Industrial area\",\"city_district\":\"Agios Theodoros\",\"city\":\"Δήμος Πάφου\",\"state_district\":\"Επαρχία Πάφου\",\"ISO3166-2-lvl5\":\"CY-05\",\"region\":\"Κύπρος\",\"postcode\":\"8028\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"34.7686331\",\"34.7698087\",\"32.4393912\",\"32.4407803\"]}",
+  "fetchedAt": "2026-10-14T11:40:47.609Z"
+}

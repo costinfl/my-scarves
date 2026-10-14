@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.806700&lon=15.864000&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":79663936,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":249720965,\"lat\":\"44.8066909\",\"lon\":\"15.8639380\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.172808422975536e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Žegarska aleja, Nova četvrt, Harmani, Bihać, Grad Bihać, Unsko-sanski kanton, Federacija Bosne i Hercegovine, 77101, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Žegarska aleja\",\"neighbourhood\":\"Nova četvrt\",\"suburb\":\"Harmani\",\"city\":\"Bihać\",\"county\":\"Grad Bihać\",\"state_district\":\"Unsko-sanski kanton\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"77101\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.8060028\",\"44.8073637\",\"15.8632975\",\"15.8645780\"]}",
+  "fetchedAt": "2026-10-14T11:39:47.277Z"
+}

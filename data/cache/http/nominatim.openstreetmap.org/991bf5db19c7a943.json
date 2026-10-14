@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.720903&lon=35.265769&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210945708,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":413567106,\"lat\":\"32.7209937\",\"lon\":\"35.2658262\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.3453315576369598,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"7928, عيلوط, נפת יזרעאל, מחוז הצפון, 2353401, ישראל\",\"address\":{\"road\":\"7928\",\"village\":\"عيلوط\",\"state_district\":\"נפת יזרעאל\",\"state\":\"מחוז הצפון\",\"ISO3166-2-lvl4\":\"IL-Z\",\"postcode\":\"2353401\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.7204122\",\"32.7215752\",\"35.2652839\",\"35.2663685\"]}",
+  "fetchedAt": "2026-10-14T11:41:37.509Z"
+}

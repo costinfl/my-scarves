@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.208889&lon=45.412222&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":207098797,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":6597613792,\"lat\":\"39.2089232\",\"lon\":\"45.4121672\",\"category\":\"highway\",\"type\":\"bus_stop\",\"place_rank\":30,\"importance\":6.136797131299333e-05,\"addresstype\":\"highway\",\"name\":\"\",\"display_name\":\"İ. Məmmədov, Əliabad, Naxçıvan, Naxçıvan Muxtar Respublikası, 7005, Azərbaycan\",\"address\":{\"road\":\"İ. Məmmədov\",\"village\":\"Əliabad\",\"city\":\"Naxçıvan\",\"ISO3166-2-lvl6\":\"AZ-NV\",\"state\":\"Naxçıvan Muxtar Respublikası\",\"ISO3166-2-lvl4\":\"AZ-NX\",\"postcode\":\"7005\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"39.2088732\",\"39.2089732\",\"45.4121172\",\"45.4122172\"]}",
+  "fetchedAt": "2026-10-14T11:39:05.584Z"
+}

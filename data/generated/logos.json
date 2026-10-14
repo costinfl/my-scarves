@@ -255,6 +255,14 @@
     "author": "Ben Sutherland from Crystal Palace, London, UK",
     "attributionRequired": true
   },
+  "Q31533": {
+    "file": "Q31533.png",
+    "commonsFile": "NK Celje logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NK_Celje_logo.png",
+    "license": "CC0",
+    "author": "GašperKliček",
+    "attributionRequired": false
+  },
   "Q32494": {
     "file": "Q32494.svg",
     "commonsFile": "FC Schalke 04 Logo.svg",
@@ -407,6 +415,14 @@
     "author": "Manuel de Sousa / JotaCartas",
     "attributionRequired": true
   },
+  "Q128897": {
+    "file": "Q128897.png",
+    "commonsFile": "FK Borac Banja Luka logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Borac_Banja_Luka_logo.png",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q131209": {
     "file": "Q131209.svg",
     "commonsFile": "FK Austria Wien logo.svg",
@@ -423,6 +439,14 @@
     "author": "SK Rapid",
     "attributionRequired": false
   },
+  "Q131378": {
+    "file": "Q131378.svg",
+    "commonsFile": "APOEL (logo with stars).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:APOEL_(logo_with_stars).svg",
+    "license": "Public domain",
+    "author": "APOEL F.C.",
+    "attributionRequired": false
+  },
   "Q132885": {
     "file": "Q132885.svg",
     "commonsFile": "Olympique de Marseille 2026 logo.svg",
@@ -430,6 +454,14 @@
     "license": "Public domain",
     "author": "Olympique de Marseille",
     "attributionRequired": false
+  },
+  "Q136433": {
+    "file": "Q136433.png",
+    "commonsFile": "CSKA Sofia logo for 70th anniversary.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSKA_Sofia_logo_for_70th_anniversary.png",
+    "license": "CC BY-SA 3.0",
+    "author": "Aleksandar Videnski",
+    "attributionRequired": true
   },
   "Q138230": {
     "file": "Q138230.png",
@@ -446,6 +478,14 @@
     "license": "Public domain",
     "author": "SG Dinamo Dresde (SG Dynamo Dresden e.V. Lennéstraße 12 01069 Dresden teléfono : +49 351 439 43 0 fax : +49 351 439 43 13 verein@dynamo-dresden.de https://www.dynamo-dresden.de https://www.youtube.com/channel/UCTRY6TKbFpRuPvAIDJVKuaA https://www.facebook.com/dynamodresden.de/ https://www.instagram.com/sgdynamodresden/?hl=de https://twitter.com/DynamoDresden )",
     "attributionRequired": false
+  },
+  "Q144190": {
+    "file": "Q144190.png",
+    "commonsFile": "Levski sofia 1990-1992.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Levski_sofia_1990-1992.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": true
   },
   "Q144952": {
     "file": "Q144952.svg",
@@ -645,6 +685,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FC_Nantes_(avec_fond)_-_2019.svg",
     "license": "Public domain",
     "author": "FC Nantes",
+    "attributionRequired": false
+  },
+  "Q192253": {
+    "file": "Q192253.svg",
+    "commonsFile": "SK Slovan Bratislava logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SK_Slovan_Bratislava_logo.svg",
+    "license": "Public domain",
+    "author": "ŠK Slovan Bratislava",
     "attributionRequired": false
   },
   "Q193481": {
@@ -927,12 +975,36 @@
     "author": "AC Monza Uploaded by Giorgio Pallavicini",
     "attributionRequired": false
   },
+  "Q289516": {
+    "file": "Q289516.svg",
+    "commonsFile": "AC Oulu logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AC_Oulu_logo.svg",
+    "license": "Public domain",
+    "author": "AC Oulu",
+    "attributionRequired": false
+  },
   "Q289613": {
     "file": "Q289613.svg",
     "commonsFile": "Logo Pisa Sporting Club.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Pisa_Sporting_Club.svg",
     "license": "Public domain",
     "author": "Pisa Sporting Club S.r.l.",
+    "attributionRequired": false
+  },
+  "Q290629": {
+    "file": "Q290629.svg",
+    "commonsFile": "FK Cherno More (ancien logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Cherno_More_(ancien_logo).svg",
+    "license": "Public domain",
+    "author": "FK Cherno More",
+    "attributionRequired": false
+  },
+  "Q291471": {
+    "file": "Q291471.svg",
+    "commonsFile": "AEL Limassol logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AEL_Limassol_logo.svg",
+    "license": "Public domain",
+    "author": "AEL Limassol",
     "attributionRequired": false
   },
   "Q292231": {
@@ -1031,6 +1103,22 @@
     "author": "Sivasspor logo",
     "attributionRequired": false
   },
+  "Q374254": {
+    "file": "Q374254.png",
+    "commonsFile": "BeroeLogo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeroeLogo.png",
+    "license": "CC BY 3.0",
+    "author": "Професионален футболен клуб Берое - Стара Загора АД",
+    "attributionRequired": true
+  },
+  "Q385177": {
+    "file": "Q385177.png",
+    "commonsFile": "MOİK (Bakı).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MO%C4%B0K_(Bak%C4%B1).jpg",
+    "license": "Public domain",
+    "author": "Azərbaycan Respublikası Müdafiə Nazirliyi",
+    "attributionRequired": false
+  },
   "Q385518": {
     "file": "Q385518.svg",
     "commonsFile": "SK Sigma Olomouc logo.svg",
@@ -1061,6 +1149,14 @@
     "license": "Public domain",
     "author": "LASK Linz",
     "attributionRequired": false
+  },
+  "Q420594": {
+    "file": "Q420594.png",
+    "commonsFile": "FCKairat logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FCKairat_logo.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Жарас Жакыпбек",
+    "attributionRequired": true
   },
   "Q427491": {
     "file": "Q427491.png",
@@ -1174,6 +1270,14 @@
     "author": "Szombathelyi Haladas FC (SVG version made by CFC at Hungarian Wikipedia)",
     "attributionRequired": false
   },
+  "Q603407": {
+    "file": "Q603407.png",
+    "commonsFile": "Şəmkir FK.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%9E%C9%99mkir_FK.jpg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q622430": {
     "file": "Q622430.svg",
     "commonsFile": "Djurgardens IF logo.svg",
@@ -1188,6 +1292,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FC_Lugano_2025.svg",
     "license": "Public domain",
     "author": "FC Lugano",
+    "attributionRequired": false
+  },
+  "Q643434": {
+    "file": "Q643434.svg",
+    "commonsFile": "Slavia Sofia logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slavia_Sofia_logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
   "Q653119": {
@@ -1374,6 +1486,14 @@
     "author": "70-er",
     "attributionRequired": false
   },
+  "Q818698": {
+    "file": "Q818698.png",
+    "commonsFile": "Logo of FK Velez Mostar.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_FK_Velez_Mostar.png",
+    "license": "Public domain",
+    "author": "VisokiPredstavnik",
+    "attributionRequired": false
+  },
   "Q824450": {
     "file": "Q824450.svg",
     "commonsFile": "APO Levadiakos (logo).svg",
@@ -1501,6 +1621,14 @@
     "author": "Como 1907 srl",
     "attributionRequired": false
   },
+  "Q1124841": {
+    "file": "Q1124841.svg",
+    "commonsFile": "PFC Lokomotiv Plovdiv Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PFC_Lokomotiv_Plovdiv_Logo.svg",
+    "license": "Public domain",
+    "author": "PFC Lokomotiv Plovdiv",
+    "attributionRequired": false
+  },
   "Q1130849": {
     "file": "Q1130849.png",
     "commonsFile": "Logo Liverpool FC (2024).png",
@@ -1539,6 +1667,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pusk%C3%A1s_Ferenc_Labdar%C3%BAg%C3%B3_Akad%C3%A9mia.svg",
     "license": "Public domain",
     "author": "Ferenc Puskás Football Academy",
+    "attributionRequired": false
+  },
+  "Q1388695": {
+    "file": "Q1388695.svg",
+    "commonsFile": "Svetkavitza Logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Svetkavitza_Logo.svg",
+    "license": "Public domain",
+    "author": "1989",
     "attributionRequired": false
   },
   "Q1398111": {
@@ -1589,6 +1725,14 @@
     "author": "Unknown authorUnknown author",
     "attributionRequired": true
   },
+  "Q1859826": {
+    "file": "Q1859826.png",
+    "commonsFile": "Septemvri Sofia.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Septemvri_Sofia.png",
+    "license": "Public domain",
+    "author": "Uploader - Idm at bg.wikipedia.org",
+    "attributionRequired": false
+  },
   "Q1875429": {
     "file": "Q1875429.png",
     "commonsFile": "Емблема ФК «Арсенал-Київщина».jpg",
@@ -1611,6 +1755,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Avangard_Kramatorsk_Logo.svg",
     "license": "Public domain",
     "author": "ФК Авангард Краматорськ",
+    "attributionRequired": false
+  },
+  "Q2394731": {
+    "file": "Q2394731.svg",
+    "commonsFile": "Anagennisi Deryneia (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anagennisi_Deryneia_(logo).svg",
+    "license": "Public domain",
+    "author": "Anagennisi Deryneia",
     "attributionRequired": false
   },
   "Q2410944": {
@@ -1669,6 +1821,14 @@
     "author": "FK Dukla Praha",
     "attributionRequired": false
   },
+  "Q2795016": {
+    "file": "Q2795016.png",
+    "commonsFile": "Hapoel Marmurek Haim Logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hapoel_Marmurek_Haim_Logo.png",
+    "license": "Public domain",
+    "author": "Nonagononagon",
+    "attributionRequired": false
+  },
   "Q2947829": {
     "file": "Q2947829.png",
     "commonsFile": "FC Bukovyna.png",
@@ -1685,12 +1845,36 @@
     "author": "KFUM Kameratene",
     "attributionRequired": false
   },
+  "Q3441984": {
+    "file": "Q3441984.svg",
+    "commonsFile": "Logo FK Radnički Lukavac.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FK_Radni%C4%8Dki_Lukavac.svg",
+    "license": "Public domain",
+    "author": "FK Radnički Lukavac",
+    "attributionRequired": false
+  },
   "Q4122219": {
     "file": "Q4122219.svg",
     "commonsFile": "Panathinaikos.svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panathinaikos.svg",
     "license": "Public domain",
     "author": "Original: Unknown Vector: Lokomotive74",
+    "attributionRequired": false
+  },
+  "Q4208716": {
+    "file": "Q4208716.png",
+    "commonsFile": "FCKairat logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FCKairat_logo.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Жарас Жакыпбек",
+    "attributionRequired": true
+  },
+  "Q5970899": {
+    "file": "Q5970899.svg",
+    "commonsFile": "IF Gnistan logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IF_Gnistan_logo.svg",
+    "license": "Public domain",
+    "author": "IF Gnistan",
     "attributionRequired": false
   },
   "Q6954589": {
@@ -1701,12 +1885,36 @@
     "author": "Unknown authorUnknown author",
     "attributionRequired": false
   },
+  "Q9171502": {
+    "file": "Q9171502.png",
+    "commonsFile": "Nov grb NK Krško julij 2015.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nov_grb_NK_Kr%C5%A1ko_julij_2015.png",
+    "license": "Public domain",
+    "author": "Gnooi",
+    "attributionRequired": false
+  },
+  "Q11336634": {
+    "file": "Q11336634.svg",
+    "commonsFile": "HIFK-Jalkapallo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HIFK-Jalkapallo.svg",
+    "license": "Public domain",
+    "author": "HIFK Soccer ry.",
+    "attributionRequired": false
+  },
   "Q11492669": {
     "file": "Q11492669.svg",
     "commonsFile": "Aalborg Boldspilklub (logo).svg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aalborg_Boldspilklub_(logo).svg",
     "license": "Public domain",
     "author": "Aalborg Boldspilklub",
+    "attributionRequired": false
+  },
+  "Q12297389": {
+    "file": "Q12297389.svg",
+    "commonsFile": "FK Levski Karlovo (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FK_Levski_Karlovo_(logo).svg",
+    "license": "Public domain",
+    "author": "FK Levski Karlovo",
     "attributionRequired": false
   },
   "Q14551982": {
@@ -1746,6 +1954,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Futbolni_Klub_Metalist_1925_Kharkiv_(logo).svg",
     "license": "Public domain",
     "author": "Futbolni Klub Metalist 1925 Kharkiv",
+    "attributionRequired": false
+  },
+  "Q30309373": {
+    "file": "Q30309373.svg",
+    "commonsFile": "Səbail Futbol Klubu (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C9%99bail_Futbol_Klubu_(logo).svg",
+    "license": "Public domain",
+    "author": "Səbail Futbol Klubu",
     "attributionRequired": false
   },
   "Q56542463": {

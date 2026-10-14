@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.186536&lon=34.872503&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210173769,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":32689597,\"lat\":\"32.1864418\",\"lon\":\"34.8725484\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.18554865524912875,\"addresstype\":\"leisure\",\"name\":\"הפועל רעננה\",\"display_name\":\"הפועל רעננה, קרן היסוד, קרית וייצמן, שיכון עובדים, רעננה, נפת פתח תקווה, מחוז המרכז, 4343310, ישראל\",\"address\":{\"leisure\":\"הפועל רעננה\",\"road\":\"קרן היסוד\",\"neighbourhood\":\"קרית וייצמן\",\"suburb\":\"שיכון עובדים\",\"city\":\"רעננה\",\"state_district\":\"נפת פתח תקווה\",\"state\":\"מחוז המרכז\",\"ISO3166-2-lvl4\":\"IL-M\",\"postcode\":\"4343310\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.1858373\",\"32.1870462\",\"34.8719874\",\"34.8731095\"]}",
+  "fetchedAt": "2026-10-14T11:41:29.851Z"
+}

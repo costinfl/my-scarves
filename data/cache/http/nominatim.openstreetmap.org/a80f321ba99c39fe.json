@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.963611&lon=18.163333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":188458812,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":203982750,\"lat\":\"48.9637865\",\"lon\":\"18.1633987\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.662088960093107e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Pod kaštieľom, Dolné Kolónky, Pod Kaštieľom, Dubnica nad Váhom, okres Ilava, Trenčiansky kraj, 018 41, Slovensko\",\"address\":{\"road\":\"Pod kaštieľom\",\"neighbourhood\":\"Dolné Kolónky\",\"suburb\":\"Pod Kaštieľom\",\"town\":\"Dubnica nad Váhom\",\"district\":\"okres Ilava\",\"region\":\"Trenčiansky kraj\",\"ISO3166-2-lvl4\":\"SK-TC\",\"postcode\":\"018 41\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.9632080\",\"48.9643651\",\"18.1625142\",\"18.1642832\"]}",
+  "fetchedAt": "2026-10-14T11:42:15.788Z"
+}

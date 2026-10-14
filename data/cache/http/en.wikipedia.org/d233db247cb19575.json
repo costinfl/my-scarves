@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=%C3%87%C4%B1raqqala%20Siy%C9%99z%C9%99n%20FK",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Çıraqqala Siyəzən FK\",\"pageid\":41638193,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| fullname  = Çıraqqala Siyəzən Futbol Klubu\\n| nickname  =\\n| image     =\\n| clubname  = Çıraqqala Siyəzən\\n| founded   = {{Start date and years ago|1991}}\\n| dissolved = {{Start date and years ago|1994}}\\n| ground    = [[Siyəzən]]\\n| chairman  =\\n| manager   =\\n| league    = [[Azerbaijan First Division]]\\n| season    = 1993–94\\n| position  = 4th Group B\\n}}\\n\\n'''Çıraqqala Siyəzən FK''' ({{langx|az|Çıraqqala Siyəzən Futbol Klubu}}) was an [[Azerbaijan]]i [[football (soccer)|football]] club from [[Siyəzən]] founded in 1991.<ref>{{cite web|title=Azerbaijan&nbsp;– List of Foundation Dates|url=https://www.rsssf.org/tablesa/azerfound.html|publisher= The Rec.Sport.Soccer Statistics Foundation|accessdate=3 January 2014}}</ref> They played in the [[Azerbaijan Premier League|Azerbaijan Top Division]] for only one season, 1992, before relegation to the [[Azerbaijan First Division]]. They dissolved two years later at the end of the 1993–94 season.\"}}",
+  "fetchedAt": "2026-10-14T11:34:46.959Z"
+}

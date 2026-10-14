@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Alma-Ata",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Alma-Ata\",\"pageid\":29672933,\"redirects\":[],\"wikitext\":\"{{distinguish|text=[[FC Kairat Academy]], formed as FC Tsesna in 2010}}\\n{{Infobox football club \\n| clubname  = Alma-Ata\\n| image     = FC Alma-Ata Logo.svg\\n| fullname  = Football Club Alma-Ata\\n| nickname  =  \\n| founded   = {{Start date and age|2000}}\\n| dissolved = {{Start date and age|2008}}\\n| ground    = [[Almaty Central Stadium|Central Stadium]] <br> [[Almaty]]\\n| capacity  = 23,000\\n| chairman  =  \\n| manager   = \\n| league    = [[Kazakhstan Premier League]] \\n| season    = [[2008 Kazakhstan Premier League|2008]]\\n|position   = 8th\\n|pattern_la1=|pattern_b1=|pattern_ra1=\\n|leftarm1=F3181E|body1=F3181E|rightarm1=F3181E|shorts1=F3181E|socks1=F3181E\\n|pattern_la2=|pattern_b2=|pattern_ra2=\\n|leftarm2=FFFFFF|body2=FFFFFF|rightarm2=FFFFFF|shorts2=FFFFFF|socks2=FFFFFF\\n}}\\n\\n'''FC Alma-Ata''' ({{langx|kk|Алматы футбол клубы|Almaty futbol kluby}}) was a [[Kazakhstan|Kazakh]] [[association football]] club based in [[Almaty]] between 2000 and 2008.\"}}",
+  "fetchedAt": "2026-10-14T11:36:54.025Z"
+}

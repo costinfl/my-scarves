@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Borac%20%C5%A0amac",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Borac Šamac\",\"pageid\":11013724,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = Borac Šamac\\n| image    = FK Borac Samac.png\\n| fullname = FK Borac Šamac\\n| nickname = \\n| founded  = 1919\\n| ground   = Gradski Stadion \\\"Borac\\\", [[Šamac, Bosnia and Herzegovina|Šamac]]\\n| capacity =  3,000\\n| chairman = Milorad Bijelović\\n| manager  = [[Miroslav Drinić]]\\n| league   = [[Second League of the Republika Srpska|Second League of RS]] (West)\\n| season   = 2021–22\\n| position = Second League of RS (West), 6th\\n|pattern_la1=|pattern_b1=|pattern_ra1=\\n|leftarm1=000000|body1=ffffff|rightarm1=000000|shorts1=000000|socks1=ffffff\\n|pattern_la2=|pattern_b2=|pattern_ra2=\\n|leftarm2=ffffff|body2=ffffff|rightarm2=ffffff|shorts2=ffffff|socks2=ffffff|\\n}}\\n'''FK Borac Šamac''' ([[Serbian Cyrillic]]: ФК Борац Шaмaц) is a professional [[football (soccer)|football]] club from the town of [[Šamac, Bosnia and Herzegovina|Šamac]], in northern [[Bosnia and Herzegovina]]. The club competes in the [[Second League of the Republika Srpska]] (Group West).\"}}",
+  "fetchedAt": "2026-10-14T11:35:02.155Z"
+}

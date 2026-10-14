@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.576667&lon=48.381389&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":202290312,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":343861441,\"lat\":\"40.5767338\",\"lon\":\"48.3815265\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":4.0000762951049326e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion Ağsu\",\"display_name\":\"Stadion Ağsu, Famil Məmmədov küç., Ağsu, Ağsu rayonu, Azərbaycan\",\"address\":{\"leisure\":\"Stadion Ağsu\",\"road\":\"Famil Məmmədov küç.\",\"town\":\"Ağsu\",\"county\":\"Ağsu rayonu\",\"ISO3166-2-lvl6\":\"AZ-AGU\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.5762121\",\"40.5772556\",\"48.3810442\",\"48.3820088\"]}",
+  "fetchedAt": "2026-10-14T11:39:04.388Z"
+}

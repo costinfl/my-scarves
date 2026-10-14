@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-14T11:32:00.154Z",
+  "version": 2,
+  "entity": {
+    "id": "Q12797183",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Brežice 1919"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Brežice"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.993056&lon=46.930556&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":206203003,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":804134944,\"lat\":\"39.9931546\",\"lon\":\"46.9304988\",\"category\":\"highway\",\"type\":\"residential\",\"place_rank\":26,\"importance\":0.05338759517814905,\"addresstype\":\"road\",\"name\":\"Mirzə Fətəli Axundzadə küçəsi\",\"display_name\":\"Mirzə Fətəli Axundzadə küçəsi, Ağdam, Ağdam rayonu, Azərbaycan\",\"address\":{\"road\":\"Mirzə Fətəli Axundzadə küçəsi\",\"town\":\"Ağdam\",\"county\":\"Ağdam rayonu\",\"ISO3166-2-lvl6\":\"AZ-AGM\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"39.9928152\",\"39.9943147\",\"46.9294804\",\"46.9326673\"]}",
+  "fetchedAt": "2026-10-14T11:39:23.849Z"
+}

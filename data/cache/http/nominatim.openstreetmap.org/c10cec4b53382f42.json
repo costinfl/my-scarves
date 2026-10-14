@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.167839&lon=34.824793&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":209850579,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":247162399,\"lat\":\"32.1678807\",\"lon\":\"34.8250706\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.500038147550191e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"אייבי נתן, נחלת ישראל, הרצליה, נפת תל אביב, מחוז תל אביב, 4648567, ישראל\",\"address\":{\"road\":\"אייבי נתן\",\"suburb\":\"נחלת ישראל\",\"town\":\"הרצליה\",\"state_district\":\"נפת תל אביב\",\"state\":\"מחוז תל אביב\",\"ISO3166-2-lvl4\":\"IL-TA\",\"postcode\":\"4648567\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.1673002\",\"32.1684612\",\"34.8245368\",\"34.8256044\"]}",
+  "fetchedAt": "2026-10-14T11:41:38.337Z"
+}

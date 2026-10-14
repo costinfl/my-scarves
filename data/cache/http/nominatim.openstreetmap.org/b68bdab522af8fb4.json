@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.125833&lon=34.965833&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210327471,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":889300121,\"lat\":\"32.1262364\",\"lon\":\"34.9656449\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.12743869505990896,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"حيفا, كفر برا, נפת פתח תקווה, מחוז המרכז, 4809284, ישראל\",\"address\":{\"road\":\"حيفا\",\"village\":\"كفر برا\",\"state_district\":\"נפת פתח תקווה\",\"state\":\"מחוז המרכז\",\"ISO3166-2-lvl4\":\"IL-M\",\"postcode\":\"4809284\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.1256307\",\"32.1268420\",\"34.9651924\",\"34.9660975\"]}",
+  "fetchedAt": "2026-10-14T11:41:20.633Z"
+}

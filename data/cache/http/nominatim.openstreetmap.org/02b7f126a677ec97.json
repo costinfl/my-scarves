@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.229167&lon=18.744722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":184557999,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":156175442,\"lat\":\"49.2291149\",\"lon\":\"18.7447827\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.550621805137739e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Športová, Sihoť, Staré mesto, Žilina, okres Žilina, Žilinský kraj, 010 01, Slovensko\",\"address\":{\"road\":\"Športová\",\"neighbourhood\":\"Sihoť\",\"suburb\":\"Staré mesto\",\"city\":\"Žilina\",\"district\":\"okres Žilina\",\"state\":\"Žilinský kraj\",\"ISO3166-2-lvl4\":\"SK-ZI\",\"postcode\":\"010 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"49.2285702\",\"49.2296597\",\"18.7441051\",\"18.7454604\"]}",
+  "fetchedAt": "2026-10-14T11:42:22.754Z"
+}

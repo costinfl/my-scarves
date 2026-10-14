@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.542356&lon=13.730453&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":78869989,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":200133728,\"lat\":\"45.5424143\",\"lon\":\"13.7305225\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.496452277404467e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Ljubljanska cesta / Strada di Ljubljana, Olmo, Koper / Capodistria (naselje), Koper / Capodistria, Upravna enota Koper / Unità amministrativa Capodistria, 6000, Slovenija\",\"address\":{\"road\":\"Ljubljanska cesta / Strada di Ljubljana\",\"suburb\":\"Olmo\",\"town\":\"Koper / Capodistria\",\"municipality\":\"Koper / Capodistria\",\"ISO3166-2-lvl8\":\"SI-050\",\"postcode\":\"6000\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"45.5418544\",\"45.5429740\",\"13.7298440\",\"13.7312039\"]}",
+  "fetchedAt": "2026-10-14T11:42:28.240Z"
+}

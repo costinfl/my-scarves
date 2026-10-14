@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.685278&lon=23.368611&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":58763863,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":597064881,\"lat\":\"42.6854197\",\"lon\":\"23.3688274\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.891660944528905e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Марко Бочар, ж.к. Христо Смирненски, София, Слатина, Столична, София-град, 1754, България\",\"address\":{\"road\":\"Марко Бочар\",\"suburb\":\"ж.к. Христо Смирненски\",\"city\":\"София\",\"ISO3166-2-lvl8\":\"BG-23\",\"county\":\"Слатина\",\"state_district\":\"Столична\",\"state\":\"София-град\",\"ISO3166-2-lvl4\":\"BG-22\",\"postcode\":\"1754\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.6849225\",\"42.6859169\",\"23.3683197\",\"23.3693351\"]}",
+  "fetchedAt": "2026-10-14T11:39:51.998Z"
+}

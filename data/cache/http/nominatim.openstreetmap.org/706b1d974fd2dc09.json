@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.162739&lon=71.413312&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":215610090,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":503596292,\"lat\":\"51.1626768\",\"lon\":\"71.4124772\",\"category\":\"building\",\"type\":\"construction\",\"place_rank\":30,\"importance\":6.872587167158034e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"14, Кенесары көшесі, Сарыарқа ауданы, Астана, 010000, Қазақстан\",\"address\":{\"house_number\":\"14\",\"road\":\"Кенесары көшесі\",\"city_district\":\"Сарыарқа ауданы\",\"city\":\"Астана\",\"ISO3166-2-lvl15\":\"KZ-AST\",\"state\":\"Астана\",\"ISO3166-2-lvl4\":\"KZ-71\",\"postcode\":\"010000\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"51.1620773\",\"51.1632924\",\"71.4122601\",\"71.4128169\"]}",
+  "fetchedAt": "2026-10-14T11:41:59.212Z"
+}
