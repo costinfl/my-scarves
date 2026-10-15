@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Temp%20Shepetivka",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Temp Shepetivka\",\"pageid\":7011519,\"redirects\":[],\"wikitext\":\"{{Use dmy dates|date=January 2022}}\\n{{Infobox football club\\n| clubname = FC Temp Shepetivka\\n| image = Temp shepetivka.png\\n| image_size = 150px\\n| fullname = \\n| nickname = \\n| founded = {{Start date and age|1990}}\\n| dissolved = {{Start date and age|1996}}\\n| ground = Lokomotyv Stadium\\n| capacity =\\n| chairman = \\n| manager = \\n| league = defunct\\n| season =\\n| position =\\n| pattern_b1=_redhalf\\n| leftarm1=ff0000\\n| shorts1=000000\\n| socks1=000000\\n| pattern_b2=_collarred\\n| leftarm2=ffff00\\n| body2=ffff00\\n| rightarm2=ffff00\\n| shorts2=ff0000\\n| socks2=ffffff\\n}}\\n'''FC Temp Shepetivka''' was a Ukrainian [[association football|football]] club from [[Shepetivka]]. In the winter of 1996, the club was dissolved and replaced with a random created team based on the [[Kamianets-Podilskyi]] sports school to finish the season.\"}}",
+  "fetchedAt": "2026-10-14T19:13:19.092Z"
+}

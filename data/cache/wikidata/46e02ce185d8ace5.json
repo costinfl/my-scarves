@@ -1,0 +1,220 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q841245 wd:Q1262822 wd:Q205998 wd:Q1135735 wd:Q23051672 wd:Q204237 wd:Q368104 wd:Q179658 wd:Q220863 wd:Q1322550 wd:Q245162 wd:Q20429561 wd:Q753462 wd:Q16838020 wd:Q680770 wd:Q18129096 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:05:45.780Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q179658",
+      "stadium": "http://www.wikidata.org/entity/Q338602",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.1525 44.4372)",
+      "capacity": "55634",
+      "enwiki": "https://en.wikipedia.org/wiki/FCSB",
+      "website": "https://www.fcsb.ro/",
+      "clubLabel": "FCSB",
+      "stadiumLabel": "National Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q204237",
+      "stadium": "http://www.wikidata.org/entity/Q338602",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.1525 44.4372)",
+      "capacity": "55634",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti",
+      "website": "https://dinamo1948.ro",
+      "clubLabel": "FC Dinamo Bucharest",
+      "stadiumLabel": "National Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Dinamo%20Bucure%C8%99ti%20-%20logo%202026.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q204237",
+      "stadium": "http://www.wikidata.org/entity/Q1226240",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(26.102444 44.455083)",
+      "capacity": "15032",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti",
+      "website": "https://dinamo1948.ro",
+      "clubLabel": "FC Dinamo Bucharest",
+      "stadiumLabel": "Stadionul Dinamo",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Dinamo%20Bucure%C8%99ti%20-%20logo%202026.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q205998",
+      "stadium": "http://www.wikidata.org/entity/Q1253767",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.577247 46.779678)",
+      "capacity": "23500",
+      "enwiki": "https://en.wikipedia.org/wiki/CFR_Cluj",
+      "website": "https://cfr1907.ro/",
+      "clubLabel": "CFR Cluj",
+      "stadiumLabel": "Stadionul Dr. Constantin Rădulescu"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q220863",
+      "stadium": "http://www.wikidata.org/entity/Q3121017",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.022378 45.430236)",
+      "capacity": "13500",
+      "enwiki": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
+      "website": "https://ascotelul.ro/",
+      "clubLabel": "SC Oțelul Galați",
+      "stadiumLabel": "Stadionul Oțelul"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q245162",
+      "stadium": "http://www.wikidata.org/entity/Q1888199",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.052872 44.448194)",
+      "capacity": "10020",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti",
+      "website": "https://www.fcrapid.ro/",
+      "clubLabel": "FC Rapid București",
+      "stadiumLabel": "Stadionul Regie",
+      "parent": "http://www.wikidata.org/entity/Q107000701"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q245162",
+      "stadium": "http://www.wikidata.org/entity/Q97889239",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.056805555 44.455888888)",
+      "capacity": "14000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti",
+      "website": "https://www.fcrapid.ro/",
+      "clubLabel": "FC Rapid București",
+      "stadiumLabel": "Stadionul Rapid-Giulești",
+      "parent": "http://www.wikidata.org/entity/Q107000701"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q368104",
+      "stadium": "http://www.wikidata.org/entity/Q2437251",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(28.639333 44.197278)",
+      "capacity": "15500",
+      "enwiki": "https://en.wikipedia.org/wiki/FCV_Farul_Constan%C8%9Ba",
+      "website": "https://www.farulconstanta.com/",
+      "clubLabel": "SSC Farul Constanța",
+      "stadiumLabel": "Stadionul Farul"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q680770",
+      "stadium": "http://www.wikidata.org/entity/Q7596399",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.3114 46.1925)",
+      "capacity": "7287",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_UTA_Arad",
+      "website": "https://www.uta-arad.ro/",
+      "clubLabel": "FC UTA Arad",
+      "stadiumLabel": "Stadionul Francisc von Neumann",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/UTA%20Arad%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q680770",
+      "stadium": "http://www.wikidata.org/entity/Q7596399",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.311442 46.192575)",
+      "capacity": "7287",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_UTA_Arad",
+      "website": "https://www.uta-arad.ro/",
+      "clubLabel": "FC UTA Arad",
+      "stadiumLabel": "Stadionul Francisc von Neumann",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/UTA%20Arad%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q753462",
+      "stadium": "http://www.wikidata.org/entity/Q74413",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.572222 46.768333)",
+      "capacity": "30335",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Universitatea_Cluj",
+      "website": "https://www.fcucluj.ro/",
+      "clubLabel": "FC Universitatea Cluj",
+      "stadiumLabel": "Cluj Arena",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Universitatea%20Cluj.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q841245",
+      "stadium": "http://www.wikidata.org/entity/Q7596436",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.866422 44.846675)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti",
+      "website": "https://argesfc.ro/",
+      "clubLabel": "FC Argeș",
+      "stadiumLabel": "Stadionul Nicolae Dobrin"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1135735",
+      "stadium": "http://www.wikidata.org/entity/Q7596412",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.9131 45.7614)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Corvinul_Hunedoara",
+      "website": "https://fccorvinul1921.ro/",
+      "clubLabel": "FC Corvinul Hunedoara",
+      "stadiumLabel": "Stadionul Michael Klein"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1262822",
+      "stadium": "http://www.wikidata.org/entity/Q4684229",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.6519 47.7483)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Boto%C8%99ani",
+      "website": "http://www.fcbt.ro/",
+      "clubLabel": "FC Botoșani",
+      "stadiumLabel": "Stadionul Municipal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1322550",
+      "stadium": "http://www.wikidata.org/entity/Q3274884",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.033333 44.940278)",
+      "capacity": "15500",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Petrolul_Ploie%C8%99ti",
+      "website": "https://fcpetrolul.ro/",
+      "clubLabel": "FC Petrolul Ploiești",
+      "stadiumLabel": "Stadionul Ilie Oană",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Petrolul%20Ploie%C8%99ti.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16838020",
+      "stadium": "http://www.wikidata.org/entity/Q1409157",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.784167 44.313889)",
+      "capacity": "30944",
+      "enwiki": "https://en.wikipedia.org/wiki/CS_Universitatea_Craiova",
+      "website": "https://www.ucv1948.ro/",
+      "clubLabel": "CS Universitatea Craiova",
+      "stadiumLabel": "Stadionul Ion Oblemenco"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18129096",
+      "stadium": "http://www.wikidata.org/entity/Q24969855",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(26.14555556 44.49916667)",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Voluntari",
+      "website": "https://fcvoluntari.ro/",
+      "clubLabel": "FC Voluntari",
+      "stadiumLabel": "Anghel Iordănescu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20429561",
+      "stadium": "http://www.wikidata.org/entity/Q25204592",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.77613889 45.86291667)",
+      "capacity": "4774",
+      "enwiki": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe",
+      "website": "https://sepsiosk.ro/",
+      "clubLabel": "Sepsi OSK Sfântu Gheorghe",
+      "stadiumLabel": "Stadionul Municipal"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q23051672",
+      "stadium": "http://www.wikidata.org/entity/Q23051502",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.80291667 46.36694444)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc",
+      "website": "http://fkcsikszereda.ro/",
+      "clubLabel": "FK Csíkszereda",
+      "stadiumLabel": "Stadionul Municipal"
+    }
+  ]
+}

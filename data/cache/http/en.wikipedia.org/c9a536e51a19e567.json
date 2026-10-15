@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Sellier%20%26%20Bellot%20Vla%C5%A1im",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Sellier & Bellot Vlašim\",\"pageid\":27985987,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = FC Vlašim\\n| image    = FC Sellier & Bellot Vlašim.png\\n| image_size = 180px\\n| fullname = Football Club Sellier & Bellot Vlašim a.s.\\n| nickname = \\n| founded  = {{Start date and age|1922|df=yes}}\\n| ground   = [[Stadion Kollárova ulice]], [[Vlašim]]\\n| capacity = 6,000\\n| chairman = Oldřich Jiruš\\n| manager  = [[David Střihavka]]\\n| league = [[Czech National Football League]]\\n| season = [[2025–26 Czech National Football League|2025–26]]\\n| position = 9th of 16\\n| website  = {{URL|https://www.fcsbvlasim.cz/}}\\n| pattern_la1=0841A9|pattern_b1=_vlasim_16_17|pattern_ra1=0841A9 |\\n leftarm1=0841A9|body1=27408B|rightarm1=0841A9|shorts1=0841A9|socks1=0841A9|\\n}}\\n'''FC Sellier & Bellot Vlašim''' is a professional [[association football|football]] club based in [[Vlašim]], [[Czech Republic]]. It currently plays in [[Czech National Football League]].\"}}",
+  "fetchedAt": "2026-10-14T19:07:43.081Z"
+}

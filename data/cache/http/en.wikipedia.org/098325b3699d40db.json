@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Gossau",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Gossau\",\"pageid\":13723971,\"redirects\":[],\"wikitext\":\"{{Short description|Association football club}}\\n{{Infobox football club \\n| clubname = FC Gossau \\n| fullname = Fussballclub Gossau \\n| image  =  FC Gossau.png\\n| image_size = 160px\\n| founded  = {{start date and age|1906}}\\n| ground   = Sportanlage Buechenwald<br />[[Gossau, St. Gallen|Gossau]] \\n| capacity = 3,500 \\n| chairman = Carlo Troisi \\n| manager  = Giuliano Tobler \\n| league   = [[2. Liga Interregional]] \\n| season   = [[2024–25 2. Liga Interregional|2024–25]]\\n| position = Group 4, 4th of 16\\n| pattern_la1 = _whiteshoulders\\n| pattern_b1 = _whiteshoulders\\n| pattern_ra1 = _whiteshoulders\\n| leftarm1 = 0000DD\\n| body1 = 0000DD\\n| rightarm1 = 0000DD\\n| shorts1 = 0000DD\\n| socks1 = 0000DD\\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra2 = \\n| leftarm2 = FFFFFF\\n| body2 = FFFFFF\\n| rightarm2 = FFFFFF\\n| shorts2 = FFFFFF\\n| socks2 = FFFFFF\\n|\\n}}\\n\\n'''FC Gossau''' is a [[Switzerland|Swiss]] [[football (soccer)|football]] club from the city of [[Gossau, St. Gallen|Gossau]], canton of [[Canton of St. Gallen|St. Gallen]]. The team currently plays in [[2. Liga Interregional]], the fifth tier of Swiss football.\"}}",
+  "fetchedAt": "2026-10-14T19:12:13.803Z"
+}

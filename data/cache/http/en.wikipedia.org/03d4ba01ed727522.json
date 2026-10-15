@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Zag%C5%82%C4%99bie%20Wa%C5%82brzych",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Zagłębie Wałbrzych\",\"pageid\":20809361,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = Zagłębie Wałbrzych\\n| image    = Zaglebie-Walbrzych.png\\n| image_size = 200px\\n| fullname = GKS Zagłębie Wałbrzych\\n| nickname = ''Thorez''\\n| founded  = {{Start date and age|1945}} (as ''KS Julia Biały Kamień'')<br/> {{Start date and age|2006}} ''(re-founded)''\\n| ground   = \\\"Old Zagłębie\\\" Stadium\\n| capacity = \\n| chairman = Mariusz Pośledniak\\n| manager  = Krzysztof Śmieszek\\n| league   = [[Klasa A|Klasa A Wałbrzych I]]\\n| season   = 2023–24\\n| position = Klasa A Wałbrzych I, 10th of 16\\n|pattern_la1=\\n|pattern_b1=\\n|pattern_ra1=\\n|leftarm1=007f44\\n|body1=007f44\\n|rightarm1=007f44\\n|shorts1=000000\\n|socks1=007f44\\n}}\\n\\n'''Zagłębie Wałbrzych''' is a Polish multi-sports club in the south-western city of [[Wałbrzych]]. The club, based in the [[Biały Kamień, Wałbrzych|Biały Kamień]] neighbourhood, is the most famous for its football team, which competed in the [[Ekstraklasa|Polish top division]] in the past.\"}}",
+  "fetchedAt": "2026-10-14T19:11:12.867Z"
+}

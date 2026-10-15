@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=ASK%20Voitsberg",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"ASK Voitsberg\",\"pageid\":32323456,\"redirects\":[],\"wikitext\":\"{{Short description|Association football club in Voitsberg, Austria}}\\n{{Use dmy dates|date=October 2022}}\\n{{Infobox football club\\n|clubname = ASK Voitsberg\\n|image    = ASK_Voitsberg_Logo.svg\\n|upright  = 0.7\\n|alt      = logo\\n|fullname = Arbeiter Sport-Klub Sparkasse Stadtwerke Voitsberg\\n|founded  = 1921 <br /><small>''(year of foundation)''</small>\\n|ground   = Hans Blümel Stadion,<br />[[Voitsberg]]\\n|capacity = 1,635\\n|chairman = Michael Münzer<br />Bernd Osprian\\n|manager  = [[Philipp Zulechner]]\\n|league   = [[2. Liga (Austria)|2. Liga]]\\n| season   = [[2025–26 Austrian Regionalliga|2025–26]]\\n| position = [[Austrian Regionalliga Central]], 1st of 16 (promoted)\\n}}\\n'''Arbeiter Sport-Klub Sparkasse Stadtwerke Voitsberg''' is an [[Football in Austria|Austrian]] [[association football|football club]] located in [[Voitsberg]], a town in the state of [[Styria]] in the south-east of the country. Its first team competes in the [[2. Liga (Austria)|2. Liga]], the second tier of the [[Football in Austria#League system|Austrian football league system]].\"}}",
+  "fetchedAt": "2026-10-14T19:07:03.831Z"
+}

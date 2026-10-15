@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1473789",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "SK Kladno 02.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "SK Kladno"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "SK Kladno"
+      }
+    }
+  }
+}

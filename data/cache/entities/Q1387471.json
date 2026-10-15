@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1387471",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "77914"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "F.C. Penafiel"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "F.C. Penafiel"
+      }
+    }
+  }
+}

@@ -1,9 +1,460 @@
 {
+  "Q631": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+  },
   "Q704": {
     "body": "#FFFFFF",
     "shorts": "#0000FF",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
+  },
+  "Q1457": {
+    "body": "#2345C0",
+    "shorts": "#FFFFFF",
+    "socks": "#2234A4",
+    "source": "https://en.wikipedia.org/wiki/UC_Sampdoria"
+  },
+  "Q1543": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/AC_Milan"
+  },
+  "Q1893": {
+    "body": "#00003C",
+    "shorts": "#FFFFFF",
+    "socks": "#00003C",
+    "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+  },
+  "Q1900": {
+    "body": "#022249",
+    "shorts": "#022249",
+    "socks": "#022249",
+    "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+  },
+  "Q2052": {
+    "body": "#552A79",
+    "shorts": "#552A79",
+    "socks": "#552A79",
+    "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+  },
+  "Q2074": {
+    "body": "#FFFFFF",
+    "shorts": "#000040",
+    "socks": "#000040",
+    "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+  },
+  "Q2609": {
+    "body": "#88BFF7",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+  },
+  "Q2674": {
+    "body": "#FFB8CA",
+    "shorts": "#FFB8CA",
+    "socks": "#FFB8CA",
+    "source": "https://en.wikipedia.org/wiki/Palermo_FC"
+  },
+  "Q2693": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+  },
+  "Q2714": {
+    "body": "#FDF200",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Watford_F.C."
+  },
+  "Q2739": {
+    "body": "#980729",
+    "shorts": "#681F30",
+    "socks": "#980729",
+    "source": "https://en.wikipedia.org/wiki/AS_Roma"
+  },
+  "Q2768": {
+    "body": "#65001B",
+    "socks": "#65001B",
+    "source": "https://en.wikipedia.org/wiki/Torino_FC"
+  },
+  "Q5794": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+  },
+  "Q6630": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Ascoli_Calcio_1898_FC"
+  },
+  "Q6673": {
+    "body": "#8D0000",
+    "shorts": "#8D0000",
+    "socks": "#8D0000",
+    "source": "https://en.wikipedia.org/wiki/AS_Cittadella"
+  },
+  "Q6703": {
+    "body": "#0055FF",
+    "shorts": "#0055FF",
+    "socks": "#0055FF",
+    "source": "https://en.wikipedia.org/wiki/Empoli_FC"
+  },
+  "Q6748": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SS_Juve_Stabia"
+  },
+  "Q7156": {
+    "body": "#05003B",
+    "shorts": "#05003B",
+    "socks": "#05003B",
+    "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+  },
+  "Q8408": {
+    "body": "#FFEC00",
+    "shorts": "#000040",
+    "socks": "#000040",
+    "source": "https://en.wikipedia.org/wiki/Modena_FC_2018"
+  },
+  "Q8466": {
+    "body": "#FF0019",
+    "shorts": "#FF0019",
+    "socks": "#FF0019",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern"
+  },
+  "Q8476": {
+    "body": "#8D0000",
+    "shorts": "#8D0000",
+    "socks": "#600000",
+    "source": "https://en.wikipedia.org/wiki/AS_Reggina_1914"
+  },
+  "Q8603": {
+    "body": "#00A746",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+  },
+  "Q8623": {
+    "body": "#008433",
+    "shorts": "#000000",
+    "socks": "#008433",
+    "source": "https://en.wikipedia.org/wiki/Nuova_Ternana_1925"
+  },
+  "Q8639": {
+    "body": "#203664",
+    "shorts": "#203664",
+    "socks": "#203664",
+    "source": "https://en.wikipedia.org/wiki/Hellas_Verona_FC"
+  },
+  "Q8687": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+  },
+  "Q8701": {
+    "body": "#FF0000",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+  },
+  "Q8723": {
+    "body": "#359B5C",
+    "shorts": "#FFFFFF",
+    "socks": "#359B5C",
+    "source": "https://en.wikipedia.org/wiki/Real_Betis"
+  },
+  "Q8806": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+  },
+  "Q8812": {
+    "body": "#E00000",
+    "shorts": "#0000DD",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Granada_CF"
+  },
+  "Q8823": {
+    "body": "#222730",
+    "shorts": "#222730",
+    "socks": "#222730",
+    "source": "https://en.wikipedia.org/wiki/Levante_UD"
+  },
+  "Q8835": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/RCD_Mallorca"
+  },
+  "Q8857": {
+    "body": "#FFFFFF",
+    "shorts": "#103E9E",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+  },
+  "Q9616": {
+    "body": "#14349B",
+    "shorts": "#14349B",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+  },
+  "Q9617": {
+    "body": "#F00000",
+    "shorts": "#FFFFFF",
+    "socks": "#F00000",
+    "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+  },
+  "Q9653": {
+    "body": "#0333A0",
+    "socks": "#0333A0",
+    "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+  },
+  "Q10315": {
+    "body": "#0042FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+  },
+  "Q10329": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#E20000",
+    "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+  },
+  "Q10333": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+  },
+  "Q10407": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa"
+  },
+  "Q11945": {
+    "body": "#FFFFFF",
+    "shorts": "#0042FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Girona_FC"
+  },
+  "Q11961": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Heracles_Almelo"
+  },
+  "Q11979": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/UD_Las_Palmas"
+  },
+  "Q12168": {
+    "body": "#FFFFFF",
+    "shorts": "#0000DD",
+    "socks": "#0000DD",
+    "source": "https://en.wikipedia.org/wiki/SD_Ponferradina"
+  },
+  "Q12236": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#369028",
+    "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+  },
+  "Q12260": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/CE_Sabadell_FC"
+  },
+  "Q12297": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+  },
+  "Q13391": {
+    "body": "#FFFF00",
+    "shorts": "#000055",
+    "socks": "#000055",
+    "source": "https://en.wikipedia.org/wiki/US_Lecce"
+  },
+  "Q15755": {
+    "body": "#EDE6DC",
+    "shorts": "#680F00",
+    "socks": "#EDE6DC",
+    "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+  },
+  "Q15786": {
+    "body": "#900000",
+    "shorts": "#000000",
+    "socks": "#C70205",
+    "source": "https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg"
+  },
+  "Q15789": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+  },
+  "Q16344": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/AC_Perugia_Calcio"
+  },
+  "Q18232": {
+    "body": "#0023DD",
+    "shorts": "#0023DD",
+    "socks": "#0023DD",
+    "source": "https://en.wikipedia.org/wiki/KAA_Gent"
+  },
+  "Q18519": {
+    "body": "#CE131A",
+    "shorts": "#1C1819",
+    "socks": "#EC1C40",
+    "source": "https://en.wikipedia.org/wiki/Lincoln_City_F.C."
+  },
+  "Q18529": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Wrexham_A.F.C."
+  },
+  "Q18656": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+  },
+  "Q18661": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Middlesbrough_F.C."
+  },
+  "Q18662": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Cardiff_City_F.C."
+  },
+  "Q18708": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+  },
+  "Q18711": {
+    "body": "#69091C",
+    "shorts": "#BBD5F2",
+    "socks": "#BBD5F2",
+    "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+  },
+  "Q18716": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+  },
+  "Q18721": {
+    "body": "#FFFF00",
+    "shorts": "#009A40",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Norwich_City_F.C."
+  },
+  "Q18732": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Southampton_F.C."
+  },
+  "Q18736": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Stoke_City_F.C."
+  },
+  "Q18739": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+  },
+  "Q18744": {
+    "body": "#091453",
+    "shorts": "#FFFFFF",
+    "socks": "#091453",
+    "source": "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C."
+  },
+  "Q18747": {
+    "body": "#7E1823",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/West_Ham_United_F.C."
+  },
+  "Q19444": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Birmingham_City_F.C."
+  },
+  "Q19446": {
+    "body": "#FFFFFF",
+    "shorts": "#1F97E6",
+    "socks": "#1F97E6",
+    "source": "https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C."
+  },
+  "Q19453": {
+    "body": "#1144DD",
+    "shorts": "#1144DD",
+    "socks": "#1144DD",
+    "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+  },
+  "Q19462": {
+    "body": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C."
+  },
+  "Q19470": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Derby_County_F.C."
+  },
+  "Q19477": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+  },
+  "Q19487": {
+    "body": "#000F36",
+    "socks": "#000F36",
+    "source": "https://en.wikipedia.org/wiki/Millwall_F.C."
+  },
+  "Q19490": {
+    "body": "#D70926",
+    "shorts": "#FFFFFF",
+    "socks": "#D70926",
+    "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+  },
+  "Q19500": {
+    "body": "#F4B125",
+    "shorts": "#000000",
+    "socks": "#F4B125",
+    "source": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C."
   },
   "Q19509": {
     "body": "#FF0000",
@@ -29,11 +480,107 @@
     "socks": "#3C0082",
     "source": "https://en.wikipedia.org/wiki/Toulouse_FC"
   },
+  "Q19568": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+  },
+  "Q19571": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+  },
+  "Q19580": {
+    "body": "#62B5E5",
+    "shorts": "#62B5E5",
+    "socks": "#62B5E5",
+    "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+  },
+  "Q19597": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Rangers_F.C."
+  },
+  "Q19603": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Twente"
+  },
+  "Q19604": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Portsmouth_F.C."
+  },
+  "Q19607": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Sheffield_United_F.C."
+  },
+  "Q19612": {
+    "body": "#FFFFFF",
+    "shorts": "#000055",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Preston_North_End_F.C."
+  },
+  "Q22707": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+  },
+  "Q22866": {
+    "body": "#762E97",
+    "shorts": "#FFFFFF",
+    "socks": "#762E97",
+    "source": "https://en.wikipedia.org/wiki/SV_Austria_Salzburg"
+  },
   "Q24360": {
     "body": "#F3181E",
     "shorts": "#F3181E",
     "socks": "#F3181E",
     "source": "https://en.wikipedia.org/wiki/FC_Alma-Ata"
+  },
+  "Q24680": {
+    "body": "#ED1A2F",
+    "shorts": "#ED1A2F",
+    "socks": "#ED1A2F",
+    "source": "https://en.wikipedia.org/wiki/FC_Utrecht"
+  },
+  "Q24689": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/VVV-Venlo"
+  },
+  "Q24699": {
+    "body": "#FFFF00",
+    "shorts": "#0000AA",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/RKC_Waalwijk"
+  },
+  "Q24711": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Groningen"
+  },
+  "Q24719": {
+    "body": "#E1AD00",
+    "shorts": "#000000",
+    "socks": "#E1AD00",
+    "source": "https://en.wikipedia.org/wiki/Roda_JC_Kerkrade"
+  },
+  "Q24904": {
+    "body": "#FFFF00",
+    "shorts": "#FFDD00",
+    "socks": "#FFDD00",
+    "source": "https://en.wikipedia.org/wiki/ADO_Den_Haag"
   },
   "Q26363": {
     "body": "#0000FF",
@@ -47,17 +594,40 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Spartak_Moscow"
   },
+  "Q32494": {
+    "body": "#0000DD",
+    "socks": "#0000DD",
+    "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+  },
   "Q34120": {
     "body": "#88CDF7",
     "shorts": "#88CDF7",
     "socks": "#88CDF7",
     "source": "https://en.wikipedia.org/wiki/FC_Dinamo_City"
   },
+  "Q38245": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+  },
+  "Q39183": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FC_Zl%C3%ADn"
+  },
   "Q39877": {
     "body": "#FFFFFF",
     "shorts": "#000000",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/FC_Petr%C5%BEalka"
+  },
+  "Q41420": {
+    "body": "#FFE300",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
   },
   "Q43477": {
     "body": "#006DB5",
@@ -82,6 +652,30 @@
     "shorts": "#0000FF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Maccabi_Petah_Tikva_F.C."
+  },
+  "Q50602": {
+    "body": "#98C6EB",
+    "shorts": "#FFFFFF",
+    "socks": "#1C214F",
+    "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+  },
+  "Q51974": {
+    "body": "#FFFFFF",
+    "shorts": "#FF0000",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+  },
+  "Q51976": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#009A59",
+    "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+  },
+  "Q52942": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Lech_Pozna%C5%84"
   },
   "Q58247": {
     "body": "#FFFFFF",
@@ -113,6 +707,18 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/KF_Sk%C3%ABnderbeu"
   },
+  "Q75684": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/S.C._Braga"
+  },
+  "Q75729": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Sporting_CP"
+  },
   "Q81566": {
     "body": "#FF1900",
     "shorts": "#000D4E",
@@ -125,11 +731,83 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/KF_Teuta"
   },
+  "Q101859": {
+    "body": "#1A3A2F",
+    "shorts": "#1A3A2F",
+    "socks": "#1A3A2F",
+    "source": "https://en.wikipedia.org/wiki/VfL_Wolfsburg"
+  },
+  "Q104761": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+  },
+  "Q105254": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+  },
+  "Q105844": {
+    "body": "#0030FF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Arminia_Bielefeld"
+  },
+  "Q105853": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Karlsruher_SC"
+  },
+  "Q105861": {
+    "body": "#313055",
+    "shorts": "#313055",
+    "socks": "#313055",
+    "source": "https://en.wikipedia.org/wiki/VfL_Bochum"
+  },
+  "Q106394": {
+    "body": "#FE0000",
+    "shorts": "#FE0000",
+    "socks": "#FE0000",
+    "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+  },
+  "Q107818": {
+    "body": "#EF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#EF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Energie_Cottbus"
+  },
+  "Q113000": {
+    "body": "#FFD700",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/KV_Mechelen"
+  },
+  "Q118919": {
+    "body": "#FCF366",
+    "shorts": "#FCF366",
+    "socks": "#FCF366",
+    "source": "https://en.wikipedia.org/wiki/Ey%C3%BCpspor"
+  },
   "Q126334": {
     "body": "#0000DD",
     "shorts": "#FFFFFF",
     "socks": "#0000DD",
     "source": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
+  },
+  "Q128390": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FC_Oleksandriya"
+  },
+  "Q128446": {
+    "body": "#0122EB",
+    "shorts": "#0122EB",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Porto"
   },
   "Q130770": {
     "body": "#000000",
@@ -137,11 +815,23 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Tartu_JK_Welco"
   },
+  "Q131215": {
+    "body": "#009150",
+    "shorts": "#009150",
+    "socks": "#009150",
+    "source": "https://en.wikipedia.org/wiki/SK_Rapid_Wien"
+  },
   "Q131378": {
     "body": "#FFDD00",
     "shorts": "#0E00D9",
     "socks": "#FFDD00",
     "source": "https://en.wikipedia.org/wiki/APOEL_FC"
+  },
+  "Q131499": {
+    "body": "#FE0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FE0000",
+    "source": "https://en.wikipedia.org/wiki/S.L._Benfica"
   },
   "Q136433": {
     "body": "#DD0000",
@@ -149,11 +839,47 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia"
   },
+  "Q138248": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Sint-Truidense_VV"
+  },
+  "Q140487": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Sosnowiec"
+  },
+  "Q140497": {
+    "body": "#FF6600",
+    "shorts": "#FF6600",
+    "socks": "#FF6600",
+    "source": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin"
+  },
+  "Q140500": {
+    "body": "#007F44",
+    "shorts": "#000000",
+    "socks": "#007F44",
+    "source": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Wa%C5%82brzych"
+  },
   "Q141688": {
     "body": "#FFFFFF",
     "shorts": "#0000FF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Anorthosis_Famagusta_FC"
+  },
+  "Q141931": {
+    "body": "#FFCC00",
+    "shorts": "#000000",
+    "socks": "#FFCC00",
+    "source": "https://en.wikipedia.org/wiki/Dynamo_Dresden"
+  },
+  "Q141971": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
   },
   "Q142570": {
     "body": "#000000",
@@ -173,11 +899,29 @@
     "socks": "#0000DD",
     "source": "https://en.wikipedia.org/wiki/PFC_Levski_Sofia"
   },
+  "Q153539": {
+    "body": "#FFEFDD",
+    "shorts": "#01744D",
+    "socks": "#FFEFDD",
+    "source": "https://en.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth"
+  },
+  "Q154053": {
+    "body": "#FFDD00",
+    "shorts": "#0044FF",
+    "socks": "#FFDD00",
+    "source": "https://en.wikipedia.org/wiki/Eintracht_Braunschweig"
+  },
   "Q155105": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Merani_Tbilisi"
+  },
+  "Q155730": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Magdeburg"
   },
   "Q156709": {
     "body": "#0000FF",
@@ -185,11 +929,41 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Neftekhimik_Nizhnekamsk"
   },
+  "Q157352": {
+    "body": "#0000FF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FSV_Frankfurt"
+  },
+  "Q157828": {
+    "body": "#0042FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Holstein_Kiel"
+  },
+  "Q160530": {
+    "body": "#493AA6",
+    "shorts": "#493AA6",
+    "socks": "#493AA6",
+    "source": "https://en.wikipedia.org/wiki/VfL_Osnabr%C3%BCck"
+  },
+  "Q160532": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+  },
   "Q161217": {
     "body": "#FFFFFF",
     "shorts": "#000000",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/07_Vestur"
+  },
+  "Q162251": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/1._FC_Heidenheim"
   },
   "Q162408": {
     "body": "#007711",
@@ -197,11 +971,29 @@
     "socks": "#007711",
     "source": "https://en.wikipedia.org/wiki/1._FC_Tatran_Pre%C5%A1ov"
   },
+  "Q162472": {
+    "body": "#008000",
+    "shorts": "#000000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/FK_P%C5%99%C3%ADbram"
+  },
+  "Q163430": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/1._SC_Znojmo_FK"
+  },
   "Q163447": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Vittoriosa_Stars_F.C."
+  },
+  "Q166496": {
+    "body": "#000080",
+    "shorts": "#000000",
+    "socks": "#000080",
+    "source": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC"
   },
   "Q168660": {
     "body": "#EE0000",
@@ -215,11 +1007,53 @@
     "socks": "#AA2704",
     "source": "https://en.wikipedia.org/wiki/FC_Rubin_Kazan"
   },
+  "Q170117": {
+    "body": "#DC0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Ingolstadt_04"
+  },
+  "Q172567": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
+  },
+  "Q172969": {
+    "body": "#FD7D28",
+    "shorts": "#FD7D28",
+    "socks": "#FD7D28",
+    "source": "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk"
+  },
+  "Q176099": {
+    "body": "#8B0000",
+    "shorts": "#8B0000",
+    "socks": "#8B0000",
+    "source": "https://en.wikipedia.org/wiki/C.D._F%C3%A1tima"
+  },
+  "Q179075": {
+    "body": "#FFFFFF",
+    "shorts": "#176FC1",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Dynamo_Kyiv"
+  },
+  "Q179658": {
+    "body": "#0000FF",
+    "shorts": "#FF0000",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/FCSB"
+  },
   "Q180305": {
     "body": "#FE0000",
     "shorts": "#FE0000",
     "socks": "#FE0000",
     "source": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
+  },
+  "Q180420": {
+    "body": "#181146",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Ross_County_F.C."
   },
   "Q182930": {
     "body": "#FFDD00",
@@ -233,11 +1067,71 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/OGC_Nice"
   },
+  "Q186785": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Rosenborg_BK"
+  },
+  "Q187326": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#880000",
+    "source": "https://en.wikipedia.org/wiki/Aberdeen_F.C."
+  },
+  "Q187528": {
+    "body": "#5C2195",
+    "shorts": "#5C2195",
+    "socks": "#5C2195",
+    "source": "https://en.wikipedia.org/wiki/RSC_Anderlecht"
+  },
+  "Q189170": {
+    "body": "#FFCC00",
+    "shorts": "#FF0000",
+    "socks": "#FFCC00",
+    "source": "https://en.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok"
+  },
+  "Q189671": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Basel"
+  },
+  "Q190526": {
+    "body": "#FFEE00",
+    "shorts": "#000000",
+    "socks": "#FFEE00",
+    "source": "https://en.wikipedia.org/wiki/BSC_Young_Boys"
+  },
+  "Q190561": {
+    "body": "#DD0000",
+    "shorts": "#DD0000",
+    "socks": "#DD0000",
+    "source": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge"
+  },
+  "Q190916": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Club_Brugge_KV"
+  },
+  "Q190943": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Wis%C5%82a_Krak%C3%B3w"
+  },
   "Q191101": {
     "body": "#F7FF3C",
     "shorts": "#F7FF3C",
     "socks": "#F7FF3C",
     "source": "https://en.wikipedia.org/wiki/FC_BATE_Borisov"
+  },
+  "Q191264": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/AZ_Alkmaar"
   },
   "Q192071": {
     "body": "#FFFF00",
@@ -251,17 +1145,71 @@
     "socks": "#80BFFF",
     "source": "https://en.wikipedia.org/wiki/%C5%A0K_Slovan_Bratislava"
   },
+  "Q192597": {
+    "body": "#335649",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Hibernian_F.C."
+  },
+  "Q192641": {
+    "body": "#5A1129",
+    "shorts": "#5A1129",
+    "socks": "#5A1129",
+    "source": "https://en.wikipedia.org/wiki/Trabzonspor"
+  },
+  "Q192873": {
+    "body": "#F16622",
+    "shorts": "#000000",
+    "socks": "#F16622",
+    "source": "https://en.wikipedia.org/wiki/Dundee_United_F.C."
+  },
+  "Q193481": {
+    "body": "#8A1014",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/AC_Sparta_Prague"
+  },
+  "Q193749": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Legia_Warsaw"
+  },
   "Q194170": {
     "body": "#EF0000",
     "shorts": "#EF0000",
     "socks": "#EF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Aktobe"
   },
+  "Q196160": {
+    "body": "#FFE000",
+    "shorts": "#000055",
+    "socks": "#000055",
+    "source": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise"
+  },
+  "Q200321": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SC_Heerenveen"
+  },
   "Q201006": {
     "body": "#0000FF",
     "shorts": "#FFFFFF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Dinamo_Tbilisi"
+  },
+  "Q201969": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Winterthur"
+  },
+  "Q202093": {
+    "body": "#601F2E",
+    "shorts": "#FFFFFF",
+    "socks": "#601F2E",
+    "source": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C."
   },
   "Q203513": {
     "body": "#FFF200",
@@ -275,11 +1223,35 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/Shamrock_Rovers_F.C."
   },
+  "Q204237": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti"
+  },
+  "Q205685": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/SK_Brann"
+  },
+  "Q205998": {
+    "body": "#780000",
+    "shorts": "#780000",
+    "socks": "#780000",
+    "source": "https://en.wikipedia.org/wiki/CFR_Cluj"
+  },
   "Q206585": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_F.C."
+  },
+  "Q206838": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88"
   },
   "Q208228": {
     "body": "#FF0000",
@@ -292,6 +1264,12 @@
     "shorts": "#0000FF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/SC_Bastia"
+  },
+  "Q208552": {
+    "body": "#0000DD",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Molde_FK"
   },
   "Q208574": {
     "body": "#FF0000",
@@ -310,6 +1288,18 @@
     "shorts": "#008000",
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/M%C5%A0K_%C5%BDilina"
+  },
+  "Q209895": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Sparta_Rotterdam"
+  },
+  "Q210025": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland"
   },
   "Q210530": {
     "body": "#373C7D",
@@ -335,17 +1325,113 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Le_Mans_FC"
   },
+  "Q211177": {
+    "body": "#061528",
+    "shorts": "#FFFFFF",
+    "socks": "#061528",
+    "source": "https://en.wikipedia.org/wiki/Viking_FK"
+  },
+  "Q211906": {
+    "body": "#003DA5",
+    "shorts": "#003DA5",
+    "socks": "#003DA5",
+    "source": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_IF"
+  },
   "Q212119": {
     "body": "#181146",
     "shorts": "#181146",
     "socks": "#181146",
     "source": "https://en.wikipedia.org/wiki/NK_GO%C5%A0K_Gabela"
   },
+  "Q212819": {
+    "body": "#0000DD",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball"
+  },
+  "Q214374": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "socks": "#FFDD00",
+    "source": "https://en.wikipedia.org/wiki/Lillestr%C3%B8m_SK"
+  },
+  "Q214992": {
+    "body": "#FF5F00",
+    "shorts": "#0000FF",
+    "socks": "#FF5F00",
+    "source": "https://en.wikipedia.org/wiki/Aalesunds_FK"
+  },
+  "Q215302": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Odds_BK"
+  },
+  "Q216032": {
+    "body": "#007AFF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/KRC_Genk"
+  },
+  "Q216131": {
+    "body": "#FFFFFF",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Fredrikstad_FK"
+  },
+  "Q216459": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/C.D._Nacional"
+  },
+  "Q216503": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo"
+  },
+  "Q216510": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/C.F._Os_Belenenses"
+  },
+  "Q216523": {
+    "body": "#FFBE00",
+    "shorts": "#FFFFFF",
+    "socks": "#FFBE00",
+    "source": "https://en.wikipedia.org/wiki/Motherwell_F.C."
+  },
+  "Q216661": {
+    "body": "#FFFFFF",
+    "shorts": "#0000BC",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/CD_Tenerife"
+  },
+  "Q216773": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Vaduz"
+  },
   "Q216857": {
     "body": "#FFDD00",
     "shorts": "#000000",
     "socks": "#FFDD00",
     "source": "https://en.wikipedia.org/wiki/NS%C3%8D_Runav%C3%ADk"
+  },
+  "Q217233": {
+    "body": "#000050",
+    "shorts": "#000040",
+    "socks": "#000040",
+    "source": "https://en.wikipedia.org/wiki/Stab%C3%A6k_Fotball"
+  },
+  "Q217607": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/%C3%85sane_Fotball"
   },
   "Q218074": {
     "body": "#000000",
@@ -359,6 +1445,23 @@
     "socks": "#EF0000",
     "source": "https://en.wikipedia.org/wiki/Stade_Brestois_29"
   },
+  "Q219233": {
+    "body": "#FFDD00",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SBV_Vitesse"
+  },
+  "Q219235": {
+    "body": "#820013",
+    "shorts": "#820013",
+    "socks": "#820013",
+    "source": "https://en.wikipedia.org/wiki/Servette_FC"
+  },
+  "Q219241": {
+    "body": "#000066",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Falkirk_F.C."
+  },
   "Q219264": {
     "body": "#FFFFFF",
     "shorts": "#0000FF",
@@ -370,6 +1473,18 @@
     "shorts": "#0000FF",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Krasnodar"
+  },
+  "Q220928": {
+    "body": "#0033FF",
+    "shorts": "#0033FF",
+    "socks": "#0033FF",
+    "source": "https://en.wikipedia.org/wiki/FK_Viagem_%C3%9Ast%C3%AD_nad_Labem"
+  },
+  "Q221671": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Slovan_Liberec"
   },
   "Q221702": {
     "body": "#000000",
@@ -388,6 +1503,12 @@
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Santa_Coloma"
+  },
+  "Q222074": {
+    "body": "#AAAAAA",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Str%C3%B8mmen_IF"
   },
   "Q222861": {
     "body": "#008000",
@@ -431,6 +1552,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Fgura_United_F.C."
   },
+  "Q239624": {
+    "body": "#FFDD00",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Aarhus_Fremad"
+  },
   "Q239663": {
     "body": "#600020",
     "shorts": "#600020",
@@ -455,6 +1582,12 @@
     "socks": "#007711",
     "source": "https://en.wikipedia.org/wiki/AC_Omonia"
   },
+  "Q243235": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mica_de_Coimbra_(football)"
+  },
   "Q244317": {
     "body": "#AA1122",
     "shorts": "#AA1122",
@@ -473,6 +1606,24 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Sligo_Rovers_F.C."
   },
+  "Q244981": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Widzew_%C5%81%C3%B3d%C5%BA"
+  },
+  "Q246902": {
+    "body": "#FFCC00",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFF33",
+    "source": "https://en.wikipedia.org/wiki/Br%C3%B8nsh%C3%B8j_Boldklub"
+  },
+  "Q248345": {
+    "body": "#000055",
+    "shorts": "#000055",
+    "socks": "#000055",
+    "source": "https://en.wikipedia.org/wiki/FK_%C4%8C%C3%A1slav"
+  },
   "Q249533": {
     "body": "#008822",
     "shorts": "#FFFFFF",
@@ -484,6 +1635,12 @@
     "shorts": "#0000DD",
     "socks": "#0000DD",
     "source": "https://en.wikipedia.org/wiki/Oulun_Palloseura_(football)"
+  },
+  "Q257078": {
+    "body": "#00B33C",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Nuovo_Pordenone_2024_FC_ASD"
   },
   "Q260189": {
     "body": "#0000FF",
@@ -497,11 +1654,47 @@
     "socks": "#4F2B83",
     "source": "https://en.wikipedia.org/wiki/Sumgayit_FK"
   },
+  "Q261813": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Wacker_Innsbruck_(2002)"
+  },
+  "Q262569": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Polonia_Warsaw"
+  },
   "Q263258": {
     "body": "#0000FF",
     "shorts": "#000066",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/NK_%C5%A0iroki_Brijeg"
+  },
+  "Q268776": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/St_Johnstone_F.C."
+  },
+  "Q269151": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/PEC_Zwolle"
+  },
+  "Q271574": {
+    "body": "#0000DD",
+    "shorts": "#FFFFFF",
+    "socks": "#0000DD",
+    "source": "https://en.wikipedia.org/wiki/Real_Oviedo"
+  },
+  "Q272712": {
+    "body": "#0000FF",
+    "shorts": "#008000",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor"
   },
   "Q274778": {
     "body": "#80C0FE",
@@ -545,17 +1738,71 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/HNK_Branitelj"
   },
+  "Q287236": {
+    "body": "#FF0000",
+    "shorts": "#0000FF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Rak%C3%B3w_Cz%C4%99stochowa"
+  },
   "Q287768": {
     "body": "#880000",
     "shorts": "#87CEFA",
     "socks": "#880000",
     "source": "https://en.wikipedia.org/wiki/Argja_B%C3%B3ltfelag"
   },
+  "Q287851": {
+    "body": "#228B22",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Akademisk_Boldklub"
+  },
+  "Q289286": {
+    "body": "#FFEF00",
+    "shorts": "#FFEF00",
+    "socks": "#FFEF00",
+    "source": "https://en.wikipedia.org/wiki/AC_Horsens"
+  },
+  "Q289482": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/AC_Monza"
+  },
+  "Q289613": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Pisa_SC"
+  },
+  "Q289707": {
+    "body": "#4F0E14",
+    "shorts": "#000020",
+    "socks": "#7C0201",
+    "source": "https://en.wikipedia.org/wiki/AC_Reggiana_1919"
+  },
+  "Q289720": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Herf%C3%B8lge_Boldklub"
+  },
   "Q290629": {
     "body": "#34B36B",
     "shorts": "#000000",
     "socks": "#007711",
     "source": "https://en.wikipedia.org/wiki/PFC_Cherno_More_Varna"
+  },
+  "Q291163": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Moss_FK"
+  },
+  "Q291297": {
+    "body": "#0055A3",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Kayseri_Erciyesspor"
   },
   "Q291447": {
     "body": "#D9FE40",
@@ -593,17 +1840,59 @@
     "socks": "#DD0000",
     "source": "https://en.wikipedia.org/wiki/Rodez_AF"
   },
+  "Q297430": {
+    "body": "#8E3145",
+    "shorts": "#000000",
+    "socks": "#8E3145",
+    "source": "https://en.wikipedia.org/wiki/SS_Arezzo"
+  },
+  "Q298201": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#DD0000",
+    "source": "https://en.wikipedia.org/wiki/ASA_T%C3%A2rgu_Mure%C8%99_(1962)"
+  },
+  "Q298217": {
+    "body": "#3D8776",
+    "shorts": "#3D8776",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/US_Avellino_1912"
+  },
   "Q300812": {
     "body": "#FFCC00",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/%C5%BBabbar_St._Patrick_F.C."
   },
+  "Q301431": {
+    "body": "#FFFFFF",
+    "shorts": "#191C51",
+    "socks": "#191C51",
+    "source": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening"
+  },
+  "Q301726": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Ruch_Chorz%C3%B3w"
+  },
+  "Q303121": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor"
+  },
   "Q309025": {
     "body": "#FF0000",
     "shorts": "#000000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Sofia"
+  },
+  "Q309059": {
+    "body": "#0044FF",
+    "shorts": "#0044FF",
+    "socks": "#0044FF",
+    "source": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C."
   },
   "Q312423": {
     "body": "#009E60",
@@ -623,11 +1912,29 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/%C5%BBurrieq_F.C."
   },
+  "Q316865": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/SC_Preu%C3%9Fen_M%C3%BCnster"
+  },
+  "Q318348": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/NEC_Nijmegen"
+  },
   "Q319756": {
     "body": "#71B770",
     "shorts": "#FFFFFF",
     "socks": "#71B770",
     "source": "https://en.wikipedia.org/wiki/Aberystwyth_Town_F.C."
+  },
+  "Q321061": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Sion"
   },
   "Q324338": {
     "body": "#FFFFFF",
@@ -635,11 +1942,29 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/FC_Torpedo_Moscow"
   },
+  "Q328332": {
+    "body": "#0042FF",
+    "shorts": "#0042FF",
+    "socks": "#0042FF",
+    "source": "https://en.wikipedia.org/wiki/FK_Mlad%C3%A1_Boleslav"
+  },
+  "Q328655": {
+    "body": "#005000",
+    "shorts": "#005000",
+    "socks": "#005000",
+    "source": "https://en.wikipedia.org/wiki/%C5%9Al%C4%85sk_Wroc%C5%82aw"
+  },
   "Q328658": {
     "body": "#8ED6F9",
     "shorts": "#0D2142",
     "socks": "#0D2142",
     "source": "https://en.wikipedia.org/wiki/Le_Havre_AC"
+  },
+  "Q329471": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava"
   },
   "Q329510": {
     "body": "#FFFFFF",
@@ -653,6 +1978,11 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/B36_T%C3%B3rshavn"
   },
+  "Q332642": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "source": "https://en.wikipedia.org/wiki/NAC_Breda"
+  },
   "Q332702": {
     "body": "#FF0000",
     "shorts": "#FF0000",
@@ -664,6 +1994,18 @@
     "shorts": "#000000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FK_Vardar"
+  },
+  "Q335195": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Neuch%C3%A2tel_Xamax_FCS"
+  },
+  "Q335483": {
+    "body": "#172643",
+    "shorts": "#FFFFFF",
+    "socks": "#172643",
+    "source": "https://en.wikipedia.org/wiki/Dundee_F.C."
   },
   "Q336939": {
     "body": "#AAAAAA",
@@ -677,17 +2019,35 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Hamrun_Spartans_F.C."
   },
+  "Q345142": {
+    "body": "#FFFFFF",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/%C5%81KS_%C5%81%C3%B3d%C5%BA"
+  },
   "Q348902": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Balzan_F.C."
   },
+  "Q364698": {
+    "body": "#00852D",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Cercle_Brugge_KSV"
+  },
   "Q367788": {
     "body": "#007711",
     "shorts": "#007711",
     "socks": "#007711",
     "source": "https://en.wikipedia.org/wiki/Aris_Limassol_FC"
+  },
+  "Q368104": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FCV_Farul_Constan%C8%9Ba"
   },
   "Q368117": {
     "body": "#00924F",
@@ -701,11 +2061,41 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Havnar_B%C3%B3ltfelag"
   },
+  "Q370206": {
+    "body": "#FF0000",
+    "shorts": "#00A553",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/KV_Oostende"
+  },
+  "Q370712": {
+    "body": "#000000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Excelsior_Rotterdam"
+  },
+  "Q371136": {
+    "body": "#FFDD00",
+    "shorts": "#114422",
+    "socks": "#FFDD00",
+    "source": "https://en.wikipedia.org/wiki/F.C._Pa%C3%A7os_de_Ferreira"
+  },
+  "Q372599": {
+    "body": "#E00000",
+    "shorts": "#E00000",
+    "socks": "#E00000",
+    "source": "https://en.wikipedia.org/wiki/Sivasspor"
+  },
   "Q374254": {
     "body": "#008100",
     "shorts": "#008100",
     "socks": "#008100",
     "source": "https://en.wikipedia.org/wiki/PFC_Beroe_Stara_Zagora"
+  },
+  "Q376635": {
+    "body": "#FF0026",
+    "shorts": "#FF0026",
+    "socks": "#FF0026",
+    "source": "https://en.wikipedia.org/wiki/SV_Zulte_Waregem"
   },
   "Q376846": {
     "body": "#0044FF",
@@ -743,6 +2133,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/MOIK_Baku"
   },
+  "Q385518": {
+    "body": "#000066",
+    "shorts": "#000066",
+    "socks": "#000066",
+    "source": "https://en.wikipedia.org/wiki/SK_Sigma_Olomouc"
+  },
   "Q385730": {
     "body": "#FFF000",
     "shorts": "#0000FF",
@@ -760,6 +2156,24 @@
     "shorts": "#000088",
     "socks": "#000088",
     "source": "https://en.wikipedia.org/wiki/FC_Fiorentino"
+  },
+  "Q388487": {
+    "body": "#1F7C40",
+    "shorts": "#1F7C40",
+    "socks": "#1F7C40",
+    "source": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor"
+  },
+  "Q388746": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Fredericia"
+  },
+  "Q389879": {
+    "body": "#FFFFFF",
+    "shorts": "#0000FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Esbjerg_fB"
   },
   "Q391790": {
     "body": "#0000FF",
@@ -803,11 +2217,23 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FK_Makedonija_G.P."
   },
+  "Q404384": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko"
+  },
   "Q414625": {
     "body": "#77BBFF",
     "shorts": "#1A2D69",
     "socks": "#77BBFF",
     "source": "https://en.wikipedia.org/wiki/PFC_Akademik_Sofia"
+  },
+  "Q417685": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Akhisarspor"
   },
   "Q420594": {
     "body": "#FFDD00",
@@ -821,11 +2247,23 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Milsami_Orhei"
   },
+  "Q425599": {
+    "body": "#0B6121",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FK_Jablonec"
+  },
   "Q426513": {
     "body": "#FFFF00",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Maccabi_Netanya_F.C."
+  },
+  "Q427491": {
+    "body": "#FFFFFF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/SKN_St._P%C3%B6lten"
   },
   "Q430931": {
     "body": "#FF0000",
@@ -845,11 +2283,23 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Jeunesse_Esch"
   },
+  "Q447191": {
+    "body": "#0B0F3E",
+    "shorts": "#0B0F3E",
+    "socks": "#0B0F3E",
+    "source": "https://en.wikipedia.org/wiki/Alt%C4%B1nordu_F.K."
+  },
   "Q455991": {
     "body": "#FF0000",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Hapoel_Haifa_F.C."
+  },
+  "Q457460": {
+    "body": "#175C49",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SV_Ried"
   },
   "Q459148": {
     "body": "#FF0000",
@@ -869,6 +2319,18 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/Derry_City_F.C."
   },
+  "Q460448": {
+    "body": "#FFEE00",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/C%C3%A1diz_CF"
+  },
+  "Q464775": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Thun"
+  },
   "Q476880": {
     "body": "#000000",
     "shorts": "#000000",
@@ -880,6 +2342,18 @@
     "shorts": "#000000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/JK_Narva_Trans"
+  },
+  "Q478167": {
+    "body": "#FFDD00",
+    "shorts": "#FFDD00",
+    "socks": "#FFDD00",
+    "source": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8%2FGlimt"
+  },
+  "Q479351": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/SV_Darmstadt_98"
   },
   "Q483020": {
     "body": "#0000CC",
@@ -893,11 +2367,35 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/St._Andrews_F.C._(Malta)"
   },
+  "Q495299": {
+    "body": "#270E8B",
+    "shorts": "#270E8B",
+    "socks": "#8B0E2C",
+    "source": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
+  },
+  "Q496190": {
+    "body": "#000060",
+    "shorts": "#000060",
+    "socks": "#000060",
+    "source": "https://en.wikipedia.org/wiki/Kristiansund_BK"
+  },
   "Q497835": {
     "body": "#000000",
     "shorts": "#000000",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/EB%2FStreymur"
+  },
+  "Q501245": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+  },
+  "Q501372": {
+    "body": "#FFFF00",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/US_Catanzaro_1929"
   },
   "Q503317": {
     "body": "#FF0000",
@@ -916,6 +2414,18 @@
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/KF_Bylis"
+  },
+  "Q512476": {
+    "body": "#E30000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FK_Viktoria_%C5%BDi%C5%BEkov"
+  },
+  "Q513840": {
+    "body": "#008250",
+    "shorts": "#008250",
+    "socks": "#008250",
+    "source": "https://en.wikipedia.org/wiki/Konyaspor"
   },
   "Q514959": {
     "body": "#FF0000",
@@ -965,17 +2475,35 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FK_Modri%C4%8Da"
   },
+  "Q536651": {
+    "body": "#009150",
+    "shorts": "#009150",
+    "socks": "#009150",
+    "source": "https://en.wikipedia.org/wiki/RAAL_La_Louvi%C3%A8re"
+  },
   "Q537560": {
     "body": "#88CFFA",
     "shorts": "#FFFFFF",
     "socks": "#87CEFA",
     "source": "https://en.wikipedia.org/wiki/OFK_Petrovac"
   },
+  "Q541289": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/HB_K%C3%B8ge"
+  },
   "Q542103": {
     "body": "#FFFF00",
     "shorts": "#0042FF",
     "socks": "#0042FF",
     "source": "https://en.wikipedia.org/wiki/SC_Faetano"
+  },
+  "Q543467": {
+    "body": "#191970",
+    "shorts": "#191970",
+    "socks": "#191970",
+    "source": "https://en.wikipedia.org/wiki/G.D._Chaves"
   },
   "Q545411": {
     "body": "#FFFFFF",
@@ -1001,6 +2529,12 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Zhetysu"
   },
+  "Q549650": {
+    "body": "#1B47A5",
+    "shorts": "#FFFFFF",
+    "socks": "#1B47A5",
+    "source": "https://en.wikipedia.org/wiki/Fremad_Amager"
+  },
   "Q553732": {
     "body": "#0000FF",
     "shorts": "#0000FF",
@@ -1023,6 +2557,12 @@
     "body": "#FF0000",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/SC_Gjilani"
+  },
+  "Q571158": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Sogndal_Fotball"
   },
   "Q571264": {
     "body": "#FFFF00",
@@ -1066,6 +2606,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Valur_(men's_football)"
   },
+  "Q600232": {
+    "body": "#173097",
+    "shorts": "#173097",
+    "socks": "#173097",
+    "source": "https://en.wikipedia.org/wiki/CD_Eldense"
+  },
   "Q603407": {
     "body": "#FFFFFF",
     "shorts": "#FF0000",
@@ -1084,6 +2630,18 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Locomotive_Tbilisi"
   },
+  "Q608122": {
+    "body": "#AE1022",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Kayserispor"
+  },
+  "Q608642": {
+    "body": "#CC0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Z%C4%85bkovia_Z%C4%85bki"
+  },
   "Q610456": {
     "body": "#FF8800",
     "shorts": "#436EEE",
@@ -1095,6 +2653,24 @@
     "shorts": "#4169E1",
     "socks": "#4169E1",
     "source": "https://en.wikipedia.org/wiki/FC_Encamp"
+  },
+  "Q611653": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Cartagena"
+  },
+  "Q618520": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Midtjylland"
+  },
+  "Q618620": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/KV_Kortrijk"
   },
   "Q619499": {
     "body": "#000000",
@@ -1108,6 +2684,24 @@
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/FC_Kuressaare"
   },
+  "Q621120": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Portimonense_S.C."
+  },
+  "Q622432": {
+    "body": "#FFFFFF",
+    "shorts": "#007711",
+    "socks": "#007711",
+    "source": "https://en.wikipedia.org/wiki/Rio_Ave_F.C."
+  },
+  "Q623730": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Leix%C3%B5es_S.C."
+  },
   "Q627334": {
     "body": "#FF0000",
     "shorts": "#000055",
@@ -1120,11 +2714,29 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Kyzylzhar"
   },
+  "Q633521": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Lugano"
+  },
   "Q634701": {
     "body": "#007722",
     "shorts": "#007722",
     "socks": "#007722",
     "source": "https://en.wikipedia.org/wiki/POFC_Botev_Vratsa"
+  },
+  "Q634829": {
+    "body": "#FFE000",
+    "shorts": "#0033FF",
+    "socks": "#0033FF",
+    "source": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia"
+  },
+  "Q635654": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Lyngby_Boldklub"
   },
   "Q635670": {
     "body": "#007733",
@@ -1132,11 +2744,29 @@
     "socks": "#007733",
     "source": "https://en.wikipedia.org/wiki/UE_Sant_Juli%C3%A0"
   },
+  "Q636315": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Helmond_Sport"
+  },
   "Q637514": {
     "body": "#1D68C5",
     "shorts": "#1D68C5",
     "socks": "#1D68C5",
     "source": "https://en.wikipedia.org/wiki/ND_Gorica"
+  },
+  "Q639525": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/SV_Sandhausen"
+  },
+  "Q641373": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K."
   },
   "Q643042": {
     "body": "#FF0000",
@@ -1144,11 +2774,23 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Dila_Gori"
   },
+  "Q643107": {
+    "body": "#296636",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Denizlispor"
+  },
   "Q643278": {
     "body": "#000000",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Sioni_Bolnisi"
+  },
+  "Q645229": {
+    "body": "#33AAFF",
+    "shorts": "#FFFFFF",
+    "socks": "#33AAFF",
+    "source": "https://en.wikipedia.org/wiki/Sandnes_Ulf"
   },
   "Q647795": {
     "body": "#000000",
@@ -1156,22 +2798,100 @@
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/UE_Santa_Coloma"
   },
+  "Q650365": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Carrarese_Calcio_1908"
+  },
+  "Q652516": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Benevento_Calcio"
+  },
+  "Q653119": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Almere_City_FC"
+  },
+  "Q659212": {
+    "body": "#087B57",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_St._Gallen"
+  },
+  "Q659780": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Grazer_AK"
+  },
   "Q666827": {
     "body": "#000000",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Shirak_SC"
   },
+  "Q666969": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Arka_Gdynia"
+  },
+  "Q668112": {
+    "body": "#0000FF",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Piast_Gliwice"
+  },
+  "Q668573": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Chiasso"
+  },
+  "Q669130": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/Yverdon-Sport_FC"
+  },
   "Q670304": {
     "body": "#0000CC",
     "shorts": "#0000CC",
     "source": "https://en.wikipedia.org/wiki/Mi%C3%B0v%C3%A1gs_B%C3%B3ltfelag"
+  },
+  "Q670438": {
+    "body": "#FFFF00",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SC_Rheindorf_Altach"
+  },
+  "Q671042": {
+    "body": "#0033FF",
+    "shorts": "#0033FF",
+    "socks": "#0033FF",
+    "source": "https://en.wikipedia.org/wiki/C.D._Feirense"
+  },
+  "Q673268": {
+    "body": "#FFEE00",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Stade_Nyonnais"
   },
   "Q674454": {
     "body": "#0000FF",
     "shorts": "#0000FF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Ballinamallard_United_F.C."
+  },
+  "Q674799": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Biel-Bienne"
   },
   "Q674867": {
     "body": "#3377E4",
@@ -1185,11 +2905,105 @@
     "socks": "#003399",
     "source": "https://en.wikipedia.org/wiki/Piet%C3%A0_Hotspurs_F.C."
   },
+  "Q680770": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_UTA_Arad"
+  },
+  "Q681483": {
+    "body": "#CC3300",
+    "source": "https://en.wikipedia.org/wiki/FC_Rapperswil-Jona"
+  },
+  "Q686659": {
+    "body": "#00924F",
+    "shorts": "#00924F",
+    "socks": "#00924F",
+    "source": "https://en.wikipedia.org/wiki/WSG_Tirol"
+  },
+  "Q686826": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/First_Vienna_FC"
+  },
+  "Q689889": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/SV_Horn"
+  },
+  "Q690074": {
+    "body": "#0000DD",
+    "shorts": "#0000DD",
+    "socks": "#0000DD",
+    "source": "https://en.wikipedia.org/wiki/FC_Gossau"
+  },
+  "Q692186": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/FC_Lustenau_07"
+  },
+  "Q692586": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/VfR_Aalen"
+  },
   "Q693092": {
     "body": "#0088FF",
     "shorts": "#0088FF",
     "socks": "#0088FF",
     "source": "https://en.wikipedia.org/wiki/Racing_FC_Union_Luxembourg"
+  },
+  "Q696474": {
+    "body": "#0044FF",
+    "shorts": "#0044FF",
+    "socks": "#0044FF",
+    "source": "https://en.wikipedia.org/wiki/Floridsdorfer_AC"
+  },
+  "Q696507": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/SC_Austria_Lustenau"
+  },
+  "Q696525": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/FC_Blau-Wei%C3%9F_Linz"
+  },
+  "Q698702": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Admira_Wacker"
+  },
+  "Q699184": {
+    "body": "#FFFFFF",
+    "shorts": "#5B009E",
+    "socks": "#5B009E",
+    "source": "https://en.wikipedia.org/wiki/SK_Austria_Klagenfurt_(2007)"
+  },
+  "Q699686": {
+    "body": "#FFFFFF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Schwarz-Wei%C3%9F_Bregenz"
+  },
+  "Q699746": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/TSV_Hartberg"
+  },
+  "Q702455": {
+    "body": "#FFFFFF",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
   },
   "Q704857": {
     "body": "#AFE7F5",
@@ -1220,11 +3034,23 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Qaraba%C4%9F_FK"
   },
+  "Q723489": {
+    "body": "#EF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#EF0000",
+    "source": "https://en.wikipedia.org/wiki/Silkeborg_IF"
+  },
   "Q723548": {
     "body": "#008800",
     "shorts": "#008800",
     "socks": "#008800",
     "source": "https://en.wikipedia.org/wiki/FC_WIT_Georgia"
+  },
+  "Q724832": {
+    "body": "#FF0000",
+    "shorts": "#0044FF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Zbrojovka_Brno"
   },
   "Q726266": {
     "body": "#FFFFFF",
@@ -1238,6 +3064,12 @@
     "socks": "#008000",
     "source": "https://en.wikipedia.org/wiki/FC_Gomel"
   },
+  "Q727918": {
+    "body": "#F8CB50",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Motor_Lublin"
+  },
   "Q728557": {
     "body": "#007733",
     "shorts": "#007733",
@@ -1250,11 +3082,35 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Inter_Club_d'Escaldes"
   },
+  "Q729560": {
+    "body": "#80BFFF",
+    "shorts": "#80BFFF",
+    "socks": "#80BFFF",
+    "source": "https://en.wikipedia.org/wiki/Randers_FC"
+  },
+  "Q730219": {
+    "body": "#FFEE00",
+    "shorts": "#FFFF00",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Korona_Kielce"
+  },
+  "Q732002": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC"
+  },
   "Q733451": {
     "body": "#008000",
     "shorts": "#008000",
     "socks": "#008000",
     "source": "https://en.wikipedia.org/wiki/FC_Atyrau"
+  },
+  "Q734785": {
+    "body": "#008000",
+    "shorts": "#FFFFFF",
+    "socks": "#E2CC90",
+    "source": "https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk"
   },
   "Q737714": {
     "body": "#FF6C00",
@@ -1262,11 +3118,59 @@
     "socks": "#FF6C00",
     "source": "https://en.wikipedia.org/wiki/Bnei_Yehuda_Tel_Aviv_F.C."
   },
+  "Q737936": {
+    "body": "#EF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#EF0000",
+    "source": "https://en.wikipedia.org/wiki/Vejle_Boldklub"
+  },
+  "Q737937": {
+    "body": "#FFFFFF",
+    "shorts": "#0000FF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Lyn_Fotball"
+  },
+  "Q737947": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#FFDD00",
+    "source": "https://en.wikipedia.org/wiki/IK_Start"
+  },
+  "Q738060": {
+    "body": "#F97500",
+    "shorts": "#000000",
+    "socks": "#F97500",
+    "source": "https://en.wikipedia.org/wiki/FC_Volendam"
+  },
+  "Q738886": {
+    "body": "#FFDD00",
+    "shorts": "#0033FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FK_Teplice"
+  },
   "Q740568": {
     "body": "#EF0000",
     "shorts": "#EF0000",
     "socks": "#EF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Kaisar"
+  },
+  "Q740637": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/C.D._Santa_Clara"
+  },
+  "Q741382": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Kapfenberger_SV"
+  },
+  "Q744353": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/S.C._Farense"
   },
   "Q745364": {
     "body": "#0000AA",
@@ -1285,6 +3189,12 @@
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FF_Jaro"
+  },
+  "Q749589": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles"
   },
   "Q750779": {
     "body": "#EF0000",
@@ -1309,6 +3219,12 @@
     "shorts": "#FFFF00",
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/FC_Zhenis"
+  },
+  "Q753462": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FC_Universitatea_Cluj"
   },
   "Q755656": {
     "body": "#000000",
@@ -1346,6 +3262,12 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Atl%C3%A8tic_Club_d'Escaldes"
   },
+  "Q757422": {
+    "body": "#FECD39",
+    "shorts": "#142753",
+    "socks": "#142753",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Clube_de_Portugal"
+  },
   "Q760736": {
     "body": "#FF6000",
     "shorts": "#FF6000",
@@ -1369,6 +3291,18 @@
     "shorts": "#006633",
     "socks": "#FFEE00",
     "source": "https://en.wikipedia.org/wiki/FC_Dobrudzha_Dobrich"
+  },
+  "Q769793": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Mied%C5%BA_Legnica"
+  },
+  "Q770740": {
+    "body": "#192030",
+    "shorts": "#192030",
+    "socks": "#192030",
+    "source": "https://en.wikipedia.org/wiki/SD_Eibar"
   },
   "Q770936": {
     "body": "#000066",
@@ -1424,6 +3358,12 @@
     "socks": "#FFDE00",
     "source": "https://en.wikipedia.org/wiki/B71_Sandoy"
   },
+  "Q795173": {
+    "body": "#FFFFFF",
+    "shorts": "#000080",
+    "socks": "#000080",
+    "source": "https://en.wikipedia.org/wiki/Boldklubben_af_1893"
+  },
   "Q795978": {
     "body": "#FFFFFF",
     "shorts": "#0000FE",
@@ -1436,6 +3376,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Birkirkara_F.C."
   },
+  "Q804515": {
+    "body": "#0087B6",
+    "shorts": "#FFFFFF",
+    "socks": "#0087B6",
+    "source": "https://en.wikipedia.org/wiki/Jammerbugt_FC"
+  },
   "Q804556": {
     "body": "#00AAFF",
     "shorts": "#00AAFF",
@@ -1447,6 +3393,18 @@
     "shorts": "#FFFFFF",
     "socks": "#81C0FF",
     "source": "https://en.wikipedia.org/wiki/Ballymena_United_F.C."
+  },
+  "Q805909": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Bal%C4%B1kesirspor"
+  },
+  "Q806415": {
+    "body": "#800000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Band%C4%B1rmaspor"
   },
   "Q806459": {
     "body": "#FF4200",
@@ -1466,11 +3424,23 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Barry_Town_United_F.C."
   },
+  "Q815349": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Vanspor_F.K."
+  },
   "Q818698": {
     "body": "#E00000",
     "shorts": "#E00000",
     "socks": "#E00000",
     "source": "https://en.wikipedia.org/wiki/FK_Vele%C5%BE_Mostar"
+  },
+  "Q822722": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Partick_Thistle_F.C."
   },
   "Q834555": {
     "body": "#0033FF",
@@ -1484,6 +3454,24 @@
     "socks": "#000066",
     "source": "https://en.wikipedia.org/wiki/Knattspyrnudeild_Keflav%C3%ADk"
   },
+  "Q836991": {
+    "body": "#000423",
+    "shorts": "#88001B",
+    "socks": "#88001B",
+    "source": "https://en.wikipedia.org/wiki/Pogo%C5%84_Szczecin"
+  },
+  "Q837205": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Kongsvinger_IL_Toppfotball"
+  },
+  "Q839313": {
+    "body": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/SK_Dynamo_%C4%8Cesk%C3%A9_Bud%C4%9Bjovice"
+  },
   "Q840567": {
     "body": "#FF0000",
     "shorts": "#000000",
@@ -1496,11 +3484,35 @@
     "socks": "#000060",
     "source": "https://en.wikipedia.org/wiki/FC_Naftan_Novopolotsk"
   },
+  "Q841152": {
+    "body": "#FFFF00",
+    "shorts": "#000060",
+    "socks": "#000060",
+    "source": "https://en.wikipedia.org/wiki/Hobro_IK"
+  },
   "Q841378": {
     "body": "#FFD900",
     "shorts": "#FFD900",
     "socks": "#FFD900",
     "source": "https://en.wikipedia.org/wiki/FC_DAC_1904_Dunajsk%C3%A1_Streda"
+  },
+  "Q843097": {
+    "body": "#FF0000",
+    "shorts": "#0000FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Hvidovre_IF"
+  },
+  "Q843396": {
+    "body": "#008800",
+    "shorts": "#FFFFFF",
+    "socks": "#134A29",
+    "source": "https://en.wikipedia.org/wiki/Racing_de_Ferrol"
+  },
+  "Q845043": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
   },
   "Q845137": {
     "body": "#000000",
@@ -1519,6 +3531,12 @@
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FK_Partizani_Tirana"
+  },
+  "Q846008": {
+    "body": "#00A86B",
+    "shorts": "#FFFFFF",
+    "socks": "#00A86B",
+    "source": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Naval_1%C2%BA_de_Maio"
   },
   "Q846357": {
     "body": "#FFFF00",
@@ -1544,17 +3562,41 @@
     "socks": "#002147",
     "source": "https://en.wikipedia.org/wiki/FC_Gandzasar_Kapan"
   },
+  "Q849221": {
+    "body": "#009150",
+    "shorts": "#FFFFFF",
+    "socks": "#009150",
+    "source": "https://en.wikipedia.org/wiki/Bohemians_1905"
+  },
+  "Q849544": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/KVC_Westerlo"
+  },
   "Q850258": {
     "body": "#00008B",
     "shorts": "#00008B",
     "socks": "#00008B",
     "source": "https://en.wikipedia.org/wiki/FK_Rudar_Pljevlja"
   },
+  "Q852079": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Burgos_CF"
+  },
   "Q853508": {
     "body": "#0042FF",
     "shorts": "#FFFFFF",
     "socks": "#0042FF",
     "source": "https://en.wikipedia.org/wiki/Rovaniemen_Palloseura"
+  },
+  "Q854167": {
+    "body": "#FFFF00",
+    "shorts": "#00684B",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Fortuna_Sittard"
   },
   "Q856036": {
     "body": "#0000E0",
@@ -1574,11 +3616,77 @@
     "socks": "#EF0000",
     "source": "https://en.wikipedia.org/wiki/Newtown_A.F.C."
   },
+  "Q859458": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Polonia_Bytom"
+  },
+  "Q861524": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Sandefjord_Fotball"
+  },
   "Q862791": {
     "body": "#000066",
     "shorts": "#FFFFFF",
     "socks": "#000066",
     "source": "https://en.wikipedia.org/wiki/Ethnikos_Achna_FC"
+  },
+  "Q867882": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Thisted_FC"
+  },
+  "Q867921": {
+    "body": "#FFD20F",
+    "shorts": "#000000",
+    "socks": "#FFD20F",
+    "source": "https://en.wikipedia.org/wiki/Livingston_F.C."
+  },
+  "Q869907": {
+    "body": "#DD0000",
+    "shorts": "#DD0000",
+    "socks": "#DD0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy"
+  },
+  "Q875120": {
+    "body": "#FFEE00",
+    "shorts": "#0000FF",
+    "socks": "#FFEE00",
+    "source": "https://en.wikipedia.org/wiki/SC_Cambuur"
+  },
+  "Q875169": {
+    "body": "#0052AD",
+    "shorts": "#FFFFFF",
+    "socks": "#0052AD",
+    "source": "https://en.wikipedia.org/wiki/FC_Den_Bosch"
+  },
+  "Q876568": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/MVV_Maastricht"
+  },
+  "Q876699": {
+    "body": "#0000FF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Eindhoven"
+  },
+  "Q891679": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Boluspor"
+  },
+  "Q898281": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/FC_Ihroservice_Simferopol"
   },
   "Q902962": {
     "body": "#FFFFFF",
@@ -1627,6 +3735,30 @@
     "shorts": "#0050E0",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Etzella_Ettelbruck"
+  },
+  "Q924353": {
+    "body": "#008000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/N%C3%A6stved_Boldklub"
+  },
+  "Q925935": {
+    "body": "#FFEE00",
+    "shorts": "#000000",
+    "socks": "#FFEE00",
+    "source": "https://en.wikipedia.org/wiki/GKS_Katowice"
+  },
+  "Q925973": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/RFC_Seraing_(1922)"
+  },
+  "Q926438": {
+    "body": "#D60000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C."
   },
   "Q926582": {
     "body": "#008000",
@@ -1712,6 +3844,12 @@
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/Caernarfon_Town_F.C."
   },
+  "Q958856": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Odra_Opole"
+  },
   "Q959341": {
     "body": "#FFFFFF",
     "shorts": "#FFFFFF",
@@ -1735,6 +3873,12 @@
     "shorts": "#FFFFFF",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/Hapoel_Be'er_Sheva_F.C."
+  },
+  "Q989553": {
+    "body": "#228B22",
+    "shorts": "#228B22",
+    "socks": "#228B22",
+    "source": "https://en.wikipedia.org/wiki/Mu%C4%9Flaspor"
   },
   "Q991727": {
     "body": "#0000AA",
@@ -1760,11 +3904,59 @@
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/FK_Skopje"
   },
+  "Q995313": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Bryne_FK"
+  },
+  "Q1023233": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#08457E",
+    "source": "https://en.wikipedia.org/wiki/C.D._Trofense"
+  },
+  "Q1024395": {
+    "body": "#FFFFFF",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/SCM_R%C3%A2mnicu_V%C3%A2lcea"
+  },
+  "Q1024397": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba"
+  },
+  "Q1024463": {
+    "body": "#00782F",
+    "shorts": "#FFFFFF",
+    "socks": "#00782F",
+    "source": "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna"
+  },
   "Q1024468": {
     "body": "#FFFFFF",
     "shorts": "#FF0000",
     "socks": "#E00000",
     "source": "https://en.wikipedia.org/wiki/CS_Fola_Esch"
+  },
+  "Q1031307": {
+    "body": "#0000EE",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/S.C._Freamunde"
+  },
+  "Q1036992": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Skive_IK"
+  },
+  "Q1045811": {
+    "body": "#069261",
+    "shorts": "#069261",
+    "socks": "#069261",
+    "source": "https://en.wikipedia.org/wiki/FC_Dordrecht"
   },
   "Q1046326": {
     "body": "#0000FF",
@@ -1772,11 +3964,29 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Ulytau"
   },
+  "Q1046440": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Casa_Pia_A.C."
+  },
+  "Q1048007": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/K%C3%B8ge_Boldklub"
+  },
   "Q1051013": {
     "body": "#000060",
     "shorts": "#000060",
     "socks": "#000060",
     "source": "https://en.wikipedia.org/wiki/Paris_FC"
+  },
+  "Q1053917": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/KSV_Roeselare"
   },
   "Q1059186": {
     "body": "#81C0FF",
@@ -1784,11 +3994,29 @@
     "socks": "#81C0FF",
     "source": "https://en.wikipedia.org/wiki/FC_Rotor_Volgograd"
   },
+  "Q1061627": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Emmen"
+  },
   "Q1062929": {
     "body": "#FF6600",
     "shorts": "#FF6600",
     "socks": "#FF6600",
     "source": "https://en.wikipedia.org/wiki/Sk%C3%A1la_%C3%8DF"
+  },
+  "Q1065328": {
+    "body": "#0000FF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/FCV_Dender_EH"
+  },
+  "Q1067737": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/UD_Logro%C3%B1%C3%A9s"
   },
   "Q1077477": {
     "body": "#FF0000",
@@ -1826,6 +4054,12 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Prishtina"
   },
+  "Q1112784": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Ranheim_Fotball"
+  },
   "Q1118683": {
     "body": "#343C8C",
     "shorts": "#343C8C",
@@ -1837,6 +4071,12 @@
     "shorts": "#000000",
     "socks": "#00A550",
     "source": "https://en.wikipedia.org/wiki/US_Mondorf-les-Bains"
+  },
+  "Q1120838": {
+    "body": "#215AAE",
+    "shorts": "#FFFFFF",
+    "socks": "#215AAE",
+    "source": "https://en.wikipedia.org/wiki/Como_1907"
   },
   "Q1124841": {
     "body": "#000000",
@@ -1874,11 +4114,35 @@
     "socks": "#CC0000",
     "source": "https://en.wikipedia.org/wiki/Bnei_Sakhnin_F.C."
   },
+  "Q1130849": {
+    "body": "#8F1E32",
+    "shorts": "#8F1E32",
+    "socks": "#8F1E32",
+    "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+  },
+  "Q1130961": {
+    "body": "#FFFFFF",
+    "shorts": "#00924F",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Hamarkameratene"
+  },
   "Q1132418": {
     "body": "#FF0000",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Martigues"
+  },
+  "Q1135735": {
+    "body": "#87CEEB",
+    "shorts": "#87CEEB",
+    "socks": "#87CEEB",
+    "source": "https://en.wikipedia.org/wiki/FC_Corvinul_Hunedoara"
+  },
+  "Q1136016": {
+    "body": "#000050",
+    "shorts": "#000050",
+    "socks": "#000050",
+    "source": "https://en.wikipedia.org/wiki/Cosenza_Calcio"
   },
   "Q1136977": {
     "body": "#FFFF00",
@@ -1904,11 +4168,41 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/F.C._Ashdod"
   },
+  "Q1138206": {
+    "body": "#27408B",
+    "shorts": "#0841A9",
+    "socks": "#0841A9",
+    "source": "https://en.wikipedia.org/wiki/FC_Sellier_%26_Bellot_Vla%C5%A1im"
+  },
   "Q1140538": {
     "body": "#000000",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/V%C3%ADkingur_Reykjav%C3%ADk"
+  },
+  "Q1142727": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FK_Varnsdorf"
+  },
+  "Q1149034": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/TOP_Oss"
+  },
+  "Q1151909": {
+    "body": "#0000CC",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Sarpsborg_08_FF"
+  },
+  "Q1165253": {
+    "body": "#3399FF",
+    "shorts": "#3399FF",
+    "socks": "#3399FF",
+    "source": "https://en.wikipedia.org/wiki/FK_Arsenal_%C4%8Cesk%C3%A1_L%C3%ADpa"
   },
   "Q1165833": {
     "body": "#FF0000",
@@ -1916,17 +4210,59 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Slavia_Mozyr"
   },
+  "Q1170018": {
+    "body": "#FFFFFF",
+    "shorts": "#191919",
+    "socks": "#191919",
+    "source": "https://en.wikipedia.org/wiki/Kartal_S.K."
+  },
   "Q1192755": {
     "body": "#DC0000",
     "shorts": "#DC0000",
     "socks": "#DC0000",
     "source": "https://en.wikipedia.org/wiki/FC_Viikingit"
   },
+  "Q1193532": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Vanl%C3%B8se_IF"
+  },
+  "Q1198772": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/Warta_Pozna%C5%84"
+  },
+  "Q1198808": {
+    "body": "#FF6600",
+    "shorts": "#FF6600",
+    "socks": "#FF6600",
+    "source": "https://en.wikipedia.org/wiki/Bruk-Bet_Termalica_Nieciecza"
+  },
+  "Q1199255": {
+    "body": "#FFEE00",
+    "shorts": "#FFEE00",
+    "socks": "#FFEE00",
+    "source": "https://en.wikipedia.org/wiki/FC_Vyso%C4%8Dina_Jihlava"
+  },
   "Q1228264": {
     "body": "#00EA81",
     "shorts": "#00BC77",
     "socks": "#00EA81",
     "source": "https://en.wikipedia.org/wiki/FC_Feronikeli_74"
+  },
+  "Q1231804": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/Amed_S.F.K."
+  },
+  "Q1256652": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/Gondomar_S.C."
   },
   "Q1257626": {
     "body": "#FF0000",
@@ -1975,6 +4311,12 @@
     "shorts": "#000066",
     "socks": "#000066",
     "source": "https://en.wikipedia.org/wiki/KF_Besiana"
+  },
+  "Q1322550": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FC_Petrolul_Ploie%C8%99ti"
   },
   "Q1325004": {
     "body": "#2C9656",
@@ -2030,6 +4372,12 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FK_Arsenal_Tivat"
   },
+  "Q1369461": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Sakaryaspor"
+  },
   "Q1369677": {
     "body": "#0000FF",
     "shorts": "#FFFFFF",
@@ -2042,17 +4390,53 @@
     "socks": "#000044",
     "source": "https://en.wikipedia.org/wiki/KS_Burreli"
   },
+  "Q1386850": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/F.C._Alverca"
+  },
+  "Q1386854": {
+    "body": "#000055",
+    "shorts": "#FFD000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Andorra"
+  },
+  "Q1386869": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/F.C._Arouca"
+  },
+  "Q1386940": {
+    "body": "#FF0000",
+    "shorts": "#002147",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(1958)"
+  },
   "Q1387084": {
     "body": "#FFFFFF",
     "shorts": "#008000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Elva"
   },
+  "Q1387293": {
+    "body": "#FFFFFF",
+    "shorts": "#F30000",
+    "socks": "#F30000",
+    "source": "https://en.wikipedia.org/wiki/FC_Liefering"
+  },
   "Q1387348": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Mamer_32"
+  },
+  "Q1387471": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/F.C._Penafiel"
   },
   "Q1387538": {
     "body": "#E50109",
@@ -2066,11 +4450,29 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Rodange_91"
   },
+  "Q1387710": {
+    "body": "#FFFFFF",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_S%C3%BCdtirol"
+  },
   "Q1387792": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_UNA_Strassen"
+  },
+  "Q1387855": {
+    "body": "#66D2FD",
+    "shorts": "#000066",
+    "socks": "#66D2FD",
+    "source": "https://en.wikipedia.org/wiki/F.C._Vizela"
+  },
+  "Q1387864": {
+    "body": "#0000CD",
+    "shorts": "#0000CD",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/MFK_V%C3%ADtkovice"
   },
   "Q1387887": {
     "body": "#FF0000",
@@ -2084,11 +4486,23 @@
     "socks": "#1A2D69",
     "source": "https://en.wikipedia.org/wiki/PFK_Svetkavitsa_1922"
   },
+  "Q1388790": {
+    "body": "#FFFFFF",
+    "shorts": "#0000FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Stal_Mielec"
+  },
   "Q1388798": {
     "body": "#00924F",
     "shorts": "#00924F",
     "socks": "#00924F",
     "source": "https://en.wikipedia.org/wiki/FK_Auda"
+  },
+  "Q1388806": {
+    "body": "#F3DA23",
+    "shorts": "#000000",
+    "socks": "#F3DA23",
+    "source": "https://en.wikipedia.org/wiki/FK_Ban%C3%ADk_Sokolov"
   },
   "Q1388826": {
     "body": "#0000FF",
@@ -2179,6 +4593,30 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Besa_Peja"
   },
+  "Q1423718": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/KAS_Eupen"
+  },
+  "Q1429473": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Varzim_S.C."
+  },
+  "Q1439495": {
+    "body": "#054AA7",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FK_Fr%C3%BDdek-M%C3%ADstek"
+  },
+  "Q1439505": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FK_T%C5%99inec"
+  },
   "Q1462564": {
     "body": "#0033FF",
     "shorts": "#0033FF",
@@ -2190,6 +4628,12 @@
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/HNK_Ora%C5%A1je"
+  },
+  "Q1475269": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Wis%C5%82a_P%C5%82ock"
   },
   "Q1475458": {
     "body": "#FFFFFF",
@@ -2293,6 +4737,12 @@
     "socks": "#4E2784",
     "source": "https://en.wikipedia.org/wiki/Wexford_F.C."
   },
+  "Q1628465": {
+    "body": "#EA0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/TK%C4%B0_Tav%C5%9Fanl%C4%B1_Linyitspor"
+  },
   "Q1630613": {
     "body": "#0000FF",
     "shorts": "#0000FF",
@@ -2334,6 +4784,12 @@
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/KF_Drenica"
+  },
+  "Q1668203": {
+    "body": "#009150",
+    "shorts": "#FFFFFF",
+    "socks": "#009150",
+    "source": "https://en.wikipedia.org/wiki/Lommel_SK"
   },
   "Q1718602": {
     "body": "#FFFF00",
@@ -2401,6 +4857,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Victoria_Rosport"
   },
+  "Q1762119": {
+    "body": "#FECD37",
+    "shorts": "#1937CD",
+    "socks": "#1937CD",
+    "source": "https://en.wikipedia.org/wiki/C.F._Uni%C3%A3o"
+  },
   "Q1777557": {
     "body": "#FFFFFF",
     "shorts": "#000000",
@@ -2425,6 +4887,18 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/NK_Jedinstvo_Biha%C4%87"
   },
+  "Q1819219": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Helios_Kharkiv"
+  },
+  "Q1853273": {
+    "body": "#AA0000",
+    "shorts": "#003B6F",
+    "socks": "#AA0000",
+    "source": "https://en.wikipedia.org/wiki/S.C.U._Torreense"
+  },
   "Q1859826": {
     "body": "#9B111E",
     "shorts": "#FFFFFF",
@@ -2437,11 +4911,23 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Mezdra"
   },
+  "Q1891367": {
+    "body": "#008000",
+    "shorts": "#000000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/S.C._Covilh%C3%A3"
+  },
   "Q1929359": {
     "body": "#003EE1",
     "shorts": "#003EE1",
     "socks": "#003EE1",
     "source": "https://en.wikipedia.org/wiki/Limavady_United_F.C."
+  },
+  "Q1956025": {
+    "body": "#ADDFFF",
+    "shorts": "#ADDFFF",
+    "socks": "#ADDFFF",
+    "source": "https://en.wikipedia.org/wiki/1._SK_Prost%C4%9Bjov"
   },
   "Q1961173": {
     "body": "#0000CC",
@@ -2455,6 +4941,12 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Chelyabinsk"
   },
+  "Q2000763": {
+    "body": "#008020",
+    "shorts": "#008020",
+    "socks": "#008020",
+    "source": "https://en.wikipedia.org/wiki/Radomiak_Radom"
+  },
   "Q2007987": {
     "body": "#0029FF",
     "shorts": "#0029FF",
@@ -2467,6 +4959,18 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/UE_Extremenya"
   },
+  "Q2036012": {
+    "body": "#F60A0F",
+    "shorts": "#F60A0F",
+    "socks": "#F60A0F",
+    "source": "https://en.wikipedia.org/wiki/FC_Spartak_Sumy"
+  },
+  "Q2061414": {
+    "body": "#E93343",
+    "shorts": "#206ECB",
+    "socks": "#E93343",
+    "source": "https://en.wikipedia.org/wiki/U.D._Oliveirense"
+  },
   "Q2064202": {
     "body": "#FFFFFF",
     "shorts": "#008000",
@@ -2478,6 +4982,18 @@
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/MEAP_Nisou"
+  },
+  "Q2078847": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/FC_Kramatorsk"
+  },
+  "Q2093314": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/SFC_Opava"
   },
   "Q2095484": {
     "body": "#0000FE",
@@ -2521,6 +5037,12 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho"
   },
+  "Q2206406": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SKU_Amstetten"
+  },
   "Q2212732": {
     "body": "#FF0000",
     "shorts": "#FF0000",
@@ -2532,6 +5054,12 @@
     "shorts": "#FFFFFF",
     "socks": "#007020",
     "source": "https://en.wikipedia.org/wiki/Akritas_Chlorakas"
+  },
+  "Q2223870": {
+    "body": "#FF4500",
+    "shorts": "#000000",
+    "socks": "#FF4500",
+    "source": "https://en.wikipedia.org/wiki/FC_Enerhetyk_Burshtyn"
   },
   "Q2244751": {
     "body": "#0000CD",
@@ -2550,6 +5078,12 @@
     "shorts": "#DD000B",
     "socks": "#DD000B",
     "source": "https://en.wikipedia.org/wiki/Hapoel_Jerusalem_F.C."
+  },
+  "Q2268833": {
+    "body": "#6104D2",
+    "shorts": "#6104D2",
+    "socks": "#6104D2",
+    "source": "https://en.wikipedia.org/wiki/K_Beerschot_VA"
   },
   "Q2273732": {
     "body": "#FF0000",
@@ -2587,11 +5121,23 @@
     "socks": "#00792B",
     "source": "https://en.wikipedia.org/wiki/Anagennisi_Deryneia_FC"
   },
+  "Q2410944": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mico_de_Viseu_F.C."
+  },
   "Q2412557": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/GFK_Tikvesh"
+  },
+  "Q2426819": {
+    "body": "#FFFFFF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/Erzurumspor_F.K."
   },
   "Q2427114": {
     "body": "#FFFFFF",
@@ -2610,6 +5156,12 @@
     "shorts": "#000000",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Armagh_City_F.C."
+  },
+  "Q2464401": {
+    "body": "#DD0000",
+    "shorts": "#DD0000",
+    "socks": "#DD0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Krymteplytsia_Molodizhne"
   },
   "Q2467331": {
     "body": "#87CEFA",
@@ -2713,11 +5265,23 @@
     "socks": "#FFEE00",
     "source": "https://en.wikipedia.org/wiki/Ilves_(football)"
   },
+  "Q2609277": {
+    "body": "#FFFC00",
+    "shorts": "#000000",
+    "socks": "#FFFC00",
+    "source": "https://en.wikipedia.org/wiki/FC_Naftovyk_Okhtyrka"
+  },
   "Q2616129": {
     "body": "#191970",
     "shorts": "#191970",
     "socks": "#191970",
     "source": "https://en.wikipedia.org/wiki/Beitar_Tel_Aviv_Holon_F.C."
+  },
+  "Q2617777": {
+    "body": "#FFF000",
+    "shorts": "#FF0000",
+    "socks": "#FFF000",
+    "source": "https://en.wikipedia.org/wiki/FC_Zirka_Kropyvnytskyi"
   },
   "Q2619514": {
     "body": "#0000FF",
@@ -2742,6 +5306,12 @@
     "shorts": "#50C878",
     "socks": "#50C878",
     "source": "https://en.wikipedia.org/wiki/FC_Molodechno"
+  },
+  "Q2635403": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/NK_Veres_Rivne"
   },
   "Q2635663": {
     "body": "#FFFFFF",
@@ -2797,6 +5367,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Penya_Encarnada_d'Andorra"
   },
+  "Q2757426": {
+    "body": "#800010",
+    "shorts": "#FFCC00",
+    "socks": "#800010",
+    "source": "https://en.wikipedia.org/wiki/FK_Dukla_Prague"
+  },
   "Q2788132": {
     "body": "#FF0000",
     "shorts": "#FFFFFF",
@@ -2820,6 +5396,12 @@
     "shorts": "#FFFFFF",
     "socks": "#4169E1",
     "source": "https://en.wikipedia.org/wiki/FC_Chiatura"
+  },
+  "Q2841205": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Amarante_F.C."
   },
   "Q2870109": {
     "body": "#000000",
@@ -2851,11 +5433,23 @@
     "socks": "#000080",
     "source": "https://en.wikipedia.org/wiki/Cambrian_United_F.C."
   },
+  "Q2994166": {
+    "body": "#0B4A9E",
+    "shorts": "#001B5F",
+    "socks": "#001B5F",
+    "source": "https://en.wikipedia.org/wiki/MFC_Mykolaiv"
+  },
   "Q3016278": {
     "body": "#000000",
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Viimsi_JK"
+  },
+  "Q3038689": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FK_Pardubice"
   },
   "Q3063068": {
     "body": "#FFFF00",
@@ -2923,6 +5517,12 @@
     "socks": "#0077FF",
     "source": "https://en.wikipedia.org/wiki/FK_Osogovo"
   },
+  "Q3432730": {
+    "body": "#FF0000",
+    "shorts": "#0000FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/KFUM-Kameratene_Oslo"
+  },
   "Q3441984": {
     "body": "#FFFFFF",
     "shorts": "#4286CA",
@@ -2988,6 +5588,12 @@
     "shorts": "#4682B4",
     "socks": "#4682B4",
     "source": "https://en.wikipedia.org/wiki/NK_TO%C5%A0K_Te%C5%A1anj"
+  },
+  "Q3511548": {
+    "body": "#A3D9F8",
+    "shorts": "#FFFFFF",
+    "socks": "#A3D9F8",
+    "source": "https://en.wikipedia.org/wiki/S%C3%B8nderjyske_Fodbold"
   },
   "Q3543925": {
     "body": "#83BEF4",
@@ -3097,6 +5703,12 @@
     "socks": "#10163F",
     "source": "https://en.wikipedia.org/wiki/FC_CSKA_Almaty"
   },
+  "Q4586760": {
+    "body": "#FFFF00",
+    "shorts": "#0000FF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Levanger_FK"
+  },
   "Q4747150": {
     "body": "#000000",
     "shorts": "#000000",
@@ -3108,6 +5720,12 @@
     "shorts": "#000000",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/FK_Borac_%C5%A0amac"
+  },
+  "Q4869413": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/Batman_Petrolspor"
   },
   "Q4961901": {
     "body": "#FFFFFF",
@@ -3126,6 +5744,12 @@
     "shorts": "#FFFF00",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/CE_Jenlai"
+  },
+  "Q5113698": {
+    "body": "#FF6600",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Chrobry_G%C5%82og%C3%B3w"
   },
   "Q5205823": {
     "body": "#FF0000",
@@ -3198,6 +5822,12 @@
     "shorts": "#FFFFFF",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/FC_Ordino"
+  },
+  "Q5425216": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/AFC_Unirea_Slobozia"
   },
   "Q5426036": {
     "body": "#ED0505",
@@ -3275,6 +5905,12 @@
     "socks": "#007722",
     "source": "https://en.wikipedia.org/wiki/FC_Hebar_Pazardzhik"
   },
+  "Q5773365": {
+    "body": "#FEFEFE",
+    "shorts": "#FEFEFE",
+    "socks": "#FEFEFE",
+    "source": "https://en.wikipedia.org/wiki/AD_Ceuta_FC"
+  },
   "Q5887222": {
     "body": "#FFFFFF",
     "shorts": "#EF0000",
@@ -3286,6 +5922,12 @@
     "shorts": "#0044FF",
     "socks": "#FFDD00",
     "source": "https://en.wikipedia.org/wiki/IF_Gnistan"
+  },
+  "Q6062228": {
+    "body": "#DC143C",
+    "shorts": "#DC143C",
+    "socks": "#DC143C",
+    "source": "https://en.wikipedia.org/wiki/%C3%9Cmraniyespor"
   },
   "Q6073188": {
     "body": "#FF0000",
@@ -3310,6 +5952,12 @@
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Llandudno_F.C."
+  },
+  "Q6705180": {
+    "body": "#FFDD00",
+    "shorts": "#000000",
+    "socks": "#FFD000",
+    "source": "https://en.wikipedia.org/wiki/Lusit%C3%A2nia_F.C."
   },
   "Q6865261": {
     "body": "#000099",
@@ -3376,6 +6024,12 @@
     "shorts": "#000000",
     "source": "https://en.wikipedia.org/wiki/Pontypridd_United_F.C."
   },
+  "Q7482049": {
+    "body": "#000060",
+    "shorts": "#000060",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball"
+  },
   "Q7530160": {
     "body": "#3000D0",
     "shorts": "#3000D0",
@@ -3435,6 +6089,12 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/HIFK_Fotboll"
   },
+  "Q11492669": {
+    "body": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/AaB_Fodbold"
+  },
   "Q11624718": {
     "body": "#0042FF",
     "shorts": "#0042FF",
@@ -3446,6 +6106,12 @@
     "shorts": "#000000",
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/SJK_Akatemia"
+  },
+  "Q12106319": {
+    "body": "#FFFFFF",
+    "shorts": "#0000FF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Ahrobiznes_Volochysk"
   },
   "Q12175012": {
     "body": "#277850",
@@ -3536,6 +6202,18 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Lynx_F.C."
   },
+  "Q14229572": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Twente"
+  },
+  "Q14551982": {
+    "body": "#FBFBFB",
+    "shorts": "#FBFBFB",
+    "socks": "#FBFBFB",
+    "source": "https://en.wikipedia.org/wiki/SSV_Ulm_1846"
+  },
   "Q14636641": {
     "body": "#FF0000",
     "shorts": "#FFFFFF",
@@ -3547,6 +6225,12 @@
     "shorts": "#CDFF00",
     "socks": "#CDFF00",
     "source": "https://en.wikipedia.org/wiki/FK_Riteriai"
+  },
+  "Q15137936": {
+    "body": "#FFEF00",
+    "shorts": "#FFEF00",
+    "socks": "#FFEF00",
+    "source": "https://en.wikipedia.org/wiki/SV_Lafnitz"
   },
   "Q15223662": {
     "body": "#000060",
@@ -3644,6 +6328,12 @@
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Penybont_F.C."
   },
+  "Q16848949": {
+    "body": "#FFFFFF",
+    "shorts": "#000000",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/Cesena_FC"
+  },
   "Q17070649": {
     "body": "#FFFF00",
     "shorts": "#FFFFFF",
@@ -3662,11 +6352,29 @@
     "socks": "#0042FF",
     "source": "https://en.wikipedia.org/wiki/Pafos_FC"
   },
+  "Q17505449": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/F.C._Felgueiras_(2006)"
+  },
+  "Q17524289": {
+    "body": "#880000",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/C.D._Cova_da_Piedade"
+  },
   "Q18126320": {
     "body": "#CC0000",
     "shorts": "#CC0000",
     "socks": "#CC0000",
     "source": "https://en.wikipedia.org/wiki/F.C._Kafr_Qasim"
+  },
+  "Q18129096": {
+    "body": "#77BBFF",
+    "shorts": "#FFFFFF",
+    "socks": "#77BBFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Voluntari"
   },
   "Q18129467": {
     "body": "#87CEEB",
@@ -3692,11 +6400,35 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/Mons_Calpe_S.C."
   },
+  "Q19613395": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/%C3%87orum_F.K."
+  },
   "Q19963391": {
     "body": "#FFFFFF",
     "shorts": "#FFFFFF",
     "socks": "#87CEEB",
     "source": "https://en.wikipedia.org/wiki/Riga_FC"
+  },
+  "Q20073460": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FC_Inhulets_Petrove"
+  },
+  "Q20429561": {
+    "body": "#EF0000",
+    "shorts": "#EF0000",
+    "socks": "#EF0000",
+    "source": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe"
+  },
+  "Q20472948": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/Bodrum_F.K."
   },
   "Q20718277": {
     "body": "#EE6611",
@@ -3721,6 +6453,12 @@
     "shorts": "#FFFF00",
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/FK_Podgorica"
+  },
+  "Q20979061": {
+    "body": "#FF0000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/RWDM_Brussels"
   },
   "Q21659260": {
     "body": "#00438A",
@@ -3752,6 +6490,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FK_Panev%C4%97%C5%BEys"
   },
+  "Q24068131": {
+    "body": "#ED1A2F",
+    "shorts": "#ED1A2F",
+    "socks": "#ED1A2F",
+    "source": "https://en.wikipedia.org/wiki/Jong_FC_Utrecht"
+  },
   "Q24069958": {
     "body": "#FFFFFF",
     "shorts": "#095F30",
@@ -3779,6 +6523,18 @@
     "shorts": "#000000",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/Erebuni_SC"
+  },
+  "Q25436464": {
+    "body": "#008000",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/FC_VPK-Ahro_Shevchenkivka"
+  },
+  "Q25446408": {
+    "body": "#FF69B4",
+    "shorts": "#FF69B4",
+    "socks": "#FF69B4",
+    "source": "https://en.wikipedia.org/wiki/FC_Epitsentr_Kamianets-Podilskyi"
   },
   "Q25496727": {
     "body": "#00BFFF",
@@ -3828,6 +6584,12 @@
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Kariana_Erden"
   },
+  "Q28704136": {
+    "body": "#811521",
+    "shorts": "#811521",
+    "socks": "#811521",
+    "source": "https://en.wikipedia.org/wiki/FC_Kharkiv"
+  },
   "Q30115743": {
     "body": "#0000FF",
     "shorts": "#0000FF",
@@ -3858,6 +6620,18 @@
     "socks": "#77BBFF",
     "source": "https://en.wikipedia.org/wiki/FC_Veles_Moscow"
   },
+  "Q31192116": {
+    "body": "#32CD32",
+    "shorts": "#32CD32",
+    "socks": "#32CD32",
+    "source": "https://en.wikipedia.org/wiki/Esenler_Erokspor"
+  },
+  "Q31193518": {
+    "body": "#FF6600",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/Hiller%C3%B8d_Fodbold"
+  },
   "Q31199501": {
     "body": "#FFFFFF",
     "shorts": "#000055",
@@ -3882,11 +6656,29 @@
     "socks": "#000000",
     "source": "https://en.wikipedia.org/wiki/Sabah_FK_(Azerbaijan)"
   },
+  "Q54877936": {
+    "body": "#70CDE8",
+    "shorts": "#FFFFFF",
+    "socks": "#FFFFFF",
+    "source": "https://en.wikipedia.org/wiki/FC_Mynai"
+  },
   "Q55072718": {
     "body": "#000000",
     "shorts": "#FEB920",
     "socks": "#FEB920",
     "source": "https://en.wikipedia.org/wiki/FC_Kuban_Krasnodar_(2018)"
+  },
+  "Q55189861": {
+    "body": "#4F2B83",
+    "shorts": "#4F2B83",
+    "socks": "#4F2B83",
+    "source": "https://en.wikipedia.org/wiki/FC_LNZ_Cherkasy"
+  },
+  "Q55618976": {
+    "body": "#FFFFFF",
+    "shorts": "#008000",
+    "socks": "#008000",
+    "source": "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba"
   },
   "Q56071263": {
     "body": "#000000",
@@ -3930,17 +6722,35 @@
     "socks": "#FFEF00",
     "source": "https://en.wikipedia.org/wiki/SK_Super_Nova"
   },
+  "Q59212899": {
+    "body": "#0000FF",
+    "shorts": "#FFFFFF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/B-SAD"
+  },
   "Q60658427": {
     "body": "#0000FF",
     "shorts": "#0000FF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/FC_Telavi"
   },
+  "Q61373501": {
+    "body": "#007000",
+    "shorts": "#007000",
+    "socks": "#007000",
+    "source": "https://en.wikipedia.org/wiki/FC_Alians_Lypova_Dolyna"
+  },
   "Q61768552": {
     "body": "#FF0000",
     "shorts": "#FF0000",
     "socks": "#FF0000",
     "source": "https://en.wikipedia.org/wiki/FC_Arsenal_Dzerzhinsk"
+  },
+  "Q63168427": {
+    "body": "#318CE7",
+    "shorts": "#318CE7",
+    "socks": "#318CE7",
+    "source": "https://en.wikipedia.org/wiki/FC_Hertha_Wels"
   },
   "Q65124755": {
     "body": "#FF0000",
@@ -3972,6 +6782,12 @@
     "socks": "#000088",
     "source": "https://en.wikipedia.org/wiki/KF_Malisheva"
   },
+  "Q86677609": {
+    "body": "#FFEF00",
+    "shorts": "#FFEF00",
+    "socks": "#FFEF00",
+    "source": "https://en.wikipedia.org/wiki/Wieczysta_Krak%C3%B3w"
+  },
   "Q93147456": {
     "body": "#FF0000",
     "shorts": "#FF0000",
@@ -3984,11 +6800,35 @@
     "socks": "#FFFF00",
     "source": "https://en.wikipedia.org/wiki/OFK_Mladost_Donja_Gorica"
   },
+  "Q97205551": {
+    "body": "#00008B",
+    "shorts": "#00008B",
+    "socks": "#00008B",
+    "source": "https://en.wikipedia.org/wiki/Mardin_1969_S.K."
+  },
   "Q97516218": {
     "body": "#FFFFFF",
     "shorts": "#000000",
     "socks": "#FFFFFF",
     "source": "https://en.wikipedia.org/wiki/FH_(men's_football)"
+  },
+  "Q98656510": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FC_Metalist_Kharkiv"
+  },
+  "Q101625593": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#0080FF",
+    "source": "https://en.wikipedia.org/wiki/Club_NXT"
+  },
+  "Q104841018": {
+    "body": "#FF0000",
+    "shorts": "#FF0000",
+    "socks": "#FF0000",
+    "source": "https://en.wikipedia.org/wiki/FC_Kryvbas_Kryvyi_Rih"
   },
   "Q105424906": {
     "body": "#FFFFFF",
@@ -4007,6 +6847,18 @@
     "shorts": "#0000FF",
     "socks": "#0000FF",
     "source": "https://en.wikipedia.org/wiki/Maccabi_Bnei_Reineh_F.C."
+  },
+  "Q107466898": {
+    "body": "#FFFF00",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/FC_Livyi_Bereh_Kyiv"
+  },
+  "Q107653964": {
+    "body": "#FF1493",
+    "shorts": "#FFFF00",
+    "socks": "#FFFF00",
+    "source": "https://en.wikipedia.org/wiki/SC_Poltava"
   },
   "Q108457654": {
     "body": "#780000",
@@ -4032,11 +6884,23 @@
     "socks": "#111749",
     "source": "https://en.wikipedia.org/wiki/Vestri_(men's_football)"
   },
+  "Q113541238": {
+    "body": "#FFFFFF",
+    "shorts": "#122560",
+    "socks": "#122560",
+    "source": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)"
+  },
   "Q115245702": {
     "body": "#09820B",
     "shorts": "#09820B",
     "socks": "#09820B",
     "source": "https://en.wikipedia.org/wiki/Kerry_F.C._(Ireland)"
+  },
+  "Q115476719": {
+    "body": "#DD0000",
+    "shorts": "#DD0000",
+    "socks": "#DD0000",
+    "source": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge"
   },
   "Q117206645": {
     "body": "#FFF200",
@@ -4044,11 +6908,23 @@
     "socks": "#FFF200",
     "source": "https://en.wikipedia.org/wiki/FK_TransINVEST"
   },
+  "Q120458868": {
+    "body": "#0000FF",
+    "shorts": "#0000FF",
+    "socks": "#0000FF",
+    "source": "https://en.wikipedia.org/wiki/FC_Kudrivka"
+  },
   "Q122863858": {
     "body": "#FFEE00",
     "shorts": "#FFEE00",
     "socks": "#FFEE00",
     "source": "https://en.wikipedia.org/wiki/Ganjabasar_FK"
+  },
+  "Q124007617": {
+    "body": "#000000",
+    "shorts": "#000000",
+    "socks": "#000000",
+    "source": "https://en.wikipedia.org/wiki/SK_Sturm_Graz"
   },
   "Q125360483": {
     "body": "#FFDD00",

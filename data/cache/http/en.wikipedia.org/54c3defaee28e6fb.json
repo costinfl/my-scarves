@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Giresunspor",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Giresunspor\",\"pageid\":8335234,\"redirects\":[],\"wikitext\":\"{{short description|Association football club in Turkey}}\\n{{Infobox football club\\n| clubname = Giresunspor\\n| image    = Giresunspor.png\\n| image_size = 170px\\n| fullname = Giresun Spor Kulübü \\n| nickname = ''Çotanaklar''\\n| founded = {{start date and age|1967}}\\n| ground = [[Çotanak Sports Complex]], [[Giresun]]\\n| capacity = 21,166\\n| chairman = Emin Eltuğral\\n| manager =  Adil Tozlu\\n| league   = {{Turkish football updater|Giresunspor}}\\n| season   = {{Turkish football updater|Giresunspor2}}\\n| position = {{Turkish football updater|Giresunspor3}}\\n| current  = \\n| website = {{URL|https://www.giresunspor.com.tr/}}\\n| pattern_la1 =_giresun2223h \\n| pattern_b1  = _giresun2223h\\n| pattern_ra1 =_giresun2223h \\n| shorts1     = 00502b\\n| socks1      = 00502b\\n| pattern_la2 = _giresun2223a\\n| pattern_b2  = _giresun2223a\\n| pattern_ra2 = _giresun2223a\\n| shorts2     = fcfcfc\\n| socks2      = fcfcfc\\n| pattern_la3 = _giresun2223t\\n| pattern_b3  = _giresun2223t\\n| pattern_ra3 = _giresun2223t\\n| shorts3     = 123a39\\n| socks3      = 123a39\\n}}\\n\\n'''Giresunspor Kulübü''' is a Turkish professional [[Association football|football]] club based in [[Giresun]].\"}}",
+  "fetchedAt": "2026-10-14T19:12:42.483Z"
+}

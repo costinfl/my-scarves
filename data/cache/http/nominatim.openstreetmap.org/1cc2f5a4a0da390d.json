@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.356000&lon=-8.190722&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286723307,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1002433171,\"lat\":\"41.3559619\",\"lon\":\"-8.1907130\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.397497520404391e-05,\"addresstype\":\"leisure\",\"name\":\"Futebol Clube de Felgueiras 1932\",\"display_name\":\"Futebol Clube de Felgueiras 1932, : Rua Júlio Martins – Pav C – Edificio Magistral (trás), Casais Novas, Margaride (Santa Eulália), Várzea, Lagares, Varziela e Moure, Felgueiras, Porto, 4640-194, Portugal\",\"address\":{\"leisure\":\"Futebol Clube de Felgueiras 1932\",\"road\":\": Rua Júlio Martins – Pav C – Edificio Magistral (trás)\",\"hamlet\":\"Casais Novas\",\"city_district\":\"Margaride (Santa Eulália), Várzea, Lagares, Varziela e Moure\",\"city\":\"Felgueiras\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4640-194\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.3554653\",\"41.3564427\",\"-8.1914640\",\"-8.1899627\"]}",
+  "fetchedAt": "2026-10-14T19:13:42.382Z"
+}

@@ -1,0 +1,184 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q12050697 wd:Q849221 wd:Q581423 wd:Q425599 wd:Q221671 wd:Q328332 wd:Q385518 wd:Q329471 wd:Q3038689 wd:Q206838 wd:Q194393 wd:Q847499 wd:Q193481 wd:Q738886 wd:Q724832 wd:Q39183 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:06:01.921Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q12050697",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Artis_Brno",
+      "website": "https://www.artisbrno.cz",
+      "clubLabel": "SK Artis Brno"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q193481",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Sparta_Prague",
+      "website": "https://sparta.cz/",
+      "clubLabel": "AC Sparta Prague",
+      "stadium": "http://www.wikidata.org/entity/Q60103",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.416122 50.099716)",
+      "capacity": "19416",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/AC-Sparta-LOGO2021.svg",
+      "stadiumLabel": "Letná Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q194393",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
+      "website": "https://www.slavia.cz/",
+      "clubLabel": "SK Slavia Prague",
+      "stadium": "http://www.wikidata.org/entity/Q64858",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.4715 50.0675)",
+      "capacity": "20800",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Slavia-symbol-nowordmark-RGB.png",
+      "stadiumLabel": "Fortuna Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q206838",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
+      "website": "https://www.fcviktoria.cz/",
+      "clubLabel": "FC Viktoria Plzeň",
+      "stadium": "http://www.wikidata.org/entity/Q2116283",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.385556 49.75)",
+      "capacity": "11700",
+      "stadiumLabel": "Doosan Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q221671",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Slovan_Liberec",
+      "website": "https://fcslovanliberec.cz/",
+      "clubLabel": "FC Slovan Liberec",
+      "stadium": "http://www.wikidata.org/entity/Q687655",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.049972 50.776214)",
+      "capacity": "9900",
+      "stadiumLabel": "Stadion u Nisy"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q328332",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Mlad%C3%A1_Boleslav",
+      "website": "https://www.fkmb.cz",
+      "clubLabel": "FK Mladá Boleslav",
+      "stadium": "http://www.wikidata.org/entity/Q933690",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.914783 50.427083)",
+      "capacity": "5000",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Mlad%C3%A1%20Boleslav%20logo.png",
+      "stadiumLabel": "Městský stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q329471",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava",
+      "website": "https://www.fcb.cz/",
+      "clubLabel": "FC Baník Ostrava",
+      "stadium": "http://www.wikidata.org/entity/Q1898463",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.299392 49.845111)",
+      "capacity": "17372",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Ban%C3%ADk%20Ostrava%20%28logo%29.svg",
+      "stadiumLabel": "Bazaly"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q385518",
+      "enwiki": "https://en.wikipedia.org/wiki/SK_Sigma_Olomouc",
+      "website": "http://www.sigmafotbal.cz/",
+      "clubLabel": "SK Sigma Olomouc",
+      "stadium": "http://www.wikidata.org/entity/Q154405",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.248333 49.6)",
+      "capacity": "12566",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Sigma%20Olomouc%20logo.svg",
+      "stadiumLabel": "Andrův stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q425599",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jablonec",
+      "website": "https://www.fkjablonec.cz/",
+      "clubLabel": "FK Jablonec",
+      "stadium": "http://www.wikidata.org/entity/Q1061636",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.162225 50.714964)",
+      "capacity": "6280",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Jablonec%20logo.svg",
+      "stadiumLabel": "Chance Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q581423",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Hradec_Kr%C3%A1lov%C3%A9",
+      "website": "https://www.fchk.cz/",
+      "clubLabel": "FC Hradec Králové",
+      "stadium": "http://www.wikidata.org/entity/Q115728674",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(15.8454 50.2064)",
+      "capacity": "9300",
+      "stadiumLabel": "Malšovická aréna"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q724832",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Zbrojovka_Brno",
+      "website": "https://www.fczbrno.cz/",
+      "clubLabel": "FC Zbrojovka Brno",
+      "stadium": "http://www.wikidata.org/entity/Q544985",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.586276 49.227162)",
+      "capacity": "12550",
+      "stadiumLabel": "Městský fotbalový stadion Srbská"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q738886",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Teplice",
+      "website": "https://www.fkteplice.cz/",
+      "clubLabel": "FK Teplice",
+      "stadium": "http://www.wikidata.org/entity/Q1422067",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.817936 50.640075)",
+      "capacity": "17087",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Teplice%20logo.svg",
+      "stadiumLabel": "Na Stínadlech"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q847499",
+      "enwiki": "https://en.wikipedia.org/wiki/1._FC_Slov%C3%A1cko",
+      "website": "https://www.fcslovacko.cz/",
+      "clubLabel": "1. FC Slovácko",
+      "stadium": "http://www.wikidata.org/entity/Q843243",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.4714 49.0655)",
+      "capacity": "8121",
+      "stadiumLabel": "Městský fotbalový stadion Miroslava Valenty"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q849221",
+      "enwiki": "https://en.wikipedia.org/wiki/Bohemians_1905",
+      "website": "https://www.bohemians.cz/",
+      "clubLabel": "Bohemians 1905",
+      "stadium": "http://www.wikidata.org/entity/Q1749400",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.454167 50.066667)",
+      "capacity": "7500",
+      "stadiumLabel": "Ďolíček"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3038689",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Pardubice",
+      "website": "https://www.fkpardubice.cz/",
+      "clubLabel": "FK Pardubice",
+      "stadium": "http://www.wikidata.org/entity/Q7206593",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.781801 50.029661)",
+      "capacity": "2500",
+      "stadiumLabel": "Pod Vinicí"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q39183",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Zl%C3%ADn",
+      "website": "https://www.fctrinityzlin.cz/",
+      "clubLabel": "FC Zlín",
+      "stadium": "http://www.wikidata.org/entity/Q3505464",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.669425 49.231311)",
+      "capacity": "6375",
+      "stadiumLabel": "Letná Stadion"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Jammerbugt%20FC",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Jammerbugt FC\",\"pageid\":4442237,\"redirects\":[],\"wikitext\":\"{{Short description|Former association football club in Pandrup, Denmark}}\\n{{Infobox football club\\n| clubname  = Jammerbugt\\n| image     = Jammerbugtfc-logo.png\\n| image_size = 130px\\n| fullname  = Jammerbugt Fodbold Club\\n| nickname  =\\n| founded   = {{Start date and age|df=y|2008}}, as ''Blokhus FC''\\n| dissolved = {{end date and age|2022}}\\n| ground    = [[Jetsmark Stadion|Sparekassen Vendsyssel Arena]],<br/>[[Pandrup]]\\n| capacity  = 6,000\\n| league    = \\n| season    = \\n| position  = \\n| pattern_la1=|pattern_b1=_hummelcoreXKbdbc|pattern_ra1=|pattern_sh1=_hummelcoreXKbcbd|\\n  leftarm1=0087b6|body1=0087b6|rightarm1=0087b6|shorts1=FFFFFF|socks1=0087b6|\\n  pattern_la2=_hummelauthentic20b|pattern_b2=_hummelauthentic20b|pattern_ra2=_hummelauthentic20b|\\n  leftarm2=555555|body2=555555|rightarm2=555555|shorts2=000000|socks2=000000|\\n}}\\n\\n'''Jammerbugt Fodbold Club''' was a Danish club based in [[Pandrup]], [[Jammerbugt Municipality]], that folded after the court in [[Hjørring]] issued a bankruptcy decree on 22 August 2022.\"}}",
+  "fetchedAt": "2026-10-14T19:08:10.933Z"
+}

@@ -1,0 +1,139 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q301431 wd:Q211906 wd:Q188430 wd:Q289286 wd:Q635654 wd:Q618520 wd:Q210025 wd:Q211912 wd:Q729560 wd:Q723489 wd:Q3511548 wd:Q837956 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:06:08.827Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q188430",
+      "stadium": "http://www.wikidata.org/entity/Q33003",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.572203 55.702469)",
+      "capacity": "38065",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Copenhagen",
+      "website": "https://www.fck.dk/",
+      "clubLabel": "F.C. Copenhagen",
+      "stadiumLabel": "Parken Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q210025",
+      "stadium": "http://www.wikidata.org/entity/Q1397226",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.353289 55.815847)",
+      "capacity": "10100",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland",
+      "website": "https://fcn.dk/",
+      "clubLabel": "FC Nordsjælland",
+      "stadiumLabel": "Right to Dream Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q211906",
+      "stadium": "http://www.wikidata.org/entity/Q995867",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.418358 55.648853)",
+      "capacity": "29000",
+      "enwiki": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_IF",
+      "website": "https://brondby.com/",
+      "clubLabel": "Brøndby IF",
+      "stadiumLabel": "Brøndby Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q211912",
+      "stadium": "http://www.wikidata.org/entity/Q1850346",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.350055 55.397771)",
+      "capacity": "15633",
+      "enwiki": "https://en.wikipedia.org/wiki/Odense_Boldklub",
+      "website": "https://www.ob.dk",
+      "clubLabel": "Odense Boldklub",
+      "stadiumLabel": "Odense Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Odense%20Boldklub.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q289286",
+      "stadium": "http://www.wikidata.org/entity/Q1022855",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.8576 55.8716)",
+      "capacity": "10400",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Horsens",
+      "website": "https://achorsens.dk/",
+      "clubLabel": "AC Horsens",
+      "stadiumLabel": "CASA Arena Horsens",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/AC%20Horsens%20logo%202017.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q301431",
+      "stadium": "http://www.wikidata.org/entity/Q1961383",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.196389 56.131944)",
+      "capacity": "19433",
+      "enwiki": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening",
+      "website": "https://agf.dk/",
+      "clubLabel": "Aarhus Gymnastikforening",
+      "stadiumLabel": "Ceres Park & Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q618520",
+      "stadium": "http://www.wikidata.org/entity/Q1557426",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.95166667 56.11666667)",
+      "capacity": "11809",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Midtjylland",
+      "website": "https://www.fcm.dk/",
+      "clubLabel": "FC Midtjylland",
+      "stadiumLabel": "MCH Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q635654",
+      "stadium": "http://www.wikidata.org/entity/Q1138823",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.5058 55.7811)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/Lyngby_Boldklub",
+      "website": "https://lyngby-boldklub.dk/",
+      "clubLabel": "Lyngby Boldklub",
+      "stadiumLabel": "Lyngby Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q723489",
+      "stadium": "http://www.wikidata.org/entity/Q29569113",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.5751 56.1842)",
+      "enwiki": "https://en.wikipedia.org/wiki/Silkeborg_IF",
+      "website": "https://www.silkeborgif.com/",
+      "clubLabel": "Silkeborg IF",
+      "stadiumLabel": "JYSK Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q729560",
+      "stadium": "http://www.wikidata.org/entity/Q784770",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.01027778 56.46583333)",
+      "capacity": "10300",
+      "enwiki": "https://en.wikipedia.org/wiki/Randers_FC",
+      "website": "http://www.randersfc.dk",
+      "clubLabel": "Randers FC",
+      "stadiumLabel": "AutoC Park Randers"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q837956",
+      "stadium": "http://www.wikidata.org/entity/Q1341220",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.402064 56.455897)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/Viborg_FF",
+      "website": "http://www.vff.dk",
+      "clubLabel": "Viborg FF",
+      "stadiumLabel": "Evergi Viborg Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3511548",
+      "stadium": "http://www.wikidata.org/entity/Q1131507",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.487791 55.261359)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/S%C3%B8nderjyske_Fodbold",
+      "website": "https://www.soenderjyske.dk/",
+      "clubLabel": "Sønderjyske Fodbold",
+      "stadiumLabel": "Sydbank Park"
+    }
+  ]
+}

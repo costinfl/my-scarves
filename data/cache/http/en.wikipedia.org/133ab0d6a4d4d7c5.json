@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Knyazha%20Shchaslyve",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Knyazha Shchaslyve\",\"pageid\":16206660,\"redirects\":[],\"wikitext\":\"{{Use dmy dates|date=April 2021}}\\n{{Infobox football club\\n| clubname = Knyazha Schaslyve\\n| image = Logo of Knyazha.jpg\\n| image_size = 200px\\n| fullname = Football Club Knyazha Schaslyve\\n| nickname = Kniazi\\n| founded = 2005\\n| dissolved = 2009\\n| ground = Kniazha Arena, [[Schaslyve]], [[Kyiv Oblast]]\\n| capacity = 1,000\\n| chairman = Yuriy Kindzerskyi\\n| mgrtitle = Manager\\n| manager = [[Vitaliy Levchenko]]\\n| league = [[Ukrainian First League]]\\n| season = [[Ukrainian First League 2008–09|2008–09]]\\n| position = 17th (withdrew)\\n}}\\n\\n'''FC Knyazha Shchaslyve''' was a [[Ukraine|Ukrainian]] [[association football|football]] team based in the village of [[Shchaslyve, Boryspil Raion, Kyiv Oblast|Shchaslyve]], in the [[Kyiv Oblast]] of [[Ukraine]].\"}}",
+  "fetchedAt": "2026-10-14T19:13:05.377Z"
+}

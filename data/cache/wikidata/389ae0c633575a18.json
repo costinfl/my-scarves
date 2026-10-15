@@ -1,0 +1,252 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q219592 wd:Q650236 wd:Q216022 wd:Q23925620 wd:Q217016 wd:Q1261184 wd:Q204752 wd:Q162031 wd:Q9448 wd:Q19510 wd:Q13394 wd:Q217374 wd:Q82595 wd:Q152665 wd:Q15804 wd:Q194052 wd:Q167541 wd:Q610823 wd:Q201671 wd:Q353508 wd:Q44763 wd:Q163046 wd:Q182994 wd:Q754488 wd:Q237753 wd:Q386384 wd:Q14377162 wd:Q14468438 wd:Q324867 wd:Q35615 wd:Q202699 wd:Q669073 wd:Q485568 wd:Q1141692 wd:Q206073 wd:Q1561244 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-14T19:04:34.382Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q9448",
+      "label": "Premier League",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q82595",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q82595",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q82595",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q13394",
+      "label": "Ligue 1",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q15804",
+      "label": "Serie A",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q324867",
+      "label": "La Liga",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q19510",
+      "label": "EFL Championship",
+      "isFootballLeague": "true",
+      "participants": "24"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q35615",
+      "label": "LaLiga 2",
+      "isFootballLeague": "true",
+      "participants": "22"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q44763",
+      "label": "Ekstraklasa",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q152665",
+      "label": "2. Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162031",
+      "label": "Danish 1st Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q163046",
+      "label": "I liga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q167541",
+      "label": "Eredivisie",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q182994",
+      "label": "Primeira Liga",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q194052",
+      "label": "Serie B",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q201671",
+      "label": "Eliteserien",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q202699",
+      "label": "Swiss Super League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q204752",
+      "label": "Danish Superliga",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q206073",
+      "label": "Premier League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q216022",
+      "label": "Belgian Pro League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q216022",
+      "label": "Belgian Pro League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q217016",
+      "label": "Czech First League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q217374",
+      "label": "Ligue 2",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q219592",
+      "label": "Bundesliga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q237753",
+      "label": "Liga I",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q353508",
+      "label": "1. divisjon football",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q386384",
+      "label": "Liga II",
+      "isFootballLeague": "true",
+      "participants": "21"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q485568",
+      "label": "Süper Lig",
+      "isFootballLeague": "true",
+      "participants": "19"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q610823",
+      "label": "Eerste Divisie",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q650236",
+      "label": "Austrian Football Second League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q669073",
+      "label": "Challenge League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q754488",
+      "label": "Liga Portugal 2",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1141692",
+      "label": "TFF First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1261184",
+      "label": "Czech FNL",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1561244",
+      "label": "Ukrainian First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q14377162",
+      "label": "Scottish Premiership",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q14468438",
+      "label": "Scottish Championship",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q23925620",
+      "label": "Challenger Pro League",
+      "isFootballLeague": "true",
+      "participants": "8"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q23925620",
+      "label": "Challenger Pro League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q23925620",
+      "label": "Challenger Pro League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    }
+  ]
+}

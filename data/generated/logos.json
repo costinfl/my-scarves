@@ -151,6 +151,14 @@
     "author": "Yawen",
     "attributionRequired": true
   },
+  "Q12260": {
+    "file": "Q12260.png",
+    "commonsFile": "CE Sabadell FC 1903.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CE_Sabadell_FC_1903.png",
+    "license": "Public domain",
+    "author": "Centre d'Esports Sabadell Futbol Club",
+    "attributionRequired": false
+  },
   "Q15786": {
     "file": "Q15786.svg",
     "commonsFile": "1. FC Nürnberg logo.svg",
@@ -927,6 +935,14 @@
     "author": "Dennis van Amerongen",
     "attributionRequired": false
   },
+  "Q239624": {
+    "file": "Q239624.svg",
+    "commonsFile": "Aarhus Fremad.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aarhus_Fremad.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": false
+  },
   "Q244595": {
     "file": "Q244595.png",
     "commonsFile": "Újpest FC logó 2017 - .jpg",
@@ -1518,6 +1534,14 @@
     "author": "FC Biel-Bienne 1896",
     "attributionRequired": false
   },
+  "Q680770": {
+    "file": "Q680770.svg",
+    "commonsFile": "UTA Arad logo.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UTA_Arad_logo.svg",
+    "license": "Public domain",
+    "author": "UTA Arad",
+    "attributionRequired": false
+  },
   "Q692586": {
     "file": "Q692586.svg",
     "commonsFile": "VfR Aalen Wappen.svg",
@@ -1532,6 +1556,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:SV_Elversberg_Logo_2021.svg",
     "license": "Public domain",
     "author": "SV Elversberg",
+    "attributionRequired": false
+  },
+  "Q696474": {
+    "file": "Q696474.svg",
+    "commonsFile": "Floridsdorfer AC (logo).svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floridsdorfer_AC_(logo).svg",
+    "license": "Public domain",
+    "author": "Floridsdorfer AC",
     "attributionRequired": false
   },
   "Q696507": {
@@ -1869,6 +1901,14 @@
     "author": "MaLigue2",
     "attributionRequired": true
   },
+  "Q1165253": {
+    "file": "Q1165253.png",
+    "commonsFile": "Arsenal ČL3 (cropped).JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arsenal_%C4%8CL3_(cropped).JPG",
+    "license": "Public domain",
+    "author": "Zákupák",
+    "attributionRequired": false
+  },
   "Q1193532": {
     "file": "Q1193532.svg",
     "commonsFile": "Vanløse IF.svg",
@@ -1891,6 +1931,22 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:LOGO_KFBesiana.gif",
     "license": "Public domain",
     "author": "KF Besiana",
+    "attributionRequired": false
+  },
+  "Q1322550": {
+    "file": "Q1322550.svg",
+    "commonsFile": "FC Petrolul Ploiești.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Petrolul_Ploie%C8%99ti.svg",
+    "license": "Public domain",
+    "author": "FC Petrolul Ploiești",
+    "attributionRequired": false
+  },
+  "Q1386854": {
+    "file": "Q1386854.svg",
+    "commonsFile": "Logo FC Andorra - 2021.svg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_FC_Andorra_-_2021.svg",
+    "license": "Public domain",
+    "author": "FC Andorra The original uploader was ΕυστάθιοςΧ at English Wikipedia.",
     "attributionRequired": false
   },
   "Q1387348": {
@@ -1939,6 +1995,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:VSEmodern_c%C3%ADmer.png",
     "license": "CC BY 3.0",
     "author": "Füredi Gábor",
+    "attributionRequired": true
+  },
+  "Q1473789": {
+    "file": "Q1473789.png",
+    "commonsFile": "SK Kladno 02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SK_Kladno_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Zelenymuzik",
     "attributionRequired": true
   },
   "Q1475269": {
@@ -2020,6 +2084,14 @@
     "license": "Public domain",
     "author": "Anatol",
     "attributionRequired": false
+  },
+  "Q2206406": {
+    "file": "Q2206406.png",
+    "commonsFile": "SKU Amstetten Logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SKU_Amstetten_Logo.png",
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown authorUnknown author",
+    "attributionRequired": true
   },
   "Q2394731": {
     "file": "Q2394731.svg",
@@ -2386,6 +2458,14 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC_Tallinn_logo.png",
     "license": "Public domain",
     "author": "FC Tallinn",
+    "attributionRequired": false
+  },
+  "Q108368442": {
+    "file": "Q108368442.png",
+    "commonsFile": "Iğdır FK logo.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:I%C4%9Fd%C4%B1r_FK_logo.png",
+    "license": "CC0",
+    "author": "Iğdırfutbol",
     "attributionRequired": false
   },
   "Q116950171": {

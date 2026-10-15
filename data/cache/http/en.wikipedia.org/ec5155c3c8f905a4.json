@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Komunalnyk%20Luhansk",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Komunalnyk Luhansk\",\"pageid\":13128807,\"redirects\":[],\"wikitext\":\"{{Football club infobox\\n| clubname = FC Komunalnyk Luhansk\\n| image = Komunalnyk L.png\\n| image_size = 150px\\n| fullname = FC Komunalnyk Luhansk\\n| nickname =\\n| founded = 2007\\n| dissolved = 2008\\n| ground = \\\"Enerhetyk\\\", Severodonetsk\\n| capacity =\\n| manager = Yuriy Malyhyn\\n| league = [[Ukrainian First League|Persha Liha]]\\n| season = 2008–09\\n| position =\\n}}\\n\\n'''FC Komunalnyk Luhansk''' was a professional football team based in [[Luhansk]], [[Ukraine]]. Komunalnyk Luhansk played in the [[Ukrainian Second League]]. It gained professional status in 2007. It played games on Enerhetyk Stadium in [[Severodonetsk]]. After winning the [[Ukrainian Second League|Druha Liha]] B Championship, Komunalnyk Luhansk were promoted to the [[Ukrainian First League|Persha Liha]] for the 2008/09 season.\\n\\nAfter competing in thirteen rounds of the competition Komunalnyk Luhansk withdrew from the PFL on October 17, 2008, and lost their professional status.\"}}",
+  "fetchedAt": "2026-10-14T19:13:06.711Z"
+}

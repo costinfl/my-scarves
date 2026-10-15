@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.228610&lon=-8.680760&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":288230006,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":160332317,\"lat\":\"42.2286080\",\"lon\":\"-8.6807755\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.2885983973306146,\"addresstype\":\"leisure\",\"name\":\"Campo Municipal de Barreiro\",\"display_name\":\"Campo Municipal de Barreiro, Camino Pepe Castro, A Cotarela, Cambeses, Lavadores, Vigo, Pontevedra, Galicia, 36215, España\",\"address\":{\"leisure\":\"Campo Municipal de Barreiro\",\"road\":\"Camino Pepe Castro\",\"neighbourhood\":\"A Cotarela\",\"hamlet\":\"Cambeses\",\"civil_parish\":\"Lavadores\",\"municipality\":\"Vigo\",\"county\":\"Vigo\",\"state_district\":\"Pontevedra\",\"ISO3166-2-lvl6\":\"ES-PO\",\"state\":\"Galicia\",\"ISO3166-2-lvl4\":\"ES-GA\",\"postcode\":\"36215\",\"country\":\"España\",\"country_code\":\"es\"},\"boundingbox\":[\"42.2281355\",\"42.2290805\",\"-8.6814953\",\"-8.6800558\"]}",
+  "fetchedAt": "2026-10-14T19:13:37.980Z"
+}

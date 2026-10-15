@@ -67,19 +67,21 @@
       "league": "Q219592",
       "name": "Bundesliga",
       "status": "ok",
-      "clubs": 13,
-      "stadiums": 12,
+      "clubs": 12,
+      "stadiums": 11,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Austrian_Football_Bundesliga"
     },
     {
       "league": "Q650236",
       "name": "Austrian Football Second League",
       "status": "ok",
-      "clubs": 14,
+      "clubs": 16,
       "stadiums": 11,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Austrian_Football_Second_League"
     }
   ],
   "AZE": [
@@ -108,9 +110,10 @@
       "name": "Belgian Pro League",
       "status": "ok",
       "clubs": 18,
-      "stadiums": 16,
+      "stadiums": 15,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Belgian_Pro_League"
     },
     {
       "league": "Q23925620",
@@ -242,20 +245,22 @@
       "name": "Czech First League",
       "status": "ok",
       "clubs": 16,
-      "stadiums": 16,
+      "stadiums": 15,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Czech_First_League"
     },
     {
       "league": "Q1261184",
       "name": "Czech FNL",
       "status": "ok",
-      "clubs": 19,
-      "stadiums": 15,
+      "clubs": 15,
+      "stadiums": 12,
       "excluded": [
-        "SK Sigma Olmütz B (Q125169377)"
+        "SK Slavia Prague B (Q55632216)"
       ],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Czech_National_Football_League"
     }
   ],
   "DEN": [
@@ -266,16 +271,18 @@
       "clubs": 12,
       "stadiums": 12,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Danish_Superliga"
     },
     {
       "league": "Q162031",
       "name": "Danish 1st Division",
       "status": "ok",
-      "clubs": 19,
-      "stadiums": 14,
+      "clubs": 11,
+      "stadiums": 9,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Danish_1st_Division"
     }
   ],
   "ENG": [
@@ -285,7 +292,9 @@
       "status": "ok",
       "clubs": 20,
       "stadiums": 20,
-      "excluded": []
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
     },
     {
       "league": "Q19510",
@@ -293,7 +302,9 @@
       "status": "ok",
       "clubs": 24,
       "stadiums": 24,
-      "excluded": []
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
     }
   ],
   "ESP": [
@@ -303,18 +314,20 @@
       "status": "ok",
       "clubs": 20,
       "stadiums": 21,
-      "excluded": []
+      "excluded": [],
+      "source": "season"
     },
     {
       "league": "Q35615",
       "name": "LaLiga 2",
       "status": "ok",
-      "clubs": 26,
-      "stadiums": 27,
+      "clubs": 21,
+      "stadiums": 21,
       "excluded": [
-        "FC Barcelona Atlètic (Q10467)",
         "Real Sociedad B (Q1067750)"
-      ]
+      ],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n"
     }
   ],
   "EST": [
@@ -428,21 +441,19 @@
       "status": "ok",
       "clubs": 18,
       "stadiums": 19,
-      "excluded": [
-        "FC Augsburg (Q97905916), part of club Q15755 (P831)"
-      ],
-      "source": "memberships"
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
     },
     {
       "league": "Q152665",
       "name": "2. Bundesliga",
       "status": "ok",
-      "clubs": 25,
-      "stadiums": 25,
-      "excluded": [
-        "Hamburger SV (Q97905930), part of club Q51974 (P831)"
-      ],
-      "source": "memberships"
+      "clubs": 18,
+      "stadiums": 18,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
     }
   ],
   "GIB": [
@@ -572,16 +583,18 @@
       "clubs": 20,
       "stadiums": 18,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
     },
     {
       "league": "Q194052",
       "name": "Serie B",
       "status": "ok",
-      "clubs": 28,
-      "stadiums": 26,
+      "clubs": 19,
+      "stadiums": 18,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_B"
     }
   ],
   "KAZ": [
@@ -784,16 +797,18 @@
       "clubs": 18,
       "stadiums": 18,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
     },
     {
       "league": "Q610823",
       "name": "Eerste Divisie",
       "status": "ok",
-      "clubs": 20,
-      "stadiums": 20,
+      "clubs": 19,
+      "stadiums": 19,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eerste_Divisie"
     }
   ],
   "NIR": [
@@ -825,21 +840,21 @@
       "league": "Q201671",
       "name": "Eliteserien",
       "status": "ok",
-      "clubs": 17,
+      "clubs": 16,
       "stadiums": 15,
-      "excluded": [
-        "Rosenborg BK (Q113517072), duplicate item of Q186785"
-      ],
-      "source": "memberships"
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Eliteserien"
     },
     {
       "league": "Q353508",
       "name": "1. divisjon football",
       "status": "ok",
-      "clubs": 15,
+      "clubs": 13,
       "stadiums": 12,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Norwegian_First_Division"
     }
   ],
   "POL": [
@@ -856,10 +871,11 @@
       "league": "Q163046",
       "name": "I liga",
       "status": "ok",
-      "clubs": 21,
-      "stadiums": 18,
+      "clubs": 18,
+      "stadiums": 17,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_I_liga"
     }
   ],
   "POR": [
@@ -870,23 +886,22 @@
       "clubs": 18,
       "stadiums": 16,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Primeira_Liga"
     },
     {
       "league": "Q754488",
       "name": "Liga Portugal 2",
       "status": "ok",
-      "clubs": 26,
-      "stadiums": 23,
+      "clubs": 15,
+      "stadiums": 13,
       "excluded": [
-        "C.S. Marítimo B (Q5006215)",
         "FC Porto B (Q5423714)",
-        "S.C. Braga B (Q7387158)",
         "S.L. Benfica B (Q7387221)",
-        "Sporting CP B (Q3494112)",
-        "Vitória S.C. B (Q17518847)"
+        "Sporting CP B (Q3494112)"
       ],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liga_Portugal_2"
     }
   ],
   "ROU": [
@@ -894,17 +909,21 @@
       "league": "Q237753",
       "name": "Liga I",
       "status": "ok",
-      "clubs": 15,
-      "stadiums": 16,
-      "excluded": []
+      "clubs": 16,
+      "stadiums": 17,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liga_I"
     },
     {
       "league": "Q386384",
       "name": "Liga II",
       "status": "ok",
-      "clubs": 17,
-      "stadiums": 13,
-      "excluded": []
+      "clubs": 16,
+      "stadiums": 11,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liga_II"
     }
   ],
   "RUS": [
@@ -992,10 +1011,11 @@
       "league": "Q669073",
       "name": "Challenge League",
       "status": "ok",
-      "clubs": 11,
-      "stadiums": 10,
+      "clubs": 10,
+      "stadiums": 8,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Swiss_Challenge_League"
     }
   ],
   "SVK": [
@@ -1065,19 +1085,21 @@
       "league": "Q485568",
       "name": "Süper Lig",
       "status": "ok",
-      "clubs": 16,
-      "stadiums": 16,
+      "clubs": 18,
+      "stadiums": 17,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_S%C3%BCper_Lig"
     },
     {
       "league": "Q1141692",
       "name": "TFF First League",
       "status": "ok",
-      "clubs": 28,
-      "stadiums": 23,
+      "clubs": 20,
+      "stadiums": 9,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_TFF_1._Lig"
     }
   ],
   "UKR": [

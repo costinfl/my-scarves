@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.620100&lon=20.704700&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":188343925,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":4640705369,\"lat\":\"49.6198579\",\"lon\":\"20.7055694\",\"category\":\"highway\",\"type\":\"bus_stop\",\"place_rank\":30,\"importance\":6.314412146176879e-05,\"addresstype\":\"highway\",\"name\":\"Kilińskiego - Stadion\",\"display_name\":\"Kilińskiego - Stadion, Jana Kilińskiego, Pod Podołami, Osiedle Kilińskiego, Nowy Sącz, województwo małopolskie, 33-302, Polska\",\"address\":{\"highway\":\"Kilińskiego - Stadion\",\"road\":\"Jana Kilińskiego\",\"neighbourhood\":\"Pod Podołami\",\"suburb\":\"Osiedle Kilińskiego\",\"city_district\":\"Nowy Sącz\",\"city\":\"Nowy Sącz\",\"state\":\"województwo małopolskie\",\"ISO3166-2-lvl4\":\"PL-12\",\"postcode\":\"33-302\",\"country\":\"Polska\",\"country_code\":\"pl\"},\"boundingbox\":[\"49.6198079\",\"49.6199079\",\"20.7055194\",\"20.7056194\"]}",
+  "fetchedAt": "2026-10-14T19:13:40.048Z"
+}

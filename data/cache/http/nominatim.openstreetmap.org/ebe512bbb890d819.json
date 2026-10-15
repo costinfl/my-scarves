@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.211700&lon=-8.277919&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":286263187,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":200992765,\"lat\":\"41.2116968\",\"lon\":\"-8.2778089\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.574654764625036e-05,\"addresstype\":\"leisure\",\"name\":\"Futebol Clube de Penafiel\",\"display_name\":\"Futebol Clube de Penafiel, Rua Abílio Miranda, Milhundos, Penafiel, Porto, 4560-511, Portugal\",\"address\":{\"leisure\":\"Futebol Clube de Penafiel\",\"road\":\"Rua Abílio Miranda\",\"suburb\":\"Milhundos\",\"city_district\":\"Penafiel\",\"city\":\"Penafiel\",\"county\":\"Porto\",\"ISO3166-2-lvl6\":\"PT-13\",\"postcode\":\"4560-511\",\"country\":\"Portugal\",\"country_code\":\"pt\"},\"boundingbox\":[\"41.2111636\",\"41.2122726\",\"-8.2783563\",\"-8.2772419\"]}",
+  "fetchedAt": "2026-10-14T19:13:43.288Z"
+}

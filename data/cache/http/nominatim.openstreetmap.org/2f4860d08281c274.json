@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.192222&lon=29.048333&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":59649014,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1134430311,\"lat\":\"40.1919907\",\"lon\":\"29.0487628\",\"category\":\"amenity\",\"type\":\"library\",\"place_rank\":30,\"importance\":6.865110246428652e-05,\"addresstype\":\"amenity\",\"name\":\"Atatürk Stadyumu Kütüphanesi\",\"display_name\":\"Atatürk Stadyumu Kütüphanesi, Çekirge Caddesi, Gaziakdemir, Gaziakdemir Mahallesi, Osmangazi, Bursa, Marmara Bölgesi, 16104, Türkiye\",\"address\":{\"amenity\":\"Atatürk Stadyumu Kütüphanesi\",\"road\":\"Çekirge Caddesi\",\"suburb\":\"Gaziakdemir\",\"city_district\":\"Gaziakdemir Mahallesi\",\"town\":\"Osmangazi\",\"province\":\"Bursa\",\"ISO3166-2-lvl4\":\"TR-16\",\"region\":\"Marmara Bölgesi\",\"postcode\":\"16104\",\"country\":\"Türkiye\",\"country_code\":\"tr\"},\"boundingbox\":[\"40.1917875\",\"40.1922281\",\"29.0484748\",\"29.0490506\"]}",
+  "fetchedAt": "2026-10-14T19:13:48.798Z"
+}

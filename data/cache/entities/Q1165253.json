@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-14T19:06:35.499Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1165253",
+    "claims": {
+      "P154": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "Arsenal ČL3 (cropped).JPG"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Arsenal Česká Lípa"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Arsenal Česká Lípa"
+      }
+    }
+  }
+}

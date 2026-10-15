@@ -1,0 +1,273 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q297430 wd:Q6630 wd:Q298217 wd:Q652516 wd:Q650365 wd:Q501372 wd:Q16848949 wd:Q759482 wd:Q6703 wd:Q8639 wd:Q6748 wd:Q430993 wd:Q8408 wd:Q8428 wd:Q2674 wd:Q289613 wd:Q1457 wd:Q1387710 wd:Q56542463 wd:Q2276413 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-14T19:05:02.989Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q650365",
+      "enwiki": "https://en.wikipedia.org/wiki/Carrarese_Calcio_1908",
+      "website": "http://www.carraresecalcio1908.it/",
+      "clubLabel": "Carrarese Calcio"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q289613",
+      "enwiki": "https://en.wikipedia.org/wiki/Pisa_SC",
+      "website": "https://pisasportingclub.com",
+      "clubLabel": "Pisa SC",
+      "stadium": "http://www.wikidata.org/entity/Q115970",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.4 43.725278)",
+      "capacity": "10442",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Pisa%20Sporting%20Club.svg",
+      "stadiumLabel": "Arena Garibaldi – Stadio Romeo Anconetani"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q297430",
+      "enwiki": "https://en.wikipedia.org/wiki/SS_Arezzo",
+      "website": "http://www.ssarezzo.it/",
+      "clubLabel": "S.S. Arezzo",
+      "stadium": "http://www.wikidata.org/entity/Q1569166",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.894444 43.451111)",
+      "capacity": "13128",
+      "stadiumLabel": "Stadio Città di Arezzo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q298217",
+      "enwiki": "https://en.wikipedia.org/wiki/US_Avellino_1912",
+      "website": "https://www.usavellino1912.com/",
+      "clubLabel": "U.S. Avellino 1912",
+      "stadium": "http://www.wikidata.org/entity/Q2298028",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.7925 40.926944)",
+      "capacity": "10125",
+      "stadiumLabel": "Stadio Partenio-Adriano Lombardi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q430993",
+      "enwiki": "https://en.wikipedia.org/wiki/Mantova_1911",
+      "website": "https://www.mantova1911.club/",
+      "clubLabel": "Mantova 1911",
+      "stadium": "http://www.wikidata.org/entity/Q245720",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.794167 45.146111)",
+      "capacity": "7367",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Mantova%201911.svg",
+      "stadiumLabel": "Stadio Danilo Martelli"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q501372",
+      "enwiki": "https://en.wikipedia.org/wiki/US_Catanzaro_1929",
+      "website": "https://www.uscatanzaro1929.com/",
+      "clubLabel": "Unione Sportiva Catanzaro",
+      "stadium": "http://www.wikidata.org/entity/Q1059142",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.587778 38.919722)",
+      "capacity": "14650",
+      "stadiumLabel": "Stadio Nicola Ceravolo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q652516",
+      "enwiki": "https://en.wikipedia.org/wiki/Benevento_Calcio",
+      "website": "https://www.beneventocalcio.club/",
+      "clubLabel": "Benevento Calcio",
+      "stadium": "http://www.wikidata.org/entity/Q1671970",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.781111 41.116389)",
+      "capacity": "25000",
+      "stadiumLabel": "Stadio Ciro Vigorito"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q759482",
+      "enwiki": "https://en.wikipedia.org/wiki/US_Cremonese",
+      "website": "https://uscremonese.it",
+      "clubLabel": "US Cremonese",
+      "stadium": "http://www.wikidata.org/entity/Q245799",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.034722 45.140278)",
+      "capacity": "15191",
+      "stadiumLabel": "Stadio Giovanni Zini"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1387710",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_S%C3%BCdtirol",
+      "website": "http://www.fc-suedtirol.com",
+      "clubLabel": "F.C. Südtirol",
+      "stadium": "http://www.wikidata.org/entity/Q1261440",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(11.345385 46.49234)",
+      "capacity": "5500",
+      "stadiumLabel": "Stadio Druso"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2276413",
+      "enwiki": "https://en.wikipedia.org/wiki/Virtus_Entella",
+      "website": "https://www.entella.it/",
+      "clubLabel": "Virtus Entella",
+      "stadium": "http://www.wikidata.org/entity/Q3967768",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(9.33732 44.3156)",
+      "capacity": "5587",
+      "stadiumLabel": "Stadio Comunale (Chiavari)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16848949",
+      "enwiki": "https://en.wikipedia.org/wiki/Cesena_FC",
+      "website": "https://cesenafc.com/",
+      "clubLabel": "Cesena FC",
+      "stadium": "http://www.wikidata.org/entity/Q94625",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(12.261944 44.140556)",
+      "capacity": "23860",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Cesena%20FC%202018.png",
+      "stadiumLabel": "Stadio Dino Manuzzi"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q56542463",
+      "enwiki": "https://en.wikipedia.org/wiki/LR_Vicenza",
+      "website": "http://www.lrvicenza.net",
+      "clubLabel": "LR Vicenza",
+      "stadium": "http://www.wikidata.org/entity/Q94612",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(11.555556 45.544167)",
+      "capacity": "12163",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LR%20Vicenza%20Virtus%20%28logo%29.svg",
+      "stadiumLabel": "Stadio Romeo Menti"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1457",
+      "enwiki": "https://en.wikipedia.org/wiki/UC_Sampdoria",
+      "website": "http://www.sampdoria.it/",
+      "clubLabel": "U.C. Sampdoria",
+      "stadium": "http://www.wikidata.org/entity/Q271568",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.952428 44.416431)",
+      "capacity": "33205",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sampdoria.svg",
+      "stadiumLabel": "Stadio Luigi Ferraris"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1457",
+      "enwiki": "https://en.wikipedia.org/wiki/UC_Sampdoria",
+      "website": "http://www.sampdoria.it/",
+      "clubLabel": "U.C. Sampdoria",
+      "stadium": "http://www.wikidata.org/entity/Q271568",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(8.952428 44.416431)",
+      "capacity": "33205",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sampdoria.svg",
+      "stadiumLabel": "Stadio Luigi Ferraris"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2674",
+      "enwiki": "https://en.wikipedia.org/wiki/Palermo_FC",
+      "website": "https://www.palermofc.com",
+      "clubLabel": "Palermo F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q28500",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.342275 38.152767)",
+      "capacity": "36365",
+      "stadiumLabel": "Stadio Renzo Barbera"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2674",
+      "enwiki": "https://en.wikipedia.org/wiki/Palermo_FC",
+      "website": "https://www.palermofc.com",
+      "clubLabel": "Palermo F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q28500",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.342275 38.152767)",
+      "capacity": "36365",
+      "stadiumLabel": "Stadio Renzo Barbera"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6630",
+      "enwiki": "https://en.wikipedia.org/wiki/Ascoli_Calcio_1898_FC",
+      "website": "https://www.ascolicalcio1898.it/",
+      "clubLabel": "Ascoli Calcio 1898 FC",
+      "stadium": "http://www.wikidata.org/entity/Q94591",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.594167 42.861111)",
+      "capacity": "13708",
+      "stadiumLabel": "Stadio Cino e Lillo Del Duca"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6630",
+      "enwiki": "https://en.wikipedia.org/wiki/Ascoli_Calcio_1898_FC",
+      "website": "https://www.ascolicalcio1898.it/",
+      "clubLabel": "Ascoli Calcio 1898 FC",
+      "stadium": "http://www.wikidata.org/entity/Q94591",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.594167 42.861111)",
+      "capacity": "13708",
+      "stadiumLabel": "Stadio Cino e Lillo Del Duca"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6703",
+      "enwiki": "https://en.wikipedia.org/wiki/Empoli_FC",
+      "website": "https://www.empolifc.com/",
+      "clubLabel": "Empoli FC",
+      "stadium": "http://www.wikidata.org/entity/Q94633",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.955 43.726389)",
+      "capacity": "19847",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Empoli%20FC%20logo.svg",
+      "stadiumLabel": "Stadio Carlo Castellani"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6703",
+      "enwiki": "https://en.wikipedia.org/wiki/Empoli_FC",
+      "website": "https://www.empolifc.com/",
+      "clubLabel": "Empoli FC",
+      "stadium": "http://www.wikidata.org/entity/Q94633",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.955 43.726389)",
+      "capacity": "19847",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Empoli%20FC%20logo.svg",
+      "stadiumLabel": "Stadio Carlo Castellani"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6748",
+      "enwiki": "https://en.wikipedia.org/wiki/SS_Juve_Stabia",
+      "website": "https://www.ssjuvestabia.it/",
+      "clubLabel": "S.S. Juve Stabia",
+      "stadium": "http://www.wikidata.org/entity/Q276784",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.494444 40.706667)",
+      "capacity": "13000",
+      "stadiumLabel": "Stadio Romeo Menti"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q8408",
+      "enwiki": "https://en.wikipedia.org/wiki/Modena_FC_2018",
+      "website": "http://www.modenacalcio.com/",
+      "clubLabel": "Modena F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q94646",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.923333 44.653611)",
+      "capacity": "21151",
+      "stadiumLabel": "Stadio Alberto Braglia"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q8408",
+      "enwiki": "https://en.wikipedia.org/wiki/Modena_FC_2018",
+      "website": "http://www.modenacalcio.com/",
+      "clubLabel": "Modena F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q94646",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.923333 44.653611)",
+      "capacity": "21151",
+      "stadiumLabel": "Stadio Alberto Braglia"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q8639",
+      "enwiki": "https://en.wikipedia.org/wiki/Hellas_Verona_FC",
+      "website": "https://hellasverona.it",
+      "clubLabel": "Hellas Verona FC",
+      "stadium": "http://www.wikidata.org/entity/Q737093",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(10.968647 45.435356)",
+      "capacity": "31045",
+      "stadiumLabel": "Stadio Marcantonio Bentegodi"
+    }
+  ]
+}
