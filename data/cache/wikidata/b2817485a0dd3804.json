@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q210849 wd:Q222861 wd:Q56275728 wd:Q620846 wd:Q477830 wd:Q752339 wd:Q5425073 wd:Q568348 wd:Q1483314 wd:Q28340330 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T14:14:36.054Z",
+  "fetchedAt": "2026-10-15T09:31:31.283Z",
   "rows": [
     {
       "club": "http://www.wikidata.org/entity/Q210849",
@@ -9,8 +9,8 @@
       "coord": "Point(24.73205 59.421292)",
       "capacity": "14336",
       "enwiki": "https://en.wikipedia.org/wiki/FCI_Levadia_Tallinn",
-      "website": "https://fcilevadia.ee/",
       "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FC%20Levadia%20Tallinnin.png",
+      "website": "https://fcilevadia.ee/",
       "clubLabel": "FCI Levadia Tallinn",
       "stadiumLabel": "A. Le Coq Arena"
     },
@@ -32,8 +32,8 @@
       "coord": "Point(28.18465 59.36347)",
       "capacity": "1065",
       "enwiki": "https://en.wikipedia.org/wiki/JK_Narva_Trans",
-      "website": "https://www.fctrans.ee/",
       "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/JK%20Narva%20Trans.png",
+      "website": "https://www.fctrans.ee/",
       "clubLabel": "JK Narva Trans",
       "stadiumLabel": "Narva Kreenholmi Stadium"
     },

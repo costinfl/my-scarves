@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.945300&lon=12.466100&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":80097976,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":364804578,\"lat\":\"43.9452806\",\"lon\":\"12.4661135\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.425726710913279e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Campagnaccio, Campagnacio, Domagnano, 47895, San Marino\",\"address\":{\"road\":\"Strada Campagnaccio\",\"hamlet\":\"Campagnacio\",\"village\":\"Domagnano\",\"ISO3166-2-lvl8\":\"SM-03\",\"postcode\":\"47895\",\"country\":\"San Marino\",\"country_code\":\"sm\"},\"boundingbox\":[\"43.9447372\",\"43.9458239\",\"12.4653845\",\"12.4668425\"]}",
-  "fetchedAt": "2026-10-14T17:19:02.473Z"
+  "body": "{\"place_id\":80057082,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":364804578,\"lat\":\"43.9452806\",\"lon\":\"12.4661135\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.425726710913279e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Strada Campagnaccio, Campagnacio, Domagnano, 47895, San Marino\",\"address\":{\"road\":\"Strada Campagnaccio\",\"hamlet\":\"Campagnacio\",\"village\":\"Domagnano\",\"ISO3166-2-lvl8\":\"SM-03\",\"postcode\":\"47895\",\"country\":\"San Marino\",\"country_code\":\"sm\"},\"boundingbox\":[\"43.9447372\",\"43.9458239\",\"12.4653845\",\"12.4668425\"]}",
+  "fetchedAt": "2026-10-15T09:50:37.993Z"
 }

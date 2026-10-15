@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q1300490 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q1300490 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T15:09:10.637Z",
+  "fetchedAt": "2026-10-15T09:34:37.510Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Luxembourg_Division_of_Honour",

@@ -1,10 +1,46 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q387662 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q387662 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T17:13:25.544Z",
+  "fetchedAt": "2026-10-15T09:35:43.092Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Campionato_Sammarinese",
       "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Campionato_Sammarinese_di_Calcio",
@@ -24,6 +60,46 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Campionato_Sammarinese_di_Calcio",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Campionato_Sammarinese_di_Calcio",
       "kind": "season"
     },
     {
@@ -92,82 +168,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Campionato_Sammarinese_di_Calcio",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Campionato_Sammarinese_di_Calcio",
       "kind": "season"
     }
   ]

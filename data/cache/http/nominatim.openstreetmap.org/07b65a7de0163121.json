@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.080818&lon=22.161025&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":62084869,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":154536956,\"lat\":\"42.0808578\",\"lon\":\"22.1610305\",\"category\":\"highway\",\"type\":\"residential\",\"place_rank\":26,\"importance\":0.053387506675822045,\"addresstype\":\"road\",\"name\":\"Атанас Бабата\",\"display_name\":\"Атанас Бабата, Кратово, Општина Кратово, 1360, Северна Македонија\",\"address\":{\"road\":\"Атанас Бабата\",\"town\":\"Кратово\",\"municipality\":\"Општина Кратово\",\"ISO3166-2-lvl7\":\"MK-701\",\"postcode\":\"1360\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"42.0807908\",\"42.0825309\",\"22.1592164\",\"22.1621185\"]}",
-  "fetchedAt": "2026-10-14T17:17:46.658Z"
+  "body": "{\"place_id\":58343923,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":154536956,\"lat\":\"42.0808578\",\"lon\":\"22.1610305\",\"category\":\"highway\",\"type\":\"residential\",\"place_rank\":26,\"importance\":0.053387506675822045,\"addresstype\":\"road\",\"name\":\"Атанас Бабата\",\"display_name\":\"Атанас Бабата, Кратово, Општина Кратово, 1360, Северна Македонија\",\"address\":{\"road\":\"Атанас Бабата\",\"town\":\"Кратово\",\"municipality\":\"Општина Кратово\",\"ISO3166-2-lvl7\":\"MK-701\",\"postcode\":\"1360\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"42.0807908\",\"42.0825309\",\"22.1592164\",\"22.1621185\"]}",
+  "fetchedAt": "2026-10-15T09:48:58.526Z"
 }

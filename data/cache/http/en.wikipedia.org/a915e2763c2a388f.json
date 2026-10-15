@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=KF%20Kamjani",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"KF Kamjani\",\"pageid\":42911126,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = KF Kamjani\\n| image = KF Kamjani.svg\\n| image_size = 150\\n| fullname = Klubi Futbollistik Kamjani\\n| founded = {{start date and age|1978}}\\n| ground = Stadion Kamenjani\\n| capacity = 899\\n| chairman = Arsim Sinani\\n| manager = Burhan Emrulai\\n| league = [[Macedonian Second Football League|Macedonian Second League]]\\n| season = [[2025–26 Macedonian Third Football League#West|2025–26]]\\n| position = [[Macedonian Third Football League|Third League]] (West), 1st (promoted)\\n}}\\n\\n'''KF Kamjani''' ({{langx|mk|ФК Камјан}}, ''FK Kamjan'') is a [[Association football|football]] club based in the village of [[Kamenjane|Kamenjane]] near [[Tetovo]], [[North Macedonia]]. They are currently competing in the [[Macedonian Third Football League|Macedonian Third League]] (West Division).\"}}",
-  "fetchedAt": "2026-10-14T17:15:55.800Z"
+  "fetchedAt": "2026-10-15T09:43:18.722Z"
 }

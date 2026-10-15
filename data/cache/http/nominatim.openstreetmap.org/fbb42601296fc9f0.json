@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.812981&lon=41.774458&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":207051874,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":120150378,\"lat\":\"41.8129594\",\"lon\":\"41.7744892\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.2798504615808616e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"მეგობრობის ქუჩა, ქობულეთი, ქობულეთის მუნიციპალიტეტი, აჭარის ავტონომიური რესპუბლიკა, 6200, საქართველო\",\"address\":{\"road\":\"მეგობრობის ქუჩა\",\"town\":\"ქობულეთი\",\"county\":\"ქობულეთის მუნიციპალიტეტი\",\"state\":\"აჭარის ავტონომიური რესპუბლიკა\",\"ISO3166-2-lvl4\":\"GE-AJ\",\"postcode\":\"6200\",\"country\":\"საქართველო\",\"country_code\":\"ge\"},\"boundingbox\":[\"41.8124428\",\"41.8134759\",\"41.7739834\",\"41.7749950\"]}",
-  "fetchedAt": "2026-10-14T14:25:26.162Z"
+  "fetchedAt": "2026-10-15T09:46:56.189Z"
 }

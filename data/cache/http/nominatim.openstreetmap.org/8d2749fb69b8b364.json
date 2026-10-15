@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.908000&lon=24.155000&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":170693881,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1076494176,\"lat\":\"56.9080288\",\"lon\":\"24.1552341\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.5001144426596745e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Lejupes iela, Katlakalns, Āgenskalna apkaime, Rīga, Ķekavas novads, LV-1076, Latvija\",\"address\":{\"road\":\"Lejupes iela\",\"suburb\":\"Katlakalns\",\"city_district\":\"Āgenskalna apkaime\",\"city\":\"Rīga\",\"ISO3166-2-lvl5\":\"LV-052\",\"municipality\":\"Ķekavas novads\",\"postcode\":\"LV-1076\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"56.9075287\",\"56.9085288\",\"24.1546077\",\"24.1558605\"]}",
-  "fetchedAt": "2026-10-14T14:26:23.831Z"
+  "fetchedAt": "2026-10-15T09:48:28.624Z"
 }

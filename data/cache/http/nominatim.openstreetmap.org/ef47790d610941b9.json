@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.652778&lon=20.293889&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":58133591,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":455160133,\"lat\":\"42.6528345\",\"lon\":\"20.2939778\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.947585259780297e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Dervish Kryeziu, Karagaç, Pejë, Komuna e Pejës / Opština Peć, Rajoni i Pejës / Pećki okrug, 39000, Kosova / Kosovo\",\"address\":{\"road\":\"Dervish Kryeziu\",\"suburb\":\"Karagaç\",\"city\":\"Pejë\",\"municipality\":\"Komuna e Pejës / Opština Peć\",\"district\":\"Rajoni i Pejës / Pećki okrug\",\"postcode\":\"39000\",\"country\":\"Kosova / Kosovo\",\"country_code\":\"xk\"},\"boundingbox\":[\"42.6523557\",\"42.6533132\",\"20.2935910\",\"20.2943647\"]}",
-  "fetchedAt": "2026-10-14T15:12:34.310Z"
+  "fetchedAt": "2026-10-15T09:47:46.741Z"
 }

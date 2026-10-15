@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.784947&lon=18.953731&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":57008627,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":211260826,\"lat\":\"42.7849107\",\"lon\":\"18.9537628\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.39892313782029826,\"addresstype\":\"leisure\",\"name\":\"Gradski stadion Nikšić\",\"display_name\":\"Gradski stadion Nikšić, Dragovolučka, Rastoci, Nikšić, Opština Nikšić, 81400, Crna Gora / Црна Гора\",\"address\":{\"leisure\":\"Gradski stadion Nikšić\",\"road\":\"Dragovolučka\",\"quarter\":\"Rastoci\",\"city\":\"Nikšić\",\"county\":\"Opština Nikšić\",\"ISO3166-2-lvl6\":\"ME-12\",\"postcode\":\"81400\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.7843503\",\"42.7854711\",\"18.9531035\",\"18.9544221\"]}",
-  "fetchedAt": "2026-10-14T14:27:05.111Z"
+  "fetchedAt": "2026-10-15T09:49:28.055Z"
 }

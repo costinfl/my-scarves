@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.323178&lon=45.745253&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":207583387,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":400818525,\"lat\":\"43.3231813\",\"lon\":\"45.7452766\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.705958648046109e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Садаева, 4-й, Старая Сунжа, Ахматовский район, Грозный, городской округ Грозный, Чечня, Северо-Кавказский федеральный округ, 364060, Россия\",\"address\":{\"road\":\"улица Садаева\",\"neighbourhood\":\"4-й\",\"suburb\":\"Старая Сунжа\",\"city_district\":\"Ахматовский район\",\"city\":\"Грозный\",\"county\":\"городской округ Грозный\",\"state\":\"Чечня\",\"ISO3166-2-lvl4\":\"RU-CE\",\"region\":\"Северо-Кавказский федеральный округ\",\"postcode\":\"364060\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"43.3226344\",\"43.3237281\",\"45.7447712\",\"45.7457820\"]}",
-  "fetchedAt": "2026-10-14T17:18:15.157Z"
+  "fetchedAt": "2026-10-15T09:49:50.223Z"
 }

@@ -387,7 +387,7 @@
   "Q17497": {
     "url": "https://shop.fcdm.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q18232": {
     "url": "https://webshop.kaagent.be",
@@ -702,14 +702,13 @@
     "note": "fetch failed"
   },
   "Q29108": {
-    "status": "none",
-    "checkedAt": "2026-10-14",
-    "terms": 2,
-    "note": "shop links found but none looked like a shop"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 403"
   },
   "Q29112": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q31420": {
@@ -740,7 +739,7 @@
   },
   "Q38124": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -751,7 +750,7 @@
   },
   "Q38781": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -779,7 +778,7 @@
   },
   "Q43477": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -844,7 +843,7 @@
   },
   "Q58247": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q60495": {
@@ -1071,12 +1070,12 @@
   },
   "Q142570": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q142581": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1116,7 +1115,7 @@
   },
   "Q156709": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q157352": {
@@ -1143,7 +1142,7 @@
   },
   "Q161217": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1177,7 +1176,7 @@
   },
   "Q163447": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1187,14 +1186,14 @@
     "checkedAt": "2026-10-12"
   },
   "Q168660": {
-    "url": "http://store.portadownfc.co.uk",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q170040": {
     "url": "https://store.rubin-kazan.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q170117": {
     "status": "none",
@@ -1262,7 +1261,7 @@
   },
   "Q182930": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -1415,7 +1414,7 @@
   },
   "Q201006": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1447,7 +1446,7 @@
   },
   "Q203513": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1460,7 +1459,7 @@
   "Q203976": {
     "url": "https://shop.shamrockrovers.ie",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q204237": {
     "url": "https://shop.dinamo1948.ro/",
@@ -1544,7 +1543,7 @@
   },
   "Q208574": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1592,13 +1591,13 @@
   },
   "Q210768": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q210849": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q210864": {
@@ -1665,9 +1664,9 @@
     "checkedAt": "2026-10-14"
   },
   "Q212708": {
-    "url": "https://www.shop-bohemianfc.com",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q212819": {
     "status": "none",
@@ -1743,7 +1742,7 @@
   },
   "Q216857": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1777,7 +1776,7 @@
   },
   "Q218789": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q219233": {
@@ -1797,7 +1796,7 @@
   },
   "Q219264": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1815,7 +1814,7 @@
   "Q220854": {
     "url": "https://shop.fckrasnodar.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q220863": {
     "url": "https://shop.ascotelul.ro/",
@@ -1844,14 +1843,14 @@
   },
   "Q221702": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
   "Q221752": {
     "url": "https://www.f91.lu/fanshop-90646v4",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q221766": {
     "status": "none",
@@ -1872,7 +1871,7 @@
   },
   "Q222861": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1926,7 +1925,7 @@
   },
   "Q239173": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1943,13 +1942,13 @@
   },
   "Q240438": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q240444": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -1971,7 +1970,7 @@
   "Q244472": {
     "url": "https://superstore.linfieldfc.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q244595": {
     "url": "https://shop.ujpestfc.hu",
@@ -1980,7 +1979,7 @@
   },
   "Q244874": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2007,7 +2006,7 @@
   "Q249533": {
     "url": "http://www.glentoransuperstore.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q252276": {
     "status": "none",
@@ -2040,7 +2039,7 @@
   "Q260189": {
     "url": "https://poti.ge/shop-2",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q260200": {
     "status": "unchecked",
@@ -2103,7 +2102,7 @@
   "Q274778": {
     "url": "https://store.pfcks.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q275138": {
     "url": "https://fchaka.fi/kauppa",
@@ -2128,7 +2127,7 @@
   },
   "Q279886": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -2168,7 +2167,7 @@
   },
   "Q287768": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2184,7 +2183,7 @@
   },
   "Q288932": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q289286": {
@@ -2195,7 +2194,7 @@
   },
   "Q289343": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2262,25 +2261,25 @@
   },
   "Q291691": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
   "Q291716": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
   "Q291719": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q291723": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -2383,7 +2382,7 @@
   "Q319756": {
     "url": "https://www.atfc.org.uk/club-shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q321061": {
     "status": "unchecked",
@@ -2392,7 +2391,7 @@
   },
   "Q324338": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2424,17 +2423,17 @@
   },
   "Q329510": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q330978": {
     "url": "https://b36shop.fo",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q331589": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q332642": {
@@ -2456,7 +2455,7 @@
   },
   "Q335190": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2473,11 +2472,11 @@
   "Q338557": {
     "url": "https://shop.dundalkfc.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q343030": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2495,7 +2494,7 @@
   },
   "Q348902": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2550,7 +2549,7 @@
   "Q369420": {
     "url": "https://hb.fo/handil",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q370206": {
     "status": "unchecked",
@@ -2586,7 +2585,7 @@
   "Q376846": {
     "url": "https://gagrafc.ge/en/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q382324": {
     "status": "none",
@@ -2596,8 +2595,8 @@
   },
   "Q382418": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
-    "note": "homepage answered 500"
+    "checkedAt": "2026-10-15",
+    "note": "The operation was aborted due to timeout"
   },
   "Q385518": {
     "url": "https://eshop.sigmafotbal.cz",
@@ -2611,7 +2610,7 @@
   },
   "Q387224": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2635,7 +2634,7 @@
   "Q390183": {
     "url": "https://tnsfc.secure-decoration.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q390256": {
     "status": "none",
@@ -2655,33 +2654,33 @@
   },
   "Q393281": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q393286": {
     "url": "https://www.gudjaunitedfc.com/shop-2",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q393302": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q394452": {
     "url": "https://www.elverys.ie/collections/st-pats",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q394466": {
     "url": "https://waterfordfcstore.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q394474": {
-    "url": "https://shop.shelbournefc.ie",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q399282": {
     "url": "https://shop.hskzrinjski.ba",
@@ -2690,7 +2689,7 @@
   },
   "Q402922": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q404384": {
@@ -2728,7 +2727,7 @@
   },
   "Q423115": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q425599": {
@@ -2759,7 +2758,7 @@
   },
   "Q430931": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q430993": {
@@ -2769,7 +2768,7 @@
   },
   "Q431139": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2787,7 +2786,7 @@
   },
   "Q433541": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2824,9 +2823,9 @@
     "checkedAt": "2026-10-15"
   },
   "Q459622": {
-    "url": "https://shop.northboundbrewery.com",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q460448": {
     "status": "none",
@@ -2865,7 +2864,7 @@
   },
   "Q477830": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -2887,8 +2886,8 @@
   },
   "Q484990": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
-    "note": "homepage answered 404"
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q495299": {
     "status": "none",
@@ -2904,7 +2903,7 @@
   },
   "Q497835": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2916,7 +2915,7 @@
   "Q500988": {
     "url": "https://shop.fkzalgiris.lt",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q501245": {
     "url": "https://shop.veneziafc.it",
@@ -2940,7 +2939,7 @@
   },
   "Q506224": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2968,13 +2967,13 @@
   },
   "Q514959": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q516425": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -2985,7 +2984,7 @@
   },
   "Q525573": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3022,7 +3021,7 @@
   },
   "Q542103": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3040,7 +3039,7 @@
   "Q546034": {
     "url": "https://vk.com/fanshopenisey",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q546557": {
     "status": "unchecked",
@@ -3053,10 +3052,9 @@
     "checkedAt": "2026-10-14"
   },
   "Q553732": {
-    "status": "none",
-    "checkedAt": "2026-10-14",
-    "terms": 2,
-    "note": "no shop link on the homepage (or it is built by JavaScript)"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q557612": {
     "status": "none",
@@ -3066,7 +3064,7 @@
   },
   "Q568348": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3079,7 +3077,7 @@
   "Q571264": {
     "url": "https://shop.errea.is",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q574997": {
     "status": "none",
@@ -3117,7 +3115,7 @@
   },
   "Q591339": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3147,7 +3145,7 @@
   "Q597715": {
     "url": "https://macron.is",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q600232": {
     "status": "none",
@@ -3172,7 +3170,7 @@
   },
   "Q605756": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3229,13 +3227,13 @@
   },
   "Q619499": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q620846": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3343,7 +3341,7 @@
   },
   "Q643042": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3355,7 +3353,7 @@
   },
   "Q643278": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3404,7 +3402,7 @@
   },
   "Q655591": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3454,7 +3452,7 @@
   },
   "Q670304": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3481,7 +3479,7 @@
   },
   "Q674454": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q674799": {
@@ -3491,7 +3489,7 @@
   },
   "Q674867": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3547,7 +3545,7 @@
   },
   "Q690787": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3570,11 +3568,11 @@
   "Q693092": {
     "url": "https://www.racing-union.lu/copie-de-shop-1",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q693951": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3634,7 +3632,7 @@
   },
   "Q704857": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3645,7 +3643,7 @@
   },
   "Q723457": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3673,7 +3671,7 @@
   },
   "Q723548": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3723,7 +3721,7 @@
   },
   "Q728557": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q729512": {
@@ -3859,13 +3857,13 @@
   },
   "Q752278": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q752339": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -3900,7 +3898,7 @@
   "Q755656": {
     "url": "https://atafc.myshopify.com/collections/athlone-town-afc",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q756110": {
     "status": "none",
@@ -3917,7 +3915,7 @@
   "Q757104": {
     "url": "https://shop.suduva.lt",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q757109": {
     "status": "none",
@@ -3965,7 +3963,7 @@
   },
   "Q761498": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -3986,7 +3984,7 @@
   },
   "Q770936": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4002,18 +4000,18 @@
   },
   "Q773360": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q775924": {
     "url": "https://www.spcailungo.com/merchandising",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q778858": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4026,7 +4024,7 @@
   "Q779835": {
     "url": "http://www.theredsshop.net",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q785203": {
     "status": "none",
@@ -4042,7 +4040,7 @@
   },
   "Q787093": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q795173": {
@@ -4054,12 +4052,12 @@
   "Q795978": {
     "url": "https://shop.fc-baltika.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q803976": {
     "url": "https://www.birkirkarafc.com/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q804556": {
     "status": "none",
@@ -4070,7 +4068,7 @@
   "Q805429": {
     "url": "https://skyblue-superstore.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q805909": {
     "url": "https://www.balikesirsporstore.com/urunler",
@@ -4084,19 +4082,19 @@
   },
   "Q806459": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q806549": {
     "url": "https://shop.bangorfc.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q809114": {
     "url": "https://macronstorecardiff.co.uk/football-clubs/barry-town-united/barry-united-adults",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q818698": {
     "url": "https://fkvelez.ba/web-shop",
@@ -4132,7 +4130,7 @@
   },
   "Q835853": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -4175,7 +4173,7 @@
   },
   "Q840567": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q840765": {
@@ -4251,7 +4249,7 @@
   },
   "Q846368": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q847326": {
@@ -4305,13 +4303,13 @@
   },
   "Q856468": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
   "Q856474": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4391,7 +4389,7 @@
   "Q889348": {
     "url": "http://shop.fc-ural.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q891262": {
     "status": "unchecked",
@@ -4407,7 +4405,7 @@
   "Q902962": {
     "url": "https://www.braywanderersfc.ie/webshop/-account",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q907321": {
     "status": "none",
@@ -4438,9 +4436,9 @@
     "checkedAt": "2026-10-12"
   },
   "Q917145": {
-    "url": "https://www.acvirtus.com/ordina-online-piovaccari",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q917613": {
     "status": "unchecked",
@@ -4450,7 +4448,7 @@
   "Q918146": {
     "url": "https://www.lafiorita.sm/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q918425": {
     "url": "https://shop.hnk-gorica.hr",
@@ -4459,7 +4457,7 @@
   },
   "Q920281": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q921158": {
@@ -4469,7 +4467,7 @@
   },
   "Q922140": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4497,11 +4495,11 @@
   "Q927084": {
     "url": "https://shop.fcska.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q930725": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4519,11 +4517,11 @@
   "Q932284": {
     "url": "https://www.corkcityfc.ie/pages/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q933046": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4534,7 +4532,7 @@
   },
   "Q936187": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q937213": {
@@ -4545,16 +4543,16 @@
   "Q941152": {
     "url": "https://www.tor-sports.co.uk/club-shops/haverfordwest-county-afc",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q945043": {
     "url": "https://shop.galwayunitedfc.ie",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q950480": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -4582,7 +4580,7 @@
   },
   "Q971326": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -4604,7 +4602,7 @@
   },
   "Q991727": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q994811": {
@@ -4625,7 +4623,7 @@
   },
   "Q995093": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4671,7 +4669,7 @@
   },
   "Q1024468": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4735,7 +4733,7 @@
   "Q1059186": {
     "url": "https://shop-rotor.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1059399": {
     "status": "none",
@@ -4756,7 +4754,7 @@
   },
   "Q1062929": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4774,7 +4772,7 @@
   },
   "Q1071313": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1071713": {
@@ -4784,7 +4782,7 @@
   },
   "Q1082980": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
@@ -4796,7 +4794,7 @@
   "Q1104682": {
     "url": "http://shop.cobhramblers.ie",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1105789": {
     "status": "none",
@@ -4805,9 +4803,9 @@
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1108181": {
-    "url": "https://www.colerainefcshop.com",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q1110567": {
     "status": "unchecked",
@@ -4816,7 +4814,7 @@
   },
   "Q1111374": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4827,7 +4825,7 @@
   },
   "Q1119349": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -4854,14 +4852,14 @@
     "note": "fetch failed"
   },
   "Q1129387": {
-    "url": "https://kfshkendija.com/shop",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q1130432": {
     "url": "https://shop.glenavonfc.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1130537": {
     "url": "https://www.hapoelpt.com/shop",
@@ -4942,12 +4940,12 @@
   },
   "Q1140106": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1140538": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -5043,7 +5041,7 @@
   },
   "Q1228264": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5067,7 +5065,7 @@
   },
   "Q1257626": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5084,7 +5082,7 @@
   "Q1265680": {
     "url": "https://dungannonswiftsfc.com/supporters-club-shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1269066": {
     "status": "unchecked",
@@ -5093,13 +5091,13 @@
   },
   "Q1269086": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1289495": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5134,7 +5132,7 @@
   "Q1333583": {
     "url": "https://www.wichtelweb.net/fanshop/t-shirt-avenir-beggen",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1339086": {
     "url": "https://ludogorets.com/shop",
@@ -5143,7 +5141,7 @@
   },
   "Q1341104": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q1344306": {
@@ -5159,7 +5157,7 @@
   },
   "Q1346756": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -5172,7 +5170,7 @@
   "Q1352136": {
     "url": "https://fhfcshop.ie",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1353948": {
     "status": "none",
@@ -5182,7 +5180,7 @@
   },
   "Q1354304": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1356582": {
@@ -5232,7 +5230,7 @@
   },
   "Q1387084": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5243,7 +5241,7 @@
   },
   "Q1387210": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5255,7 +5253,7 @@
   },
   "Q1387348": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5271,13 +5269,13 @@
   },
   "Q1387538": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
   "Q1387565": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5288,7 +5286,7 @@
   },
   "Q1387792": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5305,7 +5303,7 @@
   },
   "Q1387887": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -5317,7 +5315,7 @@
   },
   "Q1388798": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5339,7 +5337,7 @@
   },
   "Q1388889": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1388907": {
@@ -5406,7 +5404,7 @@
   },
   "Q1418838": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1423118": {
@@ -5470,13 +5468,13 @@
   },
   "Q1475458": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1478917": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5488,13 +5486,13 @@
   },
   "Q1483314": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1526049": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5511,7 +5509,7 @@
   },
   "Q1542781": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5544,7 +5542,7 @@
   },
   "Q1576467": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5566,7 +5564,7 @@
   "Q1617811": {
     "url": "https://dgsportsteamwear.ie/collections/wexford-fc",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q1628465": {
     "status": "none",
@@ -5576,7 +5574,7 @@
   },
   "Q1630613": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5588,7 +5586,7 @@
   },
   "Q1635367": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5617,7 +5615,7 @@
   },
   "Q1642914": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1662983": {
@@ -5638,29 +5636,29 @@
   },
   "Q1718602": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1718604": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1718617": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q1718622": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q1719034": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q1735177": {
@@ -5671,13 +5669,13 @@
   },
   "Q1751591": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1756279": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5688,7 +5686,7 @@
   },
   "Q1777557": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5750,7 +5748,7 @@
   },
   "Q1929359": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5789,7 +5787,7 @@
   "Q1974456": {
     "url": "https://vk.ru/fcchel_official_store",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q2000763": {
     "status": "unchecked",
@@ -5798,7 +5796,7 @@
   },
   "Q2007987": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
@@ -5848,13 +5846,13 @@
     "checkedAt": "2026-10-14"
   },
   "Q2095484": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-14",
-    "note": "fetch failed"
+    "url": "https://shop.fcorenburg.ru",
+    "status": "candidate",
+    "checkedAt": "2026-10-15"
   },
   "Q2096167": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q2096853": {
@@ -5886,7 +5884,7 @@
   },
   "Q2137561": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -5910,7 +5908,7 @@
   },
   "Q2212732": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q2215847": {
@@ -5927,13 +5925,13 @@
   },
   "Q2244751": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q2252351": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q2259417": {
@@ -5965,7 +5963,7 @@
   },
   "Q2299795": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q2311865": {
@@ -5987,7 +5985,7 @@
   "Q2373463": {
     "url": "http://shop.larnefc.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q2394731": {
     "status": "unchecked",
@@ -6013,17 +6011,17 @@
   },
   "Q2448170": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q2479641": {
     "url": "https://store1881.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q2480155": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6035,7 +6033,7 @@
   },
   "Q2494171": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -6047,7 +6045,7 @@
   },
   "Q2507730": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q2523663": {
@@ -6058,19 +6056,19 @@
   },
   "Q2525021": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q2528324": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q2541808": {
     "url": "https://shop.carrickrangers.co.uk",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q2569908": {
     "status": "none",
@@ -6115,7 +6113,7 @@
   },
   "Q2631313": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6133,7 +6131,7 @@
   "Q2647768": {
     "url": "https://shop.errea.is",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q2662732": {
     "status": "none",
@@ -6166,11 +6164,11 @@
   "Q2801418": {
     "url": "https://webshop.rak.lu",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q2817362": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -6188,7 +6186,7 @@
   },
   "Q2934688": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6204,7 +6202,7 @@
   },
   "Q3016278": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6221,13 +6219,13 @@
   },
   "Q3063068": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
   "Q3063100": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q3063273": {
@@ -6238,7 +6236,7 @@
   },
   "Q3073748": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q3091283": {
@@ -6264,13 +6262,13 @@
   },
   "Q3241301": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
   "Q3400306": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q3432730": {
@@ -6286,7 +6284,7 @@
   },
   "Q3463910": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
@@ -6298,7 +6296,7 @@
   },
   "Q3498493": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6316,13 +6314,13 @@
   },
   "Q3543925": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q3544330": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 404"
   },
   "Q3625019": {
@@ -6333,12 +6331,12 @@
   },
   "Q3648810": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q3755086": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q3845557": {
@@ -6348,7 +6346,7 @@
   },
   "Q4103535": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q4122219": {
@@ -6359,13 +6357,13 @@
   },
   "Q4153485": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q4155223": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6382,24 +6380,24 @@
   },
   "Q4430691": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q4465069": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q4496023": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q4497682": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q4502972": {
@@ -6419,7 +6417,7 @@
   },
   "Q4747150": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q4852355": {
@@ -6446,7 +6444,7 @@
   },
   "Q4971508": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -6490,13 +6488,13 @@
   },
   "Q5424880": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q5424928": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6507,13 +6505,13 @@
   },
   "Q5425058": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q5425073": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6531,7 +6529,7 @@
   },
   "Q5426036": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q5426320": {
@@ -6568,7 +6566,7 @@
   },
   "Q5649871": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q5765870": {
@@ -6583,7 +6581,7 @@
   },
   "Q5887222": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -6625,9 +6623,10 @@
     "note": "homepage answered 403"
   },
   "Q6661255": {
-    "url": "https://ffigarsportsembroidery.co.uk/product-category/club-shop/llandudno-football-club",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "none",
+    "checkedAt": "2026-10-15",
+    "terms": 2,
+    "note": "shop links found but none looked like a shop"
   },
   "Q6705180": {
     "url": "https://cutebaby-shop.com",
@@ -6674,9 +6673,15 @@
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
+  "Q7018275": {
+    "status": "none",
+    "checkedAt": "2026-10-15",
+    "terms": 2,
+    "note": "shop links found but none looked like a shop"
+  },
   "Q7073029": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6688,7 +6693,7 @@
   "Q7228420": {
     "url": "https://www.ruggerbug.co.uk/product-category/my-club-kit/pontypridd-fc",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q7482049": {
     "status": "none",
@@ -6732,14 +6737,14 @@
   },
   "Q9197184": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q9213755": {
     "url": "https://newrycityafc.co.uk/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q9257379": {
     "status": "none",
@@ -6799,7 +6804,7 @@
   },
   "Q12175012": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6816,7 +6821,7 @@
   },
   "Q12371238": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -6846,23 +6851,23 @@
   "Q12654265": {
     "url": "https://uls.lt/fchegelmann",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q12654311": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q12654339": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q12654411": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q12723169": {
@@ -6925,13 +6930,13 @@
   },
   "Q14636641": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q14657783": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -6948,19 +6953,19 @@
   },
   "Q15732501": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q15926443": {
     "url": "https://vx-3.com/collections/lions-gibraltar-fc",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q15939830": {
     "url": "https://fkliepaja.lv/lv/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q15966154": {
     "status": "none",
@@ -6992,13 +6997,13 @@
   },
   "Q16374651": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q16412614": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q16736174": {
@@ -7031,7 +7036,7 @@
   },
   "Q16839383": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7043,7 +7048,7 @@
   },
   "Q16847437": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 522"
   },
   "Q16848949": {
@@ -7053,7 +7058,7 @@
   },
   "Q16850885": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
@@ -7104,7 +7109,7 @@
   "Q18411591": {
     "url": "https://legea.com/collections/europa-point-f-c",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q18539440": {
     "status": "none",
@@ -7120,24 +7125,24 @@
   },
   "Q19365063": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q19365065": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q19577056": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q19577311": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7154,13 +7159,13 @@
   },
   "Q19963391": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q20054860": {
     "url": "https://www.utp.lu/category/all-products",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q20077871": {
     "url": "https://kolosshop.com.ua/product/symka-shoper",
@@ -7191,7 +7196,7 @@
   },
   "Q20949669": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 403"
   },
   "Q20979061": {
@@ -7206,7 +7211,7 @@
   },
   "Q22097750": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "robots.txt disallows the homepage"
   },
@@ -7228,7 +7233,7 @@
   },
   "Q23894576": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7245,12 +7250,12 @@
   },
   "Q24183338": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 523"
   },
   "Q24914473": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q25394925": {
@@ -7261,7 +7266,7 @@
   },
   "Q25396688": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7277,7 +7282,7 @@
   },
   "Q25497952": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "fetch failed"
   },
   "Q26223027": {
@@ -7288,7 +7293,7 @@
   },
   "Q28340330": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7300,7 +7305,7 @@
   "Q30115933": {
     "url": "https://fcstruga.com/shop",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q30128799": {
     "status": "none",
@@ -7315,9 +7320,10 @@
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q30891083": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-14",
-    "note": "fetch failed"
+    "status": "none",
+    "checkedAt": "2026-10-15",
+    "terms": 2,
+    "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q30962897": {
     "status": "unchecked",
@@ -7345,7 +7351,7 @@
   "Q41634649": {
     "url": "https://breidablik.is",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q42295701": {
     "status": "unchecked",
@@ -7367,7 +7373,7 @@
   "Q54834034": {
     "url": "https://shop.pfcsochi.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q54877936": {
     "status": "unchecked",
@@ -7376,7 +7382,7 @@
   },
   "Q55072718": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7388,7 +7394,7 @@
   },
   "Q55432860": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7416,7 +7422,7 @@
   },
   "Q57652441": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7427,7 +7433,7 @@
   },
   "Q60658427": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7457,11 +7463,11 @@
   "Q65124755": {
     "url": "https://shop.fcakron.ru",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q66210522": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7480,7 +7486,7 @@
   "Q74116224": {
     "url": "https://www.thorsport.is/knattspyrna/moya/store/mypage/recover",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q90922797": {
     "status": "none",
@@ -7490,7 +7496,7 @@
   },
   "Q97221741": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
@@ -7503,18 +7509,18 @@
   "Q102418055": {
     "url": "https://fcmarisca.lu/fanshop.html",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q105424906": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q105628356": {
     "url": "https://c7766d-2.myshopify.com",
     "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "checkedAt": "2026-10-15"
   },
   "Q106702741": {
     "status": "none",
@@ -7545,13 +7551,13 @@
   },
   "Q108457654": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q109236652": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "The operation was aborted due to timeout"
   },
   "Q113318729": {
@@ -7561,14 +7567,14 @@
   },
   "Q113407279": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   },
   "Q115245702": {
-    "url": "https://kerryfc.com/shop",
-    "status": "candidate",
-    "checkedAt": "2026-10-14"
+    "status": "unchecked",
+    "checkedAt": "2026-10-15",
+    "note": "homepage answered 202"
   },
   "Q115821135": {
     "status": "unchecked",
@@ -7577,7 +7583,7 @@
   },
   "Q117206645": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7594,7 +7600,7 @@
   },
   "Q120648246": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
@@ -7640,7 +7646,7 @@
   },
   "Q134883767": {
     "status": "unchecked",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "homepage answered 503"
   },
   "Q135213959": {
@@ -7655,7 +7661,7 @@
   },
   "Q141254292": {
     "status": "none",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "terms": 2,
     "note": "shop links found but none looked like a shop"
   }

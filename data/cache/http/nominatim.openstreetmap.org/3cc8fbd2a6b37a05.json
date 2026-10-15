@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.432531&lon=18.695344&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":57182857,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":206541442,\"lat\":\"42.4326753\",\"lon\":\"18.6953740\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.161593041881464e-05,\"addresstype\":\"leisure\",\"name\":\"FK Arsenal Tivat Glavni Stadion\",\"display_name\":\"FK Arsenal Tivat Glavni Stadion, Arsenalska, Seljanovo, Tivat, Opština Tivat, 82000, Crna Gora / Црна Гора\",\"address\":{\"leisure\":\"FK Arsenal Tivat Glavni Stadion\",\"road\":\"Arsenalska\",\"quarter\":\"Seljanovo\",\"town\":\"Tivat\",\"county\":\"Opština Tivat\",\"ISO3166-2-lvl6\":\"ME-19\",\"postcode\":\"82000\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.4321365\",\"42.4332142\",\"18.6948240\",\"18.6959241\"]}",
-  "fetchedAt": "2026-10-14T14:26:43.116Z"
+  "fetchedAt": "2026-10-15T09:49:10.539Z"
 }

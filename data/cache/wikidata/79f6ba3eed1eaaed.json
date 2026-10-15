@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q2270893 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q2270893 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:16:04.529Z",
+  "fetchedAt": "2026-10-15T09:31:43.482Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Erovnuli_Liga_2",

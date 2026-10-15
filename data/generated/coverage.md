@@ -41,7 +41,7 @@ Counts are clubs with a current tier 1/2 membership. "Missing" columns count clu
 | MNE Montenegro | 25 | 22 | 3 (12%) | 3 (12%) | 25 (100%) | 17 (68%) |
 | NED Netherlands | 37 | 38 | 0 (0%) | 0 (0%) | 24 (65%) | 0 (0%) |
 | MKD North Macedonia | 22 | 20 | 6 (27%) | 6 (27%) | 19 (86%) | 10 (45%) |
-| NIR Northern Ireland | 27 | 41 | 12 (44%) | 12 (44%) | 27 (100%) | 3 (11%) |
+| NIR Northern Ireland | 28 | 41 | 12 (43%) | 12 (43%) | 28 (100%) | 3 (11%) |
 | NOR Norway | 29 | 32 | 2 (7%) | 2 (7%) | 20 (69%) | 0 (0%) |
 | POL Poland | 36 | 36 | 1 (3%) | 1 (3%) | 28 (78%) | 2 (6%) |
 | POR Portugal | 33 | 36 | 4 (12%) | 4 (12%) | 28 (85%) | 0 (0%) |
@@ -104,15 +104,15 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | MDA Moldova | 15 | 5 / 1 | 1 / 10 | 14 (93%) | 8 (53%) | 0 (0%) |
 | MNE Montenegro | 25 | 12 / 0 | 0 / 20 | 25 (100%) | 22 (88%) | 0 (0%) |
 | NED Netherlands | 37 | 22 / 13 | 3 / 27 | 37 (100%) | 37 (100%) | 31 (84%) |
-| MKD North Macedonia | 22 | 12 / 3 | 0 / 18 | 22 (100%) | 16 (73%) | 2 (9%) |
-| NIR Northern Ireland | 27 | 11 / 0 | 9 / 16 | 27 (100%) | 15 (56%) | 12 (44%) |
+| MKD North Macedonia | 22 | 12 / 3 | 0 / 18 | 22 (100%) | 16 (73%) | 1 (5%) |
+| NIR Northern Ireland | 28 | 11 / 0 | 9 / 17 | 28 (100%) | 16 (57%) | 10 (36%) |
 | NOR Norway | 29 | 19 / 8 | 16 / 11 | 29 (100%) | 27 (93%) | 8 (28%) |
 | POL Poland | 36 | 20 / 8 | 21 / 11 | 36 (100%) | 35 (97%) | 4 (11%) |
 | POR Portugal | 33 | 23 / 4 | 9 / 18 | 33 (100%) | 29 (88%) | 21 (64%) |
-| IRL Republic of Ireland | 20 | 12 / 1 | 1 / 16 | 20 (100%) | 17 (85%) | 16 (80%) |
+| IRL Republic of Ireland | 20 | 12 / 1 | 1 / 16 | 20 (100%) | 17 (85%) | 12 (60%) |
 | ROU Romania | 32 | 14 / 4 | 1 / 17 | 32 (100%) | 26 (81%) | 16 (50%) |
-| RUS Russia | 39 | 15 / 7 | 2 / 29 | 39 (100%) | 36 (92%) | 12 (31%) |
-| SMR San Marino | 15 | 13 / 1 | 12 / 3 | 15 (100%) | 12 (80%) | 3 (20%) |
+| RUS Russia | 39 | 15 / 7 | 2 / 29 | 39 (100%) | 36 (92%) | 13 (33%) |
+| SMR San Marino | 15 | 13 / 1 | 12 / 3 | 15 (100%) | 12 (80%) | 2 (13%) |
 | SCO Scotland | 19 | 16 / 1 | 1 / 13 | 19 (100%) | 19 (100%) | 14 (74%) |
 | SRB Serbia | 29 | 15 / 4 | 0 / 22 | 29 (100%) | 19 (66%) | 3 (10%) |
 | SVK Slovakia | 26 | 11 / 1 | 1 / 19 | 26 (100%) | 19 (73%) | 9 (35%) |
@@ -122,7 +122,7 @@ Counts of clubs that have the field. Logo: UEFA badge / Commons file. Colours: W
 | SUI Switzerland | 22 | 16 / 13 | 6 / 9 | 22 (100%) | 20 (91%) | 14 (64%) |
 | TUR Türkiye | 38 | 22 / 10 | 8 / 16 | 38 (100%) | 24 (63%) | 6 (16%) |
 | UKR Ukraine | 47 | 10 / 13 | 1 / 25 | 47 (100%) | 30 (64%) | 10 (21%) |
-| WAL Wales | 21 | 13 / 0 | 3 / 17 | 21 (100%) | 12 (57%) | 7 (33%) |
+| WAL Wales | 21 | 13 / 0 | 3 / 17 | 21 (100%) | 12 (57%) | 6 (29%) |
 
 ## Leagues
 
@@ -167,7 +167,7 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | FIN Ykkösliiga (Q384536) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Ykk%C3%B6sliiga) | 7 | 10 | -3 |
 | FRA Ligue 1 (Q13394) | 1 | ok | season | 18 | 18 | 0 |
 | FRA Ligue 2 (Q217374) | 2 | ok | season | 18 | 18 | 0 |
-| GEO Erovnuli Liga (Q219007) | 1 | ok | open | 10 | 10 | 0 |
+| GEO Erovnuli Liga (Q219007) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Erovnuli_Liga) | 10 | 10 | 0 |
 | GEO Erovnuli Liga 2 (Q2270893) | 2 | ok | open | 23 | 10 | +13 |
 | GER Bundesliga (Q82595) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga) | 18 | 20 | -2 |
 | GER 2. Bundesliga (Q152665) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga) | 18 | 18 | 0 |
@@ -203,7 +203,7 @@ Membership source: "season" = the season's participant list on Wikidata (exact);
 | MKD First Macedonian Football League (Q275189) | 1 | ok | open | 9 | 10 | -1 |
 | MKD Macedonian Second Football League (Q2306229) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_Macedonian_Second_Football_League) | 14 | 10 | +4 |
 | NIR NIFL Premiership (Q277945) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Premiership) | 12 | 12 | 0 |
-| NIR NIFL Championship (Q2267464) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Championship) | 15 | 29 | -14 |
+| NIR NIFL Championship (Q2267464) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Championship) | 16 | 29 | -13 |
 | NOR Eliteserien (Q201671) | 1 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Eliteserien) | 16 | 16 | 0 |
 | NOR 1. divisjon football (Q353508) | 2 | ok | [wikipedia](https://en.wikipedia.org/wiki/2026_Norwegian_First_Division) | 13 | 16 | -3 |
 | POL Ekstraklasa (Q44763) | 1 | ok | season | 18 | 18 | 0 |
@@ -479,9 +479,9 @@ Akademija Pandev, FK Belasica, FK Gorno Lisiče, FK Kamjan, FK Kožuf, FK Makedo
 
 </details>
 
-<details><summary>NIR NIFL Championship: 15 found, 29 expected</summary>
+<details><summary>NIR NIFL Championship: 16 found, 29 expected</summary>
 
-Annagh United F.C., Ards F.C., Armagh City F.C., Ballinamallard United F.C., Dundela F.C., Glenavon F.C., Harland & Wolff Welders F.C., Institute F.C., Loughgall F.C., Moyola Park F.C., Newry City A.F.C., Queen's University Belfast A.F.C., Rathfriland Rangers F.C., Strabane Athletic F.C., Warrenpoint Town F.C.
+Annagh United F.C., Ards F.C., Armagh City F.C., Ballinamallard United F.C., Dundela F.C., Glenavon F.C., Harland & Wolff Welders F.C., Institute F.C., Loughgall F.C., Moyola Park F.C., Newington Youth F.C., Newry City A.F.C., Queen's University Belfast A.F.C., Rathfriland Rangers F.C., Strabane Athletic F.C., Warrenpoint Town F.C.
 
 </details>
 
@@ -913,7 +913,6 @@ Airbus UK Broughton F.C., Cefn Druids A.F.C., Newtown A.F.C.
 - NIR Harland & Wolff Welders F.C. (Q4496023): no home venue (P115)
 - NIR Limavady United F.C. (Q1929359): no home venue (P115)
 - NIR Loughgall F.C. (Q2244751): no home venue (P115)
-- NIR NIFL Championship: excluded Newington Youth F.C. (Q7018275)
 - NIR Queen's University Belfast A.F.C. (Q2427114): no home venue (P115)
 - NIR Rathfriland Rangers F.C. (Q7295636): no home venue (P115)
 - NIR Strabane Athletic F.C. (Q16850885): no home venue (P115)

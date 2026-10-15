@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.238333&lon=50.271667&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":203123747,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":23034420,\"lat\":\"53.2382691\",\"lon\":\"50.2717474\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.56969558250861e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"улица Строителей, Восточный, Кировский район, Самара, городской округ Самара, Самарская область, Приволжский федеральный округ, 443051, Россия\",\"address\":{\"road\":\"улица Строителей\",\"suburb\":\"Восточный\",\"city\":\"Самара\",\"county\":\"городской округ Самара\",\"state\":\"Самарская область\",\"ISO3166-2-lvl4\":\"RU-SAM\",\"region\":\"Приволжский федеральный округ\",\"postcode\":\"443051\",\"country\":\"Россия\",\"country_code\":\"ru\"},\"boundingbox\":[\"53.2377758\",\"53.2387625\",\"50.2712201\",\"50.2722747\"]}",
-  "fetchedAt": "2026-10-14T17:18:31.757Z"
+  "fetchedAt": "2026-10-15T09:50:06.708Z"
 }

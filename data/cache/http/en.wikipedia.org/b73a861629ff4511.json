@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Samegrelo%20Chkhorotsku",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Samegrelo Chkhorotsku\",\"pageid\":46719396,\"redirects\":[],\"wikitext\":\"{{Infobox football club |\\n  clubname = FC Samegrelo Chkhorotsku |\\n  image    = FC Samegrelo Chkhorotsku.png | \\n  fullname = FC Samegrelo Chkhorotsku |\\n  nickname = |\\n  founded  = 1980|\\n  ground   = Bondo Papaskiri central Stadium <br>[[Chkhorotsku]]|\\n  capacity = 1,500| \\n  chairman = |\\n  manager  = Gizo Shengelia|\\n  league   =  N/A|\\n season = 16 of 16| \\n}}\\n\\n'''FC Samegrelo''' ({{lang-ka|საფეხბურთო კლუბი სამეგრელო}}) is a defunct [[Georgia (country)|Georgian]] [[football (soccer)|football]] club based in the town of [[Chkhorotsku]]. Most recently they competed in [[Regionuli Liga]], the fifth tier of the [[Football in Georgia (country)|Georgian league system]].\\n\\nThe Bondo Papaskiri central stadium was Samegrelo's home ground.\"}}",
-  "fetchedAt": "2026-10-14T14:22:15.436Z"
+  "fetchedAt": "2026-10-15T09:41:40.656Z"
 }

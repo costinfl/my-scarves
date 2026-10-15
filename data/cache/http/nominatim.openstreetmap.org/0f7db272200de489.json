@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.018692&lon=20.978179&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":57138563,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":518501897,\"lat\":\"42.0185953\",\"lon\":\"20.9782317\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.972457465471912e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Саво Тасески, Тетово, Општина Тетово, 1200, Северна Македонија\",\"address\":{\"road\":\"Саво Тасески\",\"city\":\"Тетово\",\"municipality\":\"Општина Тетово\",\"ISO3166-2-lvl7\":\"MK-609\",\"postcode\":\"1200\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"42.0179940\",\"42.0191966\",\"20.9774378\",\"20.9790256\"]}",
-  "fetchedAt": "2026-10-14T17:17:44.361Z"
+  "body": "{\"place_id\":57567932,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":518501897,\"lat\":\"42.0185953\",\"lon\":\"20.9782317\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.972457465471912e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Саво Тасески, Тетово, Општина Тетово, 1200, Северна Македонија\",\"address\":{\"road\":\"Саво Тасески\",\"city\":\"Тетово\",\"municipality\":\"Општина Тетово\",\"ISO3166-2-lvl7\":\"MK-609\",\"postcode\":\"1200\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"42.0179940\",\"42.0191966\",\"20.9774378\",\"20.9790256\"]}",
+  "fetchedAt": "2026-10-15T09:48:56.118Z"
 }

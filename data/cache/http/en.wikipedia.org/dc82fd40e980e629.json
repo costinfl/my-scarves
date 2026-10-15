@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20MRU%20Vilnius",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FK MRU Vilnius\",\"pageid\":45436366,\"redirects\":[],\"wikitext\":\"{{Short description|Lithuanian football club}}\\n{{Infobox football club\\n| clubname = FK MRU Vilnius\\n| image    =\\n| fullname = FK MRU Vilnius\\n| founded  = 2012\\n| ground   = [[LFF stadium]], [[Vilnius]]\\n| capacity = 5067\\n| chairman = [[Alvidas Raškauskas]]\\n| manager  = [[Gediminas Paberžis]]\\n| league   = \\n| season   = 2015\\n| position = 14th, [[LFF I lyga]]\\n}}\\n\\n'''FK MRU Vilnius''' was a [[Lithuania]]n [[football (soccer)|football]] team. The team plays in the [[Lithuanian Football Cup]].<ref name=\\\"soccerway\\\">{{cite web|url=https://int.soccerway.com/teams/lithuania/mru/25308/|title=Lithuania – Mykolo Romerio Universitetas – Results, fixtures, squad, statistics, photos, videos and news – Soccerway|publisher=uk.soccerway.com|accessdate=2015-02-18}}</ref>\"}}",
-  "fetchedAt": "2026-10-14T14:22:38.568Z"
+  "fetchedAt": "2026-10-15T09:42:39.042Z"
 }

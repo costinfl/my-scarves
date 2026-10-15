@@ -1,7 +1,11 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q325597 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q325597 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:18:48.536Z",
+  "fetchedAt": "2026-10-15T09:33:27.885Z",
   "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Montenegrin_Second_League",
+      "kind": "league"
+    },
     {
       "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Montenegrin_Second_League",
       "kind": "season"
@@ -9,10 +13,6 @@
     {
       "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Montenegrin_Second_League",
       "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/Montenegrin_Second_League",
-      "kind": "league"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Montenegrin_Second_League",

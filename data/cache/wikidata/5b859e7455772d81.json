@@ -1,30 +1,10 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q163773 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q163773 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:17:23.521Z",
+  "fetchedAt": "2026-10-15T09:32:14.062Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Future_League",
       "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2023_Latvian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2024_Latvian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2018_Latvian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2019_Latvian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2020_Latvian_First_League",
-      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2014_Latvian_First_League",
@@ -52,6 +32,26 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2010_Latvian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Latvian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Latvian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_Latvian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_Latvian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Latvian_First_League",
       "kind": "season"
     }
   ]

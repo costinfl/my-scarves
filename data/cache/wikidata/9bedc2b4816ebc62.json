@@ -1,78 +1,10 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q2427770 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q2427770 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:16:29.022Z",
+  "fetchedAt": "2026-10-15T09:31:57.169Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/1._deild_karla_(football)",
       "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1994_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1995_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1996_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1997_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1998_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2007_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2010_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2011_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Scottish_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2000_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2001_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2002_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2003_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2004_1._deild_karla",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005_1._deild_karla",
-      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/1987_1._deild_karla",
@@ -144,6 +76,74 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/1986_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Scottish_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_1._deild_karla",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_1._deild_karla",
       "kind": "season"
     },
     {

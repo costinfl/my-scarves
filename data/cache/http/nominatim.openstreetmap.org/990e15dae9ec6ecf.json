@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.984400&lon=28.667000&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":61423883,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":992295366,\"lat\":\"46.9849646\",\"lon\":\"28.6652295\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":0.2885983973306146,\"addresstype\":\"leisure\",\"name\":\"Stadionul F.C. „Sfântul Gheorghe” Suruceni\",\"display_name\":\"Stadionul F.C. „Sfântul Gheorghe” Suruceni, 1, Strada Ișnovăț, Suruceni, Raionul Ialoveni, MD-6827, Moldova\",\"address\":{\"leisure\":\"Stadionul F.C. „Sfântul Gheorghe” Suruceni\",\"house_number\":\"1\",\"road\":\"Strada Ișnovăț\",\"city_district\":\"Suruceni\",\"village\":\"Suruceni\",\"county\":\"Raionul Ialoveni\",\"ISO3166-2-lvl4\":\"MD-IA\",\"postcode\":\"MD-6827\",\"country\":\"Moldova\",\"country_code\":\"md\"},\"boundingbox\":[\"46.9838727\",\"46.9861749\",\"28.6633090\",\"28.6671567\"]}",
-  "fetchedAt": "2026-10-14T14:26:34.383Z"
+  "fetchedAt": "2026-10-15T09:48:36.513Z"
 }
