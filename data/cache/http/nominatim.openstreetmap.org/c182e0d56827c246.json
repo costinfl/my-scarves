@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.901751&lon=71.382224&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":212456193,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":460064320,\"lat\":\"42.9018395\",\"lon\":\"71.3824035\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.820782787818749e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Төле би даңғылы, Әулиеата ауданы, Тараз, Жамбыл облысы, 080003, Қазақстан\",\"address\":{\"road\":\"Төле би даңғылы\",\"city_district\":\"Әулиеата ауданы\",\"city\":\"Тараз\",\"state\":\"Жамбыл облысы\",\"ISO3166-2-lvl4\":\"KZ-31\",\"postcode\":\"080003\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"42.9012977\",\"42.9023868\",\"71.3818980\",\"71.3829102\"]}",
-  "fetchedAt": "2026-10-14T11:41:54.790Z"
+  "fetchedAt": "2026-10-15T07:51:22.367Z"
 }

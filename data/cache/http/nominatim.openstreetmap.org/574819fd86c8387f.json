@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.804722&lon=15.960833&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":83595963,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":302160516,\"lat\":\"45.8046157\",\"lon\":\"15.9609749\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.947737849999263e-05,\"addresstype\":\"leisure\",\"name\":\"Stadion Kranjčevićeva\",\"display_name\":\"Stadion Kranjčevićeva, Ulica Silvija Strahimira Kranjčevića, Mjesni odbor \\\"Silvije Strahimir Kranjčević\\\", Gradska četvrt Trešnjevka - sjever, Zagreb, Grad Zagreb, 10122, Hrvatska\",\"address\":{\"leisure\":\"Stadion Kranjčevićeva\",\"road\":\"Ulica Silvija Strahimira Kranjčevića\",\"neighbourhood\":\"Mjesni odbor \\\"Silvije Strahimir Kranjčević\\\"\",\"suburb\":\"Gradska četvrt Trešnjevka - sjever\",\"city_district\":\"Zagreb\",\"city\":\"Grad Zagreb\",\"ISO3166-2-lvl4\":\"HR-21\",\"postcode\":\"10122\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"45.8036214\",\"45.8055435\",\"15.9596718\",\"15.9622116\"]}",
-  "fetchedAt": "2026-10-14T07:51:46.174Z"
+  "fetchedAt": "2026-10-15T07:48:56.033Z"
 }

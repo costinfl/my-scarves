@@ -1,0 +1,186 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q275626 wd:Q123283162 wd:Q619215 wd:Q757320 wd:Q1547133 wd:Q12872753 wd:Q15309584 wd:Q16845757 wd:Q3180055 wd:Q107410262 wd:Q460494 wd:Q1417287 wd:Q433230 wd:Q107849577 wd:Q25535620 wd:Q3292651 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:30:15.933Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q12872753",
+      "enwiki": "https://en.wikipedia.org/wiki/Hellas_Syros_F.C.",
+      "website": "https://www.hellassyrou.gr/",
+      "clubLabel": "Hellas Syros F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16845757",
+      "enwiki": "https://en.wikipedia.org/wiki/Nestos_Chrysoupoli_F.C.",
+      "clubLabel": "A.S. Nestos Chrysoupolis"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q275626",
+      "enwiki": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C.",
+      "website": "https://www.aelfc.gr",
+      "clubLabel": "Athlitiki Enosi Larissa F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q3557916",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.39949 39.61561)",
+      "capacity": "17118",
+      "parent": "http://www.wikidata.org/entity/Q16329887",
+      "stadiumLabel": "AEL FC Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q275626",
+      "enwiki": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C.",
+      "website": "https://www.aelfc.gr",
+      "clubLabel": "Athlitiki Enosi Larissa F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q3557916",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.39949 39.61561)",
+      "capacity": "17118",
+      "parent": "http://www.wikidata.org/entity/Q16329887",
+      "stadiumLabel": "AEL FC Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q433230",
+      "enwiki": "https://en.wikipedia.org/wiki/Panthrakikos_F.C.",
+      "website": "https://panthrakikosfc.gr/",
+      "clubLabel": "A.P.S. Panthrakikos",
+      "stadium": "http://www.wikidata.org/entity/Q6428584",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.39666667 41.11416667)",
+      "capacity": "6198",
+      "stadiumLabel": "Komotini Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q460494",
+      "enwiki": "https://en.wikipedia.org/wiki/Panionios_F.C.",
+      "website": "https://www.panioniosfc.gr",
+      "clubLabel": "Panionios F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q1196095",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.709225 37.94303333)",
+      "capacity": "11115",
+      "parent": "http://www.wikidata.org/entity/Q3555496",
+      "stadiumLabel": "Nea Smyrni Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q619215",
+      "enwiki": "https://en.wikipedia.org/wiki/Apollon_Kalamarias_F.C.",
+      "clubLabel": "M.G.S. Apollon Kalamarias (association football)",
+      "stadium": "http://www.wikidata.org/entity/Q15232877",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.94511389 40.581475)",
+      "capacity": "6500",
+      "parent": "http://www.wikidata.org/entity/Q16737374",
+      "stadiumLabel": "Kalamaria Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757320",
+      "enwiki": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C.",
+      "website": "https://asterastripolis.gr",
+      "clubLabel": "Asteras Tripoli F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q4810658",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.388678 37.502676)",
+      "capacity": "7616",
+      "stadiumLabel": "Theodoros Kolokotronis Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757320",
+      "enwiki": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C.",
+      "website": "https://asterastripolis.gr",
+      "clubLabel": "Asteras Tripoli F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q4810658",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.388678 37.502676)",
+      "capacity": "7616",
+      "stadiumLabel": "Theodoros Kolokotronis Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1417287",
+      "enwiki": "https://en.wikipedia.org/wiki/Panserraikos_F.C.",
+      "website": "https://panserraikosfc.gr",
+      "clubLabel": "Panserraikos F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q7455414",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.546577 41.084689)",
+      "capacity": "9500",
+      "parent": "http://www.wikidata.org/entity/Q25535207",
+      "stadiumLabel": "Serres Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1547133",
+      "enwiki": "https://en.wikipedia.org/wiki/Athens_Kallithea_F.C.",
+      "website": "https://akfc66.gr",
+      "clubLabel": "Athens Kallithea F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q5609094",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.7151 37.9601)",
+      "capacity": "4200",
+      "parent": "http://www.wikidata.org/entity/Q125696776",
+      "stadiumLabel": "Municipal Stadium of Kallithea \"Grigoris Lambrakis\""
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3180055",
+      "enwiki": "https://en.wikipedia.org/wiki/Niki_Volos_F.C.",
+      "website": "https://nikifc.gr/",
+      "clubLabel": "Niki Volos F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q60195479",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.936373 39.376339)",
+      "capacity": "2500",
+      "parent": "http://www.wikidata.org/entity/Q21200114",
+      "stadiumLabel": "Pantelis Magoulas Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3292651",
+      "enwiki": "https://en.wikipedia.org/wiki/A.P.S._Zakynthos",
+      "clubLabel": "A.P.S. Zakynthos",
+      "stadium": "http://www.wikidata.org/entity/Q132566856",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "2500",
+      "stadiumLabel": "Q132566856"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15309584",
+      "enwiki": "https://en.wikipedia.org/wiki/Marko_1927_F.C.",
+      "website": "https://www.markofc.gr",
+      "clubLabel": "G.S. Marko",
+      "stadium": "http://www.wikidata.org/entity/Q134455177",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.932333333 37.872055555)",
+      "stadiumLabel": "Municipal Stadium of Markopoulo"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q25535620",
+      "enwiki": "https://en.wikipedia.org/wiki/PAS_Pyrgos_1968",
+      "clubLabel": "PAS Pyrgos 1968",
+      "stadium": "http://www.wikidata.org/entity/Q7263521",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.4282 37.6791)",
+      "capacity": "6750",
+      "stadiumLabel": "Pyrgos Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q107410262",
+      "enwiki": "https://en.wikipedia.org/wiki/Olympiacos_F.C._B",
+      "website": "https://www.olympiacos.org",
+      "clubLabel": "Olympiacos B",
+      "stadium": "http://www.wikidata.org/entity/Q19800749",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.6833 37.9705)",
+      "capacity": "3000",
+      "parent": "http://www.wikidata.org/entity/Q12396315",
+      "stadiumLabel": "Rentis Training Center"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q107849577",
+      "enwiki": "https://en.wikipedia.org/wiki/PAOK_B",
+      "website": "https://www.paokfc.gr/b-omada/b-omada/b-team-roster",
+      "clubLabel": "P.A.O.K. F.C. B",
+      "stadium": "http://www.wikidata.org/entity/Q15232877",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.94511389 40.581475)",
+      "capacity": "6500",
+      "parent": "http://www.wikidata.org/entity/Q3201027",
+      "stadiumLabel": "Kalamaria Stadium"
+    }
+  ]
+}

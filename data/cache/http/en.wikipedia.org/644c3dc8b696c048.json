@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=NK%20Imotski",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"NK Imotski\",\"pageid\":11632459,\"redirects\":[],\"wikitext\":\"{{Short description|Croatian football club}}\\n{{Use dmy dates|date=December 2023}}\\n{{Infobox football club\\n| clubname = NK Imotski\\n| image = NK Imotski logo.png\\n| fullname = Nogometni klub Imotski\\n| nickname = \\n| founded = {{start date and age|3 March 1991}}\\n| dissolved = \\n| ground = [[Stadion Gospin dolac|Gospin dolac]]\\n| capacity = 4,000\\n| chairman = Luka Đuzel\\n| manager = Ante Knezović\\n| league = [[Third Football League (Croatia)|3. NL – Jug]]\\n| website = {{URL|http://www.nk-imotski.hr/}}\\n| pattern_la1 = _whiteborder\\n| pattern_b1 = \\n| pattern_ra1 = _whiteborder\\n| pattern_sh1 =\\n| pattern_so1 =\\n| leftarm1 = FF0000\\n| body1 = FF0000\\n| rightarm1 = FF0000\\n| shorts1 = FFFFFF\\n| socks1 = 0000FF\\n| pattern_la2 = \\n| pattern_b2 = \\n| pattern_ra2 = \\n| pattern_sh2 =\\n| pattern_so2 =\\n| leftarm2 = 000000\\n| body2 = 000000\\n| rightarm2 = 000000\\n| shorts2 = 000000\\n| socks2 = 000000\\n}}\\n\\n'''NK Imotski''' is a [[Croatia]]n professional [[Association football|football]] club based in the town of [[Imotski]], in the region of [[Dalmatia]]. The club currently competes in [[Third Football League (Croatia)|3. NL – Jug]].\"}}",
+  "fetchedAt": "2026-10-15T07:41:13.479Z"
+}

@@ -1,0 +1,158 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q220875 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q220875 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-15T07:32:53.034Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Veikkausliiga",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990_Futisliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991_Futisliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_Veikkausliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_Veikkausliiga",
+      "kind": "season"
+    }
+  ]
+}

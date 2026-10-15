@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.706111&lon=46.361944&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":208001840,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":306361791,\"lat\":\"40.7061568\",\"lon\":\"46.3620304\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.36461432821701e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Atatürk prospekti, Sadıllı, Kəpəz rayonu, Gəncə İnzibati Ərazisi, Azərbaycan\",\"address\":{\"road\":\"Atatürk prospekti\",\"suburb\":\"Sadıllı\",\"city_district\":\"Kəpəz rayonu\",\"city\":\"Gəncə İnzibati Ərazisi\",\"ISO3166-2-lvl6\":\"AZ-GA\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.7056368\",\"40.7066767\",\"46.3615536\",\"46.3625071\"]}",
-  "fetchedAt": "2026-10-14T11:39:19.363Z"
+  "body": "{\"place_id\":207804253,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":306361791,\"lat\":\"40.7061568\",\"lon\":\"46.3620304\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.36461432821701e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Atatürk prospekti, Sadıllı, Kəpəz rayonu, Gəncə İnzibati Ərazisi, Azərbaycan\",\"address\":{\"road\":\"Atatürk prospekti\",\"suburb\":\"Sadıllı\",\"city_district\":\"Kəpəz rayonu\",\"city\":\"Gəncə İnzibati Ərazisi\",\"ISO3166-2-lvl6\":\"AZ-GA\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.7056368\",\"40.7066767\",\"46.3615536\",\"46.3625071\"]}",
+  "fetchedAt": "2026-10-15T07:47:05.192Z"
 }

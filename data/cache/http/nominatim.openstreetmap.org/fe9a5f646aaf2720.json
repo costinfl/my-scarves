@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.684167&lon=12.866389&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":164354396,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":90115489,\"lat\":\"56.6844464\",\"lon\":\"12.8668043\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.343556877999568e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Laxövägen, Gamletull, Halmstad, Halmstads kommun, Hallands län, 302 31, Sverige\",\"address\":{\"road\":\"Laxövägen\",\"suburb\":\"Gamletull\",\"city\":\"Halmstad\",\"municipality\":\"Halmstads kommun\",\"county\":\"Hallands län\",\"ISO3166-2-lvl4\":\"SE-N\",\"postcode\":\"302 31\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"56.6838369\",\"56.6850558\",\"12.8658555\",\"12.8677531\"]}",
-  "fetchedAt": "2026-10-14T07:55:30.423Z"
+  "fetchedAt": "2026-10-15T07:52:57.139Z"
 }

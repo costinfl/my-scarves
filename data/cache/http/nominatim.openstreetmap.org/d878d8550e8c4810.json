@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.608961&lon=20.006975&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":58886334,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":447825751,\"lat\":\"41.6089102\",\"lon\":\"20.0071122\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.29754280206928735,\"addresstype\":\"leisure\",\"name\":\"Stadiumi Liri Ballabani\",\"display_name\":\"Stadiumi Liri Ballabani, Kros Skura, Fshati Burrel, Burrel, Bashkia Mat, Qarku i Dibrës, 8001, Shqipëria\",\"address\":{\"leisure\":\"Stadiumi Liri Ballabani\",\"road\":\"Kros Skura\",\"village\":\"Fshati Burrel\",\"town\":\"Burrel\",\"municipality\":\"Bashkia Mat\",\"county\":\"Qarku i Dibrës\",\"ISO3166-2-lvl6\":\"AL-09\",\"postcode\":\"8001\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"41.6083882\",\"41.6094321\",\"20.0066756\",\"20.0075487\"]}",
-  "fetchedAt": "2026-10-14T14:24:26.865Z"
+  "fetchedAt": "2026-10-15T07:46:32.091Z"
 }

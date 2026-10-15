@@ -1,0 +1,106 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q128897 wd:Q1292264 wd:Q39290 wd:Q26363 wd:Q239663 wd:Q3443529 wd:Q263258 wd:Q818698 wd:Q399282 wd:Q219929 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:32:30.778Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q128897",
+      "stadium": "http://www.wikidata.org/entity/Q621027",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.1996 44.7761)",
+      "capacity": "9730",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Borac_Banja_Luka",
+      "website": "https://www.fkborac.net/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Borac%20Banja%20Luka%20logo.png",
+      "clubLabel": "FK Borac Banja Luka",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q219929",
+      "stadium": "http://www.wikidata.org/entity/Q1649384",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.387222 43.846667)",
+      "capacity": "16100",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%BDeljezni%C4%8Dar_Sarajevo",
+      "website": "http://www.fkzeljeznicar.ba",
+      "clubLabel": "FK Željezničar Sarajevo",
+      "stadiumLabel": "Stadion Grbavica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q239663",
+      "stadium": "http://www.wikidata.org/entity/Q903860",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.408611111 43.873888888)",
+      "capacity": "30121",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sarajevo",
+      "website": "https://www.fksarajevo.ba/",
+      "clubLabel": "FK Sarajevo",
+      "stadiumLabel": "Asim Ferhatović Hase Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q263258",
+      "stadium": "http://www.wikidata.org/entity/Q3434169",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.598 43.3787)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_%C5%A0iroki_Brijeg",
+      "website": "http://www.nk-sirokibrijeg.com",
+      "clubLabel": "NK Široki Brijeg",
+      "stadiumLabel": "Stadion Pecara"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q399282",
+      "stadium": "http://www.wikidata.org/entity/Q859905",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.795278 43.345556)",
+      "capacity": "9000",
+      "enwiki": "https://en.wikipedia.org/wiki/H%C5%A0K_Zrinjski_Mostar",
+      "website": "http://hskzrinjski.ba/",
+      "clubLabel": "HŠK Zrinjski Mostar",
+      "stadiumLabel": "Stadion pod Bijelim Brijegom"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q818698",
+      "stadium": "http://www.wikidata.org/entity/Q593076",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(17.854382 43.378384)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Vele%C5%BE_Mostar",
+      "website": "https://fkvelez.ba/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20of%20FK%20Velez%20Mostar.png",
+      "clubLabel": "FK Velež Mostar",
+      "stadiumLabel": "Rođeni Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q26363",
+      "stadium": "http://www.wikidata.org/entity/Q5591984",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.225 44.75444444)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radnik_Bijeljina",
+      "website": "http://www.fkradnik.ba/",
+      "clubLabel": "FK Radnik Bijeljina",
+      "stadiumLabel": "Bijeljina City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q39290",
+      "stadium": "http://www.wikidata.org/entity/Q861838",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.907083 44.20575)",
+      "capacity": "15600",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_%C4%8Celik_Zenica",
+      "website": "https://nkcelik.ba/",
+      "clubLabel": "NK Čelik Zenica",
+      "stadiumLabel": "Bilino Polje Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1292264",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_BSK_Banja_Luka",
+      "clubLabel": "FK BSK Banja Luka"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3443529",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sloga_Doboj",
+      "clubLabel": "FK Sloga Doboj"
+    }
+  ]
+}

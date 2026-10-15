@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.929470&lon=21.905110&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":187976349,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":309632111,\"lat\":\"48.9292368\",\"lon\":\"21.9043503\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":4.5001144426596745e-05,\"addresstype\":\"leisure\",\"name\":\"FK Humenné\",\"display_name\":\"FK Humenné, Chemlonská, Sídlisko I, Humenné, okres Humenné, Prešovský kraj, 066 01, Slovensko\",\"address\":{\"leisure\":\"FK Humenné\",\"road\":\"Chemlonská\",\"suburb\":\"Sídlisko I\",\"town\":\"Humenné\",\"county\":\"okres Humenné\",\"state\":\"Prešovský kraj\",\"ISO3166-2-lvl4\":\"SK-PV\",\"postcode\":\"066 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.9280919\",\"48.9303822\",\"21.9028765\",\"21.9058215\"]}",
+  "fetchedAt": "2026-10-15T07:52:10.072Z"
+}

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=pageprops&ppprop=wikibase_item&titles=NK%20Aluminij%7CNK%20Bravo%7CNK%20Brinje%20Grosuplje%7CNK%20Celje%7CFC%20Koper%7CNK%20Maribor%7CN%C5%A0%20Mura%7CNK%20Nafta%201903%7CNK%20Olimpija%20Ljubljana%7CNK%20Radomlje",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"batchcomplete\":true,\"query\":{\"pages\":[{\"pageid\":833792,\"ns\":0,\"title\":\"NK Maribor\",\"pageprops\":{\"wikibase_item\":\"Q210530\"}},{\"pageid\":2424439,\"ns\":0,\"title\":\"NK Celje\",\"pageprops\":{\"wikibase_item\":\"Q31533\"}},{\"pageid\":2659730,\"ns\":0,\"title\":\"NK Olimpija Ljubljana\",\"pageprops\":{\"wikibase_item\":\"Q31932\"}},{\"pageid\":4762994,\"ns\":0,\"title\":\"FC Koper\",\"pageprops\":{\"wikibase_item\":\"Q44305\"}},{\"pageid\":7970707,\"ns\":0,\"title\":\"NŠ Mura\",\"pageprops\":{\"wikibase_item\":\"Q14428120\"}},{\"pageid\":19191013,\"ns\":0,\"title\":\"NK Aluminij\",\"pageprops\":{\"wikibase_item\":\"Q31420\"}},{\"pageid\":32694851,\"ns\":0,\"title\":\"NK Radomlje\",\"pageprops\":{\"wikibase_item\":\"Q6954580\"}},{\"pageid\":40152113,\"ns\":0,\"title\":\"NK Nafta 1903\",\"pageprops\":{\"wikibase_item\":\"Q16843233\"}},{\"pageid\":42491605,\"ns\":0,\"title\":\"NK Brinje Grosuplje\",\"pageprops\":{\"wikibase_item\":\"Q16828238\"}},{\"pageid\":60727385,\"ns\":0,\"title\":\"NK Bravo\",\"pageprops\":{\"wikibase_item\":\"Q64363556\"}}]}}",
+  "fetchedAt": "2026-10-15T07:31:24.507Z"
+}

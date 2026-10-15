@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.078889&lon=20.420278&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":56846542,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":171897972,\"lat\":\"42.0791759\",\"lon\":\"20.4202464\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.668192568851785e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rruga Stadiumi, Kukës, Bashkia Kukës, Qarku i Kukësit, 8501, Shqipëria\",\"address\":{\"road\":\"Rruga Stadiumi\",\"city_district\":\"Kukës\",\"town\":\"Bashkia Kukës\",\"county\":\"Qarku i Kukësit\",\"ISO3166-2-lvl6\":\"AL-07\",\"postcode\":\"8501\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"42.0787532\",\"42.0795986\",\"20.4195179\",\"20.4209749\"]}",
-  "fetchedAt": "2026-10-14T14:24:12.545Z"
+  "fetchedAt": "2026-10-15T07:46:21.262Z"
 }

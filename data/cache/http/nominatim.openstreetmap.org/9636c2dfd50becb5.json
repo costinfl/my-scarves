@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.839536&lon=17.226686&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":186883704,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":964597989,\"lat\":\"48.8395942\",\"lon\":\"17.2266361\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.657206073086164e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Športová, Skalica, okres Skalica, Trnavský kraj, 909 01, Slovensko\",\"address\":{\"road\":\"Športová\",\"town\":\"Skalica\",\"district\":\"okres Skalica\",\"state\":\"Trnavský kraj\",\"ISO3166-2-lvl4\":\"SK-TA\",\"postcode\":\"909 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.8390724\",\"48.8401247\",\"17.2260254\",\"17.2272316\"]}",
-  "fetchedAt": "2026-10-14T11:42:18.034Z"
+  "body": "{\"place_id\":187208294,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":964597989,\"lat\":\"48.8395942\",\"lon\":\"17.2266361\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.657206073086164e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Športová, Skalica, okres Skalica, Trnavský kraj, 909 01, Slovensko\",\"address\":{\"road\":\"Športová\",\"town\":\"Skalica\",\"district\":\"okres Skalica\",\"state\":\"Trnavský kraj\",\"ISO3166-2-lvl4\":\"SK-TA\",\"postcode\":\"909 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.8390724\",\"48.8401247\",\"17.2260254\",\"17.2272316\"]}",
+  "fetchedAt": "2026-10-15T07:52:19.750Z"
 }

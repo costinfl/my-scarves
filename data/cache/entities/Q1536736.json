@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-15T07:34:31.458Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1536736",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "Jippo"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "JIPPO"
+      }
+    }
+  }
+}

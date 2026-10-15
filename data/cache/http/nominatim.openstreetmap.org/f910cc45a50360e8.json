@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.826029&lon=65.503439&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":215611321,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":7190333709,\"lat\":\"44.8259757\",\"lon\":\"65.5033747\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.35499373245428756,\"addresstype\":\"leisure\",\"name\":\"Стадион ФК Қайсар\",\"display_name\":\"Стадион ФК Қайсар, 1, Мұратбаев көшесі, Шұғыла, Қызылорда, Қызылорда Қ.Ә., Қызылорда облысы, 120000, Қазақстан\",\"address\":{\"leisure\":\"Стадион ФК Қайсар\",\"house_number\":\"1\",\"road\":\"Мұратбаев көшесі\",\"neighbourhood\":\"Шұғыла\",\"city\":\"Қызылорда\",\"county\":\"Қызылорда Қ.Ә.\",\"state\":\"Қызылорда облысы\",\"ISO3166-2-lvl4\":\"KZ-43\",\"postcode\":\"120000\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"44.8259257\",\"44.8260257\",\"65.5033247\",\"65.5034247\"]}",
-  "fetchedAt": "2026-10-14T11:41:49.335Z"
+  "fetchedAt": "2026-10-15T07:51:16.829Z"
 }

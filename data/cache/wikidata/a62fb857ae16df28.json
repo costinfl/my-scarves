@@ -1,10 +1,42 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q244464 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q244464 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:13:51.550Z",
+  "fetchedAt": "2026-10-15T07:33:55.039Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Belarusian_Premier_League",
       "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_Belarusian_Premier_League",
+      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Belarusian_Premier_League",
@@ -43,38 +75,6 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2010_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2011_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2001_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2008_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1992_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
       "article": "https://en.wikipedia.org/wiki/2024_Belarusian_Premier_League",
       "kind": "season"
     },
@@ -84,38 +84,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2026_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2014_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2015_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2003_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2004_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2006_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2007_Belarusian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2013_Belarusian_Premier_League",
       "kind": "season"
     },
     {
@@ -148,6 +116,38 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2021_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_Belarusian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_Belarusian_Premier_League",
       "kind": "season"
     }
   ]

@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-15T07:34:33.656Z",
+  "version": 2,
+  "entity": {
+    "id": "Q2123289",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Bor 1919"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Bor"
+      }
+    }
+  }
+}

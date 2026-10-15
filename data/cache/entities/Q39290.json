@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-15T07:34:36.501Z",
+  "version": 2,
+  "entity": {
+    "id": "Q39290",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 23445,
+                "id": "Q23445"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3142,
+                "id": "Q3142"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "NK Čelik Zenica"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "NK Čelik Zenica"
+      }
+    }
+  }
+}

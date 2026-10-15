@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.294397&lon=34.864433&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":210299146,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":414830616,\"lat\":\"32.2944242\",\"lon\":\"34.8644747\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.765621423662191e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"המכביה, רמת ידין, נתניה, נפת השרון, מחוז המרכז, 4250609, ישראל\",\"address\":{\"road\":\"המכביה\",\"suburb\":\"רמת ידין\",\"town\":\"נתניה\",\"state_district\":\"נפת השרון\",\"state\":\"מחוז המרכז\",\"ISO3166-2-lvl4\":\"IL-M\",\"postcode\":\"4250609\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.2937725\",\"32.2950758\",\"34.8640019\",\"34.8649474\"]}",
-  "fetchedAt": "2026-10-14T11:41:40.837Z"
+  "fetchedAt": "2026-10-15T07:51:08.194Z"
 }

@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.416825&lon=15.875586&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":68417136,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":479518733,\"lat\":\"46.4167634\",\"lon\":\"15.8756934\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.695658808265839e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Na tratah, Center, Ptuj, 2250, Slovenija\",\"address\":{\"road\":\"Na tratah\",\"quarter\":\"Center\",\"town\":\"Ptuj\",\"municipality\":\"Ptuj\",\"ISO3166-2-lvl8\":\"SI-096\",\"postcode\":\"2250\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.4161849\",\"46.4173419\",\"15.8749915\",\"15.8763952\"]}",
-  "fetchedAt": "2026-10-14T11:42:46.943Z"
+  "body": "{\"place_id\":68594481,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":479518733,\"lat\":\"46.4167634\",\"lon\":\"15.8756934\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.695658808265839e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Na tratah, Center, Ptuj, 2250, Slovenija\",\"address\":{\"road\":\"Na tratah\",\"quarter\":\"Center\",\"town\":\"Ptuj\",\"municipality\":\"Ptuj\",\"ISO3166-2-lvl8\":\"SI-096\",\"postcode\":\"2250\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.4161849\",\"46.4173419\",\"15.8749915\",\"15.8763952\"]}",
+  "fetchedAt": "2026-10-15T07:52:47.307Z"
 }

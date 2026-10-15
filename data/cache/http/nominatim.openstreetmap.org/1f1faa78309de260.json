@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.221111&lon=44.555278&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":207403920,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":475605311,\"lat\":\"40.2209857\",\"lon\":\"44.5553547\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.370336461428272e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Մարշալ Բաբաջանյանի փողոց, Ավան, Երևան, 0040, Հայաստան\",\"address\":{\"road\":\"Մարշալ Բաբաջանյանի փողոց\",\"suburb\":\"Ավան\",\"city\":\"Երևան\",\"ISO3166-2-lvl4\":\"AM-ER\",\"postcode\":\"0040\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.2204766\",\"40.2214949\",\"44.5548733\",\"44.5558362\"]}",
-  "fetchedAt": "2026-10-14T14:24:42.895Z"
+  "fetchedAt": "2026-10-15T07:46:43.087Z"
 }

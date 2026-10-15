@@ -2434,6 +2434,13 @@
     "capacity": 41965
   },
   {
+    "qid": "Q861838",
+    "name": "Bilino Polje Stadium",
+    "lat": 44.20575,
+    "lon": 17.907083,
+    "capacity": 15600
+  },
+  {
     "qid": "Q866409",
     "name": "Bislett Stadion",
     "lat": 59.924722,
@@ -4903,6 +4910,13 @@
     "capacity": 5367
   },
   {
+    "qid": "Q2743782",
+    "name": "Zemun Stadium",
+    "lat": 44.847942,
+    "lon": 20.397972,
+    "capacity": 10000
+  },
+  {
     "qid": "Q2744854",
     "name": "Florent Beeckmanstadion",
     "lat": 50.883889,
@@ -5168,6 +5182,13 @@
     "capacity": 10000
   },
   {
+    "qid": "Q3435028",
+    "name": "Smederevo City Stadium",
+    "lat": 44.660633,
+    "lon": 20.901733,
+    "capacity": 17200
+  },
+  {
     "qid": "Q3435068",
     "name": "Stadion Mladost",
     "lat": 43.583114,
@@ -5245,11 +5266,25 @@
     "capacity": 6000
   },
   {
+    "qid": "Q3441966",
+    "name": "Stadion Pirota",
+    "lat": 44.2247,
+    "lon": 17.6454,
+    "capacity": 3076
+  },
+  {
     "qid": "Q3441989",
     "name": "Police City Stadium",
     "lat": 42.708821,
     "lon": 18.352743,
     "capacity": 8550
+  },
+  {
+    "qid": "Q3441998",
+    "name": "Banja Ilidža",
+    "lat": 44.886944,
+    "lon": 18.412778,
+    "capacity": 5000
   },
   {
     "qid": "Q3442471",
@@ -5529,6 +5564,13 @@
     "lat": 43.077222,
     "lon": 25.620556,
     "capacity": 25000
+  },
+  {
+    "qid": "Q3623321",
+    "name": "Gradski Stadium",
+    "lat": 43.848056,
+    "lon": 25.963056,
+    "capacity": 19960
   },
   {
     "qid": "Q3623331",
@@ -6077,6 +6119,13 @@
     "lat": 51.473056,
     "lon": -3.21,
     "capacity": 4953
+  },
+  {
+    "qid": "Q5090582",
+    "name": "Chemlon Stadion",
+    "lat": 48.92947,
+    "lon": 21.90511,
+    "capacity": 1806
   },
   {
     "qid": "Q5123439",
@@ -7708,6 +7757,12 @@
     "lon": 5.91682
   },
   {
+    "qid": "Q16945786",
+    "name": "Stelios Chari Stadium",
+    "lat": 34.679186,
+    "lon": 32.95507
+  },
+  {
     "qid": "Q16964481",
     "name": "Theodorio Koinotiko Stadium",
     "lat": 35.018508,
@@ -7992,6 +8047,13 @@
     "name": "Arena Egnatia",
     "lat": 41.076805555,
     "lon": 19.661638888
+  },
+  {
+    "qid": "Q24969483",
+    "name": "Štadión MŠK Považská Bystrica",
+    "lat": 49.116944,
+    "lon": 18.428611,
+    "capacity": 20000
   },
   {
     "qid": "Q24969855",

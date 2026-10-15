@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.587333&lon=18.863333&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":188756282,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":53743890,\"lat\":\"48.5872320\",\"lon\":\"18.8635195\",\"category\":\"building\",\"type\":\"yes\",\"place_rank\":30,\"importance\":5.662088960093107e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"154/10, Partizánska, Žiar nad Hronom, okres Žiar nad Hronom, Banskobystrický kraj, 965 01, Slovensko\",\"address\":{\"house_number\":\"154/10\",\"road\":\"Partizánska\",\"town\":\"Žiar nad Hronom\",\"district\":\"okres Žiar nad Hronom\",\"state\":\"Banskobystrický kraj\",\"ISO3166-2-lvl4\":\"SK-BC\",\"postcode\":\"965 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.5870146\",\"48.5874097\",\"18.8632487\",\"18.8638523\"]}",
-  "fetchedAt": "2026-10-14T11:42:11.651Z"
+  "fetchedAt": "2026-10-15T07:52:12.064Z"
 }

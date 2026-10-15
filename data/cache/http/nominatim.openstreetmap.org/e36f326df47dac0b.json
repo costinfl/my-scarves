@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.900000&lon=20.663889&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":58651374,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":259080265,\"lat\":\"40.9001475\",\"lon\":\"20.6640695\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.632639047832483e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rruga e Stadiumit, Pogradec, Bashkia Pogradec, Qarku i Korçës, 7301, Shqipëria\",\"address\":{\"road\":\"Rruga e Stadiumit\",\"city\":\"Pogradec\",\"municipality\":\"Bashkia Pogradec\",\"county\":\"Qarku i Korçës\",\"ISO3166-2-lvl6\":\"AL-06\",\"postcode\":\"7301\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"40.8996156\",\"40.9006793\",\"20.6635608\",\"20.6645782\"]}",
-  "fetchedAt": "2026-10-14T14:24:38.329Z"
+  "fetchedAt": "2026-10-15T07:46:36.403Z"
 }

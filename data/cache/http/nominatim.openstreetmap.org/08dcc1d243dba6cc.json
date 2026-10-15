@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.970278&lon=21.712778&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":62899301,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1032670027,\"lat\":\"47.9704096\",\"lon\":\"21.7129515\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.508049134045956e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Stadion köz, Krúdy lakótelep, Hímes, Nyíregyháza, Nyíregyházi járás, Szabolcs-Szatmár-Bereg megye, Észak-Alföld, Alföld és Észak, 4400, Magyarország\",\"address\":{\"road\":\"Stadion köz\",\"neighbourhood\":\"Krúdy lakótelep\",\"suburb\":\"Hímes\",\"city\":\"Nyíregyháza\",\"ISO3166-2-lvl8\":\"HU-NY\",\"municipality\":\"Nyíregyházi járás\",\"county\":\"Szabolcs-Szatmár-Bereg megye\",\"ISO3166-2-lvl6\":\"HU-SZ\",\"region\":\"Észak-Alföld\",\"state\":\"Alföld és Észak\",\"postcode\":\"4400\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.9698880\",\"47.9709311\",\"21.7123767\",\"21.7135264\"]}",
-  "fetchedAt": "2026-10-14T07:53:33.853Z"
+  "fetchedAt": "2026-10-15T07:50:27.430Z"
 }

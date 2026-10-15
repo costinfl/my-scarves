@@ -1,30 +1,10 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q27054 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q27054 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:13:59.625Z",
+  "fetchedAt": "2026-10-15T07:33:59.479Z",
   "rows": [
     {
-      "article": "https://en.wikipedia.org/wiki/2021_Belarusian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2022_Belarusian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2023_Belarusian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2024_Belarusian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025_Belarusian_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2020_Belarusian_First_League",
-      "kind": "season"
+      "article": "https://en.wikipedia.org/wiki/Belarusian_First_League",
+      "kind": "league"
     },
     {
       "article": "https://en.wikipedia.org/wiki/1992_Belarusian_First_League",
@@ -83,8 +63,28 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/Belarusian_First_League",
-      "kind": "league"
+      "article": "https://en.wikipedia.org/wiki/2021_Belarusian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Belarusian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Belarusian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Belarusian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Belarusian_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Belarusian_First_League",
+      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2000_Belarusian_First_League",

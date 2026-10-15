@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.225974&lon=63.636578&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":199557886,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":161584284,\"lat\":\"53.2259631\",\"lon\":\"63.6363956\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.8044556343892845e-05,\"addresstype\":\"leisure\",\"name\":\"Орталық стадион\",\"display_name\":\"Орталық стадион, Нұрсұлтан Назарбаев даңғылы, Қостанай, Қостанай Қ.Ә., Қостанай облысы, 110000, Қазақстан\",\"address\":{\"leisure\":\"Орталық стадион\",\"road\":\"Нұрсұлтан Назарбаев даңғылы\",\"city\":\"Қостанай\",\"county\":\"Қостанай Қ.Ә.\",\"state\":\"Қостанай облысы\",\"ISO3166-2-lvl4\":\"KZ-39\",\"postcode\":\"110000\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"53.2252668\",\"53.2266592\",\"63.6356832\",\"63.6371079\"]}",
-  "fetchedAt": "2026-10-14T11:41:56.446Z"
+  "fetchedAt": "2026-10-15T07:51:23.702Z"
 }

@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-15T07:34:36.501Z",
+  "version": 2,
+  "entity": {
+    "id": "Q421940",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "64287"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Smederevo 1924"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Smederevo 1924"
+      }
+    }
+  }
+}

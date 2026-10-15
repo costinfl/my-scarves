@@ -1364,7 +1364,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/116650252"
   },
   "Q849639": {
-    "text": "Никола Вапцаров, 9026 Варна",
+    "text": "бул. 8-ми Приморски полк, 9026 Варна",
     "osmUrl": "https://www.openstreetmap.org/way/93698374"
   },
   "Q849662": {
@@ -1390,6 +1390,10 @@
   "Q861000": {
     "text": "Allée Vladimir Durkovic, 42000 Saint-Étienne",
     "osmUrl": "https://www.openstreetmap.org/way/147027148"
+  },
+  "Q861838": {
+    "text": "Fra Ivana Jukića, 72000 Podbrežje",
+    "osmUrl": "https://www.openstreetmap.org/way/612363719"
   },
   "Q866409": {
     "text": "Bislettgata, 0350 Oslo",
@@ -1872,7 +1876,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/490727380"
   },
   "Q1277056": {
-    "text": "Portić, 51105 Grad Rijeka",
+    "text": "Pulska ulica, 51105 Grad Rijeka",
     "osmUrl": "https://www.openstreetmap.org/way/48485380"
   },
   "Q1277834": {
@@ -2340,7 +2344,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/222224840"
   },
   "Q1783346": {
-    "text": "Rruga Gjin Bue Shpata, 1060 Tiranë",
+    "text": "Rruga Gjin Bue Shpata, 1019 Tiranë",
     "osmUrl": "https://www.openstreetmap.org/way/459604935"
   },
   "Q1786020": {
@@ -2448,7 +2452,7 @@
     "osmUrl": "https://www.openstreetmap.org/node/10291219920"
   },
   "Q1928668": {
-    "text": "Σπύρου Μουστακλή, 713 03 Δημοτική Ενότητα Ηρακλείου",
+    "text": "Σπύρου Μουστακλή, 713 04 Δημοτική Ενότητα Ηρακλείου",
     "osmUrl": "https://www.openstreetmap.org/way/25835360"
   },
   "Q1950993": {
@@ -2803,6 +2807,10 @@
     "text": "E303, 5510 Δασάκι Άχνας",
     "osmUrl": "https://www.openstreetmap.org/way/258918146"
   },
+  "Q2743782": {
+    "text": "Добановачка, 11080 Градска општина Земун",
+    "osmUrl": "https://www.openstreetmap.org/way/850168934"
+  },
   "Q2744854": {
     "text": "Oude Molenweg, 9470 Denderleeuw",
     "osmUrl": "https://www.openstreetmap.org/node/1643540965"
@@ -2952,8 +2960,12 @@
     "osmUrl": "https://www.openstreetmap.org/way/690594321"
   },
   "Q3434169": {
-    "text": "Branka Petra Ljubičića, 88220 Široki Brijeg",
+    "text": "Dr. Jure Grubišića, 88220 Široki Brijeg",
     "osmUrl": "https://www.openstreetmap.org/way/233552250"
+  },
+  "Q3435028": {
+    "text": "Горанска, 11300 Смедерево",
+    "osmUrl": "https://www.openstreetmap.org/way/537477174"
   },
   "Q3435068": {
     "text": "Таковска, 37000 Крушевац",
@@ -2999,9 +3011,17 @@
     "text": "Црнотравска, 11040 Градска општина Вождовац",
     "osmUrl": "https://www.openstreetmap.org/way/34585173"
   },
+  "Q3441966": {
+    "text": "Aleja konzula, 72270 Travnik",
+    "osmUrl": "https://www.openstreetmap.org/way/172725791"
+  },
   "Q3441989": {
     "text": "Trg Petral, 89101 Trebinje",
     "osmUrl": "https://www.openstreetmap.org/way/837337878"
+  },
+  "Q3441998": {
+    "text": "VI. bataljona, 76250 Gradačac",
+    "osmUrl": "https://www.openstreetmap.org/way/293407246"
   },
   "Q3442471": {
     "text": "Ledinska ulica, 48314 Grad Koprivnica",
@@ -3162,6 +3182,10 @@
   "Q3622953": {
     "text": "Филип Тотю, 5000 Велико Търново",
     "osmUrl": "https://www.openstreetmap.org/way/222753123"
+  },
+  "Q3623321": {
+    "text": "ул. Кавала, 7020 Русе",
+    "osmUrl": "https://www.openstreetmap.org/way/175710278"
   },
   "Q3623331": {
     "text": "Лев Толостой, 4017 Пловдив",
@@ -3412,7 +3436,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/370771034"
   },
   "Q4827654": {
-    "text": "Жамбыл Жабаев көшесі 173, 150000 Петропавл",
+    "text": "Жамбыл Жабаев көшесі, 150000 Петропавл",
     "osmUrl": "https://www.openstreetmap.org/node/10648733223"
   },
   "Q4843094": {
@@ -3448,7 +3472,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/280239079"
   },
   "Q4963741": {
-    "text": "Pjeter Arbnori, 4501 Bashkia Lezhë",
+    "text": "Pjeter Arbnori, 4501 Lezhë",
     "osmUrl": "https://www.openstreetmap.org/way/1126671187"
   },
   "Q4966243": {
@@ -3470,6 +3494,10 @@
   "Q5038434": {
     "text": "Leckwith Road, CF11 8XB Cardiff",
     "osmUrl": "https://www.openstreetmap.org/way/90034011"
+  },
+  "Q5090582": {
+    "text": "Chemlonská, 066 01 Humenné",
+    "osmUrl": "https://www.openstreetmap.org/way/309632111"
   },
   "Q5123439": {
     "text": "Vëllezërit Baftiu, 60000 Gjilan",
@@ -3788,7 +3816,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/888439093"
   },
   "Q7130859": {
-    "text": "Προυσιωτίσσης, 301 32 Δημοτική Ενότητα Αγρινίου",
+    "text": "Νικηταρά, 301 32 Δημοτική Ενότητα Αγρινίου",
     "osmUrl": "https://www.openstreetmap.org/way/104555906"
   },
   "Q7137610": {
@@ -3836,7 +3864,7 @@
     "osmUrl": "https://www.openstreetmap.org/node/444643636"
   },
   "Q7389386": {
-    "text": "Вршачка, 11186 Градска општина Земун",
+    "text": "Сарајевска, 11186 Градска општина Земун",
     "osmUrl": "https://www.openstreetmap.org/way/412982252"
   },
   "Q7392799": {
@@ -3908,7 +3936,7 @@
     "osmUrl": "https://www.openstreetmap.org/node/12246235617"
   },
   "Q7596295": {
-    "text": "Szabadkai utca, 2220 Vecsés",
+    "text": "Dózsa György út, 2220 Vecsés",
     "osmUrl": "https://www.openstreetmap.org/way/41822529"
   },
   "Q7596300": {
@@ -4008,7 +4036,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/243200014"
   },
   "Q7596480": {
-    "text": "Medveďovej, 851 04 Bratislava",
+    "text": "M. Curie Sklodowskej, 851 04 Bratislava",
     "osmUrl": "https://www.openstreetmap.org/way/319129439"
   },
   "Q7596486": {
@@ -4423,6 +4451,10 @@
     "text": "Cité Jean Christophe 18, 4957 Käerjeng",
     "osmUrl": "https://www.openstreetmap.org/way/967736517"
   },
+  "Q16945786": {
+    "text": "Theofilou Chatzistylianou, 4189 Τραχώνι",
+    "osmUrl": "https://www.openstreetmap.org/way/513598224"
+  },
   "Q16964481": {
     "text": "Lemesou Avenue, 2572 Νήσου",
     "osmUrl": "https://www.openstreetmap.org/way/186566283"
@@ -4544,7 +4576,7 @@
     "osmUrl": "https://www.openstreetmap.org/way/964597989"
   },
   "Q20741125": {
-    "text": "Dine Hoxha, 8301 Peshkopi",
+    "text": "Rruga Kongresi i Dibrës, 8304 Peshkopi",
     "osmUrl": "https://www.openstreetmap.org/way/1315412754"
   },
   "Q20988339": {
@@ -4598,6 +4630,10 @@
   "Q24915950": {
     "text": "SH7, 2503 Rrogozhinë",
     "osmUrl": "https://www.openstreetmap.org/way/338024660"
+  },
+  "Q24969483": {
+    "text": "Športovcov, 017 01 Považská Bystrica",
+    "osmUrl": "https://www.openstreetmap.org/way/968760671"
   },
   "Q24969855": {
     "text": "Strada Elisabeta Lipă, 077190 Voluntari",

@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.847942&lon=20.397972&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64458634,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":850168934,\"lat\":\"44.8479224\",\"lon\":\"20.3979676\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.159685664144377e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Добановачка, Горњи град, Београд (Земун), Градска општина Земун, Град Београд, Централна Србија, 11080, Србија\",\"address\":{\"road\":\"Добановачка\",\"neighbourhood\":\"Горњи град\",\"suburb\":\"Београд (Земун)\",\"city\":\"Градска општина Земун\",\"county\":\"Град Београд\",\"ISO3166-2-lvl6\":\"RS-00\",\"province\":\"Централна Србија\",\"postcode\":\"11080\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.8474104\",\"44.8484343\",\"20.3971535\",\"20.3987816\"]}",
+  "fetchedAt": "2026-10-15T07:51:55.333Z"
+}

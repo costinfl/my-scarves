@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Kaposv%C3%B6lgye%20VSC",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Kaposvölgye VSC\",\"pageid\":16915078,\"redirects\":[],\"wikitext\":\"{{short description|Hungarian football club}}\\n{{Infobox football club |\\n  clubname = Kaposvölgye |\\n  fullname = Kaposvölgye VSC |\\n  nickname = Berki |\\n  founded  = 1936 |\\n  ground   = Vásártéri Sporttelep, [[Nagyberki]] |\\n  capacity = 2,000 |\\n  chairman = Róbert Pusztai |\\n  manager  = Lajos Horváth |\\n  league   = [[NB II]] (Western Group) |\\n  season   = [[Hungarian National Championship II|2008–09]] |\\n  position = 6th |\\n  pattern_la1=_green stripes|pattern_b1=_greenstripes|pattern_ra1=_green stripes|\\n  leftarm1=FFFFFF |body1=FFFFFF|rightarm1=FFFFFF |shorts1=009900|socks1=009900|\\n  pattern_la2=_blueupper|pattern_b2=|pattern_ra2=_blueupper|\\n  leftarm2=CCCCCC|body2=CCCCCC|rightarm2=CCCCCC|shorts2=000099|socks2=CCCCCC\\n}}\\n'''Kaposvölgye VSC''' is a [[Hungary|Hungarian]] [[Association football|football]] team in [[Nagyberki]].<ref>{{Cite web|url=https://adatbank.mlsz.hu/club/8/0/6575/30/46276.html|title=KAPOSVÖLGYE VSC - MLSZ adatbank|website=adatbank.mlsz.hu|access-date=2019-02-22}}</ref>\"}}",
+  "fetchedAt": "2026-10-15T07:42:05.427Z"
+}

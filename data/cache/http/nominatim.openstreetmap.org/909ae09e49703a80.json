@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.058229&lon=24.757789&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":60524324,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":205358140,\"lat\":\"42.0582342\",\"lon\":\"24.7577108\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Глиганската пътека, Брестник, Родопи, Пловдив, 4107, България\",\"address\":{\"road\":\"Глиганската пътека\",\"village\":\"Брестник\",\"state_district\":\"Родопи\",\"state\":\"Пловдив\",\"ISO3166-2-lvl4\":\"BG-16\",\"postcode\":\"4107\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.0577199\",\"42.0587484\",\"24.7569186\",\"24.7585029\"]}",
-  "fetchedAt": "2026-10-14T11:40:07.914Z"
+  "body": "{\"place_id\":60268122,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":205358140,\"lat\":\"42.0582342\",\"lon\":\"24.7577108\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.000152590214416e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Глиганската пътека, Брестник, Родопи, Пловдив, 4107, България\",\"address\":{\"road\":\"Глиганската пътека\",\"village\":\"Брестник\",\"state_district\":\"Родопи\",\"state\":\"Пловдив\",\"ISO3166-2-lvl4\":\"BG-16\",\"postcode\":\"4107\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.0577199\",\"42.0587484\",\"24.7569186\",\"24.7585029\"]}",
+  "fetchedAt": "2026-10-15T07:48:20.851Z"
 }

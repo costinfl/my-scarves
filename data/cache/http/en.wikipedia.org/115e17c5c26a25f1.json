@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=UE%20Engordany",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"UE Engordany\",\"pageid\":11720221,\"redirects\":[],\"wikitext\":\"{{Short description|Association football club in Andorra}}\\n{{Infobox football club|\\n  clubname = Engordany|\\n  image    = [[File:UE Engordany crest 2017.png|200px]]| \\n  fullname = Unió Esportiva Engordany|\\n  nickname = ''Guerrers'' (Warriors)<br>''Fidels'' (The Loyals)|\\n  founded  = {{Start date and age|1980}}|\\n  ground   = [[Primera Divisió#Stadiums|Andorra Football Federation stadiums]]|\\n  capacity = | \\n  chairman = Jacques Lafont|\\n  manager  = Jesús Barón|\\n  league   = [[Segona Divisió]]|\\n  season   = |\\n  position = |\\n  website  = https://engordany.news/\\n \\n}}\\n\\n'''Unió Esportiva Engordany''' is an [[Andorra|Andorran]] multi-sports club based in [[Escaldes-Engordany]]. The club [[association football|football]] section plays in [[Primera Divisió]].\"}}",
-  "fetchedAt": "2026-10-14T11:34:42.353Z"
+  "fetchedAt": "2026-10-15T07:39:51.365Z"
 }

@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=59.973292&lon=23.442829&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":166055825,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1251183740,\"lat\":\"59.9734710\",\"lon\":\"23.4430988\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7656977187716756e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Bryggerigatan, Brötet, Gamla stan, Formanshagen, Ekenäs, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10600, Suomi / Finland\",\"address\":{\"road\":\"Bryggerigatan\",\"neighbourhood\":\"Brötet\",\"quarter\":\"Gamla stan\",\"suburb\":\"Formanshagen\",\"city_district\":\"Ekenäs\",\"city\":\"Raseborg\",\"municipality\":\"Raseborgs ekonomiska region\",\"state\":\"Uusimaa\",\"ISO3166-2-lvl4\":\"FI-18\",\"region\":\"Manner-Suomi\",\"postcode\":\"10600\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"59.9730843\",\"59.9738990\",\"23.4420447\",\"23.4441286\"]}",
-  "fetchedAt": "2026-10-14T11:40:51.202Z"
+  "fetchedAt": "2026-10-15T07:49:22.629Z"
 }

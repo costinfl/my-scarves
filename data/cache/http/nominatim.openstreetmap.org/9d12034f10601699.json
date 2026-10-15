@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.297113&lon=21.263739&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":190404781,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":368778935,\"lat\":\"49.2971203\",\"lon\":\"21.2637363\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.153124284728798e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Toplianska, Vinbarg, Bardejov, okres Bardejov, Prešovský kraj, 085 01, Slovensko\",\"address\":{\"road\":\"Toplianska\",\"suburb\":\"Vinbarg\",\"town\":\"Bardejov\",\"county\":\"okres Bardejov\",\"state\":\"Prešovský kraj\",\"ISO3166-2-lvl4\":\"SK-PV\",\"postcode\":\"085 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"49.2965733\",\"49.2977112\",\"21.2630993\",\"21.2643817\"]}",
-  "fetchedAt": "2026-10-14T11:42:23.845Z"
+  "fetchedAt": "2026-10-15T07:52:25.292Z"
 }

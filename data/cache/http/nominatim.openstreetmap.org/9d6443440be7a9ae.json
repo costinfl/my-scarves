@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.171944&lon=44.525833&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":208374626,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":610415214,\"lat\":\"40.1719485\",\"lon\":\"44.5256209\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.370336461428272e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Չարենցի փողոց, Կենտրոն, Երևան, 0070, Հայաստան\",\"address\":{\"road\":\"Չարենցի փողոց\",\"suburb\":\"Կենտրոն\",\"city\":\"Երևան\",\"ISO3166-2-lvl4\":\"AM-ER\",\"postcode\":\"0070\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.1714328\",\"40.1724642\",\"44.5251112\",\"44.5261305\"]}",
-  "fetchedAt": "2026-10-14T14:24:41.959Z"
+  "body": "{\"place_id\":206940031,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":610415214,\"lat\":\"40.1719485\",\"lon\":\"44.5256209\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.370336461428272e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Չարենցի փողոց, Կենտրոն, Երևան, 0070, Հայաստան\",\"address\":{\"road\":\"Չարենցի փողոց\",\"suburb\":\"Կենտրոն\",\"city\":\"Երևան\",\"ISO3166-2-lvl4\":\"AM-ER\",\"postcode\":\"0070\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.1714328\",\"40.1724642\",\"44.5251112\",\"44.5261305\"]}",
+  "fetchedAt": "2026-10-15T07:46:42.256Z"
 }

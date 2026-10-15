@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-15T07:34:39.730Z",
+  "version": 2,
+  "entity": {
+    "id": "Q677570",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "50100"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Inter Bratislava"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Inter Bratislava"
+      }
+    }
+  }
+}

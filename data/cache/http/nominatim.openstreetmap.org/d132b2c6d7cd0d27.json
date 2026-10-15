@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.767600&lon=19.138200&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":67084965,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":588997664,\"lat\":\"47.7675292\",\"lon\":\"19.1381609\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.369268329895502e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Kálvária, Földváry Károly-lakótelep, Liget, Derecske, Vác, Váci járás, Pest megye, 2600, Magyarország\",\"address\":{\"road\":\"Kálvária\",\"neighbourhood\":\"Földváry Károly-lakótelep\",\"quarter\":\"Liget\",\"suburb\":\"Derecske\",\"town\":\"Vác\",\"municipality\":\"Váci járás\",\"county\":\"Pest megye\",\"ISO3166-2-lvl6\":\"HU-PE\",\"postcode\":\"2600\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.7670578\",\"47.7680006\",\"19.1376512\",\"19.1386707\"]}",
-  "fetchedAt": "2026-10-14T07:53:42.004Z"
+  "fetchedAt": "2026-10-15T07:50:35.276Z"
 }

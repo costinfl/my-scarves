@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.660633&lon=20.901733&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":64435102,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":537477174,\"lat\":\"44.6605881\",\"lon\":\"20.9015446\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.215533684286286e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Горанска, Плавинац, Смедерево, Град Смедерево, Подунавски управни округ, Централна Србија, 11300, Србија\",\"address\":{\"road\":\"Горанска\",\"quarter\":\"Плавинац\",\"suburb\":\"Плавинац\",\"city\":\"Смедерево\",\"municipality\":\"Град Смедерево\",\"county\":\"Подунавски управни округ\",\"ISO3166-2-lvl6\":\"RS-10\",\"province\":\"Централна Србија\",\"postcode\":\"11300\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.6599731\",\"44.6612030\",\"20.9007357\",\"20.9023534\"]}",
+  "fetchedAt": "2026-10-15T07:51:49.004Z"
+}

@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Rakuunat",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Rakuunat\",\"pageid\":2079440,\"redirects\":[],\"wikitext\":\"{{Short description|Finnish football club}}\\n{{Use dmy dates|date=February 2025}}\\n[[File:Rakuunat logo.jpg|right|130px|thumb|Logo]]\\n[[Image:Kimpinen-stadium-Lappeenranta.jpg|thumb|[[Kimpisen urheilukeskus]]]]\\n\\n'''Jalkapalloseura Rakuunat''' was a Finnish [[association football|football]] club, based in [[Lappeenranta]].\"}}",
-  "fetchedAt": "2026-10-14T11:36:08.427Z"
+  "fetchedAt": "2026-10-15T07:41:41.563Z"
 }

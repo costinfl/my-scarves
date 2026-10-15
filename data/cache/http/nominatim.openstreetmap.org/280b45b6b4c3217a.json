@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.291389&lon=57.160278&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":203085087,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":8982722193,\"lat\":\"50.2915024\",\"lon\":\"57.1602599\",\"category\":\"amenity\",\"type\":\"bench\",\"place_rank\":30,\"importance\":6.003891050579107e-05,\"addresstype\":\"amenity\",\"name\":\"\",\"display_name\":\"Әбілқайыр Хан даңғылы, Ақтөбе Қ.Ә., Астана ауданы, Ақтөбе облысы, 030019, Қазақстан\",\"address\":{\"road\":\"Әбілқайыр Хан даңғылы\",\"city\":\"Ақтөбе Қ.Ә.\",\"county\":\"Астана ауданы\",\"state\":\"Ақтөбе облысы\",\"ISO3166-2-lvl4\":\"KZ-15\",\"postcode\":\"030019\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"50.2914524\",\"50.2915524\",\"57.1602099\",\"57.1603099\"]}",
-  "fetchedAt": "2026-10-14T11:41:43.008Z"
+  "fetchedAt": "2026-10-15T07:51:10.418Z"
 }

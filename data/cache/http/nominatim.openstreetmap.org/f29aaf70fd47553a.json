@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.224700&lon=17.645400&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65597823,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":172725791,\"lat\":\"44.2249576\",\"lon\":\"17.6457298\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.2917175836992075,\"addresstype\":\"leisure\",\"name\":\"Stadion Pirota\",\"display_name\":\"Stadion Pirota, Aleja konzula, Bojna, Travnik, Općina Travnik, Srednjobosanski kanton / Županija Središnja Bosna, Federacija Bosne i Hercegovine, 72270, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"leisure\":\"Stadion Pirota\",\"road\":\"Aleja konzula\",\"quarter\":\"Bojna\",\"city_district\":\"Travnik\",\"town\":\"Travnik\",\"municipality\":\"Općina Travnik\",\"state_district\":\"Srednjobosanski kanton / Županija Središnja Bosna\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"72270\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.2241367\",\"44.2254879\",\"17.6448311\",\"17.6464854\"]}",
+  "fetchedAt": "2026-10-15T07:47:36.849Z"
+}

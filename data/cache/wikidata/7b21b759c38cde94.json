@@ -1,113 +1,7 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q34120 wd:Q1302027 wd:Q112072621 wd:Q60701 wd:Q845772 wd:Q73996 wd:Q81635 wd:Q210170 wd:Q81566 wd:Q13384986 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T14:13:30.781Z",
+  "fetchedAt": "2026-10-15T07:33:36.763Z",
   "rows": [
-    {
-      "club": "http://www.wikidata.org/entity/Q73996",
-      "stadium": "http://www.wikidata.org/entity/Q1336599",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(20.782778 40.625833)",
-      "capacity": "12373",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Sk%C3%ABnderbeu",
-      "website": "https://www.kfskenderbeu.al/",
-      "clubLabel": "KF Skënderbeu",
-      "stadiumLabel": "Skënderbeu Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q81566",
-      "stadium": "http://www.wikidata.org/entity/Q1870384",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.506558 42.070031)",
-      "capacity": "16000",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Vllaznia",
-      "website": "https://vllaznia.al/",
-      "clubLabel": "KS Vllaznia Shkodër",
-      "stadiumLabel": "Loro Boriçi Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q81635",
-      "stadium": "http://www.wikidata.org/entity/Q3300718",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.44944444 41.32583333)",
-      "capacity": "12040",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Teuta",
-      "website": "http://www.kfteuta.com",
-      "clubLabel": "KF Teuta Durrës",
-      "stadiumLabel": "Niko Dovana Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q81635",
-      "stadium": "http://www.wikidata.org/entity/Q3300718",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.449856 41.326081)",
-      "capacity": "12040",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Teuta",
-      "website": "http://www.kfteuta.com",
-      "clubLabel": "KF Teuta Durrës",
-      "stadiumLabel": "Niko Dovana Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q81635",
-      "stadium": "http://www.wikidata.org/entity/Q28074430",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Teuta",
-      "website": "http://www.kfteuta.com",
-      "clubLabel": "KF Teuta Durrës",
-      "stadiumLabel": "Edmond Hasanbelliu"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q210170",
-      "stadium": "http://www.wikidata.org/entity/Q1783346",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.81138333 41.31898056)",
-      "capacity": "12500",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Tirana",
-      "website": "https://kftirana.al/",
-      "clubLabel": "K.F. Tirana",
-      "stadiumLabel": "Selman Stërmasi Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q845772",
-      "stadium": "http://www.wikidata.org/entity/Q1783346",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.81138333 41.31898056)",
-      "capacity": "12500",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Partizani_Tirana",
-      "website": "https://partizani.al",
-      "clubLabel": "Partizani Tirana",
-      "stadiumLabel": "Selman Stërmasi Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1302027",
-      "stadium": "http://www.wikidata.org/entity/Q24915950",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.661638888 41.076805555)",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_Egnatia",
-      "website": "http://fkegnatia.weebly.com/",
-      "clubLabel": "KF Egnatia",
-      "stadiumLabel": "Arena Egnatia"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q34120",
-      "stadium": "http://www.wikidata.org/entity/Q1783346",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.81138333 41.31898056)",
-      "capacity": "12500",
-      "enwiki": "https://en.wikipedia.org/wiki/FC_Dinamo_City",
-      "clubLabel": "KS Dinamo Tirana",
-      "stadiumLabel": "Selman Stërmasi Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q60701",
-      "stadium": "http://www.wikidata.org/entity/Q6506220",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.711672 41.64248)",
-      "capacity": "11000",
-      "enwiki": "https://en.wikipedia.org/wiki/KF_La%C3%A7i",
-      "website": "http://kflaci.com",
-      "clubLabel": "KF Laçi",
-      "stadiumLabel": "Laçi Stadium"
-    },
     {
       "club": "http://www.wikidata.org/entity/Q13384986",
       "enwiki": "https://en.wikipedia.org/wiki/Vora_FK",
@@ -117,6 +11,112 @@
       "club": "http://www.wikidata.org/entity/Q112072621",
       "enwiki": "https://en.wikipedia.org/wiki/AF_Elbasani",
       "clubLabel": "AF Elbasani"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q73996",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Sk%C3%ABnderbeu",
+      "clubLabel": "KF Skënderbeu",
+      "stadium": "http://www.wikidata.org/entity/Q1336599",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.782778 40.625833)",
+      "capacity": "12373",
+      "website": "https://www.kfskenderbeu.al/",
+      "stadiumLabel": "Skënderbeu Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q81566",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Vllaznia",
+      "clubLabel": "KS Vllaznia Shkodër",
+      "stadium": "http://www.wikidata.org/entity/Q1870384",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.506558 42.070031)",
+      "capacity": "16000",
+      "website": "https://vllaznia.al/",
+      "stadiumLabel": "Loro Boriçi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q81635",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Teuta",
+      "clubLabel": "KF Teuta Durrës",
+      "stadium": "http://www.wikidata.org/entity/Q3300718",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.44944444 41.32583333)",
+      "capacity": "12040",
+      "website": "http://www.kfteuta.com",
+      "stadiumLabel": "Niko Dovana Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q81635",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Teuta",
+      "clubLabel": "KF Teuta Durrës",
+      "stadium": "http://www.wikidata.org/entity/Q3300718",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.449856 41.326081)",
+      "capacity": "12040",
+      "website": "http://www.kfteuta.com",
+      "stadiumLabel": "Niko Dovana Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q81635",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Teuta",
+      "clubLabel": "KF Teuta Durrës",
+      "stadium": "http://www.wikidata.org/entity/Q28074430",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "website": "http://www.kfteuta.com",
+      "stadiumLabel": "Edmond Hasanbelliu"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q210170",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Tirana",
+      "clubLabel": "K.F. Tirana",
+      "stadium": "http://www.wikidata.org/entity/Q1783346",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.81138333 41.31898056)",
+      "capacity": "12500",
+      "website": "https://kftirana.al/",
+      "stadiumLabel": "Selman Stërmasi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q845772",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Partizani_Tirana",
+      "clubLabel": "Partizani Tirana",
+      "stadium": "http://www.wikidata.org/entity/Q1783346",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.81138333 41.31898056)",
+      "capacity": "12500",
+      "website": "https://partizani.al",
+      "stadiumLabel": "Selman Stërmasi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1302027",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_Egnatia",
+      "clubLabel": "KF Egnatia",
+      "stadium": "http://www.wikidata.org/entity/Q24915950",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.661638888 41.076805555)",
+      "website": "http://fkegnatia.weebly.com/",
+      "stadiumLabel": "Arena Egnatia"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q34120",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Dinamo_City",
+      "clubLabel": "KS Dinamo Tirana",
+      "stadium": "http://www.wikidata.org/entity/Q1783346",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.81138333 41.31898056)",
+      "capacity": "12500",
+      "stadiumLabel": "Selman Stërmasi Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q60701",
+      "enwiki": "https://en.wikipedia.org/wiki/KF_La%C3%A7i",
+      "clubLabel": "KF Laçi",
+      "stadium": "http://www.wikidata.org/entity/Q6506220",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.711672 41.64248)",
+      "capacity": "11000",
+      "website": "http://kflaci.com",
+      "stadiumLabel": "Laçi Stadium"
     }
   ]
 }

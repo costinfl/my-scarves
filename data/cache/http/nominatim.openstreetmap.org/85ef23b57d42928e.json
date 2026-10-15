@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.325833&lon=19.449444&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":56488839,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":621765720,\"lat\":\"41.3260882\",\"lon\":\"19.4497514\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.52346074616162e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rruga Kristo Sotiri, Durrës, Bashkia Durrës, Qarku i Durrësit, 2001, Shqipëria\",\"address\":{\"road\":\"Rruga Kristo Sotiri\",\"city_district\":\"Durrës\",\"city\":\"Bashkia Durrës\",\"county\":\"Qarku i Durrësit\",\"ISO3166-2-lvl6\":\"AL-02\",\"postcode\":\"2001\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"41.3256034\",\"41.3265729\",\"19.4493199\",\"19.4501828\"]}",
-  "fetchedAt": "2026-10-14T14:24:24.698Z"
+  "fetchedAt": "2026-10-15T07:46:30.077Z"
 }

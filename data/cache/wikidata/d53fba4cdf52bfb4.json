@@ -1,0 +1,514 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q276085 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q276085 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-15T07:30:39.949Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/1923%E2%80%9324_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1925%E2%80%9326_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933%E2%80%9334_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1940%E2%80%9341_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984%E2%80%9385_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934%E2%80%9335_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930%E2%80%9331_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932%E2%80%9333_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982%E2%80%9383_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1944_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957%E2%80%9358_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1911%E2%80%9312_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1903_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1920%E2%80%9321_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1909%E2%80%9310_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1901_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946%E2%80%9347_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1941%E2%80%9342_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1906%E2%80%9307_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1908%E2%80%9309_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1922%E2%80%9323_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1907%E2%80%9308_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1910%E2%80%9311_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1913%E2%80%9314_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1917%E2%80%9318_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1918%E2%80%9319_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1935%E2%80%9336_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983%E2%80%9384_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1927%E2%80%9328_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1942%E2%80%9343_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1929%E2%80%9330_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931%E2%80%9332_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1936%E2%80%9337_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945%E2%80%9346_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985%E2%80%9386_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1924%E2%80%9325_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1916%E2%80%9317_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976%E2%80%9377_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1943%E2%80%9344_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1902_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1905_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1928%E2%80%9329_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979%E2%80%9380_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1921%E2%80%9322_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1926%E2%80%9327_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1904_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1912%E2%80%9313_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1919%E2%80%9320_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971%E2%80%9372_Nemzeti_Bajnoks%C3%A1g_I",
+      "kind": "season"
+    }
+  ]
+}

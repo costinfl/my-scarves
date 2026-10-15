@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.102944&lon=19.740472&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":56565675,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1323017908,\"lat\":\"40.1028212\",\"lon\":\"19.7404153\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.2763378134411431,\"addresstype\":\"leisure\",\"name\":\"Stadiumi Petro Ruci\",\"display_name\":\"Stadiumi Petro Ruci, Rruga Apelistra, Spile, Himarë, Bashkia Himarë, Qarku i Vlorës, 9425, Shqipëria\",\"address\":{\"leisure\":\"Stadiumi Petro Ruci\",\"road\":\"Rruga Apelistra\",\"village\":\"Spile\",\"town\":\"Himarë\",\"municipality\":\"Bashkia Himarë\",\"county\":\"Qarku i Vlorës\",\"ISO3166-2-lvl6\":\"AL-12\",\"postcode\":\"9425\",\"country\":\"Shqipëria\",\"country_code\":\"al\"},\"boundingbox\":[\"40.1023191\",\"40.1035416\",\"19.7398676\",\"19.7410711\"]}",
-  "fetchedAt": "2026-10-14T14:24:22.454Z"
+  "fetchedAt": "2026-10-15T07:46:27.790Z"
 }

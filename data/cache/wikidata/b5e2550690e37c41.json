@@ -1,0 +1,150 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q326422 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q326422 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-15T07:32:18.710Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/Kazakhstan_Premier_League",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_Kazakhstan_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_Kazakhstan_Premier_League",
+      "kind": "season"
+    }
+  ]
+}

@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.816700&lon=19.535000&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":189152636,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":51899251,\"lat\":\"48.8128102\",\"lon\":\"19.5343667\",\"category\":\"highway\",\"type\":\"primary\",\"place_rank\":26,\"importance\":0.05339090028229187,\"addresstype\":\"road\",\"name\":\"66\",\"display_name\":\"66, Železiarne Podbrezová, Podbrezová, okres Brezno, Banskobystrický kraj, 976 81, Slovensko\",\"address\":{\"road\":\"66\",\"industrial\":\"Železiarne Podbrezová\",\"village\":\"Podbrezová\",\"district\":\"okres Brezno\",\"state\":\"Banskobystrický kraj\",\"ISO3166-2-lvl4\":\"SK-BC\",\"postcode\":\"976 81\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.8116296\",\"48.8128747\",\"19.5281337\",\"19.5370575\"]}",
-  "fetchedAt": "2026-10-14T11:42:25.925Z"
+  "fetchedAt": "2026-10-15T07:52:26.325Z"
 }

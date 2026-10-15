@@ -1,0 +1,294 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q1824581 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q1824581 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-15T07:31:46.788Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Liga_Leumit",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1971%E2%80%9372_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1976%E2%80%9377_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1982%E2%80%9383_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1983%E2%80%9384_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957%E2%80%9358_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964%E2%80%9365_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1965%E2%80%9366_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966%E2%80%9368_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968%E2%80%9369_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1979%E2%80%9380_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1985%E2%80%9386_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1984%E2%80%9385_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liga_Leumit",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Liga_Leumit",
+      "kind": "season"
+    }
+  ]
+}

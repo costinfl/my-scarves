@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.372931&lon=15.104184&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":68486767,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":888439093,\"lat\":\"46.3728200\",\"lon\":\"15.1043408\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7434195468024985e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"696, Stara vas, Velenje, 3320, Slovenija\",\"address\":{\"road\":\"696\",\"suburb\":\"Stara vas\",\"town\":\"Velenje\",\"municipality\":\"Velenje\",\"ISO3166-2-lvl8\":\"SI-133\",\"postcode\":\"3320\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.3723383\",\"46.3733017\",\"15.1038778\",\"15.1048037\"]}",
-  "fetchedAt": "2026-10-14T11:42:42.108Z"
+  "body": "{\"place_id\":68543296,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":888439093,\"lat\":\"46.3728200\",\"lon\":\"15.1043408\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.7434195468024985e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"696, Stara vas, Velenje, 3320, Slovenija\",\"address\":{\"road\":\"696\",\"suburb\":\"Stara vas\",\"town\":\"Velenje\",\"municipality\":\"Velenje\",\"ISO3166-2-lvl8\":\"SI-133\",\"postcode\":\"3320\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.3723383\",\"46.3733017\",\"15.1038778\",\"15.1048037\"]}",
+  "fetchedAt": "2026-10-15T07:52:42.823Z"
 }

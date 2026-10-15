@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.948908&lon=15.488319&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":79230595,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":685299148,\"lat\":\"45.9488869\",\"lon\":\"15.4883451\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0345616845914665e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"5, Krško, 8270, Slovenija\",\"address\":{\"road\":\"5\",\"town\":\"Krško\",\"municipality\":\"Krško\",\"ISO3166-2-lvl8\":\"SI-054\",\"postcode\":\"8270\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"45.9484164\",\"45.9493574\",\"15.4878618\",\"15.4888284\"]}",
-  "fetchedAt": "2026-10-14T11:42:38.027Z"
+  "body": "{\"place_id\":79106968,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":685299148,\"lat\":\"45.9488869\",\"lon\":\"15.4883451\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.0345616845914665e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"5, Krško, 8270, Slovenija\",\"address\":{\"road\":\"5\",\"town\":\"Krško\",\"municipality\":\"Krško\",\"ISO3166-2-lvl8\":\"SI-054\",\"postcode\":\"8270\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"45.9484164\",\"45.9493574\",\"15.4878618\",\"15.4888284\"]}",
+  "fetchedAt": "2026-10-15T07:52:38.507Z"
 }

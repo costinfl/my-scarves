@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=45.763028&lon=15.868778&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":79343052,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":776264049,\"lat\":\"45.7621183\",\"lon\":\"15.8682563\",\"category\":\"leisure\",\"type\":\"sports_centre\",\"place_rank\":30,\"importance\":7.947737849999263e-05,\"addresstype\":\"leisure\",\"name\":\"Sportski centar Lučko\",\"display_name\":\"Sportski centar Lučko, 3B, Ježdovečka ulica, Mjesni odbor Lučko, Gradska četvrt Novi Zagreb - zapad, Lučko, Grad Zagreb, 10250, Hrvatska\",\"address\":{\"leisure\":\"Sportski centar Lučko\",\"house_number\":\"3B\",\"road\":\"Ježdovečka ulica\",\"neighbourhood\":\"Mjesni odbor Lučko\",\"suburb\":\"Gradska četvrt Novi Zagreb - zapad\",\"village\":\"Lučko\",\"city\":\"Grad Zagreb\",\"ISO3166-2-lvl4\":\"HR-21\",\"postcode\":\"10250\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"45.7610231\",\"45.7633646\",\"15.8674621\",\"15.8688687\"]}",
-  "fetchedAt": "2026-10-14T07:51:42.738Z"
+  "fetchedAt": "2026-10-15T07:48:52.778Z"
 }

@@ -1,0 +1,174 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q289516 wd:Q222877 wd:Q476880 wd:Q746853 wd:Q208584 wd:Q5970899 wd:Q252276 wd:Q2608062 wd:Q382324 wd:Q2185704 wd:Q223813 wd:Q726266 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:32:54.814Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q208584",
+      "stadium": "http://www.wikidata.org/entity/Q1139227",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.9225 60.1875)",
+      "capacity": "10770",
+      "enwiki": "https://en.wikipedia.org/wiki/Helsingin_Jalkapalloklubi",
+      "website": "https://www.hjk.fi/",
+      "clubLabel": "Helsingin Jalkapalloklubi",
+      "stadiumLabel": "Bolt Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q222877",
+      "stadium": "http://www.wikidata.org/entity/Q2004864",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.291667 60.442778)",
+      "capacity": "9372",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Inter_Turku",
+      "website": "http://fcinter.fi/",
+      "clubLabel": "FC Inter Turku",
+      "stadiumLabel": "Veritas Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q223813",
+      "stadium": "http://www.wikidata.org/entity/Q2004864",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.291667 60.442778)",
+      "capacity": "9372",
+      "enwiki": "https://en.wikipedia.org/wiki/Turun_Palloseura",
+      "website": "http://fc.tps.fi/",
+      "clubLabel": "TPS Turku",
+      "stadiumLabel": "Veritas Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q252276",
+      "stadium": "http://www.wikidata.org/entity/Q2414122",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.935278 60.102222)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/IFK_Mariehamn",
+      "website": "http://www.ifkfotboll.ax/",
+      "clubLabel": "IFK Mariehamn",
+      "stadiumLabel": "Wiklöf Holding Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q289516",
+      "stadium": "http://www.wikidata.org/entity/Q133458659",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.451388888 65.001111111)",
+      "capacity": "5080",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Oulu",
+      "website": "https://acoulu.fi/",
+      "clubLabel": "AC Oulu",
+      "stadiumLabel": "Heinäpää football stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/AC%20Oulu%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q289516",
+      "stadium": "http://www.wikidata.org/entity/Q133458659",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.451388888 65.001111111)",
+      "capacity": "9000",
+      "enwiki": "https://en.wikipedia.org/wiki/AC_Oulu",
+      "website": "https://acoulu.fi/",
+      "clubLabel": "AC Oulu",
+      "stadiumLabel": "Heinäpää football stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/AC%20Oulu%20logo.svg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q382324",
+      "stadium": "http://www.wikidata.org/entity/Q545321",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(27.670833 62.884444)",
+      "capacity": "2700",
+      "enwiki": "https://en.wikipedia.org/wiki/Kuopion_Palloseura",
+      "website": "http://www.kups.fi",
+      "clubLabel": "Kuopion Palloseura",
+      "stadiumLabel": "Kuopio Football Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q476880",
+      "stadium": "http://www.wikidata.org/entity/Q952432",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(25.634167 60.983056)",
+      "capacity": "7465",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Lahti",
+      "website": "http://www.fclahti.fi/",
+      "clubLabel": "FC Lahti",
+      "stadiumLabel": "Lahti Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q726266",
+      "stadium": "http://www.wikidata.org/entity/Q1759119",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.627778 63.085278)",
+      "capacity": "6009",
+      "enwiki": "https://en.wikipedia.org/wiki/Vaasan_Palloseura",
+      "website": "https://www.vepsu.fi/",
+      "clubLabel": "Vaasan Palloseura",
+      "stadiumLabel": "Hietalahti Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q746853",
+      "stadium": "http://www.wikidata.org/entity/Q1759134",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.695 63.673611)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FF_Jaro",
+      "website": "http://www.ffjaro.fi",
+      "clubLabel": "FF Jaro",
+      "stadiumLabel": "Jakobstads Centralplan"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q746853",
+      "stadium": "http://www.wikidata.org/entity/Q135204837",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.693998114 63.671989023)",
+      "capacity": "3616",
+      "enwiki": "https://en.wikipedia.org/wiki/FF_Jaro",
+      "website": "http://www.ffjaro.fi",
+      "clubLabel": "FF Jaro",
+      "stadiumLabel": "Project Liv Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q746853",
+      "stadium": "http://www.wikidata.org/entity/Q135204837",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.693998114 63.671989023)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/FF_Jaro",
+      "website": "http://www.ffjaro.fi",
+      "clubLabel": "FF Jaro",
+      "stadiumLabel": "Project Liv Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2185704",
+      "stadium": "http://www.wikidata.org/entity/Q21140589",
+      "rank": "http://wikiba.se/ontology#PreferredRank",
+      "coord": "Point(22.815588888 62.778469444)",
+      "capacity": "5817",
+      "enwiki": "https://en.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho",
+      "website": "https://sjk.fi/",
+      "clubLabel": "Seinäjoen Jalkapallokerho",
+      "stadiumLabel": "OmaSp Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2608062",
+      "stadium": "http://www.wikidata.org/entity/Q5493026",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(23.785278 61.500278)",
+      "capacity": "3100",
+      "enwiki": "https://en.wikipedia.org/wiki/Ilves_(football)",
+      "website": "https://www.ilvesfootball.com/",
+      "clubLabel": "FC Ilves",
+      "stadiumLabel": "Tammelan Stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5970899",
+      "stadium": "http://www.wikidata.org/entity/Q20736911",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(24.96253 60.234757)",
+      "capacity": "2200",
+      "enwiki": "https://en.wikipedia.org/wiki/IF_Gnistan",
+      "website": "https://gnistan.fi/",
+      "clubLabel": "IF Gnistan",
+      "stadiumLabel": "Oulunkylä Stadium",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/IF%20Gnistan%20logo.svg"
+    }
+  ]
+}

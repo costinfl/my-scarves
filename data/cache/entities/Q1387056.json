@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-15T07:34:31.458Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1387056",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "52888"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FC Dunav Ruse"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FC Dunav Ruse"
+      }
+    }
+  }
+}

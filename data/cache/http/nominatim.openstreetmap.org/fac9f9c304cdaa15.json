@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.413611&lon=27.696944&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":60059280,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":385823162,\"lat\":\"42.4135667\",\"lon\":\"27.6969508\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9179827573007055e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Републиканска, Созопол, Бургас, 8130, България\",\"address\":{\"road\":\"Републиканска\",\"town\":\"Созопол\",\"state_district\":\"Созопол\",\"state\":\"Бургас\",\"ISO3166-2-lvl4\":\"BG-02\",\"postcode\":\"8130\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.4129793\",\"42.4141541\",\"27.6962458\",\"27.6976558\"]}",
-  "fetchedAt": "2026-10-14T11:39:54.292Z"
+  "body": "{\"place_id\":60314727,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":385823162,\"lat\":\"42.4135667\",\"lon\":\"27.6969508\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.9179827573007055e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Републиканска, Созопол, Бургас, 8130, България\",\"address\":{\"road\":\"Републиканска\",\"town\":\"Созопол\",\"state_district\":\"Созопол\",\"state\":\"Бургас\",\"ISO3166-2-lvl4\":\"BG-02\",\"postcode\":\"8130\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.4129793\",\"42.4141541\",\"27.6962458\",\"27.6976558\"]}",
+  "fetchedAt": "2026-10-15T07:48:05.757Z"
 }

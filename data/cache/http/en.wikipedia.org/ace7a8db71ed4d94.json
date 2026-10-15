@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Neft%C3%A7i-2",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Neftçi-2\",\"pageid\":58128886,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname   = Neftçi-2\\n| image      = \\n| fullname   = Neftçi-2\\n| nickname   = ''Flaqman'' (Flagship)<br />''Neftçilər'' (Oil Workers)<br/> \\\"Xalq komandası\\\" (The People's Team)\\n| founded    = 2018\\n| dissolved  = \\n| ground     = [[ASK Arena]]\\n| capacity   = 8,125\\n| owner      = \\n| chrtitle   = President\\n| chairman   = Kamran Guliyev\\n| manager    = ''vacant''\\n| league     = [[Azerbaijan First Division]]\\n| season     = [[2018–19 Azerbaijan First Division|2018–19]]\\n| position   = 3rd\\n}}\\n\\n'''Neftçi-2''' is an Azerbaijani [[association football|football]] team from [[Baku]]. It plays in the [[Azerbaijan First Division]] (second level).<ref>[https://www.pfl.az/table/2 I Divizion. Turnir cədvəli]</ref> It is a reserve team of [[Azerbaijan Premier League]] side [[Neftçi PFK|Neftçi]].\"}}",
-  "fetchedAt": "2026-10-14T11:34:55.599Z"
+  "fetchedAt": "2026-10-15T07:40:11.018Z"
 }

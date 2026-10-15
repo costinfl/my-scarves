@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Vecs%C3%A9si%20FC",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Vecsési FC\",\"pageid\":33374293,\"redirects\":[],\"wikitext\":\"{{short description|Hungarian football club}}\\n{{Infobox football club \\n|clubname = Vecsési FC\\n|image = Vecsési_FC_címere.png\\n|caption = Logo of Vecsési FC\\n|fullname = Vecsési Futball Club\\n|nickname = –\\n|founded = 1911\\n|ground = [[Stadion Dózsa György út]] <br/> [[Vecsés]], [[Hungary]] \\n|capacity = 3,000\\n|chairman = Tibor Földvári\\n|manager = József Duró\\n|league = [[Megyei Bajnokság I|MB I]]<br />Pest\\n|season = [[2022–23 Megyei Bajnokság I#Pest|2022–23]]\\n|position = MB I<br />Pest, 1st of 16\\n|pattern_la1 =\\n|pattern_la2 =\\n|pattern_b1 =\\n|pattern_b2 =\\n|pattern_ra1 =\\n|pattern_ra2 =\\n|leftarm1 = 000000\\n|leftarm2 = FFFFFF\\n|body1 = 000000\\n|body2 = FFFFFF\\n|rightarm1 = 000000\\n|rightarm2 = FFFFFF\\n|shorts1 = 000000\\n|shorts2 = 000000\\n|socks1 = 000000\\n|socks2 = FFFFFF\\n|current =\\n|\\n}}\\n'''Vecsési FC''' is a [[Hungary|Hungarian]] [[football (soccer)|football]] club located in [[Vecsés]], [[Hungary]]. It currently plays in [[Megyei Bajnokság I|Megyei Bajnokság I – Pest]]. The team's colors are [[Red (color)|red]] and [[White (color)|white]].\"}}",
+  "fetchedAt": "2026-10-15T07:42:14.794Z"
+}
