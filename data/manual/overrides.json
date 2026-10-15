@@ -44,5 +44,12 @@
       "status": "confirmed",
       "checkedAt": "2026-10-14"
     }
+  },
+  "Q1386854": {
+    "fanshop": {
+      "url": "https://www.fcandorra.com/en/botiga-andorra",
+      "status": "manual",
+      "checkedAt": "2026-10-15"
+    }
   }
 }
