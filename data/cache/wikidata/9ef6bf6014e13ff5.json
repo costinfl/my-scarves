@@ -1,0 +1,138 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q6954493 wd:Q1388841 wd:Q1565726 wd:Q212119 wd:Q1388907 wd:Q1818085 wd:Q1638971 wd:Q11229612 wd:Q1389057 wd:Q771941 wd:Q12637860 wd:Q12632028 wd:Q3509932 wd:Q212107 wd:Q1552445 wd:Q1353948 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:32:35.553Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q212107",
+      "stadium": "http://www.wikidata.org/entity/Q3441966",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.6454 44.2247)",
+      "capacity": "3076",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Travnik",
+      "website": "http://www.nktravnik.ba/",
+      "clubLabel": "NK Travnik",
+      "stadiumLabel": "Stadion Pirota"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q771941",
+      "stadium": "http://www.wikidata.org/entity/Q1671726",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.661528 44.54172)",
+      "capacity": "15000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Sloboda_Tuzla",
+      "website": "http://www.fksloboda.ba",
+      "clubLabel": "FK Sloboda Tuzla",
+      "stadiumLabel": "Tušanj City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1353948",
+      "stadium": "http://www.wikidata.org/entity/Q3441998",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.412778 44.886944)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Zvijezda_Grada%C4%8Dac",
+      "website": "http://www.nkzvijezda.ba/",
+      "clubLabel": "NK Zvijezda Gradačac",
+      "stadiumLabel": "Banja Ilidža"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388841",
+      "stadium": "http://www.wikidata.org/entity/Q6471287",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.5352 44.4139)",
+      "capacity": "4600",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Budu%C4%87nost_Banovi%C4%87i",
+      "website": "http://www.buducnost.net/",
+      "clubLabel": "FK Budućnost Banovići",
+      "stadiumLabel": "Stadion FK Budućnost"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388907",
+      "stadium": "http://www.wikidata.org/entity/Q109652601",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.949822885 43.658620968)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Igman_Konjic",
+      "website": "http://fkigman.com/",
+      "clubLabel": "FK Igman Konjic",
+      "stadiumLabel": "City Stadium Konjic"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1638971",
+      "stadium": "http://www.wikidata.org/entity/Q3446823",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.32777778 43.46944444)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/H%C5%A0K_Posu%C5%A1je",
+      "website": "https://hsk-posusje.com/",
+      "clubLabel": "HŠK Posušje",
+      "stadiumLabel": "Mokri Dolac Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1818085",
+      "stadium": "http://www.wikidata.org/entity/Q6471308",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.864 44.8067)",
+      "capacity": "7500",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Jedinstvo_Biha%C4%87",
+      "website": "http://www.nkjedinstvo.com/",
+      "clubLabel": "NK Jedinstvo Bihać",
+      "stadiumLabel": "Stadion pod Borićima"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12637860",
+      "stadium": "http://www.wikidata.org/entity/Q123885906",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.587310704 44.129450017)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Stup%C4%8Danica_Olovo",
+      "clubLabel": "NK Stupčanica Olovo",
+      "stadiumLabel": "Danac Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q212119",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_GO%C5%A0K_Gabela",
+      "website": "https://nkgoskgabela.weebly.com/",
+      "clubLabel": "NK GOŠK Gabela"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389057",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Rudar_Kakanj",
+      "website": "http://www.rudarkakanj.ba/",
+      "clubLabel": "FK Rudar Kakanj"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1552445",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Vitez",
+      "website": "http://www.nkvitez.com/",
+      "clubLabel": "NK Vitez"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1565726",
+      "enwiki": "https://en.wikipedia.org/wiki/HNK_%C4%8Capljina",
+      "website": "http://www.hnk-capljina.com/",
+      "clubLabel": "HNK Čapljina"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3509932",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_TO%C5%A0K_Te%C5%A1anj",
+      "clubLabel": "NK TOŠK Tešanj"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954493",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Bratstvo_Gra%C4%8Danica",
+      "clubLabel": "NK Bratstvo Gračanica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q11229612",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radnik_Had%C5%BEi%C4%87i",
+      "clubLabel": "FK Radnik Hadžići"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12632028",
+      "enwiki": "https://en.wikipedia.org/wiki/HNK_Tomislav",
+      "website": "https://www.hnktomislav.com/",
+      "clubLabel": "HNK Tomislav"
+    }
+  ]
+}

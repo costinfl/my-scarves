@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q2299810 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T14:13:49.279Z",
+  "fetchedAt": "2026-10-15T07:33:52.893Z",
   "rows": [
     {
       "club": "http://www.wikidata.org/entity/Q584440",
@@ -8,8 +8,8 @@
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(44.476449 40.149373)",
       "capacity": "7000",
-      "enwiki": "https://en.wikipedia.org/wiki/FC_Mika",
       "website": "http://www.fcmika.am/",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Mika",
       "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Mika%20Sport%20Complex%2C%20Yerevan%20%2813%29.jpg",
       "clubLabel": "FC Mika",
       "stadiumLabel": "Mika Stadium"
@@ -30,8 +30,8 @@
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(46.753056 39.821111)",
       "capacity": "12000",
-      "enwiki": "https://en.wikipedia.org/wiki/Lernayin_Artsakh_FC",
       "website": "http://lafc.do.am/",
+      "enwiki": "https://en.wikipedia.org/wiki/Lernayin_Artsakh_FC",
       "clubLabel": "Lernayin Artsakh Stepanakert",
       "stadiumLabel": "Khankendi Stadium"
     },

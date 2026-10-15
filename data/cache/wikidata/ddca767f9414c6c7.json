@@ -1,0 +1,131 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q172803 wd:Q918425 wd:Q181216 wd:Q725916 wd:Q959086 wd:Q738876 wd:Q318969 wd:Q6954589 wd:Q368909 wd:Q16958147 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:30:20.296Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q172803",
+      "stadium": "http://www.wikidata.org/entity/Q723603",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.018077777 45.818858333)",
+      "capacity": "60000",
+      "enwiki": "https://en.wikipedia.org/wiki/GNK_Dinamo_Zagreb",
+      "website": "https://gnkdinamo.hr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20GNK%20Dinamo%20Zagreb%20%282019%29.svg",
+      "clubLabel": "GNK Dinamo Zagreb",
+      "stadiumLabel": "Stadion Maksimir"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q181216",
+      "stadium": "http://www.wikidata.org/entity/Q841384",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.431667 43.519444)",
+      "capacity": "35000",
+      "enwiki": "https://en.wikipedia.org/wiki/HNK_Hajduk_Split",
+      "website": "https://hajduk.hr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/HNK%20Hajduk%20Split%20logo.svg",
+      "clubLabel": "HNK Hajduk Split",
+      "stadiumLabel": "Stadion Poljud"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q318969",
+      "stadium": "http://www.wikidata.org/entity/Q1277056",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(14.380959 45.339202)",
+      "capacity": "12600",
+      "enwiki": "https://en.wikipedia.org/wiki/HNK_Rijeka",
+      "website": "https://nk-rijeka.hr/",
+      "clubLabel": "HNK Rijeka",
+      "stadiumLabel": "Stadion Kantrida"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q368909",
+      "stadium": "http://www.wikidata.org/entity/Q3442471",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.834722 46.166111)",
+      "capacity": "4000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Slaven_Belupo",
+      "website": "https://nk-slaven-belupo.hr/",
+      "clubLabel": "NK Slaven Belupo",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q725916",
+      "stadium": "http://www.wikidata.org/entity/Q955357",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(13.851561 44.861565)",
+      "capacity": "9200",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Istra_1961",
+      "website": "https://nkistra.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/NKIstra1961%20logo.svg",
+      "clubLabel": "NK Istra 1961",
+      "stadiumLabel": "Stadion Aldo Drosina"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q738876",
+      "stadium": "http://www.wikidata.org/entity/Q96398285",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.6575 45.566388888)",
+      "capacity": "13005",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Osijek",
+      "website": "https://nk-osijek.hr/",
+      "clubLabel": "NK Osijek",
+      "stadiumLabel": "Opus Arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q918425",
+      "stadium": "http://www.wikidata.org/entity/Q723603",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.018077777 45.818858333)",
+      "capacity": "60000",
+      "enwiki": "https://en.wikipedia.org/wiki/HNK_Gorica",
+      "website": "https://www.hnk-gorica.hr/",
+      "clubLabel": "HNK Gorica",
+      "stadiumLabel": "Stadion Maksimir"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q918425",
+      "stadium": "http://www.wikidata.org/entity/Q7596329",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.0732 45.724)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/HNK_Gorica",
+      "website": "https://www.hnk-gorica.hr/",
+      "clubLabel": "HNK Gorica",
+      "stadiumLabel": "Stadion Radnik"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q959086",
+      "stadium": "http://www.wikidata.org/entity/Q723603",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.018077777 45.818858333)",
+      "capacity": "60000",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Lokomotiva_Zagreb",
+      "website": "https://nklokomotiva.hr/",
+      "clubLabel": "NK Lokomotiva",
+      "stadiumLabel": "Stadion Maksimir"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6954589",
+      "stadium": "http://www.wikidata.org/entity/Q3443105",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(15.960833 45.804722)",
+      "capacity": "8850",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Rude%C5%A1",
+      "website": "https://nk-rudes.hr/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/NK%20Rude%C5%A1%20logo%20%282019%29.svg",
+      "clubLabel": "NK Rudeš",
+      "stadiumLabel": "Stadion Kranjčevićeva"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q16958147",
+      "stadium": "http://www.wikidata.org/entity/Q2001923",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(16.344166666 46.293333333)",
+      "capacity": "10800",
+      "enwiki": "https://en.wikipedia.org/wiki/NK_Vara%C5%BEdin_(2012)",
+      "website": "http://www.nk-varazdin.hr/",
+      "clubLabel": "NK Varaždin ŠN",
+      "stadiumLabel": "Stadion Varteks"
+    }
+  ]
+}

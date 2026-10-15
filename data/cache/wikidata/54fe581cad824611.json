@@ -1,173 +1,173 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q259029 wd:Q260559 wd:Q306797 wd:Q538793 wd:Q725332 wd:Q863273 wd:Q1140076 wd:Q1394197 wd:Q1483030 wd:Q1558294 wd:Q1585149 wd:Q1662983 wd:Q113517265 wd:Q113536815 wd:Q113628485 wd:Q116950171 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T07:42:53.860Z",
+  "fetchedAt": "2026-10-15T07:30:06.889Z",
   "rows": [
     {
+      "club": "http://www.wikidata.org/entity/Q116950171",
+      "enwiki": "https://en.wikipedia.org/wiki/Nordic_United_FC",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordic%20United%20FC%20logo.svg",
+      "clubLabel": "Nordic United FC"
+    },
+    {
       "club": "http://www.wikidata.org/entity/Q259029",
+      "enwiki": "https://en.wikipedia.org/wiki/Ljungskile_SK",
+      "clubLabel": "Ljungskile SK",
       "stadium": "http://www.wikidata.org/entity/Q935604",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(11.94388889 58.21666667)",
       "capacity": "6000",
-      "enwiki": "https://en.wikipedia.org/wiki/Ljungskile_SK",
       "website": "http://www.lsk.se/",
-      "clubLabel": "Ljungskile SK",
       "stadiumLabel": "Skarsjövallen"
     },
     {
       "club": "http://www.wikidata.org/entity/Q260559",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%96rebro_SK",
+      "clubLabel": "Örebro SK",
       "stadium": "http://www.wikidata.org/entity/Q814577",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(15.22305556 59.26611111)",
       "capacity": "12674",
-      "enwiki": "https://en.wikipedia.org/wiki/%C3%96rebro_SK",
       "website": "https://www.oskfotboll.se",
-      "clubLabel": "Örebro SK",
       "stadiumLabel": "Behrn Arena"
     },
     {
       "club": "http://www.wikidata.org/entity/Q306797",
+      "enwiki": "https://en.wikipedia.org/wiki/%C3%96stersunds_FK",
+      "clubLabel": "Östersunds FK",
       "stadium": "http://www.wikidata.org/entity/Q3435821",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(14.655833333 63.194722222)",
       "capacity": "9165",
-      "enwiki": "https://en.wikipedia.org/wiki/%C3%96stersunds_FK",
       "website": "https://ostersundsfk.se/",
-      "clubLabel": "Östersunds FK",
       "stadiumLabel": "Jämtkraft Arena"
     },
     {
       "club": "http://www.wikidata.org/entity/Q538793",
+      "enwiki": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo",
+      "clubLabel": "IFK Värnamo",
       "stadium": "http://www.wikidata.org/entity/Q5450905",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(14.04280556 57.19591667)",
       "capacity": "5000",
-      "enwiki": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo",
       "website": "https://ifkvarnamo.se/",
-      "clubLabel": "IFK Värnamo",
       "stadiumLabel": "Finnvedsvallen"
     },
     {
       "club": "http://www.wikidata.org/entity/Q725332",
+      "enwiki": "https://en.wikipedia.org/wiki/GIF_Sundsvall",
+      "clubLabel": "GIF Sundsvall",
       "stadium": "http://www.wikidata.org/entity/Q1780359",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(17.301111111 62.394166666)",
       "capacity": "8500",
-      "enwiki": "https://en.wikipedia.org/wiki/GIF_Sundsvall",
       "website": "http://gifsundsvall.se/",
-      "clubLabel": "GIF Sundsvall",
       "stadiumLabel": "NP3 Arena"
     },
     {
       "club": "http://www.wikidata.org/entity/Q863273",
+      "enwiki": "https://en.wikipedia.org/wiki/Landskrona_BoIS",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Landskrona%20BoIS.svg",
+      "clubLabel": "Landskrona BoIS",
       "stadium": "http://www.wikidata.org/entity/Q739184",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(12.83761111 55.88993333)",
       "capacity": "10000",
-      "enwiki": "https://en.wikipedia.org/wiki/Landskrona_BoIS",
       "website": "https://landskronabois.se/",
-      "clubLabel": "Landskrona BoIS",
-      "stadiumLabel": "Landskrona IP",
-      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Landskrona%20BoIS.svg"
+      "stadiumLabel": "Landskrona IP"
     },
     {
       "club": "http://www.wikidata.org/entity/Q1140076",
+      "enwiki": "https://en.wikipedia.org/wiki/IK_Brage",
+      "clubLabel": "IK Brage",
       "stadium": "http://www.wikidata.org/entity/Q1238576",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(15.434166666 60.495)",
       "capacity": "6500",
-      "enwiki": "https://en.wikipedia.org/wiki/IK_Brage",
       "website": "http://ikbrage.se/",
-      "clubLabel": "IK Brage",
       "stadiumLabel": "Domnarvsvallen"
     },
     {
       "club": "http://www.wikidata.org/entity/Q1394197",
+      "enwiki": "https://en.wikipedia.org/wiki/Falkenbergs_FF",
+      "clubLabel": "Falkenbergs FF",
       "stadium": "http://www.wikidata.org/entity/Q23807273",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(12.511555555 56.893972222)",
       "capacity": "5500",
-      "enwiki": "https://en.wikipedia.org/wiki/Falkenbergs_FF",
       "website": "https://falkenbergsff.se/",
-      "clubLabel": "Falkenbergs FF",
       "stadiumLabel": "Falcon Alkoholfri Arena"
     },
     {
       "club": "http://www.wikidata.org/entity/Q1483030",
+      "enwiki": "https://en.wikipedia.org/wiki/IK_Oddevold",
+      "clubLabel": "IK Oddevold",
       "stadium": "http://www.wikidata.org/entity/Q1851916",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(11.95 58.35666667)",
       "capacity": "12000",
-      "enwiki": "https://en.wikipedia.org/wiki/IK_Oddevold",
       "website": "https://oddevold.se/",
-      "clubLabel": "IK Oddevold",
       "stadiumLabel": "Rimnersvallen"
     },
     {
       "club": "http://www.wikidata.org/entity/Q1558294",
+      "enwiki": "https://en.wikipedia.org/wiki/Norrby_IF",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Norrby%20IF%20logo.svg",
+      "clubLabel": "Norrby IF",
       "stadium": "http://www.wikidata.org/entity/Q627087",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(12.934334 57.73457)",
       "capacity": "16200",
-      "enwiki": "https://en.wikipedia.org/wiki/Norrby_IF",
       "website": "https://www.norrbyif.se/",
-      "clubLabel": "Norrby IF",
-      "stadiumLabel": "Borås Arena",
-      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Norrby%20IF%20logo.svg"
+      "stadiumLabel": "Borås Arena"
     },
     {
       "club": "http://www.wikidata.org/entity/Q1585149",
+      "enwiki": "https://en.wikipedia.org/wiki/Varbergs_BoIS",
+      "clubLabel": "Varbergs BoIS FC",
       "stadium": "http://www.wikidata.org/entity/Q7264643",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(12.2654 57.0983)",
       "capacity": "4500",
-      "enwiki": "https://en.wikipedia.org/wiki/Varbergs_BoIS",
       "website": "https://boisfc.nu/",
-      "clubLabel": "Varbergs BoIS FC",
       "stadiumLabel": "Påskbergsvallen"
     },
     {
       "club": "http://www.wikidata.org/entity/Q1662983",
+      "enwiki": "https://en.wikipedia.org/wiki/Sandvikens_IF",
+      "clubLabel": "Sandvikens IF",
       "stadium": "http://www.wikidata.org/entity/Q1631393",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(16.773055555 60.608888888)",
       "capacity": "7000",
-      "enwiki": "https://en.wikipedia.org/wiki/Sandvikens_IF",
       "website": "https://www.sandvikensiffotboll.se/",
-      "clubLabel": "Sandvikens IF",
       "stadiumLabel": "Jernvallen"
     },
     {
       "club": "http://www.wikidata.org/entity/Q113517265",
+      "clubLabel": "Östers IF",
       "stadium": "http://www.wikidata.org/entity/Q1583034",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(14.776388888 56.879722222)",
       "capacity": "12000",
-      "clubLabel": "Östers IF",
       "stadiumLabel": "Spiris Arena"
     },
     {
       "club": "http://www.wikidata.org/entity/Q113536815",
+      "clubLabel": "IFK Norrköping FK",
       "stadium": "http://www.wikidata.org/entity/Q571624",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(16.173055555 58.584166666)",
       "capacity": "17234",
-      "clubLabel": "IFK Norrköping FK",
       "stadiumLabel": "Idrottsparken"
     },
     {
       "club": "http://www.wikidata.org/entity/Q113628485",
+      "clubLabel": "Helsingborgs IF",
       "stadium": "http://www.wikidata.org/entity/Q638087",
       "rank": "http://wikiba.se/ontology#NormalRank",
       "coord": "Point(12.706944444 56.049444444)",
       "capacity": "16000",
-      "clubLabel": "Helsingborgs IF",
       "stadiumLabel": "Olympia"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q116950171",
-      "enwiki": "https://en.wikipedia.org/wiki/Nordic_United_FC",
-      "clubLabel": "Nordic United FC",
-      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordic%20United%20FC%20logo.svg"
     }
   ]
 }

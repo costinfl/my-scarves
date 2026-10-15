@@ -1,0 +1,150 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q2123289 wd:Q754310 wd:Q5426131 wd:Q3063273 wd:Q218724 wd:Q1388917 wd:Q4863629 wd:Q687178 wd:Q843210 wd:Q140302346 wd:Q421940 wd:Q94605 wd:Q2184917 wd:Q828297 wd:Q1389125 wd:Q61130291 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:30:36.664Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q828297",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_TSC",
+      "website": "https://www.fktsc.com/",
+      "clubLabel": "FK TSC"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1388917",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Jedinstvo_Ub",
+      "clubLabel": "FK Jedinstvo Ub"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2123289",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Bor_1919",
+      "website": "https://fkbor1919.rs",
+      "clubLabel": "FK Bor"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3063273",
+      "enwiki": "https://en.wikipedia.org/wiki/RFK_Grafi%C4%8Dar_Beograd",
+      "website": "https://www.fkgraficar.com/",
+      "clubLabel": "RFK Grafičar Beograd"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q4863629",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Loznica",
+      "website": "http://www.fkloznica.rs/",
+      "clubLabel": "FK Loznica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426131",
+      "enwiki": "https://en.wikipedia.org/wiki/GFK_Dubo%C4%8Dica",
+      "clubLabel": "GFK Dubočica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q61130291",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Vr%C5%A1ac",
+      "website": "https://ofkvrsac.com/",
+      "clubLabel": "OFK Vršac"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q140302346",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Proleter_023",
+      "clubLabel": "FK Proleter 023"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q94605",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Spartak_Subotica",
+      "website": "https://fkspartak.com/",
+      "clubLabel": "FK Spartak Subotica",
+      "stadium": "http://www.wikidata.org/entity/Q3435895",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.676958 46.081781)",
+      "capacity": "13000",
+      "stadiumLabel": "Subotica City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q218724",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Javor_Ivanjica",
+      "website": "https://fkjavor.com/",
+      "clubLabel": "FK Javor Ivanjica",
+      "stadium": "http://www.wikidata.org/entity/Q3435888",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.227239 43.586122)",
+      "capacity": "5000",
+      "stadiumLabel": "Javor Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q421940",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Smederevo_1924",
+      "website": "http://www.fksmederevo.com/",
+      "clubLabel": "FK Smederevo 1924",
+      "stadium": "http://www.wikidata.org/entity/Q3435028",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.901733 44.660633)",
+      "capacity": "17200",
+      "stadiumLabel": "Smederevo City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q687178",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Metalac_Gornji_Milanovac",
+      "website": "http://www.fkmetalac.rs",
+      "clubLabel": "FK Metalac Gornji Milanovac",
+      "stadium": "http://www.wikidata.org/entity/Q5249969",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.45 44.03333333)",
+      "capacity": "4500",
+      "stadiumLabel": "Metalac Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q754310",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Borac_1926",
+      "website": "http://www.boracfk.com",
+      "clubLabel": "FK Borac Čačak",
+      "stadium": "http://www.wikidata.org/entity/Q3440635",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.341406 43.897819)",
+      "capacity": "8000",
+      "stadiumLabel": "Čačak Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q843210",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Napredak_Kru%C5%A1evac",
+      "website": "https://fknapredak.rs/",
+      "clubLabel": "FK Napredak Kruševac",
+      "stadium": "http://www.wikidata.org/entity/Q3435068",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.338122 43.583114)",
+      "capacity": "10331",
+      "stadiumLabel": "Stadion Mladost"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1389125",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Vo%C5%BEdovac",
+      "website": "https://fkvozdovac.rs/",
+      "clubLabel": "FK Voždovac",
+      "stadium": "http://www.wikidata.org/entity/Q7942542",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.4902 44.7749)",
+      "capacity": "5200",
+      "stadiumLabel": "Voždovac Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2184917",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Teleoptik",
+      "website": "https://fcteleoptik.rs",
+      "clubLabel": "FK Teleoptik",
+      "stadium": "http://www.wikidata.org/entity/Q7389386",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.3824536 44.8524527)",
+      "capacity": "2000",
+      "stadiumLabel": "SC Partizan-Teleoptik"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2184917",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Teleoptik",
+      "website": "http://www.teleoptikfc.rs/",
+      "clubLabel": "FK Teleoptik",
+      "stadium": "http://www.wikidata.org/entity/Q7389386",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.3824536 44.8524527)",
+      "capacity": "2000",
+      "stadiumLabel": "SC Partizan-Teleoptik"
+    }
+  ]
+}

@@ -89,10 +89,11 @@
       "league": "Q326859",
       "name": "Azerbaijan Premier League",
       "status": "ok",
-      "clubs": 12,
-      "stadiums": 14,
+      "clubs": 11,
+      "stadiums": 13,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Azerbaijan_Premier_League"
     },
     {
       "league": "Q246175",
@@ -131,18 +132,20 @@
       "name": "Premier League of Bosnia and Herzegovina",
       "status": "ok",
       "clubs": 10,
-      "stadiums": 9,
+      "stadiums": 8,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League_of_Bosnia_and_Herzegovina"
     },
     {
       "league": "Q1361966",
       "name": "First League of the Federation of Bosnia and Herzegovina",
       "status": "ok",
-      "clubs": 24,
-      "stadiums": 7,
+      "clubs": 16,
+      "stadiums": 8,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/First_League_of_the_Federation_of_Bosnia_and_Herzegovina"
     },
     {
       "league": "Q1361974",
@@ -181,11 +184,12 @@
       "name": "First Professional Football League",
       "status": "ok",
       "clubs": 14,
-      "stadiums": 15,
+      "stadiums": 14,
       "excluded": [
         "PFC Ludogorets Razgrad II (Q20718281), part of club Q1339086 (P831)"
       ],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_First_Professional_Football_League_(Bulgaria)"
     },
     {
       "league": "Q797414",
@@ -205,9 +209,10 @@
       "name": "Croatian Football League",
       "status": "ok",
       "clubs": 10,
-      "stadiums": 8,
+      "stadiums": 9,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Croatian_Football_League"
     },
     {
       "league": "Q209967",
@@ -225,9 +230,10 @@
       "name": "Cypriot First Division",
       "status": "ok",
       "clubs": 14,
-      "stadiums": 10,
+      "stadiums": 8,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cypriot_First_Division"
     },
     {
       "league": "Q2186582",
@@ -357,21 +363,24 @@
       "league": "Q220875",
       "name": "Veikkausliiga",
       "status": "ok",
-      "clubs": 13,
-      "stadiums": 13,
+      "clubs": 12,
+      "stadiums": 12,
       "excluded": [
+        "Klubi-04 (Q2106369), part of club Q208584 (P831)",
         "SJK Akatemia (Q11870986), part of club Q2185704 (P831)"
       ],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Veikkausliiga"
     },
     {
       "league": "Q384536",
       "name": "Ykkösliiga",
       "status": "ok",
-      "clubs": 14,
-      "stadiums": 10,
+      "clubs": 9,
+      "stadiums": 5,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Ykk%C3%B6sliiga"
     }
   ],
   "FRA": [
@@ -474,10 +483,9 @@
       "status": "ok",
       "clubs": 14,
       "stadiums": 14,
-      "excluded": [
-        "Asteras Tripolis (Q135213959), part of club Q757320 (P831)"
-      ],
-      "source": "memberships"
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Super_League_Greece"
     },
     {
       "league": "Q63980269",
@@ -489,7 +497,8 @@
         "Olympiacos B (Q107410262)",
         "P.A.O.K. F.C. B (Q107849577)"
       ],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Super_League_Greece_2"
     }
   ],
   "HUN": [
@@ -497,10 +506,11 @@
       "league": "Q276085",
       "name": "Nemzeti Bajnokság I",
       "status": "ok",
-      "clubs": 13,
-      "stadiums": 12,
+      "clubs": 12,
+      "stadiums": 11,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Nemzeti_Bajnoks%C3%A1g_I"
     },
     {
       "league": "Q732721",
@@ -560,19 +570,21 @@
       "league": "Q477309",
       "name": "Israeli Premier League",
       "status": "ok",
-      "clubs": 15,
-      "stadiums": 11,
+      "clubs": 14,
+      "stadiums": 10,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Israeli_Premier_League"
     },
     {
       "league": "Q1824581",
       "name": "Liga Leumit",
       "status": "ok",
-      "clubs": 23,
-      "stadiums": 18,
+      "clubs": 15,
+      "stadiums": 11,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liga_Leumit"
     }
   ],
   "ITA": [
@@ -602,10 +614,11 @@
       "league": "Q326422",
       "name": "Kazakhstan Premier League",
       "status": "ok",
-      "clubs": 16,
-      "stadiums": 13,
+      "clubs": 15,
+      "stadiums": 12,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Kazakhstan_Premier_League"
     },
     {
       "league": "Q1361963",
@@ -982,19 +995,21 @@
       "league": "Q235307",
       "name": "Serbian SuperLiga",
       "status": "ok",
-      "clubs": 14,
-      "stadiums": 13,
+      "clubs": 13,
+      "stadiums": 11,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serbian_SuperLiga"
     },
     {
       "league": "Q1813595",
       "name": "Serbian First League",
       "status": "ok",
-      "clubs": 25,
-      "stadiums": 13,
+      "clubs": 16,
+      "stadiums": 8,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serbian_First_League"
     }
   ],
   "SUI": [
@@ -1024,20 +1039,22 @@
       "name": "Slovak First Football League",
       "status": "ok",
       "clubs": 12,
-      "stadiums": 11,
-      "excluded": [
-        "FC Petržalka (Q21685523), duplicate item of Q39877"
-      ],
-      "source": "memberships"
+      "stadiums": 10,
+      "excluded": [],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Slovak_First_Football_League"
     },
     {
       "league": "Q209946",
       "name": "Slovak Second Football League",
       "status": "ok",
-      "clubs": 13,
-      "stadiums": 11,
-      "excluded": [],
-      "source": "memberships"
+      "clubs": 15,
+      "stadiums": 10,
+      "excluded": [
+        "ŠK Slovan Bratislava B (Q129261276)"
+      ],
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Liga_(Slovakia)"
     }
   ],
   "SVN": [
@@ -1045,10 +1062,11 @@
       "league": "Q275005",
       "name": "Slovenian PrvaLiga",
       "status": "ok",
-      "clubs": 9,
+      "clubs": 10,
       "stadiums": 8,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Slovenian_PrvaLiga"
     },
     {
       "league": "Q2548558",

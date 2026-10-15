@@ -1,0 +1,150 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q737714 wd:Q1138191 wd:Q18126320 wd:Q124487430 wd:Q1513003 wd:Q15223662 wd:Q761583 wd:Q6585084 wd:Q2347701 wd:Q1584246 wd:Q18352179 wd:Q1580781 wd:Q106750915 wd:Q1632362 wd:Q2012138 wd:Q773362 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:31:48.339Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q737714",
+      "stadium": "http://www.wikidata.org/entity/Q5681617",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.786956 32.049986)",
+      "capacity": "2700",
+      "enwiki": "https://en.wikipedia.org/wiki/Bnei_Yehuda_Tel_Aviv_F.C.",
+      "website": "https://bneiyehuda.co.il/",
+      "clubLabel": "Bnei Yehuda Tel Aviv F.C.",
+      "stadiumLabel": "Hatikva Neighborhood Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q761583",
+      "stadium": "http://www.wikidata.org/entity/Q6535697",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.927071 32.181115)",
+      "capacity": "5800",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Kfar_Saba_F.C.",
+      "clubLabel": "Hapoel Kfar Saba F.C.",
+      "stadiumLabel": "Levita Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1138191",
+      "stadium": "http://www.wikidata.org/entity/Q2909196",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.6483 31.8103)",
+      "capacity": "7800",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Ashdod",
+      "website": "https://www.fcashdod.co.il/",
+      "clubLabel": "F.C. Ashdod",
+      "stadiumLabel": "Yud-Alef Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1513003",
+      "stadium": "http://www.wikidata.org/entity/Q3525082",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.086067 32.907897)",
+      "capacity": "5000",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Acre_F.C.",
+      "clubLabel": "Hapoel Acre F.C.",
+      "stadiumLabel": "Acre Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1580781",
+      "stadium": "http://www.wikidata.org/entity/Q14012891",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.265769 32.720903)",
+      "capacity": "4932",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Akhi_Nazareth_F.C.",
+      "clubLabel": "Maccabi Ahi Nazareth F.C.",
+      "stadiumLabel": "Ilut Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1584246",
+      "stadium": "http://www.wikidata.org/entity/Q641841",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.752839 31.974994)",
+      "capacity": "6000",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Rishon_LeZion_F.C.",
+      "clubLabel": "Hapoel Rishon LeZion F.C.",
+      "stadiumLabel": "Haberfeld Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1632362",
+      "stadium": "http://www.wikidata.org/entity/Q2907177",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.824793 32.167839)",
+      "capacity": "8300",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Herzliya_F.C.",
+      "website": "http://www.maccabiherzeliya.com/",
+      "clubLabel": "Maccabi Herzliya F.C.",
+      "stadiumLabel": "Herzliya Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2347701",
+      "stadium": "http://www.wikidata.org/entity/Q6372931",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.872503 32.186536)",
+      "capacity": "2500",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Ra%27anana_A.F.C.",
+      "clubLabel": "Hapoel Ra'anana A.F.C.",
+      "stadiumLabel": "Karnei Oren Memorial Field"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q6585084",
+      "stadium": "http://www.wikidata.org/entity/Q5681617",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.786956 32.049986)",
+      "capacity": "2700",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Kfar_Shalem_F.C.",
+      "clubLabel": "Hapoel Kfar Shalem F.C.",
+      "stadiumLabel": "Hatikva Neighborhood Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q15223662",
+      "stadium": "http://www.wikidata.org/entity/Q15178279",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(35.317111111 32.627388888)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/Hapoel_Afula_F.C.",
+      "clubLabel": "Hapoel Afula F.C.",
+      "stadiumLabel": "Afula Illit Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18126320",
+      "stadium": "http://www.wikidata.org/entity/Q20670731",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.893166666 31.93925)",
+      "capacity": "3000",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Kafr_Qasim",
+      "clubLabel": "F.C. Kafr Qasim",
+      "stadiumLabel": "Lod Municipal Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18126320",
+      "stadium": "http://www.wikidata.org/entity/Q24911792",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(34.96583333 32.12583333)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Kafr_Qasim",
+      "clubLabel": "F.C. Kafr Qasim",
+      "stadiumLabel": "Kfar Qassem Football Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2012138",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Kiryat_Gat_F.C.",
+      "website": "http://www.mkg.co.il/",
+      "clubLabel": "Maccabi Kiryat Gat F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18352179",
+      "enwiki": "https://en.wikipedia.org/wiki/Ironi_Modi%27in_F.C.",
+      "clubLabel": "Ironi Modi'in F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q106750915",
+      "enwiki": "https://en.wikipedia.org/wiki/Maccabi_Bnei_Reineh_F.C.",
+      "clubLabel": "Maccabi Bnei Reineh F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q124487430",
+      "enwiki": "https://en.wikipedia.org/wiki/F.C._Kiryat_Yam",
+      "clubLabel": "F.C. Kiryat Yam"
+    }
+  ]
+}

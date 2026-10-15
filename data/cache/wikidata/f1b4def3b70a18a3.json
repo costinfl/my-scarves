@@ -1,0 +1,160 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q841378 wd:Q33501180 wd:Q921158 wd:Q5426448 wd:Q535121 wd:Q757110 wd:Q629843 wd:Q192253 wd:Q459218 wd:Q223264 wd:Q3174200 wd:Q209640 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:31:16.775Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q192253",
+      "stadium": "http://www.wikidata.org/entity/Q392305",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.141111 48.166111)",
+      "capacity": "13000",
+      "enwiki": "https://en.wikipedia.org/wiki/%C5%A0K_Slovan_Bratislava",
+      "website": "https://www.skslovan.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/SK%20Slovan%20Bratislava%20logo.svg",
+      "clubLabel": "ŠK Slovan Bratislava",
+      "stadiumLabel": "Štadión Pasienky"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q209640",
+      "stadium": "http://www.wikidata.org/entity/Q392323",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.744722 49.229167)",
+      "capacity": "11258",
+      "enwiki": "https://en.wikipedia.org/wiki/M%C5%A0K_%C5%BDilina",
+      "website": "https://www.mskzilina.sk/",
+      "clubLabel": "MŠK Žilina",
+      "stadiumLabel": "Štadión MŠK Žilina"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q223264",
+      "stadium": "http://www.wikidata.org/entity/Q392313",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.04472222 48.89861111)",
+      "capacity": "4300",
+      "enwiki": "https://en.wikipedia.org/wiki/AS_Tren%C4%8D%C3%ADn",
+      "website": "https://www.astn.sk/",
+      "clubLabel": "FK AS Trenčín",
+      "stadiumLabel": "Štadión na Sihoti"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q459218",
+      "stadium": "http://www.wikidata.org/entity/Q392291",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.591667 48.373333)",
+      "capacity": "19200",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Spartak_Trnava",
+      "website": "https://fcspartaktrnava.com/",
+      "clubLabel": "FC Spartak Trnava",
+      "stadiumLabel": "Štadión Antona Malatinského"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q535121",
+      "stadium": "http://www.wikidata.org/entity/Q7596486",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.535 48.8167)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%BDeleziarne_Podbrezov%C3%A1",
+      "website": "http://www.zpfutbal.sk/",
+      "clubLabel": "ŽP Šport Podbrezová",
+      "stadiumLabel": "Stadium Kolkáreň"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q629843",
+      "stadium": "http://www.wikidata.org/entity/Q20741110",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.22668611 48.83953611)",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Skalica",
+      "website": "https://www.mfkskalica.sk/",
+      "clubLabel": "MFK Skalica",
+      "stadiumLabel": "Mestský štadión Skalica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q757110",
+      "stadium": "http://www.wikidata.org/entity/Q392295",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.28388889 49.0825)",
+      "capacity": "4817",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Ru%C5%BEomberok",
+      "website": "https://www.mfkruzomberok.sk/",
+      "clubLabel": "MFK Ružomberok",
+      "stadiumLabel": "Štadión MFK Ružomberok"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q841378",
+      "stadium": "http://www.wikidata.org/entity/Q1924593",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(17.61833333 47.99888889)",
+      "capacity": "16410",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_DAC_1904_Dunajsk%C3%A1_Streda",
+      "website": "http://www.fcdac1904.com/",
+      "clubLabel": "FC DAC 1904 Dunajská Streda",
+      "stadiumLabel": "MOL Aréna"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3174200",
+      "stadium": "http://www.wikidata.org/entity/Q6379120",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.9083 48.7428)",
+      "capacity": "4440",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Zempl%C3%ADn_Michalovce",
+      "website": "https://mfkzemplin.sk/",
+      "clubLabel": "MFK Zemplín Michalovce",
+      "stadiumLabel": "Zemplin Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3174200",
+      "stadium": "http://www.wikidata.org/entity/Q6379120",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.936230555 48.750061111)",
+      "capacity": "4440",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Zempl%C3%ADn_Michalovce",
+      "website": "https://mfkzemplin.sk/",
+      "clubLabel": "MFK Zemplín Michalovce",
+      "stadiumLabel": "Zemplin Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3174200",
+      "stadium": "http://www.wikidata.org/entity/Q6379120",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.9083 48.7428)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Zempl%C3%ADn_Michalovce",
+      "website": "https://mfkzemplin.sk/",
+      "clubLabel": "MFK Zemplín Michalovce",
+      "stadiumLabel": "Zemplin Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q3174200",
+      "stadium": "http://www.wikidata.org/entity/Q6379120",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.936230555 48.750061111)",
+      "capacity": "4500",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Zempl%C3%ADn_Michalovce",
+      "website": "https://mfkzemplin.sk/",
+      "clubLabel": "MFK Zemplín Michalovce",
+      "stadiumLabel": "Zemplin Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426448",
+      "stadium": "http://www.wikidata.org/entity/Q105515105",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.245277777 48.696666666)",
+      "capacity": "12555",
+      "enwiki": "https://en.wikipedia.org/wiki/FC_Ko%C5%A1ice",
+      "website": "https://www.fckosice.sk",
+      "clubLabel": "FC Košice",
+      "stadiumLabel": "Košice football arena"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q921158",
+      "enwiki": "https://en.wikipedia.org/wiki/KFC_Kom%C3%A1rno",
+      "website": "http://www.kfckomarno.sk/",
+      "clubLabel": "KFC Komárno"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q33501180",
+      "enwiki": "https://en.wikipedia.org/wiki/MFK_Dukla_Bansk%C3%A1_Bystrica",
+      "clubLabel": "MFK Dukla Banská Bystrica"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q116909 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q116909 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:13:33.043Z",
+  "fetchedAt": "2026-10-15T07:33:40.065Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Kategoria_e_Par%C3%AB",

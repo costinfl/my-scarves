@@ -1,0 +1,154 @@
+{
+  "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q173009 wd:Q213161 wd:Q31181880 wd:Q2614598 wd:Q1945740 wd:Q995069 wd:Q209619 wd:Q188656 wd:Q421665 wd:Q1137993 wd:Q5426356 wd:Q207501 wd:Q1323373 wd:Q12760457 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
+  "fetchedAt": "2026-10-15T07:30:31.966Z",
+  "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q173009",
+      "stadium": "http://www.wikidata.org/entity/Q478000",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.464722222 44.783333333)",
+      "capacity": "55538",
+      "enwiki": "https://en.wikipedia.org/wiki/Red_Star_Belgrade",
+      "website": "http://www.crvenazvezdafk.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Star%20Belgrade%20crest.svg",
+      "clubLabel": "FK Crvena zvezda",
+      "stadiumLabel": "Rajko Mitić Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q188656",
+      "stadium": "http://www.wikidata.org/entity/Q1123407",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.459167 44.788611)",
+      "capacity": "32710",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Partizan",
+      "website": "https://partizan.rs/",
+      "clubLabel": "FK Partizan",
+      "stadiumLabel": "Partizan Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q207501",
+      "stadium": "http://www.wikidata.org/entity/Q1782654",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.842222 45.246667)",
+      "capacity": "14458",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Vojvodina",
+      "website": "https://www.fkvojvodina.rs/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20FK%20Vojvodina.svg",
+      "clubLabel": "FK Vojvodina",
+      "stadiumLabel": "Karađorđe Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q209619",
+      "stadium": "http://www.wikidata.org/entity/Q2749462",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.494047 44.815456)",
+      "capacity": "19100",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Beograd",
+      "website": "http://www.ofkbeograd.co.rs",
+      "clubLabel": "OFK Beograd",
+      "stadiumLabel": "Omladinski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q213161",
+      "stadium": "http://www.wikidata.org/entity/Q3440669",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.421639 44.772658)",
+      "capacity": "4070",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C4%8Cukari%C4%8Dki",
+      "website": "https://www.fkcukaricki.com/",
+      "clubLabel": "FK Čukarički",
+      "stadiumLabel": "Stadion Čukarički"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q421665",
+      "stadium": "http://www.wikidata.org/entity/Q3335099",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.899194 44.020872)",
+      "capacity": "15100",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_1923",
+      "website": "http://www.fkradnicki.com/",
+      "clubLabel": "FK Radnički 1923",
+      "stadiumLabel": "Čika Dača Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q995069",
+      "stadium": "http://www.wikidata.org/entity/Q6593856",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.516067 43.134236)",
+      "capacity": "12000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Novi_Pazar",
+      "website": "https://fknovipazar.rs/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Fk-novi-pazar-logo.svg",
+      "clubLabel": "FK Novi Pazar",
+      "stadiumLabel": "Novi Pazar City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1137993",
+      "stadium": "http://www.wikidata.org/entity/Q2326167",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(21.908533 43.315528)",
+      "capacity": "18151",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_Ni%C5%A1",
+      "website": "https://fkradnickinis.rs/",
+      "clubLabel": "FK Radnički Niš",
+      "stadiumLabel": "Čair Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1323373",
+      "stadium": "http://www.wikidata.org/entity/Q2743782",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.397972 44.847942)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Zemun",
+      "website": "https://fkzemun.com",
+      "clubLabel": "FK Zemun",
+      "stadiumLabel": "Zemun Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1945740",
+      "stadium": "http://www.wikidata.org/entity/Q13567334",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.132608 43.860014)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Mladost_Lu%C4%8Dani",
+      "website": "http://www.fkmladostlucani.com/",
+      "clubLabel": "FK Mladost Lučani",
+      "stadiumLabel": "Mladost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1945740",
+      "stadium": "http://www.wikidata.org/entity/Q13567334",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(20.132608333 43.860013888)",
+      "capacity": "8000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Mladost_Lu%C4%8Dani",
+      "website": "http://www.fkmladostlucani.com/",
+      "clubLabel": "FK Mladost Lučani",
+      "stadiumLabel": "Mladost Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426356",
+      "stadium": "http://www.wikidata.org/entity/Q25346100",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(22.1666 42.6833)",
+      "capacity": "3312",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radnik_Surdulica",
+      "website": "https://www.fk-radnik.com/",
+      "clubLabel": "FK Radnik Surdulica",
+      "stadiumLabel": "Surdulica City Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q2614598",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Ma%C4%8Dva_%C5%A0abac",
+      "website": "http://www.fkmacva.com/",
+      "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Macva-logo.gif",
+      "clubLabel": "FK Mačva Šabac"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q12760457",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_%C5%BDelezni%C4%8Dar_Pan%C4%8Devo",
+      "website": "https://fkzeleznicar.rs/",
+      "clubLabel": "FK Železničar Pančevo"
+    }
+  ]
+}

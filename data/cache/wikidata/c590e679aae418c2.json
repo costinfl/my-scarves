@@ -1,0 +1,126 @@
+{
+  "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q1361966 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q1361966 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
+  "fetchedAt": "2026-10-15T07:32:33.782Z",
+  "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_First_League_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_First_League_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_First_League_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_First_League_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_First_League_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_First_League_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2014%E2%80%9315_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2017%E2%80%9318_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2016%E2%80%9317_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2015%E2%80%9316_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+      "kind": "season"
+    }
+  ]
+}

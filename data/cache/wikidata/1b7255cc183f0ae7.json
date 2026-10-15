@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q237181 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q237181 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:13:38.854Z",
+  "fetchedAt": "2026-10-15T07:33:44.529Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Armenian_Premier_League",
@@ -67,6 +67,38 @@
       "kind": "season"
     },
     {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Armenian_Premier_League",
+      "kind": "season"
+    },
+    {
       "article": "https://en.wikipedia.org/wiki/2009_Armenian_Premier_League",
       "kind": "season"
     },
@@ -116,38 +148,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Armenian_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Armenian_Premier_League",
       "kind": "season"
     }
   ]
