@@ -22,7 +22,7 @@ describe('decideHome', () => {
   });
   it('returns the candidates when ambiguous', () => expect(decideHome('IRL', ['NIR', 'ENG'])).toEqual(['ENG', 'NIR']));
 });
-import { findShopLinks, isMarketplace, looksLikeShop, robotsAllows, shouldRecheck, TERMS_VERSION } from './fanshops.ts';
+import { findShopLinks, isMarketplace, keepFanshop, looksLikeShop, robotsAllows, shouldRecheck, TERMS_VERSION } from './fanshops.ts';
 
 describe('trimSentences', () => {
   const text =
@@ -114,6 +114,17 @@ describe('findShopLinks', () => {
     expect(shouldRecheck({ status: 'none', terms: TERMS_VERSION })).toBe(false);
     expect(shouldRecheck({ status: 'unchecked', terms: TERMS_VERSION })).toBe(true);
     expect(shouldRecheck({ status: 'candidate', url: 'https://shop.x' })).toBe(false);
+  });
+
+  it('never lets a new check erase a shop that was already found', () => {
+    const found = { url: 'https://shop.x', status: 'candidate' as const, checkedAt: '2026-10-12' };
+    expect(keepFanshop(found, { status: 'unchecked', note: 'homepage answered 202' })).toBe(found);
+    expect(keepFanshop(found, { status: 'none', terms: TERMS_VERSION })).toBe(found);
+    const moved = { url: 'https://store.x', status: 'candidate' as const };
+    expect(keepFanshop(found, moved)).toBe(moved);
+    const none = { status: 'none' as const, terms: TERMS_VERSION };
+    expect(keepFanshop({ status: 'unchecked' }, none)).toBe(none);
+    expect(keepFanshop(undefined, none)).toBe(none);
   });
 });
 

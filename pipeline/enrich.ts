@@ -8,7 +8,7 @@ import { parseArgs } from 'node:util';
 import { fetchAddress } from './lib/enrich/addresses.ts';
 import { fetchBlurb } from './lib/enrich/blurbs.ts';
 import { palette, wikidataColors } from './lib/enrich/colors.ts';
-import { discoverFanshop, shouldRecheck } from './lib/enrich/fanshops.ts';
+import { discoverFanshop, keepFanshop, shouldRecheck } from './lib/enrich/fanshops.ts';
 import { fetchKit } from './lib/enrich/kits.ts';
 import { findHomes } from './lib/enrich/homes.ts';
 import { fetchLogo } from './lib/enrich/logos.ts';
@@ -52,6 +52,7 @@ async function stage<T>(
   ids: string[],
   compute: (id: string) => Promise<T | undefined>,
   redo: (existing: T) => boolean = () => false,
+  merge: (existing: T | undefined, value: T) => T = (_, value) => value,
 ) {
   if (!stages.includes(name)) return;
   const data = readJson<Record<string, T>>(file, {});
@@ -71,7 +72,7 @@ async function stage<T>(
       console.warn(`  ${name} ${id}: ${e instanceof Error ? e.message : String(e)}`);
     }
     if (value !== undefined) {
-      data[id] = value;
+      data[id] = merge(existing, value);
       added++;
     } else if (!existing) missing++;
     if ((i + 1) % 20 === 0) {
@@ -130,6 +131,7 @@ await stage<FanshopInfo>(
   clubIds.filter((q) => websiteOf.get(q)),
   (qid) => discoverFanshop(websiteOf.get(qid)!, robotsCache),
   shouldRecheck,
+  keepFanshop,
 );
 
 // Cross-border clubs (Swansea in the English pyramid, Vaduz in the Swiss one). Recomputed for the
