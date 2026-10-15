@@ -1,7 +1,11 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q219007 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q219007 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:15:17.521Z",
+  "fetchedAt": "2026-10-15T09:31:38.457Z",
   "rows": [
+    {
+      "article": "https://en.wikipedia.org/wiki/Erovnuli_Liga",
+      "kind": "league"
+    },
     {
       "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Umaglesi_Liga",
       "kind": "season"
@@ -43,8 +47,12 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/Erovnuli_Liga",
-      "kind": "league"
+      "article": "https://en.wikipedia.org/wiki/2025_Erovnuli_Liga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_Erovnuli_Liga",
+      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Umaglesi_Liga",
@@ -80,14 +88,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Umaglesi_Liga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025_Erovnuli_Liga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2026_Erovnuli_Liga",
       "kind": "season"
     },
     {

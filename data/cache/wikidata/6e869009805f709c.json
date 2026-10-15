@@ -1,91 +1,7 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q277945 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q277945 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T17:12:42.142Z",
+  "fetchedAt": "2026-10-15T09:35:19.268Z",
   "rows": [
-    {
-      "article": "https://en.wikipedia.org/wiki/NIFL_Premiership",
-      "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_NIFL_Premiership",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_NIFL_Premiership",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_NIFL_Premiership",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NIFL_Premiership",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Premiership",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1964%E2%80%9365_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1966%E2%80%9367_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1967%E2%80%9368_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1968%E2%80%9369_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Irish_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Irish_League",
-      "kind": "season"
-    },
     {
       "article": "https://en.wikipedia.org/wiki/1934%E2%80%9335_Irish_League",
       "kind": "season"
@@ -148,6 +64,66 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962%E2%80%9363_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1964%E2%80%9365_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1966%E2%80%9367_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1967%E2%80%9368_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1968%E2%80%9369_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1970%E2%80%9371_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1972%E2%80%9373_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1973%E2%80%9374_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1974%E2%80%9375_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1975%E2%80%9376_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1977%E2%80%9378_Irish_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978%E2%80%9379_Irish_League",
       "kind": "season"
     },
     {
@@ -263,6 +239,10 @@
       "kind": "season"
     },
     {
+      "article": "https://en.wikipedia.org/wiki/NIFL_Premiership",
+      "kind": "league"
+    },
+    {
       "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_NIFL_Premiership",
       "kind": "season"
     },
@@ -272,6 +252,26 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_NIFL_Premiership",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_NIFL_Premiership",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_NIFL_Premiership",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_NIFL_Premiership",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NIFL_Premiership",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Premiership",
       "kind": "season"
     },
     {

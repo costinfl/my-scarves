@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q275189 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q275189 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T17:12:15.756Z",
+  "fetchedAt": "2026-10-15T09:34:42.153Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Macedonian_First_Football_League",
@@ -8,6 +8,38 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Macedonian_First_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Macedonian_First_Football_League",
       "kind": "season"
     },
     {
@@ -72,38 +104,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Macedonian_First_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Macedonian_First_Football_League",
       "kind": "season"
     },
     {

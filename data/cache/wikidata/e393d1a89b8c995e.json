@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q3063068 wd:Q591339 wd:Q221752 wd:Q922140 wd:Q773360 wd:Q433541 wd:Q770936 wd:Q1119349 wd:Q933046 wd:Q693092 wd:Q141254292 wd:Q1542781 wd:Q1387792 wd:Q1751591 wd:Q1756279 wd:Q1387887 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T15:09:08.876Z",
+  "fetchedAt": "2026-10-15T09:34:35.535Z",
   "rows": [
     {
       "club": "http://www.wikidata.org/entity/Q221752",

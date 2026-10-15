@@ -1,0 +1,238 @@
+{
+  "query": "SELECT ?league ?label ?isFootballLeague ?participants WHERE {\n  VALUES ?league { wd:Q239738 wd:Q1087541 wd:Q739479 wd:Q1000903 wd:Q219007 wd:Q2270893 wd:Q1522963 wd:Q210836 wd:Q2427770 wd:Q978160 wd:Q1549827 wd:Q308798 wd:Q163773 wd:Q275665 wd:Q209008 wd:Q245252 wd:Q1300490 wd:Q318480 wd:Q58305 wd:Q384531 wd:Q370184 wd:Q271271 wd:Q325597 wd:Q275189 wd:Q2306229 wd:Q277945 wd:Q2267464 wd:Q831202 wd:Q2474177 wd:Q182165 wd:Q162533 wd:Q387662 wd:Q218555 wd:Q65065999 wd:Q65066001 }\n  # Some big items (Bundesliga, Serie A) only carry a language-neutral \"mul\" label, no \"en\" one.\n  OPTIONAL { ?league rdfs:label ?en . FILTER(LANG(?en) = \"en\") }\n  OPTIONAL { ?league rdfs:label ?mul . FILTER(LANG(?mul) = \"mul\") }\n  BIND(COALESCE(?en, ?mul) AS ?label)\n  # Either typed as an association football league, or as a sports league whose sport (P641) is football.\n  BIND(EXISTS { ?league wdt:P31/wdt:P279* wd:Q15991303 } || EXISTS { ?league wdt:P31/wdt:P279* wd:Q623109 ; wdt:P641 wd:Q2736 } AS ?isFootballLeague)\n  OPTIONAL { ?league wdt:P1132 ?participants }\n}",
+  "fetchedAt": "2026-10-15T09:31:26.748Z",
+  "rows": [
+    {
+      "league": "http://www.wikidata.org/entity/Q58305",
+      "label": "Maltese First Division",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "17"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "18"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "19"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "20"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q162533",
+      "label": "Russian First League",
+      "isFootballLeague": "true",
+      "participants": "22"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q163773",
+      "label": "Latvian First League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q182165",
+      "label": "Russian Premier League",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q209008",
+      "label": "First League",
+      "isFootballLeague": "true",
+      "participants": "15"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q210836",
+      "label": "Besta deild karla",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q218555",
+      "label": "Cymru Premier",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q219007",
+      "label": "Erovnuli Liga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q239738",
+      "label": "Meistriliiga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q245252",
+      "label": "Luxembourg National Division",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q271271",
+      "label": "Montenegrin First League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q275189",
+      "label": "First Macedonian Football League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q275665",
+      "label": "TOPLYGA",
+      "isFootballLeague": "true",
+      "participants": "6"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q277945",
+      "label": "NIFL Premiership",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q308798",
+      "label": "Latvian Higher League",
+      "isFootballLeague": "true",
+      "participants": "8"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q318480",
+      "label": "Maltese Premier League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q325597",
+      "label": "Montenegrin Second League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q370184",
+      "label": "Moldovan Liga 1",
+      "isFootballLeague": "true"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q384531",
+      "label": "Moldovan National Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q387662",
+      "label": "Campionato Sammarinese di Calcio",
+      "isFootballLeague": "true",
+      "participants": "15"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q739479",
+      "label": "Faroe Islands Premier League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q831202",
+      "label": "League of Ireland Premier Division",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q978160",
+      "label": "Football Superleague of Kosovo",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1000903",
+      "label": "1. deild",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1087541",
+      "label": "Esiliiga",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1300490",
+      "label": "Luxembourg Division of Honour",
+      "isFootballLeague": "true",
+      "participants": "14"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1522963",
+      "label": "Gibraltar National League",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q1549827",
+      "label": "First Football League of Kosovo",
+      "isFootballLeague": "true",
+      "participants": "16"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2267464",
+      "label": "NIFL Championship",
+      "isFootballLeague": "true",
+      "participants": "29"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2270893",
+      "label": "Erovnuli Liga 2",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2306229",
+      "label": "Macedonian Second Football League",
+      "isFootballLeague": "true",
+      "participants": "10"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2427770",
+      "label": "1. deild karla",
+      "isFootballLeague": "true",
+      "participants": "12"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q2474177",
+      "label": "League of Ireland First Division",
+      "isFootballLeague": "true",
+      "participants": "8"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q65065999",
+      "label": "Cymru North",
+      "isFootballLeague": "true",
+      "participants": "17"
+    },
+    {
+      "league": "http://www.wikidata.org/entity/Q65066001",
+      "label": "Cymru South",
+      "isFootballLeague": "true"
+    }
+  ]
+}

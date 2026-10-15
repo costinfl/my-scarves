@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q1549827 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q1549827 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T15:08:44.681Z",
+  "fetchedAt": "2026-10-15T09:34:21.480Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/First_Football_League_of_Kosovo",

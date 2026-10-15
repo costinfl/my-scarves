@@ -431,7 +431,8 @@
       "clubs": 10,
       "stadiums": 5,
       "excluded": [],
-      "source": "memberships"
+      "source": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Erovnuli_Liga"
     },
     {
       "league": "Q2270893",
@@ -839,11 +840,9 @@
       "league": "Q2267464",
       "name": "NIFL Championship",
       "status": "ok",
-      "clubs": 15,
-      "stadiums": 6,
-      "excluded": [
-        "Newington Youth F.C. (Q7018275)"
-      ],
+      "clubs": 16,
+      "stadiums": 7,
+      "excluded": [],
       "source": "wikipedia",
       "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NIFL_Championship"
     }

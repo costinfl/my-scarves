@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q275665 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q275665 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:17:57.388Z",
+  "fetchedAt": "2026-10-15T09:32:21.483Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/1991_A_Lyga",
@@ -63,6 +63,130 @@
       "kind": "season"
     },
     {
+      "article": "https://en.wikipedia.org/wiki/2009_A_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010_A_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_A_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012_A_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013_A_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/Toplyga",
+      "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1978_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1922_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1923_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1924_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1925_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1926_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1927_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1928_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1929_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1930_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1932_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1933_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1934_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_LFF_Lyga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_LFF_Lyga",
+      "kind": "season"
+    },
+    {
       "article": "https://en.wikipedia.org/wiki/1999_A_Lyga",
       "kind": "season"
     },
@@ -116,122 +240,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2004_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1990_Lithuanian_Top_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1957_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1958_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2000_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1954_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1935_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2002_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1955_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1956_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1936_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/Toplyga",
-      "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2010_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2011_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2013_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1945_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1946_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1947_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1949_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1948_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1950_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1951_LFF_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1952_LFF_Lyga",
       "kind": "season"
     },
     {
@@ -311,71 +319,71 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1978_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1990_Lithuanian_Top_League",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1922_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1957_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1923_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1958_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1924_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1958%E2%80%9359_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1925_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1926_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1961%E2%80%9362_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1927_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_A_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1928_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/2000_A_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1929_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1954_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1930_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1935_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1931_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/2002_A_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1932_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1955_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1933_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1956_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1934_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/2005_A_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1937_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/1936_LFF_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/2019_A_Lyga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_LFF_Lyga",
+      "article": "https://en.wikipedia.org/wiki/2020_A_Lyga",
       "kind": "season"
     },
     {
@@ -416,14 +424,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2018_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2019_A_Lyga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2020_A_Lyga",
       "kind": "season"
     }
   ]

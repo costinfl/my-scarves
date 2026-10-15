@@ -1,7 +1,138 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  ?club p:P118 ?membership .\n  ?membership ps:P118 wd:Q325597 .\n  FILTER NOT EXISTS { ?membership pq:P582 ?end }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T14:18:55.063Z",
+  "fetchedAt": "2026-10-15T09:33:31.409Z",
   "rows": [
+    {
+      "club": "http://www.wikidata.org/entity/Q382418",
+      "stadium": "http://www.wikidata.org/entity/Q1070494",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.240556 42.328611)",
+      "capacity": "7000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Zeta",
+      "website": "http://www.fkzeta.net/",
+      "clubLabel": "FK Zeta",
+      "stadiumLabel": "Stadion Trešnjica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q383787",
+      "stadium": "http://www.wikidata.org/entity/Q28224942",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.75611111 42.36472222)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Grbalj",
+      "clubLabel": "OFK Grbalj",
+      "stadiumLabel": "Stadion Donja Sutvara"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q597537",
+      "stadium": "http://www.wikidata.org/entity/Q7596347",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.2951 42.4651)",
+      "capacity": "3500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Kom",
+      "clubLabel": "FK Kom",
+      "stadiumLabel": "Stadion Zlatica"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q850258",
+      "stadium": "http://www.wikidata.org/entity/Q3499430",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.362245 43.362349)",
+      "capacity": "10000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Rudar_Pljevlja",
+      "clubLabel": "FK Rudar Pljevlja",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q963069",
+      "stadium": "http://www.wikidata.org/entity/Q3543974",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.866285 42.843342)",
+      "capacity": "11000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Berane",
+      "clubLabel": "FK Berane",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1257626",
+      "stadium": "http://www.wikidata.org/entity/Q7596294",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.271556 42.438361)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/OFK_Titograd",
+      "website": "http://fkmladost.me",
+      "clubLabel": "OFK Titograd",
+      "stadiumLabel": "Stadion Cvijetni Brijeg"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426090",
+      "stadium": "http://www.wikidata.org/entity/Q28406519",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.21681 42.365485)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Bratstvo_Cijevna",
+      "clubLabel": "FK Bratstvo Cijevna",
+      "stadiumLabel": "Stadion Ljajkovići"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426104",
+      "stadium": "http://www.wikidata.org/entity/Q950115",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(18.9244 42.3926)",
+      "capacity": "2000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Cetinje",
+      "clubLabel": "FK Cetinje",
+      "stadiumLabel": "Stadion Obilića Poljana"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426167",
+      "stadium": "http://www.wikidata.org/entity/Q30635315",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.10294444 42.55408333)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Iskra_Danilovgrad",
+      "clubLabel": "FK Iskra Danilovgrad",
+      "stadiumLabel": "Braća Velašević Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q5426288",
+      "stadium": "http://www.wikidata.org/entity/Q15196980",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.2439 41.9125)",
+      "capacity": "1500",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Otrant-Olympic",
+      "clubLabel": "FK Otrant",
+      "stadiumLabel": "Stadion Olympic"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q7073029",
+      "stadium": "http://www.wikidata.org/entity/Q16592280",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.8663 42.8433)",
+      "capacity": "1600",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Igalo_1929",
+      "website": "http://www.ofkigalo.me/",
+      "clubLabel": "FK Igalo 1929",
+      "stadiumLabel": "Stadion Solila"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q18085507",
+      "stadium": "http://www.wikidata.org/entity/Q3543974",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.866285 42.843342)",
+      "capacity": "11000",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_Berane",
+      "clubLabel": "FK Radnički Berane",
+      "stadiumLabel": "Gradski stadion"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q20949669",
+      "stadium": "http://www.wikidata.org/entity/Q30635032",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "coord": "Point(19.217361111 42.41175)",
+      "enwiki": "https://en.wikipedia.org/wiki/FK_Podgorica",
+      "website": "https://www.fkpodgorica.me/",
+      "clubLabel": "FK Podgorica",
+      "stadiumLabel": "Stari Ribnjak Stadium"
+    },
     {
       "club": "http://www.wikidata.org/entity/Q5426149",
       "enwiki": "https://en.wikipedia.org/wiki/FK_Grafi%C4%8Dar_Podgorica",
@@ -11,137 +142,6 @@
       "club": "http://www.wikidata.org/entity/Q5426164",
       "enwiki": "https://en.wikipedia.org/wiki/FK_Ibar",
       "clubLabel": "FK Ibar"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q382418",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Zeta",
-      "clubLabel": "FK Zeta",
-      "stadium": "http://www.wikidata.org/entity/Q1070494",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.240556 42.328611)",
-      "capacity": "7000",
-      "website": "http://www.fkzeta.net/",
-      "stadiumLabel": "Stadion Trešnjica"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q383787",
-      "enwiki": "https://en.wikipedia.org/wiki/OFK_Grbalj",
-      "clubLabel": "OFK Grbalj",
-      "stadium": "http://www.wikidata.org/entity/Q28224942",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(18.75611111 42.36472222)",
-      "capacity": "1500",
-      "stadiumLabel": "Stadion Donja Sutvara"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q597537",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Kom",
-      "clubLabel": "FK Kom",
-      "stadium": "http://www.wikidata.org/entity/Q7596347",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.2951 42.4651)",
-      "capacity": "3500",
-      "stadiumLabel": "Stadion Zlatica"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q850258",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Rudar_Pljevlja",
-      "clubLabel": "FK Rudar Pljevlja",
-      "stadium": "http://www.wikidata.org/entity/Q3499430",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.362245 43.362349)",
-      "capacity": "10000",
-      "stadiumLabel": "Gradski stadion"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q963069",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Berane",
-      "clubLabel": "FK Berane",
-      "stadium": "http://www.wikidata.org/entity/Q3543974",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.866285 42.843342)",
-      "capacity": "11000",
-      "stadiumLabel": "Gradski stadion"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1257626",
-      "enwiki": "https://en.wikipedia.org/wiki/OFK_Titograd",
-      "clubLabel": "OFK Titograd",
-      "stadium": "http://www.wikidata.org/entity/Q7596294",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.271556 42.438361)",
-      "capacity": "1500",
-      "website": "http://fkmladost.me",
-      "stadiumLabel": "Stadion Cvijetni Brijeg"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q5426090",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Bratstvo_Cijevna",
-      "clubLabel": "FK Bratstvo Cijevna",
-      "stadium": "http://www.wikidata.org/entity/Q28406519",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.21681 42.365485)",
-      "stadiumLabel": "Stadion Ljajkovići"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q5426104",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Cetinje",
-      "clubLabel": "FK Cetinje",
-      "stadium": "http://www.wikidata.org/entity/Q950115",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(18.9244 42.3926)",
-      "capacity": "2000",
-      "stadiumLabel": "Stadion Obilića Poljana"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q5426167",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Iskra_Danilovgrad",
-      "clubLabel": "FK Iskra Danilovgrad",
-      "stadium": "http://www.wikidata.org/entity/Q30635315",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.10294444 42.55408333)",
-      "stadiumLabel": "Braća Velašević Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q5426288",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Otrant-Olympic",
-      "clubLabel": "FK Otrant",
-      "stadium": "http://www.wikidata.org/entity/Q15196980",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.2439 41.9125)",
-      "capacity": "1500",
-      "stadiumLabel": "Stadion Olympic"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q7073029",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Igalo_1929",
-      "clubLabel": "FK Igalo 1929",
-      "stadium": "http://www.wikidata.org/entity/Q16592280",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.8663 42.8433)",
-      "capacity": "1600",
-      "website": "http://www.ofkigalo.me/",
-      "stadiumLabel": "Stadion Solila"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q18085507",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Radni%C4%8Dki_Berane",
-      "clubLabel": "FK Radnički Berane",
-      "stadium": "http://www.wikidata.org/entity/Q3543974",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.866285 42.843342)",
-      "capacity": "11000",
-      "stadiumLabel": "Gradski stadion"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q20949669",
-      "enwiki": "https://en.wikipedia.org/wiki/FK_Podgorica",
-      "clubLabel": "FK Podgorica",
-      "stadium": "http://www.wikidata.org/entity/Q30635032",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "coord": "Point(19.217361111 42.41175)",
-      "website": "https://www.fkpodgorica.me/",
-      "stadiumLabel": "Stari Ribnjak Stadium"
     }
   ]
 }

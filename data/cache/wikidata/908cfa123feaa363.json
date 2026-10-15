@@ -1,53 +1,13 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q218555 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q218555 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T17:13:50.709Z",
+  "fetchedAt": "2026-10-15T09:36:02.125Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Cymru_Premier",
       "kind": "league"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_League_of_Wales",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_League_of_Wales",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_League_of_Wales",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_League_of_Wales",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Welsh_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_League_of_Wales",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Welsh_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_League_of_Wales",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Welsh_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Welsh_Premier_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Welsh_Premier_League",
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cymru_Premier",
       "kind": "season"
     },
     {
@@ -99,6 +59,50 @@
       "kind": "season"
     },
     {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_League_of_Wales",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_League_of_Wales",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_League_of_Wales",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000%E2%80%9301_League_of_Wales",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Welsh_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_League_of_Wales",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Welsh_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1994%E2%80%9395_League_of_Wales",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Welsh_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Welsh_Premier_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Welsh_Premier_League",
+      "kind": "season"
+    },
+    {
       "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Cymru_Premier",
       "kind": "season"
     },
@@ -132,10 +136,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Cymru_Premier",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cymru_Premier",
       "kind": "season"
     }
   ]

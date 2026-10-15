@@ -1,66 +1,10 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q245252 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q245252 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T15:09:06.056Z",
+  "fetchedAt": "2026-10-15T09:34:33.502Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Luxembourg_National_Division",
       "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1944%E2%80%9345_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1945%E2%80%9346_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1946%E2%80%9347_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1950%E2%80%9351_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1953%E2%80%9354_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1954%E2%80%9355_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Luxembourg_National_Division",
-      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/1922%E2%80%9323_Luxembourg_National_Division",
@@ -179,71 +123,19 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Luxembourg_National_Division",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Luxembourg_National_Division",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Luxembourg_National_Division",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1952%E2%80%9353_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Luxembourg_National_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_National_Division",
       "kind": "season"
     },
     {
@@ -283,19 +175,59 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/1937%E2%80%9338_Luxembourg_National_Division",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/1938%E2%80%9339_Luxembourg_National_Division",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/1939%E2%80%9340_Luxembourg_National_Division",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Luxembourg_National_Division",
+      "article": "https://en.wikipedia.org/wiki/1944%E2%80%9345_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945%E2%80%9346_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946%E2%80%9347_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947%E2%80%9348_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1948%E2%80%9349_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950%E2%80%9351_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953%E2%80%9354_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954%E2%80%9355_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955%E2%80%9356_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956%E2%80%9357_Luxembourg_National_Division",
       "kind": "season"
     },
     {
@@ -407,6 +339,50 @@
       "kind": "season"
     },
     {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952%E2%80%9353_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960%E2%80%9361_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
       "article": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Luxembourg_National_Division",
       "kind": "season"
     },
@@ -456,6 +432,30 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Luxembourg_National_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Luxembourg_National_Division",
       "kind": "season"
     }
   ]

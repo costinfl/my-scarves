@@ -1,6 +1,6 @@
 {
   "query": "SELECT DISTINCT ?team WHERE {\n  ?season wdt:P3450 wd:Q182165 ; wdt:P580 ?start ; wdt:P1923 ?team .\n  FILTER(YEAR(?start) = 2026)\n}",
-  "fetchedAt": "2026-10-14T17:12:49.482Z",
+  "fetchedAt": "2026-10-15T09:35:27.630Z",
   "rows": [
     {
       "team": "http://www.wikidata.org/entity/Q170040"

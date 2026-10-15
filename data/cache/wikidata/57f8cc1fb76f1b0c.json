@@ -1,108 +1,108 @@
 {
   "query": "SELECT ?club ?clubLabel ?website ?logo ?stadium ?stadiumLabel ?rank ?coord ?capacity ?parent ?enwiki WHERE {\n  VALUES ?club { wd:Q755656 wd:Q902962 wd:Q1104682 wd:Q932284 wd:Q1352136 wd:Q115245702 wd:Q1478917 wd:Q105628356 wd:Q1341104 wd:Q1617811 }\n  ?club wdt:P31/wdt:P279* wd:Q476028 .\n  OPTIONAL { ?club wdt:P831 ?parent }\n  OPTIONAL { ?enwiki schema:about ?club ; schema:isPartOf <https://en.wikipedia.org/> }\n  FILTER NOT EXISTS { ?club wdt:P576 ?dissolved }\n  OPTIONAL { ?club wdt:P856 ?website }\n  OPTIONAL { ?club wdt:P154 ?logo }\n  OPTIONAL {\n    ?club p:P115 ?venue .\n    ?venue ps:P115 ?stadium ; wikibase:rank ?rank .\n    FILTER(?rank != wikibase:DeprecatedRank)\n    FILTER NOT EXISTS { ?venue pq:P582 ?venueEnd }\n    OPTIONAL { ?stadium wdt:P625 ?coord }\n    OPTIONAL { ?stadium wdt:P1083 ?capacity }\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul,ro,es,fr,de,it,pt\". }\n}",
-  "fetchedAt": "2026-10-14T15:08:37.047Z",
+  "fetchedAt": "2026-10-15T09:34:13.783Z",
   "rows": [
-    {
-      "club": "http://www.wikidata.org/entity/Q755656",
-      "stadium": "http://www.wikidata.org/entity/Q3628074",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "2024",
-      "enwiki": "https://en.wikipedia.org/wiki/Athlone_Town_A.F.C.",
-      "website": "https://www.athlonetownafc.ie/",
-      "clubLabel": "Athlone Town F.C.",
-      "stadiumLabel": "Athlone Town Stadium"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q902962",
-      "stadium": "http://www.wikidata.org/entity/Q2939135",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "3185",
-      "enwiki": "https://en.wikipedia.org/wiki/Bray_Wanderers_F.C.",
-      "website": "https://braywanderersfc.ie/",
-      "clubLabel": "Bray Wanderers A.F.C.",
-      "stadiumLabel": "Carlisle Grounds",
-      "coord": "Point(-6.102889 53.205714)"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q932284",
-      "stadium": "http://www.wikidata.org/entity/Q2430809",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "7485",
-      "enwiki": "https://en.wikipedia.org/wiki/Cork_City_F.C.",
-      "website": "https://www.corkcityfc.ie/",
-      "clubLabel": "Cork City F.C.",
-      "stadiumLabel": "Turners Cross",
-      "coord": "Point(-8.46775 51.885528)"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1104682",
-      "stadium": "http://www.wikidata.org/entity/Q3967506",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "5980",
-      "enwiki": "https://en.wikipedia.org/wiki/Cobh_Ramblers_F.C.",
-      "website": "https://cobhramblers.ie/",
-      "clubLabel": "Cobh Ramblers F.C.",
-      "stadiumLabel": "St Colman's Park"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1341104",
-      "stadium": "http://www.wikidata.org/entity/Q4001819",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "3000",
-      "enwiki": "https://en.wikipedia.org/wiki/University_College_Dublin_A.F.C.",
-      "website": "https://www.ucdfc.ie/",
-      "clubLabel": "University College Dublin A.F.C.",
-      "stadiumLabel": "UCD Bowl",
-      "coord": "Point(-6.228055555 53.310277777)"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1352136",
-      "stadium": "http://www.wikidata.org/entity/Q732609",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "6000",
-      "enwiki": "https://en.wikipedia.org/wiki/Finn_Harps_F.C.",
-      "website": "https://www.finnharps.ie/",
-      "clubLabel": "Finn Harps F.C.",
-      "stadiumLabel": "Finn Park",
-      "coord": "Point(-7.779730672 54.798087698)"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1478917",
-      "stadium": "http://www.wikidata.org/entity/Q1427047",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "6850",
-      "enwiki": "https://en.wikipedia.org/wiki/Longford_Town_F.C.",
-      "website": "https://ltfc.ie/",
-      "clubLabel": "Longford Town F.C.",
-      "stadiumLabel": "Flancare Park",
-      "coord": "Point(-7.85361111 53.72416667)"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q1617811",
-      "stadium": "http://www.wikidata.org/entity/Q5445530",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "capacity": "2500",
-      "enwiki": "https://en.wikipedia.org/wiki/Wexford_F.C.",
-      "website": "https://wexfordfc.ie/",
-      "clubLabel": "Wexford Youths F.C.",
-      "stadiumLabel": "Ferrycarrig Park",
-      "coord": "Point(-6.51555 52.3656)"
-    },
-    {
-      "club": "http://www.wikidata.org/entity/Q115245702",
-      "stadium": "http://www.wikidata.org/entity/Q115245804",
-      "rank": "http://wikiba.se/ontology#NormalRank",
-      "enwiki": "https://en.wikipedia.org/wiki/Kerry_F.C._(Ireland)",
-      "website": "https://kerryfc.com/",
-      "clubLabel": "Kerry FC",
-      "stadiumLabel": "Mounthawk Park",
-      "coord": "Point(-9.715753287 52.283399384)"
-    },
     {
       "club": "http://www.wikidata.org/entity/Q105628356",
       "enwiki": "https://en.wikipedia.org/wiki/Treaty_United_F.C.",
       "website": "https://treatyunitedfc.com/",
       "clubLabel": "Treaty United F.C."
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q755656",
+      "enwiki": "https://en.wikipedia.org/wiki/Athlone_Town_A.F.C.",
+      "website": "https://www.athlonetownafc.ie/",
+      "clubLabel": "Athlone Town F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q3628074",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "2024",
+      "stadiumLabel": "Athlone Town Stadium"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q902962",
+      "enwiki": "https://en.wikipedia.org/wiki/Bray_Wanderers_F.C.",
+      "website": "https://braywanderersfc.ie/",
+      "clubLabel": "Bray Wanderers A.F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q2939135",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "3185",
+      "stadiumLabel": "Carlisle Grounds",
+      "coord": "Point(-6.102889 53.205714)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q932284",
+      "enwiki": "https://en.wikipedia.org/wiki/Cork_City_F.C.",
+      "website": "https://www.corkcityfc.ie/",
+      "clubLabel": "Cork City F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q2430809",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "7485",
+      "stadiumLabel": "Turners Cross",
+      "coord": "Point(-8.46775 51.885528)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1104682",
+      "enwiki": "https://en.wikipedia.org/wiki/Cobh_Ramblers_F.C.",
+      "website": "https://cobhramblers.ie/",
+      "clubLabel": "Cobh Ramblers F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q3967506",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "5980",
+      "stadiumLabel": "St Colman's Park"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1341104",
+      "enwiki": "https://en.wikipedia.org/wiki/University_College_Dublin_A.F.C.",
+      "website": "https://www.ucdfc.ie/",
+      "clubLabel": "University College Dublin A.F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q4001819",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "3000",
+      "stadiumLabel": "UCD Bowl",
+      "coord": "Point(-6.228055555 53.310277777)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1352136",
+      "enwiki": "https://en.wikipedia.org/wiki/Finn_Harps_F.C.",
+      "website": "https://www.finnharps.ie/",
+      "clubLabel": "Finn Harps F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q732609",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "6000",
+      "stadiumLabel": "Finn Park",
+      "coord": "Point(-7.779730672 54.798087698)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1478917",
+      "enwiki": "https://en.wikipedia.org/wiki/Longford_Town_F.C.",
+      "website": "https://ltfc.ie/",
+      "clubLabel": "Longford Town F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q1427047",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "6850",
+      "stadiumLabel": "Flancare Park",
+      "coord": "Point(-7.85361111 53.72416667)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q1617811",
+      "enwiki": "https://en.wikipedia.org/wiki/Wexford_F.C.",
+      "website": "https://wexfordfc.ie/",
+      "clubLabel": "Wexford Youths F.C.",
+      "stadium": "http://www.wikidata.org/entity/Q5445530",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "capacity": "2500",
+      "stadiumLabel": "Ferrycarrig Park",
+      "coord": "Point(-6.51555 52.3656)"
+    },
+    {
+      "club": "http://www.wikidata.org/entity/Q115245702",
+      "enwiki": "https://en.wikipedia.org/wiki/Kerry_F.C._(Ireland)",
+      "website": "https://kerryfc.com/",
+      "clubLabel": "Kerry FC",
+      "stadium": "http://www.wikidata.org/entity/Q115245804",
+      "rank": "http://wikiba.se/ontology#NormalRank",
+      "stadiumLabel": "Mounthawk Park",
+      "coord": "Point(-9.715753287 52.283399384)"
     }
   ]
 }

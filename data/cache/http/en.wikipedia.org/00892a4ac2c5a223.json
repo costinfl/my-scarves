@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&redirects=1&page=2026%20Faroe%20Islands%20Premier%20League",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"error\":{\"code\":\"missingtitle\",\"info\":\"The page you specified doesn't exist.\",\"docref\":\"See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.\"},\"servedby\":\"mw-api-ext.codfw.main-b5b7497d9-p9hjs\"}",
-  "fetchedAt": "2026-10-14T15:08:00.082Z"
+  "body": "{\"error\":{\"code\":\"missingtitle\",\"info\":\"The page you specified doesn't exist.\",\"docref\":\"See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.\"},\"servedby\":\"mw-api-ext.codfw.main-9bcddc76f-lsbwb\"}",
+  "fetchedAt": "2026-10-15T09:33:33.956Z"
 }

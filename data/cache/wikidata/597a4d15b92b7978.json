@@ -1,42 +1,10 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q271271 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q271271 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:18:41.268Z",
+  "fetchedAt": "2026-10-15T09:33:18.282Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Montenegrin_First_League",
       "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Montenegrin_First_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Montenegrin_First_League",
-      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Montenegrin_First_League",
@@ -88,6 +56,38 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Montenegrin_First_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Montenegrin_First_League",
       "kind": "season"
     }
   ]

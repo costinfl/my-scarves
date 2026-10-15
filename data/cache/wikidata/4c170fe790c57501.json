@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q1000903 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q1000903 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T15:08:04.381Z",
+  "fetchedAt": "2026-10-15T09:33:46.114Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/1._deild",

@@ -1,46 +1,10 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q2306229 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q2306229 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T17:12:28.490Z",
+  "fetchedAt": "2026-10-15T09:35:05.633Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Macedonian_Second_Football_League",
       "kind": "league"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Macedonian_Second_Football_League",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Macedonian_Second_Football_League",
-      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Macedonian_Second_Football_League",
@@ -144,6 +108,42 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Macedonian_Second_Football_League",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Macedonian_Second_Football_League",
       "kind": "season"
     }
   ]

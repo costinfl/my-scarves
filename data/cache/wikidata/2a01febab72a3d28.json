@@ -1,6 +1,6 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q831202 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q831202 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T15:08:31.070Z",
+  "fetchedAt": "2026-10-15T09:34:07.723Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/League_of_Ireland_Premier_Division",
@@ -103,6 +103,38 @@
       "kind": "season"
     },
     {
+      "article": "https://en.wikipedia.org/wiki/2021_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2022_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2023_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2024_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2025_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2019_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2020_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2026_League_of_Ireland_Premier_Division",
+      "kind": "season"
+    },
+    {
       "article": "https://en.wikipedia.org/wiki/2014_League_of_Ireland_Premier_Division",
       "kind": "season"
     },
@@ -140,38 +172,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2018_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2021_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2022_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2023_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2024_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2025_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2019_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2020_League_of_Ireland_Premier_Division",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2026_League_of_Ireland_Premier_Division",
       "kind": "season"
     }
   ]

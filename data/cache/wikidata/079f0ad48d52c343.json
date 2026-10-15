@@ -1,5 +1,5 @@
 {
   "query": "SELECT DISTINCT ?team WHERE {\n  ?season wdt:P3450 wd:Q739479 ; wdt:P580 ?start ; wdt:P1923 ?team .\n  FILTER(YEAR(?start) = 2026)\n}",
-  "fetchedAt": "2026-10-14T15:07:57.887Z",
+  "fetchedAt": "2026-10-15T09:33:31.531Z",
   "rows": []
 }

@@ -18280,6 +18280,22 @@
     "officialWebsite": "https://www.moyolaparkfc.co.uk/"
   },
   {
+    "qid": "Q7018275",
+    "name": "Newington Youth F.C.",
+    "association": "NIR",
+    "leagues": [
+      {
+        "league": "Q2267464",
+        "tier": 2,
+        "season": "2026-27"
+      }
+    ],
+    "stadiumIds": [
+      "Q7442251"
+    ],
+    "officialWebsite": "http://www.newingtonfc.com/"
+  },
+  {
     "qid": "Q9213755",
     "name": "Newry City A.F.C.",
     "association": "NIR",

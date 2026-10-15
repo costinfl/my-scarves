@@ -1,11 +1,7 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q162533 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q162533 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T17:12:54.086Z",
+  "fetchedAt": "2026-10-15T09:35:30.964Z",
   "rows": [
-    {
-      "article": "https://en.wikipedia.org/wiki/Russian_First_League",
-      "kind": "league"
-    },
     {
       "article": "https://en.wikipedia.org/wiki/2008_Russian_First_Division",
       "kind": "season"
@@ -69,6 +65,10 @@
     {
       "article": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Russian_Football_National_League",
       "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/Russian_First_League",
+      "kind": "league"
     },
     {
       "article": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Russian_First_Division",

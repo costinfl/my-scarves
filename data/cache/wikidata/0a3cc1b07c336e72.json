@@ -1,10 +1,122 @@
 {
   "query": "SELECT ?article ?kind WHERE {\n  { ?season wdt:P3450 wd:Q239738 . ?article schema:about ?season ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"season\" AS ?kind) }\n  UNION\n  { ?article schema:about wd:Q239738 ; schema:isPartOf <https://en.wikipedia.org/> . BIND(\"league\" AS ?kind) }\n}",
-  "fetchedAt": "2026-10-14T14:14:32.912Z",
+  "fetchedAt": "2026-10-15T09:31:29.612Z",
   "rows": [
     {
       "article": "https://en.wikipedia.org/wiki/Meistriliiga",
       "kind": "league"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2008_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1991_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1945_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1946_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1947_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1949_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1950_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1951_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1952_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1953_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1954_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1955_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1956_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1957_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1958_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1959_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1960_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1961_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1962_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1963_Estonian_SSR_Football_Championship",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2011_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1998_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2000_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/2006_Meistriliiga",
+      "kind": "season"
+    },
+    {
+      "article": "https://en.wikipedia.org/wiki/1931_Estonian_Football_Championship",
+      "kind": "season"
     },
     {
       "article": "https://en.wikipedia.org/wiki/1992_Meistriliiga",
@@ -39,95 +151,35 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2021_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/2005_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2022_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1999_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2023_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/2001_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2024_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1948_Estonian_SSR_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2025_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2020_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/2012_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2026_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/2009_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1921_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1922_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1923_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1924_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1925_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1926_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1927_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1928_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1929_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1930_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1932_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1933_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1934_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1935_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1936_Estonian_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1990_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2013_Meistriliiga",
       "kind": "season"
     },
     {
@@ -235,115 +287,95 @@
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1921_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1922_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2011_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1923_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1924_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1998_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1925_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2000_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1926_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2006_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1927_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1931_Estonian_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1928_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/2008_Meistriliiga",
+      "article": "https://en.wikipedia.org/wiki/1929_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1991_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1930_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1945_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1932_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1946_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1933_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1947_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1934_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1949_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1935_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1950_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1936_Estonian_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1951_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/1990_Estonian_SSR_Football_Championship",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1952_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2021_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1953_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2022_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1954_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2023_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1955_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2024_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1956_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2025_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1957_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2020_Meistriliiga",
       "kind": "season"
     },
     {
-      "article": "https://en.wikipedia.org/wiki/1958_Estonian_SSR_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1959_Estonian_SSR_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1960_Estonian_SSR_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1961_Estonian_SSR_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1962_Estonian_SSR_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1963_Estonian_SSR_Football_Championship",
+      "article": "https://en.wikipedia.org/wiki/2026_Meistriliiga",
       "kind": "season"
     },
     {
@@ -400,38 +432,6 @@
     },
     {
       "article": "https://en.wikipedia.org/wiki/2019_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2005_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1999_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2001_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1948_Estonian_SSR_Football_Championship",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2012_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2009_Meistriliiga",
-      "kind": "season"
-    },
-    {
-      "article": "https://en.wikipedia.org/wiki/2013_Meistriliiga",
       "kind": "season"
     }
   ]
