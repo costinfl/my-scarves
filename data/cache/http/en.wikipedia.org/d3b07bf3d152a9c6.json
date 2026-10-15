@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Kairat-Zhastar",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Kairat-Zhastar\",\"pageid\":3213398,\"redirects\":[],\"wikitext\":\"{{distinguish|text=[[FC Alma-Ata]], also formed as FC Tsesna}}\\n\\n{{Infobox football club |\\n  clubname = FC Kairat-Zhastar|\\n  image = |\\n  fullname = Football Club Kairat-Zhastar<br>Қайрат-Жастар футбол клубы|\\n  nickname =  |\\n  founded  =  2010|\\n  ground   =  [[Almaty Central Stadium]]|\\n  capacity =  23,804|\\n  chairman =  |\\n  manager  = Kirill Morunov<ref>{{cite web|url=https://prosports.kz/news/482967-kirill-morunov-naznachen-starshim-trenerom-sbornoi-kazahstana-do-17-let|title=Кирилл Морунов назначен старшим тренером сборной Казахстана до 17 лет  |language=ru|publisher=prosports.kz|date=2021-01-20|access-date=2022-11-23}}</ref>|\\n  league   = [[Kazakhstan First Division]] |\\n  season   = [[2022 Kazakhstan First Division|2022]]|\\n position = 4th|\\n}}\\n\\n'''FC Kairat-Zhastar''' ({{langx|kk|Қайрат-Жастар футбол клубы}}) is a [[Kazakhstan]]i [[Association football|football]] club based in [[Almaty]].\"}}",
-  "fetchedAt": "2026-10-14T11:37:01.299Z"
+  "fetchedAt": "2026-10-15T07:42:39.107Z"
 }

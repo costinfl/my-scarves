@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.982039&lon=16.707994&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":65645842,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":163980186,\"lat\":\"44.9819903\",\"lon\":\"16.7080001\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.99870298313423e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Majora Milana Tepića, Pećani, Centar, Prijedor, MZ Prijedor centar, Grad Prijedor, Република Српска / Republika Srpska, 79101, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Majora Milana Tepića\",\"quarter\":\"Pećani\",\"suburb\":\"Centar\",\"city\":\"Prijedor\",\"county\":\"Grad Prijedor\",\"state\":\"Република Српска / Republika Srpska\",\"ISO3166-2-lvl4\":\"BA-SRP\",\"postcode\":\"79101\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.9815305\",\"44.9824502\",\"16.7075686\",\"16.7084316\"]}",
-  "fetchedAt": "2026-10-14T11:39:36.391Z"
+  "fetchedAt": "2026-10-15T07:47:21.542Z"
 }

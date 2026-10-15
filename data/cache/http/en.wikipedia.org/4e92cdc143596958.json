@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Gy%C5%91ri%20ETO%20FC%20II",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Győri ETO FC II\",\"pageid\":19185068,\"redirects\":[],\"wikitext\":\"{{short description|Hungarian football club}}\\n{{Football club infobox |\\n  clubname = Győri ETO FC II |\\n  image    = [[Image:Gyori ETO FC logo.png|130px]] |\\n  fullname = Győri Egyetértés Torna Osztály Football Club II |\\n  nickname =  |\\n  founded  = 1904 |\\n  ground   = [[Stadion ETO]], [[Győr]] |\\n  capacity =  20'000 Under construction  |\\n  chairman = Tibor Klement|\\n  manager  = István Klement|\\n  league   = [[NB II]] |\\n  season   = [[Hungarian National Championship II|2008–09]] |\\n  position = 13th |\\n  pattern_la1=|pattern_b1=_adidas_snake_white|pattern_ra1=|\\n  leftarm1=006633|body1=006633|rightarm1=006633|shorts1=006633|socks1=006633|\\n  pattern_la2=|pattern_b2=_chelsea_away|pattern_ra2=|\\n  leftarm2=FFFFFF|body2=FFFFFF|rightarm2=FFFFFF|shorts2=FFFFFF|socks2=FFFFFF|\\n}}\\n\\n'''Győri ETO FC II''' is the second team of [[Győri ETO FC]] and this year they play in the Western group of the [[Hungarian National Championship II]].\"}}",
+  "fetchedAt": "2026-10-15T07:42:04.948Z"
+}

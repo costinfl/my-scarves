@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=60.187500&lon=24.922500&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":166986417,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":4252926,\"lat\":\"60.1877252\",\"lon\":\"24.9227235\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.385061417558583e-05,\"addresstype\":\"leisure\",\"name\":\"Bolt Arena\",\"display_name\":\"Bolt Arena, Urheilukatu, Eläintarha, Taka-Töölö, Eteläinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, 00250, Suomi / Finland\",\"address\":{\"leisure\":\"Bolt Arena\",\"road\":\"Urheilukatu\",\"quarter\":\"Eläintarha\",\"suburb\":\"Taka-Töölö\",\"city_district\":\"Eteläinen suurpiiri\",\"city\":\"Helsinki\",\"municipality\":\"Helsingin seutukunta\",\"state\":\"Uusimaa\",\"ISO3166-2-lvl4\":\"FI-18\",\"region\":\"Manner-Suomi\",\"postcode\":\"00250\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"60.1871280\",\"60.1883225\",\"24.9216033\",\"24.9238437\"]}",
-  "fetchedAt": "2026-10-14T11:41:00.022Z"
+  "fetchedAt": "2026-10-15T07:49:31.213Z"
 }

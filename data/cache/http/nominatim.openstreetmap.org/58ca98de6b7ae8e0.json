@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.666806&lon=27.705000&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":60432448,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":170764446,\"lat\":\"42.6667948\",\"lon\":\"27.7049923\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.031204699774193e-05,\"addresstype\":\"leisure\",\"name\":\"Градски Несебър Стадион\",\"display_name\":\"Градски Несебър Стадион, 1-ва, кв. Стадиона, Несебър, Бургас, 8230, България\",\"address\":{\"leisure\":\"Градски Несебър Стадион\",\"road\":\"1-ва\",\"suburb\":\"кв. Стадиона\",\"town\":\"Несебър\",\"state_district\":\"Несебър\",\"state\":\"Бургас\",\"ISO3166-2-lvl4\":\"BG-02\",\"postcode\":\"8230\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.6662930\",\"42.6672966\",\"27.7045300\",\"27.7054545\"]}",
-  "fetchedAt": "2026-10-14T11:40:21.382Z"
+  "fetchedAt": "2026-10-15T07:48:34.065Z"
 }

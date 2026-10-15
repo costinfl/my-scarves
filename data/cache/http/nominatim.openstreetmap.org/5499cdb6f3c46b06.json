@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.679306&lon=26.336667&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":60030501,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1311484818,\"lat\":\"42.6795401\",\"lon\":\"26.3366290\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.182116426332521e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"3-та, кв. Руски, Сливен, 8801, България\",\"address\":{\"road\":\"3-та\",\"suburb\":\"кв. Руски\",\"city\":\"Сливен\",\"state_district\":\"Сливен\",\"state\":\"Сливен\",\"ISO3166-2-lvl4\":\"BG-20\",\"postcode\":\"8801\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.6789921\",\"42.6800882\",\"26.3359907\",\"26.3372672\"]}",
-  "fetchedAt": "2026-10-14T11:40:04.889Z"
+  "body": "{\"place_id\":60500333,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1311484818,\"lat\":\"42.6795401\",\"lon\":\"26.3366290\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.182116426332521e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"3-та, кв. Руски, Сливен, 8801, България\",\"address\":{\"road\":\"3-та\",\"suburb\":\"кв. Руски\",\"city\":\"Сливен\",\"state_district\":\"Сливен\",\"state\":\"Сливен\",\"ISO3166-2-lvl4\":\"BG-20\",\"postcode\":\"8801\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"42.6789921\",\"42.6800882\",\"26.3359907\",\"26.3372672\"]}",
+  "fetchedAt": "2026-10-15T07:48:17.787Z"
 }

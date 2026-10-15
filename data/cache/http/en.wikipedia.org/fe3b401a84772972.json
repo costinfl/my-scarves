@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Azeri%20Baku%20FK",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Azeri Baku FK\",\"pageid\":41627694,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| fullname  = Azeri Baku Futbol Klubu\\n| nickname  =\\n| image     =\\n| clubname  = Azeri Baku\\n| founded   = {{Start date and years ago|1991}}\\n| dissolved = {{Start date and years ago|1994}}\\n| ground    = \\n| chairman  =\\n| manager   =\\n| league    = [[Azerbaijan First Division]]\\n| season    = 1993–94\\n| position  = 14th\\n}}\\n\\n'''Azeri Baku FK''' ({{langx|az|Azeri Baku Futbol Klubu}}) was an [[Azerbaijan]]i [[football (soccer)|football]] club from [[Baku]] founded in 1991,<ref>{{cite web|title=Azerbaijan&nbsp;– List of Foundation Dates|url=https://www.rsssf.org/tablesa/azerfound.html|publisher= The Rec.Sport.Soccer Statistics Foundation|accessdate=13 January 2014}}</ref> and dissolved at the end of the 1993–94 season.\"}}",
-  "fetchedAt": "2026-10-14T11:34:45.338Z"
+  "fetchedAt": "2026-10-15T07:40:01.317Z"
 }

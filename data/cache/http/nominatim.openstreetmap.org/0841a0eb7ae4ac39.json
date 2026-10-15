@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.173694&lon=18.415361&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":66224780,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":648188373,\"lat\":\"47.1737792\",\"lon\":\"18.4152141\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.705348287170242e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Csikvári sétány, Alsóváros, Székesfehérvár, Székesfehérvári járás, Fejér megye, Dunántúl, 8000, Magyarország\",\"address\":{\"road\":\"Csikvári sétány\",\"suburb\":\"Alsóváros\",\"city\":\"Székesfehérvár\",\"ISO3166-2-lvl8\":\"HU-SF\",\"municipality\":\"Székesfehérvári járás\",\"county\":\"Fejér megye\",\"ISO3166-2-lvl6\":\"HU-FE\",\"region\":\"Dunántúl\",\"postcode\":\"8000\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.1731700\",\"47.1743883\",\"18.4145012\",\"18.4159269\"]}",
-  "fetchedAt": "2026-10-14T07:53:22.910Z"
+  "fetchedAt": "2026-10-15T07:50:38.525Z"
 }

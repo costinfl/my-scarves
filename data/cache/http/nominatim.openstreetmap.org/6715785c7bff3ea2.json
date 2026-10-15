@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=31.273100&lon=34.779400&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":48199095,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":370926960,\"lat\":\"31.2734121\",\"lon\":\"34.7795608\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.4151179119101859,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"אהרון בן יעקב, נווה מנחם, באר שבע, נפת באר שבע, מחוז הדרום, 8427730, ישראל\",\"address\":{\"road\":\"אהרון בן יעקב\",\"suburb\":\"נווה מנחם\",\"city\":\"באר שבע\",\"state_district\":\"נפת באר שבע\",\"state\":\"מחוז הדרום\",\"ISO3166-2-lvl4\":\"IL-D\",\"postcode\":\"8427730\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"31.2727816\",\"31.2740425\",\"34.7790316\",\"34.7800899\"]}",
-  "fetchedAt": "2026-10-14T11:41:24.308Z"
+  "fetchedAt": "2026-10-15T07:50:50.400Z"
 }

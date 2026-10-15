@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.397333&lon=49.852417&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":203646702,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":216051271,\"lat\":\"40.3973319\",\"lon\":\"49.8524214\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.664072632939677e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Əhməd bəy Ağaoğlu küçəsi, Nərimanov rayonu, Bakı, 1008, Azərbaycan\",\"address\":{\"road\":\"Əhməd bəy Ağaoğlu küçəsi\",\"city_district\":\"Nərimanov rayonu\",\"city\":\"Bakı\",\"postcode\":\"1008\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.3968973\",\"40.3977665\",\"49.8516773\",\"49.8531656\"]}",
-  "fetchedAt": "2026-10-14T11:39:23.043Z"
+  "fetchedAt": "2026-10-15T07:47:08.504Z"
 }

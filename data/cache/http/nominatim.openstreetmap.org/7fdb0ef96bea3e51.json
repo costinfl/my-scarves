@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=37.960100&lon=23.715100&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":56406477,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":23200046,\"lat\":\"37.9601619\",\"lon\":\"23.7151116\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.327382314789071e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Γρίβα, Λόφος Σικελίας, 3η Κοινότητα Καλλιθέας, Δήμος Καλλιθέας, Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 176 71, Ελλάς\",\"address\":{\"road\":\"Γρίβα\",\"neighbourhood\":\"Λόφος Σικελίας\",\"city_district\":\"3η Κοινότητα Καλλιθέας\",\"municipality\":\"Δήμος Καλλιθέας\",\"county\":\"Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών\",\"state\":\"Περιφέρεια Αττικής\",\"ISO3166-2-lvl5\":\"GR-I\",\"postcode\":\"176 71\",\"country\":\"Ελλάς\",\"country_code\":\"gr\"},\"boundingbox\":[\"37.9596822\",\"37.9606450\",\"23.7144947\",\"23.7157291\"]}",
-  "fetchedAt": "2026-10-14T07:52:58.017Z"
+  "fetchedAt": "2026-10-15T07:49:51.281Z"
 }

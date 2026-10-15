@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=57.195917&lon=14.042806&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":166022686,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":532251655,\"lat\":\"57.1959127\",\"lon\":\"14.0428025\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.482185091931056e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Sandgatan, Värnet, Värnamo, Värnamo kommun, Jönköpings län, 331 34, Sverige\",\"address\":{\"road\":\"Sandgatan\",\"quarter\":\"Värnet\",\"town\":\"Värnamo\",\"municipality\":\"Värnamo kommun\",\"county\":\"Jönköpings län\",\"ISO3166-2-lvl4\":\"SE-F\",\"postcode\":\"331 34\",\"country\":\"Sverige\",\"country_code\":\"se\"},\"boundingbox\":[\"57.1953794\",\"57.1964459\",\"14.0420996\",\"14.0435053\"]}",
-  "fetchedAt": "2026-10-14T07:55:35.639Z"
+  "fetchedAt": "2026-10-15T07:53:02.618Z"
 }

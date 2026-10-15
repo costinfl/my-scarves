@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.051730&lon=34.761480&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":219451534,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":2078972347,\"lat\":\"32.0522110\",\"lon\":\"34.7617340\",\"category\":\"place\",\"type\":\"house\",\"place_rank\":30,\"importance\":7.500038147550191e-05,\"addresstype\":\"place\",\"name\":\"\",\"display_name\":\"10, שארית ישראל, תל־אביב–יפו, שוק א-דיר, יפו, העיר הלבנה בתל אביב, תל־אביב–יפו, נפת תל אביב, מחוז תל אביב, 6816517, ישראל\",\"address\":{\"house_number\":\"10\",\"road\":\"שארית ישראל\",\"residential\":\"תל־אביב–יפו\",\"suburb\":\"שוק א-דיר\",\"borough\":\"העיר הלבנה בתל אביב\",\"city\":\"תל־אביב–יפו\",\"state_district\":\"נפת תל אביב\",\"state\":\"מחוז תל אביב\",\"ISO3166-2-lvl4\":\"IL-TA\",\"postcode\":\"6816517\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.0521610\",\"32.0522610\",\"34.7616840\",\"34.7617840\"]}",
-  "fetchedAt": "2026-10-14T11:41:33.251Z"
+  "fetchedAt": "2026-10-15T07:51:00.383Z"
 }

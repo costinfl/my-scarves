@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Ajka",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FC Ajka\",\"pageid\":36762305,\"redirects\":[],\"wikitext\":\"{{short description|Hungarian football club}}\\n{{more footnotes needed|date=September 2012}}\\n{{Use dmy dates|date=January 2026}}\\n{{Infobox football club\\n|clubname = Ajka\\n|image = FC Ajka.png\\n|upright = 0.7\\n|fullname = Futball Club Ajka\\n|nickname = \\n|founded = {{Start date and age|df=yes|1923}}\\n|ground = Városi Stadion <br /> [[Ajka]], Hungary\\n|capacity = 5,000\\n|chairman = Gyula Geri\\n|manager = Gyula Jeney\\n|league = [[Nemzeti Bajnokság II|NB II]]\\n|season = [[2025–26 Nemzeti Bajnokság II|2025–26]]\\n|position = NB II, 12th of 18\\n|website = https://fcajka.hu/\\n|pattern_la1 = \\n|pattern_la2 = \\n|pattern_b1 = _thingreensides\\n|pattern_b2 = \\n|pattern_ra1 = \\n|pattern_ra2 = \\n|leftarm1 = FFFFFF\\n|leftarm2 = 008751\\n|body1 = FFFFFF\\n|body2 = 008751\\n|rightarm1 = FFFFFF\\n|rightarm2 = 008751\\n|shorts1 = FFFFFF\\n|shorts2 = 008751\\n|socks1 = FFFFFF\\n|socks2 = 008751\\n|current =\\n}}\\n'''FC Ajka''' is a Hungarian [[association football|football]] club located in [[Ajka]], Hungary. It currently plays in [[Hungarian National Championship II]]. The team's colors are white and green.\"}}",
+  "fetchedAt": "2026-10-15T07:42:02.094Z"
+}

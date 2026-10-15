@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.886944&lon=18.412778&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65542281,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":293407246,\"lat\":\"44.8871595\",\"lon\":\"18.4126652\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.26001653813030656,\"addresstype\":\"leisure\",\"name\":\"Stadion \\\"Banja Ilidža\\\"\",\"display_name\":\"Stadion \\\"Banja Ilidža\\\", VI. bataljona, Pobrići, Gradačac, Grad Gradačac, Tuzlanski kanton, Federacija Bosne i Hercegovine, 76250, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"leisure\":\"Stadion \\\"Banja Ilidža\\\"\",\"road\":\"VI. bataljona\",\"quarter\":\"Pobrići\",\"city_district\":\"Gradačac\",\"town\":\"Gradačac\",\"county\":\"Grad Gradačac\",\"state_district\":\"Tuzlanski kanton\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"76250\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.8863863\",\"44.8878857\",\"18.4119386\",\"18.4133966\"]}",
+  "fetchedAt": "2026-10-15T07:47:39.322Z"
+}

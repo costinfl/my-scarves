@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.205750&lon=17.907083&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":65751563,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":612363719,\"lat\":\"44.2057165\",\"lon\":\"17.9071815\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.363546196684242e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Fra Ivana Jukića, Nova Zenica, Podbrežje, Zenica, Grad Zenica, Zeničko-dobojski kanton, Federacija Bosne i Hercegovine, 72000, Bosna i Hercegovina / Босна и Херцеговина\",\"address\":{\"road\":\"Fra Ivana Jukića\",\"suburb\":\"Nova Zenica\",\"village\":\"Podbrežje\",\"city\":\"Zenica\",\"county\":\"Grad Zenica\",\"state_district\":\"Zeničko-dobojski kanton\",\"state\":\"Federacija Bosne i Hercegovine\",\"ISO3166-2-lvl4\":\"BA-BIH\",\"postcode\":\"72000\",\"country\":\"Bosna i Hercegovina / Босна и Херцеговина\",\"country_code\":\"ba\"},\"boundingbox\":[\"44.2051425\",\"44.2063248\",\"17.9063710\",\"17.9080041\"]}",
+  "fetchedAt": "2026-10-15T07:47:32.746Z"
+}

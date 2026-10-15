@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-10-15T07:34:30.628Z",
+  "version": 2,
+  "entity": {
+    "id": "Q1323373",
+    "claims": {
+      "P7361": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": "60567"
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "FK Zemun"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "FK Zemun"
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T11:13:05.092Z",
+  "fetchedAt": "2026-10-15T07:35:45.347Z",
   "version": 2,
   "entity": {
     "id": "Q39338",
@@ -9,7 +9,7 @@
           "rank": "normal",
           "mainsnak": {
             "datavalue": {
-              "value": "FF7F00"
+              "value": "FFA500"
             }
           }
         }

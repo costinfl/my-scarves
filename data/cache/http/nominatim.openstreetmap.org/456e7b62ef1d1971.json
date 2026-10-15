@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.907897&lon=35.086067&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":213349397,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":146254489,\"lat\":\"32.9078593\",\"lon\":\"35.0860104\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.36160342477182406,\"addresstype\":\"leisure\",\"name\":\"איצטדיון עכו החדש\",\"display_name\":\"איצטדיון עכו החדש, דוד רמז, נווה יוני נתניהו, עכו, נפת עכו, מחוז הצפון, 2451308, ישראל\",\"address\":{\"leisure\":\"איצטדיון עכו החדש\",\"road\":\"דוד רמז\",\"suburb\":\"נווה יוני נתניהו\",\"town\":\"עכו\",\"state_district\":\"נפת עכו\",\"state\":\"מחוז הצפון\",\"ISO3166-2-lvl4\":\"IL-Z\",\"postcode\":\"2451308\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.9072778\",\"32.9084526\",\"35.0854885\",\"35.0865383\"]}",
-  "fetchedAt": "2026-10-14T11:41:21.800Z"
+  "fetchedAt": "2026-10-15T07:50:48.272Z"
 }

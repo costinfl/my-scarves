@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=44.783333&lon=20.464722&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":64405783,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":26775287,\"lat\":\"44.7831762\",\"lon\":\"20.4648947\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":8.159685664144377e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Рајка Митића, МЗ Војвода Мишић (Савски венац), Градска општина Савски венац, Београд, Град Београд, Централна Србија, 11000, Србија\",\"address\":{\"road\":\"Рајка Митића\",\"neighbourhood\":\"МЗ Војвода Мишић (Савски венац)\",\"suburb\":\"Градска општина Савски венац\",\"city\":\"Београд\",\"county\":\"Град Београд\",\"ISO3166-2-lvl6\":\"RS-00\",\"province\":\"Централна Србија\",\"postcode\":\"11000\",\"country\":\"Србија\",\"country_code\":\"rs\"},\"boundingbox\":[\"44.7826320\",\"44.7837203\",\"20.4642725\",\"20.4655170\"]}",
-  "fetchedAt": "2026-10-14T07:54:57.551Z"
+  "fetchedAt": "2026-10-15T07:51:32.500Z"
 }

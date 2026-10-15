@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=34.679186&lon=32.955070&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":210261972,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":513598224,\"lat\":\"34.6790812\",\"lon\":\"32.9551138\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.438620584415988e-05,\"addresstype\":\"leisure\",\"name\":\"Stelios Chari Stadium\",\"display_name\":\"Stelios Chari Stadium, Theofilou Chatzistylianou, Τραχώνι, Akrotiri Sovereign Base Area, 4189, Κύπρος - Kıbrıs\",\"address\":{\"leisure\":\"Stelios Chari Stadium\",\"road\":\"Theofilou Chatzistylianou\",\"town\":\"Τραχώνι\",\"county\":\"Akrotiri Sovereign Base Area\",\"postcode\":\"4189\",\"country\":\"Κύπρος - Kıbrıs\",\"country_code\":\"cy\"},\"boundingbox\":[\"34.6783883\",\"34.6797740\",\"32.9543944\",\"32.9558332\"]}",
+  "fetchedAt": "2026-10-15T07:49:11.599Z"
+}

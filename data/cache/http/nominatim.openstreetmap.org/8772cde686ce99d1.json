@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=39.869722&lon=48.060000&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":415890475,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1501053332,\"lat\":\"39.8699792\",\"lon\":\"48.0607586\",\"category\":\"building\",\"type\":\"yes\",\"place_rank\":30,\"importance\":4.9948119325505725e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"111A, Heydər Əliyev prospekti, İmişli, İmişli rayonu, Azərbaycan\",\"address\":{\"house_number\":\"111A\",\"road\":\"Heydər Əliyev prospekti\",\"city\":\"İmişli\",\"county\":\"İmişli rayonu\",\"ISO3166-2-lvl6\":\"AZ-IMI\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"39.8698894\",\"39.8700693\",\"48.0606442\",\"48.0608721\"]}",
-  "fetchedAt": "2026-10-14T11:39:13.953Z"
+  "body": "{\"place_id\":381734797,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1501053332,\"lat\":\"39.8699792\",\"lon\":\"48.0607586\",\"category\":\"building\",\"type\":\"yes\",\"place_rank\":30,\"importance\":4.9948119325505725e-05,\"addresstype\":\"building\",\"name\":\"\",\"display_name\":\"111A, Heydər Əliyev prospekti, İmişli, İmişli rayonu, Azərbaycan\",\"address\":{\"house_number\":\"111A\",\"road\":\"Heydər Əliyev prospekti\",\"city\":\"İmişli\",\"county\":\"İmişli rayonu\",\"ISO3166-2-lvl6\":\"AZ-IMI\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"39.8698894\",\"39.8700693\",\"48.0606442\",\"48.0608721\"]}",
+  "fetchedAt": "2026-10-15T07:46:59.564Z"
 }

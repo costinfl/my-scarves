@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Shahdag%20Qusar%20FK",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Shahdag Qusar FK\",\"pageid\":6574524,\"redirects\":[],\"wikitext\":\"{{Infobox football club |\\n  clubname = Shahdagh Qusar FK|\\n  image    = ShahdaghQusarLogo.jpg|\\n  upright  = 0.8|\\n  alt      = logo|\\n  fullname = Şahdağ Qusar Futbol Klubu |\\n  nickname = |\\n  founded  = {{Start date and age|1950}} as ''Nefteqaz''|\\n  ground   = [[Şövkət Orduxanov Stadium]]<br>[[Qusar (city)|Qusar]], [[Azerbaijan]] |\\n  capacity = 4,000 | \\n  chairman = Arastun Niftiyev|\\n  manager  = Adil Mahmudov|\\n  league   = [[Azerbaijan First League]]\\n \\n  \\n  pattern_la1=|pattern_b1=|pattern_ra1=|\\n  leftarm1=FF8811|body1=FF8811|rightarm1=FF8811|shorts1=000000|socks1=FF8811|\\n  pattern_la2=|pattern_b2=|pattern_ra2=|\\n  leftarm2=ffffff|body2=ffffff|rightarm2=ffffff|shorts2=0000FF|socks2=ffffff|\\n}}\\n\\n'''Shahdagh Qusar FK''' (Azerbaijani: ''Şahdağ Qusar FK'') is an [[Azerbaijan]]i [[football (soccer)|football]] club based in [[Qusar]], that currently takes part in [[Azerbaijan First Division]].\"}}",
-  "fetchedAt": "2026-10-14T11:34:47.779Z"
+  "fetchedAt": "2026-10-15T07:40:03.615Z"
 }

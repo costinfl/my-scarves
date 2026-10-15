@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=31.939250&lon=34.893167&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":47435255,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":83461696,\"lat\":\"31.9392449\",\"lon\":\"34.8930642\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.65209430075077e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"שיטה, לוד הצעירה, נופי בן שמן, לוד, נפת רמלה, מחוז המרכז, 7135287, ישראל\",\"address\":{\"road\":\"שיטה\",\"neighbourhood\":\"לוד הצעירה\",\"suburb\":\"נופי בן שמן\",\"town\":\"לוד\",\"state_district\":\"נפת רמלה\",\"state\":\"מחוז המרכז\",\"ISO3166-2-lvl4\":\"IL-M\",\"postcode\":\"7135287\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"31.9386258\",\"31.9398639\",\"34.8926188\",\"34.8935095\"]}",
-  "fetchedAt": "2026-10-14T11:41:19.963Z"
+  "fetchedAt": "2026-10-15T07:50:46.232Z"
 }

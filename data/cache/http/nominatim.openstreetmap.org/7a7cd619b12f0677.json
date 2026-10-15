@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.211944&lon=51.350833&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":202791276,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":256469992,\"lat\":\"51.2122448\",\"lon\":\"51.3510641\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.83833066299995e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Стадионный переулок, Орал, Орал қалалық әкімдігі, Батыс Қазақстан облысы, 090006, Қазақстан\",\"address\":{\"road\":\"Стадионный переулок\",\"city\":\"Орал\",\"county\":\"Орал қалалық әкімдігі\",\"state\":\"Батыс Қазақстан облысы\",\"ISO3166-2-lvl4\":\"KZ-27\",\"postcode\":\"090006\",\"country\":\"Қазақстан\",\"country_code\":\"kz\"},\"boundingbox\":[\"51.2116410\",\"51.2128427\",\"51.3502158\",\"51.3519194\"]}",
-  "fetchedAt": "2026-10-14T11:41:43.834Z"
+  "fetchedAt": "2026-10-15T07:51:11.367Z"
 }

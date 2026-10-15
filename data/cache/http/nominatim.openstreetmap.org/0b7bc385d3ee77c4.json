@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.092361&lon=28.319722&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":171854666,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":509491485,\"lat\":\"54.0924577\",\"lon\":\"28.3197021\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.2909895475654495e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вуліца Дзеравянкі, Жодзіна, Мінская вобласць, 222160, Беларусь\",\"address\":{\"road\":\"вуліца Дзеравянкі\",\"town\":\"Жодзіна\",\"state\":\"Мінская вобласць\",\"ISO3166-2-lvl4\":\"BY-MI\",\"postcode\":\"222160\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"54.0918943\",\"54.0930210\",\"28.3189721\",\"28.3204320\"]}",
-  "fetchedAt": "2026-10-14T14:25:10.940Z"
+  "body": "{\"place_id\":170703531,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":509491485,\"lat\":\"54.0924577\",\"lon\":\"28.3197021\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.2909895475654495e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"вуліца Дзеравянкі, Жодзіна, Мінская вобласць, 222160, Беларусь\",\"address\":{\"road\":\"вуліца Дзеравянкі\",\"town\":\"Жодзіна\",\"state\":\"Мінская вобласць\",\"ISO3166-2-lvl4\":\"BY-MI\",\"postcode\":\"222160\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"54.0918943\",\"54.0930210\",\"28.3189721\",\"28.3204320\"]}",
+  "fetchedAt": "2026-10-15T07:48:01.147Z"
 }

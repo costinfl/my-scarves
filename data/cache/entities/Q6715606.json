@@ -1,0 +1,18 @@
+{
+  "fetchedAt": "2026-10-15T07:34:39.730Z",
+  "version": 2,
+  "entity": {
+    "id": "Q6715606",
+    "claims": {},
+    "sitelinks": {
+      "enwiki": {
+        "title": "MFK Zvolen"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "MFK Lokomotíva Zvolen"
+      }
+    }
+  }
+}

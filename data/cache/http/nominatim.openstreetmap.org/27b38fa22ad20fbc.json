@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.400163&lon=49.944019&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":203182488,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":617537958,\"lat\":\"40.4001141\",\"lon\":\"49.9438869\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.664072632939677e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Bəhruz Nuriyev, Nizami rayonu, Bakı, 1119, Azərbaycan\",\"address\":{\"road\":\"Bəhruz Nuriyev\",\"city_district\":\"Nizami rayonu\",\"city\":\"Bakı\",\"postcode\":\"1119\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.3995958\",\"40.4006323\",\"49.9431234\",\"49.9446503\"]}",
-  "fetchedAt": "2026-10-14T11:39:20.530Z"
+  "fetchedAt": "2026-10-15T07:47:06.155Z"
 }

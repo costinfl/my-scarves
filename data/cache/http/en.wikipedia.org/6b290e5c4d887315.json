@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Sloga%20Kraljevo",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Sloga Kraljevo\",\"pageid\":12341109,\"redirects\":[],\"wikitext\":\"{{Update|date=January 2023}}\\n{{Infobox football club\\n| clubname = Sloga Kraljevo\\n| fullname = {{lang|sr|Fudbalski klub Sloga Kraljevo}}\\n| image    = FK Sloga Kraljevo.PNG\\n| nickname = ''Beli'' (The Whites)\\n| founded  = {{Start date and age|1947}}\\n| dissolved  = {{Start date and age|2025}}\\n| ground   = Kraljevo City Stadium\\n| capacity = 4,000\\n| chairman = [[Aleksandar Mijatović]]\\n| mgrtitle = Head coach\\n| manager  = \\n|league   = \\n|season   = 2024–25\\n|position = [[Serbian League West]], 16th\\n| website  = {{URL|https://www.fksloga.com/}}\\n| pattern_la1 = \\n| pattern_b1 = \\n| pattern_ra1 = \\n| pattern_sh1 = \\n| pattern_so1 = \\n| leftarm1 = FFFFFF\\n| body1 = FFFFFF\\n| rightarm1 = FFFFFF\\n| shorts1 = FFFFFF\\n| socks1 = FFFFFF\\n| pattern_la2=\\n| pattern_b2=\\n| pattern_ra2=\\n| pattern_sh2 = \\n| pattern_so2 = \\n| leftarm2 = 00BFFF\\n| body2 = 00BFFF\\n| rightarm2 = 00BFFF\\n| shorts2 = 00BFFF\\n| socks2 = 00BFFF\\n}}\\n'''Fudbalski klub Sloga Kraljevo''' ([[Serbian Cyrillic]]: Фудбалски клуб Слога Краљево) was a Serbian [[Association football|football]] club based in [[Kraljevo]].\"}}",
+  "fetchedAt": "2026-10-15T07:42:58.507Z"
+}

@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Gornyak",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Gornyak\",\"pageid\":15135071,\"redirects\":[],\"wikitext\":\"{{Infobox football club |\\n| clubname  = FC Gornyak\\n| image     = FC Gornyak logo.svg\\n| image_size = 150px\\n| fullname  = FC Gornyak\\n| nickname  =  \\n| founded   = {{Start date |df=yes|1990}}\\n| dissolved = {{Start date and age|df=yes|2008}}\\n| ground    =  \\n| capacity  = \\n| chairman  =  \\n| manager   =  \\n| league    = [[Kazakhstan First Division]], SW\\n| season    = 2008\\n| position  = 14th\\n}}\\n'''FC Gornyak''' ({{langx|kk|Горняк футбол клубы}}, ''Gornıak Fýtbol Klýby'') is a defunct [[Kazakhstan]]i [[Football (soccer)|football]] club that was based in [[Khromtau]].\"}}",
-  "fetchedAt": "2026-10-14T11:36:59.574Z"
+  "fetchedAt": "2026-10-15T07:42:37.998Z"
 }

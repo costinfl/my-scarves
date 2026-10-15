@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.104197&lon=34.865078&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":210300064,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":294682301,\"lat\":\"32.1041780\",\"lon\":\"34.8650808\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.500038147550191e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"יצחק שמיר, אזור התעשייה קריית אריה, קרית אריה, אזור התעשייה קריית אריה, פתח תקווה, נפת פתח תקווה, מחוז המרכז, 4951448, ישראל\",\"address\":{\"road\":\"יצחק שמיר\",\"industrial\":\"אזור התעשייה קריית אריה\",\"suburb\":\"קרית אריה\",\"town\":\"פתח תקווה\",\"state_district\":\"נפת פתח תקווה\",\"state\":\"מחוז המרכז\",\"ISO3166-2-lvl4\":\"IL-M\",\"postcode\":\"4951448\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.1035641\",\"32.1047918\",\"34.8645121\",\"34.8656495\"]}",
-  "fetchedAt": "2026-10-14T11:41:28.414Z"
+  "fetchedAt": "2026-10-15T07:50:55.959Z"
 }

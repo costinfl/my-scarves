@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Orosh%C3%A1za%20FC",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"Orosháza FC\",\"pageid\":32367647,\"redirects\":[],\"wikitext\":\"{{short description|Hungarian football club}}\\n{{more citations needed|date=January 2021}}\\n{{Distinguish|Orosházi MTK}}\\n{{Infobox football club |\\nclubname = Orosháza  |\\nfullname = Orosháza Football Club |\\nnickname = ''OFC'' |\\nfounded  = 1950 |\\ndissolved = 2015 |\\nground   = [[Mátrai- Stadion]],<br/>[[Orosháza]] |\\ncapacity = 3,000 | \\nchairman = [[Restál György]] |\\nmanager  = |\\nleague   = [[Nemzeti Bajnokság II|NB II]] (Eastern group) |\\nseason   = [[2011–12 Nemzeti Bajnokság II|2011–12]]  |\\nposition = 6th |\\npattern_la1=|pattern_b1=_yellowredstripes|pattern_ra1=|\\nleftarm1=FFFF00|body1=FFFF00|rightarm1=FFFF00|shorts1=000000|socks1=000000|\\npattern_la2=_boca92a|pattern_b2=_boca92a|pattern_ra2=_boca92a|\\n leftarm2=00008B|body2=00008B|rightarm2=00008B|shorts2=00008B|socks2=00008B|\\nwebsite    = \\n}}\\n\\n'''Orosháza FC''' was a football club from [[Orosháza]], [[Hungary]]. The club played in the Hungarian second division on several occasions, most recently being relegated in 2013.<ref>{{cite web|url=https://www.rsssf.org/tablesh/hong2013.html|website=[[RSSSF]]|title=Hungary 2013}}</ref>\"}}",
+  "fetchedAt": "2026-10-15T07:42:09.926Z"
+}

@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Energetik%20FK",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Energetik FK\",\"pageid\":19743767,\"redirects\":[],\"wikitext\":\"{{Short description|Azerbaijani football club}}{{Infobox football club\\n| clubname = Mingəçevir FK\\n| fullname = Mingəçevir Football Club\\n| image = Energetik_FK_logo.png\\n| nickname = \\n| founded = {{Start date and age|1966}} \\n| ground = [[Yashar Mammadzade Stadium]], [[Mingachevir]], [[Azerbaijan]]\\n| capacity = 5,000\\n| manager = [[Ramiz Mammadov]]\\n}}\\n'''Mingəçevir FK''' is an [[Azerbaijan]]i [[football (soccer)|football]] club based in [[Mingachevir]]. One of the oldest and most popular clubs in [[Azerbaijan]], it currently plays in the [[Azerbaijan First Division]].\"}}",
-  "fetchedAt": "2026-10-14T11:34:47.226Z"
+  "fetchedAt": "2026-10-15T07:40:02.879Z"
 }

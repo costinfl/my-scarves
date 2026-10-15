@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Jedinstvo%20Putevi",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"FK Jedinstvo Putevi\",\"pageid\":12745554,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = Jedinstvo Putevi\\n| fullname = Fudbalski klub Jedinstvo Putevi Užice\\n| image = FK Jedinstvo Putevi logo.png\\n| nickname = ''Putari''\\n| founded  = {{Start date and age|1961}}\\n| ground = [[Stadion Krčagovo]], [[Užice]]\\n| capacity = 1,500\\n| chairman = Ivan Karapetrović\\n| manager = Ivan Janjić\\n| league = [[Serbian League West]]\\n| season = 2024–25\\n| position = Serbian League West, 12th\\n| pattern_la1 = _yellow_hoops\\n| pattern_b1 = _yellowhoops\\n| pattern_ra1 = _yellow_hoops\\n| leftarm1 = 0000AA\\n| body1 = 0000AA\\n| rightarm1 = 0000AA\\n| shorts1 = 0000AA\\n| socks1 = 0000AA\\n| pattern_la2 = \\n| pattern_b2 = _thinsidesonwhite\\n| pattern_ra2 = \\n| leftarm2 = FFFFFF\\n| body2 = 0000AA\\n| rightarm2 = FFFFFF\\n| shorts2 = FFFFFF\\n| socks2 = FFFFFF\\n}}\\n'''Fudbalski klub Jedinstvo Putevi''' ([[Serbian Cyrillic]]: Фудбалски клуб Јединство Путeви) is a [[Association football|football]] club based in [[Užice]], [[Serbia]].\"}}",
+  "fetchedAt": "2026-10-15T07:42:51.504Z"
+}

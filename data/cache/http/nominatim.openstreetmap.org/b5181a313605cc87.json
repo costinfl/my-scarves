@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=46.246667&lon=15.270278&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":68528541,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1364019095,\"lat\":\"46.2464423\",\"lon\":\"15.2699748\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.523155565723686e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Jamova ulica, Nova vas, Celje, 3000, Slovenija\",\"address\":{\"road\":\"Jamova ulica\",\"suburb\":\"Nova vas\",\"city\":\"Celje\",\"municipality\":\"Celje\",\"ISO3166-2-lvl8\":\"SI-011\",\"postcode\":\"3000\",\"country\":\"Slovenija\",\"country_code\":\"si\"},\"boundingbox\":[\"46.2458308\",\"46.2470540\",\"15.2692809\",\"15.2706689\"]}",
-  "fetchedAt": "2026-10-14T11:42:33.310Z"
+  "fetchedAt": "2026-10-15T07:52:33.897Z"
 }

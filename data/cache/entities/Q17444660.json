@@ -1,0 +1,45 @@
+{
+  "fetchedAt": "2026-10-15T07:34:32.566Z",
+  "version": 2,
+  "entity": {
+    "id": "Q17444660",
+    "claims": {
+      "P6364": [
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3133,
+                "id": "Q3133"
+              }
+            }
+          }
+        },
+        {
+          "rank": "normal",
+          "mainsnak": {
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 943,
+                "id": "Q943"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sitelinks": {
+      "enwiki": {
+        "title": "Krasava ENY Ypsonas FC"
+      }
+    },
+    "labels": {
+      "en": {
+        "value": "Enosi Neon Ypsona-Digenis Ipsona"
+      }
+    }
+  }
+}

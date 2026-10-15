@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Bumprom%20Gomel",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Bumprom Gomel\",\"pageid\":73598685,\"redirects\":[],\"wikitext\":\"{{Short description|Belarusian football club}}\\n{{Infobox football club\\n| clubname   = Bumprom Gomel\\n| image      = FC_Bumprom_Gomel_logo.png\\n| image_size = 180px\\n| fullname   = Football Club Bumprom Gomel\\n| founded    = {{start date and age|2016}}\\n| dissolved  = \\n| ground     = SDYuShOR-6 Stadium, [[Gomel]]\\n| capacity   = \\n| chrtitle   = \\n| chairman   = Kirill Yashchenko\\n| mgrtitle   = Head Coach\\n| manager    = Denis Drigalev (caretaker)\\n| league     = [[Belarusian First League]]\\n| season     = [[2025 Belarusian First League|2025]]\\n| position   = Belarusian First League, 6th\\n| pattern_la1= |pattern_b1= |pattern_ra1=\\n| leftarm1= |body1= |rightarm1= |shorts1= |socks1=\\n| pattern_la2= |pattern_b2= |pattern_ra2=\\n| leftarm2= |body2= |rightarm2= |shorts2= |socks2=\\n}}\\n\\n'''FC Bumprom Gomel''' is a [[Belarus]]ian [[association football|football]] club based in [[Gomel]].\"}}",
-  "fetchedAt": "2026-10-14T14:21:42.653Z"
+  "fetchedAt": "2026-10-15T07:40:36.784Z"
 }

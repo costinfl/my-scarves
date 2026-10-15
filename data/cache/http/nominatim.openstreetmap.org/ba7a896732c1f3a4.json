@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.436528&lon=31.012361&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":171734208,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":346536888,\"lat\":\"52.4367139\",\"lon\":\"31.0122528\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.64553292133519e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Партовая вуліца, Мельнікаў Луг, Цэнтральны раён, Гомель, Гомельская вобласць, 246048, Беларусь\",\"address\":{\"road\":\"Партовая вуліца\",\"suburb\":\"Мельнікаў Луг\",\"city_district\":\"Цэнтральны раён\",\"city\":\"Гомель\",\"state\":\"Гомельская вобласць\",\"ISO3166-2-lvl4\":\"BY-HO\",\"postcode\":\"246048\",\"country\":\"Беларусь\",\"country_code\":\"by\"},\"boundingbox\":[\"52.4362216\",\"52.4372061\",\"31.0112609\",\"31.0132447\"]}",
-  "fetchedAt": "2026-10-14T14:24:56.281Z"
+  "fetchedAt": "2026-10-15T07:47:46.787Z"
 }

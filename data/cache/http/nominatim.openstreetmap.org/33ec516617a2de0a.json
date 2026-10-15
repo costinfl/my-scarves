@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.691710&lon=16.583691&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":67573976,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":89691841,\"lat\":\"47.6916377\",\"lon\":\"16.5837581\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.62096589608151e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Lackner Kristóf utca, Ösvény utcai lakópark, Sopron, Soproni járás, Győr-Moson-Sopron megye, Dunántúl, 9400, Magyarország\",\"address\":{\"road\":\"Lackner Kristóf utca\",\"suburb\":\"Ösvény utcai lakópark\",\"town\":\"Sopron\",\"ISO3166-2-lvl8\":\"HU-SN\",\"municipality\":\"Soproni járás\",\"county\":\"Győr-Moson-Sopron megye\",\"ISO3166-2-lvl6\":\"HU-GS\",\"region\":\"Dunántúl\",\"postcode\":\"9400\",\"country\":\"Magyarország\",\"country_code\":\"hu\"},\"boundingbox\":[\"47.6910427\",\"47.6922327\",\"16.5830157\",\"16.5845004\"]}",
-  "fetchedAt": "2026-10-14T07:53:36.503Z"
+  "fetchedAt": "2026-10-15T07:50:29.542Z"
 }

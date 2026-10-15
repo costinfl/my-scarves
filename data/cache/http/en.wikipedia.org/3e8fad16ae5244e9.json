@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=DAC%20N%C3%A1dorv%C3%A1ros",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"DAC Nádorváros\",\"pageid\":16883708,\"redirects\":[],\"wikitext\":\"{{Use dmy dates|date=February 2025}}\\n{{Infobox football club\\n| image = DAC 1912 logo.png\\n| image_size = 180px\\n| clubname = DAC Nádorváros\\n| fullname = Dunántúli Atlétikai Club Nádorváros 1912\\n| founded = 1912\\n| dissolved = \\n| ground = DAC Sporttelep\\n| capacity = 6,000\\n| chairman = Ferenc Lengyel\\n| manager = Tivadar Birkás\\n| league = [[Megyei Bajnokság I]]\\n| season = 2010–2011\\n| position = 11th\\n| pattern_la1 = _whiteshoulders\\n| pattern_b1 = _whiteshoulders\\n| pattern_ra1 = _whiteshoulders\\n| leftarm1 = 0000DD\\n| body1 = 0000DD\\n| rightarm1 = 0000DD\\n| shorts1 = 0000DD\\n| socks1 = 0000DD\\n| pattern_la2 = _blueshoulders\\n| pattern_b2 = _blueshoulders\\n| pattern_ra2 = _blueshoulders\\n| leftarm2 = FFFFFF\\n| body2 = FFFFFF\\n| rightarm2 = FFFFFF\\n| shorts2 = FFFFFF\\n| socks2 = FFFFFF\\n}}\\n\\n'''DAC Nádorváros 1912''' is a Hungarian [[association football|football]] club based in [[Győr]]. The club, known as ''Integrál-DAC'' at the time, was declared bankrupt in 2009, but was re-founded as DAC Nádorváros.<ref>[https://adatbank.mlsz.hu/club/63/8/29326/17/288951.html DAC NÁDORVÁROS]. adatbank.mlsz.hu</ref>\"}}",
+  "fetchedAt": "2026-10-15T07:42:05.175Z"
+}

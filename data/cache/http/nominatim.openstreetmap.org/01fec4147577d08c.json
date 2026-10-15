@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.171426&lon=44.449938&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":208216131,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1177918509,\"lat\":\"40.1713730\",\"lon\":\"44.4500730\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.370336461428272e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Մանուկյան փողոց, Մալաթիա-Սեբաստիա, Երևան, 0032, Հայաստան\",\"address\":{\"road\":\"Մանուկյան փողոց\",\"suburb\":\"Մալաթիա-Սեբաստիա\",\"city\":\"Երևան\",\"ISO3166-2-lvl4\":\"AM-ER\",\"postcode\":\"0032\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.1709305\",\"40.1718156\",\"44.4492679\",\"44.4508780\"]}",
-  "fetchedAt": "2026-10-14T14:24:45.262Z"
+  "body": "{\"place_id\":208904011,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1177918509,\"lat\":\"40.1713730\",\"lon\":\"44.4500730\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.370336461428272e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Մանուկյան փողոց, Մալաթիա-Սեբաստիա, Երևան, 0032, Հայաստան\",\"address\":{\"road\":\"Մանուկյան փողոց\",\"suburb\":\"Մալաթիա-Սեբաստիա\",\"city\":\"Երևան\",\"ISO3166-2-lvl4\":\"AM-ER\",\"postcode\":\"0032\",\"country\":\"Հայաստան\",\"country_code\":\"am\"},\"boundingbox\":[\"40.1709305\",\"40.1718156\",\"44.4492679\",\"44.4508780\"]}",
+  "fetchedAt": "2026-10-15T07:46:45.414Z"
 }

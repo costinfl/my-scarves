@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.627389&lon=35.317111&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":208070900,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":124721311,\"lat\":\"32.6273812\",\"lon\":\"35.3170870\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.53551537346001e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"מרדכי גור, עפולה, נפת יזרעאל, מחוז הצפון, 1834328, ישראל\",\"address\":{\"road\":\"מרדכי גור\",\"town\":\"עפולה\",\"state_district\":\"נפת יזרעאל\",\"state\":\"מחוז הצפון\",\"ISO3166-2-lvl4\":\"IL-Z\",\"postcode\":\"1834328\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.6268692\",\"32.6278930\",\"35.3167006\",\"35.3174734\"]}",
-  "fetchedAt": "2026-10-14T11:41:22.954Z"
+  "fetchedAt": "2026-10-15T07:50:49.381Z"
 }

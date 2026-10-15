@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Plastik%20Salyan%20FK",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Plastik Salyan FK\",\"pageid\":41627550,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| fullname  = Plastik Salyan Futbol Klubu\\n| nickname  =\\n| image     =\\n| clubname  = Plastik Salyan\\n| founded   = {{Start date and years ago|1971}}\\n| dissolved = {{Start date and years ago|1997}}\\n| ground    = <br> [[Salyan, Azerbaijan|Salyan]]\\n| chairman  =\\n| manager   =\\n| league    = [[Azerbaijan First Division]]\\n| season    = 1996–97\\n| position  = 7th Group B\\n}}\\n\\n'''Plastik Salyan FK''' ({{langx|az|Plastik Salyan Futbol Klubu}}) was an [[Azerbaijan]]i [[football (soccer)|football]] club from [[Salyan, Azerbaijan|Salyan]] founded in 1971,<ref>{{cite web|title=Azerbaijan&nbsp;– List of Foundation Dates|url=https://www.rsssf.org/tablesa/azerfound.html|publisher= The Rec.Sport.Soccer Statistics Foundation|accessdate=3 January 2014}}</ref> as ''Himik Salyan''. They changed their name to ''Plastik Salyan'' in 1990 before disbanding in 1997.\"}}",
-  "fetchedAt": "2026-10-14T11:34:56.074Z"
+  "fetchedAt": "2026-10-15T07:40:11.320Z"
 }

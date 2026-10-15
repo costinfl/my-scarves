@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.898611&lon=18.044722&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":188874571,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":49322165,\"lat\":\"48.8986515\",\"lon\":\"18.0445448\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.358968490115233e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Mládežnícka, Centrum, Sihote, Trenčín, okres Trenčín, Trenčiansky kraj, 911 01, Slovensko\",\"address\":{\"road\":\"Mládežnícka\",\"neighbourhood\":\"Centrum\",\"suburb\":\"Sihote\",\"city\":\"Trenčín\",\"county\":\"okres Trenčín\",\"region\":\"Trenčiansky kraj\",\"ISO3166-2-lvl4\":\"SK-TC\",\"postcode\":\"911 01\",\"country\":\"Slovensko\",\"country_code\":\"sk\"},\"boundingbox\":[\"48.8980406\",\"48.8992622\",\"18.0437629\",\"18.0453267\"]}",
-  "fetchedAt": "2026-10-14T11:42:10.647Z"
+  "fetchedAt": "2026-10-15T07:52:08.829Z"
 }

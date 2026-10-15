@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.519444&lon=16.431667&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":57142314,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":142675692,\"lat\":\"43.5195444\",\"lon\":\"16.4318837\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.231631952387301e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"S, Poljud, Gradski kotar Spinut, Split, Grad Split, Splitsko-dalmatinska županija, 21105, Hrvatska\",\"address\":{\"road\":\"S\",\"neighbourhood\":\"Poljud\",\"quarter\":\"Gradski kotar Spinut\",\"city\":\"Split\",\"municipality\":\"Grad Split\",\"county\":\"Splitsko-dalmatinska županija\",\"ISO3166-2-lvl4\":\"HR-17\",\"postcode\":\"21105\",\"country\":\"Hrvatska\",\"country_code\":\"hr\"},\"boundingbox\":[\"43.5189687\",\"43.5201263\",\"16.4311792\",\"16.4325868\"]}",
-  "fetchedAt": "2026-10-14T07:51:35.404Z"
+  "fetchedAt": "2026-10-15T07:48:44.189Z"
 }

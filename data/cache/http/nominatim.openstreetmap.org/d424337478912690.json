@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.848056&lon=25.963056&zoom=18&addressdetails=1",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"place_id\":60278906,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":175710278,\"lat\":\"43.8480511\",\"lon\":\"25.9630201\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.548790722510136e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"ул. Кавала, кв.Ялта, Русе, 7020, България\",\"address\":{\"road\":\"ул. Кавала\",\"suburb\":\"кв.Ялта\",\"city\":\"Русе\",\"state_district\":\"Русе\",\"state\":\"Русе\",\"ISO3166-2-lvl4\":\"BG-18\",\"postcode\":\"7020\",\"country\":\"България\",\"country_code\":\"bg\"},\"boundingbox\":[\"43.8475241\",\"43.8485782\",\"25.9624816\",\"25.9635585\"]}",
+  "fetchedAt": "2026-10-15T07:48:08.758Z"
+}

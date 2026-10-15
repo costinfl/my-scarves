@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=40.486186&lon=49.766262&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":203574343,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":844406465,\"lat\":\"40.4861797\",\"lon\":\"49.7663582\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.32076214465567665,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Qara Qarayev küç., Masazır, Abşeron rayonu, 0116, Azərbaycan\",\"address\":{\"road\":\"Qara Qarayev küç.\",\"suburb\":\"Masazır\",\"county\":\"Abşeron rayonu\",\"ISO3166-2-lvl6\":\"AZ-ABS\",\"postcode\":\"0116\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.4857057\",\"40.4866537\",\"49.7655611\",\"49.7671553\"]}",
-  "fetchedAt": "2026-10-14T11:39:25.386Z"
+  "body": "{\"place_id\":203598873,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":844406465,\"lat\":\"40.4861797\",\"lon\":\"49.7663582\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.32076214465567665,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Qara Qarayev küç., Masazır, Abşeron rayonu, 0116, Azərbaycan\",\"address\":{\"road\":\"Qara Qarayev küç.\",\"suburb\":\"Masazır\",\"county\":\"Abşeron rayonu\",\"ISO3166-2-lvl6\":\"AZ-ABS\",\"postcode\":\"0116\",\"country\":\"Azərbaycan\",\"country_code\":\"az\"},\"boundingbox\":[\"40.4857057\",\"40.4866537\",\"49.7655611\",\"49.7671553\"]}",
+  "fetchedAt": "2026-10-15T07:47:10.688Z"
 }

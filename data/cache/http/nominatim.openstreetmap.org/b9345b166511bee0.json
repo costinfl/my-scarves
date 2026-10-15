@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=65.001111&lon=25.451389&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":425564655,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1499321240,\"lat\":\"65.0012211\",\"lon\":\"25.4512326\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.857022964823403e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Aleksanterinkatu, Nuottasaari, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 90400, Suomi / Finland\",\"address\":{\"road\":\"Aleksanterinkatu\",\"suburb\":\"Nuottasaari\",\"city\":\"Oulu\",\"municipality\":\"Oulun seutukunta\",\"state\":\"Pohjois-Pohjanmaa\",\"ISO3166-2-lvl4\":\"FI-14\",\"region\":\"Manner-Suomi\",\"postcode\":\"90400\",\"country\":\"Suomi / Finland\",\"country_code\":\"fi\"},\"boundingbox\":[\"65.0007148\",\"65.0017283\",\"25.4499038\",\"25.4525613\"]}",
-  "fetchedAt": "2026-10-14T11:40:50.105Z"
+  "fetchedAt": "2026-10-15T07:49:21.290Z"
 }

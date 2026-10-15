@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=32.689800&lon=35.311325&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":209914429,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":622020018,\"lat\":\"32.6900409\",\"lon\":\"35.3112524\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.140383001445056e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"החצב, נוף הגליל, נפת יזרעאל, מחוז הצפון, 1756103, ישראל\",\"address\":{\"road\":\"החצב\",\"town\":\"נוף הגליל\",\"state_district\":\"נפת יזרעאל\",\"state\":\"מחוז הצפון\",\"ISO3166-2-lvl4\":\"IL-Z\",\"postcode\":\"1756103\",\"country\":\"ישראל\",\"country_code\":\"il\"},\"boundingbox\":[\"32.6895979\",\"32.6905741\",\"35.3108952\",\"35.3116138\"]}",
-  "fetchedAt": "2026-10-14T11:41:27.654Z"
+  "fetchedAt": "2026-10-15T07:50:55.030Z"
 }

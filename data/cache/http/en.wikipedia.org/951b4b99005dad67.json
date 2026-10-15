@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Sunkar",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Sunkar\",\"pageid\":29710754,\"redirects\":[],\"wikitext\":\"{{short description|Association football club}}\\n{{Infobox football club\\n| clubname = FC Sunkar\\n| image = Logo_of_FC_Sunkar.png\\n| fullname = Football Club Sunkar<br />Сұнқар Футбол Клубы\\n| nickname =  \\n| founded  = {{Start date and age|2004}}\\n| dissolved = {{Start date and age|25|1|2015}}\\n| ground   = Tauelsizdik 10 zhyldygy\\n| capacity = 2,500\\n| chairman =  \\n| manager  = Askar Kozhabergenov\\n| league   = [[Kazakhstan First Division]]\\n| season   = [[2014 Kazakhstan First Division|2014]]\\n| position = 8th\\n| pattern_la1=|pattern_b1=_unknown|pattern_ra1=_unknown\\n| leftarm1=FFFFFF|body1=FFFFFF|rightarm1=FFFFFF|shorts1=FFFFFF|socks1=FFFFFF\\n| pattern_la2=|pattern_b2=_unknown|pattern_ra2=\\n| leftarm2=FFFFFF|body2=FFFFFF|rightarm2=FFFFFF|shorts2=FFFFFF|socks2=FFFFFF\\n}}\\n\\n'''FC Sunkar''' ({{langx|kk|Сұнқар Футбол Клубы}}) was a Kazakhstani [[association football|football]] club based in [[Kaskelen]].\"}}",
-  "fetchedAt": "2026-10-14T11:37:06.098Z"
+  "fetchedAt": "2026-10-15T07:42:43.431Z"
 }

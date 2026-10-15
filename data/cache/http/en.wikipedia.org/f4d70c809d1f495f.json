@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=NK%20Sesvete",
+  "contentType": "application/json; charset=utf-8",
+  "body": "{\"parse\":{\"title\":\"NK Sesvete\",\"pageid\":27821412,\"redirects\":[],\"wikitext\":\"{{Short description|Croatian football club}}\\n{{Ref improve|date=April 2024}}\\n{{Use dmy dates|date=December 2023}}\\n{{Infobox football club\\n| clubname =  Sesvete\\n| image    = NK Sesvete Zagreb Logo.svg\\n| upright  = 0.8\\n| fullname = Nogometni Klub Sesvete\\n| founded  = {{start date and age|1941}}\\n| ground   = Stadion Sv. Josip Radnik\\n| capacity = 1,200\\n| chairman = Pero Karatović\\n| manager  = [[Rajko Vidović]]\\n| league        = [[First Football League (Croatia)|1. NL]] (II)\\n| season   = [[2025–26 First Football League (Croatia)|2025–26]]\\n| position = 3rd of 12\\n| pattern_la1=|pattern_b1=|pattern_ra1=\\n| leftarm1=C80815|body1=C80815|rightarm1=C80815|shorts1=FFFFFF|socks1=C80815\\n| pattern_la2=|pattern_b2=_redstripes|pattern_ra2= \\n| leftarm2=FFFFFF|body2=FFFFFF|rightarm2=FFFFFF|shorts2=C80815|socks2=FFFFFF\\n}}\\n'''NK Sesvete''' is a Croatian [[Association football|football]] club based in the [[Sesvete]] district of the city of [[Zagreb]].<ref>{{cite web |title=NK Croatia Sesvete |url=https://www.uefa.com/nationalassociations/teams/2600528--croatia-sesvete/squad/ |website=UEFA |access-date=25 April 2024}}</ref>\"}}",
+  "fetchedAt": "2026-10-15T07:41:16.794Z"
+}
