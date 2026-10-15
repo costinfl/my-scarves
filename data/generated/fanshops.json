@@ -1186,9 +1186,9 @@
     "checkedAt": "2026-10-12"
   },
   "Q168660": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "http://store.portadownfc.co.uk",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q170040": {
     "url": "https://store.rubin-kazan.ru",
@@ -1664,9 +1664,9 @@
     "checkedAt": "2026-10-14"
   },
   "Q212708": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://www.shop-bohemianfc.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q212819": {
     "status": "none",
@@ -2678,9 +2678,9 @@
     "checkedAt": "2026-10-15"
   },
   "Q394474": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://shop.shelbournefc.ie",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q399282": {
     "url": "https://shop.hskzrinjski.ba",
@@ -2823,9 +2823,9 @@
     "checkedAt": "2026-10-15"
   },
   "Q459622": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://shop.northboundbrewery.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q460448": {
     "status": "none",
@@ -4436,9 +4436,9 @@
     "checkedAt": "2026-10-12"
   },
   "Q917145": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://www.acvirtus.com/ordina-online-piovaccari",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q917613": {
     "status": "unchecked",
@@ -4803,9 +4803,9 @@
     "note": "no shop link on the homepage (or it is built by JavaScript)"
   },
   "Q1108181": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://www.colerainefcshop.com",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q1110567": {
     "status": "unchecked",
@@ -4852,9 +4852,9 @@
     "note": "fetch failed"
   },
   "Q1129387": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://kfshkendija.com/shop",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q1130432": {
     "url": "https://shop.glenavonfc.com",
@@ -6623,10 +6623,9 @@
     "note": "homepage answered 403"
   },
   "Q6661255": {
-    "status": "none",
-    "checkedAt": "2026-10-15",
-    "terms": 2,
-    "note": "shop links found but none looked like a shop"
+    "url": "https://ffigarsportsembroidery.co.uk/product-category/club-shop/llandudno-football-club",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q6705180": {
     "url": "https://cutebaby-shop.com",
@@ -7572,9 +7571,9 @@
     "note": "shop links found but none looked like a shop"
   },
   "Q115245702": {
-    "status": "unchecked",
-    "checkedAt": "2026-10-15",
-    "note": "homepage answered 202"
+    "url": "https://kerryfc.com/shop",
+    "status": "candidate",
+    "checkedAt": "2026-10-14"
   },
   "Q115821135": {
     "status": "unchecked",
