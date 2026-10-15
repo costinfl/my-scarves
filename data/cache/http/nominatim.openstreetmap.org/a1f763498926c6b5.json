@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=55.299500&lon=23.987300&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":173974967,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":13734988,\"lat\":\"55.2995044\",\"lon\":\"23.9872460\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.921492332336946e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"J. Basanavičiaus g., Kėdainiai, Kėdainių miesto seniūnija, Kėdainių rajono savivaldybė, Kauno apskritis, 57171, Lietuva\",\"address\":{\"road\":\"J. Basanavičiaus g.\",\"town\":\"Kėdainiai\",\"county\":\"Kėdainių miesto seniūnija\",\"state_district\":\"Kėdainių rajono savivaldybė\",\"ISO3166-2-lvl5\":\"LT-18\",\"state\":\"Kauno apskritis\",\"ISO3166-2-lvl4\":\"LT-KU\",\"postcode\":\"57171\",\"country\":\"Lietuva\",\"country_code\":\"lt\"},\"boundingbox\":[\"55.2989156\",\"55.3000861\",\"23.9863359\",\"23.9881622\"]}",
-  "fetchedAt": "2026-10-14T14:26:17.209Z"
+  "fetchedAt": "2026-10-15T09:48:02.213Z"
 }

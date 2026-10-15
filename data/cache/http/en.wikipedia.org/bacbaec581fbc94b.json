@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Chkherimela%20Kharagauli",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Chkherimela Kharagauli\",\"pageid\":31444583,\"redirects\":[],\"wikitext\":\"{{Infobox football club\\n| clubname = Chkherimela\\n| image = File:FC Chkherimela Kharagauli Logo.png\\n| fullname = Football Club Chkherimela Kharagauli\\n| nickname = Chkherimela\\n| founded = {{Start date and age|1982}}\\n| ground = Murtaz and Soso Abashidze stadium, [[Kharagauli]]\\n| capacity = \\n| chairman = \\n| manager = \\n| league = \\n| season = \\n| position = \\n| -\\npattern_la1 = \\n| pattern_b1 = \\n| pattern_ra1 = \\n| leftarm1 = 0000FF\\n| body1 = 0000FF\\n| rightarm1 = 0000FF\\n| shorts1 = 000000\\n| socks1 = 000000\\npattern_la2=\\n| pattern_b2 = \\n| pattern_ra2 = \\n| leftarm2 = 3CB371\\n| body2 = 3CB371\\n| rightarm2 = 3CB371\\n| shorts2 = 3CB371\\n| socks2 = 3CB371\\n| dissolved = {{Start date and age|2021}}\\n}}\\n'''FC Chkherimela Kharagauli''' ([[Georgian language|Georgian]]: სკ ჩხერიმელა) was a [[Georgia (country)|Georgia]]n [[football (soccer)|football]] club based in the town of [[Kharagauli]].\"}}",
-  "fetchedAt": "2026-10-14T14:22:07.101Z"
+  "fetchedAt": "2026-10-15T09:41:30.384Z"
 }

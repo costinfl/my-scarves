@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.967400&lon=5.927400&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":118220023,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1313624030,\"lat\":\"49.9673822\",\"lon\":\"5.9273768\",\"category\":\"highway\",\"type\":\"construction\",\"place_rank\":26,\"importance\":0.05338788815136946,\"addresstype\":\"road\",\"name\":\"\",\"display_name\":\"Niederwiltz, Roullingen, Wiltz, Canton Wiltz, 9571, Lëtzebuerg\",\"address\":{\"hamlet\":\"Niederwiltz\",\"village\":\"Roullingen\",\"town\":\"Wiltz\",\"county\":\"Canton Wiltz\",\"ISO3166-2-lvl6\":\"LU-WI\",\"postcode\":\"9571\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.9673167\",\"49.9676142\",\"5.9271989\",\"5.9274270\"]}",
-  "fetchedAt": "2026-10-14T15:12:57.520Z"
+  "body": "{\"place_id\":118993804,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1313624030,\"lat\":\"49.9673822\",\"lon\":\"5.9273768\",\"category\":\"highway\",\"type\":\"construction\",\"place_rank\":26,\"importance\":0.05338788815136946,\"addresstype\":\"road\",\"name\":\"\",\"display_name\":\"Niederwiltz, Roullingen, Wiltz, Canton Wiltz, 9571, Lëtzebuerg\",\"address\":{\"hamlet\":\"Niederwiltz\",\"village\":\"Roullingen\",\"town\":\"Wiltz\",\"county\":\"Canton Wiltz\",\"ISO3166-2-lvl6\":\"LU-WI\",\"postcode\":\"9571\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.9673167\",\"49.9676142\",\"5.9271989\",\"5.9274270\"]}",
+  "fetchedAt": "2026-10-15T09:48:19.056Z"
 }

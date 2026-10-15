@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=43.971250&lon=12.476972&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":79827981,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":211514056,\"lat\":\"43.9713117\",\"lon\":\"12.4771642\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.35584039062641e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Rancaglia, Rancaglia, Dogana, Serravalle, 47899, San Marino\",\"address\":{\"road\":\"Via Rancaglia\",\"hamlet\":\"Rancaglia\",\"village\":\"Dogana\",\"town\":\"Serravalle\",\"ISO3166-2-lvl8\":\"SM-09\",\"postcode\":\"47899\",\"country\":\"San Marino\",\"country_code\":\"sm\"},\"boundingbox\":[\"43.9707598\",\"43.9718620\",\"12.4765280\",\"12.4778039\"]}",
-  "fetchedAt": "2026-10-14T17:19:00.019Z"
+  "body": "{\"place_id\":78926640,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":211514056,\"lat\":\"43.9713117\",\"lon\":\"12.4771642\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.35584039062641e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Via Rancaglia, Rancaglia, Dogana, Serravalle, 47899, San Marino\",\"address\":{\"road\":\"Via Rancaglia\",\"hamlet\":\"Rancaglia\",\"village\":\"Dogana\",\"town\":\"Serravalle\",\"ISO3166-2-lvl8\":\"SM-09\",\"postcode\":\"47899\",\"country\":\"San Marino\",\"country_code\":\"sm\"},\"boundingbox\":[\"43.9707598\",\"43.9718620\",\"12.4765280\",\"12.4778039\"]}",
+  "fetchedAt": "2026-10-15T09:50:35.698Z"
 }

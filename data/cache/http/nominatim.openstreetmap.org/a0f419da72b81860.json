@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.886360&lon=14.525010&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":54017514,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":92243455,\"lat\":\"35.8863692\",\"lon\":\"14.5249425\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":0.10540294855860563,\"addresstype\":\"leisure\",\"name\":\"Fortini\",\"display_name\":\"Fortini, Triq San Dwardu, Il-Birgu, Reġjun tal-Port, BRG 1114, Malta\",\"address\":{\"leisure\":\"Fortini\",\"road\":\"Triq San Dwardu\",\"town\":\"Il-Birgu\",\"ISO3166-2-lvl8\":\"MT-03\",\"municipality\":\"Reġjun tal-Port\",\"postcode\":\"BRG 1114\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.8859299\",\"35.8868827\",\"14.5245184\",\"14.5254288\"]}",
-  "fetchedAt": "2026-10-14T17:17:57.658Z"
+  "fetchedAt": "2026-10-15T09:49:09.545Z"
 }

@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=61.858641&lon=-6.826828&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":274523154,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":497911997,\"lat\":\"61.8587468\",\"lon\":\"-6.8268134\",\"category\":\"highway\",\"type\":\"residential\",\"place_rank\":26,\"importance\":0.053382666514076416,\"addresstype\":\"road\",\"name\":\"Inni í Dal\",\"display_name\":\"Inni í Dal, Sandur, Sands kommuna, Sandoyar sýsla, 210, Føroyar\",\"address\":{\"road\":\"Inni í Dal\",\"village\":\"Sandur\",\"municipality\":\"Sands kommuna\",\"region\":\"Sandoyar sýsla\",\"postcode\":\"210\",\"country\":\"Føroyar\",\"country_code\":\"fo\"},\"boundingbox\":[\"61.8581701\",\"61.8587494\",\"-6.8286181\",\"-6.8267318\"]}",
-  "fetchedAt": "2026-10-14T15:12:03.395Z"
+  "fetchedAt": "2026-10-15T09:46:43.938Z"
 }

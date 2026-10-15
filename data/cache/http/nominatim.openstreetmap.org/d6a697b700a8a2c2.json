@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.668500&lon=25.294700&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":173124339,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":8591790,\"lat\":\"54.6685093\",\"lon\":\"25.2947954\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.44813098313920746,\"addresstype\":\"leisure\",\"name\":\"LFF stadionas\",\"display_name\":\"LFF stadionas, 2, Stadiono g., Rasos, Rasų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02106, Lietuva\",\"address\":{\"leisure\":\"LFF stadionas\",\"house_number\":\"2\",\"road\":\"Stadiono g.\",\"suburb\":\"Rasos\",\"city\":\"Vilnius\",\"state_district\":\"Vilniaus miesto savivaldybė\",\"ISO3166-2-lvl5\":\"LT-57\",\"state\":\"Vilniaus apskritis\",\"ISO3166-2-lvl4\":\"LT-VL\",\"postcode\":\"02106\",\"country\":\"Lietuva\",\"country_code\":\"lt\"},\"boundingbox\":[\"54.6678050\",\"54.6692590\",\"25.2934850\",\"25.2959767\"]}",
-  "fetchedAt": "2026-10-14T14:26:13.051Z"
+  "fetchedAt": "2026-10-15T09:47:57.919Z"
 }

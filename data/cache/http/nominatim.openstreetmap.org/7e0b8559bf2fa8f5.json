@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.557211&lon=5.856486&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":119314159,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":72859954,\"lat\":\"49.5572924\",\"lon\":\"5.8566187\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.534676127255692e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue du Stade, Pétange, Canton Esch-sur-Alzette, 4876, Lëtzebuerg\",\"address\":{\"road\":\"Rue du Stade\",\"city_district\":\"Pétange\",\"city\":\"Pétange\",\"county\":\"Canton Esch-sur-Alzette\",\"ISO3166-2-lvl6\":\"LU-ES\",\"postcode\":\"4876\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.5567103\",\"49.5578744\",\"5.8559633\",\"5.8572742\"]}",
-  "fetchedAt": "2026-10-14T15:13:02.998Z"
+  "fetchedAt": "2026-10-15T09:48:24.222Z"
 }

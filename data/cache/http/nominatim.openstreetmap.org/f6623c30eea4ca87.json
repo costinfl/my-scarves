@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.502952&lon=20.995424&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":164860483,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":88092171,\"lat\":\"56.5029161\",\"lon\":\"20.9954083\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.572594796668983e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Jūrmalas iela, Vecliepāja, Liepāja, LV-3416, Latvija\",\"address\":{\"road\":\"Jūrmalas iela\",\"suburb\":\"Vecliepāja\",\"city\":\"Liepāja\",\"ISO3166-2-lvl5\":\"LV-LPX\",\"postcode\":\"LV-3416\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"56.5023779\",\"56.5034543\",\"20.9947132\",\"20.9961035\"]}",
-  "fetchedAt": "2026-10-14T14:26:29.715Z"
+  "body": "{\"place_id\":165488093,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":88092171,\"lat\":\"56.5029161\",\"lon\":\"20.9954083\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":6.572594796668983e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Jūrmalas iela, Vecliepāja, Liepāja, LV-3416, Latvija\",\"address\":{\"road\":\"Jūrmalas iela\",\"suburb\":\"Vecliepāja\",\"city\":\"Liepāja\",\"ISO3166-2-lvl5\":\"LV-LPX\",\"postcode\":\"LV-3416\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"56.5023779\",\"56.5034543\",\"20.9947132\",\"20.9961035\"]}",
+  "fetchedAt": "2026-10-15T09:48:30.899Z"
 }

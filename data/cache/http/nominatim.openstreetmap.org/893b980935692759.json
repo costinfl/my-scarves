@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=35.841667&lon=14.544722&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":54075233,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":129290479,\"lat\":\"35.8415890\",\"lon\":\"14.5445658\",\"category\":\"amenity\",\"type\":\"place_of_worship\",\"place_rank\":30,\"importance\":0.31776205367205024,\"addresstype\":\"amenity\",\"name\":\"Madonna ta' Pompei\",\"display_name\":\"Madonna ta' Pompei, Pjazza Madonna ta' Pompei, Marsaxlokk, Reġjun tan-Nofsinhar, MXK 1412, Malta\",\"address\":{\"amenity\":\"Madonna ta' Pompei\",\"road\":\"Pjazza Madonna ta' Pompei\",\"village\":\"Marsaxlokk\",\"ISO3166-2-lvl8\":\"MT-28\",\"municipality\":\"Reġjun tan-Nofsinhar\",\"postcode\":\"MXK 1412\",\"country\":\"Malta\",\"country_code\":\"mt\"},\"boundingbox\":[\"35.8413905\",\"35.8418279\",\"14.5444069\",\"14.5447876\"]}",
-  "fetchedAt": "2026-10-14T17:17:51.678Z"
+  "fetchedAt": "2026-10-15T09:49:03.978Z"
 }

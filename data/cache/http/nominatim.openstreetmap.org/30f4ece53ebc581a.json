@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=41.435111&lon=22.023361&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":59288079,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1276210010,\"lat\":\"41.4347029\",\"lon\":\"22.0233430\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.516365300979656e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Дисанска, Кавадарци, Општина Кавадарци, 1430, Северна Македонија\",\"address\":{\"road\":\"Дисанска\",\"city\":\"Кавадарци\",\"municipality\":\"Општина Кавадарци\",\"ISO3166-2-lvl7\":\"MK-104\",\"postcode\":\"1430\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"41.4343279\",\"41.4350659\",\"22.0226571\",\"22.0240357\"]}",
-  "fetchedAt": "2026-10-14T17:17:47.642Z"
+  "body": "{\"place_id\":58750904,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":1276210010,\"lat\":\"41.4347029\",\"lon\":\"22.0233430\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.516365300979656e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Дисанска, Кавадарци, Општина Кавадарци, 1430, Северна Македонија\",\"address\":{\"road\":\"Дисанска\",\"city\":\"Кавадарци\",\"municipality\":\"Општина Кавадарци\",\"ISO3166-2-lvl7\":\"MK-104\",\"postcode\":\"1430\",\"country\":\"Северна Македонија\",\"country_code\":\"mk\"},\"boundingbox\":[\"41.4343279\",\"41.4350659\",\"22.0226571\",\"22.0240357\"]}",
+  "fetchedAt": "2026-10-15T09:48:59.595Z"
 }

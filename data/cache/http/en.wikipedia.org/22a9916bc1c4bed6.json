@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FC%20Algeti%20Marneuli",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FC Algeti Marneuli\",\"pageid\":29288061,\"redirects\":[],\"wikitext\":\"{{short description|Georgian football club}}\\n{{Infobox football club\\n| clubname = FC Algeti Marneuli\\n| image    = File:Marneuli fc logo.jpg\\n| founded  = 1975\\n| ground   = Marneuli central stadium\\n| capacity = 2,000\\n| chairman = \\n| manager  = Gocha Zhorzholiani\\n| league   = [[Liga 4 (Georgia)|Liga 4]]\\n| season   = [[2025 Liga 4 (Georgia)|2025]]\\n| position = 6th of 15, Liga 4\\n}}\\n\\n'''FC Algeti''' ({{lang-ka|საფეხბურთო კლუბი ალგეთი}}) is a Georgian municipal [[football (soccer)|football]] club from [[Marneuli]], competing in [[Liga 4 (Georgia)|Liga 4]], the fourth tier of [[Football in Georgia (country)|Georgian football]].\\n\\nThe club plays their home matches at the Marneuli central stadium. \\n\\nThe name comes from the [[Algeti River|Algeti]] river.\"}}",
-  "fetchedAt": "2026-10-14T14:22:08.707Z"
+  "fetchedAt": "2026-10-15T09:41:31.730Z"
 }

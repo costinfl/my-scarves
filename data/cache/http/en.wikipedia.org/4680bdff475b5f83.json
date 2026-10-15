@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=FK%20Koralas%20Klaip%C4%97da",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"FK Koralas Klaipėda\",\"pageid\":58574504,\"redirects\":[],\"wikitext\":\"{{Short description|Lithuanian football club}}\\n{{Infobox football club\\n| clubname = FK Koralas\\n| image    = \\n| image_size = 200px\\n| fullname = Futbolo klubas \\\"Koralas\\\"\\n| nickname =\\n| founded  = {{start date and age|2015}}\\n| dissolved  = {{Start date and age|df=yes|2018|9}}\\n| ground   = Klaipėdos dirbtinės dangos aikštė\\n| capacity = 1,000\\n| chairman = Arvydas Kazlauskas\\n| manager  = Saulius Mikalajūnas\\n| league   = x\\n| season   = [[2018 1 Lyga|2018]]\\n| position = 14th (dissolved)\\n| current  = 2018 I Lyga\\n| pattern_la1=|pattern_b1=|pattern_ra1=|\\n  leftarm1=00BFFF|body1=00BFFF|rightarm1=00BFFF|shorts1=00BFFF|socks1=00BFFF|\\n  pattern_la2=|pattern_b2=|pattern_ra2=\\n  leftarm2=FFFFFF|body2=FFFFFF|rightarm2=FFFFFF|shorts2=00BFFF|socks2=FFFFFF \\n}}\\n\\n'''Futbolo klubas Koralas,''' commonly known as '''Koralas''' was a [[Lithuania]]n [[football (soccer)|football]] team from the port city of [[Klaipėda]].\"}}",
-  "fetchedAt": "2026-10-14T14:22:36.378Z"
+  "fetchedAt": "2026-10-15T09:42:37.572Z"
 }

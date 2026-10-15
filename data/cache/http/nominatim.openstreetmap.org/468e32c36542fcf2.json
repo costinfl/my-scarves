@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=56.661700&lon=23.756300&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":425656779,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":156160632,\"lat\":\"56.6609838\",\"lon\":\"23.7556064\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":0.32221217881594816,\"addresstype\":\"leisure\",\"name\":\"Zemgales olimpiskais centrs\",\"display_name\":\"Zemgales olimpiskais centrs, Akmeņu iela, Valdeka, Jelgava, LV-3002, Latvija\",\"address\":{\"leisure\":\"Zemgales olimpiskais centrs\",\"road\":\"Akmeņu iela\",\"suburb\":\"Valdeka\",\"city\":\"Jelgava\",\"ISO3166-2-lvl5\":\"LV-JEL\",\"postcode\":\"LV-3002\",\"country\":\"Latvija\",\"country_code\":\"lv\"},\"boundingbox\":[\"56.6601316\",\"56.6618226\",\"23.7543847\",\"23.7568411\"]}",
-  "fetchedAt": "2026-10-14T14:26:31.230Z"
+  "fetchedAt": "2026-10-15T09:48:33.240Z"
 }

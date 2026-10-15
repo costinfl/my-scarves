@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.472222&lon=6.084722&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":119117569,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":24848930,\"lat\":\"49.4723204\",\"lon\":\"6.0847524\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":5.717326619359148e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"Rue Saint-Martin, Italien, Budersberg, Dudelange, Canton Esch-sur-Alzette, 3520, Lëtzebuerg\",\"address\":{\"road\":\"Rue Saint-Martin\",\"quarter\":\"Italien\",\"suburb\":\"Budersberg\",\"town\":\"Dudelange\",\"city\":\"Dudelange\",\"county\":\"Canton Esch-sur-Alzette\",\"ISO3166-2-lvl6\":\"LU-ES\",\"postcode\":\"3520\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.4718119\",\"49.4728287\",\"6.0841677\",\"6.0853372\"]}",
-  "fetchedAt": "2026-10-14T15:12:46.713Z"
+  "fetchedAt": "2026-10-15T09:48:07.809Z"
 }

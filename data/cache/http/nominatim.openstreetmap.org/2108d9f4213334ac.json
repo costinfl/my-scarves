@@ -3,5 +3,5 @@
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.615000&lon=6.154722&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"place_id\":119039907,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":9667897,\"lat\":\"49.6150735\",\"lon\":\"6.1550679\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":7.156710154874522e-05,\"addresstype\":\"leisure\",\"name\":\"FC RM Hamm Benfica Asbl\",\"display_name\":\"FC RM Hamm Benfica Asbl, Tawioun, Cents, Luxembourg, Canton Luxembourg, 2612, Lëtzebuerg\",\"address\":{\"leisure\":\"FC RM Hamm Benfica Asbl\",\"road\":\"Tawioun\",\"suburb\":\"Cents\",\"city\":\"Luxembourg\",\"county\":\"Canton Luxembourg\",\"ISO3166-2-lvl6\":\"LU-LU\",\"postcode\":\"2612\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.6145313\",\"49.6156395\",\"6.1542995\",\"6.1558338\"]}",
-  "fetchedAt": "2026-10-14T15:12:52.130Z"
+  "fetchedAt": "2026-10-15T09:48:13.293Z"
 }

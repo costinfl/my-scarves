@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=42.328611&lon=19.240556&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":56818192,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":923891670,\"lat\":\"42.3284416\",\"lon\":\"19.2405779\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.697413595783959e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"M-2, Mojanovići, Opština Zeta, 81304, Crna Gora / Црна Гора\",\"address\":{\"road\":\"M-2\",\"village\":\"Mojanovići\",\"county\":\"Opština Zeta\",\"ISO3166-2-lvl6\":\"ME-25\",\"postcode\":\"81304\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.3278967\",\"42.3289865\",\"19.2400577\",\"19.2410980\"]}",
-  "fetchedAt": "2026-10-14T14:27:06.736Z"
+  "body": "{\"place_id\":57573561,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":923891670,\"lat\":\"42.3284416\",\"lon\":\"19.2405779\",\"category\":\"leisure\",\"type\":\"pitch\",\"place_rank\":30,\"importance\":4.697413595783959e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"M-2, Mojanovići, Opština Zeta, 81304, Crna Gora / Црна Гора\",\"address\":{\"road\":\"M-2\",\"village\":\"Mojanovići\",\"county\":\"Opština Zeta\",\"ISO3166-2-lvl6\":\"ME-25\",\"postcode\":\"81304\",\"country\":\"Crna Gora / Црна Гора\",\"country_code\":\"me\"},\"boundingbox\":[\"42.3278967\",\"42.3289865\",\"19.2400577\",\"19.2410980\"]}",
+  "fetchedAt": "2026-10-15T09:49:29.271Z"
 }

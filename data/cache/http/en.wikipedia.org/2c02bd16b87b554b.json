@@ -3,5 +3,5 @@
   "url": "https://en.wikipedia.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&section=0&redirects=1&page=Salaspils%20FC",
   "contentType": "application/json; charset=utf-8",
   "body": "{\"parse\":{\"title\":\"Salaspils FC\",\"pageid\":45436319,\"redirects\":[],\"wikitext\":\"{{Short description|Latvian football club}}\\n{{refimprove|date=May 2026}}\\n{{Infobox football club\\n| clubname = FK Salaspils\\n| image = \\n| fullname = \\n| nickname = \\n| founded = 2012\\n| ground = Salaspils stadions\\n| capacity = 1500\\n| chairman = Vjačeslavs Miņins\\n| mgrtitle = Head Coach\\n| manager = \\n| league = [[2. līga]]\\n| season = \\n| position = \\n| current = \\n| website = \\n}}\\n'''FK Salaspils''' is a [[Latvia]]n football club.<ref>{{Cite web |title=ONL jaunās sezonas komandu pulkam pievienojas FK Smiltene |url=https://lff.lv/zinas/14683/onl-jaunas-sezonas-komandu-pulkam-pievienojas-fk-smiltene/ |access-date=2026-05-05 |website=LFF.lv |language=lv}}</ref> They compete in  the second-highest division of Latvian football ([[2. līga]]) and the [[Latvian Football Cup]].\\nThey are based in the town of [[Salaspils]].\"}}",
-  "fetchedAt": "2026-10-14T14:22:52.176Z"
+  "fetchedAt": "2026-10-15T09:43:06.755Z"
 }

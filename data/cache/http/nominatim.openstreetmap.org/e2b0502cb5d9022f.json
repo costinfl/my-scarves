@@ -2,6 +2,6 @@
   "status": 200,
   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.610100&lon=6.334670&zoom=18&addressdetails=1",
   "contentType": "application/json; charset=utf-8",
-  "body": "{\"place_id\":118831180,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":93568816,\"lat\":\"49.6101733\",\"lon\":\"6.3346799\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.076905470354799e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"CR 144, Canach, Lenningen, Canton Remich, 5414, Lëtzebuerg\",\"address\":{\"road\":\"CR 144\",\"village\":\"Canach\",\"city\":\"Lenningen\",\"county\":\"Canton Remich\",\"ISO3166-2-lvl6\":\"LU-RM\",\"postcode\":\"5414\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.6097376\",\"49.6106088\",\"6.3338274\",\"6.3355328\"]}",
-  "fetchedAt": "2026-10-14T15:12:51.359Z"
+  "body": "{\"place_id\":119560370,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":93568816,\"lat\":\"49.6101733\",\"lon\":\"6.3346799\",\"category\":\"leisure\",\"type\":\"stadium\",\"place_rank\":30,\"importance\":5.076905470354799e-05,\"addresstype\":\"leisure\",\"name\":\"\",\"display_name\":\"CR 144, Canach, Lenningen, Canton Remich, 5414, Lëtzebuerg\",\"address\":{\"road\":\"CR 144\",\"village\":\"Canach\",\"city\":\"Lenningen\",\"county\":\"Canton Remich\",\"ISO3166-2-lvl6\":\"LU-RM\",\"postcode\":\"5414\",\"country\":\"Lëtzebuerg\",\"country_code\":\"lu\"},\"boundingbox\":[\"49.6097376\",\"49.6106088\",\"6.3338274\",\"6.3355328\"]}",
+  "fetchedAt": "2026-10-15T09:48:12.141Z"
 }
