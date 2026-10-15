@@ -116,3 +116,10 @@ export async function discoverFanshop(website: string, robotsCache: Map<string, 
 
 /** Run once per club: retry when the site could not be reached, or when nothing was found with older search words. */
 export const shouldRecheck = (f: FanshopInfo) => f.status === 'unchecked' || (f.status === 'none' && (f.terms ?? 1) < TERMS_VERSION);
+
+/**
+ * A new check never erases a shop that was already found: a homepage behind bot protection (HTTP 202) or a
+ * shop page that changed shape says nothing about whether the shop still exists. Dropping a link is my call.
+ */
+export const keepFanshop = (existing: FanshopInfo | undefined, found: FanshopInfo): FanshopInfo =>
+  existing?.url && !found.url ? existing : found;
