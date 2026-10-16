@@ -19,6 +19,8 @@ import {
   notFoundView,
   searchView,
   settingsView,
+  packsView,
+  packView,
   statsView,
   wallView,
 } from './views.ts';
@@ -28,7 +30,7 @@ const searchInput = document.querySelector<HTMLInputElement>('#search')!;
 
 let disposeMap: (() => void) | undefined;
 let onlyOwned = false;
-const wall: WallFilter = { country: '', colour: '' };
+const wall: WallFilter = { country: '', colour: '', pack: '' };
 let filter: Filter = readFilter();
 let notice = '';
 
@@ -107,8 +109,9 @@ async function main() {
   app.addEventListener('change', (e) => {
     const target = e.target as HTMLInputElement;
     if (target.name === 'photos' && target.form?.id === 'scarf-form') previewPhotos(target, app.querySelector('#photo-preview')!);
-    if (target.id === 'wall-country' || target.id === 'wall-colour') {
+    if (target.id === 'wall-country' || target.id === 'wall-colour' || target.id === 'wall-pack') {
       if (target.id === 'wall-country') wall.country = target.value;
+      else if (target.id === 'wall-pack') wall.pack = target.value;
       else wall.colour = target.value as WallFilter['colour'];
       render();
     }
@@ -161,6 +164,10 @@ function view(store: Store, route: Route, search: (q: string) => ReturnType<Retu
       return statsView(store);
     case 'wall':
       return wallView(store, wall);
+    case 'packs':
+      return packsView(store);
+    case 'pack':
+      return packView(store, route.id);
     case 'search':
       return searchView(store, route.query, search(route.query));
     case 'notFound':

@@ -11,6 +11,8 @@ export type Route =
   | { view: 'map' }
   | { view: 'stats' }
   | { view: 'wall' }
+  | { view: 'packs' }
+  | { view: 'pack'; id: string }
   | { view: 'search'; query: string }
   | { view: 'notFound' };
 
@@ -38,6 +40,10 @@ export function parseRoute(hash: string): Route {
       return { view: 'stats' };
     case 'wall':
       return { view: 'wall' };
+    case 'packs':
+      return { view: 'packs' };
+    case 'pack':
+      return value ? { view: 'pack', id: value } : { view: 'notFound' };
     case 'search':
       return { view: 'search', query: value };
     default:
@@ -56,5 +62,7 @@ export const href = {
   map: () => '#/map',
   stats: () => '#/stats',
   wall: () => '#/wall',
+  packs: () => '#/packs',
+  pack: (id: string) => `#/pack/${encodeURIComponent(id)}`,
   search: (q: string) => `#/search/${encodeURIComponent(q)}`,
 };

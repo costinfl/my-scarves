@@ -1,8 +1,8 @@
 import type { Catalog, CatalogClub, CatalogLeague } from '../../pipeline/lib/catalog.ts';
-import type { Association, Scarf } from '../../pipeline/lib/types.ts';
+import type { Association, Pack, Scarf } from '../../pipeline/lib/types.ts';
 import { familiesOf, type Family } from './colours.ts';
 
-export type { Catalog, CatalogClub, CatalogLeague, Association };
+export type { Catalog, CatalogClub, CatalogLeague, Association, Pack };
 
 /** The catalog plus lookup maps the views need. */
 export interface Store {
@@ -11,6 +11,9 @@ export interface Store {
   league: Map<string, CatalogLeague>;
   club: Map<string, CatalogClub>;
   clubsByLeague: Map<string, CatalogClub[]>;
+  pack: Map<string, Pack>;
+  /** Packs each club is in, in file order. */
+  packsOf: Map<string, Pack[]>;
 }
 
 export async function loadStore(): Promise<Store> {
@@ -27,12 +30,16 @@ export function indexCatalog(catalog: Catalog): Store {
     list.push(c);
     clubsByLeague.set(c.league, list);
   }
+  const packsOf = new Map<string, Pack[]>();
+  for (const p of catalog.packs) for (const q of p.clubs) packsOf.set(q, [...(packsOf.get(q) ?? []), p]);
   return {
     catalog,
     association: new Map(catalog.associations.map((a) => [a.code, a])),
     league: new Map(catalog.leagues.map((l) => [l.qid, l])),
     club: new Map(catalog.clubs.map((c) => [c.qid, c])),
     clubsByLeague,
+    pack: new Map(catalog.packs.map((p) => [p.id, p])),
+    packsOf,
   };
 }
 
@@ -63,6 +70,8 @@ export interface WallFilter {
   /** Association code, or '' for all. A club playing abroad (Vaduz) counts for its home country. */
   country: string;
   colour: Family | '';
+  /** Pack id, or '' for all. */
+  pack: string;
 }
 
 export interface WallItem {
@@ -71,13 +80,17 @@ export interface WallItem {
 }
 
 /** Owned scarves for the wall, newest first (undated last), then by club name. */
-export function wallItems(clubs: CatalogClub[], f: WallFilter): WallItem[] {
+export function wallItems(clubs: CatalogClub[], f: WallFilter, packs: Map<string, Pack> = new Map()): WallItem[] {
   return clubs
     .flatMap((club) => club.scarves.filter((s) => s.status === 'owned').map((scarf) => ({ scarf, club })))
     .filter(({ club }) => !f.country || (club.home ?? club.association) === f.country)
     .filter(({ club }) => !f.colour || familiesOf(club.colors).includes(f.colour))
+    .filter(({ club }) => !f.pack || (packs.get(f.pack)?.clubs.includes(club.qid) ?? false))
     .sort(
       (x, y) =>
         (y.scarf.acquired?.date ?? '').localeCompare(x.scarf.acquired?.date ?? '') || x.club.name.localeCompare(y.club.name),
     );
 }
+
+/** The clubs of a pack, in the pack's order; QIDs the catalogue does not know are already left out. */
+export const packClubs = (store: Store, p: Pack): CatalogClub[] => p.clubs.flatMap((q) => store.club.get(q) ?? []);

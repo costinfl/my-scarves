@@ -1,6 +1,6 @@
 import type { Scarf } from '../../pipeline/lib/types.ts';
 import type { CatalogClub, Filter, Store } from './data.ts';
-import { applyFilter, currentClubs, FILTERS, owned, wallItems, wished, type WallFilter } from './data.ts';
+import { applyFilter, currentClubs, FILTERS, owned, packClubs, wallItems, wished, type Pack, type WallFilter } from './data.ts';
 import { FAMILIES, familiesOf } from './colours.ts';
 import { html, type Html } from './html.ts';
 import { href } from './router.ts';
@@ -207,6 +207,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
         <h1>${c.name} ${badge(c)}</h1>
         <p class="muted">${l.name} · ${a.name}${c.home && ` · from ${store.association.get(c.home)?.name ?? c.home}`}${!c.current && ' · not in tier 1 or 2 this season'}
           ${canEdit && html` · <a href="${href.edit(c.qid)}">Edit</a> · <a href="${href.addScarf(c.qid)}">Add a scarf</a>`}</p>
+        ${packChips(store.packsOf.get(c.qid) ?? [])}
       </div>
     </header>
     ${c.blurb &&
@@ -303,8 +304,8 @@ export function statsView(store: Store): Html {
 }
 
 export function wallView(store: Store, f: WallFilter): Html {
-  const all = wallItems(store.catalog.clubs, { country: '', colour: '' });
-  const items = wallItems(store.catalog.clubs, f);
+  const all = wallItems(store.catalog.clubs, { country: '', colour: '', pack: '' });
+  const items = wallItems(store.catalog.clubs, f, store.pack);
   // Offer only the choices that match at least one scarf.
   const countries = store.catalog.associations.filter((a) => all.some(({ club }) => (club.home ?? club.association) === a.code));
   const colours = FAMILIES.filter((fam) => all.some(({ club }) => familiesOf(club.colors).includes(fam)));
@@ -322,6 +323,11 @@ export function wallView(store: Store, f: WallFilter): Html {
               <option value="">All</option>
               ${colours.map((fam) => html`<option value="${fam}" ${fam === f.colour ? 'selected' : ''}>${fam}</option>`)}
             </select></label>
+            ${store.catalog.packs.length > 0 &&
+            html`<label>Pack <select id="wall-pack">
+              <option value="">All</option>
+              ${store.catalog.packs.map((p) => html`<option value="${p.id}" ${p.id === f.pack ? 'selected' : ''}>${p.name}</option>`)}
+            </select></label>`}
           </p>
           ${items.length === 0
             ? html`<p class="muted">No scarves match.</p>`
@@ -336,6 +342,73 @@ export function wallView(store: Store, f: WallFilter): Html {
                   </a></li>`;
                 })}
               </ul>`}`}
+  `;
+}
+
+function packChips(packs: Pack[]): Html {
+  if (packs.length === 0) return html``;
+  return html`<p class="pack-chips">${packs.map((p) => html`<a class="pack-chip" href="${href.pack(p.id)}">${p.name}</a>`)}</p>`;
+}
+
+function packProgress(store: Store, p: Pack): Html {
+  const clubs = packClubs(store, p);
+  const done = clubs.filter(owned).length;
+  const complete = clubs.length > 0 && done === clubs.length;
+  return html`<span class="pack-progress">
+    <meter min="0" max="${Math.max(clubs.length, 1)}" value="${done}" aria-label="${done} of ${clubs.length} owned"></meter>
+    ${done} of ${clubs.length}${complete && html` <span class="badge owned">complete</span>`}
+  </span>`;
+}
+
+export function packsView(store: Store): Html {
+  const { packs } = store.catalog;
+  return html`
+    ${crumbs(['Packs'])}
+    <h1>Packs</h1>
+    ${packs.length === 0
+      ? html`<p class="muted">No packs yet. A pack is a themed group of clubs from any country, kept in
+          <code>data/collection/packs.json</code>:</p>
+          <pre>[{ "id": "lions", "name": "Lion teams", "description": "A lion on the badge",
+   "clubs": ["Q19447", "Q9616"] }]</pre>
+          <p class="muted">The club QID is in the Wikidata link at the bottom of every club page.</p>`
+      : html`<ul class="pack-list">
+          ${packs.map((p) => html`<li>
+            <a href="${href.pack(p.id)}"><strong>${p.name}</strong></a>
+            ${p.description && html`<span class="muted">${p.description}</span>`}
+            ${packProgress(store, p)}
+          </li>`)}
+        </ul>`}
+  `;
+}
+
+/** A sticker album: every club of the pack, owned ones in colour, missing ones greyed out. */
+export function packView(store: Store, id: string): Html {
+  const p = store.pack.get(id);
+  if (!p) return notFoundView();
+  const clubs = packClubs(store, p);
+  return html`
+    ${crumbs(['Packs', href.packs()], [p.name])}
+    <h1>${p.name}</h1>
+    ${p.description && html`<p class="muted">${p.description}</p>`}
+    <p>${packProgress(store, p)}</p>
+    ${clubs.length === 0
+      ? html`<p class="muted">None of this pack's clubs are in the data yet.</p>`
+      : html`<ul class="wall album">
+          ${clubs.map((c) => {
+            const photo = c.scarves.find((s) => s.status === 'owned' && s.photos?.length)?.photos?.[0];
+            const picture = photo
+              ? html`<img src="${thumbUrl(photo)}" alt="Scarf of ${c.name}" loading="lazy">`
+              : logoChoice(c) !== 'none'
+                ? html`<span class="album-logo">${logoImg(c)}</span>`
+                : scarfBand(c, 'tile-band');
+            return html`<li class="${owned(c) ? 'have' : 'missing'}"><a href="${href.club(c.qid)}">
+              ${picture}
+              ${scarfBand(c, 'thin')}
+              <strong>${c.name}</strong>
+              <span class="muted">${c.home ?? c.association} ${badge(c)}</span>
+            </a></li>`;
+          })}
+        </ul>`}
   `;
 }
 
