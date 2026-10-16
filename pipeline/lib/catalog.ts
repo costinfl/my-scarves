@@ -10,6 +10,7 @@ import type {
   LeagueInfo,
   LogoInfo,
   Overrides,
+  Pack,
   Scarf,
   Stadium,
   UefaInfo,
@@ -22,6 +23,7 @@ export interface Catalog {
   associations: Association[];
   leagues: CatalogLeague[];
   clubs: CatalogClub[];
+  packs: Pack[];
 }
 
 export interface CatalogLeague {
@@ -73,11 +75,12 @@ export interface CatalogInput {
   enrichment?: Enrichment;
   overrides: Overrides;
   scarves: Scarf[];
+  packs?: Pack[];
 }
 
 type EnrichedClub = Club & ClubEnrichment;
 
-export function buildCatalog({ associations, leagues, clubs, stadiums, enrichment = noEnrichment, overrides, scarves }: CatalogInput): Catalog {
+export function buildCatalog({ associations, leagues, clubs, stadiums, enrichment = noEnrichment, overrides, scarves, packs = [] }: CatalogInput): Catalog {
   const merged: EnrichedClub[] = clubs.map((c) =>
     applyOverride<EnrichedClub>(
       {
@@ -104,13 +107,16 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
   );
   const leagueByQid = new Map(leagues.map((l) => [l.qid, l]));
 
+  const inPack = new Set(packs.flatMap((p) => p.clubs));
   const catalogClubs: CatalogClub[] = [];
   for (const c of merged) {
     const known = c.leagues.filter((m) => leagueByQid.has(m.league));
     const currentMembership = known.filter((m) => m.season === season).sort((a, b) => a.tier - b.tier)[0];
     const clubScarves = scarves.filter((s) => s.clubQid === c.qid);
+    // A club stays in the catalogue after relegation if I own a scarf of it or put it in a pack.
+    const kept = clubScarves.length > 0 || inPack.has(c.qid);
     const membership =
-      currentMembership ?? (clubScarves.length > 0 ? [...known].sort((a, b) => b.season.localeCompare(a.season))[0] : undefined);
+      currentMembership ?? (kept ? [...known].sort((a, b) => b.season.localeCompare(a.season))[0] : undefined);
     if (!membership) continue;
     const stadium = c.stadiumIds[0] ? stadiumById.get(c.stadiumIds[0]) : undefined;
     catalogClubs.push({
@@ -141,6 +147,7 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
   }
 
   // An association appears if clubs play in its leagues or if it is home to clubs playing abroad (LIE).
+  const shownQids = new Set(catalogClubs.map((c) => c.qid));
   const usedCodes = new Set(catalogClubs.flatMap((c) => [c.association, ...(c.home ? [c.home] : [])]));
   return {
     season,
@@ -149,6 +156,8 @@ export function buildCatalog({ associations, leagues, clubs, stadiums, enrichmen
       .filter((l) => usedCodes.has(l.association))
       .map(({ qid, association, tier, label }) => ({ qid, association, tier, name: label })),
     clubs: catalogClubs.sort((a, b) => a.name.localeCompare(b.name)),
+    // Only clubs the site can show; build-catalog warns about the others.
+    packs: packs.map((p) => ({ ...p, clubs: [...new Set(p.clubs)].filter((q) => shownQids.has(q)) })),
   };
 }
 

@@ -55,6 +55,13 @@ describe('buildCatalog', () => {
     expect(withOld.clubs.find((c) => c.qid === 'Q10')).toMatchObject({ current: true, league: 'Q1' });
   });
 
+  it('keeps pack clubs that left tier 1/2, and drops unknown or repeated QIDs from packs', () => {
+    const withPack = buildCatalog({ ...input, packs: [{ id: 'lions', name: 'Lion teams', clubs: ['Q11', 'Q10', 'Q11', 'Q404'] }] });
+    expect(withPack.clubs.find((c) => c.qid === 'Q11')).toMatchObject({ current: false, league: 'Q2' });
+    expect(withPack.packs).toEqual([{ id: 'lions', name: 'Lion teams', clubs: ['Q11', 'Q10'] }]);
+    expect(catalog.packs).toEqual([]);
+  });
+
   it('merges enrichment, then overrides by club or stadium QID', () => {
     const enriched = buildCatalog({
       ...input,

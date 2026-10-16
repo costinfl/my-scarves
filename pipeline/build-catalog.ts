@@ -1,4 +1,4 @@
-// Merges generated data, data/manual/overrides.json and data/collection/scarves.json into
+// Merges generated data, data/manual/overrides.json and data/collection (scarves, packs) into
 // site/public/data/catalog.json, the single file the site loads. Runs before dev and build.
 import { cpSync, existsSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
@@ -24,6 +24,7 @@ const catalog = buildCatalog({
   },
   overrides: readJson(paths.overrides, {}),
   scarves: readJson(paths.scarves, []),
+  packs: readJson(paths.packs, []),
 });
 writeJson(join(ROOT, 'site', 'public', 'data', 'catalog.json'), catalog);
 
@@ -31,6 +32,13 @@ const scarves = readJson<{ id: string; clubQid: string }[]>(paths.scarves, []);
 const shown = new Set(catalog.clubs.map((c) => c.qid));
 for (const s of scarves) {
   if (!shown.has(s.clubQid)) console.warn(`scarf ${s.id}: club ${s.clubQid} is not in the generated data, so it is not shown`);
+}
+
+const packs = readJson<{ id: string; clubs: string[] }[]>(paths.packs, []);
+for (const p of packs) {
+  if (!/^[a-z0-9-]+$/.test(p.id)) console.warn(`pack "${p.id}": use lowercase letters, digits and dashes in the id, it goes in the URL`);
+  if (packs.filter((o) => o.id === p.id).length > 1) console.warn(`pack "${p.id}": the id is used more than once`);
+  for (const q of p.clubs) if (!shown.has(q)) console.warn(`pack ${p.id}: club ${q} is not in the generated data, so it is not shown`);
 }
 
 // Photos live in assets/photos (committed); the site serves a copy from site/public/photos (ignored by git).

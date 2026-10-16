@@ -65,6 +65,16 @@ export interface LeagueImportResult {
   sourceUrl?: string;
 }
 
+/** A themed group of clubs I collect across countries and leagues ("Lion teams"). A club can be in many packs. */
+export interface Pack {
+  /** Short slug used in the URL: #/pack/lions. */
+  id: string;
+  name: string;
+  description?: string;
+  /** Club QIDs, in the order the album shows them. */
+  clubs: string[];
+}
+
 export interface Scarf {
   id: string;
   clubQid: string;

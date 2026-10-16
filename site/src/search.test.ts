@@ -5,6 +5,7 @@ import { buildSearch, fold } from './search.ts';
 
 const catalog: Catalog = {
   season: '2026-27',
+  packs: [],
   associations: [
     { code: 'ROU', name: 'Romania', notes: null },
     { code: 'ESP', name: 'Spain', notes: null },

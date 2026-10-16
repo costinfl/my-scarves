@@ -14,6 +14,7 @@ export const paths = {
   coverage: data('generated', 'coverage.md'),
   overrides: data('manual', 'overrides.json'),
   scarves: data('collection', 'scarves.json'),
+  packs: data('collection', 'packs.json'),
   photos: join(ROOT, 'assets', 'photos'),
   logos: join(ROOT, 'assets', 'logos'),
   httpCache: data('cache', 'http'),
