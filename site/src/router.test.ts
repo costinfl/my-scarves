@@ -10,6 +10,7 @@ describe('parseRoute', () => {
     ['#/club/Q18656', { view: 'club', qid: 'Q18656' }],
     ['#/map', { view: 'map' }],
     ['#/stats', { view: 'stats' }],
+    ['#/wall', { view: 'wall' }],
     ['#/edit/Q245162', { view: 'edit', qid: 'Q245162' }],
     ['#/add-scarf/Q245162', { view: 'addScarf', qid: 'Q245162' }],
     ['#/settings', { view: 'settings' }],

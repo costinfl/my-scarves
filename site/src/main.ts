@@ -1,6 +1,6 @@
 import './style.css';
 import type { Scarf } from '../../pipeline/lib/types.ts';
-import { FILTERS, loadStore, type Filter, type Store } from './data.ts';
+import { FILTERS, loadStore, type Filter, type Store, type WallFilter } from './data.ts';
 import { html } from './html.ts';
 import { href, parseRoute, type Route } from './router.ts';
 import { buildSearch } from './search.ts';
@@ -20,6 +20,7 @@ import {
   searchView,
   settingsView,
   statsView,
+  wallView,
 } from './views.ts';
 
 const app = document.querySelector<HTMLElement>('#app')!;
@@ -27,6 +28,7 @@ const searchInput = document.querySelector<HTMLInputElement>('#search')!;
 
 let disposeMap: (() => void) | undefined;
 let onlyOwned = false;
+const wall: WallFilter = { country: '', colour: '' };
 let filter: Filter = readFilter();
 let notice = '';
 
@@ -105,6 +107,11 @@ async function main() {
   app.addEventListener('change', (e) => {
     const target = e.target as HTMLInputElement;
     if (target.name === 'photos' && target.form?.id === 'scarf-form') previewPhotos(target, app.querySelector('#photo-preview')!);
+    if (target.id === 'wall-country' || target.id === 'wall-colour') {
+      if (target.id === 'wall-country') wall.country = target.value;
+      else wall.colour = target.value as WallFilter['colour'];
+      render();
+    }
     if (target.id === 'only-owned') {
       onlyOwned = (e.target as HTMLInputElement).checked;
       render();
@@ -152,6 +159,8 @@ function view(store: Store, route: Route, search: (q: string) => ReturnType<Retu
       return mapView(store, onlyOwned);
     case 'stats':
       return statsView(store);
+    case 'wall':
+      return wallView(store, wall);
     case 'search':
       return searchView(store, route.query, search(route.query));
     case 'notFound':

@@ -1,6 +1,7 @@
 import type { Scarf } from '../../pipeline/lib/types.ts';
 import type { CatalogClub, Filter, Store } from './data.ts';
-import { applyFilter, currentClubs, FILTERS, owned, wished } from './data.ts';
+import { applyFilter, currentClubs, FILTERS, owned, wallItems, wished, type WallFilter } from './data.ts';
+import { FAMILIES, familiesOf } from './colours.ts';
 import { html, type Html } from './html.ts';
 import { href } from './router.ts';
 import { uefaBadgeUrl, uefaTeamUrl } from '../../pipeline/lib/uefa-id.ts';
@@ -58,6 +59,16 @@ function swatch(c: CatalogClub): Html {
   const second = c.colors.secondary ?? c.colors.primary;
   return html`<span class="swatch" style="--c1:${c.colors.primary};--c2:${second}" title="${colorsTitle(c)}"></span>`;
 }
+
+/**
+ * The club colours drawn as a bar scarf, fringes included. One known colour gives bars in two shades of it
+ * (the CSS darkens --c1 when --c2 is missing); unknown colours give a neutral grey scarf.
+ */
+function scarfBand(c: CatalogClub, cls = ''): Html {
+  const style = c.colors ? `--c1:${c.colors.primary}${c.colors.secondary ? `;--c2:${c.colors.secondary}` : ''}` : '';
+  return html`<span class="scarf-band ${cls}" style="${style}" title="${colorsTitle(c)}" aria-hidden="true"></span>`;
+}
+
 const thumbUrl = (path: string) => photoUrl(path.replace(/\.jpg$/, '.thumb.jpg'));
 
 const progress = (clubs: CatalogClub[]) => html`<span class="progress">${clubs.filter(owned).length} of ${clubs.length}</span>`;
@@ -189,6 +200,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
   const hasCoords = s?.lat !== undefined && s.lon !== undefined;
   return html`
     ${crumbs([a.name, href.association(a.code)], [l.name, href.league(l.qid)], [c.name])}
+    ${c.colors && scarfBand(c, 'club-band')}
     <header class="club-head">
       ${logoImg(c)}
       <div>
@@ -197,9 +209,6 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
           ${canEdit && html` · <a href="${href.edit(c.qid)}">Edit</a> · <a href="${href.addScarf(c.qid)}">Add a scarf</a>`}</p>
       </div>
     </header>
-    ${c.colors &&
-    html`<div class="stripe" style="--c1:${c.colors.primary};--c2:${c.colors.secondary ?? c.colors.primary}"
-      title="${colorsTitle(c)}"></div>`}
     ${c.blurb &&
     html`<p class="blurb">${c.blurb.text}
       <small class="muted">From <a href="${c.blurb.source}" rel="noopener" target="_blank">Wikipedia</a>, CC BY-SA 4.0${c.blurb.status === 'draft' && ' · draft'}</small></p>`}
@@ -290,6 +299,43 @@ export function statsView(store: Store): Html {
     ${recent.length > 0 &&
     html`<h2>Latest</h2>
       <ul>${recent.map((s) => html`<li>${s.acquired!.date} · <a href="${href.club(s.club.qid)}">${s.club.name}</a>${s.type && ` · ${s.type}`}</li>`)}</ul>`}
+  `;
+}
+
+export function wallView(store: Store, f: WallFilter): Html {
+  const all = wallItems(store.catalog.clubs, { country: '', colour: '' });
+  const items = wallItems(store.catalog.clubs, f);
+  // Offer only the choices that match at least one scarf.
+  const countries = store.catalog.associations.filter((a) => all.some(({ club }) => (club.home ?? club.association) === a.code));
+  const colours = FAMILIES.filter((fam) => all.some(({ club }) => familiesOf(club.colors).includes(fam)));
+  return html`
+    ${crumbs(['Wall'])}
+    <h1>Scarf wall <small class="muted">${items.length} of ${all.length}</small></h1>
+    ${all.length === 0
+      ? html`<p class="muted">No scarves yet. Open a club page and use <em>Add a scarf</em>, or run <code>npm run add-scarf</code>.</p>`
+      : html`<p class="wall-filters">
+            <label>Country <select id="wall-country">
+              <option value="">All</option>
+              ${countries.map((a) => html`<option value="${a.code}" ${a.code === f.country ? 'selected' : ''}>${a.name}</option>`)}
+            </select></label>
+            <label>Colour <select id="wall-colour">
+              <option value="">All</option>
+              ${colours.map((fam) => html`<option value="${fam}" ${fam === f.colour ? 'selected' : ''}>${fam}</option>`)}
+            </select></label>
+          </p>
+          ${items.length === 0
+            ? html`<p class="muted">No scarves match.</p>`
+            : html`<ul class="wall">
+                ${items.map(({ scarf, club }) => {
+                  const photo = scarf.photos?.[0];
+                  return html`<li><a href="${href.club(club.qid)}">
+                    ${photo ? html`<img src="${thumbUrl(photo)}" alt="Scarf of ${club.name}" loading="lazy">` : scarfBand(club, 'tile-band')}
+                    ${scarfBand(club, 'thin')}
+                    <strong>${club.name}</strong>
+                    <span class="muted">${club.home ?? club.association}${scarf.acquired?.date && ` · ${scarf.acquired.date}`}</span>
+                  </a></li>`;
+                })}
+              </ul>`}`}
   `;
 }
 

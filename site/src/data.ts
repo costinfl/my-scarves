@@ -1,5 +1,6 @@
 import type { Catalog, CatalogClub, CatalogLeague } from '../../pipeline/lib/catalog.ts';
-import type { Association } from '../../pipeline/lib/types.ts';
+import type { Association, Scarf } from '../../pipeline/lib/types.ts';
+import { familiesOf, type Family } from './colours.ts';
 
 export type { Catalog, CatalogClub, CatalogLeague, Association };
 
@@ -57,3 +58,26 @@ export const currentClubs = (store: Store) => store.catalog.clubs.filter((c) => 
 
 export const owned = (c: CatalogClub) => c.scarves.some((s) => s.status === 'owned');
 export const wished = (c: CatalogClub) => !owned(c) && c.scarves.some((s) => s.status === 'wishlist');
+
+export interface WallFilter {
+  /** Association code, or '' for all. A club playing abroad (Vaduz) counts for its home country. */
+  country: string;
+  colour: Family | '';
+}
+
+export interface WallItem {
+  scarf: Scarf;
+  club: CatalogClub;
+}
+
+/** Owned scarves for the wall, newest first (undated last), then by club name. */
+export function wallItems(clubs: CatalogClub[], f: WallFilter): WallItem[] {
+  return clubs
+    .flatMap((club) => club.scarves.filter((s) => s.status === 'owned').map((scarf) => ({ scarf, club })))
+    .filter(({ club }) => !f.country || (club.home ?? club.association) === f.country)
+    .filter(({ club }) => !f.colour || familiesOf(club.colors).includes(f.colour))
+    .sort(
+      (x, y) =>
+        (y.scarf.acquired?.date ?? '').localeCompare(x.scarf.acquired?.date ?? '') || x.club.name.localeCompare(y.club.name),
+    );
+}

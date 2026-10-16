@@ -254,12 +254,90 @@ footer {
   object-fit: contain;
   flex: none;
 }
-.stripe {
-  height: 0.6rem;
-  margin: 0.75rem 0;
-  border-radius: 3px;
+/* Club colours as a bar scarf: alternating bars, fringe threads at both ends. Without a second colour
+   the bars alternate between the colour and a darker shade of it. */
+.scarf-band {
+  --bar: 2.5rem;
+  --c1: var(--line);
+  display: block;
+  position: relative;
+  height: 1.5rem;
+  margin: 0.75rem 0.7rem;
+  border-radius: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--c1) 0 var(--bar),
+    var(--c2, color-mix(in srgb, var(--c1) 70%, black)) var(--bar) calc(2 * var(--bar))
+  );
+  box-shadow: inset 0 0 0 1px rgb(128 128 128 / 0.35);
+}
+.scarf-band::before,
+.scarf-band::after {
+  content: '';
+  position: absolute;
+  top: 8%;
+  bottom: 8%;
+  width: 0.6rem;
+  background: repeating-linear-gradient(180deg, var(--c1) 0 2px, transparent 2px 4px);
+}
+.scarf-band::before {
+  right: 100%;
+}
+.scarf-band::after {
+  left: 100%;
+}
+.scarf-band.club-band {
+  height: 2rem;
+  margin-top: 0.25rem;
+}
+.scarf-band.thin {
+  --bar: 1rem;
+  height: 0.4rem;
+  margin: 0.35rem 0 0.25rem;
+}
+.scarf-band.tile-band {
+  --bar: 1.5rem;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  margin: 0;
+  border-radius: 6px;
+}
+.scarf-band.thin::before,
+.scarf-band.thin::after,
+.scarf-band.tile-band::before,
+.scarf-band.tile-band::after {
+  display: none;
+}
+.wall-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+.wall {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+.wall a {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+.wall img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
   border: 1px solid var(--line);
-  background: repeating-linear-gradient(90deg, var(--c1) 0 2rem, var(--c2) 2rem 4rem);
+}
+.wall strong {
+  line-height: 1.25;
+}
+.wall a:hover strong {
+  color: var(--accent);
 }
 .swatch {
   display: inline-block;
