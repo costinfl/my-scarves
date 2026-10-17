@@ -1,6 +1,6 @@
 import './style.css';
 import type { Scarf } from '../../pipeline/lib/types.ts';
-import { FILTERS, loadStore, type Filter, type Store, type WallFilter } from './data.ts';
+import { FILTERS, loadStore, replacePacks, type Filter, type Pack, type Store, type WallFilter } from './data.ts';
 import { html } from './html.ts';
 import { href, parseRoute, type Route } from './router.ts';
 import { buildSearch } from './search.ts';
@@ -9,6 +9,7 @@ import { checkAccess, commitFiles, createBlob, DEFAULT_REPO, GitHubError, loadCo
 import { checkScarfInput, makeScarf, PHOTO_SIZE, THUMB_SIZE, thumbOf } from '../../pipeline/lib/scarves.ts';
 import { appendScarf, photoPaths, PHOTOS_DIR, previewPhotos, readScarfForm, resizeToJpeg, scarfFormView, scarfIdFor, SCARVES_PATH } from './scarf-form.ts';
 import { applyEdit, OVERRIDES_PATH, type Edit } from './overrides.ts';
+import { addPack, PACKS_PATH, setMembership, slugify } from './packs-edit.ts';
 import {
   associationView,
   clubView,
@@ -19,6 +20,8 @@ import {
   notFoundView,
   searchView,
   settingsView,
+  packsView,
+  packView,
   statsView,
   wallView,
 } from './views.ts';
@@ -28,7 +31,7 @@ const searchInput = document.querySelector<HTMLInputElement>('#search')!;
 
 let disposeMap: (() => void) | undefined;
 let onlyOwned = false;
-const wall: WallFilter = { country: '', colour: '' };
+const wall: WallFilter = { country: '', colour: '', pack: '' };
 let filter: Filter = readFilter();
 let notice = '';
 
@@ -93,6 +96,12 @@ async function main() {
     } else if (form.id === 'scarf-form') {
       e.preventDefault();
       void saveScarf(store, form);
+    } else if (form.id === 'packs-form') {
+      e.preventDefault();
+      void savePackMembership(store, form).then((ok) => ok && render());
+    } else if (form.id === 'new-pack-form') {
+      e.preventDefault();
+      void saveNewPack(store, form);
     } else if (form.id === 'token-form') {
       e.preventDefault();
       void saveToken(form).then((ok) => ok && render());
@@ -107,8 +116,9 @@ async function main() {
   app.addEventListener('change', (e) => {
     const target = e.target as HTMLInputElement;
     if (target.name === 'photos' && target.form?.id === 'scarf-form') previewPhotos(target, app.querySelector('#photo-preview')!);
-    if (target.id === 'wall-country' || target.id === 'wall-colour') {
+    if (target.id === 'wall-country' || target.id === 'wall-colour' || target.id === 'wall-pack') {
       if (target.id === 'wall-country') wall.country = target.value;
+      else if (target.id === 'wall-pack') wall.pack = target.value;
       else wall.colour = target.value as WallFilter['colour'];
       render();
     }
@@ -161,6 +171,10 @@ function view(store: Store, route: Route, search: (q: string) => ReturnType<Retu
       return statsView(store);
     case 'wall':
       return wallView(store, wall);
+    case 'packs':
+      return packsView(store, !!loadConfig());
+    case 'pack':
+      return packView(store, route.id);
     case 'search':
       return searchView(store, route.query, search(route.query));
     case 'notFound':
@@ -271,6 +285,61 @@ async function saveScarf(store: Store, form: HTMLFormElement): Promise<void> {
         : `Not saved: ${e instanceof Error ? e.message : String(e)}`,
     );
   }
+}
+
+/**
+ * Commits a change to packs.json and mirrors it in the loaded catalogue. The change runs on the latest
+ * file from GitHub (and again if another commit lands first), so edits made elsewhere are kept.
+ */
+async function savePacks(store: Store, form: HTMLFormElement, change: (text: string) => string, message: string): Promise<boolean> {
+  const config = loadConfig();
+  if (!config) return false;
+  const button = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+  button.disabled = true;
+  status('Saving…');
+  try {
+    let latest = '';
+    const saved = await updateFile(config, PACKS_PATH, (text) => (latest = change(text)), message);
+    replacePacks(store, latest.trim() ? (JSON.parse(latest) as Pack[]) : []);
+    notice = saved ? 'Saved. The site rebuilds in about a minute.' : 'Already saved, nothing to commit.';
+    return true;
+  } catch (e) {
+    button.disabled = false;
+    status(
+      e instanceof GitHubError && e.status === 401
+        ? 'GitHub rejected the token (expired or revoked). Set a new one in Settings.'
+        : `Not saved: ${e instanceof Error ? e.message : String(e)}`,
+    );
+    return false;
+  }
+}
+
+async function savePackMembership(store: Store, form: HTMLFormElement): Promise<boolean> {
+  const club = store.club.get(form.dataset.qid!);
+  if (!club) return false;
+  const data = new FormData(form);
+  const ids = data.getAll('pack').map(String);
+  const shown = data.getAll('shown').map(String);
+  const newName = String(data.get('newPack') ?? '').trim();
+  const newId = newName && slugify(newName);
+  if (newName && !newId) {
+    status('Not saved: the new pack name needs at least one letter or digit.');
+    return false;
+  }
+  return savePacks(
+    store,
+    form,
+    (text) => setMembership(newId ? addPack(text, { id: newId, name: newName }, club.qid) : text, club.qid, ids, shown),
+    `Packs of ${club.name} (${club.qid})${newName ? `, new pack: ${newName}` : ''}`,
+  );
+}
+
+async function saveNewPack(store: Store, form: HTMLFormElement): Promise<void> {
+  const data = new FormData(form);
+  const name = String(data.get('name') ?? '').trim();
+  const id = String(data.get('slug') ?? '').trim() || slugify(name);
+  const description = String(data.get('description') ?? '');
+  if (await savePacks(store, form, (text) => addPack(text, { id, name, description }), `New pack: ${name}`)) location.hash = href.pack(id);
 }
 
 /** Mirrors a saved edit in the loaded catalogue, so the page reflects it before the redeploy. */
