@@ -30,17 +30,26 @@ export function indexCatalog(catalog: Catalog): Store {
     list.push(c);
     clubsByLeague.set(c.league, list);
   }
-  const packsOf = new Map<string, Pack[]>();
-  for (const p of catalog.packs) for (const q of p.clubs) packsOf.set(q, [...(packsOf.get(q) ?? []), p]);
   return {
     catalog,
     association: new Map(catalog.associations.map((a) => [a.code, a])),
     league: new Map(catalog.leagues.map((l) => [l.qid, l])),
     club: new Map(catalog.clubs.map((c) => [c.qid, c])),
     clubsByLeague,
-    pack: new Map(catalog.packs.map((p) => [p.id, p])),
-    packsOf,
+    ...indexPacks(catalog.packs),
   };
+}
+
+function indexPacks(packs: Pack[]): Pick<Store, 'pack' | 'packsOf'> {
+  const packsOf = new Map<string, Pack[]>();
+  for (const p of packs) for (const q of p.clubs) packsOf.set(q, [...(packsOf.get(q) ?? []), p]);
+  return { pack: new Map(packs.map((p) => [p.id, p])), packsOf };
+}
+
+/** Swaps in packs just saved from the browser, so pages show them before the redeploy. */
+export function replacePacks(store: Store, packs: Pack[]): void {
+  store.catalog.packs = packs.map((p) => ({ ...p, clubs: [...new Set(p.clubs)].filter((q) => store.club.has(q)) }));
+  Object.assign(store, indexPacks(store.catalog.packs));
 }
 
 export type Filter = 'all' | 'owned' | 'wishlist' | 'missing';

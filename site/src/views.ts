@@ -2,6 +2,7 @@ import type { Scarf } from '../../pipeline/lib/types.ts';
 import type { CatalogClub, Filter, Store } from './data.ts';
 import { applyFilter, currentClubs, FILTERS, owned, packClubs, wallItems, wished, type Pack, type WallFilter } from './data.ts';
 import { FAMILIES, familiesOf } from './colours.ts';
+import { newPackForm, packMembershipForm } from './packs-edit.ts';
 import { html, type Html } from './html.ts';
 import { href } from './router.ts';
 import { uefaBadgeUrl, uefaTeamUrl } from '../../pipeline/lib/uefa-id.ts';
@@ -210,6 +211,7 @@ export function clubView(store: Store, qid: string, canEdit = false): Html {
         ${packChips(store.packsOf.get(c.qid) ?? [])}
       </div>
     </header>
+    ${canEdit && packMembershipForm(c, store.catalog.packs)}
     ${c.blurb &&
     html`<p class="blurb">${c.blurb.text}
       <small class="muted">From <a href="${c.blurb.source}" rel="noopener" target="_blank">Wikipedia</a>, CC BY-SA 4.0${c.blurb.status === 'draft' && ' · draft'}</small></p>`}
@@ -360,7 +362,7 @@ function packProgress(store: Store, p: Pack): Html {
   </span>`;
 }
 
-export function packsView(store: Store): Html {
+export function packsView(store: Store, canEdit = false): Html {
   const { packs } = store.catalog;
   return html`
     ${crumbs(['Packs'])}
@@ -370,7 +372,8 @@ export function packsView(store: Store): Html {
           <code>data/collection/packs.json</code>:</p>
           <pre>[{ "id": "lions", "name": "Lion teams", "description": "A lion on the badge",
    "clubs": ["Q19447", "Q9616"] }]</pre>
-          <p class="muted">The club QID is in the Wikidata link at the bottom of every club page.</p>`
+          <p class="muted">The club QID is in the Wikidata link at the bottom of every club page.
+          ${canEdit ? 'Or create one below, then add clubs from their pages (Packs, under the club name).' : html`With a GitHub token (<a href="${href.settings()}">Settings</a>) you can create packs here.`}</p>`
       : html`<ul class="pack-list">
           ${packs.map((p) => html`<li>
             <a href="${href.pack(p.id)}"><strong>${p.name}</strong></a>
@@ -378,6 +381,7 @@ export function packsView(store: Store): Html {
             ${packProgress(store, p)}
           </li>`)}
         </ul>`}
+    ${canEdit && newPackForm()}
   `;
 }
 

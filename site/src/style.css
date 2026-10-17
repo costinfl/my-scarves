@@ -527,3 +527,21 @@ button.primary:disabled {
   filter: grayscale(1);
   opacity: 0.45;
 }
+.pack-edit {
+  margin: 0.75rem 0;
+}
+.pack-edit summary {
+  cursor: pointer;
+  color: var(--accent);
+}
+.pack-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+}
+.row-inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
