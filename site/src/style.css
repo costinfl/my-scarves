@@ -545,3 +545,70 @@ button.primary:disabled {
   align-items: center;
   gap: 0.5rem;
 }
+/* Progress map: one-hue ramp, validated per mode (dataviz validate_palette --ordinal); 0 = nothing owned yet. */
+:root {
+  --prog-0: #e4e4de;
+  --prog-1: #6fbb7e;
+  --prog-2: #4fa863;
+  --prog-3: #2e8a47;
+  --prog-4: #1c6b34;
+  --prog-5: #0f4d24;
+  --complete: #d4a017;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --prog-0: #3a3a36;
+    --prog-1: #2a7a40;
+    --prog-2: #3d9654;
+    --prog-3: #5cb26e;
+    --prog-4: #86cd94;
+    --prog-5: #b7e6bf;
+    --complete: #f2c94c;
+  }
+}
+.map.progress {
+  background: var(--card);
+}
+.leaflet-container path.country {
+  stroke: var(--bg);
+  fill-opacity: 1;
+}
+.leaflet-container path.country:hover {
+  stroke: var(--fg);
+}
+.prog-0 { fill: var(--prog-0); background: var(--prog-0); }
+.prog-1 { fill: var(--prog-1); background: var(--prog-1); }
+.prog-2 { fill: var(--prog-2); background: var(--prog-2); }
+.prog-3 { fill: var(--prog-3); background: var(--prog-3); }
+.prog-4 { fill: var(--prog-4); background: var(--prog-4); }
+.prog-5 { fill: var(--prog-5); background: var(--prog-5); }
+.leaflet-container path.country.complete {
+  stroke: var(--complete);
+  stroke-width: 2.5;
+}
+.legend {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  font-size: 0.85rem;
+}
+.legend .key {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 0.35rem;
+  vertical-align: -0.1rem;
+  border-radius: 3px;
+}
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin: 0 0 0.75rem;
+}
+.tabs a[aria-current='page'] {
+  color: var(--fg);
+  font-weight: 600;
+  text-decoration: none;
+}

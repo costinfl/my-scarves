@@ -8,7 +8,7 @@ export type Route =
   | { view: 'edit'; qid: string }
   | { view: 'addScarf'; qid: string }
   | { view: 'settings' }
-  | { view: 'map' }
+  | { view: 'map'; mode: 'stadiums' | 'countries' }
   | { view: 'stats' }
   | { view: 'wall' }
   | { view: 'packs' }
@@ -35,7 +35,7 @@ export function parseRoute(hash: string): Route {
     case 'settings':
       return { view: 'settings' };
     case 'map':
-      return { view: 'map' };
+      return { view: 'map', mode: value === 'countries' ? 'countries' : 'stadiums' };
     case 'stats':
       return { view: 'stats' };
     case 'wall':
@@ -60,6 +60,7 @@ export const href = {
   addScarf: (qid: string) => `#/add-scarf/${qid}`,
   settings: () => '#/settings',
   map: () => '#/map',
+  progressMap: () => '#/map/countries',
   stats: () => '#/stats',
   wall: () => '#/wall',
   packs: () => '#/packs',

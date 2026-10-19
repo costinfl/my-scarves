@@ -1,6 +1,6 @@
 import './style.css';
 import type { Scarf } from '../../pipeline/lib/types.ts';
-import { FILTERS, loadStore, replacePacks, type Filter, type Pack, type Store, type WallFilter } from './data.ts';
+import { associationClubs, FILTERS, loadStore, owned, replacePacks, type Filter, type Pack, type Store, type WallFilter } from './data.ts';
 import { html } from './html.ts';
 import { href, parseRoute, type Route } from './router.ts';
 import { buildSearch } from './search.ts';
@@ -22,6 +22,7 @@ import {
   settingsView,
   packsView,
   packView,
+  progressMapView,
   statsView,
   wallView,
 } from './views.ts';
@@ -166,7 +167,7 @@ function view(store: Store, route: Route, search: (q: string) => ReturnType<Retu
     case 'settings':
       return settingsView(loadConfig(), { repo: DEFAULT_REPO });
     case 'map':
-      return mapView(store, onlyOwned);
+      return route.mode === 'countries' ? progressMapView(store) : mapView(store, onlyOwned);
     case 'stats':
       return statsView(store);
     case 'wall':
@@ -364,9 +365,21 @@ function applyLocally(store: Store, qid: string, edit: Edit): void {
 async function mountMaps(store: Store, route: Route) {
   const big = app.querySelector<HTMLElement>('#map');
   const small = app.querySelector<HTMLElement>('#club-map');
-  if (!big && !small) return;
-  const { drawMap } = await import('./map.ts');
-  if (big) {
+  const progress = app.querySelector<HTMLElement>('#progress-map');
+  if (!big && !small && !progress) return;
+  const { drawMap, drawProgressMap } = await import('./map.ts');
+  if (progress) {
+    const byCode = new Map(
+      store.catalog.associations.map((a) => {
+        const clubs = associationClubs(store, a.code);
+        return [a.code, { name: a.name, owned: clubs.filter(owned).length, total: clubs.length }] as const;
+      }),
+    );
+    const map = await drawProgressMap(progress, byCode);
+    // The outlines are fetched first; if I navigated away meanwhile, drop the map instead of keeping it alive.
+    if (progress.isConnected) disposeMap = () => map.remove();
+    else map.remove();
+  } else if (big) {
     const clubs = onlyOwned ? store.catalog.clubs.filter((c) => c.scarves.some((s) => s.status === 'owned')) : store.catalog.clubs;
     const map = drawMap(big, clubs);
     disposeMap = () => map.remove();

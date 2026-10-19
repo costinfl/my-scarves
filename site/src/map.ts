@@ -1,7 +1,7 @@
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import type { CatalogClub } from './data.ts';
-import { owned } from './data.ts';
+import type { CatalogClub, Progress } from './data.ts';
+import { owned, progressStep } from './data.ts';
 import { esc } from './html.ts';
 import { href } from './router.ts';
 
@@ -36,5 +36,50 @@ export function drawMap(el: HTMLElement, clubs: CatalogClub[], opts: { zoom?: nu
   if (points.length === 1) map.setView(points[0]!, opts.zoom ?? 14);
   else if (points.length > 1) map.fitBounds(L.latLngBounds(points), { padding: [24, 24] });
   else map.setView([50, 10], 4);
+  return map;
+}
+
+interface CountryCollection {
+  type: 'FeatureCollection';
+  features: { type: 'Feature'; properties: { code: string }; geometry: GeoJSON.MultiPolygon }[];
+}
+
+/**
+ * Countries coloured by the share of their clubs I own. No tile layer: the outlines are the map. Colours come from
+ * CSS classes (prog-0..5) so light and dark mode each use their own validated ramp. Associations too small to click
+ * (Gibraltar, San Marino) also get a dot.
+ */
+export async function drawProgressMap(el: HTMLElement, progress: Map<string, Progress & { name: string }>): Promise<L.Map> {
+  const map = L.map(el, { scrollWheelZoom: false, zoomSnap: 0.25, attributionControl: false });
+  const res = await fetch(`${import.meta.env.BASE_URL}data/countries.geo.json`);
+  const geo = (await res.json()) as CountryCollection;
+  const label = (code: string) => {
+    const p = progress.get(code);
+    return p ? `<strong>${esc(p.name)}</strong><br>${p.owned} of ${p.total} clubs` : esc(code);
+  };
+  const className = (code: string) => {
+    const p = progress.get(code);
+    return `country prog-${p ? progressStep(p) : 0}${p && p.total > 0 && p.owned === p.total ? ' complete' : ''}`;
+  };
+  const layer = L.geoJSON(geo as GeoJSON.FeatureCollection, {
+    style: (f) => ({ className: className(f!.properties.code), weight: 1 }),
+    onEachFeature: (f, l) => {
+      const code = f.properties.code as string;
+      l.bindTooltip(label(code), { sticky: true });
+      l.on('click', () => (location.hash = href.association(code)));
+    },
+  });
+  // Open on Europe (Iceland to the Caspian); Russia and Kazakhstan reach further east and are a pan away.
+  // The view is set before the layer is added: Leaflet's vector renderer needs one.
+  map.fitBounds([[34, -24], [71, 50]]);
+  layer.addTo(map);
+  for (const f of geo.features) {
+    const bounds = L.geoJSON(f as GeoJSON.Feature).getBounds();
+    if (bounds.getNorth() - bounds.getSouth() > 0.4 || bounds.getEast() - bounds.getWest() > 0.4) continue;
+    L.circleMarker(bounds.getCenter(), { radius: 6, weight: 1, className: className(f.properties.code) })
+      .bindTooltip(label(f.properties.code))
+      .on('click', () => (location.hash = href.association(f.properties.code)))
+      .addTo(map);
+  }
   return map;
 }
