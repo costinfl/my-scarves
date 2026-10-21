@@ -1,6 +1,6 @@
 import type { Scarf } from '../../pipeline/lib/types.ts';
 import type { CatalogClub, Filter, Store } from './data.ts';
-import { applyFilter, currentClubs, FILTERS, owned, packClubs, wallItems, wished, type Pack, type WallFilter } from './data.ts';
+import { applyFilter, associationClubs, currentClubs, FILTERS, owned, packClubs, wallItems, wished, type Pack, type WallFilter } from './data.ts';
 import { FAMILIES, familiesOf } from './colours.ts';
 import { newPackForm, packMembershipForm } from './packs-edit.ts';
 import { html, type Html } from './html.ts';
@@ -114,12 +114,10 @@ export function homeView(store: Store): Html {
   const pending = 55 - catalog.associations.length;
   return html`
     <h1>My scarves <small class="muted">${progress(clubs)} clubs</small></h1>
-    <p class="muted">Tier 1 and 2 clubs, season ${catalog.season}. <a href="${href.stats()}">Stats</a></p>
+    <p class="muted">Tier 1 and 2 clubs, season ${catalog.season}. <a href="${href.stats()}">Stats</a> · <a href="${href.progressMap()}">Progress map</a></p>
     <ul class="cards">
       ${catalog.associations.map((a) => {
-        const playing = clubs.filter((c) => c.association === a.code);
-        // An association without its own league (LIE) shows its clubs playing abroad.
-        const mine = playing.length > 0 ? playing : clubs.filter((c) => c.home === a.code);
+        const mine = associationClubs(store, a.code);
         return html`<li><a class="card" href="${href.association(a.code)}">
           <strong>${a.name}</strong><span class="muted">${a.code}</span>${progress(mine)}
         </a></li>`;
@@ -424,12 +422,55 @@ export function searchView(store: Store, query: string, results: CatalogClub[]):
   `;
 }
 
+function mapTabs(mode: 'stadiums' | 'countries'): Html {
+  return html`<nav class="tabs" aria-label="Map">
+    <a href="${href.map()}" ${mode === 'stadiums' && html`aria-current="page"`}>Stadiums</a>
+    <a href="${href.progressMap()}" ${mode === 'countries' && html`aria-current="page"`}>Countries</a>
+  </nav>`;
+}
+
+const STEP_LABELS = ['none yet', 'up to 20%', '21–40%', '41–60%', '61–80%', '81–100%'];
+
+/** Countries coloured by the share of their tier 1/2 clubs I own; the table below carries the same numbers. */
+export function progressMapView(store: Store): Html {
+  const rows = store.catalog.associations
+    .map((a) => {
+      const clubs = associationClubs(store, a.code);
+      return { a, owned: clubs.filter(owned).length, total: clubs.length };
+    })
+    .sort((x, y) => y.owned / (y.total || 1) - x.owned / (x.total || 1) || x.a.name.localeCompare(y.a.name));
+  const started = rows.filter((r) => r.owned > 0).length;
+  return html`
+    ${crumbs(['Map'])}
+    <h1>Progress map <small class="muted">${started} of ${rows.length} countries started</small></h1>
+    ${mapTabs('countries')}
+    <div id="progress-map" class="map progress"></div>
+    <ul class="legend" aria-label="Share of clubs owned">
+      ${STEP_LABELS.map((label, step) => html`<li><span class="key prog-${step}"></span>${label}</li>`)}
+    </ul>
+    <details class="table-view">
+      <summary>As a table</summary>
+      <div class="table-wrap"><table class="stats">
+        <thead><tr><th>Country</th><th>Owned</th><th>Clubs</th><th>Done</th></tr></thead>
+        <tbody>
+          ${rows.map((r) => html`<tr>
+            <td><a href="${href.association(r.a.code)}">${r.a.name}</a></td><td>${r.owned}</td><td>${r.total}</td>
+            <td>${r.total ? `${Math.round((100 * r.owned) / r.total)}%` : '–'}</td>
+          </tr>`)}
+        </tbody>
+      </table></div>
+    </details>
+    <p class="muted credit">Borders: <a href="https://www.naturalearthdata.com/" rel="noopener" target="_blank">Natural Earth</a> (public domain).</p>
+  `;
+}
+
 export function mapView(store: Store, onlyOwned: boolean): Html {
   const clubs = onlyOwned ? store.catalog.clubs.filter(owned) : store.catalog.clubs;
   const placed = clubs.filter((c) => c.stadium?.lat !== undefined).length;
   return html`
     ${crumbs(['Map'])}
     <h1>Stadium map</h1>
+    ${mapTabs('stadiums')}
     <p>
       <label><input type="checkbox" id="only-owned" ${onlyOwned ? 'checked' : ''}> Only clubs whose scarf I own</label>
       <span class="muted"> · ${placed} of ${clubs.length} clubs placed</span>

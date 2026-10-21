@@ -27,6 +27,8 @@ const catalog = buildCatalog({
   packs: readJson(paths.packs, []),
 });
 writeJson(join(ROOT, 'site', 'public', 'data', 'catalog.json'), catalog);
+// Country outlines for the progress map (built rarely by `npm run geo`).
+if (existsSync(paths.countries)) cpSync(paths.countries, join(ROOT, 'site', 'public', 'data', 'countries.geo.json'));
 
 const scarves = readJson<{ id: string; clubQid: string }[]>(paths.scarves, []);
 const shown = new Set(catalog.clubs.map((c) => c.qid));

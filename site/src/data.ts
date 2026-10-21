@@ -103,3 +103,21 @@ export function wallItems(clubs: CatalogClub[], f: WallFilter, packs: Map<string
 
 /** The clubs of a pack, in the pack's order; QIDs the catalogue does not know are already left out. */
 export const packClubs = (store: Store, p: Pack): CatalogClub[] => p.clubs.flatMap((q) => store.club.get(q) ?? []);
+
+/**
+ * The clubs that count for an association: its tier 1/2 clubs this season, or, for an association without its own
+ * league (LIE), its clubs playing abroad.
+ */
+export function associationClubs(store: Store, code: string): CatalogClub[] {
+  const clubs = currentClubs(store);
+  const playing = clubs.filter((c) => c.association === code);
+  return playing.length > 0 ? playing : clubs.filter((c) => c.home === code);
+}
+
+export interface Progress {
+  owned: number;
+  total: number;
+}
+
+/** Progress bucket for the map: 0 = nothing owned yet, 1..5 = up to 20%, 40%, 60%, 80%, 100%. */
+export const progressStep = ({ owned, total }: Progress): number => (total === 0 || owned === 0 ? 0 : Math.min(5, Math.ceil((5 * owned) / total)));

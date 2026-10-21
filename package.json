@@ -18,7 +18,8 @@
     "coverage": "node pipeline/coverage.ts",
     "catalog": "node pipeline/build-catalog.ts",
     "add-scarf": "node pipeline/add-scarf.ts",
-    "enrich": "node pipeline/enrich.ts"
+    "enrich": "node pipeline/enrich.ts",
+    "geo": "node pipeline/build-geo.ts"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.22",

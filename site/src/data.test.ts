@@ -55,3 +55,23 @@ describe('indexCatalog', () => {
     expect(store.pack.get('lions')).toBe(lions);
   });
 });
+
+describe('progress', () => {
+  it('buckets the owned share in fifths, with 0 for nothing owned', async () => {
+    const { progressStep } = await import('./data.ts');
+    expect(progressStep({ owned: 0, total: 16 })).toBe(0);
+    expect(progressStep({ owned: 1, total: 16 })).toBe(1);
+    expect(progressStep({ owned: 4, total: 16 })).toBe(2);
+    expect(progressStep({ owned: 8, total: 16 })).toBe(3);
+    expect(progressStep({ owned: 15, total: 16 })).toBe(5);
+    expect(progressStep({ owned: 16, total: 16 })).toBe(5);
+    expect(progressStep({ owned: 0, total: 0 })).toBe(0);
+  });
+
+  it('counts an association without its own league by its clubs abroad', async () => {
+    const { associationClubs } = await import('./data.ts');
+    const store = indexCatalog({ season: '2026-27', associations: [], leagues: [], clubs: [rapid, arges, vaduz], packs: [] } as Catalog);
+    expect(associationClubs(store, 'ROU').map((c) => c.qid)).toEqual(['Q1', 'Q2']);
+    expect(associationClubs(store, 'LIE').map((c) => c.qid)).toEqual(['Q3']);
+  });
+});
