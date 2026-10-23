@@ -47,9 +47,9 @@
   },
   "Q729512": {
     "fanshop": {
-      "status": "none",
-      "checkedAt": "2026-10-22",
-      "note": "checked by me"
+      "url": "https://eternalandorra.pro/interescaldes/es/inicio/",
+      "status": "manual",
+      "checkedAt": "2026-10-23"
     }
   },
   "Q1386854": {
@@ -57,11 +57,6 @@
       "url": "https://www.fcandorra.com/en/botiga-andorra",
       "status": "manual",
       "checkedAt": "2026-10-15"
-    }
-  },
-  "Q65165977": {
-    "address": {
-      "text": "FGX5+33 Andorra la Vella, Andorra"
     }
   }
 }
